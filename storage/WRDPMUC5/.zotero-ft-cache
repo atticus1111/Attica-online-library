@@ -1,0 +1,437 @@
+SPECIAL ISSUE ARTICLE
+The current landscape of academic statistical and data science
+collaboration units with examples
+Julia Sharp 1 | Emily H. Griffith 2 | Bruce A. Craig3 | Alexandra Hanlon 4 |
+Sarah Peskoe 5 | Jennifer Van Mullekom6
+1Statistical Engineering Division, National Institute of Standards and Technology, Boulder, Colorado, USA
+2Department of Statistics, North Carolina State University, Raleigh, North Carolina, USA
+3Department of Statistics, Purdue University, West Lafayette, Indiana, USA
+4Department of Statistics, Virginia Tech, Roanoke, Virginia, USA
+5Duke University Medical Center, Durham, North Carolina, USA
+6Department of Statistics, Virginia Tech, Blacksburg, Virginia, USA
+Correspondence
+Emily H. Griffith, Department of Statistics, North Carolina State University, Raleigh, NC 27695, USA. Email: eghohmei@ncsu.edu
+The delivery of academic statistical collaboration resources can vary among types of
+institutions and across time. In particular, this variation might occur in the manage
+ment of infrastructure and the business model, the staffing model and opportunities
+for staff development. In this manuscript, we present examples of these three themes
+in modern academic statistical collaboration units and describe key advantages and
+challenges.
+KEYWORDS
+biostatistics, collaboration, data science, infrastructure, statistics
+1 | INTRODUCTION
+The delivery of the spectrum of statistical consulting to collaboration resources varies among academic departments and institutions and can
+change over time. The ways in which many academic statistical collaboration units operate have also evolved over time as the use of statistics
+and statistical techniques has increased and university administrators, staffing, infrastructure and fiscal conditions have changed. Best practices
+and overarching principles for organizing such statistical services have been discussed and debated for half a century (e.g., Bancroft, 1971;
+Boen, 1982; Carter et al., 1986; Gibbons & Freund, 1980; Minton & Freund, 1977). More recent papers have focused specifically on biostatistical
+units (e.g., Arndt & Woolson, 1991; Hanlon et al., 2022; Ittenbach & DeAngelis, 2012; Niland et al., 1995; Perkins et al., 2016; Welty et al., 2013).
+Gibbons and Freund (1980) present four models for providing statistical support in an academic environment: (1) placing a subject matter
+expert in an applied department, (2) providing support through a statistics department with no funding infrastructure, (3) incorporating statistical
+support in physical computer labs and (4) forming a statistical consulting unit with funding and support. They recommend strongly against (1) and
+(2) and suggest (3) in place of (4) if funding is not available. Their suggestions are consistent with those of Welty et al. (2013) and Vance (2015),
+among others, although these and other recent work (see, e.g., Wickes, 2021) discuss placing units in partnership with campus-level infrastructure
+like research computing programming or Libraries more broadly as opposed to physical computer labs. Additionally, as computing becomes less
+expensive and more easily accessible, physical computer labs within academic institutions may be sunsetting.
+Several consistent themes across all consulting and collaboration literature are still relevant today. These include organizing infrastructure
+and coordinating budget support; managing and supporting staff, personnel and students; and staying up to date with current (bio)statistical and
+data science techniques through continuing education and professional development.
+Received: 23 March 2024 Revised: 12 June 2024 Accepted: 10 July 2024
+DOI: 10.1002/sta4.718
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes. © 2024 The Author(s). Stat published by John Wiley & Sons Ltd. This article has been contributed to by U.S. Government employees and their work is in the public domain in the USA.
+Stat. 2024;13:e718. wileyonlinelibrary.com/journal/sta4 1 of 10
+
+
+Here, we provide a characterization of the current landscape of statistical resource and collaboration cores in the United States in a modern,
+data-driven era in three specific themes: organizing infrastructure and fiscal and budget management; managing and supporting personnel, includ
+ing faculty, staff and students; and providing continuing education and professional development so that personnel stay up to date with current
+(bio)statistical and data science techniques and, if relevant, are able to advance their own research. We also recognize that there is not a one-size
+fits-all approach for the consideration of these themes and that differences in missions, institutional infrastructures and programmes, among other
+things, may drive individual structures. The content of this article is derived from the authors' experiences running statistical collaboration centres
+at a variety of institutions of higher education, including public and private, as well as land-grant institutions. The programmes specifically
+discussed are Virginia Tech's Center for Biostatistics and Health Data Science; Duke University's Biostatistics, Epidemiology, and Research Design
+(BERD) Methods Core; Duke University School of Medicine's Data Science and Statistics Lab (DSSL); NC State University's Department of
+Statistics, Data Science Academy and NC State Libraries' Data & Visualization Services; Purdue University's Statistical Consulting Service; and
+Virginia Tech's Statistical Applications and Innovations Group (SAIG). The case study approach that we use to highlight various programmes allows
+for a deep investigation into the similarities and differences of experiences among statistical collaboration types. It also lays the groundwork for
+future studies of a larger sampling of programmes.
+2 | INFRASTRUCTURE AND FISCAL AND BUDGET
+Statistical consulting units, sometimes called cores, centres, institutes or laboratories, exist in different locations within a university infrastructure.
+Some units exist in academic departments or schools while others may exist as a separate unit in the Office of the Provost or the Office for the
+Vice President for Research. Statistical consulting units within land-grant institutions largely arose from agricultural research with funding from
+Agricultural Experiment Stations (e.g., Virginia Tech SAIG, NC State University and Purdue University) and may still be located within the College
+of Agriculture (e.g., the programme at Louisiana State University). Statistical consulting units within medical campuses may exist within the School
+of Public Health, School of Medicine or a Cancer Research Institute. They may even be housed within a statistics or biostatistics department while
+working primarily with a different campus unit (e.g., Virginia Tech's Center for Biostatistics and Health Data Science is academically housed within
+the Department of Statistics at Virginia Tech while physically located on the Health and Technology campus). Different administrative structures
+result in various challenges and opportunities. For example, a statistical collaboration unit existing in a department may not have the same access
+to resources (e.g., staff and funding) as a unit existing within an upper administrative unit. Staff within a statistical collaboration unit in a depart
+ment, however, may have easier access to others with expertise needed for particular client collaborators than staff within a core in an administra
+tive unit. Examples of funding models, with their benefits and challenges, are described below.
+2.1 | High-level administrative support in full
+We define high-level administrative support in full as dedicated funding from the Office of the Vice Provost (or President) for Research, the
+Provost, the Library, Institutional Research or other non-academic units. Full high-level administrative support units are centralized and tend to
+benefit from stability due to consistent and dedicated hard funding. This structure frees personnel to concentrate on value-adding work
+(i.e., study design, analysis, interpretation, publications, proposal writing and training of students) and can allow for flexibility in hiring compared
+with being inside a specific department or academic unit. Challenges associated with this type of support include a possible lack of technical and
+methodological support if there is no deeper connection between consulting and collaborative personnel and (bio)statistics or data science faculty.
+Depending on the roles of involved personnel, professional development can also be difficult to coordinate. Finally, limited budget control can
+leave programmes vulnerable to changes in university administration and priorities.
+2.2 | Support from colleges
+Support from colleges involves negotiating an amount of funding from a variety of colleges and academic units. This funding is often related to
+the amount of support those colleges anticipate receiving from the statistical collaboration unit. The funding may also be tied to a particular staff
+member devoted to statistical collaboration with that particular college. There are many benefits to this kind of support, including developing a
+programme focused on specific colleges that need certain expertise. This model can also facilitate strong collaborative relationships with the
+supporting colleges.
+There are drawbacks specific to this funding model as well. Students, staff and faculty from non-participating Colleges may find themselves
+without access to (bio)statistical and data science expertise. Colleges may choose not to contribute and, instead, hire their own statisticians,
+distributing effort and creating redundancies. Additionally, supporting colleges may find the financial model of non-supporting colleges attractive
+2 of 10 SHARP ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+and decide to hire their own statistician or data scientist, thus reducing the amount of funding available for the centralized programme. This
+funding model may also hamper collaboration to some extent as it may limit the opportunities to those that exist within a specific set of
+disciplines. Collaborative (bio)statisticians and data scientists often see a variety of research topics which allow them to make connections for
+larger research efforts that rely on understanding multiple disciplines.
+2.3 | Core support from National Institutes
+One example of core support from national institutes is a Clinical and Translational Science Award (CTSA) from the National Institutes for Health
+(NIH). Administrators often associate these awards with prestige and recognition for the institution. The structure, duration and amount of
+national institute awards allow units to flourish as they foster close collaborative and interdisciplinary relationships between subsets
+of researchers. Technical competencies in areas aligned with the research direction of the award are supported by award funding. These awards
+also allow bandwidth for short-term consulting for unfunded projects and for expertise from a wide variety of faculty to be involved.
+Sustainability is a key challenge of National Institutes funding. For example, the CTSA funding mechanism allows for multi-year funding
+(e.g., 7 years). A new proposal must be submitted to continue providing resources to collaborators at the end of the performance period. This pro
+posal for continued funding may or may not be approved by the agency. Working with subsets of researchers can create narrow subject matter
+and technical foci. With this model, problems can arise if funding is discontinued or if researchers that are not a part of the scope of the award
+desire support or collaboration.
+2.4 | Supports from grants, external contracts and fee-for-service contracts
+The final model we discuss involves obtaining funding through providing collaborative or consulting work on grants and external contracts, either
+as effort-based or fee-for-service personnel. Funding of this type is fairly stable and self-sustaining. Under this paradigm, collaborators are free to
+pursue strategic efforts that line up with available expertise in comparison with the models presented previously. Additionally, the variety of
+projects involved can facilitate professional development among personnel.
+There are challenges to this funding model, as well. Positions that are entirely dependent on soft-money or fee-for-service can be difficult to
+fill and sustain, leading to hiring being a challenge. Smaller grants and contracts may be difficult to work with as well, as they require personnel
+to work on a large number of projects at the same time. There may be no incentive for tenure-track faculty to work on collaborative projects that
+do not result in methods development because this type of work may not be meaningful for their career advancement, which could lead to the
+unavailability of qualified resources and faculty for contractual effort. Early-stage investigators and researchers in underfunded research areas
+may also have a difficult time succeeding in this model as it can take time to build up funding and there may not be funding to support for work in
+underfunded areas. Finally, this model requires a large administrative burden with marketing, contract set-up, billing rates and time tracking,
+subject to the institution's policies and procedures governing these areas.
+2.5 | Hybrid models
+In the current landscape, many programmes have a mix of support. A key benefit to diverse funding streams is that funding fluctuations can be
+accommodated more effectively. Other benefits include a higher degree of autonomy, a wider pool of collaborative opportunities and increased
+skill acquisition through exposure to a diverse set of projects.
+A key challenge to the hybrid business model is that while the uncertainty that comes with soft funding is decreased, it is not eliminated.
+Hybrid models still rely, sometimes heavily, on the success of specific projects. This uncertainty makes long-term planning for resources difficult.
+Other challenges include the exhaustion (or burnout) that comes with continually competing for (sometimes many) opportunities with low funding
+lines, along with the adaptability and flexibility required to navigate such a complex landscape, and the administrative burden that comes with
+business management and planning. A knowledgeable leader who understands these complexities is a critical component of a hybrid model.
+2.6 | Institution case study: Infrastructure and budget implementation
+Institutions may implement the infrastructure and budget management in various ways to address the opportunities and challenges for their own
+circumstances. Summaries of the funding models of six separate collaborative and consulting models at a variety of institution types are presented
+in Table 1.
+SHARP ET AL. 3 of 10
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+The newest statistical collaboration unit in the case study is Virginia Tech's Center for Biostatistics and Health Data Science, located within
+the Department of Statistics. This centre receives internal funding support from the institution both as secured, hard funding and institute invest
+ment support and individual investigators, labs or colleges. They also receive external foundation or grant awards, industry partnerships to support
+specific data analytic projects and contracts with other academic institutions to support interdisciplinary partnerships.
+The Duke BERD Methods Core has been operating for nearly 10 years in the Department of Biostatistics and Bioinformatics. This Core has
+internal contracts across departments and memorandums of understanding for individual projects. A main source of funding for this unit is
+through an NIH-funded CTSA. External grants also contribute to the Duke BERD Methods Core funding model. The Duke DSSL unit has been
+operating for more than 25 years and is currently located in the Duke Center for the Study of Aging and Human Development in the School of
+Medicine. Funding for the Duke DSSL is similar to the Duke BERD Methods Core, though without formal CTSA funding and with internal support
+from the School of Medicine.
+Purdue University has a long-standing history of statistical collaboration dating back to the late 1940s. The most recent collaborative unit
+started in 1970 as part of the computing infrastructure before moving completely into the Department of Statistics in the mid-2000s. The funding
+support for this unit has largely been provided at the administrative level. Currently, the funding support is a mix of high-level administration,
+college and departmental funding.
+NC State University has multiple programmes where statistical collaboration is present, including a collaborative effort between the university
+administration, University Libraries and the Department of Statistics. Statistical collaboration has been a long-standing practice at NC State
+(75+ years). The most recent effort has been tied to the development of a university-wide Data Science Academy. Funding for this unit largely
+comes from the high-level administration, though there do exist grants and contracts internally and externally for specific projects and
+partnerships.
+Virginia Tech's SAIG has also been in existence for more than 75 years in the Department of Statistics. SAIG receives approximately 60% of
+their funding support from the high-level administration and approximately 40% of their funding from multiple colleges.
+3 | STAFFING A STATISTICAL COLLABORATION UNIT
+Just as the infrastructure and budget support may differ among statistical collaboration units, staffing models may vary among centres. Statistical
+collaboration unit staff actively contribute to a diverse set of research projects (prospective, retrospective, small and large datasets, experimental
+and observational studies, etc.), from study design all the way through dissemination. This diversity provides a wide array of opportunities for
+applying different statistical and data-driven methodologies, as well as addressing a variety of research questions. The diversity in research
+T A B L E 1 Funding models for six separate collaborative and consulting models from several institution types.
+Unit Age Institutional location
+Hybrid models
+High-level administrative support
+Support from colleges
+Core Support from National Institutes
+Support from grants, external contracts and fee-for-service contracts
+Virginia Tech's Center for Biostatistics and Health Data Science
+0–5 years Department of Statistics Yes Yes Yes Yes Yes
+Duke BERD Methods Core
+6–10 years Department of Biostatistics and Bioinformatics
+Yes No Yes Yes Yes
+Duke DSSL 25+ years Duke Center for the Study of Aging and Human Development in the School of Medicine
+Yes No Yes Yes Yes
+Purdue 50+ years Department of Statistics Yes Yes Yes No No
+NC State 75+ years Collaboration between Data Science Academy, University Libraries, Department of Statistics
+Yes Yes No No Yes
+Virginia Tech's SAIG
+75+ years Department of Statistics Yes Yes Yes Yes Yes
+4 of 10 SHARP ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+projects allows team members to engage in cutting-edge research and remain on the forefront with respect to advancements in statistical
+methodology. The opportunity to be an integral interdisciplinary team member also contributes to continuous professional development and the
+establishment of a network within and across academic institutions, as well as collaborations with experts in various fields.
+At the same time, the associated workload requires team members to juggle competing deadlines and responsibilities for various research
+studies and to respond to a diverse set of personalities who serve as principal investigators. Communicating complex statistical concepts to inves
+tigators from different disciplines requires effective communication skills, both written and verbal, and the ability to adapt to various research
+contexts. Staff can often find themselves with limited autonomy in shaping research agendas, as principal investigators and funding opportunities
+typically drive research priorities. These complexities contribute to the variety of statistical consulting unit staffing. While these are presented
+individually, many modern statistical collaboration units have a mixture of staffing types.
+3.1 | Statistical collaboration unit administrators and operational staff
+Statistical collaboration units typically have a primary contact, a director, who manages the unit. The director is generally a faculty member
+(see Hanlon et al., 2022) with an appointment in a home department (e.g., Statistics, Biostatistics and Nursing). Directors are the leaders of the
+unit that pursue value-adding (i.e., billable or sponsored programme) and value-enabling (i.e., proposals and relationship building) opportunities.
+Statistical collaboration units may also have a manager, assistant director or administrative professional that supports the director in terms of
+addressing client/consultant disagreements, assigning appropriate consultants to projects aligned with their skill sets and available time and hiring.
+The minimum degree requirement for a manager level position is typically a master's degree in a quantitative field and/or relevant experience.
+Their time may be split among other job responsibilities outside of the consulting unit (e.g., 0.5 FTE in the consulting unit and 0.5 FTE teaching).
+When directors are relieved of the burden of daily operations, they can focus on more strategic efforts such as managing and developing
+staff, pursuing funding opportunities, managing large projects and advocating for the unit to university administrators. The manager role requires
+a variety of skill sets to succeed, including basic accounting, navigating sponsored programme systems, compiling standard operating procedures
+and policies and managing websites and client intake systems assignment. A business manager role may also be needed in order to have a position
+fully dedicated to fiscal management, including pre-award and post-award, contracts with industry, government and other academic partners, as
+well as internal collaborative partners. Creating an attractive position and finding an individual whose skills and interest align with such a position
+is extremely challenging. Hiring and retaining this individual is further complicated by the inability of academia to compete with industry or private
+statistical consulting business salaries. Additional staffing needs often include a bookkeeper or fiscal officer. In a programmatic model with
+contracts and grants, this type of administrative support is invaluable.
+3.2 | Faculty staff
+Statistical collaboration units may hire dedicated faculty, may employ faculty as part of the percentage of their appointment or may collaborate
+with faculty on an as-needed basis. Faculty are leading experts in the fields of data science and statistics which allow consulting units to tap into
+this talent pool. Individuals in faculty positions generally also have a teaching component associated with their position. Faculty on the tenure
+track have the advantage of stability, a clear path for career advancement and can be included on grants as a senior investigator (e.g., PI). Tenure
+track faculty positions are often more highly valued in academia. These positions also often come with funding for students and their research as
+well. Exposure to collaborative projects can facilitate methods development and research. However, obtaining tenure and advancing in the faculty
+ranks can be challenging with a collaborative resume (e.g., with limited methods development and research products). Faculty who are jointly
+appointed in the statistical consulting unit and an academic department must be given bandwidth to address collaborative projects through, for
+example, teaching or course releases.
+Like tenure-track faculty, non-tenure-track faculty also generally have a clear path for career advancement and can be included on grants as a
+senior investigator (e.g., PI). However, these faculty positions may have less stability and limited term contracts (e.g., 3-year contracts). The
+requirements for advancement may include a research component, in which case faculty may have to advocate that their collaborative publica
+tions can fulfil this requirement. Non-tenure-track faculty are often not as highly valued in academic departments as evidenced by limited voting
+rights and advancement requirements being more vague. Non-tenure-track faculty may be harder to retain given all of these aspects.
+3.3 | Research associate/scientist staff
+Research staff positions are similar to non-tenure-track faculty in terms of their stability and limited term contracts. These positions may have
+shorter term contracts than non-tenure-track faculty. Individuals in research staff positions generally do not teach. A key advantage of this type
+SHARP ET AL. 5 of 10
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+of position is the dedicated focus on statistical collaboration. The staff recruited to these positions may be specifically interested in collaboration
+(and application) rather than methodological research. Research staff can be included on grants in the ‘Key Personnel’ role but usually cannot be
+named as a senior investigator.
+The career advancement and development of individuals in research staff positions can often be vague, leading to limited opportunities for
+growth. For example, some institutions may have advancement opportunities from the title research assistant to research associate or from
+research associate I to research associate II. One criterion to advance from one level to the next may be that the staff member be able to work
+independently, where independence is judged by the supervisor. This subjective judgement may not be applied consistently and may lead to ineq
+uities in the promotion process. Salaries for these positions may also not be competitive with the statistics and data science market. Additionally,
+retention in these positions may be impacted by the team members' understanding and commitment to this type of position. For these and other
+reasons, research staff can be hard to retain.
+3.4 | Student staff
+Training the next generation of applied, collaborative statisticians is a key part of the academic mission of any programme. Students can be
+involved in statistical consulting through formal coursework (possibly offered by statistical consulting faculty) or through their involvement in con
+sulting through the statistical consulting unit. Students contribute refreshing creativity and cutting-edge problem-solving and methods. Addition
+ally, students can develop long-term relationships with collaborators that extend beyond their studies at the institution. They may also gain
+valuable experiences in writing publications with their collaborators before writing their own methods papers. Students are relatively lower cost
+than full-time researchers, though in some cases, tuition and stipend might also be involved in student funding.
+There are also challenges that exist with student staff. Students have the sole objective to obtain their degree and leave; thus, attrition is
+expected with these staff members. Student staff may also be a limited commodity in a department with fewer students. Statistical consulting unit
+student salaries may also not be competitive with research stipends from other opportunities that could directly contribute to a student's degree
+progress. Unlike funding for methods research, students may not be funded to complete both their collaborative projects and their own research.
+The quality of student work and the amount of supervision students may need also depend on experience, training and communication and tech
+nical skill sets.
+3.5 | Institution case study: Staffing implementation
+Although on the surface, staffing strategies and position types may seem similar among statistical consulting units (Table 2), there is plenty of
+variety in the details for the six different consulting programmes from a variety of institution types in the case study (Table 2). All six statistical
+collaboration units have a designated administrator and operational staff and employ graduate students.
+In addition to the director, operational staff and graduate students, Virginia Tech's Center for Biostatistics and Health Data Science is
+currently staffed with multiple full-time PhD- and MS-level research staff, one of which is the Assistant Director of the Center. A tenure-track
+faculty member from the Department of Statistics has support through the centre. The centre supports a bachelor's level data scientist and a
+bachelor's level data analysis, as well as student research assistants. Both the Duke BERD Methods Core and the Duke DSSL staff faculty
+T A B L E 2 Current staffing models for six statistical collaboration units with different institution types.
+Programme
+Administrators and operational staff
+Faculty staff (professors and librarians)
+Research associate/scientist staff
+Student staffgraduate
+Student staffundergraduate
+Virginia Tech's Center for Biostatistics and Health Data Science
+Yes Yes Yes Yes Yes
+Duke BERD Methods Core Yes Yes Yes Yes No
+Duke DSSL Yes Yes Yes Yes No
+Purdue Yes Yes No Yes Yes
+NC State Yes Yes No Yes No
+Virginia Tech's SAIG Yes Contingent on funding Contingent on funding
+Yes Volunteers, contingent on funding
+6 of 10 SHARP ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+statisticians, staff biostatisticians and graduate student interns. The Duke DSSL personnel also includes staff data analysts. NC State University
+staff include faculty statisticians, faculty librarians and graduate student assistants. Purdue University's statistical collaboration unit currently has
+two faculty colleagues with teaching release and summary salary. Virginia Tech's SAIG, in addition to the director, assistant director and opera
+tional staff, employs multiple students and contingent on funding, additional faculty and/or students contracted as needed.
+3.6 | Professional development
+Another vital aspect of keeping a (bio)statistical or data science consulting and collaboration programme relevant is professional development of
+the people staffing the programme. Cutting-edge research often involves modern statistical methods, and a programme that does not allow con
+tinuing education and professional development for its consultants risks burnout, stagnation and irrelevance.
+3.7 | Connections to the campus (bio)statistical community
+A benefit of programming on a university campus is access to research and researchers on that campus. Collaborative and consulting programmes
+can use their connections to the research community on campus to provide consultations and advising on complex projects. Various campus
+based seminar series are another way for researchers to keep abreast of new statistical methodological developments. For example, the statistical
+collaborator can attend and participate in the seminar series in Microbiology to learn more about the methods used in that field. Incorporating
+graduate students is a third way of ensuring that up-to-date methodologies are used in collaborative and consulting projects. Developing short
+courses and workshops on special topics that are not part of the core curriculum is another way to encourage cross-programme connections.
+Finally, allowing statistical collaborators the time to read current literature or to organize a reading group or regular peer discussion meetings can
+help them maintain their awareness of current methodologies.
+3.8 | Connections to the national (bio)statistical community
+If sufficient budget allocation is available, programme staff can attend and participate in short courses and conferences to help them learn newer
+methodologies and stay up to date on current best practices. Conference travel builds professional relationships and networks, allowing for cross
+pollination of ideas and trends in methodology.
+3.9 | Institution case study: Professional development
+Table 3 summarizes the approaches of the case studies included in this manuscript to ensuring professional development. All units support short
+course and conference attendance within budget constraints. Many units host and co-host various seminar series on translational research,
+emerging topics and best practices. Both Duke units offer formal mentorship programmes for career development, and the Purdue unit includes
+faculty oversight for graduate student worker projects. The NC State programme includes reading current literature for weekly discussions, while
+Virginia Tech's SAIG hosts a shared drive of resources.
+4 | DISCUSSION
+There is not a one-size-fits-all approach for the consideration of the three themes presented in this manuscript. A statistical consulting unit's mis
+sion, the infrastructure of the institution and programmes, among other things, may impact individual structures, staffing and staff professional
+development opportunities. However, considering these three themes when developing or sustaining a (bio)statistical or data science consulting
+programme is critical. Programmes that do not address each theme appropriately may struggle to sustain themselves. Salient points to highlight
+include assessing needs, flexibility and advocacy.
+The in-depth examination of a variety of programmes in this paper may be used to develop a targeted survey questionnaire to illuminate the
+wider field. Identifying these three main themes is an essential first step in understanding and sustaining these critical statistical collaboration
+efforts in higher education.
+Whether developing a new statistical collaboration unit or leading an established unit, understanding and documenting institutional needs is
+crucial for ongoing strategic planning and stakeholder commitment of funding and advocacy support. This needs assessment may include
+SHARP ET AL. 7 of 10
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+identifying stakeholders, potential (or past) clients and funding sources as well as understanding the type and complexity of their statistical con
+sulting needs. For established statistical consulting units, a Strengths, Weaknesses, Opportunities and Threats (SWOT) analysis may provide a
+framework to assess the environment and inform strategic planning (MindTools, n.d.). Success metrics, including collaborator satisfaction, number
+of projects worked on or amount of funding obtained and number of co-authored publications, may vary depending on a variety of factors
+(e.g., type of institution, institution leadership, etc.); once programming has been developed, tracking and sharing the relevant success metrics is
+ongoing and important. As collaboration units or programmes are developed, determining which metrics of success are relevant needs to be a
+key, and frequently revisited, goal.
+Adaptability is a key aspect for the success of a statistical collaboration unit. Science, institutional leadership, perceptions of value, statistical
+methods and tools are dynamic. Infrastructure, staffing models and professional development opportunities of 20 years ago or even last year may
+not be currently sustainable or reasonable. For example, institutional leaders may decide to shift all administration-level funding to college-level
+funding. This shift in resources may lead to examining how statistical consulting efforts are comparable with the amount of funding received and
+an implementation of different staffing. Subsequently, staff may need additional professional development opportunities to support working in
+different areas and to reduce burnout. Leadership who understands these complexities is critical.
+A plan for succession is another key aspect for the success of a statistical collaboration unit. A truly stable programme will continue to suc
+ceed even with changes or transitions in the unit's director position. Institutional administrators should establish a timeline to evaluate the direc
+tor's leadership of the unit and a plan for leadership transitions. The director's career plan and strategy for the success of the statistical consulting
+T A B L E 3 On-campus and external professional development opportunities for statistical consulting personnel for six statistical collaboration units with different institutional types.
+Programme On-campus professional development opportunities National professional development opportunities
+Virginia Tech's Center for Biostatistics and Health Data Science
+Short courses and workshops in statistical applications for students and faculty
+Funding for short courses and conference attendance
+Seminar series on translational research, best practices and emerging research areas
+Membership to professional organizations
+Annual centre retreat to discuss emerging topics and best practices
+Time and support for professional service (performing manuscript reviews, sitting on scientific review panels, etc.)
+Faculty advisors from multiple programmes and departments All of this is funding dependent
+Duke BERD Methods Core Mentorship programme for career development involving senior and research-oriented biostatistics faculty
+Multi-campus partnership for biostatistical and biomedical seminar series
+Encouraged to seek grants and publish with multiple institutions
+Duke DSSL Mentorship programme for career development involving senior and research-oriented biostatistics faculty
+Continuing education and conference attendance funding
+Encouraged to seek grants and publish with multiple institutions
+NC State Graduate student workers present their research at weekly meetings to help develop their presentation skills and awareness of the latest methods, techniques and tools
+Continuing education and conference attendance funding for faculty and staff, limited funding for students
+Connections to faculty in a variety of fields to advise on complex projects
+Multi-institutional grants offer training opportunities
+Weekly meetings involve reading current literature
+Encouraged to seek grants and publish with campus partners
+Purdue Weekly meetings to review new projects, answer questions regarding current projects and discuss any communication issues
+Staff support to visit other centres and learn about different operating practices
+Graduate student workers have faculty oversight for specific project challenges
+Continuing education and conference attendance funding for staff and students
+Virginia Tech's SAIG Learn and lead boot camps on new and emerging topics of interest
+Short course and conference attendance
+On-campus partnership to hold seminar series on translational best practices and emerging research areas
+Professional society webinars
+Shared drive with resources on new tools and techniques Professional development subscription services (i.e., LinkedIn Learning, Coursera, etc.)
+8 of 10 SHARP ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+unit should be a part of this evaluation. The director should document standard operating logistics and procedures, timelines for operations, client
+and stakeholder lists to help support transitions to new leadership. Additionally, the director should create a shared digital repository to store
+historic and current documentation to facilitate knowledge transfer as leadership transitions. Standard processes for file management should also
+be followed.
+While the field of data science and (bio)statistical consulting and collaboration is always changing, it is a vibrant and exciting field in which to
+build a programme or a career. Statistical collaboration and consulting units play a crucial role in creating and enabling high quality, rigorous and
+reproducible research and innovation across the globe. Their connections to students make them vital in training and preparing the next genera
+tion of collaborative statisticians and data scientists to solve complex problems through data centric decision-making. Careful planning and imple
+mentation that addresses this manuscript's three themes of infrastructure and fiscal budget, staffing and professional development lay the
+foundation to guide these essential units to successful futures.
+AUTHOR CONTRIBUTIONS
+All authors contributed: Conceptualization; manuscript outline, writing and editing.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no datasets were generated or analysed during the current study.
+ORCID
+Emily H. Griffith https://orcid.org/0000-0002-9745-7722
+Sarah Peskoe https://orcid.org/0000-0002-1190-3606
+REFERENCES
+Arndt, S., & Woolson, R. F. (1991). Establishing a biostatistical core unit in a clinical research center. The American Statistician, 45(1), 22–27. https://doi. org/10.1080/00031305.1991.10475760 Bancroft, T. A. (1971). On establishing a university-wide statistical consulting and cooperative research service. The American Statistician, 25, 21–24. https://doi.org/10.1080/00031305.1971.10477298 Boen, J. R. (1982). A self-supporting university statistical consulting center. The American Statistician, 36(4), 321–325. https://doi.org/10.1080/00031305. 1982.10483041 Carter, R. L., Scheaffer, R. L., & Marks, R. G. (1986). The role of consulting units in statistics departments. The American Statistician, 40(4), 260–264. https://doi.org/10.1080/00031305.1986.10475408 Gibbons, J. D., & Freund, R. J. (1980). Organizations for statistical consulting at colleges and universities. The American Statistician, 34, 140–145. https://doi.org/10.1080/00031305.1980.10483019 Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., & Welty, L. J. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat, 11(1), e521. https://doi.org/10.1002/sta4.521 Ittenbach, R. F., & DeAngelis, F. W. (2012). Percent effort vs. fee-for-service: A comparison of models for statistical collaboration. Research Management Review, 19, 1–18.
+MindTools. (n.d.). SWOT analysis. Retrieved on February 6, 2024 from https://www.mindtools.com/amtbj63/swot-analysis Minton, P. D., & Freund, R. J. (1977). Organization for the conduct of statistical activities in colleges and universities. The American Statistician, 31, 113–117. https://doi.org/10.1080/00031305.1977.10479212 Niland, J. C., Odom-Maryon, T. L., Lee, J., & Tilley, B. (1995). A survey of biostatistical consulting units throughout North America. The American Statistician, 49(2), 183–189. https://doi.org/10.1080/00031305.1995.10476139 Perkins, S. M., Bacchetti, P., Davey, C. S., Lindsell, C. J., Mazumdar, M., Oster, R. A., Peduzzi, P. N., Rocke, D. M., Rudser, K. D., Kim, M., & Biostatistics, Epidemiology, and Research Design (BERD) Key Function Committee of the Clinical and Translational Science (CTSA) Consortium. (2016). Best practices for biostatistical consultation and collaboration in academic health centers. The American Statistician, 70(2), 187–194. https://doi.org/ 10.1080/00031305.2015.1077727 Vance, E. A. (2015). Recent developments and their implications for the future of academic statistical consulting centers. The American Statistician, 69(2), 127–137. https://doi.org/10.1080/00031305.2015.1033990 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. Jr., Lindsell, C. J., Macaluso, M., Mazumdar, M., Nietert, P. J., Oster, R. A., Pollock, B. H., & Roberson, P. K. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine, 88(4), 454–460. https://doi. org/10.1097/ACM.0b013e31828578ed Wickes, E. (2021). Sustainability and success models for informal data science training within libraries. In J. Herndon (Ed.), Data science in the library: Tools and strategies for supporting data-driven research and instruction (pp. 3–30). Facet. https://doi.org/10.29085/9781783304615.002
+AUTHOR BIOGRAPHIES
+Julia Sharp is a mathematical statistician at the National Institute of Standards and Technology. She was previously a professor and director
+of the Graybill Statistics & Data Science Laboratory in the Department of Statistics at Colorado State University. Julia is a widely recognized
+SHARP ET AL. 9 of 10
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+expert in applied statistics and statistical collaboration and was selected as a Fellow of the American Statistical Association (ASA) in 2022 and
+received the Outstanding Mentor Award from ASA's Section on Statistical Consulting in 2021. She earned her PhD in Statistics from Montana
+State University.
+Emily H. Griffith is a professor of practice in the Department of Statistics and the Director of Data Science Consulting in the NC State Data
+Science Academy (DSA). Emily is a recognized expert in statistical consulting and collaboration, received the Outstanding Mentor Award from
+American Statistical Association (ASA)'s Section on Statistical Consulting in 2022 and was elected a fellow of the ASA in 2023. She earned
+her PhD in Statistics from NC State University.
+Bruce A. Craig is a professor in the Department of Statistics at Purdue University and has been the director of their Statistical Consulting Ser
+vice since 2004. He is an active member and advisor of the USDA coordinating committee NCCC-170, which consists of statisticians from
+land-grant universities and agricultural research stations who focus efforts on the development of educational materials to promote the imple
+mentation of sound statistical practice. He is also a senior fellow of the National Institute of Statistical Sciences (NISS) working with the
+National Agricultural Statistics Service (NASS) on survey methodology. He is an elected fellow of the American Association for the Advance
+ment of Science (AAAS) and the American Statistical Association (ASA) and has served as Chair of the Section on Statistical Consulting. He
+has published over 135 peer-reviewed articles and the co-author of two introductory statistics textbooks. He earned his PhD in Statistics
+from the University of Wisconsin-Madis
+Alexandra Hanlon is a professor of practice in the Department of Statistics at Virginia Tech. There she also directs the Center for Biostatistics
+and Health Data Science and co-directs their multi-institutional CTSA iTHRIV Research Methods Core. Alex is recognized for her efforts in
+building centralized collaborative resources within an academic health setting, along with her leadership in bringing awareness to and diversi
+fying the field of collaborative biostatistics. She was selected as a fellow of the American Statistical Association (ASA) in 2019 and earned her
+PhD in Biostatistics from Temple University.
+Sarah Peskoe is an assistant professor of Biostatistics and Bioinformatics and the director of the Data Science and Statistics Lab (DSSL) in the
+Aging Center at Duke University. Her research involves evaluating and correcting biases that arise in epidemiologic studies, with a particular
+focus on applications to aging-related research. Sarah earned her PhD in Biostatistics from Harvard University.
+Jennifer Van Mullekom is the director of the Statistical Applications and Innovations Group (SAIG) and a professor of practice in the Depart
+ment of Statistics at Virginia Tech. Drawing from her 20-year career in industry, she teaches statistical collaboration skills to students in prep
+aration for tackling over 200 internal and external projects in SAIG each year. Jen is a regular contributor to the Conference on Statistical
+Practice focusing on frameworks and tools for communication, collaboration and problem solving. She has held leadership positions in ASA's
+Section on Physical and Engineering Sciences and Quality and Productivity. In 2024, Jen received the ASA Section on Statistical Consulting
+Outstanding Mentor Award. She earned her PhD in Statistics from Virginia Tech.
+How to cite this article: Sharp, J., Griffith, E. H., Craig, B. A., Hanlon, A., Peskoe, S., & Van Mullekom, J. (2024). The current landscape of
+academic statistical and data science collaboration units with examples. Stat, 13(3), e718. https://doi.org/10.1002/sta4.718
+10 of 10 SHARP ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.718 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

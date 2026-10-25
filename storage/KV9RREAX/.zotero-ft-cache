@@ -1,0 +1,600 @@
+Skip to main content
+Skip to article
+View PDF
+Download full issue
+Energy and Buildings
+Volume 345, 15 October 2025, 116036
+Techno-economic feasibility of borehole thermal energy storage system connected to geothermal heat pumps for seasonal heating load of two buildings in Fairbanks, Alaska
+Author links open overlay panel
+Hyunjun Oh a
+,
+Conor Dennehy a
+, Saqib Javed a,
+Robbin Garber-Slaght a
+,
+Kyle Dunn b
+,
+Zachary J. Zody b
+,
+Jamie Potter b
+,
+Anna Wagner b
+Show more
+Share
+Cite
+https://doi-org.colorado.idm.oclc.org/10.1016/j.enbuild.2025.116036
+Get rights and content
+Under a Creative Commons license
+Open access
+Highlights
+•
+Subsurface characterization for borehole thermal energy storage in Fairbanks, Alaska.
+•
+Geothermal gradient was estimated using thermal response test results as 27.9 °C/km.
+•
+The annual heating load in the buildings was 5.6 times higher than the cooling load.
+•
+Production temperature at central wells was 33% higher than at outer boundary.
+•
+The 5-year preheating period led to a higher annual average and total production.
+•
+The BTES reliably supplied the building heating loads throughout 20-year lifetime.
+Abstract
+Borehole thermal energy storage (BTES) is an effective solution for managing imbalanced heating and cooling loads in cold regions. This study evaluated the long-term feasibility of a BTES system in the Fairbanks area, Alaska, through building energy modeling, resource characterization, and numerical modeling. The system was designed to store waste heat from a nearby coal power plant during summer and provide thermal energy during winter to geothermal heat pumps supplying heating loads in two buildings. Heating load profiles were modeled for the buildings using EnergyPlus, and the results indicated the annual heating load was 5.6 times greater than the cooling load. 40 borehole heat exchangers were pre-designed approximately 100 m away from the two buildings in terms of land availability and regulatorily optimized depth. The 20-year performance of the designed BTES system under two operational scenarios—one with a 5-year preheating period and one without—was numerically modeled using subsurface temperature and properties characterized through the literature review and thermal response tests. Both scenarios demonstrated that the BTES has the capacity to fully cover the heating loads in the two buildings throughout the 20-year lifetime. Production temperatures at central wells were 33 % higher on average than at outer wells in both scenarios. The 5-year preheating period increased subsurface and extraction temperatures, and correspondingly annual average and total thermal energy production was higher for 8 years than in the scenario without the preheating period. These results highlight the long-term reliability and sustainability of the BTES system in meeting heating demands over its lifetime, with the preheating period offering potential performance improvements. Implementing the BTES system in cold regions with high heating demand, such as Fairbanks, Alaska, could provide a long-term, sustainable energy solution for managing imbalanced heating and cooling loads.
+Graphical abstract
+Download: Download high-res image (237KB)
+Download: Download full-size image
+Previous
+Next
+Keywords
+Borehole thermal energy storageBTESGeothermal heat pumpSub-arcticFairbanksAlaskaEnergyPlusCOMSOL
+Nomenclature
+ρ
+Density [kg/m3]
+Cp
+Specific heat capacity at constant pressure [J/(kg·K)]
+u
+Velocity vector of translational motion [m/s]
+fD
+The Darcy friction factor
+Q
+Heat source [W/m]
+q
+Heat flux by conduction [W/m2]
+k
+Permeability [m2]
+p
+Pore pressure [Pa]
+A
+Pipe cross section area [m2]
+T
+Absolute temperature [K]
+λ
+Thermal conductivity [W/m·K]
+dh
+Hydraulic diameter
+Qwall
+External heat exchange through the pipe wall
+εp
+Porosity
+μ
+Fluid’s dynamic viscosity [Pa·s]
+1. Introduction
+A geothermal heat pump (GHP) utilizes ground as a heat source in winter or a sink in summer for heating and cooling and typically shows higher efficiency than a conventional air-source heat pump due to relatively consistent subsurface temperature throughout the year [1]. While GHP systems have been extensively deployed in residential and commercial sectors across the mainland United States [2], their adoption in Alaska remains limited. For example, approximately 40 to 50 GHP systems are currently operating in the Fairbanks North Star Borough, representing about 0.12 % of the total number of housing units [3]. One contributing factor to this limited deployment in Alaska is the challenging subarctic environment, characterized by discontinuous and near thaw permafrost that may complicate the design and installation of ground heat exchangers (GHEs). In Fairbanks, the study area, discontinuous permafrost is present in the terrain of approximately 50 to 90 %, with depths ranging from 5 to 100 m [4,5]. Despite these harsh environments, GHP systems in the study area have been successfully implemented with various types of heat exchangers installed in horizontal trenches, vertical wells, and a lake, demonstrating the coefficient of performance (COP) ranging from 3 to 3.7 [3,6].
+However, in heating load-dominated regions like Fairbanks, GHP system operations can gradually decrease the subsurface temperature over time, by extracting heat from the subsurface during extended winters while relatively low thermal energy is reinjected during summers due to low cooling loads [3]. This results in performance degradation over time. Garber-Slaght et al. [7] reported that the COP of horizontal-loop GHP systems in Fairbanks decreased by 25 % over a four-year period, with an annual decline of 9.4 %, 9.8 %, and 6.3 %, respectively. To mitigate the long-term performance degradation, a subsurface thermal energy storage system has been developed in cold regions [8,9]. Borehole thermal energy storage (BTES), which consists of borehole heat exchangers (BHEs) installed in the shallow subsurface (e.g., 30 to 200 m depth), is one of the most widely deployed thermal energy storage systems over decades [10]. BTES systems are often integrated with solar thermal applications [[11], [12], [13]], combined heat and power (CHP) systems [14,15], waste heat recovery [16], or a combination of the different heat sources [17] to sustainably store and supply heat. Specifically in the study area, Garber-Slaght and Keays [18] experimentally demonstrated a heating-only GHP system at Weller Elementary school, integrating a slinky loop GHE in a shallow horizontal trench with six flat-plate solar thermal panels for seasonal charging. During its first 13 months of operation, the hybrid system achieved an average COP of 3.73 and maintained an entering fluid temperature to the heat pump of 8.2 °C on average (ranging from 5 to 12.2 °C), which is significantly higher than the typical 0 °C in Fairbanks, highlighting the potential of solar-assisted thermal energy storage, even in shallow trenches, to improve GHP efficiency in cold climates.
+The performance of BTES systems is dependent on the arrangement and configuration of BHEs. Wołoszyn (2018) [19] compared 29 BHE configurations with varying inclination angles and spacing and reported that a compact arrangement with 2.5 m spacing at 0° inclination represented the highest energy efficiency, whereas maximum energy extraction was achieved with 4 m spacing at the same 0° inclination. In cold climate zones, a double U-tube BHE incorporated with an evacuated tube solar collector system and a GHP was found to be most effective for space heating [8]. More recently, Qiu et al. (2023) [20] reported that although integrating photovoltaic thermal systems can reduce cooling performance due to heat accumulation, optimized integration can decrease buried pipe length by 48.3 % and GHE footprint by 68.9 %, while increasing COP by 10 %. Similarly, Buscemi et al. (2023) [21] evaluated a hybrid system integrating a road thermal collector with a shallow BTES field through a combination of experiments and numerical modeling using TRNSYS. Their modeling results demonstrated that the system could reduce borehole length requirements by nearly threefold relative to a conventional GHP system. At a larger scale, Ryan et al. [22] also employed TRNSYS to model the integration of stratified thermal energy storage with GHPs on a university campus. The study found that adding thermal energy storage reduced peak heating demand by 7–22 %, operational costs by nearly 5 %, and carbon emissions by over 30 % relative to a CHP-based baseline. Similarly, Welsch et al. (2018) [23] showed that combining medium-deep BTES with a large solar thermal collector field and a small CHP unit could reduce global warming potential by up to 50 % with only a modest increase in the levelized cost of heat (LCOH), highlighting the scalability and environmental benefits of this integrated configuration.
+While the studies on BTES integration and configuration have provided valuable insights into optimal design and performance, numerical modeling remains essential for evaluating the long-term subsurface thermodynamics and designing optimal configurations and operational conditions. Many aspects of the BTES system design are unique to the intended system location and application. For example, heating and cooling loads may vary significantly depending on local climate, exposure to sunlight, building materials and configurations, intended use of climate-controlled space, and other factors. Knowing that significant variation exists, a model must be carefully constructed with accurate data. Rapantova et al. [14] utilized 3-year operational data of a BTES in Paskov, Czech Republic to set up and calibrate the numerical model for heat transfer. The modeling established a basis for optimal BTES operations in terms of durations of charging and discharging cycles and ratios of heat that can be recovered for sustainable operation [14]. Similarly, Catolico et al. [24] sought to model the well-studied Drake’s Landing Solar Community BTES system in Okotoks, Canada using the TOUGH2 software. Using the model, a sensitivity analysis was conducted to determine the impact of changes in soil thermal conductivity, groundwater flow, permeability, and saturation on BTES heat extraction efficiency. The study concluded that BTES efficiency increases with lower values of soil thermal conductivity, hydraulic gradient, intrinsic permeability, and low saturation vadose zones, while the efficiency decreases with groundwater flow [24]. Recent studies have further advanced modeling accuracy and applicability. Xue et al. [25] validated detailed 3-D models of a 74-borehole BTES field in Finland using commercial software, IDA ICE and COMSOL. Both simplified and detailed geometries accurately predicted fluid temperatures within 1 °C of measurements, with 72 % reduction in computational time in simplified models.
+Building on previous research, this study evaluated the techno-economic feasibility of a BTES system at Fort Wainwright, Alaska, designed to store waste heat from a nearby coal-fired plant during summers and discharge it during winters to meet heating demand in two buildings (Fig. 1). While direct use of waste heat during winter is technically feasible, this study focuses on seasonal thermal energy storage, specifically BTES, due to limited access to detailed plant operation data and the study’s primary emphasis on evaluating long-term storage performance. Unlike conceptual studies, this study incorporated site-specific resource characterization, building energy modeling, and numerical modeling of long-term BTES performance. The BTES configuration was predefined based on land availability and regulatory depth constraints. The two buildings are currently connected to an existing steam-to-glycol district heating system that supplies thermal energy at 71–82 °C. Subsurface geology and soil thermal properties were characterized through literature review and thermal response tests (TRTs), respectively. Particularly, a borehole log database from the U.S. Army Corps of Engineers was reviewed for the study area. Annual heating and cooling load profiles were modeled for the two buildings using EnergyPlus, a whole-building energy simulation tool. The building load profile and subsurface parameters were then incorporated into the 20-year BTES performance modeling under two storage strategies. The model captures not only system-level thermal performance but also the dynamic thermal interactions between the BHEs and surrounding soil, providing a more detailed understanding of long-term BTES behavior.
+Download: Download high-res image (518KB)
+Download: Download full-size image
+
+Fig. 1. BTES system overview in the study area.
+
+2. Climate and geological settings in the study area
+Fort Wainwright is a military installation about 5 km away from Fairbanks, Alaska (64° 49′ N). Baechler et al. [26] classified the climate zone of the Fairbanks North Star Borough where Fairbanks and Fort Wainwright are located as Subarctic, which is equivalent to International Energy Conservation Code (IECC) climate zone 8. The subarctic climate zone is defined as a region with 7,000 heating degree days (18 °C basis), which is approximately equivalent to 12,600 heating degree days (65 °F basis) [26]. According to typical meteorological year weather (TMY3) in Fairbanks, ambient temperature in the study area widely ranges, as a continental climate, from − 45.6 to 0 °C with a mean annual air temperature of − 3.1 °C [27]. Davalos-Elizondo et al. [28] characterized in 2023 geothermal gradient in the study area as 48 °C/km, and the undisturbed ground mean temperature in the Fairbanks area ranges approximately from 1.9 to 2.4 °C (Fig. 2(a)).
+Download: Download high-res image (652KB)
+Download: Download full-size image
+
+Fig. 2. Regional geological characteristics: (a) ambient and undisturbed ground mean temperatures in Alaska (modified from [28]) and (b) schematic section of groundwater conditions in the Fairbanks area [4].
+
+Although Interior Alaska is seismically active due to three main tectonic structural drivers including dextral strike-slip faults, seismic zones, and thrust faults in the Alaska Range foothills, there are no identified major faults or evidence of significant deep circulation [29]. The study area lies within the Tanana Valley Watershed geohydrologic unit and consists of 50 to 90 % discontinuous permafrost at a depth of 21 to 35 m (see the blue regions in Fig. 2(b)), implying a significant heterogeneity of the subsurface conditions [4,5]. Most surficial materials in the Fairbanks area are comprised of various unconsolidated deposits, especially flood-plain alluvium [4,30]. As presented in Fig. 2(b), the depth to bedrock is deeper near the town (near Tanana River), whereas surficial exposures of bedrock and schists exist north of the study area as the geography transitions out of the floodplain valley towards the edge of the geohydrologic unit [4].
+The subsurface geology in the study area was categorized using a U.S. Army Corps of Engineers database of borehole logs [31]. It is important to note that the database may include errors possibly introduced in recording, inconsistencies in soil classification and notes, and other unanticipated and impossible to diagnose inaccuracies as the wells were drilled by multiple companies during different times of the year and these activities spanned decades. Nonetheless, the database is the most robust set of direct measurements for the study area. The database consisted of roughly 1,300 borehole logs sampled from approximately 2,000 borehole logs available (Fig. 3 (a)). Most of the wells had 20-meter depths or less with the deepest logged well reaching about 90 m. The groundwater table appeared to be in relative equilibrium and a significant hydraulic head gradient was not present (i.e., hydrologically stable zone). The borehole logs also reported that ground in the study area at a shallow depth consists of silts, sands, and gravels classified by the unified soil classification system. Even though some borehole logs reported intersection with frozen ground, the information was sparsely distributed throughout the database and insufficient to extrapolate for the study area. Out of the interpreted borehole logs, 83 borehole logs near the north of Chena River intersected the bedrock and were used to estimate the depth to the bedrock in the study area. The depth to bedrock in the study area was conservatively estimated as 91.4 m (300 ft).
+Download: Download high-res image (317KB)
+Download: Download full-size image
+
+Fig. 3. Geological settings in the study area: (a) locations of the boreholes [26] and (b) subsurface temperature measured from thermal response test.
+
+In the study area, soil thermal conductivity and subsurface temperature were measured during two separate TRTs in 2009 and 2023. Depths of the test wells were 78.3 m (257 ft) in 2009 and 81.2 m (266.5 ft) in 2023. Fig. 3(b) represents the subsurface temperature measured in August 2009 as an example. Ten layers were represented in the borehole logs and consisted of sands and gravels extensively ranging from well graded to poorly graded classified by the United Soil Classification System. Formation thermal conductivity values were determined from the TRT to be 2.68 W/m·K in 2009 and 2.82 W/m·K in 2023. As shown in Fig. 3(b), the thermal gradient in the study area was estimated as 2.79 °C/100 m (27.9 °C/km). However, it is important to note that the estimated thermal gradient may be valid only for shallow subsurface specifically in the study area. The literature (e.g., [28,32]) reported a higher geothermal gradient suitable for geothermal deep direct-use applications, including Chena geothermal power plant approximately 50 km away from the study area.
+3. Building energy modeling
+In addition to the ambient and subsurface conditions characterized for the study area, heating and cooling load profiles of the two buildings are crucial to the GHP-BTES system design. The heating and cooling load profiles in the two buildings were modeled using the EnergyPlusTM building energy model tool. As a first step, construction documents for the two buildings were reviewed to understand the building envelope components including opaque ceiling and wall assemblies, and heating, ventilating, and air conditioning (HVAC) system operations. Site surveys were then conducted to ensure the information obtained from the construction documents was accurate and to collect additional information about the building that was not available from the construction documents, such as approximate exterior shading surface and interior thermostat set points. Building geometries and thermal zones in the two buildings were developed using the Euclid extension for SketchUp™ (Fig. 4). The complexity of the two buildings required several thermal zones as opposed to a simplified core and perimeter approach due to the diversity of HVAC systems and distribution networks, as well as the quantity and locations of thermostatic control points. The spatial configuration of the thermal zones based on HVAC system diversity allowed for the evaluation of system integration in isolated areas without impacting erroneous areas of the building. For instance, if the output of GHPs is used to provide heat only via radiant flooring or baseboard systems, thermal zones without those heating distribution systems can be excluded for a more accurate analysis of peak load.
+Download: Download high-res image (787KB)
+Download: Download full-size image
+
+Fig. 4. Building energy modeling: (a) thermal model construction for building 1 and (b) building 2.
+
+Delivery temperatures of the existing hydronic district heating system (71 to 82 °C) were above the efficient delivery capability of most heat pumps. This study thus selected buildings with lower temperature delivery system that will be more amenable to a heat pump retrofit. The two buildings are relatively new buildings centrally located with in-floor low temperature hydronic heating systems. Building 1 has two floors and a total area of 1,393 m2 (14,994 ft2) and was built in August 2016. Building 2 has two floors and a total area of 1,895 m2 (20,400 ft2) and was built in October 2016. The two buildings are on the southwest side of the runway near an expanse of greenspace for the BTES system. The architectural geometry and thermal zones were pushed to the EnergyPlus input data file (IDF).
+Preliminarily, the EnergyPlusTM simulation results for winter heating operations were compared to a portion of actual steam energy usage provided by the building operators for each building. This was done to verify the assumptions made for model inputs and validate the building loads for output to the geothermal heat pump simulation software. In the comparison, quasi-weekly steam data from January to March in 2023 and 15-minute steam data from February to May in 2023 were utilized for the two buildings, respectively. For an accurate comparison, a custom EnergyPlus Weather (EPW) file was created with actual weather data from the same date range as the provided steam data (only for the model validation and calibration purpose), instead of typical meteorological year (TMY) weather data, which is widely used in the building energy modeling.
+Calibration strategies for outside ventilation air, envelope infiltration, and uncontrolled air exchange from occupant activities were refined with Building 2 since the available data was more detailed than Building 1. In the measurements, excessive usage anomalies were noticed as exterior temperatures became warmer due to reported issues with the condensate flow meter (see the blue line of excessive load in Fig. 5). Fig. 5 compares the actual heating load of Building 2 in two example days in March to those modeled with the unique weather data. Those outlier data for excessive usage were statistically filtered out for February and March, which may introduce uncertainties and underrepresentation of peak load variability, while April through July data was impractical for comparison. Root mean square error (RMSE) and mean bias error (MBE) were used to analyze the comparative accuracy of the actual and simulated energy values. Following ASHRAE Guideline 14 [33], monthly values for RMSE and MBE were calibrated to within 15 % and 5 %, respectively (Table 1).
+Download: Download high-res image (192KB)
+Download: Download full-size image
+
+Fig. 5. A comparison of heating loads modeled and measured for Building 2.
+
+Table 1. Calibration results of the EnergyPlus modeling.
+
+Application	RMSE (%)	MBE (%)
+Building 1	14.1	2.0
+Building 2	1.35	1.5
+After calibration, the load profiles were generated for a year with a typical meteorological weather profile. The modeling accounted for internal heat gains from occupants, plug loads, and various electrical appliances and equipment. Notably, the buildings studied are modern, with airtight envelopes and high-performance insulation, which significantly reduce heat loss to the exterior. As a result, internal heat accumulation becomes a dominant factor, especially in core zones with limited exposure to external temperature variations. Dedicated server rooms and electrical service areas located within the thermal envelope contribute to substantial internal gains throughout the year. These factors collectively led to the presence of cooling loads even during winter months in the modeling results, despite outdoor temperatures frequently falling below zero. However, it is important to note that the annual net thermal load remains strongly heating-dominated, as expected in a cold climate. Heating and cooling usage and peak loads were output in the form of thermal energy for each zone (Fig. 6).
+Download: Download high-res image (254KB)
+Download: Download full-size image
+
+Fig. 6. Total annual hourly heating and cooling hourly load profiles for the two buildings.
+
+4. Numerical modeling for evaluating seasonal performance of borehole thermal energy storage system
+4.1. Governing Equations
+This study used COMSOL Multiphysics (version 6.2), which is a commercial finite element modeling tool, for numerical modeling. The modeling assumed a single-phase (liquid) and steady-state fluid flow. It was also assumed that the working fluid in the pipes is incompressible, and the properties are temperature independent. The convective and conductive heat transfer of the fluid in the pipes was modeled by solving Eq. (1) [34]:
+(1)
+ρACp∂T∂t+u∙∇T=∇∙Aλ∇T+fDρA2dhu3+Q+Qwall+Qp
+where
+ρ
+ = density (kg/m3);
+A
+ = pipe cross section area (m2);
+Cp
+ = specific heat capacity at constant pressure (J/(kg·K));
+T
+ = absolute temperature (K);
+u
+ = velocity vector of translational motion (m/s);
+λ
+ = thermal conductivity (W/m·K);
+fD
+ = the Darcy friction factor as function of the Reynolds number, surface roughness, and hydraulic diameter;
+dh
+ = hydraulic diameter;
+Q
+ = general heat source (W/m);
+Qwall
+ = external heat exchange through the pipe wall.
+Qp
+ = an optimal term where the pressure drop is considerable and the fluid is compressible, assumed as zero in this study.The second term on the right side of Eq. (2) describes friction heat dissipated due to viscous shear. Churchill friction model was solved with surface roughness of 0.0015 mm (typically used to represent HDPE pipe roughness) to address the contact friction between working fluid and pipe wall. Heat transfer in the porous media was governed by:
+(2)
+ρCp∂T∂t+ρCp∙u∙∇T+∇∙q=Q
+where
+q
+ = heat flux by conduction (W/m2). Water flow in the porous media was modeled by the Darcy’s law:
+(3)
+∂∂tρεp+∇∙ρu=Qm
+where
+εp
+ = porosity,
+u=-kμ∇p
+, Darcy’s velocity (m/s),
+k
+ = permeability of the porous medium (m2),
+μ
+ = fluid’s dynamic viscosity (Pa·s),
+p
+ = pore pressure (Pa),
+Qm
+ = mass source term (kg/m3·s).
+4.2. Model settings
+The pre-designed BTES system consisted of 40 boreholes (2 by 20) with 5-m spacing. The dimensions of model geometry for the BTES system were 400 m (length) × 250 m (width) × 180 m (depth) to avoid any boundary effects (Fig. 7(a)). To optimize the computational time and effort, half of the BTES system (20 boreholes) was modeled in a symmetric geometry. That is, modeling solves the problems for only half of the full geometry, assuming that heat and mass transfer are mirrored across the symmetric plane. We selected several locations in our grid where we recorded transient temperature data (probes). These probes included the bottom and outlet of the 20 BHEs, as well as subsurface temperatures monitored at the same depth and center of four nearby boreholes (Fig. 7(b)). Each borehole had 13.97-cm diameter (5.5 in.), and the piping had 3.05-cm inner diameter (1.2 in.). BHEs for GHP systems in the Fairbanks area have been drilled at a depth from about 30.5 m (100 ft) to 76.2 m (250 ft) [3], and this study designed the BTES at 91.4 m depth. This depth was chosen after discussing optimal drilling depths with a local drilling company. Preliminarily, the system depth at 91.4 m was validated with analytical solutions obtained from GLHEPro, which is a commercial tool broadly used to design and/or validate GHEs for a GHP system [35,36]. The GLHEPro simulation results demonstrated that potential depth of BHEs for the given load profile (Fig. 6) ranges from 91.4 m (300 ft) to 183 m (600 ft) with different supplemental heat sources.
+Download: Download high-res image (360KB)
+Download: Download full-size image
+Download: Download high-res image (454KB)
+Download: Download full-size image
+
+Fig. 7. Model geometry: (a) 40 borehole heat exchangers in the model geometry consisting of five layers, (b) probe locations to monitor subsurface temperature changes at the same depth of 91.4 m, and (c) base swept meshes for the symmetric model geometry consisting of 20 borehole heat exchangers.
+
+The ten soil layers represented in the borehole logs were simplified in the modeling to five layers for computational optimization: 1) unsaturated well-graded or gravelly sand (the top layer), 2) a mixture of well-graded and poorly graded gravel or gravelly sand, 3) poorly graded sand or gravelly sand with silty mixture, 4) well-graded gravel, and 5) schist bedrock (the bottom layer). Constant groundwater table was set at 4 m, while moisture content of the first layer was assumed as 20 %. The location of the groundwater table was based on measured water levels in the area. Physical and thermal properties of each layer are summarized in Table 2. Typical porosities were assigned for the soil types in each layer and the bedrock layer [37,38]. Densities for each soil layer were then estimated with typical dry density of sand and gravel weighting based on the porosities and water content [39]. We assumed that the properties are constant and temperature-independent throughout the 20-year lifetime. To optimize computational costs for the 20-year performance modeling, timestep was also set at 7-day intervals.
+
+Table 2. Key properties for each layer.
+
+Layer	Thickness [m]	Depth [m]	Porosity	Density [kg/m3]	Specific Heat [J/(kg·K)]	Thermal Conductivity [W/(m·K)]
+1 (Top)	4 (13 ft)	4	0.39	1,115.1	954	0.89
+2	15.2 (50 ft)	19.2	0.28	1,564.4	1,332	2.71
+3	24.4 (80 ft)	43.6	0.36	1,446.9	1,573	2.63
+4	47.9 (157 ft)	91.4 (300 ft)	0.31	1,540.7	1,409	2.8
+5	88.6	180	0.02	2,500	800	2.6
+Grout	−		−	1,200	1,600	1.8
+The soil layers were discretized in swept meshes (anisotropic structured meshes) to capture the gradients while free unstructured tetrahedral meshes were used for the bedrock layer (Fig. 7 (c)). The number of elements in each layer was calibrated and optimized to statistically satisfy the average element quality above 0.8 where 1 is the best quality possible while any meshes below 0.1 are considered as a poor quality. Particularly, the maximum element size for boreholes and pipes was limited to 5 cm with free tetrahedral to ensure the computational quality in such a small region where convective and conductive heat transfer occurs significantly. The numbers of vertices and elements were 130,048 and 283,707, respectively. In addition, adaptive mesh refinement was implemented to further optimize the computational time and effort as well as to ensure accuracy. During the modeling, the initially defined meshes in Fig. 7(c) were refined or coarsened based on the error estimations—specifically, whether the solutions obtained from the base mesh meet the error tolerance.
+In the modeling, waste heat from the nearby coal power plant (Fig. 1) was stored in parallel through the 20 BHE inlets under two different charging scenarios: 1) a 6-month charging period from April 1st to September 30th followed by a 6-month discharging period from October 1st to March 30th and 2) a 5-year pre-charging phase before the regular 6-month charging and discharging operations. This study assumed that hot water at a constant temperature of 80 °C is injected into the BTES at a flow rate of 0.5 l/s per borehole (i.e., total flow rate in 40 boreholes = 20 l/s). This temperature was chosen as a practical and conservative estimate based on typical waste heat temperatures from sources, such as the turbine, air-cooled condenser, and post-combustion areas where waste heat temperatures generally range between 60 °C and 130 °C. As a detailed heat recovery system was not yet developed, the 80 °C assumption supports a practical evaluation of the maximum potential for waste heat integration with the BTES system. To optimize computational effort, the temperature of injection fluid during winters was simplified to a constant of 3 °C. Preliminary analytical modeling demonstrated that injection temperatures varied approximately between –10 °C and 10 °C over the 25-year simulation period. Similarly, for long-term modeling purposes, the annual air temperature (Fig. 6) was averaged for a month and applied to the top surface (Fig. 8(a)). The ambient temperature profile was also incorporated into the time-dependent subsurface temperature gradient (see the example subsurface temperature profile in Fig. 3 (b)). Considering the nearby Chena River, 10 Pa pressure was applied at the left side of the model geometry, while the right side was assigned as 0 Pa to represent groundwater flow from the left to the right side (Fig. 8 (b)). Fig. 8(c) shows the velocity field based on the permeability of each layer for water flow under a 10 Pa pressure gradient.
+Download: Download high-res image (369KB)
+Download: Download full-size image
+Download: Download high-res image (175KB)
+Download: Download full-size image
+
+Fig. 8. Boundary conditions used in numerical modeling: (a) monthly average air temperature for top surface boundary condition, (b) 10 Pa pressure gradient from left to right sides of the model domain, and (c) velocity field (m/s) for water flow varying depending on the permeability of each layer.
+
+4.3. Modeling results for 20-year BTES operations
+Fig. 9 shows the numerical modeling results for system temperature changes during operations in the two scenarios. Note that temperatures at the pipe bottom and outlet in Fig. 9(a) and (b) represent an average temperature of the 20 measurements, while the outlet temperatures in Fig. 9(c) and (d) represent an average temperature at outlet of the two outermost or two innermost (center) BHEs. Similarly, subsurface temperatures in Fig. 9(a) and (b) demonstrate the temperature changes at outermost probe (light green lines) or innermost probe (red lines) in the model geometry.
+Download: Download high-res image (672KB)
+Download: Download full-size image
+Download: Download high-res image (514KB)
+Download: Download full-size image
+
+Fig. 9. Numerical Modeling Results of Long-Term Temperature Variations: (a) Scenario 1, (b) Scenario 2, (c) Long-Term Temperature Changes at Outer and Central Wells in Scenario 1, and (d) Scenario 2. Subsurface temperatures in Fig. 9(a) and (b) represent the temperatures at nine locations in Fig. 7(b) where the subsurface temperature is high at center of the BTES system and low at outer of the system.
+
+The temperature changes in Scenario 1 were relatively consistent and stable throughout the 20-year lifetime (Fig. 9(a)), while the pipe bottom, pipe outlet, and subsurface temperatures in Scenario 2 gradually decreased after the 5-year pre-charging period and stabilized approximately from the 12th year of operation (Fig. 9(b)). In other words, the benefit of the 5-year pre-heating with 80 °C hot water injection was about 8 years (this will be further discussed in Discussion). A notable observation was that subsurface temperatures at the nine monitoring points (the nine red dots in Fig. 7(b)) varied considerably depending on the location, showing a higher subsurface temperature at center (see the red and green lines in Fig. 9(a) and (b)). This variation possibly due to the heat losses around the outer boundary of the BTES system (e.g., the lowest subsurface temperatures represented as the green lines), thermal energy accumulation at the center (e.g., the highest subsurface temperatures represented as the red lines), and/or convective heat transfer from left to right side of the system. On average over the 20-year period, the percentage decreases in subsurface temperatures from the center to outer were 20.4 % in Scenario 1 and 21.7 % in Scenario 2. The greater energy loss in Scenario 2 reflects the greater amount of energy stored in the BTES during the first 5 years, as well as thermal energy recharged during summers. As noted in Introduction, BTES performance is affected by the spatial arrangement of BHEs (e.g., Wołoszyn 2018 [19]). While the current layout reflects the actual land availability and site constraints, the observed edge-related losses suggest that more compact configurations (e.g., 5 × 8) could improve storage efficiency by reducing heat dissipation along the system boundary. Future work may explore these alternatives where site conditions permit.
+Similarly, outlet fluid temperatures at center of the BTES system were higher than those at outer of the system (Fig. 9(c) and (d)). Average percentage decreases in the outlet fluid temperatures from the center to outer were 9.3 % in Scenario 1 and 8 % in Scenario 2 during the system lifetime. Average outlet temperatures of the 20 BHEs in the two scenarios over the 20-year lifetime were 6.3°C and 6.8 °C in winter (production) and 72.6 °C and 73.4 °C in summer (charging), respectively. These results demonstrate the 5-year pre-heating improved the efficiency of thermal energy production (about 8 %). However, it is important to note that the GHP system in Scenario 1 continuously supplied the heating load throughout the entire 20-year lifetime, while in Scenario 2, the heating supply began in Year 6 after a 5-year pre-charging period, during which alternative system(s) supplied the heating demand. Research on the difference in operational costs between the two scenarios is of interest for future studies.
+In addition to the time-dependent temperature changes, temperature distributions throughout the GHEs (i.e., piping temperature) in the two scenarios are presented in Fig. 10, corresponding to the two operational conditions: 1) charging thermal energy in summer or during the 5-year pre-charging period (Fig. 10(a) and (c)) and 2) producing thermal energy in winter (Fig. 10(b) and (d)). Note that Fig. 10(a) and (b) for Scenario 1 represent the temperature distributions for charging and production modes, respectively, in Year 1, while Fig. 10(c) and (d) for Scenario 2 represent the distributions for charging mode near the end of the 5-year preheating period in Year 5 and for production mode in Year 6 to discuss the impact of the 5-year preheating. It is also important to note that, although the temperature profiles were represented as straight lines with 7-day time steps (optimized for a 20-year modeling period), the heat exchange and corresponding temperature profiles vary depending on the physical and thermal properties of each layer, resulting in non-linear and irregular distributions.
+Download: Download high-res image (399KB)
+Download: Download full-size image
+Download: Download high-res image (353KB)
+Download: Download full-size image
+Download: Download high-res image (433KB)
+Download: Download full-size image
+
+Fig. 10. Temperature distribution throughout the BHEs: (a) charging thermal energy in summer in Scenario 1, (b) producing thermal energy in winter in Scenario 1, (c) charging thermal energy during the 5-year pre-charging period in Scenario 2, (d) producing thermal energy after the 5-year pre-charging period (Year 6) in Scenario 2, (e) temperature distribution in the boreholes with 80 °C hot water circulation for thermal energy storage during summer, and with 3 °C cold water injection for thermal energy extraction during winter.
+
+Regardless of the 5-year pre-charging period, temperatures of the water injected during summer for the BTES charging generally decreased throughout the borehole as thermal energy transferred from the hot water at 80 °C to surrounding ground (Fig. 10(a) and (c)), while those of the water injected during winter for energy production (injection of cold water at 3 °C) increased throughout the circulation (Fig. 10(b) and (c)). Particularly, Scenario 2 shows a higher production temperature due to an elevated system temperature during the 5-year preheating phase (Fig. 10(d)). The greatest temperature difference between injection and production (ΔT) was observed at the center wells near the surface in both scenarios (see solid red lines in Fig. 10(b) and (d)), and ΔT in the two scenarios were 4.2 °C and 5.6 °C, respectively (Table 3). On the other hand, Scenario 2 (Fig. 10(c)) presents a smaller ΔT (i.e., a lower energy exchange rate) during the charging period compared to Scenario 1, due to the subsurface temperature already elevated by the 5-year preheating. The thermal energy lost during the charging period at the outer boundary (i.e., the difference between the solid and dashed blue lines) was 1 °C and 2 °C in the two scenarios, respectively.
+
+Table 3. Differences in the injection and extraction fluid temperatures (°C).
+
+Empty Cell
+	Scenario 1	Scenario 2
+Outer	Center	Average	Outer	Center	Average
+Summer (Charging)	7.3	6.3	6.8	4.7	2.6	3.7
+Winter (Production)	3.1	4.2	3.7	4.0	5.6	4.8
+5. Discussions
+5.1. Thermal energy stored and produced in the BTUS under two operational scenarios and its implication
+In this section, thermal energy stored or produced in the BTES system with two operational scenarios was estimated using the numerical modeling results and Eq. (4):
+(4)
+Q=m×Cp×ΔT
+where
+Q
+ = thermal power stored or produced in the BTES system (watt),
+m
+ = flow rate (kg/s), which was 0.5 kg/s,
+Cp
+ = specific heat (J/kg·K) assumed as 4,184.4 J/kg·K for water, and ΔT = a difference in temperatures at injection and extraction wells (°C). While the production (extraction) fluid temperature was estimated in the modeling, the injection temperatures were constant at 3 and 80 °C for the winter and summer seasons, respectively. The estimated thermal power
+Q
+ in watts was converted to thermal energy in watt-hours by multiplying the operational hours for either charging or production. Note that the numerical modeling results represent half of the system’s capacity, as discussed earlier (e.g., the symmetric geometry in Fig. 7), and were multiplied by 2, assuming the same performance across the BTES wells on the opposite side, to estimate the system’s full capacity. This study also assumed that the numerical modeling results at each timestep (i.e., 7-day intervals) represent the weekly average values. Although this assumption is suitable for a long-term performance evaluation in this study, modeling with a smaller timestep resolution (e.g., hourly instead of weekly) may be preferred for more detailed evaluations.
+As summarized in Table 4, the annual average and total thermal energy production in Scenario 2 (372 kWh and 1.63 GWh, respectively) were higher than those in Scenario 1 (342.9 kWh and 1.5 GWh, respectively), while the lifetime thermal energy production in Scenario 2 (26.1 GWh) was lower than in Scenario 1 (30 GWh) due to the shorter period of energy production (15 years in Scenario 2 vs. 20 years in Scenario 1). The annual average thermal energy production of Scenario 2 in Year 6 (i.e., the first year after the 5-year preheating period) was approximately 1.6 times greater than that of Scenario 1 in the same year, and the ratio approached 1 after the 13-year operations (Table 4). The higher annual average and total energy in Scenario 2 was primarily due to the increased subsurface temperature and energy production during the first 8 years of operation after the 5-year preheating period, as presented in Fig. 9(b) and Fig. 11(a), respectively. Note that the annual peaks of thermal energy stored and produced in the BTES system in Fig. 11 correspond to the peaks at specific timesteps near the schedule transitions between charging and production or vice versa. This occurred because the 6-month transition schedule is not exactly aligned with the 7-day timestep intervals used in the modeling, resulting in variations in the peaks. Regardless of these variations, the BTES system in both operational scenarios demonstrated the capacity to fully supply both the 7-day average and peak heating loads required for the two buildings, as illustrated in Fig. 11(b) for an example year, Year 6. The minimum thermal energy produced by the BTES during winters in both scenarios consistently exceeded both average and peak building loads throughout the 20-year lifetime, including Year 6. Although the numerical modeling was not dynamically coupled with the building energy simulation, the results still provide meaningful insight into the BTES performance under simplified but representative operational conditions. It is also important to note that the assumed injection temperatures of 80 °C (for summer charging) and 3 °C (for winter discharging) may vary significantly in practice depending on actual waste heat recovery conditions and building heating loads. Future studies are thus recommended to incorporate dynamic coupling with building energy and waste heat recovery models to more accurately reflect time-varying conditions and system interactions.
+
+Table 4. Annual average and total thermal energy stored and produced in the BTES over the 20-year lifetime.
+
+Empty Cell
+	Scenario 1	Scenario 2
+
+Empty Cell
+	Outer	Center	Whole System	Outer	Center	Whole System
+	Thermal Energy Stored during Summer
+Avg. Thermal Power	61.9 kW	53.8 kW	554.7 kW	56 kW
+(a43.7 kW)	45.4 kW
+(a28.5 kW)	475.3 kW
+(a311.8 kW)
+Avg. Annual Total Thermal Energy	0.27 GWh	0.24 GWh	2.43 GWh	0.29 GWh
+(a0.4 GWh)	0.23 GWh
+(a0.2 GWh)	2.42 GWh
+(a2.7 GWh)
+Lifetime Total Thermal Energy	5.4 GWh	4.7 GWh	48.6 GWh	4.2 GWh
+(b1.91 GWh)	3.6 GWh
+(b1.25 GWh)	50.9 GWh
+(b13.66 GWh)
+	Thermal Energy Produced during Winter
+Avg. Thermal Power	27.2 kW	36.1 kW	342.9 kW	29.3 kW	39.3 kW	372 kW
+Avg. Annual Total Thermal Energy	0.12 GWh	0.16 GWh	1.5 GWh	0.13 GWh	0.17 GWh	1.63 GWh
+Lifetime Total Thermal Energy	2.38 GWh	3.16 GWh	30 GWh	1.9 GWh	2.6 GWh	26.1 GWh
+	Annual Average Thermal Energy Production (kWh)
+Year 1	28.0	37.3	353.7	N/A	N/A	N/A
+Year 2	27.1	36.3	344.6	N/A	N/A	N/A
+Year 3	26.9	35.9	341.6	N/A	N/A	N/A
+Year 4	26.8	35.7	339.2	N/A	N/A	N/A
+Year 5	27.1	36.0	342.2	N/A	N/A	N/A
+Year 6	27.2	36.1	342.7	44.1	58.5	554.8 (c1.62)
+Year 7	27.4	36.3	345.4	33.4	44.9	424.1 (c1.23)
+Year 8	27.5	36.4	346.3	30.8	41.3	389.8 (c1.13)
+Year 9	26.9	36.0	341.9	29.0	38.9	368.4 (c1.08)
+Year 10	26.8	35.8	340.2	28.2	37.8	358.5 (c1.05)
+Year 11	26.8	35.6	338.5	28.0	37.5	355.4 (c1.05)
+Year 12	27.3	36.3	345.5	27.6	37.1	350.6 (c1.01)
+Year 13	27.2	36.0	342.0	28.8	38.0	359.5 (c1.05)
+Year 14	27.4	36.2	344.6	27.7	37.1	351.2 (c1.02)
+Year 15	27.6	36.4	346.3	27.7	37.1	351.4 (c1.01)
+Year 16	26.8	35.6	338.4	27.0	36.3	344.3 (c1.02)
+Year 17	26.8	35.5	337.4	26.8	36.0	342.0 (c1.01)
+Year 18	26.9	35.6	338.7	27.0	36.2	343.6 (c1.01)
+Year 19	27.4	36.3	345.8	26.9	36.2	342.2 (c0.99)
+Year 20	27.4	36.2	344.1	27.1	36.3	343.9 (c1.00)
+a
+Note: the average thermal power and annual total thermal energy stored over the 5-year preheating period.
+b
+Note: total thermal energy stored during the 5-year preheating period.
+c
+Note: a ratio of annual average thermal energy production in Scenario 2 to that in Scenario 1 in the same year.
+Download: Download high-res image (565KB)
+Download: Download full-size image
+
+Fig. 11. Thermal energy stored or produced in the BTES system estimated using the modeling results: (a) 20-year lifetime performance of the system under two operational scenarios and (b) an example of the BTES performance at Year 6 with the building heating load profile.
+
+In contrast, the annual average and total thermal energy stored in Scenario 2 (475.3 kWh and 2.42 GWh, respectively) was lower than those in Scenario 1 (554.7 kWh and 2.43 GWh, respectively), while the lifetime total amount of stored thermal energy in Scenario 2 (50.9 GWh) was higher than in Scenario 1 (48.6 GWh) because of the 5-year preheating period. As presented in Fig. 9(b), the subsurface temperature increased during the 5-year preheating period, and the temperature difference between injection and extraction (the
+ΔT
+ in Eq. (4) was correspondingly lower in Scenario 2 than in Scenario 1. The lower delta temperatures in Scenario 2 resulted in a lower
+Q
+ value on average, especially during the first 13 years of operation, which includes the 5-year preheating period and the first 8 years of operation. Although Fig. 11(a) represented similar peaks of thermal energy stored from Year 6 in both scenarios, the annual averages of thermal energy stored during the first 13 years of operation were 40 % higher on average in Scenario 1 than Scenario 2. 13.66 GWh of thermal energy was stored during the 5-year preheating period in Scenario 2 (annual average = 2.73 GWh), representing 26.8 % of total thermal energy stored during the 20-year lifetime, while the annual average of thermal energy stored in summers from Year 6 in Scenario 2 was 2.32 GWh.
+Due to potential heat loss at the system outer boundary and thermal energy accumulated at the center of the system in both scenarios, as discussed in the 4.3 modeling result section above, thermal energy produced from the central wells was higher (33 % in Scenario 1 and 30 % in Scenario 2 on average) than the energy produced at the system outer boundary, while thermal energy stored at the outer wells was greater than the energy stored at the center of the system (Fig. 12). Especially, thermal energy stored during the 5-year preheating period at the outer wells was 43.7 % higher than the energy stored at the central wells, mainly due to a higher delta temperature caused by heat losses at the outer boundary (Fig. 12(b)).
+Download: Download high-res image (572KB)
+Download: Download full-size image
+
+Fig. 12. 20-year lifetime performance at outer and central wells (a) in Scenario 1 and (b) in Scenario 2.
+
+5.2. Economic metrics of the two BTES operational scenarios
+To supplement the thermal performance analysis, a techno-economic evaluation was conducted to compare economic metrics of the two BTES operational scenarios. It is important to note that this analysis used cost correlations and representative values from recent literature (e.g., Oh et al., 2025 [40]) that may not represent the site-specific costs. The economic model included capital costs for key components: drilling, surface piping, circulating pumps, and heat pumps. Annual operating costs were based on electricity consumption by circulating pump and heat pump units. Assumptions used to estimate the key components’ capital costs were as follows: BHE cost at $200/m (from drilling to completion), surface piping at $519.8/m, circulating pump at $1,000 per kW of pump power, and heat pump at $1,900 per ton (sourced from commercial market). The total drilling length was 3.658  km (40 boreholes at 91.44  m each), and surface piping included 1,000  m from the plant to the BTES field, 100  m from BTES to the building, and 180  m of inter-borehole connections. For estimating annual operational costs, pumping power was calculated using Darcy-based frictional pressure loss, accounting for borehole and surface piping lengths, and a constant pump efficiency of 80 %. Hourly heat pump electricity consumption was inversely estimated from the building heating load of 0.3127 GWh/year and a COP of 2, which an approach that has been used in the literature (Oh et al. 2024a [2]). A 5 % discount rate, commonly used in the techno-economic analysis of geothermal systems (Oh et al., 2025 [40]; Oh et al., 2024b [41]), was applied to compute the lifetime operating costs and delivered thermal energy. The simple payback period was computed by dividing the total capital investment by the average annual discounted revenue equivalent, assuming thermal energy displaces fuel priced at $102.72/MWh. The LCOH was calculated by dividing the total discounted lifetime operational cost, incorporated with capital costs, by the discounted energy output from the BTES.
+As described earlier, identical infrastructure was assumed in both scenarios: 40 boreholes at 91.44  m depth, equivalent surface piping lengths, circulating pumps, and a heat pump sized to meet the peak building heating load. This resulted in the same capital costs, implying the two different operational scenarios did not affect capital costs (Table 5). In contrast, operational costs differed due to how efficiently each scenario delivered thermal energy from the BTES. Scenario 1 involved continuous seasonal charging and discharging over 20 years but yielded slightly lower BTES thermal output (∼1.5 GWh/year) as discussed earlier. Limited initial charging reduced system efficiency in early years, increasing reliance on the heat pump and resulting in higher electricity consumption and a higher annual heat pump cost ($35,961/year). In Scenario 2, on the other hand, a 5-year pre-charging phase was introduced before seasonal operation began, allowing the BTES to reach a higher and more stable thermal output (∼1.63 GWh/year) during the 15-year operational phase, resulting in a reduction in the building's reliance on the heat pump. Consequently, the system achieved lower electricity use for supplemental heating and a reduced annual heat pump operating cost ($26,970/year). The slightly higher pumping cost observed in Scenario 2 reflects the greater pumping power required for the longer charging period, associated with longer surface piping used during charging (1,180 m piping length during charging periods vs. 280 m piping length during discharging periods).
+
+Table 5. Summary of economic metrics of the two scenarios.
+
+Empty Cell
+	Scenario 1	Scenario 2
+Capital Cost
+Drilling	$732 k
+Surface Piping	$665 k
+Circulating Pump	$1,300
+Heat Pump	$99 k
+Annual Operational Cost
+Circulating Pump	$1,303	$1,321.3
+Heat Pump	$35,961	$26,970
+Economic Metrics
+Simple Payback Period	0.6 year	0.8 year
+Levelized Cost of Heating	$3.8/MWh	$5.3/MWh
+The economic analysis showed that Scenario 1 achieves a shorter simple payback period of 0.6 years compared to 0.8 years in Scenario 2, with a lower LCOH at $3.8/MWh (Scenario 2 = $5.3/MWh). This difference is largely driven by the total thermal energy production over the system lifetime, Scenario 1 = 30 GWh and Scenario 2 = 26.1 GWh, as summarized in Table 4. The lower lifetime energy output in Scenario 2 was due to no energy production during the 5-year pre-charging phase, while pumping was still needed to charge the system. However, this analysis has significant limitations in how the heat pump's electricity consumption and capital costs were incorporated. In this techno-economic analysis, the heat pump was modeled with a constant COP of 2, implying a fixed ratio between thermal output and electrical input regardless of temperatures of the heat source provided by the BTES. This assumption treats the heat pump’s power consumption and capital costs as constant and includes them in the overall operational expenses and economic metrics. In reality, the heat pump’s efficiency should improve when operating with a higher temperature heat source, such as BTES output at elevated temperatures. When the BTES delivers thermal energy at higher temperatures, the required temperature lift for the heat pump decreases, typically resulting in an increased COP. This variable COP would reduce the heat pump’s electricity consumption and operating costs in scenarios where BTES thermal output is higher or more stable. By assuming a fixed COP, the model overlooks these potential energy savings, potentially overestimating heat pump electricity consumption and operational costs. Furthermore, this simplification limits the ability to directly relate BTES thermal performance improvements to reductions in heat pump energy use and associated costs.
+To isolate the technical and economic performance of the BTES field itself, it is useful to focus on BTES thermal output along with the capital and operational costs associated with circulating pumps. These elements provide a meaningful and direct measure of BTES system costs. In contrast, heat pump operational expenses, simple payback periods, and LCOH values should be viewed as high-level, conceptual indicators rather than precise economic metrics, since the current model’s assumption of a constant heat pump COP does not capture real-world efficiency variations linked to supply temperature. Incorporating a variable COP based on BTES output temperature would yield a more accurate and insightful representation of system performance and economics. Future research should focus on developing integrated models that dynamically link BTES thermal output temperatures with heat pump performance, enabling more precise techno-economic assessments.
+6. Conclusion
+This study evaluated the 20-year techno-economic performance of a BTES connected to geothermal heat pumps for supplying seasonal heating loads to two buildings in the Fairbanks area, Alaska. The evaluation was conducted comprehensively through building energy modeling, resource characterization, and numerical modeling for the BTES system’s 20-year performance under two scenarios, alongside rough estimations of economic metrics. The building energy modeling results indicated that the heating load (annual total) is 5.6 times higher than the cooling load. The soil type from the surface to a depth of 91 m (300 ft) ranged from gravel to sandy soils. Through the TRTs, the geothermal gradient in the study area was estimated as 27.9 °C/km. The characterized properties were used in the numerical modeling for 20-year operations of the BTES systems, and the key findings were as follows:
+•
+Both scenarios showed lower subsurface and extraction temperatures at the outer wells, potentially due to heat losses at the outer boundary of the BTES system and/or thermal energy accumulation at the center possibly resulting from conductive heat transfer from left to right side of the system.
+•
+The percentage decrease in subsurface temperatures from the center to outer (20.4 % and 21.7 % in the two scenarios, respectively) was more significant than that in outlet fluid temperatures from central and outer wells (9.3 % and 8 % in the two scenarios, respectively).
+•
+Average extraction temperatures over the 20-year lifetime were 6.3 °C and 6.8 °C in winter (injection temperature = 3°C) and 72.6 °C and 73.4 °C in summer (injection temperature = 80 °C), respectively.
+•
+The BTES system in both operational scenarios demonstrated the capacity to fully cover heating loads in the two buildings over the 20-year lifetime.
+•
+The 5-year preheating period in Scenario 2 increased the subsurface and production temperatures, and its benefit was approximately 8 years of higher annual average and total thermal energy production (372 kWh and 1.63 GWh in Scenario 2 vs. 342.9 kWh and 1.5 GWh in Scenario 1). However, due to the shorter period of energy production in Scenario 2, the lifetime thermal energy production in Scenario 2 (26.1 GWh) was lower than in Scenario 1 (30 GWh). Capital expenditures and operational costs related to the BTES field, including drilling, surface piping, and circulating pumps, were consistent across the two scenarios. These costs provide meaningful insight into the BTES system’s economic footprint independent of the heat pump operation, and highlight the significance of pumping power requirements for system efficiency and cost-effectiveness over time.
+Future studies are recommended to fully assess the benefits of the 5-year pre-heating period through a comprehensive techno-economic analysis that incorporates variable injection temperatures rather than constant values (3 °C in winter and 80 °C in summer), as these fixed assumptions may oversimplify real operational dynamics and affect the accuracy of cost and performance estimations.
+CRediT authorship contribution statement
+Hyunjun Oh: Writing – original draft, Visualization, Software, Methodology, Investigation, Formal analysis. Conor Dennehy: Writing – original draft, Visualization, Methodology, Investigation, Formal analysis, Data curation. Saqib Javed: Validation, Supervision, Resources, Methodology, Investigation. Robbin Garber-Slaght: Writing – review & editing, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Data curation, Conceptualization. Kyle Dunn: Writing – review & editing, Validation, Resources, Investigation, Formal analysis, Data curation, Conceptualization. Zachary J. Zody: Writing – review & editing, Visualization, Resources, Investigation, Formal analysis, Data curation. Jamie Potter: Writing – review & editing, Visualization, Validation, Data curation. Anna Wagner: Writing – review & editing, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Data curation, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was authored by the National Renewable Energy Laboratory for the U.S. Department of Energy (DOE) under Contract No. DE-AC36- 08GO28308. Funding provided by the U.S. Department of Energy Geothermal Technologies Office under Contract No. DE-EE0009962 and by the U.S Department of Defense Environmental Security Technology Certification Program Agreement No. IAG-21-18253-7. The views expressed in the article do not necessarily represent the views of the DOE or the U.S. Government. The U.S. Government retains and the publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this work, or allow others to do so, for U.S. Government purposes. The authors appreciate Amanda Kolker, Craig Turchi, Matthew Thornton, and Jennifer Kurtz at the National Renewable Energy Laboratory for their helpful input and reviews.
+Data availability
+The authors do not have permission to share data.
+References
+[1]
+C.A. De Swardt, J.P. Meyer
+A performance comparison between an air-source and a ground-source reversible heat pump
+Int. J. Energy Res., 25 (2001), pp. 899-910, 10.1002/er.730
+View in ScopusGoogle Scholar
+[2]
+H. Oh, K. Beckers, K. McCabe
+Geospatial characterization of low-temperature heating and cooling demand in residential, commercial, manufacturing, agricultural, and data center sectors for potential geothermal applications in the United States
+Renew. Sustain. Energy Rev., 206 (2024), Article 114875, 10.1016/j.rser.2024.114875
+View PDF
+View articleView in ScopusGoogle Scholar
+[3]
+R. Garber-Slaght, V. Stevens
+Ground Source Heat Pumps in Interior Alaska: Lessons learned from installed systems
+Technical Report, Cold Climate Housing Research Center, Fairbanks, AK (2014)
+http://cchrc.org/media/Ground-Source-Heat-Pumps-in-Interior-Alaska.pdf
+Google Scholar
+[4]
+Anderson, G. S. (1970). “Hydrologic reconnaissance of the Tanana basin, central Alaska.” Hydrologic Atlas 319. United States Geological Survey.
+Google Scholar
+[5]
+T. Jorgenson, K. Yoshikawa, M. Kanevskiy, Y. Shur, V. Romanovsky, S. Marchenko, G. Grosse, J. Brown, B. Jones
+Permafrost characteristics of Alaska
+University of Alaska, Fairbanks, AK, Proc. the Ninth Int. Conf. Permafrost (2008), pp. 121-122
+Google Scholar
+[6]
+R. Garber-Slaght
+Ground source heat pump demonstration in Fairbanks, Alaska – 2020 update
+Technical Report, Cold Climate Housing Research Center, Fairbanks, AK (2020)
+Google Scholar
+[7]
+R. Garber-Slaght, C. Craven, R. Peterson, R.P. Daanen
+Ground source heat pump demonstration in Fairbanks, Alaska
+Technical Report, Cold Climate Housing Research Center, Fairbanks, AK (2017)
+Google Scholar
+[8]
+S.K. Shah, L. Aye, B. Rismanchi
+Seasonal thermal energy storage system for cold climate zones: a review of recent developments
+Renew. Sustain. Energy Rev., 97 (2018), pp. 38-49, 10.1016/j.rser.2018.08.025
+View PDF
+View articleView in ScopusGoogle Scholar
+[9]
+N. Giordano, J. Raymond
+Alternative and sustainable heat production for drinking water needs in a subarctic climate (Nunavik, Canada): Borehole thermal energy storage to reduce fossil fuel dependency in off-grid communities
+Appl. Energy, 252 (2019), Article 113463, 10.1016/j.apenergy.2019.113463
+View PDF
+View articleView in ScopusGoogle Scholar
+[10]
+X. Wang, H. Zhang, L. Cui, J. Wang, C. Lee, X. Zhu, Y. Dong
+Borehole thermal energy storage for building heating application: a review
+Renew. Sustain. Energy Rev., 203 (2024), Article 114772, 10.1016/j.rser.2024.114772
+View PDF
+View articleView in ScopusGoogle Scholar
+[11]
+S. Pokhrel, L. Amiri, A. Zueter, S. Poncet, F. Hassani, A. Sasmito, S.A. Ghoreishi-Madiseh
+Thermal performance evaluation of integrated solar-geothermal system; a semi-conjugate reduced order numerical model
+Appl. Energy, 303 (2021), Article 117676
+View PDF
+View articleView in ScopusGoogle Scholar
+[12]
+E. Ekmekci, Z.F. Ozturk, A. Sisman
+Collective behavior of boreholes and its optimization to maximize BTES performance
+Appl. Energy, 343 (2023), Article 121208
+View PDF
+View articleView in ScopusGoogle Scholar
+[13]
+E. Ekmekci, M. Aydin, Z.F. Ozturk, A. Sisman
+Very high temperature BTES: a potential for operationally cost-free and emission-free heating
+Appl. Energy, 360 (2024), Article 122859
+View PDF
+View articleView in ScopusGoogle Scholar
+[14]
+N. Rapantova, P. Pospisil, J. Koziorek, P. Vojcinak, D. Grycz, Z. Rozehnal
+Optimisation of experimental operation of borehole thermal energy storage
+Appl. Energy, 181 (2016), pp. 464-476
+View PDF
+View articleView in ScopusGoogle Scholar
+[15]
+S. Durga, K. Beckers, M. Taam, F. Horowitz, L. Cathles, J.W. Tester
+Techno-economic analysis of decarbonizing building heating in Upstate New York using seasonal borehole thermal energy storage
+Energ. Buildings, 241 (2021), Article 110890
+View PDF
+View articleView in ScopusGoogle Scholar
+[16]
+L. Miró, J. Gasia, L.F. Cabeza
+Thermal energy storage (TES) for industrial waste heat (IWH) recovery: a review
+Appl. Energy, 179 (2016), pp. 284-301
+View PDF
+View articleView in ScopusGoogle Scholar
+[17]
+F. Guo, X. Zhu, J. Zhang, X. Yang
+Large-scale living laboratory of seasonal borehole thermal energy storage system for urban district heating
+Appl. Energy, 264 (2020), Article 114763
+View PDF
+View articleView in ScopusGoogle Scholar
+[18]
+R. Garber-Slaght, S. Keays
+Hybrid ground source heat pump at Weller Elementary School in Fairbanks, Alaska
+Technical Report, Cold Climate Housing Research Center, Fairbanks, AK (2014)
+Google Scholar
+[19]
+J. Wołoszyn
+Global sensitivity analysis of borehole thermal energy storage efficiency on the heat exchanger arrangement
+Energ. Conver. Manage., 166 (2018), pp. 106-119, 10.1016/j.enconman.2018.04.009
+View PDF
+View articleView in ScopusGoogle Scholar
+[20]
+G. Qiu, K. Li, W. Cai, S. Yu
+Optimization of an integrated system including a photovoltaic/thermal system and a ground source heat pump system for building energy supply in cold areas
+Appl. Energy, 349 (2023), Article 121698, 10.1016/j.apenergy.2023.121698
+View PDF
+View articleView in ScopusGoogle Scholar
+[21]
+A. Buscemi, M. Beccali, S. Guarino, V.L. Brano
+Coupling a road solar thermal collector and borehole thermal energy storage for building heating: first experimental and numerical results
+Energ. Conver. Manage., 291 (2023), Article 117279, 10.1016/j.enconman.2023.117279
+View PDF
+View articleView in ScopusGoogle Scholar
+[22]
+E. Ryan, B. McDaniel, D. Kosanovic
+Application of thermal energy storage with electrified heating and cooling in a cold climate
+Appl. Energy, 328 (2022), Article 120147, 10.1016/j.apenergy.2022.120147
+View PDF
+View articleView in ScopusGoogle Scholar
+[23]
+B. Welsch, L. Göllner-Völker, D.O. Schulte, K. Bär, I. Sass
+Environmental and economic assessment of borehole thermal energy storage in district heating systems
+Appl. Energy, 216 (2018), pp. 73-90, 10.1016/j.apenergy.2018.02.011
+View PDF
+View articleView in ScopusGoogle Scholar
+[24]
+N. Catolico, S. Ge, J.S. McCartney
+Numerical Modeling of a Soil‐Borehole thermal Energy Storage System
+Vadose Zone J., 15 (1) (2016), pp. 1-17
+CrossrefGoogle Scholar
+[25]
+T. Xue, J. Jokisalo, R. Kosonen, M. Vuollo, F. Marongiu, S. Vallin, N. Leppaharju, T. Arola
+Experimental evaluation of IDA ICE and COMSOL models for an asymmetric borehole thermal energy storage field in Nordic climate
+Appl. Therm. Eng., 217 (2022), Article 119261, 10.1016/j.applthermaleng.2022.119261
+View PDF
+View articleView in ScopusGoogle Scholar
+[26]
+M. Baechler, T.L. Gilbride, P.C. Cole, M.G. Hefty, K. Ruiz
+Building America best practices series – volume 7.3: guide to determining climate regions by county. Building America Program. the U.S. Department of
+Energy (2015)
+Google Scholar
+[27]
+S. Wilcox W. Marion “User Manual for TMY3 Data Sets.” Technical Report, NREL/TP-581-43156, National Renewable Energy Laboratory 2008 Golden, CO.
+Google Scholar
+[28]
+E. Davalos-Elizondo, A. Kolker, I. Warren
+Low-temperature geothermal geospatial datasets: an example from Alaska
+Proc., 48Th Workshop on Geothermal Reservoir Engineering, Stanford University, Stanford, CA (2023)
+Google Scholar
+[29]
+Koehler, R. D. and Carver, G. A. (2018). “Active faults and seismic hazards in Alaska.” Miscellaneous Publication 160, Alaska Division of Geological and Geophysical Surveys, https://doi-org.colorado.idm.oclc.org/10.14509/29705.
+Google Scholar
+[30]
+M.S. Robinson, T.E. Smith, P.A. Metz
+“bedrock Geology of the Fairbanks Mining District”. Alaska Division of Geological and Geophysical Surveys Professional Report 106, 2 Sheets, scale 1 (1990), Article 360
+https://doi-org.colorado.idm.oclc.org/10.14509/2287
+Google Scholar
+[31]
+Z.J. Zody, V. Gisladottir
+“Shallow Geothermal Technology, Opportunities in Cold Regions, and Related Data for Deployment at Fort Wainwright.” Technical Report, ERDC/CRREL TR-23-1
+Cold Regions Research and Engineering Laboratory, u.s, Army Engineer Research and Development Center (2023)
+Google Scholar
+[32]
+Holdmann, G. (2007). “The Chena hot springs 400kW geothermal power plant: Experience gained during the first year of operation.” In Geothermal Resources Council 2007 Annual Meeting, 31, 515–519, Sparks (Reno), NV.
+Google Scholar
+[33]
+ASHRAE – American Society of Heating, Refrigerating and Air-Conditioning Engineers
+ASHRAE Guideline 14-2014: Measurement of Energy, demand, and Water Savings
+American Society of Heating, Refrigerating and Air-Conditioning Engineers Inc, Atlanta, GA (2014)
+Google Scholar
+[34]
+M.V. Lurie Modeling of Oil Product and Gas Pipeline Transportation 2008 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim 10.1002/9783527626199.
+Google Scholar
+[35]
+C. Montagud, J.M. Corberán, F. Ruiz-Calvo
+Experimental and modeling analysis of a ground source heat pump system
+Appl. Energy, 109 (2013), pp. 328-336
+View PDF
+View articleView in ScopusGoogle Scholar
+[36]
+M.A. Khan, J.X. Wang
+Development of a graph method for preliminary design of borehole ground-coupled heat exchanger in North Louisiana
+Energ. Buildings, 92 (2015), pp. 389-397
+View PDF
+View articleView in ScopusGoogle Scholar
+[37]
+D.B. McWhorter, D.K. Sunada
+Ground-Water Hydrology and Hydraulics
+Water Resources Publications, LLC, Littleton CO (1977)
+Google Scholar
+[38]
+A.C. Ganzhorn, H. Pilorgé, B. Reynard
+Porosity of metamorphic rocks and fluid migration within subduction interfaces
+Earth Planet. Sci. Lett., 522 (2019), pp. 107-117
+View PDF
+View articleView in ScopusGoogle Scholar
+[39]
+I.N. Hamdhan, B.G. Clarke
+Determination of thermal conductivity of coarse and fine sand soils
+Proc, World Geothermal Congress, Bali, Indonesia (2010)
+Google Scholar
+[40]
+H. Oh, W. Jin, P. Peng, J.A. Winick, D. Sickinger, D. Sartor, Y. Zhang, K. Beckers, K. Kitz, D. Acero-Allard, T.A. Atkinson, P. Dobson
+Techno-economic performance of reservoir thermal energy storage for data center cooling system
+Appl. Energy, 391 (2025), Article 125858, 10.1016/j.apenergy.2025.125858
+View PDF
+View articleView in ScopusGoogle Scholar
+[41]
+H. Oh, S. Akar, K. Beckers, E. Bonnema, C. Vivas, S. Salehi
+Techno-economic feasibility of geothermal energy production using inactive oil and gas wells for district heating and cooling systems in Tuttle, Oklahoma
+Energ. Conver. Manage., 308 (2024), Article 118390, 10.1016/j.enconman.2024.118390
+View PDF
+View articleView in ScopusGoogle Scholar
+Cited by (2)
+Performance analysis and optimal operation of PCM-backfilled energy pile for cold energy storage: A field test study
+2025, Energy
+Show abstract
+Multi-objective optimization scheduling of off-grid combined heat, power, and hydrogen production systems in cold regions under fluctuating demand: The case of Korla
+2025, Energy
+Show abstract
+© 2025 The Authors. Published by Elsevier B.V.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2025 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

@@ -1,0 +1,398 @@
+Skip to main content
+Skip to article
+View PDF
+Download full issue
+Journal of Hazardous Materials Letters
+Volume 3, November 2022, 100071
+Ingested microplastics: Do humans eat one credit card per week?
+Author links open overlay panel
+Martin Pletz
+Show more
+Share
+Cite
+https://doi-org.colorado.idm.oclc.org/10.1016/j.hazl.2022.100071
+Get rights and content
+Under a Creative Commons license
+Open access
+Highlights
+•
+The statement that humans ingest 5 g of microplastics per week is reviewed.
+•
+The calculation of 0.1 g – 5 g (one credit card) per week contains severe errors.
+•
+Great care must be taken when combining microplastic data of different measurements.
+Abstract
+Ingested Microplastic (MP) particles can harm the human body. Estimations of the total mass of ingested MP particles correspond to 50 plastic bags per year (Bai et al., 2022), one credit card per week (Gruber et al., 2022), or a median value of 4.1 μg/week for adults (Mohamed Nor et al., 2021). The first two estimations are based on an analysis (Senathirajah et al., 2021) that predicts a total ingested mass of MP particles mi,MP of 0.1–5 g/week. This work revisits and evaluates this calculation and compares its results and methods to Mohamed Nor et al. (2021). Senathirajah combines data of averaged MP particle masses
+m¯MP
+ from papers that reported MP particle sizes and MP particle counts nMP in shellfish, salt, beer, and water based on other papers that detected MP particles. Combined with the estimated weekly consumption of those consumables, they compute mi,MP. This work raises some serious issues of Senathirajah in the way they combine data and they obtained particle sizes. It concludes that Senathirajah overestimates mi,MP by several orders of magnitude and that mi,MP can be considered as a rather irrelevant factor for the toxic effects of MP particles on the human body.
+Graphical Abstract
+Download: Download high-res image (196KB)
+Download: Download full-size image
+Previous
+Next
+Keywords
+MicroplasticsSize distributionIngestionHuman health
+1. Introduction
+Recently, the ingestion and inhalation of Microplastic (MP) particles by humans has gotten increasing attention. MP particles have been detected in various organs in the human body (such as placentas (Ragusa et al., 2021)). Detailed studies about the harm of MP particles to the human system, however, are still missing. Three mechanism have been suggested in the literature (Gruber et al., 2022): a) MP particles can be carriers for other toxins, b) substances in the plastics can be harmful, and c) MP particles can enter human cells and cause harm, there. Mice studies showed that the gut microbiota can be considerably effected and inflammation can be induced by MP ingestion (Li et al., 2020).
+It can be assumed that smaller particles are more harmful regarding mechanism c. Lim (2021) states size limits for MP particles crossing into human cells and the blood-brain barrier as 700 nm and 200 nm, respectively. Therefore, the effect of MP particles on cell cultures has been studied, such that their cytotoxicity can be evaluated. This has been done for colon cell cultures, where a distinct dependence of the toxicity mechanisms on the particle size was found (Wu et al., 2019). Another work evaluated the MP’s cytotoxicity for blood lymphocytes (Cobanoglu et al., 2021). In extreme cases of particles of a few nm, the particle size can be more relevant than the material (Akhavan et al., 2012), and other effects like surface charge can play a role for cytotoxicity (Roshanzadeh et al., 2020).
+Apart from the size and type of plastic of the MP particles, the amount of ingested particles is another key factor for the toxic effects on the human body. This amount can be estimated as the total number of ingested particles ni,MP (Cox et al., 2019) or the total ingested MP mass mi,MP. Two review papers reported mi,MP and compared it to everyday objects: First, “People may eat 50 plastic bags due to MPs pollution in food every year” (Bai et al., 2022) and second, “on average we ingest five grams of MPs per week per person (roughly corresponding to the mass of a credit card)” (Gruber et al., 2022).
+Bai predicts ingested MP mass from other studies that reported the ingested MP particle numbers and took a mean particle size from a review paper (Senathirajah et al., 2021). The quality of Bai’s analysis has been criticized in a letter to the editor (Lu et al., 2022), particularly for the disregard of the particle size distribution in the calculation of ingested MP mass.
+Gruber refers to a WWF report (Senathirajah and Palanisami, 2019), which states that “humans may be ingesting as much as 5 g/week of microplastics”, and that “up to 5 g/week of microplastic particles is potentially ingested by humans”. The WWF report presents preliminary results of a review paper (Senathirajah et al., 2021). The statement of Gruber, albeit only a small point in their paper, has been used as the leading sentence in a press release of the Medical University of Vienna (Medical University of Vienna, 2022) and has been further spread in newspapers such as the New York Post (Kato, 2022).
+The obtained mi,MP of both papers can be traced back to the calculations made by Senathirajah, who have made a first estimation of the total mass of ingested MP particles mi,MP. They combine data from other studies (MP particle size, particle count in consumables (shellfish, salt, beer, water), and amount of the yearly intake of those consumables) to calculate mi,MP. Three scenarios that differ in mean particle mass prediction yield an mi,MP of 5.5, 0.3, and 0.1 g/week, respectively.
+Apart from the issue that Gruber state that mi,MP is 5 g on average and not 0.1–5 g (as criticized already in a YouTube video (Green, 2022)), the upper limit of 5 g/week seems to be unreasonably high and both the upper and lower limit lie considerably above the predictions of Mohamed Nor et al. (2021) (median value of 4.1 μg/week for adults). This work thus analyzes the mi,MP calculation method of Senathirajah and describes possible issues of their analysis. Apart from some obvious contradictions, there is also a methodological issue with the combination of particle number and particle size data from different sources.
+2. Revisiting the mass mi,MP of Senathirajah
+The ingested MP mass mi,MP of 0.1–5.5 g/week is calculated from the number of ingested MP particles Ni,MP times the average MP particle mass
+m¯MP
+ for all regarded MP sources (shellfish, salt, beer, and drinking water). Ni,MP is calculated as the number of particles nMP per kg (shellfish, salt) or per liter (beer, drinking water) times the ingested amount Ai of this source:
+(1)
+mi,MP=∑cons.Ni,MPm¯MP=∑cons.nMPAim¯MP
+The mean particle mass and the particle count are obtained from different studies. The amount of ingested consumables follows other studies or dietary recommendations. Senathirajah assumes that humans consume 219 liters of bottled water and 3.25–4.38 kg of salt each year.
+2.1. Mean particle mass
+The mean MP mass
+m¯MP
+ is taken from reported MP particle counts and their corresponding total mass (scenario 1) or from particle size distributions (scenarios 2 and 3). In scenario 1 of Senathirajah, drinking water accounts for 90% of mi,MP. In scenarios 2 and 3, salt accounts for 96% of mi,MP, so the calculation of
+m¯MP
+ for water and salt are discussed in the following.
+2.1.1. Scenario 1: mMP in water
+Scenario 1 obtains the mean particle mass from studies that report the total mass of detected MP particles MMP and the corresponding number of MP particles NMP. For the ingested MP particles in drinking water, this is done using data from the oceanic environment. Senathirajah regards works with minimum and maximum mass and particle count (It is not clear how they distinguish between the two) and Senathirajah lists them in the supplementary materials in Table S5 and S6. Figure 1 plots these data points of NMP and MMP. Note that with a double-logarithmic scale, points on a line with the slope 1 share the same mMP. Most points originate from one study (Eriksen et al., 2014) and are plotted using x-markers. Eriksen reports different size ranges in different oceans, and Senathirajah uses the size range of 0.33 mm – 1 mm to obtain the mean particle mass. Some data points in the supplementary materials of Senathirajah were supposedly from the study of Eriksen, but cannot be found, there (these data points are marked as black x-signs in Figure 1). The references of the other data points can be found in table S2 of Senathirajah.
+Download: Download high-res image (149KB)
+Download: Download full-size image
+
+Fig. 1. Reported MP particle numbers NMP and total MP mass MMP Senathirajah uses to obtain the mean particle mass of 2.8 mg for scenario 1. Most data points are taken from (Eriksen et al., 2014).
+
+Senathirajah states that they used those data points and remove outliers, which yields a mean mMP of 2.8 mg. In the double-logarithmic scale of Figure 1, this corresponds to the blue line. Therefore, the obtained mMP basically corresponds to the data points from Eriksen in the size range of 0.33 – 1 mm. Figure 1 additionally contains lines that correspond to spherical particles with a diameter of 0.33 mm, 1 mm, and 4.75 mm (assumption of an MP density of 1.4 kg/liter). Note that all data points of Eriksen in the 0.33 – 1 mm range have average particle sizes above 1 mm, even for cubic particle shapes.
+2.1.2. Scenarios 2 and 3: mMP in salt
+In scenarios 2 and 3, 96% of the mi,MP is made up of salt, which is based on two studies (Karami et al., 2017, Kim et al., 2018 concerning the MP particle size in salt. Senathirajah does not describe how exactly they obtain an
+m¯MP
+ of 13 mg (scenario 2, assumption of spherical particles) and 25 mg (scenario 3, assumption of cubic particles) in salt. For an MP density in salt of 0.98 g/cm3, the particle size for these masses is 2.94 mm. The first source of the mi,MP in salt (Karami et al., 2017), detected particles with sizes between
+amin=149
+ µm and
+amax=1
+ mm. They compute a mean particle size of
+a¯=0.515
+ mm. The second source (Kim et al., 2018), detected MP particles in various salts in the size range of 0.1 mm – 5 mm, with most MP particles being small and fragment- or fiber-shaped.
+2.2. Particle counts in consumables
+The particle counts nMP of Senathirajah are taken from other studies that detected MP particles in the shellfish, salt, beer, and drinking water. The fact that the lower detection limit
+amin
+ affects the number of detected particles is not taken into account for the mi,MP calculation. The minimum particle size
+amin
+ of the cited studies is in the range of 5 μm, and detected particle counts nMP increase with decreasing
+amin
+, see Figure 2. For example, in the cited paper with the highest
+amin
+ of 100 μm (Strand et al., 2018), only 0.0033 particles/liter are detected (15.6 particles/50 liters, and 3% of them were identified as MP). The study with the lowest detection limit of 1 μm (Oßmann et al., 2018) found 2669 particles/liter and 6292 particles/liter in water from PET and glass bottles, respectively, with 90% of the particles smaller than 5 μm. The same trend and a similar plot of detected MP particles in salt has been reported (Kim et al., 2018). The blue and orange lines in Figure 2 mark the minimum and maximum number of particles Senathirajah obtains. It is not clear how this range has been derived from these data points.
+Download: Download high-res image (106KB)
+Download: Download full-size image
+
+Fig. 2. MP particle counts nMP in drinking water plotted over the detection limit
+amin
+ of the papers cited by Senathirajah (the blue and orange dashed lines state their nMP range) that report an
+amin
+ in their study (Pivokonsky et al., 2018, Kosuth et al., 2018, Strand et al., 2018, Schymanski et al., 2018, Mason et al., 2018; Oßmann et al., 2018). Note that both axes are logarithmic.
+
+3. Issues with predicted mi,MP of Senathirajah
+As mentioned in Section 2, the mi,MP calculation of Senathirajah is not comprehensive and some of their calculated
+m¯MP
+ can be considered as flawed. Furthermore, the MP mass for drinking water is estimated from MP measurements in the oceans and the particle counts per liter from drinking water, where the particle sizes could be quite different. For example, distinct differences in the particle size distributions in different environments has been reported (Kooi, 2021). Furthermore, the calculated
+m¯MP
+ for water in scenario 1 and salt in scenarios 2 and 3 of Senathirajah do not make sense:
+•
+For
+m¯MP
+ in water, scenario 1 is supposed to use studies with particle sizes between 0 mm and 1 mm to estimate the MP mass. However, for their mean particle mass of 2.8 mg and the density of 1.4 g/cm3 they assume for MPs in water, their size is bigger than 1 mm: A diameter of 1.56 mm for a spherical particle and an edge length of 1.26 mm for a cubic particle. This issue of has already been pointed out (Kim and Song, 2021), and is already evident in the study (Eriksen et al., 2014) that Senathirajah base their calculation on.
+•
+The obtained mean MP particle size of 2.94 mm in salt of scenarios 2 and 3 does not seem plausible. It is based on two studies. The first study (Karami et al., 2017) reports
+amin=149
+ μm,
+amax=1
+ mm, and
+a¯MP=0.515
+ mm, with most of the MP particles being fragment-shaped. The second study (Kim et al., 2018) detects particles with aMP between 0.1 mm and 5 mm. In the supplementary materials, Kim take into account the detected MP shapes to compute an MP content in salt of 0.1–100 mg MP/kg salt. When assuming an annual salt consumption of 3.25–4.38 kg from Senathirajah, this results in a yearly MP consumption from salt between 0.00033 g and 0.44 g and not 7.4 g and 14.2 g, as Senathirajah obtains in scenario 2 and 3, respectively.
+Even for realistic mean particle sizes
+m¯MP
+, there remains the issue of combining
+m¯MP
+ and nMP from measurements with different detection limits
+amin
+. Senathirajah uses a much smaller
+amin
+ for nMP than for
+m¯MP
+. The cited works for nMP state that most of the detected particles were in the smallest size range of a few μm. It is thus obvious that assuming bigger MP particles with a size above 1 mm and then using MP counts, where particles down to 1 μm were detected, leads to a vast overestimation of mi,MP.
+Even in scenarios 2 and 3, where mi,MP is 0.1 g/week and 0.3 g/week, respectively, the assumption of the spherical or cubic particle shape is quite questionable and does not match the observations from literature. For example, in the particle size range above 50 μm (which contributes most to the total MP mass), fragments and fibers make up most of the detected MP particles (Lim, 2021). Considering the particle size as the biggest dimension (Kim et al., 2018), fragments and fibers have considerably lower masses than spheres or cubes for the same particle size.
+4. Computing mi,MP using particle size distributions
+In scenarios 2 and 3, Senathirajah uses one study (Cai et al., 2018) that report a particle size distribution in drinking water. Figure 3 shows this distribution and a similar distribution from literature (Erni-Cassola et al., 2017) as bar plots. Cai and Erni in total detected 200 particles with
+amin=50
+ μm and 199 particles with
+amin=20
+ μm, respectively. Erni argues that this size distribution can be approximated by a power-law function, written as
+dnda=g(a)=Ba−r
+, with g(a) denoting the density function of the particle number, a the particle size, and B and r fitting parameters. The function g(a) is defined such that its integral yields the number of particles in the range (
+amin,amax
+):
+(2)
+nMP=∫aminamaxg(a)da=B1−ramax1−r−amin1−r
+Download: Download high-res image (132KB)
+Download: Download full-size image
+
+Fig. 3. Bar plot of reported particle counts depending on the particle size aMP (Cai et al., 2018, Erni-Cassola et al., 2017. The bar height corresponds to the particles divided by the a range of the bar. The dashed curves have been fitted to the bars.
+
+Down to a certain particle size of about 1 μm, this function approximates the PSD of MP particles well (Kooi, 2021). It is widely used to approximate measured PSDs in aquatic environments (Erni-Cassola et al., 2017, Buonassissi and Dierssen, 2010, Kooi, 2021, Runyan et al., 2020. Least square fits of the particle size distributions are plotted as dashed lines in Figure 3. Note that the for the fit of the Cai data, the leftmost bar was ignored, because their detection limit was 50 μm so that only few particles below 50 μm were detected. The exponent r increases from 1.67 to 1.98 with decreasing
+amin
+, indicating that the actual r might be higher.
+This fits with r values reported in other works that deal with MP particle size distributions: MP particles were analyzed in oceans and r values between 2.7 and 4.7 were obtained (Buonassissi and Dierssen, 2010). Another study (Kooi, 2021) reports r = 2.2 at the marine surface, 3.1 in biotas, and states that the obtained r depends on the environment and polymer type. Furthermore, an r = 2.87 – 4 was obtained in arctic oceans (Runyan et al., 2020).
+In the following, the Particle Size Distribution (PSD) is used to evaluate errors due to the disregard of the particle size distribution in predicting mi,MP. With the volume of one particle V depending on the particle size a, the PSD function can predict the total MP mass MMP in the size range (
+amin,amax
+) as
+(3)
+MMP=∫aminamaxg(a)V(a)da.
+The volume V(a) is a linear, quadratic, or cubic function of a for the 1d (fiber), 2d (flake), and 3d (spheres, cubes) particles, respectively: V = C ad, with C as a constant and d denoting the number of dimensions. The mass then calculates as
+(4)
+MMP=CBρr−d−1amax1+d−r−amin1+d−r.
+The total MP mass can thus be calculated based on the PSD function parameters. To avoid issues with unrealistically big particles or unrealistic particle counts for a approaching zero, in the following, mi,MP is obtained in the size range of 1 μm to 1 mm.
+In contrast to Senathirajah, Mohamed Nor et al. (2021) use the above-stated power-law PSD function in their analysis. They take the particle size distributions from other studies, exclude data below their detection limit, and fit the two parameters of the power law. Thus, they calculate the amount of particles with a size between 1 μm and 5 mm. They furthermore consider distributions in the density and aspect ratio of the particles to increase the accuracy of the computed mi,MP results. The obtained mi,MP of Mohamed Nor et al. (2021) can be considered to be as accurate as it gets regarding the limitations of data available in the literature (for 8 food sources and air, Mohamed Nor et al. (2021) used 12 studies with 15 data-sets and assumed similar particle size distributions for all food sources).
+4.1. Estimation of mi,MP error in Senathirajah
+Assuming that the particle size distribution follows the power law, the total detected MP mass MMP for a minimum detected particle size
+amin
+ can be calculated. Figure 4 plots MMP relative to MMP with
+amin=1
+ μm. Curves for exponents r of 2.1, 3.1, and 4.1 and the particle shapes 1d, 2d, and 3d are shown. Note that in the integral for mMP, the exponent r and the exponents for the shape of the particle are added, so that some of the curves coincide. For low r values and for 3d particles, the bigger particles contribute most to the total mass. For high r values and 1d-shaped particles, the smallest particles contribute most and the detection limit must be very low to yield an accurate total MP mass. For 3d particles and typical r values of 3.1, a detection limit of 50 μm (Cai et al., 2018) leads to an underestimation of MMP of 7%.
+Download: Download high-res image (108KB)
+Download: Download full-size image
+
+Fig. 4. Relative total particle mass for
+aMP>amin
+, depending on the particle shape. Exponents r of the particle size distributions of 2.1, 3.1, and 4.1 are shown. For higher exponents r and fibers, the smallest particles contribute most to the total mass.
+
+Using the PSD, the procedure of combining data with different detection limits
+amin
+ for the mean particle mass (amin,m) and data for the particle count (amin,n) can be looked into in more detail. Assuming that the particle size follows the power law, the actual MMP can be calculated from Equation (4). Then, the number of detected particles nMP above amin,n can be computed. On the other hand, the mean particle size
+a¯MP
+ (or weight) can be calculated with Equations (2) and (4) using amin,m. From nMP and
+a¯MP,MMP
+ can be predicted in this way and compared to the actual MMP. Figure 5 plots such results for 3d particles as contour plots for r = 2.1 and r = 4.1. If
+amin
+ for nMP is smaller than for
+a¯MP
+, the total mass is underestimated. If
+amin
+ for nMP is bigger than for
+a¯MP
+ (Senathirajah et al., 2021), the mass is overestimated. If both
+amin
+ values are the same, the mass is accurate for a small
+amin
+ and then becomes smaller according to the results shown in Figure 4. This error of predicted MMP is most distinct for 3d particles, because for them, the mean mass drastically increases if only bigger particles are used.
+Download: Download high-res image (191KB)
+Download: Download full-size image
+
+Fig. 5. Factor in the MMP prediction if
+amin
+ of the measurement for mean particle size and measurement for particle count is different for r = 2.1 (top) and r = 4.1 (bottom). The plots assume 3d particles. The red x markers indicate the typical
+amin
+ values Senathirajah use for water.
+
+The x markers in Figure 5 show the average (amin,n, amin,m) values used by Senathirajah for drinking water in scenario 2 and 3 (5 μm for nMP and 50 μm for
+a¯MP
+). For spherical or cubic particles, this corresponds to an overestimation of mi,MP of a factor of 15 and 500 for r = 2.1 and r = 4.1, respectively. This factor could be used to correct mi,MP predictions in scenarios 2 and 3 in Senathirajah, except for salt where
+m¯MP
+ does not make sense.
+5. Conclusions
+Senathirajah combines data of studies that differ in detected particle size and source to obtain the total ingested MP mass mi,MP of 0.1–5 g/week. Considering the size distribution of MP particles, which approximately follows a power-law function, this combination can induce mi,MP errors by several orders of magnitude. Furthermore, the evaluation of mean particle mass for water in scenario 1 contradicts their assumptions: It is stated that a particle size range of 0–1 mm is investigated, but the mean particle mass of 2.8 mg corresponds to particle sizes above 1 mm. Also, the salt particle size of 2.94 mm is not reproducible and unrealistically high.
+Assuming spherical particles and an annual consumption stated by Senathirajah (219 liters of bottled water and an average of 3.8 kg of salt per year), one liter of water on average contains 420 MP particles with a diameter of 1.56 mm and one kg of salt contains 148 MP particles with a diameter of 2.94 mm.
+In combination with the particle counts that detected particles down to about 5 μm and the unrealistic assumption of spherical or cubic particle shapes, it is obvious that both the maximum and minimum mi,MP calculated by Senathirajah considerably overestimate the MP ingestion. More comprehensible data on mi,MP is reported in a recent study (Mohamed Nor et al., 2021) that evaluates the ingested MP mass with the aim to predict the accumulation of MP in human bodies. Mohamed Nor does account for the size ranges of the used studies and also for the particle shapes, and obtains a median mi,MP of 4.1 μg/week for adults. They cite Senathirajah and the WWF report, and dryly state that their mi,MP of up to 5 g/week “does not represent the intake of an average person”. Indeed, the mi,MP of 5 g/week is by a factor of about 106 higher than their median value, which means that a human eats a credit card worth of MPs not every week but every 23 thousand years.
+Furthermore, mi,MP is not a relevant parameter for assessing the harm to humans. It is widely agreed upon that smaller particles can enter the bloodstream and organs more easily than bigger particles. For very small sizes of about 10 nm, the material of the particles might not even play a role any more (Akhavan et al., 2012). However, detailed studies of MP particles on the human body are still missing. Therefore, future work should identify the mechanisms of toxic effects of MP particles depending on the particle size. The size ranges with the highest toxicity of MP particles could be specifically detected in future studies and concepts for reducing the number of MP particles in these size ranges can be proposed.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Data availability
+Data will be made available on request.
+References
+Akhavan et al., 2012
+O. Akhavan, E. Ghaderi, A. Akhavan
+Size-dependent genotoxicity of graphene nanoplatelets in human stem cells
+Biomaterials, 33 (2012), pp. 8017-8025, 10.1016/j.biomaterials.2012.07.040
+View PDF
+View articleView in ScopusGoogle Scholar
+Bai et al., 2022
+C.L. Bai, L.Y. Liu, Y.B. Hu, E.Y. Zeng, Y. Guo
+Microplastics: a review of analytical methods, occurrence and characteristics in food, and potential toxicities to biota
+Sci. Total Environ., 806 (2022), Article 150263, 10.1016/j.scitotenv.2021.150263
+View PDF
+View articleView in ScopusGoogle Scholar
+Buonassissi and Dierssen, 2010
+C.J. Buonassissi, H.M. Dierssen
+A regional comparison of particle size distributions and the power law approximation in oceanic and estuarine surface waters
+2010JC006256
+J. Geophys. Res.: Oceans, 115 (2010), 10.1029/2010JC006256
+Google Scholar
+Cai et al., 2018
+M. Cai, H. He, M. Liu, S. Li, G. Tang, W. Wang, P. Huang, G. Wei, Y. Lin, B. Chen, J. Hu, Z. Cen
+Lost but can’t be neglected: huge quantities of small microplastics hide in the South China Sea
+Sci. Total Environ., 633 (2018), pp. 1206-1216, 10.1016/j.scitotenv.2018.03.197
+View PDF
+View articleView in ScopusGoogle Scholar
+Cobanoglu et al., 2021
+H. Cobanoglu, M. Belivermis, E. Sikdokur, O. Kilic, A. Cayir
+Genotoxic and cytotoxic effects of polyethylene microplastics on human peripheral blood lymphocytes
+Chemosphere, 272 (2021), Article 129805, 10.1016/j.chemosphere.2021.129805
+View PDF
+View articleView in ScopusGoogle Scholar
+Cox et al., 2019
+K.D. Cox, G.A. Covernton, H.L. Davies, J.F. Dower, F. Juanes, S.E. Dudas
+Human consumption of microplastics
+Environ. Sci. Technol., 53 (2019), pp. 7068-7074, 10.1021/acs.est.9b01517
+View in ScopusGoogle Scholar
+Eriksen et al., 2014
+M. Eriksen, L.C.M. Lebreton, H.S. Carson, M. Thiel, C.J. Moore, J.C. Borerro, F. Galgani, P.G. Ryan, J. Reisser
+Plastic pollution in the World’s Oceans: more than 5 trillion plastic pieces weighing over 250,000 Tons Afloat at Sea
+PLoS ONE, 9 (2014), Article e111913, 10.1371/journal.pone.0111913
+View in ScopusGoogle Scholar
+Erni-Cassola et al., 2017
+G. Erni-Cassola, M.I. Gibson, R.C. Thompson, J.A. Christie-Oleza
+Lost, but Found with Nile Red: a novel method for detecting and quantifying small microplastics (1 mm to 20 μm) in environmental samples
+Environ. Sci. Technol., 51 (2017), pp. 13641-13648, 10.1021/acs.est.7b04512
+View in ScopusGoogle Scholar
+Green, 2022
+Green, H., 2022.Are You Eating a Credit Card Every Week? 〈https://youtu.be/2Ntp6BqhSng〉.
+Google Scholar
+Gruber et al., 2022
+E.S. Gruber, V. Stadlbauer, V. Pichler, K. Resch-Fauster, A. Todorovic, T.C. Meisel, S. Trawoeger, O. Hollóczki, S.D. Turner, W. Wadsak, A.D. Vethaak, L. Kenner
+To Waste or not to waste: questioning potential health risks of micro- and nanoplastics with a focus on their ingestion and potential carcinogenicity
+Expo. Health (2022), 10.1007/s12403-022-00470-8
+Google Scholar
+Karami et al., 2017
+A. Karami, A. Golieskardi, C. Keong Choo, V. Larat, T.S. Galloway, B. Salamatinia
+The presence of microplastics in commercial salts from different countries
+Sci. Rep., 7 (2017), p. 46173, 10.1038/srep46173
+View in ScopusGoogle Scholar
+Kato, 2022
+B. Kato
+You’re eating a credit card’s worth of plastic a week – and it’s killing your gut
+N. Y. Post (2022)
+Google Scholar
+Kim et al., 2018
+J.S. Kim, H.J. Lee, S.K. Kim, H.J. Kim
+Global pattern of microplastics (MPs) in commercial food-grade salts: sea salt as an indicator of seawater MP pollution
+Environ. Sci. Technol., 52 (2018), pp. 12819-12828, 10.1021/acs.est.8b04180
+View in ScopusGoogle Scholar
+Kim and Song, 2021
+S.K. Kim, N.S. Song
+Microplastics in edible salt: a literature review focusing on uncertainty related with measured minimum cutoff sizes
+Curr. Opin. Food Sci., 41 (2021), pp. 16-25, 10.1016/j.cofs.2021.02.010
+View PDF
+View articleGoogle Scholar
+Kooi, 2021
+M. Kooi
+Characterizing the multidimensionality of microplastics across environmental compartments
+Water Res. (2021), p. 11, 10.1016/j.watres.2021.117429
+View in ScopusGoogle Scholar
+Kosuth et al., 2018
+M. Kosuth, S.A. Mason, E.V. Wattenberg
+Anthropogenic contamination of tap water, beer, and sea salt
+PLOS ONE, 13 (2018), Article e0194970, 10.1371/journal.pone.0194970
+View in ScopusGoogle Scholar
+Li et al., 2020
+B. Li, Y. Ding, X. Cheng, D. Sheng, Z. Xu, Q. Rong, Y. Wu, H. Zhao, X. Ji, Y. Zhang
+Polyethylene microplastics affect the distribution of gut microbiota and inflammation development in mice
+Chemosphere, 244 (2020), Article 125492, 10.1016/j.chemosphere.2019.125492
+View PDF
+View articleGoogle Scholar
+Lim, 2021
+X. Lim
+Microplastics are everywhere – but are they harmful?
+Nature, 593 (2021), pp. 22-25, 10.1038/d41586-021-01143-3
+View in ScopusGoogle Scholar
+Lu et al., 2022
+H.C. Lu, S. Ziajahromi, P.A. Neale, F.D. Leusch (Eds.), Lett. Ed. “Microplastics: A Rev. Anal. methods, Occur. Charact. food, potential toxicities biota” Bai et. al. (2022), Sci. Total Environ., 819 (2022), Article 152706, 10.1016/j.scitotenv.2021.152706
+Google Scholar
+Mason et al., 2018
+S.A. Mason, V.G. Welch, J. Neratko
+Synthetic polymer contamination in bottled water
+Front. Chem., 6 (2018), p. 407, 10.3389/fchem.2018.00407
+View in ScopusGoogle Scholar
+Medical University of Vienna, 2022
+Medical University of Vienna, 2022.Health risk due to micro- and nanoplastics in food (press release). Medical University of Vienna, Austria.
+Google Scholar
+Mohamed Nor et al., 2021
+N.H. Mohamed Nor, M. Kooi, N.J. Diepens, A.A. Koelmans
+Lifetime accumulation of microplastic in children and adults
+Environ. Sci. Technol., 55 (2021), pp. 5084-5096, 10.1021/acs.est.0c07384
+View in ScopusGoogle Scholar
+Oßmann et al., 2018
+B.E. Oßmann, G. Sarau, H. Holtmannspötter, M. Pischetsrieder, S.H. Christiansen, W. Dicke
+Small-sized microplastics and pigmented particles in bottled mineral water
+Water Res., 141 (2018), pp. 307-316, 10.1016/j.watres.2018.05.027
+View PDF
+View articleView in ScopusGoogle Scholar
+Pivokonsky et al., 2018
+M. Pivokonsky, L. Cermakova, K. Novotna, P. Peer, T. Cajthaml, V. Janda
+Occurrence of microplastics in raw and treated drinking water
+Sci. Total Environ., 643 (2018), pp. 1644-1651, 10.1016/j.scitotenv.2018.08.102
+View PDF
+View articleView in ScopusGoogle Scholar
+Ragusa et al., 2021
+A. Ragusa, A. Svelato, C. Santacroce, P. Catalano, V. Notarstefano, O. Carnevali, F. Papa, M.C.A. Rongioletti, F. Baiocco, S. Draghi, E. D’Amore, D. Rinaldo, M. Matta, E. Giorgini
+Plasticenta: ffirst evidence of microplastics in human placenta
+Environ. Int., 146 (2021), Article 106274, 10.1016/j.envint.2020.106274
+View PDF
+View articleView in ScopusGoogle Scholar
+Roshanzadeh et al., 2020
+A. Roshanzadeh, S. Park, S.E. Ganjbakhsh, J. Park, D.H. Lee, S. Lee, E.S. Kim
+Surface charge-dependent cytotoxicity of plastic nanoparticles in alveolar cells under cyclic stretches
+Nano Lett., 20 (2020), pp. 7168-7176, 10.1021/acs.nanolett.0c02463
+View in ScopusGoogle Scholar
+Runyan et al., 2020
+H. Runyan, R.A. Reynolds, D. Stramski
+Evaluation of particle size distribution metrics to estimate the relative contributions of different size fractions based on measurements in arctic waters
+J. Geophys. Res. (2020), p. 19
+Google Scholar
+Schymanski et al., 2018
+D. Schymanski, C. Goldbeck, H.U. Humpf, P. Fürst
+Analysis of microplastics in water by micro-Raman spectroscopy: release of plastic particles from different packaging into mineral water
+Water Res., 129 (2018), pp. 154-162, 10.1016/j.watres.2017.11.011
+View PDF
+View articleView in ScopusGoogle Scholar
+Senathirajah et al., 2021
+K. Senathirajah, S. Attwood, G. Bhagwat, M. Carbery, S. Wilson, T. Palanisami
+Estimation of the mass of microplastics ingested - A pivotal first step towards human health risk assessment
+J. Hazard. Mater., 404 (2021), Article 124004, 10.1016/j.jhazmat.2020.124004
+View PDF
+View articleView in ScopusGoogle Scholar
+Senathirajah and Palanisami, 2019
+Senathirajah, K., Palanisami, T., 2019.How Much Microplastics Are We Ingesting?: Estimation of the Mass of Microplastics Ingested.The University of Newcastle, Australia.
+Google Scholar
+Strand et al., 2018
+J. Strand, L. Feld, F. Murphy, A. Mackevica, N.B. Hartmann
+Analysis of microplastic particles in Danish drinking water Aarhus University
+DCE - Dan. Cent. Environ. Energy, 34 (2018)
+Google Scholar
+Wu et al., 2019
+B. Wu, X. Wu, S. Liu, Z. Wang, L. Chen
+Size-dependent effects of polystyrene microplastics on cytotoxicity and efflux pump inhibition in human Caco-2 cells
+Chemosphere, 221 (2019), pp. 333-341, 10.1016/j.chemosphere.2019.01.056
+View PDF
+View articleView in ScopusGoogle Scholar
+Cited by (69)
+Analysis of microplastics in various foods and assessment of aggregate human exposure via food consumption in korea
+2023, Environmental Pollution
+Show abstract
+Twenty years of microplastic pollution research—what have we learned?
+2024, Science
+Catalytic Upcycling of Polyolefins
+2024, Chemical Reviews
+Features, Potential Invasion Pathways, and Reproductive Health Risks of Microplastics Detected in Human Uterus
+2024, Environmental Science and Technology
+Microplastics and Oxidative Stress—Current Problems and Prospects
+2024, Antioxidants
+The Minderoo-Monaco Commission on Plastics and Human Health
+2023, Annals of Global Health
+View all citing articles on Scopus
+© 2022 The Author. Published by Elsevier B.V.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

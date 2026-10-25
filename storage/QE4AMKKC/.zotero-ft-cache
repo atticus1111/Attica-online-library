@@ -1,0 +1,502 @@
+Does Agriculture Really Matter for Economic Growth in Developing Countries?
+Titus O. Awokuse1 and Ruizhi Xie2
+1Professor and Chair, Department of Applied Economics and Statistics, University of Delaware, 513 South College Avenue, Newark, DE 19716 (corresponding author: phone: 302-831-1323; fax: 302-831-6243; e-mail: kuse@udel.edu). 2Graduate Research Assistant, Department of Applied Economics and Statistics, University of Delaware, 513 South College Avenue, Newark, DE 19716 (phone: 302-229-5405; fax: 302-831-6243; e-mail: rxie@udel.edu).
+This paper revisits the debate on the role of agriculture in promoting economic growth in a selection of nine developing countries. We investigated the causal linkages between agriculture and gross domestic product growth with the aid of directed acyclic graphs, a recently developed algorithm of inductive causation. The results suggest that while agriculture could be an engine of economic growth, the impact varies across countries. In some cases, we found strong evidence in support of the agricultureled growth hypothesis. In contrast, the results for some other countries indicate that having a vibrant aggregate economy is a prerequisite for agricultural development.
+Le pre ́sent article re ́examine le de ́bat sur le roˆle de l’agriculture dans la promotion de la croissance e ́conomique de neuf pays en de ́veloppement. Nous avons e ́tudie ́ les liens de causalite ́ entre l’agriculture et la croissance du PIB a` l’aide de graphes acycliques oriente ́s, un algorithme de causalite ́ inductive re ́cemment mis au point. Les re ́sultats montrent que, meˆme si l’agriculture peut constituer un engin de croissance e ́conomique, son impact varie d’un pays a` l’autre. Dans certains cas, nous avons obtenu des preuves solides qui appuient l’hypothe`se selon laquelle la croissance est motive ́e par l’agriculture. En revanche, les re ́sultats obtenus dans le cas d’autres pays indiquent qu’une e ́conomie globale vigoureuse constitue une condition pre ́alable au de ́veloppement de l’agriculture.
+INTRODUCTION
+Does agriculture really matter for economic growth in developing countries? The response to this question has been an enduring subject of much controversy among development economists. A large segment of the early work on this issue coincided with the debate on the role of agriculture in promoting economic development in low-income countries in the aftermath of extended periods of colonial rule (Lewis 1954; Fei and Ranis 1961; Johnston and Mellor 1961; Jorgenson 1961; Schultz 1964). Much of these investigations were qualitative in nature and they emphasized the potential impact of the intersectoral linkages between agricultural and industrial manufacturing sectors. After a lull in research on this subject, the recent flurry of theoretical and empirical studies on the subject indicates that the debate has increased in intensity (Echevarria 1997; Humphries and Knowles 1998; Gemmell et al 2000; Kogel and Prskawetz 2001; Gollin et al 2002; Gardner 2005; Olsson and Hibbs 2005; Tiffin and Irz 2006). Research on this issue is crucial because it could help policy makers acquire a better understanding of the potential impact of investments in agriculture on the overall economy. Thus, policy decisions on resource allocations could be improved.
+Canadian Journal of Agricultural Economics 63 (2015) 77–99 DOI: 10.1111/cjag.12038 77
+
+
+78 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Nevertheless, recent empirical studies have yielded mixed and sometimes conflicting evidence and there remains a lack of consensus on the effect of agriculture on economic growth. While some researchers contend that agricultural development is a precondition to industrialization and economic growth, others strongly disagree and argue for a different path. Several authors assert that growth in the overall economy depends on the development of the agricultural sector (Schultz 1964; Gollin et al 2002). Anecdotal evidence and basic economic data from recent decades suggest that agriculture plays a pivotal role in the national economy of developing countries. Relative to the United States, gross domestic product (GDP) per capita in Sub-Saharan Africa and Latin America over the past three decades has been very low. In Sub-Saharan Africa, GDP per capita grew at 2.1% from 1990 to 2010 while Latin America observed only a 1.6% growth rate for the same time period. In contrast, Asia’s GDP per capita had a remarkable 6.9% growth rate per year during the same period.1 Several Asian economies (e.g., China and Thailand) have experienced phenomenon growth. Interestingly, much of the countries with poor growth records still have a relatively large share of their GDP coming from agriculture. For most of the African countries, agriculture accounts for over 20% of GDP. The debate on the developmental role of agriculture is ongoing. This current analysis attempts to bridge the gap in the empirical literature on the dynamic interaction between agriculture and economic growth. The objective of this study is to reexamine the causal relationship between agriculture and economic growth by applying recent advances in econometric analysis and newly developed algorithms of inductive causation (directed acyclic graphs [DAGs]) to national data from a diverse group of nine developing and transition economies in Sub-Saharan Africa, Asia, and Latin America. Specifically, this study investigates the causal relationship between agriculture and economic growth at three different time horizons: contemporaneous time, short-run, and long-run. First we use the error correction modeling approach to investigate both short-run dynamics and long-run causal relationships between agriculture and economic growth. Then, DAG technique is used to investigate contemporaneous causal relationships and to provide overidentifying restrictions on the innovations from a vector error correction model (VECM). In contrast to prior analyses, the application of DAG techniques allows for the examination of both contemporaneous and dynamic causal structure of the linkages between agriculture and economic growth. To our knowledge, this paper is the first study that explores the contemporaneous information flow between agriculture and GDP growth in developing economies. The empirical results suggest that the causal direction of the relationship between agriculture and economic growth varies by country. For several of the countries examined, the results from the empirical analysis provide support for the agriculture-led growth (ALG) hypothesis such that investment in agriculture could serve as an engine of economic growth in contemporaneous time. In contrast, we also found evidence in support of a long-run causal flow from economic growth to agriculture implying that growth in the aggregate economy could serve as a catalyst for growth in the agricultural sector. This finding suggests that a vibrant aggregate economy and a productive agricultural sector can coexist in developing countries in their pursuit of sustainable development. The remainder of the paper is organized as follows. The second section contains a brief
+1 Source: United Nations Children’s Fund (http://data.un.org/Data.aspx?d=SOWC&f= inID%3A93).
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 79
+review of previous studies while a third section discusses the conceptual framework. We describe the econometric methodological issues in the fourth section and the fifth section summarizes the empirical findings. A final section provides the concluding remarks and possible direction for future research.
+LITERATURE REVIEW
+Advocates of ALG contend that investment in agriculture and the accompanying creation of infrastructure and institutions in other sectors is a prerequisite for national economic growth (Schultz 1964; Timmer 1995). These analysts note that growth in the agricultural sector could be a catalyst for national output growth via its effect on rural incomes and the provision of resources for transformation into an industrialized economy (Eicher and Staatz 1984; Dowrick and Gemmell 1991; Datt and Ravallion 1998; Thirtle et al 2003). Prior attempts by various developing countries to industrialize their economy without prior development of the agricultural sector resulted in dismal economic growth rates and very skewed income distribution (Bhagwati and Srinivasan 1975). Johnston and Mellor (1961) observe that agriculture contributes to economic growth and development through five intersectoral linkages. The sectors are linked via: (i) supply of surplus labor to firms in the industrial sector; (ii) supply of food for domestic consumption; (iii) provision of market for industrial output; (iv) supply of domestic savings for industrial investment; and (v) supply of foreign exchange from agricultural export earnings to finance import of intermediate and capital goods. In addition to these five direct market-based linkages, Timmer (1995) also emphasizes the importance of indirect nonmarket linkages that improves the quality of the major production factors (labor and capital). He observes that agriculture indirectly contributes to economic growth via its provision of better caloric nutrient intake by the poor, food availability, food price stability, and poverty reduction. He argues that the role of agriculture has been underestimated because of data limitations that preclude explicit quantitative analyses of the indirect effects of agriculture’s contributions to capital, labor efficiency, and total factor productivity. Thus, Timmer (1995, p. 470) advocates “a new modeling approach that can be applied to a broad cross-section of time-series data at the national level.” Such an approach that focuses on the analysis of national time series data is adopted in our current paper. In contrast to the ALG arguments, the proponents of the opposite viewpoint contend that the agricultural sector does not have strong linkages to other sectors and lack adequate innovative structure necessary for fostering higher productivity and export growth (Lewis 1954; Hirschman 1958; Fei and Ranis 1961; Jorgenson 1961). In a theoretical analysis, Matsuyama (1992) uses the comparative advantage argument to refute the claim that agricultural productivity is an engine of economic growth. Further reflecting this negative view of agriculture in the development process, policy makers in many developing countries proposed and adopted development strategies that were antiagriculture. Some national policies emphasized the role of the manufacturing sector as the preferred source of economic growth (Okonkwo 1989; Schiff and Valdez 2002). Thus, they argue for the case of growth-led agricultural (GLA) development. In many developing countries, the agricultural sector was subject to heavy taxation. For example, prior to agricultural reforms in 1979, Chinese agriculture was under a heavy tax burden and the revenues were used to subsidize urban and industrial development (Yao 2000).
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+80 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Although several studies have outlined the theoretical relationship between agriculture and economic growth, disagreements still persist. The causal dynamics between agriculture and economic growth is an empirical question worthy of further investigation. In a critique of previous empirical analyses on the role of agriculture in economic growth, Tsakok and Gardner (2007) argue that most early studies based on econometric investigation of cross-sectional data for a panel of countries have significant limitations and have not provided definitive results. Specifically, results from earlier studies that used ordinary least squares (OLS) regression and simple correlation coefficient tests may have misspecification problems as the correlations may be spurious because they failed to account for the data’s dynamic time-series properties (e.g., unit roots and cointegration). Also, the results are limited to only showing that agriculture and GDP growth are correlated, but could not provide information on the direction of causality. The issue of causality is dynamic in nature and is best examined using a time-series modeling framework. Furthermore, the implicit assumption of an identical production function across different types of economies may be unrealistic as the level of technology may vary across countries. Recently, Tiffin and Irz (2006) used bivariate Granger causality tests to examine the causal relationships between agricultural value-added and economic growth for a panel of countries. They find strong evidence in support of causality flow from agriculture to economic growth for developing countries, but the causality results for developed countries are inconclusive. The study by Tiffin and Irz (2006) is an improvement on previous cross-sectional analyses since it employs recent advancements in time-series modeling techniques (cointegration and error correction models [ECMs]). Nevertheless, their empirical results may suffer from misspecification problems (e.g., omitted variables) because they fail to control for the potential influence of other key determinants of economic growth. As emphasized in earlier critiques of related literature on economic growth, simple bivariate causality analyses of this sort are prone to spurious correlation because they ignore the potential role of other important factors (e.g., trade, capital, and labor) as suggested by neoclassical growth theory (Edwards 1993; Frankel and Romer 1999; Awokuse 2007). Thus, this current study uses a multivariate causality framework to examine the dynamic causal linkages between agriculture and economic growth in developing countries.
+CONCEPTUAL FRAMEWORK
+As in previous studies on economic growth and development, an augmented version of the Solow–Swan neoclassical growth model is the adopted framework for analyzing the relationship between agriculture and economic growth. Assuming a constant-return-toscale aggregate production function:
+Yt =Kα
+t Bt (1)
+where Y, K, and B represent real GDP per capita, real gross capital, and the Hicksneutral productivity term, respectively. And, α is the output elasticity of capital. The contribution of agriculture to aggregate economic growth could be modeled via its effect on total factor productivity or as an intermediate input in the industrial production
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 81
+sector (Timmer 1995; Ruttan 2000). Early development theories viewed agriculture as an important source of resources to finance the development of the industrial sector. Thus, agricultural production growth could serve as an engine of growth for the overall economy. Hwa (1988) argues that agriculture is an engine of growth and adds agriculture to the growth equation as a measure of linkages between the rural and industrial sector of the economy. Similarly, we also include additional determinants of growth (exports and terms of trade [TOT]) that have been found to be robust in explaining aggregate productivity growth (Hwa 1988; Wunder 2003). The productivity change term B in Equation (1) is usually treated as a residual term in the production function. Relative to previous studies, we included additional regressors (exports and TOT) to minimize the size of the residuals. B is assumed to be a function of agriculture (A), exports (X), and TOT (T), a proxy for other macroeconomic factors:
+B = F ( A, X, P) = Aδ
+t Xφ
+t Tγ
+t + ut (2)
+where ut is a randomly distributed residual. Next, substituting Equation (2) into Equation (1) yields the following:
+Yt = Kα
+t Aδ
+t Xφ
+t Tγ
+t + ut (3)
+Taking natural logs of Equation (3) yields:
+lnYt = α ln Kt + δ ln At + φ ln Xt + γ ln Tt + εt (4)
+where εt is a randomly distributed error term that captures other variables that may influence productivity changes not explicitly included in the model. According to the export-led growth literature, export growth is a measure of outward orientation and could also serve as a proxy for internationally competitive cost structure of domestic export firms relative to the production and marketing costs of foreign firms. Export expansion can be a catalyst for output growth both directly, as a component of aggregate output, as well as indirectly through efficient resource allocation, greater capacity utilization, exploitation of economies of scale, and stimulation of technological improvement due to foreign market competition (Helpman and Krugman 1985; Awokuse 2007). Also, a higher level of investment (gross capital formation) should stimulate growth while agricultural productivity is expected to have a positive effect on aggregate economic growth. Similar to Hwa (1988), export expansion is expected to have a positive effect on growth. Wunder (2003) finds evidence that the increase in an economy’s TOT could affect other sectors (e.g., the agricultural sector) through the expansion of exports and price booms.
+ECONOMETRIC METHODOLOGY
+Cointegration Tests
+First, univariate time-series properties were examined using two unit root tests: augmented Dickey and Fuller (ADF) test (Dickey and Fuller 1979) and the Kwiatkowski-PhillipsSchmidt-Shin (KPSS) test (Kwiatkowski et al 1992). While the ADF procedure tests for
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+82 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+the null hypothesis of nonstationarity, the KPSS procedure tests for the null hypothesis of stationarity. The combination of the ADF and KPSS tests is a form of confirmatory analysis that has been shown to be more robust in determining the presence of unit roots (Kwiatkowski et al 1992). Only until the data series are stationary after first differencing, can they be tested for cointegration. In this analysis, we adopt the Johansen and Juselius (1990) maximum likelihood cointegration test.2 Johansen’s multivariate cointegration modeling technique is widely accepted as an improvement on the residual-based Engle and Granger (1987) modeling technique. The time series is modeled as reduced rank regression where the maximum likelihood estimates are computed with Gaussian errors such that:
+Xt = μ +
+p−1
+∑
+i =1
+i Xt−k + Xt−1 + εt (5)
+where Xt is an (n × 1) column vector of p variables, μ is an (n × 1) vector of constant terms, and represent coefficient matrices, is a difference operator, k denotes the lag length, and εt N(0,
+∑). The coefficient matrix is known as the impact matrix, and it contains information about the long-run relationships. Two likelihood ratio test statistics—the trace statistic and λ-Max Statistics—were computed. The asymptotic critical value for the likelihood ratio tests in this case are from the simulation done by MacKinnon et al (1999). When the estimated likelihood ratio test results exceed the critical values, the null hypothesis is rejected. While the cointegration test could be used to test for the existence of long-run relationships, it does not provide clear information for identifying the direction of causality. Other complementary analyses are needed for determining the direction of causality. While Johansen’s multivariate cointegration modeling approach has become the standard, this approach has notable limitations because of its dependence on pre-tests for the order of integration and its inapplicability to mixed orders of integration processes. Thus, we also conduct a complementary test for cointegration using the autoregressive distributed lag (ARDL) approach to cointegration and ECMs proposed by Pesaran et al (2001) as an alternative to Johansen’s cointegration test. The ARDL approach allows for causal inference based on ECMs and is preferred to other common formulations because it bypasses the need for potentially biased pre-tests for unit root and the potential problems from mixed orders of integration. So, the determination of the existence of longrun relationships does not require that the variables be of the same order of integration. This approach also yields desirable statistical properties with small samples. Pesaran et al (2001) showed that long-run estimates from ARDL estimation are super-consistent and that valid inference could be made using standard asymptotic theory. The error correction
+2 As demonstrated by Pesaran and Shin (1999), when sample size is small, the ARDL approach is superior to the traditional Johansen cointegration approach. The ARDL approach also does not require the series included in the system to have the same order of integration. We perform ARDL analysis as a robustness check later.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 83
+version of the ARDL model based on Equation (4) could be expresses as:
+Yt = c +
+∑p
+i =1
+θi Yt−i +
+∑p
+i =1
+αi Kt−i +
+∑p
+i =0
+δi At−i +
+∑p
+i =0
+φi Xt−i +
+∑p
+i =0
+γi Tt−i
++λ1Yt−1 + λ2 Kt−1 + λ3 At−1 + λ4 Xt−1 + λ5Tt−1 + εt
+(6)
+where p denotes the lag length, and εt is independent and identically distributed p-dimensional Gaussian error with mean zero and variance matrix (white noise disturbance term). The ARDL cointegration technique involves two estimation steps. The first stage requires the testing of the null hypothesis of noncointegration of the variables in the system. A “bounds test” for cointegration is applied by estimating Equation (6) by OLS. Then, an F-test is used to test the joint significance of the estimated coefficients of the lagged level variables (i.e., Ho: λ1 = λ2 = λ3 = λ4 = λ5 = 0). Since the asymptotic distribution of the F-statistics is nonstandard, Pesaran et al (2001) provide two sets of adjusted critical values that provides the lower and upper bounds used for inference. While the first set of critical values assume that the variables are I(0), the other assumes they are I(1). Cointegration exists if the computed F-statistic exceeds the upper bound critical value. In contrast, the alternative hypothesis (no cointegration) is confirmed if the F-statistic is below the lower bound, and the results will be deemed inconclusive for a value within the bounds. If the bounds test suggests that cointegration exist, the second step in the analysis requires the estimation of the ARDL model, which provides both short- and long-run estimated coefficients. This involves the estimation of an ECM. According to Granger’s representation theorem (see Engle and Granger 1987), a cointegrated system can be expressed and estimated as an ECM. This framework is desirable because it allows for the determination of the direction of causation between agriculture and economic growth while providing estimates on both short- and long-run relationships. The Schwarz Bayesian Criterion (SBC) was used to determine the optimal lag length (p) for the ARDL model. The adequacy of the specified models was also examined with various diagnostic tests for serial correlation (LM test), functional form (Ramsey’s RESET test), heteroskedasticity (White’s test), and structural stability (CUSUM and CUSUMSQ tests).
+DAGs and Innovation Accounting
+When the evidence from the trace and lambda max cointegration test statistics suggests that the variables in the system are cointegrated, it is appropriate to estimate the models with error correction terms which could be used to capture long-run relationships. However, the individual coefficients from the ECM are difficult to interpret. Innovation accounting (via impulse response function [IRF] and forecast error variance decomposition [FEVD]) was used to analyze the dynamic relationship among the variables in the system. As in previous studies, we identified the contemporaneous causal structure on innovations from the VECM with the aid of causal paths suggested by DAG analysis (Swanson and Granger 1997; Bessler and Akleman 1998; Awokuse 2005; Awokuse et al 2009). The majority of past investigations of causal relationships among economic variables use the Granger (1969) causality framework that builds on the knowledge that a cause
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+84 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+precedes its associated effect (and thus an effect does not precede its cause). But Spirtes et al (2000) and Pearl (2000) proposed DAG as a more general framework for describing causal relationships. In contrast to Granger’s (1969) definition of causality, DAGs allow for nontime sequence asymmetry in causal relations. DAGs were useful in generating causal flow information in contemporaneous time and could be used as inputs in innovation accounting. The concept of conditional independence is the basis for understanding DAGs. A DAG shows the causal flow among a set of variables such that there are no directed cycles, that is, it is impossible to start at a vertex (variable) and follow a directed path back to the same vertex (variable). The vertices (nodes) of these graphs represent variables on which data have been obtained; line segments connecting vertices (directed edges or arrows) are generated by calculations of conditional statistical dependence or independence among pairs of variables (ceteris paribus). Under the assumption that variables under study follow Markov processes, one can simplify the joint distribution behind observations on a set of variables (v1, v2, v3, · · ·vn). For example, if there is a directed edge Q→P, the variable Q is described as the parent of P while P is described as the child (or descendant) of Q. In this case, Q is a direct cause of P. In addition, a graph represented by P←X→Q implies that the three variables, P, Q, and X have a relation such that X causes P and Q. This causal relationship implies that the unconditional association between P and Q is nonzero but the conditional association between P and Q, given the knowledge of the common cause X, is zero. The common cause X can potentially screen off associations between their joint effects. Alternatively, if we have a scenario where both X and Q cause P, represented as X→P←Q, then the unconditional association between X and Q is zero. However, the conditional association between X and Q, given the common effect P is not zero. Following Pearl (2000), DAGs can be used to represent conditional independence as implied by the recursive product decomposition:
+Pr (v1, v2, v3, · · ·vn) =
+n ∏
+i =1
+pr (vi |Pai ) (7)
+where Pr is the probability of vertices v1, v2, v3, · · ·vn and pai the realization of some subset of the variables that precede vi in order (v1, v2, v3, · · ·vn). Spirtes et al (2000) developed a causal search algorithm (PC algorithm) for inference on DAGs from observational data. The PC algorithm has been widely applied in several empirical studies. However, the PC algorithm has its limitations, as simulations studies have shown that it is prone to errors in direction of edges, especially in small sample sizes (Demiralp and Hoover 2003). Chickering (2002) suggested the use of a Bayesian search algorithm (e.g., the Greedy Equivalent Search [GES] algorithm). This algorithm uses stepwise searches over Markov equivalence classes to determine the most likely set of edges based on a Bayesian scoring criterion. Monte Carlo evidence suggests that when the sample size is small, GES algorithm performs better in identifying DAGs (Tsamardinos et al 2006; Wang and Rettenmaier 2008; Ramsey et al 2011). The GES algorithm is adopted in this study. The GES algorithm is embedded in the software TETRAD IV (see http://www.phil.cmu.edu/projects/tetrad/). For more detailed discussion of DAG methods and application, see Bessler and Akleman (1998) and Awokuse et al (2009).
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 85
+EMPIRICAL RESULTS
+The data set used in the analysis consists of annual observations for a selection of nine3 developing and transition economies from three regions: Asia (China, Indonesia, and Thailand); Latin America (Brazil, Chile, and Mexico); and Sub-Saharan Africa (Cameroon, Kenya, and South Africa). We specifically focused on developing countries because of the controversial role of agriculture in the ongoing debate on the “best” path to economic development for low-income countries. China, Brazil, and South Africa are the leading economies in Asia, Latin America, and Sub-Saharan Africa, respectively. Indonesia and Thailand were chosen because their agricultural productivity performance is representative of Asian region. Although their economies greatly depend on agriculture, they are making steady progress in developing industrial sectors. Chile and Mexico are major agricultural exporters in Latin America. Their agricultural sectors seem to play an important role in their overall economy. In Cameroon and Kenya, agriculture is a major contributor to GDP. Cameroon represents some countries with great endowment, like petroleum, cocoa, and coffee. Kenya represents some countries where the economies heavily depend on rain-fed agriculture and tourism, thus are vulnerable to fluctuations in the business cycles. Due to data availability, the empirical analyses were conducted using data from 1980 to 2011 for the nine countries. Although the key relationship of interest is that between real GDP growth and agriculture, three additional control (exogenous) variables were included in the estimated models. The variables used in the analysis are as follows: net real GDP (real GDP minus agricultural value added; Y), agricultural value added (A), gross capital formation as proxy for capital (K), real exports (X), and TOT (T). All data series are in natural logarithms and were obtained from the World Bank’s World Development Indicators (http://data.worldbank.org/data-catalog/world-development-indicators).
+Cointegrated VAR Model Results
+We initially explored the issue of unit root in the data by applying the ADF and KPSS tests. A combination of both test results for each variable in the system, across each of the countries, suggests that the variables are I(1). That implies the possibility of cointegrating relationship for all nine countries. Results for unit root tests are shown in Table 1. Next, the Johansen and Juselius (1990) multivariate cointegration tests were estimated in order to determine if a long-run relationship exists between the variables. Table 2 contains the empirical results for the Johansen and Juselius (1990) cointegration tests. The optimal lag lengths were selected using SBC. The cointegration rank is determined at the point of first failure to reject the null hypothesis that the number of cointegrating vectors are less than or equal to r. These results indicate that the null hypothesis of noncointegration could be rejected for all the nine countries at the 5% significance level. Thus, the results imply that a long-run relationship exists between agriculture
+3 We chose to focus on nine developing countries and picked three individual countries in each region that could serve as proxy for the diverse role of agriculture in these regions. Rather than using aggregated data combining all countries, it is possible to obtain a clearer picture of the role of agriculture by conducting a more in-depth time-series analysis data from a selected list of key developing countries from a diverse group. This study’s results could serve as motivation for future research on this issue that may consider a larger set of countries.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+86 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Table 1. Unit root test results
+Brazil Chile Mexico
+Levels ADF KPSS ADF KPSS ADF KPSS
+GDP −2.284 0.072 0.508 0.694** −0.135 0.607** EXPT −1.543 0.158** 0.663 0.717** −0.602 0.631** AGR −1.042 0.115 −0.536 0.605** −0.770 0.668** CAP −1.496 0.084 −0.051 0.663** −0.258 0.681** TOT −0.371 0.647** −1.170 0.216 0.599 0.420 1st differences
+GDP −3.866*** 0.154 −3.213** 0.216 −5.159*** 0.120 EXPT −5.620*** 0.328 −4.016*** 0.182 −5.071*** 0.138 AGR −5.210*** 0.272 −4.928*** 0.088 −6.163*** 0.373 CAP −4.443*** 0.211 −4.728*** 0.138 −5.563*** 0.172 TOT −6.681*** 0.144 −3.936*** 0.633** −2.028** 0.432 China Indonesia Thailand
+Levels ADF KPSS ADF KPSS ADF KPSS GDP −1.431 0.174** 0.442 0.688** −0.955 0.689** EXPT −2.449 0.155** 0.883 0.699** −0.651 0.721** AGR −0.632 0.159** 0.867 0.615** 0.882 0.650** CAP −1.221 0.171** −0.291 0.582** −0.887 0.562** TOT −0.629 0.428*** −1.986 0.236 −2.309 0.700** 1st differences
+GDP −3.803*** 0.493** −5.422*** 0.185 −3.460** 0.103 EXPT −5.045*** 0.248 −4.685*** 0.268 −4.127*** 0.110 AGR −3.480** 0.293 −5.831*** 0.345 −4.280*** 0.249 CAP −3.671*** 0.444 −4.855*** 0.166 −3.930*** 0.090 TOT −5.533*** 0.157 −3.804*** 0.393 −5.824*** 0.174 Kenya South Africa Cameroon
+Levels ADF KPSS ADF KPSS ADF KPSS GDP 1.149 0.687** 0.530 0.680** −1.412 0.122 EXPT 1.279 0.666** 0.611 0.650** −0.884 0.168** AGR −0.504 0.680** −0.241 0.468** −2.806 0.102 CAP 0.498 0.593** 0.908 0.529** −0.649 0.166** TOT −2.049 0.177 −0.378 0.357 −2.076 0.555*** 1st differences
+GDP −3.873*** 0.307 −4.300*** 0.194 −5.886*** 0.152 EXPT −4.343*** 0.401 −4.210*** 0.350 −6.458*** 0.334 AGR −5.068*** 0.107 −4.286*** 0.183 −4.298*** 0.123 CAP −4.471*** 0.290 −4.414*** 0.401 −5.637*** 0.278 TOT −6.301*** 0.127 −4.138*** 0.443 −7.081*** 0.287
+Notes: Trend and intercept are included in the test equation for the variables of GDP, EXPT, AGR, and CAP for Brazil, China, and Cameroon. No trend or intercept is included in the ADF test equation for the variable TOT of Chile. For the rest, only intercept is included in the test equation. *** and ** indicate rejection at the 1% and 5% level, respectively.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 87
+Table 2. Johansen’s cointegration test results
+Brazil Chile Mexico Critical values
+Cointegration rank Trace λ-max Trace λ-max Trace λ-max Trace (5%) λ-max (5%)
+r = 0 70.19303 28.83938 86.53593 40.8764 103.9418 51.4989 69.819 33.877
+r 1 41.35365 22.96855 45.65954 26.3062 52.44286 24.29381 47.856 27.584
+r 2 18.3851 14.05967 19.35334 10.30632 28.14905 17.44203 29.797 21.132
+r 3 4.325432 4.054244 9.047014 8.011605 10.70702 6.71649 15.495 14.265
+r 4 0.271188 0.271188 1.03541 1.03541 3.990528 3.990528 3.841 3.841
+China Indonesia Thailand
+r = 0 94.37482 35.38055 87.18461 35.07558 79.29652 33.94332 69.819 33.877
+r 1 58.99427 33.3877 52.10903 22.37447 45.3532 28.09332 47.856 27.584
+r 2 25.60657 18.71352 29.73456 17.71435 17.25989 7.712677 29.797 21.132
+r 3 6.89305 6.317007 12.02021 10.46354 9.547211 6.540675 15.495 14.265
+r 4 0.576043 0.576043 1.556672 1.556672 3.006536 3.006536 3.841 3.841
+Kenya South Africa Cameroon
+r = 0 78.16955 42.16115 75.69778 28.85704 80.08488 34.53221 69.819 33.877
+r 1 36.0084 15.04774 46.84074 26.88101 45.55267 25.17393 47.856 27.584
+r 2 20.96067 10.78625 19.95974 12.47621 20.37874 10.92351 29.797 21.132
+r 3 10.17442 9.726279 7.483527 5.499319 9.455228 9.078598 15.495 14.265
+r 4 0.448142 0.448142 1.984208 1.984208 0.37663 0.37663 3.841 3.841
+Notes: Figures in bold denote rejection of the null hypothesis of cointegration rank at the 5% significance level. The cointegrating rank is
+determined at the first failure to reject the null hypothesis that the number of cointegrating vectors are less than or equal to r. The critical values
+(C [5%]) are from MacKinnon et al (1999). The deterministic trend assumption of the test is to allow for linear deterministic trend with intercept
+(no trend) in cointegration equation and test.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+88 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Table 3. Autoregressive distributed lag cointegration test results
+Brazil Chile Mexico
+F-statistic 8.181** 12.243** 4.23**
+China Indonesia Thailand
+F-statistic 3.338* 3.343* 5.946**
+Kenya South Africa Cameroon
+F-statistic 4.108** 2.261* 9.818**
+Notes: F-test is obtained by joint zero restrictions on estimated coefficients. Critical values were obtained from computed table by Pesaran et al (2001). ** and * denote rejection of the null hypothesis of no cointegration at the 5% and 10% significance level, respectively.
+and real GDP growth for all nine countries. The existence of cointegration indicates that the appropriate model specification is a VECM. The nature of the relationships could be further investigated via the analyses of estimated parameters from the ECMs. For robustness check, the bounds “F”-test for cointegration, developed by Pesaran et al (2001), was also used to test for the existence of long-run relationships. The Fstatistics were calculated by estimating the model with three alternative specifications of no intercept and no trend, only trend, only intercept. The SBC was used to determine the optimal lag length. For countries in Asia and Latin America, the appropriate ARDL model specification is the case with no trend and no intercept. In contrast, the case with trend and no intercept was used for Cameroon while with the case with trend and intercept was preferred for both Kenya and South Africa. Table 3 shows the results of ARDL tests. As shown in Table 3, the results suggest rejection of the null hypothesis of noncointegration at either 5% or 10% significant level, implying the existence of long-run relationships for all nine countries.
+Contemporaneous Causality: DAG Results
+While multivariate cointegration analysis provides information on long-run relationships, it lacks information on causal direction in both contemporaneous and dynamic (lagged) time. Hence, we present results from DAGs, which provide richer and useful information about the complex contemporaneous interrelationships between the variables in a system. Figure 1 contains DAG results based on innovations from the cointegrated VAR model. Among other causal linkages presented in the DAGs, of most interest is the linkage between the agricultural sector and aggregate economic growth. Specifically, in Latin America, the evidence from DAG indicates that causality flows from GDP growth to agriculture in Chile and Mexico, but there is insignificant evidence of causal linkages in Brazil. The contribution of agriculture to economic growth in contemporaneous time appears to be stronger in the Asian region where causality flows from agriculture to GDP growth in all three countries (China, Indonesia, and Thailand). This result is consistent with conclusions from several previous studies, which contends that
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 89
+Figure 1. Results for directed acyclic graphs for the nine countries
+China’s economy-wide market liberalization policies stimulated improvements in agricultural market performance (Lin 1992; Sicular 1995; Park et al 2002). Also since the early 1980s, Thailand has experienced industrial boom at a faster rate than the growth in agriculture. Results for contemporaneous causality in Sub-Saharan Africa indicate that agriculture precedes economic growth in Kenya and South Africa, but the opposite is true for Cameroon. For a segment of African countries, these results capture the prevailing conditions where agriculture is still a large component of the aggregate economy. After independence from colonial rule in the 1960s, many African countries were net food exporters. However, in recent years several of these countries have become net food importers.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+90 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Table 4. Results of forecast error variance decompositions for Brazil, Chile, and Mexico
+Brazil
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CA P TOT EXPT
+1 0.13 100.00 0.00 0.00 0.00 0.00 0.17 35.60 64.40 0.00 0.00 0.00 2 0.23 69.64 12.69 0.24 16.77 0.67 0.24 28.45 65.04 1.42 3.43 1.66 3 0.33 51.93 19.89 0.78 25.94 1.47 0.31 22.30 64.12 1.07 8.05 4.47 10 0.66 24.95 34.22 9.38 25.47 5.98 0.55 9.02 69.32 7.08 5.66 8.92 Chile
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT 1 0.10 100.00 0.00 0.00 0.00 0.00 0.17 65.91 34.09 0.00 0.00 0.00 2 0.19 90.66 1.13 5.50 2.70 0.01 0.23 71.28 27.02 0.00 l.67 0.03 3 0.26 86.55 0.79 5.36 6.11 1.19 0.27 69.86 27.73 0.79 1.41 0.21 10 0.55 84.79 0.20 1.95 8.57 4.48 0.56 43.77 29.59 15.53 3.35 7.75 Mexico
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT 1 0.11 100.00 0.00 0.00 0.00 0.00 0.13 72.08 27.92 0.00 0.00 0.00 2 0.17 85.27 5.77 2.25 4.82 1.89 0.18 71.34 23.14 1.19 3.90 0.43 3 0.24 52.03 21.25 6.29 5.44 15.00 0.20 66.35 18.16 8.30 4.88 2.31 10 0.51 40.31 23.91 21.65 3.33 10.80 0.35 63.68 7.02 24.82 3.25 1.23
+FEVDs and Impulse Responses Results
+Although DAG is an invaluable tool for sorting out the nature of the causal linkages between variables in a system, it focuses on statistical significance and lacks information on economic significance or the strength of these causal relationships. Some contemporaneous causal flows in Figure 1 can be fragile due to their economic insignificance. Hence, better inference that captures short-run dynamic linkages can be made with innovation accounting which uses a combination of DAG and the DAG-based IRFs and FEVDs. Swanson and Granger (1997) showed that contemporaneous causal flows suggested by DAG analysis are useful for addressing issues of identification of VAR residuals used in computing IRFs. Bessler and Akleman (1998) extended Swanson and Granger (1997) by applying DAG to innovations from a VAR model. This current study adopts the approach first proposed in Bessler and Akleman (1998). Using the estimates from an ECM specification of Equation (4), the causal analysis is extended by examining both FEVDs and IRFs. FEVDs are contributions of each source of innovations to the variance of the n-period ahead forecast error for each endogenous variable, at various horizons. The hypothesis of GLA is supported if innovations in agriculture are the major source of the non-self variations in GDP growth. Alternatively, the ALG hypothesis is supported if the converse is observed. The variance decompositions are obtained for horizons of 1, 2, 3, and 10
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 91
+Table 5. Results of forecast error variance decompositions for China, Indonesia, and Thailand
+China
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT
+1 0.05 83.74 16.26 0.00 0.00 0.00 0.06 0.00 100.00 0.00 0.00 0.00 2 0.08 78.32 7.76 13.41 0.09 0.41 0.09 0.06 78.33 11.69 0.82 9.10 3 0.11 51.91 5.22 24.82 13.88 4.17 0.12 0.03 43.37 32.75 4.98 18.87 10 0.32 28.51 20.57 37.86 9.94 3.12 0.29 3.79 23.99 61.05 4.82 6.34 Indonesia
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT 1 0.23 6.07 93.93 0.00 0.00 0.00 0.22 0.00 100.00 0.00 0.00 0.00 2 0.34 4.27 91.13 0.62 0.03 3.94 0.31 0.67 94.32 0.04 0.02 4.96 3 0.40 3.02 90.05 0.49 0.61 5.84 0.38 1.09 93.04 0.69 0.17 5.02 10 0.77 0.89 90.26 0.38 6.00 2.46 0.90 1.22 93.51 0.32 1.85 3.11 Thailand
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT 1 0.09 70.07 29.93 0.00 0.00 0.00 0.1 6 0.00 100.00 0.00 0.00 0.00 2 0.18 62.96 34.19 0.51 0.38 1.96 0.25 3.40 93.53 0.61 0.05 2.42 3 0.24 69.61 28.02 0.36 0.44 1.57 0.31 8.17 89.05 0.44 0.03 2.31 10 0.65 81.56 11.83 3.81 0.17 2.63 0.57 25.10 73.28 0.91 0.01 0.70
+years. Tables 4–6 contain the summarized results for the FEVDs for each of the nine countries. Results presented in Table 4 summarize the relationships between agriculture and economic growth for the Brazil, Chile, and Mexico. These estimates appear to provide strong support for GLA in all three countries at both short and long horizons. For example in the first year, GDP growth explains a notable portion of FEVD for agriculture (35.60% for Brazil, 65.91% for Chile, and 72.08% for Mexico, respectively). Also in support of ALG, innovations to agriculture account for up to 34.22% and 23.91% of the variance in GDP growth for Brazil and Mexico, respectively. These results suggest the existence of bidirectional dynamic linkages between agriculture and GDP growth in these countries. In contrast, stronger and more conclusive support for the ALG hypothesis is found in the Asian countries (see Table 5) where shock to agriculture is dominant in explaining much of the forecast error variance in GDP growth. In the case of Sub-Saharan African countries, there is strong evidence in support of the GLA hypothesis in Kenya and South Africa while the converse is true in Cameroon where agriculture drives GDP growth (see Table 6). An IRF traces the effect of a one-time shock to an innovation (shock) in current and future values of the endogenous variables. Thus, IRFs could provide more insight into how a shock to agriculture affects economic growth (and vice versa). As discussed
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+92 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Table 6. Results of forecast error variance decompositions for Kenya, South Africa, and Cameroon
+Kenya
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT
+1 0.11 100.00 0.00 0.00 0.00 0.00 0.08 49.14 50.86 0.00 0.00 0.00 2 0.18 86.16 3.71 4.14 0.35 5.65 0.12 45.51 33.31 6.22 2.50 12.46 3 0.26 61.56 18.23 5.53 0.19 14.49 0.17 43.62 26.0.1 3.33 2.06 24.99 10 0.45 41.25 17.65 2.44 1.26 37.40 0.33 13.25 10.93 17.89 25.06 32.87 South Africa
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT 1 0.14 100.00 0.00 0.00 0.00 0.00 0.13 53.78 46.22 0.00 0.00 0.00 2 0.21 93.60 0.45 2.49 3.35 0.11 0.20 58.51 32.13 5.44 3.09 0.83 3 0.26 80.04 1.76 9.67 8.45 0.08 0.25 52.40 23.83 18.86 3.78 1.13 10 0.44 78.45 1.60 11.23 8.51 0.22 0.44 65.60 19.33 11.67 2.45 0.95 Cameroon
+Variance decomposition of GDP Variance decomposition of AGR
+Period S.E. GDP AGR CAP TOT EXPT S.E. GDP AGR CAP TOT EXPT 1 0.13 52.35 47.65 0.00 0.00 0.00 0.09 0.00 100.00 0.00 0.00 0.00 2 0.19 29.27 69.10 0.11 1.43 0.08 0.16 0.17 98.75 0.48 0.60 0.00 3 0.25 25.97 69.30 1.60 1.12 2.01 0.22 0.48 93.42 1.27 4.13 0.70 10 0.43 19.50 67.23 5.45 1.72 6.11 0.37 1.34 81 .57 5.24 11.20 0.65
+previously, in order to identify the VECMs, results from the DAGs (see Figure 1) are used to assign zero restrictions for the purpose of structural decomposition. Figures 2–4 contain impulse responses for each of the nine countries. The first column contains the response of GDP growth to innovation (shock) in other variables (particularly, agriculture) while the second column captures the response of agriculture to innovation in the other variables (particularly, GDP growth).4 The simulations in the IRFs trace the impact of the shocks over 10 years. For inference, the impulse responses must be significantly different from zero.5 As shown in Figure 2, the results indicate significant empirical support for the GLA hypothesis as a positive response is observed for agriculture due to shock in GDP growth in all three Latin American countries. Only in Brazil does a one standard deviation positive shock in agriculture result in a significantly positive response from GDP growth. These three countries have experienced notable GDP growth in recent years and they are all major exporters of agricultural products. For example, the result for Brazil suggests that the phenomenal expansion of the agricultural sector made a notable contribution to
+4 For completeness, IRFs are provided for each of the five variables in the system, but we only emphasize the relationship between agriculture and economic growth. 5 The 5% confidence band was not included in the IRF figures because it becomes more confusing to read all five impulse responses on the same graph.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 93
+Brazil
+Chile
+Mexico
+.00
+.04
+.08
+.12
+.16
+.20
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+.00
+.04
+.08
+.12
+.16
+.20
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+-.08
+-.04
+.00
+.04
+.08
+.12
+.16
+.20
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+-.08
+-.04
+.00
+.04
+.08
+.12
+.16
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+-.12
+-.08
+-.04
+.00
+.04
+.08
+.12
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+-.04
+.00
+.04
+.08
+.12
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+Figure 2. Results of impulse responses for Latin American countries
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+94 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+China
+Indonesia
+Thailand
+-.08
+-.06
+-.04
+-.02
+.00
+.02
+.04
+.06
+.08
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+-.08
+-.04
+.00
+.04
+.08
+.12
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+-.08
+-.04
+.00
+.04
+.08
+.12
+.16
+.20
+.24
+.28
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+-.1
+.0
+.1
+.2
+.3
+.4
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+-.05
+.00
+.05
+.10
+.15
+.20
+.25
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+-.05
+.00
+.05
+.10
+.15
+.20
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+Figure 3. Results of impulse responses for Asian countries
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 95
+Kenya
+South Africa
+Cameroon
+-.04
+.00
+.04
+.08
+.12
+.16
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of GDP
+-.08
+-.04
+.00
+.04
+.08
+.12
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Response of AGR
+-.08
+-.04
+.00
+.04
+.08
+.12
+.16
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+-.15
+-.10
+-.05
+.00
+.05
+.10
+.15
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+-.04
+.00
+.04
+.08
+.12
+.16
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+-.08
+-.04
+.00
+.04
+.08
+.12
+.16
+1 2 3 4 5 6 7 8 9 10
+GDP A GR
+CA P TOT
+EX PT
+Figure 4. Results of impulse responses for African countries
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+96 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+the growth of the overall economy. Brazil is a top producer and exporter of beef, broilers, coffee, soybeans and oilseeds, sugar, and sugar-based ethanol. Brazil’s agricultural exports totaled US$16 billion in 2001 and the final agricultural export data are expected to surpass $80 billion in 2011 (USDA Foreign Agricultural Service, 2012).6 In addition, since its market liberalization policies in the 1980s, Chilean agriculture has experienced significant growth and has become a major exporter of various agricultural products (e.g., salmon fish, wine, berries). Similar boom in agriculture occurred in Mexico as the implementation of the North American Free Trade Agreement liberalization policies has opened its agricultural sector and stimulated more agricultural exports. In Figure 3, there also appears to a bidirectional causal relationship between agriculture and GDP growth in Thailand while the results for the other two Asian countries (China and Indonesia) are mixed. In China, there is weak support for GLA where positive innovation in GDP led to an increase in agriculture after the third year. Also, there is a persistently negative response by GDP growth to shock in agriculture. In Indonesia, there is strong evidence in support of ALG only. As shown in Figure 4, results for Sub-Saharan Africa suggests the prevalence of bidirectional linkages between agriculture and GDP growth in Kenya only. In contrast, South Africa seems to favor GLA while in Cameroon a shock to agriculture has a positive and significant effect on GDP growth.
+SUMMARY AND CONCLUDING REMARKS
+This paper reexamines the nature of the causal relationship between agriculture and economic growth in a selection of nine developing countries in Sub-Saharan Africa, Asia, and Latin America. In recent decades, the potential contribution of agriculture to economic growth has been a source of debate on divergent viewpoints. While some contend that agricultural development is a precondition to industrialization, others strongly disagree and argue for a different path. Despite much debate and qualitative analyses of the contribution of agriculture to economic growth and development, few empirical investigations on this issue exist. This paper uses recent methods of inductive causation to reexamine the role of agriculture as an “engine of growth.” The study analyzed data for nine developing and transition economies in Sub-Saharan Africa, Asia, and Latin America with the aid of the time-series techniques and DAGs. Results from the empirical analysis provide evidence indicating that the direction of causal relationship between agriculture and GDP growth depends on the country and could either support the GLA or ALG hypotheses. In contemporaneous time, some of the countries show that agriculture stimulates aggregate economic growth. In addition, the empirical evidence also indicates that the reverse causality also exists for some countries such that a vibrant economy could be a catalyst for expansion in the agricultural sector. The results also show that a long-run relationship exists between economic growth and agriculture. Also, empirical results from IRFs and variance decompositions also support a bidirectional causal link between agriculture and GDP growth. Furthermore, the results suggest that trade openness, TOT, and capital accumulation also make contribution to GDP growth.
+6 http://www.fas.usda.gov/info/IATR/012412_Brazil/012412_Brazil.pdf
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 97
+As a form of sensitivity test, we obtained data for three developed countries (the United States, the United Kingdom, and Germany) and conducted complementary analyses for each country as with the nine developing countries. For each developed country, the cointegration results show that a long-run relationship exists between GDP growth and agriculture. However, the results are mixed with regard to the direction of causality between agriculture and GDP growth. The test results from innovation accounting (FEVD and IRF) show support for the GLA hypothesis for Germany and the United Kingdom. In contrast, empirical evidence for the United States does not show a strong causal linkage between agriculture and GDP growth.7 In summary, the empirical evidence from our analyses is mixed and varies across countries. In some cases, there is strong evidence in support of the ALG hypothesis. In contrast, the results for some countries suggest that having a vibrant aggregate economy is a prerequisite for agricultural development. Overall, due to the mixed nature of current empirical results, the findings from this study should not be generalized to all developing countries. In a small way, our results suggest that caution should be taken before massive investment is made in agriculture, before first understanding the complex interactions of various sectors of the economy. Nevertheless, in cases where agriculture is shown to stimulate economic growth, more investment in the agricultural sector is desirable. This is particularly needed in many developing countries where agriculture has been marginalized. In some cases, the demise of the agricultural sector has been driven by domestic policies that intentionally promoted industrialization-led development while marginalizing the agricultural sector. Future research on this issue could expand the methodological approach advocated in this study to a larger cross-section of countries including developed economies.
+REFERENCES
+Awokuse, T. O. 2005. Export-led growth and the Japanese economy: Evidence from VAR and directed acyclic graphs. Applied Economics Letters 12: 849–58. Awokuse, T. O. 2007. Causality between exports, imports, and economic growth: Evidence from transition economies. Economics Letters 94: 389–95.
+Awokuse, T. O., A. Chopra and D. A. Bessler. 2009. Structural change and international stock market interdependence: Evidence from Asian emerging markets. Economic Modelling 26: 549–59. Bessler, D. A. and D. G. Akleman. 1998. Farm prices, retail prices, and directed graphs: Results for pork and beef. American Journal of Agricultural Economics 80 (5): 1144–49. Bhagwati, J. and T. N. Srinivasan. 1975. Foreign Trade Regimes and Economic Development: India. New York: Columbia University Press. Chickering, D. M. 2002. Optimal structure identification with greedy search. Journal of Machine Learning Research 3: 507–54.
+Datt, G. and M. Ravallion. 1998. Farm productivity and rural poverty in India. Journal of Developmental Studies 34 (4): 62–85.
+Demiralp, S. and K. D. Hoover. 2003. Searching for the causal structure of a vector autoregression. Oxford Bulletin of Economics and Statistics 65: 745–67.
+Dickey, D. A. and W. A. Fuller. 1979. Distribution of the estimators for autoregressive time series with a unit root. Journal of the American Statistical Association 74: 427–31.
+7 A complete set of results for complementary analyses for the three developed countries are available upon request from the authors.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+98 CANADIAN JOURNAL OF AGRICULTURAL ECONOMICS
+Dowrick, S. and N. Gemmell. 1991. Industrial catching up and economic growth: A comparative study across the world’s capitalist economics. Economic Journal 101: 263–76. Echevarria, C. 1997. Changes in sectoral composition associated with economic growth. International Economic Review 38 (2): 431–52.
+Edwards, S. 1993. Openness, trade liberalization, and growth in developing countries. Journal of Economic Literature 31: 1358–93. Eicher, C. K. and J. M. Staatz. 1984. Agricultural Development in the Third World. Baltimore: Johns Hopkins University Press. Engle, R. F. and C. W. J. Granger. 1987. Co-integration and error correction: Representation, estimation and testing. Econometrica 55: 251–76. Fei, J. and G. Ranis. 1961. A theory of economic development. American Economic Review 51 (4): 533–65. Frankel, J. and D. Romer. 1999. Does trade cause growth? American Economic Review 89 (3): 379–99. Gardner, B. 2005. Causes of rural economic development. In Reshaping Agriculture’s Contribution to Society, edited by D. Colman and N. Vink, pp. 21–41. Proceedings of the 25th International Conference of Agricultural Economists. Durban, Oxford: Blackwell. Gemmell, N., T. Lloyd and M. Mathew. 2000. Agricultural growth and intersectoral linkages in developing economy. Journal of Agricultural Economics 51 (3): 353–70.
+Gollin, D., S. L. Parente and R. Rogerson. 2002. The role of agriculture in development. American Economic Review 92 (2): 160–64.
+Granger, C. W. J. 1969. Investigating causal relation by econometric models and cross-spectral methods. Econometrica 37: 424–38.
+Helpman, E. and P. Krugman. 1985. Market Structure and Foreign Trade. Cambridge: MIT Press. Hirschman, A. 1958. The Strategy of Economic Development. New Haven: Yale University Press. Humphries, H. and S. Knowles. 1998. Does agriculture contribute to economic growth? Some empirical evidence. Applied Economics 30 (6): 775–81. Hwa, E. C. 1988. The contribution of agriculture to economic growth: Some empirical evidence. World Development 16 (11): 1329–39.
+Johansen, S. and K. Juselius. 1990. Maximum likelihood estimation and inference on cointegration with applications for the demand for money. Oxford Bulletin of Economics and Statistics 52: 169210. Johnston, B. and J. Mellor. 1961. The role of agriculture in economic development. American Economic Review 51 (4): 566–93.
+Jorgenson, D. 1961. The development of a dual economy. Economic Journal 282: 309–34. Kogel, T. and A. Prskawetz. 2001. Agricultural productivity growth and escape from the Malthusian trap. Journal of Economic Growth 6: 337–57.
+Kwiatkowski, D., P. C. B. Phillips, P. Schmidt and Y. Shin. 1992. Testing the null hypothesis of stationarity against the alternative of a unit root: How sure are we that economic time-series have a unit root. Journal of Econometrics 54 (1–3): 159–78. Lewis, W. A. 1954. Economic development with unlimited supplies of labour. The Manchester School 22 (1): 139–91. Lin, J. Y. 1992. Rural reforms and agricultural growth in China. American Economic Review 82 (1): 34–51. MacKinnon, J. G., M. A. Haug and L. Michelis. 1999. Numerical distribution functions of likelihood ratio tests for cointegration. Journal of Applied Econometrics 14: 563–77. Matsuyama, K. 1992. Agricultural productivity, comparative advantage, and economic growth. Journal of Economic Theory 58 (2): 317–34.
+Okonkwo, I. C. 1989. The erosion of agricultural exports in an oil economy: The case of Nigeria. Journal of Agricultural Economics 40 (3): 375–84.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AGRICULTURE AND ECONOMIC GROWTH IN DEVELOPING COUNTRIES 99
+Olsson, O. and D. A. Hibbs. 2005. Biogeography and long-run economic development. European Economic Review 49 (4): 909–38.
+Park, A., H. Jin, S. Rozelle and J. Huang. 2002. Market emergence and transition: Arbitrage, transaction costs, and autarky in China’s grain markets. American Journal of Agricultural Economics 84 (1): 67–82. Pearl, J. 2000. Causality. Cambridge: Cambridge University Press. Pesaran, M. H. and Y. Shin. 1999. An autoregressive distributed lag modeling approach to cointegration analysis. In Econometrics and Economic Theory in the 20th Century: The Ragnar Frisch Centennial Symposium, edited by S. Storm, p. 11. Cambridge: Cambridge University Press. Pesaran, M. H., Y. Shin and R. J. Smith. 2001. Bounds testing approaches to the analysis of level relationships. Journal of Applied Econometrics 16 (3): 289–326.
+Ramsey, J. D., S. J. Hanson and C. Glymour. 2011. Multi-subject search correctly identifies causal connections and most causal directions in the DCM models of the Smith et al. simulation study. Neuroimage 58: 838–48. Ruttan, V. 2000. Technology, Growth and Development: An Induced Innovation Perspective. Oxford: Oxford University Press. Schiff, M. and A. Valdez. 2002. Agriculture and the macroeconomy, with emphasis on developing countries. In Handbook of Agricultural Economics, edited by B. L. Gardner and G. C. Rausser, 1st ed., vol. 2, pp. 1421–54. Amsterdam: Elsevier.
+Schultz, T. W. 1964. Transforming Traditional Agriculture. New Haven: Yale University Press.
+Sicular, T. 1995. Redefining state, plan and market: China’s reforms in agricultural commerce. China Quarterly 144: 1020–46.
+Spirtes, P., C. Glymour and R. Scheines. 2000. Causation, Prediction, and Search. Cambridge: MIT Press. Swanson, N. R. and C. W. J. Granger. 1997. Impulse response functions based on a causal approach to residual orthogonalization in vector autoregressions. Journal of the American Statistical Association 92 (437): 357–67. Thirtle, C., L. Lin and J. Piesse. 2003. The impact of research-led agricultural productivity growth on poverty reduction in Africa, Asia and Latin America. World Development 31 (2): 1959–75. Tiffin, R. and X. Irz. 2006. Is agriculture the engine of growth? Agricultural Economics 35: 79–89. Timmer, C. P. 1995. Getting agriculture moving: Do markets provide the right signals? Food Policy 20 (5): 455–72. Tsakok, I. and B. Gardner. 2007. Agriculture in economic development: Primary engine of growth or chicken and egg? American Journal of Agricultural Economics 89 (5): 1145–51.
+Tsamardinos, I., L. E. Brown and C. F. Aliferis. 2006. The max-min hill-climbing Bayesian network structure learning algorithm. Machine Learning 65: 31–78. USDA Foreign Agricultural Service. 2012. Record Brazilian agricultural production spurs further export gains. International Agricultural Trade Reports. January 24. http://www.fas.usda.gov/data/ record-brazilian-agricultural-production-spurs-further-export-gains (accessed March 4, 2014). Wang, Z. and A. J. Rettenmaier. 2008. Deficits, explicit debt, implicit debt and interest rates: Some empirical evidence. Southern Economic Journal 75 (1): 208–22.
+Wunder, S. 2003. Oil Wealth and the Fate of the Forest: A Comparative Study of Eight Tropical Countries. London: Routledge. Yao, S. 2000. How important is agriculture in China’s economic growth? Oxford Development Studies 28 (1): 33–49.
+17447976, 2015, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/cjag.12038 by University Of Colorado Boulder, Wiley Online Library on [11/10/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

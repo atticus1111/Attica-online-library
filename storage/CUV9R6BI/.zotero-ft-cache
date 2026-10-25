@@ -1,0 +1,471 @@
+NREL is a national laboratory of the U.S. Department of Energy Office of Energy Efficiency & Renewable Energy Operated by the Alliance for Sustainable Energy, LLC
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Contract No. DE-AC36-08GO28308
+Technical Report
+NREL/TP-6A20-71714 November 2018
+2018 U.S. Utility-Scale PhotovoltaicsPlus-Energy Storage System Costs Benchmark
+Ran Fu, Timothy Remo, and Robert Margolis
+National Renewable Energy Laboratory
+
+
+NREL is a national laboratory of the U.S. Department of Energy Office of Energy Efficiency & Renewable Energy Operated by the Alliance for Sustainable Energy, LLC
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Contract No. DE-AC36-08GO28308
+National Renewable Energy Laboratory 15013 Denver West Parkway Golden, CO 80401 303-275-3000 • www.nrel.gov
+Technical Report
+NREL/TP-6A20-71714 November 2018
+2018 U.S. Utility-Scale PhotovoltaicsPlus-Energy Storage System Costs Benchmark
+Ran Fu, Timothy Remo, and Robert Margolis
+National Renewable Energy Laboratory
+Suggested Citation
+Fu, Ran, Timothy Remo, and Robert Margolis. 2018. 2018 U.S. Utility-Scale Photovoltaics-Plus-Energy Storage System Costs Benchmark. Golden, CO: National Renewable Energy Laboratory. NREL/TP-6A20-71714. https://www.nrel.gov/docs/fy19osti/71714.pdf.
+
+
+NOTICE
+This work was authored by the National Renewable Energy Laboratory, operated by Alliance for Sustainable Energy, LLC, for the U.S. Department of Energy (DOE) under Contract No. DE-AC36-08GO28308. Funding provided by the U.S. Department of Energy Office of Energy Efficiency and Renewable Energy Solar Energy Technologies Office. The views expressed herein do not necessarily represent the views of the DOE or the U.S. Government.
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+U.S. Department of Energy (DOE) reports produced after 1991 and a growing number of pre-1991 documents are available free via www.OSTI.gov.
+Cover Photos by Dennis Schroeder: (clockwise, left to right) NREL 51934, NREL 45897, NREL 42160, NREL 45891, NREL 48097, NREL 46526.
+NREL prints on paper that contains recycled content.
+
+
+i
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Acknowledgments
+This work was authored by the National Renewable Energy Laboratory, operated by Alliance for Sustainable Energy, LLC, for the U.S. Department of Energy (DOE) under Contract No. DEAC36-08GO28308. Funding provided by U.S. Department of Energy Office of Energy Efficiency and Renewable Energy Solar Energy Technologies Office. The views expressed in the article do not necessarily represent the views of the DOE or the U.S. Government. The U.S. Government retains and the publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this work, or allow others to do so, for U.S. Government purposes.
+
+
+ii
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+List of Acronyms
+AC alternating current BOS balance of system CAES compressed air energy storage DC direct current DOE U.S. Department of Energy EPC engineering, procurement, and construction HVAC heating, ventilating, and air conditioning ILR inverter loading ratio LCOS levelized cost of storage Li lithium PV photovoltaic(s) SG&A selling, general, and administrative
+
+
+iii
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Executive Summary
+The recent rapid growth of utility-scale photovoltaic (PV) deployment and the declining costs of energy storage technologies have stimulated interest in combining PV with energy storage to provide dispatchable energy (i.e., energy on demand) and reliable capacity (i.e., grid stability). In particular, the use of lithium-ion batteries in U.S. utility-scale applications has grown in recent years owing to the technology’s favorable cost and performance characteristics. This study is our first time to use bottom-up modeling to benchmark the installed costs of various standalone lithium-ion storage (with storage connected to the grid only) and PV-plus-storage (with storage connected to PV and the grid) system configurations. The PV-plus-storage configurations include 1) co-located PV-plus-storage systems vs. PV-plus-storage systems in different locations, and 2) direct current (DC) coupled vs. alternating current (AC) coupled battery configurations for the co-located PV-plus-storage systems.
+Figure ES-1 shows the modeled costs of standalone lithium-ion energy storage systems with an installed capacity of 60 MW able to provide electricity for several different durations. Assuming a constant per-energy-unit battery price of $209/kWh, the system costs vary from $380/kWh (4hour duration system) to $895/kWh (0.5-hour duration system). The battery cost accounts for 55% of total system cost in the 4-hour system, but only 23% in the 0.5-hour system. At the same time, non-battery cost categories accounts for an increasing proportion of the system cost as duration declines.
+Figure ES-1. 2018 U.S. utility-scale lithium-ion standalone storage costs for durations of 0.5–4 hours (60 MWDC)
+
+
+iv
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure ES-2 summarizes our PV-plus-storage model results for several system types and configurations. Each uses a 100-MW PV system and a 60-MW lithium-ion battery that provides 4 hours of storage:
+• Standalone 100-MW PV system with one-axis tracking ($111 million) • Standalone 60-MW/240-MWh, 4-hour-duration energy storage system ($91 million) • Co-located, DC-coupled PV (100 MW) plus storage (60 MW/240 MWh, 4-hour duration) system ($186 million) • Co-located, AC-coupled PV (100 MW) plus storage (60 MW/240 MWh, 4-hour duration) system ($188 million) • PV (100 MW) plus storage (60 MW/240 MWh, 4-hour duration) system with PV and storage components sited in different locations ($202 million)
+Co-locating the PV and storage subsystems produces cost savings by reducing costs related to site preparation, land acquisition, permitting, interconnection, installation labor, hardware (via sharing of hardware such as switchgears, transformers, and controls), overhead, and profit. The cost of the co-located, DC-coupled system is 8% lower than the cost of the system with PV and storage sited separately, and the cost of the co-located, AC-coupled system is 7% lower.
+Using DC-coupling rather than AC-coupling results in a 1% lower total cost, which is the net result of cost differences between DC-coupling and AC-coupling in the categories of solar inverter, structural balance of system (BOS), electrical BOS, labor, EPC (engineering, procurement, and construction) and developer overhead, sales tax, contingency, and profit. For an actual project, however, cost savings may not be the only factor in choosing DC or AC coupling. Additional factors—such as retrofit considerations, system performance, design flexibility, and operations and maintenance—should be considered.
+The benchmarked costs could facilitate PV-plus-storage project development, and the itemized cost savings could incentivize deployment of co-located PV-plus-storage systems. In addition, the model can help industry representatives evaluate the cost impacts of various battery durations for grid applications. Finally, the model can be used to estimate future potential cost-reduction opportunities for PV-plus-storage systems, helping to guide research and development aimed at advancing cost-effective system configurations.
+
+
+v
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure ES-2. 2018 Cost benchmarks for PV-plus-storage systems (4-hour duration) in different sites and the same site (DC-coupled and AC-coupled cases)
+
+
+vi
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Table of Contents
+1 Introduction........................................................................................................................................... 1 2 Energy Storage Technology Options and Deployment History ...................................................... 2 3 Lithium-Ion Battery Storage Trends ................................................................................................... 5 4 Cost Models .......................................................................................................................................... 8 4.1 Lithium-Ion Standalone Storage Cost Model................................................................................ 9 4.2 PV-Plus-Storage System Cost Model.......................................................................................... 13 5 Model Results and Summary ............................................................................................................ 16 References................................................................................................................................................. 19 Appendix. Figure Data from DOE Energy Storage Database ............................................................... 21
+
+
+vii
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+List of Figures
+Figure ES-1. 2018 U.S. utility-scale lithium-ion standalone storage costs for durations of 0.5–4 hours (60 MWDC) .............................................................................................................................. iii Figure ES-2. 2018 Cost benchmarks for PV-plus-storage systems (4-hour duration) in different sites and the same site (DC-coupled and AC-coupled cases) .......................................................... v Figure 1. Average characteristics of energy storage systems built worldwide between 1958 and 2017, by technology, from the DOE Energy Storage Database (2018), sample size = 1,041 (pumped hydro not shown because of its very large global capacity) .................................................... 3 Figure 2. Annual capacities of energy storage systems built worldwide between 2005 and 2017, by technology, from the DOE Energy Storage Database (2018) ............................................. 4 Figure 3. Li-ion storage deployment by region, 2008–2017 (DOE Energy Storage Database 2018)........... 5 Figure 4. U.S. Li-ion energy storage by sector, 2008–2017 (DOE Energy Storage Database 2018) ........... 6 Figure 5. Distributions of U.S. Li-ion energy storage power and duration, by sector, 2008–2016 (DOE Energy Storage Database 2018) .................................................................................... 7 Figure 6. Structure of the bottom-up cost model for standalone storage systems ........................................ 8 Figure 7. Traditional utility-scale Li-ion battery energy storage components .............................................. 9 Figure 8. Battery system components (NAGF/ESIG Workshop 2018) ........................................................ 9 Figure 9. 2018 U.S. utility-scale Li-ion battery standalone storage costs for durations of 0.5–4 hours (60 MWDC) ............................................................................................................................. 11 Figure 10. DC-coupled and AC-coupled PV-plus-storage system configurations ..................................... 14 Figure 11. 2018 Cost benchmarks for PV-plus-storage systems (4-hour duration) in different sites and the same site (DC-coupled and AC-coupled cases) ............................................................... 17
+List of Tables
+Table 1. U.S. Li-ion Energy Storage by Sector, 2008–2017 (DOE Energy Storage Database 2018)........... 7 Table 2. Utility-Scale Li-ion Energy Storage System Model Inputs and Assumptions.............................. 10 Table 3. Detailed Cost Breakdown for a 60-MW U.S. Li-ion Standalone Storage System with Durations of 0.5–4 Hours....................................................................................................... 12 Table 4. Cost Factors for Siting PV and Storage Together vs. Separately ................................................. 13 Table 5. Comparison of DC and AC Coupling for PV-Plus-Storage Systems ........................................... 15 Table 6. Detailed Cost Breakdown for Utility-Scale Li-ion PV-Plus-Storage Systems ............................. 18
+
+
+1
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+1 Introduction
+The recent rapid growth of utility-scale photovoltaic (PV) deployment and the declining costs of energy storage technologies have stimulated interest in combining PV with energy storage to provide dispatchable energy and reliable capacity—particularly as the U.S. utility storage market has begun moving away from short-term power regulation and toward longer-term temporal shifting of renewable generation. The large-scale power interruptions caused by recent extreme weather/fire events in Puerto Rico, Houston, and California have also highlighted the need to improve the reliability and resiliency of U.S. electricity systems. The integration of renewable generation and energy storage offers a way to cost-effectively diversify and strengthen the nation’s energy portfolio.
+Historically, cost has been a barrier to deployment of PV and storage technologies, but improvements in both types of technologies are changing the economics rapidly. In particular, the use of lithium-ion (Li-ion) batteries in U.S. utility-scale applications has grown in recent years owing to the technology’s favorable cost and performance characteristics. Still, utilityscale PV-plus-storage applications are in their infancy. The only such U.S. system recorded in the U.S. Department of Energy (DOE) Energy Storage Database is a 13-MW PV plus 52-MWh energy storage system in Kauai, Hawaii.
+In order to provide a baseline for the accurate and transparent assessment of utility-scale PVplus-storage systems, in this report we use the National Renewable Energy Laboratory’s new bottom-up modeling tool to benchmark the installed costs of various standalone Li-ion storage and PV-plus-storage system configurations for utility-scale applications. Our analysis illustrates the tradeoffs between system choices including short- versus long-duration batteries, co-location versus separate location of battery and PV subsystems, and direct current (DC) versus alternating current (AC) coupling of co-located PV-plus-storage systems.
+The remainder of this report is structured as follows. Section 2 provides a brief overview of energy storage technology options and deployment history. Section 3 focuses on Li-ion battery storage trends. Section 4 describes our cost models, and Section 5 shows the modeled cost results.
+
+
+2
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+2 Energy Storage Technology Options and Deployment History
+Numerous energy storage technologies have been deployed over the past century. Early largescale systems typically employed physical or thermal storage media. However, widespread use of such systems has been hindered by cost, energy density, and siting disadvantages.
+For example, in a pumped hydro storage system, water is pumped uphill into a reservoir and later released downhill through hydroelectric turbines to convert the stored potential energy into electricity. The first large-scale U.S. pumped hydro system was built in 1929 near New Milford, Connecticut (DOE 2018). In 1985, the country’s largest pumped hydro system—with a generation capacity of 3 GW—was completed in Bath County, Virginia, after 8 years of construction (DOE 2018). Nationwide, 40 pumped hydro systems are operating today (DOE Energy Storage Database 2018). This technology typically has a roundtrip energy efficiency of 70%–80%, but siting presents major challenges. Cost-effective sites must have characteristics that enable damming of waterways to create a reservoir, usually requiring a large area remote from energy-demand centers. Even when a suitable site is identified, environmental and landownership considerations may hinder project approvals.
+Compressed air energy storage (CAES) is another established technology that uses a physical storage mechanism. Energy is stored via air compression, and later the air is expanded to generate electricity. The lone large CAES system operating in the United States is the 110-MW plant in McIntosh, Alabama, which uses compressed air to run a natural gas turbine more efficiently (DOE Energy Storage Database 2018). CAES entails drawbacks that have hindered its deployment. Large-scale systems typically require specific geographical characteristics such as underground caverns that can be sealed to hold the compressed air. In addition, roundtrip efficiency of current technologies is only 40%–55% (Chen et al. 2013), and natural gas is consumed in the reconversion process. However, emerging CAES approaches offer higher theoretical efficiencies and generation without the need for fossil fuel combustion (Energy Storage Association 2018).
+More recently, other types of energy storage have begun to be deployed at scale. Figure 1 shows the characteristics of energy storage technologies for systems built between 1958 and 2017 worldwide, categorized by storage type: electrochemical, electromechanical, thermal, and hydrogen.1 Pumped hydro is not shown because its global capacity is much larger than the capacity of the other technologies. These technologies can be grouped into power applications (short duration or discharge time, such as Li-ion batteries) and energy applications (long duration or discharge time, such as CAES). Excluding pumped hydro, the technologies with the largest deployed capacities are molten salt thermal storage (associated with concentrating solar power plants), CAES, and Li-ion batteries.
+1 These data are from the DOE Energy Storage Database, an open-access source of energy storage project information that allows users to contribute data through a third-party vetting process; see the appendix for the figure data.
+
+
+3
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure 1. Average characteristics of energy storage systems built worldwide between 1958 and 2017, by technology, from the DOE Energy Storage Database (2018), sample size = 1,041 (pumped hydro not shown because of its very large global capacity)
+Figure 2 shows the rapid recent growth of Li-ion energy storage. The first recorded utility-scale Li-ion project, the 1-MW Altairnano-PJM Battery Ancillary Services Demo in Pennsylvania, was built in 2008. Between 2008 and 2015, Li-ion capacity grew at a compound annual growth rate of 173% in terms of cumulative capacity, and Li-ion capacity accounted for 89% of annual energy storage capacity in 2015. The data for 2016 and 2017 are preliminary and incomplete, because some projects built in this time frame are still being verified in the database.
+
+
+4
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure 2. Annual capacities of energy storage systems built worldwide between 2005 and 2017, by technology, from the DOE Energy Storage Database (2018)2
+2 The data for 2016 and 2017 are preliminary and incomplete, because some projects built in this time frame are still being verified in the database.
+
+
+5
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+3 Lithium-Ion Battery Storage Trends
+Utilities have begun adopting Li-ion storage because of the technology’s high roundtrip efficiency, high power density, ample supply chain availability, falling cell and system costs, and favorable performance metrics. Most Li-ion applications to date have provided short-duration power and grid stabilization, capturing value from various services including frequency response, voltage regulation, spinning reserves, transmission deferment, peak shaving, and demand response—and often providing a positive rate of return through this value stacking. Worldwide, Li-ion systems have an average duration of 1.6 hours and a power rating of 2.8 MW per system (Figure 1). Providing load shifting will require larger battery packs, which currently account for the largest share of system cost.
+The United States is the world’s leader in Li-ion storage deployment, mostly because of utilityscale storage systems. Between 2008 and 2017, it accounted for 40% of cumulative global Li-ion capacity (Figure 3). Of the U.S. Li-ion capacity through 2017, approximately 495 MW (92% of the capacity) was deployed in the utility-scale sector (systems larger than 1,000 kW), 8% in the commercial sector (systems of 10–1,000 kW), and less than 1% in the residential sector (systems smaller than 10 kW), as shown in Figure 4.
+Figure 3. Li-ion storage deployment by region, 2008–2017 (DOE Energy Storage Database 2018)3
+3 The data for 2016 and 2017 are preliminary and incomplete owing to ongoing project verification for those years.
+
+
+6
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure 4. U.S. Li-ion energy storage by sector, 2008–2017 (DOE Energy Storage Database 2018)4
+Figure 5 and Table 1 characterize U.S. Li-ion storage systems by sector. On average, utility-scale systems have a power rating of 9.9 MW and a duration of 1.7 hours. The utility-scale duration varies from about 0.5 to 4 hours between the 10th and 90th percentiles. For this reason, we model four utility-scale Li-ion storage duration cases: 0.5, 1, 2, and 4 hours. At the short end of the duration spectrum, the storage would mainly be used to maintain the real-time balance between generation and load as well as smooth short-term variations in voltage and current for frequency response. At the long end, the storage could defer transmission and distribution upgrades as well as mitigate variable energy output caused by renewable generation.
+In this report, we focus on utility-scale storage systems. A previous report focused on residential storage systems (Ardani et al. 2017). For the baseline case, we use 4-hour storage according to the California Public Utilities Commission’s “4-hour rule,” which credits storage that can operate for 4 or more consecutive hours with the ability to provide reliable peak capacity (Denholm et al. 2017).
+4 The data for 2016 and 2017 are preliminary and incomplete owing to ongoing project verification for those years.
+
+
+7
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure 5. Distributions of U.S. Li-ion energy storage power and duration, by sector, 2008–2016 (DOE Energy Storage Database 2018)5
+Table 1. U.S. Li-ion Energy Storage by Sector, 2008–2017 (DOE Energy Storage Database 2018)5
+Sector Total number
+of projects
+Total kW
+Total kWh
+Average duration (hours)
+Average system power rating (kW)
+Average system energy (kWh)
+Residential
+(< 10 kW) 18 116 278 2.4 6 15
+Commercial
+(10–1,000 kW) 182 49,161 101,183 2.1 270 556
+Utility-Scale
+(> 1,000 kW) 49 494,764 844,418 1.7 9,934 17,233
+Total U.S. 249 544,041 945,879 1.8 2,153 3,799
+5 The data for 2016 and 2017 are preliminary and incomplete owing to ongoing project verification for those years.
+
+
+8
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+4 Cost Models
+Figure 6 shows the detailed bottom-up cost structure of our standalone storage model, which uses a similar structure to our previously developed PV cost model (Fu et al. 2015, 2016, 2017). Total system upfront capital costs are broken into engineering, procurement, and construction (EPC) costs and developer costs. EPC non-hardware or “soft” costs are driven by labor rates and labor productivities. We adapt engineering-design and cost-estimating models from RSMeans (2017) to determine the EPC hardware costs (including module/battery racking, mounting, wiring, containerization, and foundation) and related EPC soft costs (including related labor and equipment hours required in any given U.S. location). Section 4.1 presents additional detail on the Li-ion standalone storage model, and Section 4.2 shows results from the combined PV-plusstorage model.
+BOS = balance of system, SG&A = selling, general, and administrative
+Figure 6. Structure of the bottom-up cost model for standalone storage systems
+
+
+9
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+4.1 Lithium-Ion Standalone Storage Cost Model
+To reduce installation costs, some battery manufacturers may combine Li-ion battery cells, a battery management system, and the battery inverter in one compact unit (Sonnen Batterie 2018) as an AC battery. However, in this report, we focus on traditional DC batteries typically configured with the four major components shown in Figure 7 and Figure 8.
+Figure 7. Traditional utility-scale Li-ion battery energy storage components
+Figure 8. Battery system components (NAGF/ESIG Workshop 2018)
+Battery cells → modules → packs → racking system (DC)
+Power conversion system (bidirectional inverter to convert AC to DC for battery charging and DC to AC for discharging)
+Transformer (to step up 480-V inverter output to 12–66 kV)
+Storage container (HVAC system, thermal management, monitors and controls, fire suppression, switchgear, and energy management system)
+
+
+10
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Table 2 lists our model inputs and assumptions for such a utility-scale energy storage system. We determined the battery size (60 MWDC)6 using an inverter loading ratio (ILR) of 1.3 and an inverter/storage size ratio of 1.67, based on Denholm et al. (2017).
+Table 2. Utility-Scale Li-ion Energy Storage System Model Inputs and Assumptions (NREL 2018, Fu et al. 2017, Denholm et al. 2017, Blattner Energy 2018, Escondido 2018, Curry 2017, Ortiz 2016, Gupta 2018)
+Model Component Model Input
+Battery total size 60 MW DC
+Battery size per container 5 MWh per 40-foot container
+Number of containers 48 (if duration = 4 hours)
+Li-ion battery price $209/kWh
+Duration 0.5–4 hours
+Battery central inverter price $0.07/W
+Battery inverter size 2.5 MW per inverter
+Number of inverters 24
+Transformer price $28,000 per transformer
+Transformer size 2.5 MW per step-up transformer
+Number of transformers 24
+Foundation 76,800 square feet
+Installation labor Non-union at rates from Bureau of Labor Statistics survey average by state (BLS 2018)
+Sales tax 7.5%
+EPC overhead (% of equipment and labor costs)
+8.67% for equipment and material (except for transmission line costs); 23%–69% for labor costs: varies by labor activity
+Developer overhead 3% of EPC cost
+Land acquisition $250,000
+Interconnection $0.03/W
+Permitting $295,000 per system
+Contingency 3% of EPC cost
+EPC/developer net profit 5% of total installation cost (EPC + developer costs)
+6 For a 100-MW PV system with ILR = 1.3, the inverter size must be 77 MW AC (100 MW/1.3). Using the inverter/storage size ratio (1.67), the storage power capacity must be 46 MW AC (77/1.67). Thus, to match a 100MW PV system, the storage power capacity must be 60 MW DC (46 × 1.3).
+
+
+11
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+We use these inputs to calculate energy storage cost via the following equation7:
+EEEEEEEEEEEE ssssssEEssEEEE iiEEssssssiiiissssiissEE ccssssss � $
+kkkkh� =
+BBssssssEEEEEE ccssssss � $
+kkkkh� + OOsshEEEE ccssssss ccssccccssEEEEEEssss ($) sssscch ssss bbssssssEEEEEE iiEEiiEEEEssEEEE ssEEaa iissbbssEE
+SSssssEEssEEEE ssEEssssEEcc ssiissEE (kkkk) × DDssEEssssiissEE (hssssEEss)
+Figure 9 and Table 3 show the resulting $/kWh costs for 60-MW Li-ion energy storage systems, which vary from $380/kWh (4-hour duration) to $895/kWh (0.5-hour duration). Because the perenergy-unit battery cost remains constant at $209/kWh, the total battery cost—and the proportion of the cost attributed to the battery—decrease as system duration decreases. For example, the battery cost accounts for 55% of total system cost in the 4-hour system, but only 23% in the 0.5hour system. At the same time, non-battery cost categories accounts for an increasing proportion of the system cost as duration declines.
+Figure 9. 2018 U.S. utility-scale Li-ion battery standalone storage costs for durations of 0.5–4 hours (60 MWDC)
+7 This equation is only for the energy storage installation cost calculation. For levelized cost of storage (LCOS), the equation would be different. LCOS is not covered in this report.
+
+
+12
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Table 3. Detailed Cost Breakdown for a 60-MW U.S. Li-ion Standalone Storage System with Durations of 0.5–4 Hours
+60-MW, 4-hour Duration, 240-MWh 60-MW, 2-hour Duration, 120-MWh 60-MW, 1-hour Duration, 60-MWh 60-MW, 0.5-hour Duration, 30-MWh
+Model Component Total Cost ($) $/kWh $/W Total Cost
+($) $/kWh $/W Total Cost
+($) $/kWh $/W Total Cost
+($) $/kWh $/W
+Li-ion battery 50,160,000 209 0.84 25,080,000 209 0.42 12,540,000 209 0.21 6,270,000 209 0.10
+Battery central inverter 4,200,000 18 0.07 4,200,000 35 0.07 4,200,000 70 0.07 4,200,000 140 0.07
+Structural BOS 3,121,131 13 0.05 1,813,452 15 0.03 1,159,612 19 0.02 832,692 28 0.01
+Electrical BOS 8,602,825 36 0.14 6,119,167 51 0.10 4,877,337 81 0.08 4,256,423 142 0.07
+Installation labor &
+equipment 5,479,149 23 0.09 4,322,275 36 0.07 3,743,838 62 0.06 3,454,619 115 0.06
+EPC overhead 2,775,545 12 0.05 1,948,565 16 0.03 1,535,075 26 0.03 1,328,330 44 0.02
+Sales tax 5,293,460 22 0.09 3,083,292 26 0.05 1,978,209 33 0.03 1,425,667 48 0.02
+∑ EPC cost 79,632,110 332 1.33 46,566,751 388 0.78 30,034,071 501 0.50 21,767,732 726 0.36
+Land acquisition 250,000 1 0.00 250,000 2 0.00 250,000 4 0.00 250,000 8 0.00
+Permitting fee 295,289 1 0.00 295,289 2 0.00 295,289 5 0.00 295,289 10 0.00
+Interconnection fee 1,802,363 8 0.03 1,802,363 15 0.03 1,802,363 30 0.03 1,802,363 60 0.03
+Contingency 2,477,135 10 0.04 1,476,303 12 0.02 975,887 16 0.02 725,679 24 0.01
+Developer overhead 2,477,135 10 0.04 1,476,303 12 0.02 975,887 16 0.02 725,679 24 0.01
+EPC/developer net profit 4,346,702 18 0.07 2,593,350 22 0.04 1,716,675 29 0.03 1,278,337 43 0.02
+∑ Developer cost 11,648,623 49 0.19 7,893,608 66 0.13 6,016,101 100 0.10 5,077,347 169 0.08 ∑ Total energy storage
+system cost 91,280,733 380 1.52 54,460,359 454 0.91 36,050,172 601 0.60 26,845,079 895 0.45
+
+
+13
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+4.2 PV-Plus-Storage System Cost Model
+Here we combine our energy storage cost model with our PV system cost model in various configurations: 1) co-located PV-plus-storage systems vs. PV-plus-storage systems in different locations, and 2) DC-coupled vs. AC-coupled battery configurations for the co-located PV-plusstorage systems. As shown in Table 4, co-location enables sharing of several hardware components between the PV and energy storage systems, which can reduce costs. Co-location can also reduce soft costs related to site preparation, land acquisition, installation labor, permitting, interconnection, and EPC/developer overhead and profit.
+Table 4. Cost Factors for Siting PV and Storage Together vs. Separately (NREL 2018, Blattner Energy 2018, Ardani et al. 2017)
+Model Component Co-located PV-Plus-Storage PV-Plus-Storage
+in Different Sites
+Site preparation8 Once Twice
+Land acquisition cost Lower Higher
+Hardware sharing between PV and energy storage
+Yes (step-up transformer, switchgear, monitor, and controls)
+No
+Installation labor cost Lower (due to hardware sharing and single labor mobilization)
+Higher
+EPC/developer overhead and profit Lower (due to lower labor cost, BOS, and total system cost)
+Higher
+Interconnection and permitting Once Twice
+When PV and battery storage are co-located, the subsystems can be connected by a DC-coupled or AC-coupled configuration (Figure 10). A DC-coupled system needs only one bidirectional inverter, connects battery storage directly to the PV array, and enables the battery to charge and discharge from the grid. On the other hand, an AC-coupled system needs both a PV inverter and a bidirectional inverter, and there are multiple conversion steps between DC and AC to charge or discharge the battery. Also, the transmission line could be used for both PV and battery storage systems.
+The advantages of the DC-coupled system include the following:
+1. A DC-coupled system uses only a single bidirectional inverter (Table 5), thus reducing costs for the inverter, inverter wiring, and inverter housing.
+2. Because of the extra conversion between DC and AC, an AC-coupled system may have lower roundtrip efficiency for battery charging compared with a DC-coupled system, which charges the battery directly. However, as power electronics are becoming more efficient, the actual efficiency difference is becoming smaller (Enphase 2018).
+8 Site preparation is a sub-category under labor cost, so it is not shown in the cost breakdown chart.
+
+
+14
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+3. Because the battery is connected directly to the solar array, excess PV generation that would otherwise be clipped by an AC-coupled system at the inverter level can be sent directly to the battery, which could improve system economics (DiOrio 2018).
+Figure 10. DC-coupled and AC-coupled PV-plus-storage system configurations
+Solar PV System
+Bidirectional Inverter (DC → AC or AC → DC)
+Grid
+Battery Pack (Charge and Discharge)
+DC DC
+AC
+Solar PV System
+PV Inverter
+(DC → AC) Grid
+Bi-directional Inverter (DC → AC or AC → DC)
+DC
+DC
+AC
+Battery Pack (Charge and Discharge)
+DC
+AC
+DC
+AC
+DC-Coupled System
+AC-Coupled System
+DC
+AC
+DC to DC Converter
+DC
+
+
+15
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Table 5. Comparison of DC and AC Coupling for PV-Plus-Storage Systems (Denholm et al. 2017, Ardani et al. 2017, Cole et al. 2016)
+Model Component
+DC-Coupled Configuration AC-Coupled Configuration
+Number of inverters
+1 (bidirectional inverter for battery) 2 (bidirectional inverter for battery plus grid-tied inverter for PV), resulting in higher costs for the inverter, inverter wiring, and inverter housing
+Battery rack size Smaller (because battery is directly connected to PV), resulting in more heating, ventilating, and air conditioning (HVAC) and fire-suppression systems required
+Larger
+Structural BOS More (due to smaller battery rack size) Less
+Electrical BOS Less (but needs additional DC-to-DC converters)
+More (due to additional wiring for inverters)
+Installation labor cost
+More (due to smaller battery rack size and more skilled labor and labor hours required for DC work)
+Less
+EPC overhead More (due to higher installation labor cost) Less
+Sales tax Less More (due to higher total hardware costs)
+EPC/developer profit
+Less More (due to higher total EPC and developer costs)
+The advantages of the AC-coupled system include the following:
+1. Because the battery racks are not directly connected to the PV system in AC-coupled systems, these systems can use larger battery racks and thus reduce the number of HVAC and fire-suppression systems in the containers. This feature also reduces installation labor costs compared with DC-coupled systems.
+2. For a retrofit (i.e., adding battery storage to an existing PV array), an AC-coupled battery may be more practical than a DC-coupled battery, because DC-coupled systems require installers to replace the existing PV inverter with a bidirectional inverter. Thus, the additional costs due to replacing the inverter and rewiring the system could make retrofit costs higher for a DC-coupled system compared with an AC-coupled system (Ardani et al. 2017). In addition, AC-coupled systems enable the option of upgrading the PV and battery separately, because these systems are independent of one another.
+3. Because AC-coupled systems have separated PV and battery systems, installers have more flexibility to adjust the battery location. For instance, DC-coupled systems require batteries to be installed next to the bidirectional inverter, and the resulting need for maintenance crews to enter the PV field can make maintenance more time consuming. Because AC-coupled systems can have batteries located outside of the PV field, maintenance work can be quicker and easier.
+
+
+16
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+5 Model Results and Summary
+Figure 11 summarizes our model results for several system types and configurations:
+• Standalone 100-MW PV system with one-axis tracking ($111 million) • Standalone 60-MW/240-MWh, 4-hour-duration energy storage system ($91 million) • Co-located, DC-coupled PV (100 MW) plus storage (60 MW/240 MWh, 4-hour duration) system ($186 million) • Co-located, AC-coupled PV (100 MW) plus storage (60 MW/240 MWh, 4-hour duration) system ($188 million) • PV (100 MW) plus storage (60 MW/240 MWh, 4-hour duration) system with PV and storage components sited in different locations ($202 million)
+Table 6 shows detailed costs for the three PV-plus-storage configurations. Co-locating the PV and storage subsystems produces cost savings by reducing costs related to site preparation, land acquisition, permitting, interconnection, installation labor, hardware (via sharing of hardware such as switchgears, transformers, and controls), overhead, and profit. The cost of the co-located, DC-coupled system is 8% lower than the cost of the system with PV and storage sited separately, and the cost of the co-located, AC-coupled system is 7% lower.
+Using DC-coupling rather than AC-coupling results in a 1% lower total cost, which is the net result of cost differences between DC-coupling and AC-coupling in the categories of solar inverter, structural BOS, electrical BOS, labor, EPC and developer overhead, sales tax, contingency, and profit. For an actual project, however, cost savings may not be the only factor in choosing DC or AC coupling. Additional factors—such as retrofit considerations, system performance (including energy loss due to clipping), design flexibility, and operations and maintenance—should be considered.
+In summary, the National Renewable Energy Laboratory’s new bottom-up cost model can be used to assess the costs of utility-scale PV-plus-storage systems using various configurations. The itemized cost savings could incentivize deployment of co-located PV-plus-storage systems. In addition, the model can help industry representatives evaluate the cost impacts of various battery durations for grid applications. Finally, the model can be used to estimate future potential cost-reduction opportunities for PV-plus-storage systems, helping to guide research and development aimed at advancing cost-effective system configurations. In the future, we will continue updating the model inputs and expand our model to cover more economic metrics, such as LCOS (Levelized Cost of Storage).
+
+
+17
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure 11. 2018 Cost benchmarks for PV-plus-storage systems (4-hour duration) in different sites and the same site (DC-coupled and AC-coupled cases)
+
+
+18
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Table 6. Detailed Cost Breakdown for Utility-Scale Li-ion PV-Plus-Storage Systems
+Model Component Total Cost
+100-MW PV Plus 60MW/240-MWh Battery, DC-Coupled, Co-located
+100-MW PV Plus 60MW/240-MWh Battery, AC-Coupled, Co-located
+100-MW PV Plus 60MW/240-MWh Battery, In Different Sites
+PV module $35,000,000 $35,000,000 $35,000,000
+Li-ion battery $50,160,000 $50,160,000 $50,160,000
+Solar inverter n/a $6,153,846 $6,153,846
+Bidirectional inverter $4,200,000 $4,200,000 $4,200,000
+Structural BOS $18,346,829 $17,685,150 $17,735,564
+Electrical BOS $12,987,780 $13,115,425 $18,649,611
+Installation labor & equipment $18,863,868.05 $16,326,680.01 $19,058,910
+EPC overhead $9,879,642 $8,550,831 $9,981,792
+Sales tax $9,178,323 $9,605,687 $10,030,372
+∑ EPC cost $158,616,442 $160,797,619 $170,970,095
+Land acquisition $3,000,000 $3,000,000 $3,250,000
+Permitting fee $295,289 $295,289 $590,578
+Interconnection fee $2,919,545 $2,919,545 $4,721,908
+Transmission line $1,883,302 $1,883,302 $1,883,302
+Contingency $5,001,437 $5,066,873 $5,455,816
+Developer overhead $5,001,437 $5,066,873 $5,455,816
+EPC/developer net profit $8,835,873 $8,951,475 $9,616,376
+∑ Developer cost $26,936,884 $27,183,357 $30,973,796
+∑ Total energy storage system cost
+$185,553,326 $187,980,975 $201,943,890
+
+
+19
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+References
+U.S. Department of Energy website. Accessed June 20, 2018: https://www.energy.gov/eere/water/history-hydropower
+“DOE Global Energy Storage Database.” U.S. Department of Energy. Accessed January 20, 2018: http://www.energystorageexchange.org/.
+Chen, Haisheng, Zhang, Xinjing, Liu, Jinchao, and Tang, Chunqing. 2013. Compressed air energy storage. Energy Storage-Technologies and Applications.
+“Compressed Air Energy Storage (CAES).” Energy Storage Association. Accessed July 17, 2018: http://energystorage.org/compressed-air-energy-storage-caes
+RSMeans. RSMeans Building Construction Cost Data 2017. RS Means Catalog No. 60012.
+Fu, Ran, David Feldman, Robert Margolis, Mike Woodhouse, and Kristen Ardani. 2017.
+U.S. Solar Photovoltaic System Cost Benchmark: Q1 2017. Golden, CO: National Renewable Energy Laboratory. NREL/TP-6A20- 68925. https://www.nrel.gov/docs/fy17osti/68925.pdf.
+Fu, Ran, Donald Chung, Travis Lowder, David Feldman, Kristen Ardani, and Robert Margolis, 2016. U.S. Solar Photovoltaic System Cost Benchmark: Q1 2016. Golden, CO: National Renewable Energy Laboratory. NREL/TP-6A20-66532. https://www.nrel.gov/docs/fy16osti/66532.pdf.
+Fu, Ran, Ted L. James, Donald Chung, Douglas Gagne, Anthony Lopez, and Aron Dobos. 2015. “Economic Competitiveness of U.S. Utility-Scale Photovoltaics Systems in 2015: Regional Cost Modeling of Installed Cost ($/W) and LCOE ($/kWh).” 42nd Photovoltaic Specialist Conference, New Orleans, LA, June 2015.
+NREL. 2018. NREL dialogues and interviews with energy storage industry collaborators. Golden, CO: National Renewable Energy Laboratory.
+Sonnen Batterie website. Accessed April 10, 2018: https://sonnen-batterie.com/enus/sonnenbatterie.
+NAGF/ESIG Workshop 2018. Battery Energy Storage Technology and Design.
+Denholm, Paul, Josh Eichman, and Robert Margolis. 2017. Evaluating the Technical and
+Economic Performance of PV Plus Storage Power Plants. Golden, CO: National Renewable Energy Laboratory. NREL/TP-6A20-68737. https://www.nrel.gov/docs/fy17osti/68737.pdf.
+Blattner Energy website. Accessed April 15, 2018: http://blattnerenergy.com/projects/lee-dekalbess/.
+“Escondido to Host 30-Megawatt Battery.” 2016, August 25. Times-Advocate. Accessed April 16, 2018: https://www.times-advocate.com/articles/escondido-to-host-30-megawatt-battery/.
+
+
+20
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Curry, Clair. 2017, July 5. Lithium-ion Battery Costs and Market. Bloomberg New Energy Finance. https://data.bloomberglp.com/bnef/sites/14/2017/07/BNEF-Lithium-ion-battery-costsand-market.pdf.
+Ortiz, Luis. 2016. Grid-Scale Energy Storage Balance of System 2015–2020: Architectures, Costs and Players. Greentech Media. https://www.greentechmedia.com/research/report/gridscale-energy-storage-balance-of-systems-2015-2020.
+Gupta, Mitalee. 2018. U.S. Front-of-the-Meter Energy Storage System Prices, 2018–2022. Greentech Media.
+Bureau of Labor Statistics (BLS) website. Accessed July 17, 2018: https://www.bls.gov/bls/blswage.htm
+Ardani, Kristen, Eric O’Shaughnessy, Ran Fu, Chris McClurg, Joshua Huneycutt, and Robert Margolis. 2017. Installed Cost Benchmarks and Deployment Barriers for Residential Solar Photovoltaics with Energy Storage: Q1 2016. Golden, CO: National Renewable Energy Laboratory. NREL/TP-7A20- 67474. https://www.nrel.gov/docs/fy17osti/67474.pdf.
+Elgqvist, Emma, Kate Anderson, and Edward Settle. 2018. Federal Tax Incentives for Energy Storage Systems. Golden, CO: National Renewable Energy Laboratory. NREL/FS-7A40-70384. https://www.nrel.gov/docs/fy18osti/70384.pdf.
+Enphase website. Accessed April 15, 2018: https://enphase.com/en-us/products-andservices/storage.
+DiOrio, Nicholas, Hobbs, Will. 2018. Economic dispatch for DC-connected battery systems on large PV plants. 10th PVPMC, Albuquerque, NM https://pvpmc.sandia.gov/download/6559/
+Cole, Wesley J., Cara Marcy, Venkat K. Krishnan, and Robert Margolis, “Utility-scale lithiumion storage cost projections for use in capacity expansion models.” 43nd Photovoltaic Specialist Conference, Denver, CO, September 2016.
+
+
+21
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Appendix. Figure Data from DOE Energy Storage Database
+Figure 1 Data
+Specific Type Category
+Number of projects
+Total kW
+Total kWh
+Average Duration (hours)
+Average System Power Rating (kW)
+Average System Energy (kWh)
+Lead-acid Battery Electro-chemical 79 194,300 216,578 1.1 2,459 2,741
+Li-ion Battery Electro-chemical 523 1,485,898 2,321,097 1.6 2,841 4,438
+Flow Battery Electro-chemical 101 322,702 1,251,215 3.9 3,195 12,388
+Sodium-based Battery Electro-chemical 71 168,634 1,090,820 6.5 2,375 15,364
+Nickel-based Battery Electro-chemical 6 30,385 7,925 0.3 5,064 1,321
+Zinc-air Battery Electro-chemical 4 73,750 297,008 4.0 18,438 74,252
+Compressed Air Storage Electro
+mechanical 15 1,592,590 39,974,670 25.1 106,173 2,664,978
+Flywheel Electro
+mechanical 46 961,435 103,414 0.1 20,901 2,248
+Molten Salt Thermal
+Storage Thermal 41 2,850,520 19,845,210 7.0 69,525 484,030
+Heat Thermal Storage Thermal 20 129,740 338,430 2.6 6,487 16,922
+Ice Thermal Storage Thermal 110 99,675 703,363 7.1 906 6,394
+Chilled Water Thermal
+Storage Thermal 20 135,206 1,421,741 10.5 6,760 71,087
+Hydrogen Storage Hydrogen 5 8,920 100,060 11.2 1,784 20,012
+Total Non-Hydro Storage 1,041 8,053,755 67,671,531 8.4 7,737 65,006
+Open-loop Pumped Hydro Pumped Hydro 69 39,321,700 390,411,510 9.9 569,880 5,658,138
+Closed-loop Pumped Hydro Pumped Hydro 7 4,288,006 31,533,369 7.4 612,572 4,504,767
+Total Hydro Storage (not shown in Figure 1) 76 43,609,706 421,944,879 9.7 573,812 5,551,906
+
+
+22
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Figure 2 Data
+Worldwide
+(kW) 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017
+Lead-acid Battery
+Electro
+chemical 0 16 60 0 12 1,000 44,625 445 3,010 2,114 1,050 0 0
+Li-ion Battery Electro
+chemical 0 0 0 1,000 2,000 5,400 1,662 21,020 17,116 90,748 264,615 96,110 104,000
+Flow Battery Electro
+chemical 0 0 100 0 0 10 800 5,190 370 30 300 200,200 10,200
+Sodium-based Battery
+Electro
+chemical 0 1,000 0 0 0 0 1,195 298 0 44,555 10 11 800
+Nickel-based Battery
+Electro
+chemical 0 0 0 0 0 0 0 0 0 0 0 0 0
+Zinc-air Battery Electro
+chemical 0 0 0 0 0 0 0 0 0 0 62,500 0 0
+Compressed Air Storage
+Electro
+mechanical 0 0 0 0 0 0 350 0 201,000 500 1,000 0 0
+Flywheel Electro
+mechanical 1,100 0 500 0 500 500 1,600 100 2,000 290 0 0 0
+Molten Salt Thermal Storage
+Thermal
+Storage 0 49,900 0 255,720 269,900 330,000 390,000 100,000 160,000 470,000 0 100,000 0
+Heat Thermal Storage
+Thermal
+Storage 11,000 2,000 1,500 0 1,500 0 3,600 61,155 12,000 10,100 0 0 0
+Ice Thermal Storage
+Thermal
+Storage 0 0 5,320 0 375 0 0 0 1,000 0 0 0 0
+Chilled Water Thermal Storage
+Thermal
+Storage 0 0 0 90,000 0 0 0 0 0 0 0 0 0
+Hydrogen Storage
+Hydrogen
+Storage 0 0 0 0 0 0 0 0 1,320 0 0 0 0
+Total Non
+Hydro Storage 12,100 52,916 7,480 346,720 274,287 336,910 443,832 188,208 397,816 618,337 329,475 396,321 115,000

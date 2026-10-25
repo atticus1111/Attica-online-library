@@ -1,0 +1,456 @@
+SPECIAL ISSUE ARTICLE
+Methods for building a staff workforce of quantitative
+scientists in academic health care
+Sarah Peskoe PhD 1 | Emily Slade PhD 2 | Lacey Rende MA 1 |
+Mary Boulos MPP 3 | Manisha Desai PhD 3 | Mihir Gandhi PhD 4 |
+Jonathan A. L. Gelfond MD, PhD 5 | Shokoufeh Khalatbari MS 6 |
+Phillip J. Schulte PhD 7 | Denise C. Snyder MS, RD8 | Sandra L. Taylor PhD 9 |
+Jesse D. Troy PhD 1 | Roger Vaughan PhD 4,10 | Gina-Maria Pomann PhD 1
+1Department of Biostatistics and Bioinformatics, Duke University, Durham, North Carolina, USA
+2Department of Biostatistics, University of Kentucky, Lexington, Kentucky, USA
+3Quantitative Sciences Unit, Department of Medicine, Stanford University School of Medicine, Palo Alto, California, USA
+4Centre for Quantitative Medicine, Duke-NUS Medical School, Singapore City, Singapore
+5Department of Epidemiology and Biostatistics, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA
+6Michigan Institute for Clinical & Health Research, University of Michigan, Ann Arbor, Michigan, USA
+7Department of Quantitative Health Sciences, Mayo Clinic, Rochester, Minnesota, USA
+8Office of Clinical Research, School of Medicine, Duke University, Durham, North Carolina, USA
+9Department of Public Health Sciences, University of California Davis, Sacramento, California, USA
+10Programme in Health Services and Systems Research, Duke-NUS Medical School, Singapore City, Singapore
+Correspondence
+Sarah Peskoe, PhD, Assistant Professor, Department of Biostatistics and Bioinformatics, Duke University, Durham, USA. Email: sarah.peskoe@duke.edu
+Collaborative quantitative scientists, including biostatisticians, epidemiologists, bio
+informaticists, and data-related professionals, play vital roles in research, from study
+design to data analysis and dissemination. It is imperative that academic health care
+centers (AHCs) establish an environment that provides opportunities for the quanti
+tative scientists who are hired as staff to develop and advance their careers. With
+the rapid growth of clinical and translational research, AHCs are charged with esta
+blishing organizational methods, training tools, best practices, and guidelines to accel
+erate and support hiring, training, and retaining this staff workforce. This paper
+describes three essential elements for building and maintaining a successful unit of
+collaborative staff quantitative scientists in academic health care centers: (1) organiza
+tional infrastructure and management, (2) recruitment, and (3) career development
+and retention. Specific strategies are provided as examples of how AHCs can excel in
+these areas.
+KEYWORDS
+academic health care centers, collaborative biostatistics, data science, quantitative staff
+1 | INTRODUCTION
+Rigorous and reproducible clinical and translational research relies on sound quantitative methods to answer critical questions and inform clinical
+practice. Quantitative scientists such as biostatisticians, epidemiologists, bioinformaticians, clinical informaticians, data scientists, and other
+Received: 30 January 2024 Revised: 25 March 2024 Accepted: 1 April 2024
+DOI: 10.1002/sta4.683
+Stat. 2024;13:e683. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 11 https://doi.org/10.1002/sta4.683
+
+
+data-related professionals play essential roles throughout the research process, including study design, data management, analysis, interpretation
+of findings, and dissemination of results. Academic health care centers (AHCs), as defined by the Institute of Medicine (US) Committee on the
+Roles of Academic Health Centers, operate as a constellation of organizations with central academic or university-related roles in education and
+research (Institute of Medicine, 2004). Currently, AHCs are experiencing a growing need to establish, support, and nurture collaborative quantita
+tive units that support the increase in data-driven research. These units are generally composed of quantitative faculty and staff who collaborate
+across different scientific and clinical domains. To effectively sustain such units, it is imperative that AHCs provide adequate resources for such
+faculty and staff (Desai et al., 2022). Faculty-level quantitative scientists may have both collaborative and individually led scientific goals, as they
+are often hired with expectations of teaching and/or establishing their own research programmes or labs. Thus, the amount of time they can
+spend collaborating with investigators across the AHC is often limited. In contrast, quantitative staff members (referred to from here on as “staff”)
+are frequently hired to support data-intensive collaborative research and quantitative methods research led by faculty. Therefore, AHCs must
+consider ways to allocate appropriate resources to support staff; to attract, hire, retain, and promote them and to establish a nurturing environ
+ment that provides opportunities for their career development and advancement (Freel et al., 2023).
+According to a recent survey of 171 collaborative biostatistics units in AHCs, a single unit within the response group comprised at least two
+full-time faculty and six full-time staff, while these teams can include over 20 full-time faculty and 100 full-time staff (Hanlon et al., 2022). With
+this workforce rapidly expanding, it is critical to develop generalizable and scalable processes to hire, train, and support staff to meet the research
+needs. Previous literature has outlined strategies for integrating specific types of quantitative researchers in AHCs, essential elements for devel
+oping quantitative science units, best practices for quantitative collaborations within AHCs, and the need for flexible workflows during the
+COVID-19 pandemic (Desai et al., 2022; Havermahl et al., 2015; Lee et al., 2022; Perkins et al., 2016; Welty et al., 2013). Others have defined
+requirements for interdisciplinary training in graduate programmes in biostatistics and data science to develop collaborative researchers with the
+necessary professional expertise (Begg & Vaughan, 2011; Zapf et al., 2019) and have further developed methods for supporting and integrating
+early-stage collaborative biostatistics faculty in AHCs (Spratt et al., 2017). In 2020, Pomann et al. published a framework for the biostatistics col
+laborative model and identified main competencies required for biostatisticians to effectively collaborate on clinical and translational research
+studies (Pomann et al., 2020). These competencies have since been formally evaluated and updated (Slade et al., 2023). The Academic Data Sci
+ence Alliance (ADSA) has provided some general guidelines for staff who focus on complex data and computing challenges, that is, data scientists
+and software engineers, in academic environments (Van Tuyl et al., 2023). Similar attention has been focused on developing the clinical research
+professional workforce (Brouwer et al., 2017; Deeter et al., 2020, 2023; Stroo et al., 2020; Taylor et al., 2023), providing possible frameworks for
+training quantitative staff. Collectively, there is a large body of work aimed at identifying how to establish units, how to effectively collaborate
+within AHCs, and how to train the workforce. However, there remain extensive challenges related to managing, hiring, and retaining scientists in
+this workforce.
+This paper aims to provide tools and resources that AHCs can use to support (1) organizational infrastructure and management, (2) recruit
+ment, and (3) career development and retention of quantitative scientists (Figure 1). Quantitative unit leaders across nine institutions formulated
+a working group to provide guidance for quantitative units in AHCs who hire these scientists. Table 1 describes the staffing levels of 10 quantita
+tive units at nine different institutions in the United States and Singapore that are led by the authors of this manuscript. We first discuss how
+AHCs should consider developing organizational infrastructure and specialized management roles for this workforce. Next, we share guidance for
+staff recruitment. Last, we provide direction for creating appropriate and equitable career development opportunities to retain the workforce.
+Throughout the manuscript, we provide tools and examples related to these elements. Additionally, we include example documentation, where
+available, that has been used to develop these practices at our institutions.
+2 | ORGANIZATIONAL INFRASTRUCTURE AND MANAGEMENT
+To ensure quantitative scientists can thrive in AHCs, it is important to help them connect with one another and to support the development of
+quantitative units that provide professional development opportunities. It is also crucial that there are established leaders and mentors in this
+F I G U R E 1 Main elements identified by the workgroup for developing and maintaining the staff workforce of quantitative scientists.
+2 of 11 PESKOE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+workforce as well as pathways for staff to grow into leadership positions. We first discuss the importance of quantitative units and provide guid
+ance on how AHCs can develop resources to help quantitative scientists connect with one another. Next, we provide guidance on how to support
+infrastructure that can facilitate leadership opportunities for quantitative scientists.
+2.1 | Establishing infrastructure to support the workforce across an academic heath center
+Historically, it has been common practice for clinical departments to hire or engage a single quantitative staff, often a statistician, to support
+their research needs (Mehta et al., 2022; Welty et al., 2013). While it may seem desirable for clinical leadership to have short-term control of
+workflows and the staff's effort, there are numerous drawbacks to the growth and longevity of these types of arrangements. For instance, a
+“siloed” staff is hindered in their opportunities for peer learning and may be spread too thin, increasing their risk of resignation due to over
+work. With a sole embedded staff and a higher propensity for turnover, historical knowledge is not retained when that individual is not avail
+able (e.g., resigns or goes on leave). Instead, it is ideal to establish a centralized resource that fosters connections and leverages diverse
+expertise among quantitatively trained peers (Khalatbari et al., 2020; Mehta et al., 2022; Welty et al., 2013). AHCs should support the devel
+opment of quantitative units that can properly hire, manage, and retain staff. Within these units, a supervisor—either a faculty member or a
+well-established senior staff—should be charged with overseeing the professional development of the staff. The unit should provide opportu
+nities to work with mentors, to attend trainings and conferences, for membership in national associations, and for continued learning. A sim
+ple example activity could be to require staff to present insights gained from recently attended workshops in a staff meeting (Taylor
+et al., 2023).
+Table 1 summarizes both the size (in terms of individuals and research effort) and breakdown (including staff and faculty) of the 10 quantita
+tive units that the authors of this manuscript represent. Given that comparing research dollars across institutions is challenging due to heteroge
+neity in resource costs and costs of living, we provide information on how much faculty and staff effort, represented as full-time equivalents
+(FTEs), are available within each of the collaborative units. These numbers can be used to estimate the total amount of research dollars used to
+support effort from the staff and faculty within the unit.
+In addition to supporting the development of quantitative units, AHCs should establish infrastructure for resource sharing among all siloed
+staff and quantitative collaboration units. Efforts should be made to facilitate coordination among these units, supporting equitable and trans
+parent career growth and professional development opportunities for staff throughout the institution. There are numerous ways to achieve
+resource-sharing goals. Khalatbari et al. (2020) developed an applied biostatistical sciences network to enhance connectivity among biostatisti
+cians at the University of Michigan (Khalatbari et al., 2020). Pomann et al. (2023) established an analytic resource navigation process at Duke
+University and Stanford University to assist investigators in navigating the complex landscape of quantitative collaboration units in AHCs
+(Pomann et al., 2023). These types of resource-sharing can form an integral part of the infrastructure for supporting staff across AHCs.
+T A B L E 1 Represented institutions.
+Institution Quantitative unit
+Faculty Staff
+Unique individuals
+Total FTE
+Unique individuals
+Total FTE
+Mayo Clinic Biostatistics Core a a 209 199.0
+Duke University Biostatistics, Epidemiology, and Research Design (BERD) Core
+18 5.0 29 29.0
+Stanford University Quantitative Sciences Unit 6 5.4 37 36.0
+University of California, Davis
+Biostatistics Support Unit 1 0.1 8 8.0
+UT Health San Antonio Biostatistics, Epidemiology, and Research Design (BERD) Core
+4 0.35 2 0.80
+Stanford University BERD Program 5 0.6 5 1.0
+University of Michigan Biostatistics Program 1 0.2 5 4.0
+University of Kentucky Biostatistics Consulting and Interdisciplinary Research Collaboration Lab
+3 2.25 6 5.5
+Duke-NUS Biostatistics Core 5 3.7 3 3.0
+Duke University Aging Center Data Science and Statistics (DSS) Lab 3 1.85 5 2.75
+aMayo Clinic Department of Quantitative Health Sciences Faculty are not included in the Biostatistics Core Unit.
+PESKOE ET AL. 3 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Institutions with a Clinical and Translational Science Award may find their Biostatistics, Epidemiology and Research Design (BERD) Cores well
+suited to serve as a mechanism for bridging resources and sharing best practices across these units. The most effective methods for this work
+will vary by institution and require further development.
+2.2 | Creating leadership positions for staff within collaboration units
+As AHCs hire more staff into quantitative units, it is necessary to establish an effective leadership structure. Quantitative units should provide
+clear pathways for staff to grow into leadership positions. The unit should train staff to take on roles of increasing responsibility, including unit
+leadership, scientific operations oversight, project management, and leading scientific teams. At the Duke BERD Core, each staff has a desig
+nated “administrative manager” who works with the staff to evaluate overall performance and advocate for professional development across
+their project portfolio. For each assigned project, there is also a “project supervisor” who can provide mentorship specific to the project's work.
+To help train staff into management positions, transparent expectations for the leadership roles should be provided. Appendix S1 outlines the
+responsibilities of the administrative manager in comparison to project supervisors. Administrative managers help staff navigate their career path
+and provide insight in interacting with faculty and troubleshooting issues as they arise. These managers need dedicated time to provide over
+sight, and we have found that allocating 2.5% of their time per direct report tends to be sufficient, unless significant performance issues arise
+that require additional effort and attention. Project supervision effort needs vary by the scope of work and the staff assigned to the project.
+In addition to formal administrative management, there are a lot of project and team leadership opportunities that units can provide.
+Stanford's Quantitative Sciences Unit provides opportunities for all staff to lead, under the overarching faculty leadership of the unit. Specifically,
+a senior staff is assigned to each project, serving as data science lead and project manager. Most projects have at least one junior staff assigned to
+the project to support the senior staff in their role as data science lead. While there are often additional senior staff or faculty with relevant exper
+tise assigned to a project, there will be only one individual identified as the lead for the data science aspects of the project. In this role, the lead
+staff guides and mentors junior staff in challenges that arise with team dynamics and with methodological questions. Additionally, Stanford's
+Quantitative Sciences Unit provides staff with opportunities for larger programmatic leadership positions outside of projects, with an ability to
+lead a subprogramme within the unit. Examples of subprogrammes that staff have developed include the Clinical Trials Program, the Learning
+Health Systems Program, the Computational Biology Program, and the Data Science Navigation Program, which all have directorship positions
+filled by staff.
+In smaller collaborative quantitative units, staff and faculty often take on interdisciplinary roles in terms of administrative management, pro
+ject management, and data science leadership. The Michigan Institute for Clinical and Health Research's Biostatistics Program and the Duke Data
+Science and Statistics (DSS) Lab each comprise teams of senior level staff who operate relatively independently. A central programme manager
+meets with the staff to help develop statistical analysis plans and review projects at weekly meetings, but staff function as analysts, project man
+agers, and lead quantitative scientists within their own projects. Ultimately, while the size of the quantitative units and experience level of the
+staff within those units may vary across or even within an AHC, designating leadership roles for staff has been a key marker of effective manage
+ment and team structure.
+Once a collaborative quantitative unit has clearly defined leadership positions, training in leadership and management becomes essential to
+support individuals taking on these roles. The need for leadership training is prevalent in Academia and not unique to collaborative biostatistics
+(Gigliotti & Ruben, 2017). In particular, managers should receive proper training to effectively mentor and supervise staff, ensuring they can navi
+gate the collaboration process successfully. To establish leadership training for collaborative biostatistics units, we recommend (1) leveraging
+internal resources, (2) identifying and utilizing external resources, and (3) building documentation to guide leaders and managers in identifying
+areas requiring training. Most academic institutions provide training modules for leadership and management skills that can be utilized or
+expanded to benefit staff in leadership positions. Institutions should encourage and support staff in taking advantage of existing external
+resources, such as training and workshops offered by the American Statistical Association (ASA) or the Center for the Improvement of Mentored
+Experiences in Research (CIMER) developed by the University of Wisconsin. When expectations for leadership positions are documented as in
+Appendix S1, this can assist individuals to identify areas where training is needed.
+3 | RECRUITMENT
+Once infrastructure to hire and develop staff leadership is established, AHCs will need to consider how to recruit and retain staff in quantitative
+units. Academic institutions have historically offered some unparalleled benefits such as educational support for employees and their children,
+medical benefits within the university or medical institution, and student loan repayment assistance. One previously unmatched benefit AHCs
+have provided is protected time for methodological research. At the doctoral level, academic staff and faculty positions typically allow biostatisti
+cians to perform both collaborative (clinical or domain-focused) and methodological research. However, in the past several years, industry
+4 of 11 PESKOE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+positions have seen a rise in total compensation, including bonuses, stock options, and retirement contributions, along with improved working
+conditions like increased remote work options and protected time for methodological research, particularly for doctoral-level employees
+(Biostatistician Trends, n.d.; Burtch Works, 2023). Furthermore, industry positions have increased their compensation and benefits packages in
+terms of retirement plans, student loan repayment assistance, bonuses, and educational support. This presents a challenge in attracting quantita
+tive scientists to Academi, as industry positions offer highly competitive benefits. To facilitate the recruitment of highly skilled collaborative bio
+statisticians, AHCs can consider implementing pathway programmes, conducting periodic salary evaluations, and targeting appropriate recruiting
+venues as outlined in the following subsections.
+3.1 | Creating a training pathway for the workforce
+Despite the growing number of graduate programmes, there is often a shortage of candidates with sufficient experience to meet the increas
+ing demands for data intensive research. As a solution, AHCs may consider on-the-job training, internships, and similar approaches to train
+new graduates. It has been established that engaging students during their graduate training can create a training pathway for the workforce.
+Experiential learning opportunities for students run within quantitative collaboration units can provide clear pathways into staff positions
+(Pomann et al., 2022). This ensures students learn how to foster effective team science skills and gain valuable collaborative experience along
+side their methodological training. The Duke BERD has recruited approximately 20% of the current staff workforce through this pathway
+programme.
+An often-underappreciated benefit of these pathways is their capacity to reach diverse populations and ultimately increase the number of
+underrepresented minorities in the workforce. Benn et al. (2020) published an evaluation of the Eastern North American Region (ENAR) Fostering
+Diversity in Biostatistics Workshop, which provided a roadmap for sustainable initiatives to promote diversity in quantitative fields. In 2022,
+Stanford's BERD partnered with three diverse regional institutions to enable internships for statistics graduate students within the Stanford
+Quantitative Sciences Unit to provide exposure to collaborative research. The training prepares interns for a position within the Quantitative Sci
+ences Unit, and resulted in the unit's hiring a new staff member in 2023. By embedding graduate student interns within established collaborations,
+students learn how to build effective relationships with diverse scientists, both quantitative and domain focused, and gain the collaborative expe
+rience in conjunction with methodology training.
+3.2 | Maintaining transparency in salary expectations and growth
+To recruit and retain staff, it is imperative to ensure appropriate and equitable salaries. Staff hired into AHCs often refer to the ASA Salary Survey
+to identify standard salary ranges for biostatisticians (Ange et al., 2022). However, evaluating the ASA Salary Survey reports can be challenging,
+especially for those outside of the fields defined in this report, which only includes Biostatistics, Statistics, and Mathematical Sciences Depart
+ments. Information available online outside of the ASA Salary Survey is of varied reputability, yielding unreliable data for quantitative experts who
+are interested in working in an AHC. Moreover, job titles can have different meanings across institutions. For example, the responsibilities and
+tasks assigned to a “Biomedical Data Scientist” can differ significantly between organizations, ranging from collaborative biostatistics roles
+supporting small clinical trials to a stronger emphasis on high-performance computing and big data management. This inconsistency in job titles
+can create confusion during the job search, making it difficult to identify appropriate salary ranges and understand potential career growth oppor
+tunities. Public institutions may provide public salary information, but without in-depth knowledge of the various job levels and functions at differ
+ent institutions (or across different divisions within an institution), it is challenging to make accurate comparisons that could motivate competitive
+salaries.
+To improve transparency and communicate appropriate salary expectations, we encourage leaders of quantitative units to closely partner
+with institutional Human Resources (HR) to determine the best approaches for evaluating and attracting new talent. This may involve requesting
+periodic market evaluations from HR and seeking more detailed national data. Given the rapidly evolving landscape of quantitative sciences like
+biostatistics and data science, it is important to involve quantitative experts in the conversations surrounding market evaluations. The evaluation
+team needs to precisely identify the types of positions for which they seek information in order to make fair comparisons, and comparisons should
+be made against both comparable AHCs in their region and industry employers alike. For instance, it is important to determine where other quali
+fied candidates are being hired in the local or regional area (e.g., pharmaceutical companies, government agencies, and contract research organiza
+tions [CROs]) and what job titles they hold (e.g., data scientist, statistician, biostatistician, epidemiologist, bioinformatician, and analyst). It is
+important to note that if salaries increase and grant funding is used to cover those salaries, this can cause major challenges to accomplishing
+research goals if the total funding awarded is not increasing with salaries (Freel et al., 2023). To address this complex problem at the institutional
+level, it is important to support collaboration between quantitative unit leaders and HR leadership.
+PESKOE ET AL. 5 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+3.3 | Recruiting and candidate evaluation processes
+There are several avenues for recruiting candidates for staff positions, and it is important to develop recruitment processes when a quantitative
+collaboration unit needs to expand its workforce. Collaboration units aiming to grow should allocate specific effort to spend on recruitment activi
+ties. In the Duke BERD, 10%–15% effort is dedicated to recruiting, depending on the number of staff needed to hire. This effort is typically dis
+tributed across a few staff and faculty engaged in specialized recruiting activities. These activities include regular presentations at strong graduate
+programmes to increase visibility, participation in career fairs targeting quantitative fields, and involvement in career centers at major conferences.
+We recommend a process of posting openings to the ASA listservs and the University of Florida's Statistics Jobs listings, which allows for wide
+spread dissemination of opportunities. Additionally, we recommend recruitment through career centers at events such as the Joint Statistical
+Meetings (JSM) and ENAR annual conferences. Using these methods, the Duke BERD has successfully hired and trained more than 30 staff over
+the last 8 years.
+Due to the already limited workforce of quantitative staff nationwide, an optimal method we have found for recruiting strong candidates to
+academic positions is to hire new graduates and invest in training early-career staff. An academic environment can be an ideal place for
+professional growth, as it keeps various career paths open (e.g., future graduate studies, faculty roles, and transitioning to industry), offers flexible
+work-life balance, and provides a high level of job security. However, transitioning into Academia after years of industry experience may be more
+challenging, depending on the institution and role. As such, we have achieved success by recruiting directly from graduate institutions and
+highlighting the benefits of flexibility, job stability, and additional training in the early years. Approximately 85% of the current staff in the Duke
+BERD Core and 90% of staff in the Stanford Quantitative Sciences Unit were recruited directly out of graduate school.
+Collaborative quantitative units should also develop a standard process for evaluating candidates that promotes equity and provides informa
+tion to candidates about what to expect during the interview process. Candidates who apply to the Duke BERD undergo a standard process that
+includes an initial screening and a minimum of three separate hour-long interviews covering (1) coding exercises, (2) evaluation of research pro
+posals, and (3) a methods evaluation tailored to the candidate's experience. Each interviewer evaluates competencies related to team science skills
+and statistical methods (Pomann et al., 2020; Slade et al., 2023). Appendix S2 includes a list of statistical methods that Duke commonly inquires
+about during candidate interviews, along with a template feedback form that is collected from each reviewer. Focusing on these statistical areas
+and utilizing a standardized feedback form helps maintain consistent interview practices, facilitating equitable hiring. At the Stanford Quantitative
+Sciences Unit, candidates spend a day meeting with various team members, and for senior positions, candidates are asked to give a talk. For all
+junior positions and certain senior positions, an analytic exam is also given that focuses on coding and model selection, with a strong emphasis on
+interpretation and communication with clinical and translational investigators.
+4 | CAREER DEVELOPMENT AND RETENTION
+In order to effectively retain staff in AHCs, it is critical to offer career development and growth opportunities (Hanlon et al., 2022; Lindsell
+et al., 2021; Taylor et al., 2023). When staff are isolated in clinical departments, there is often a lack of clear career paths or opportunities for
+advancement. When institutions do offer multiple job levels (“Statistician I,” “Statistician II,” etc.), the number of levels is typically limited, and the
+expectations for each level often differ across institutions, divisions, and even projects. Quantitative collaboration units need to establish guide
+lines that recognize staff as professionals with career aspirations. Career advancement options should be available for both doctoral-level and
+master's-level staff within the institution. Achieving these goals may require leadership of the quantitative unit to collaborate closely with HR. By
+doing so, institutions can set clear expectations for staff upon hiring and provide opportunities for training and professional development, as out
+lined in the following subsections.
+4.1 | Developing a career ladder with advancement opportunities
+To effectively communicate expectations and advancement opportunities within an institution, it is crucial to establish appropriate and transpar
+ent career ladders for staff. The Duke School of Medicine provides general job descriptions for the roles of “Biostatistician II,” “Biostatistician III,”
+“Senior Biostatistician,” and “Principal Biostatistician,” which are broad enough to be used across the institution. However, a quantitative unit
+such as the Duke BERD should ensure that staff in these roles have a detailed understanding about the expectations for developing competencies
+that match to each position. As an example of how this can be done, Appendix S3 presents a position description matrix used in the Duke BERD
+that outlines the expected skills and competencies necessary at each level. The entry point for the master's-level graduates with up to several
+years of experience is the Biostatistician II role, while the Biostatistician III role serves as the entry point for doctoral-level graduates with up to
+several years of experience. Mayo Clinic uses a four-step job family similar to Duke for master's- and PhD-trained nonfaculty biostatisticians in
+nonsupervisory roles, as well as a four-step job family for statistical programmers with bachelor's degree entry criteria.
+6 of 11 PESKOE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+The Stanford Quantitative Sciences Unit uses a similar career ladder that continues to evolve through collaboration with HR. Currently, mas
+ter's-level biostatisticians and epidemiologists utilize a career ladder labeled as Biostatistician I-III. While doctoral-level staff may start on this lad
+der as Biostatistician III, career advancement is only available via a separate Academic Senior Research line, which has two levels, the first of
+which overlaps in expectations with the Biostatistician III. This line has more stringent eligibility criteria, requiring a PhD and approval from a
+school-wide committee based on external letters of recommendation. Finally, staff with more data management skillsets use one of two additional
+lines: a bachelor's-level Data Analyst line or a master's-level Data Management Specialist line.
+AHCs should prioritize clearly outlining the criteria for promotion and career growth and should ensure that there are consistent expectations
+across different units that house staff within the institution. This will help managers to assess performance effectively and provide guidance to
+staff on what they need to do in order to achieve their career goals. Job ladders and descriptions should be treated as living documents that are
+reviewed and revised at least once a year to address the ongoing needs and expectations of the group.
+4.2 | Training and professional development
+The skillsets required for quantitative scientists are dynamic and vary across projects, divisions, departments, and institutions. To address this var
+iability, we recommend initial training for new staff as well as ongoing personalized career development training for staff at all levels, tailored both
+to their level and individual needs. There are a handful of papers discussing key competencies for various quantitative scientists, including biostat
+isticians, epidemiologists, and bioinformaticians (Lichtveld et al., 2008; Mulder et al., 2018; Pomann et al., 2020; Slade et al., 2023). Specifically,
+Pomann et al. (2020) proposed three domain areas necessary for the success of collaborative biostatisticians: (1) communication and leadership,
+(2) clinical and domain knowledge, and (3) statistical expertise (Pomann et al., 2020). Each domain encompasses a set of competencies that can be
+trained and evaluated. For example, within the communication and leadership domain, a mentor can assist a staff in developing effective presenta
+tion skills when sharing results with scientific collaborators. One framework that can be used is the Teach, Implement, Evaluate (TIE) approach to
+developing training plans (Pomann et al., 2020). Appendix S4 includes examples of TIE training plans within each of the three domains. Duke has
+found it beneficial for the administrative managers to collaborate with project supervisors in creating and implementing training plans
+(Appendix S1 defines these roles).
+The Stanford Quantitative Sciences Unit has one administrative staff dedicated full-time to the career development of the scientific staff.
+They meet regularly with each staff and work with the unit's leadership to outline specific career goals for the year. Additionally, weekly Brown
+Bags are held to train staff (and faculty) in team science methods, including collaborative approaches, statistical methods, and the art of reviewing
+scientific work, with exercises in providing and receiving scientific advice through rigorous reviews of analysis plans and manuscripts. Staff are
+encouraged to attend and present their work at relevant conferences and to join scientific societies to join communities external to the institution.
+Institutions benefit from staff growing with such varied perspectives.
+The training plans implemented for each staff should align with their long-term career goals. Classic “retention”—meaning that the employee
+stays at the institution—is not particularly the right goal for some staff. If staff grow into different positions like a faculty or go on to pursue a PhD
+this can improve the workforce. Retaining master's-level staff, particularly those who were hired directly after graduate school, can be challenging
+as they may seek further education after a couple of years in a staff position. While this transition is often positive for the staff, high turnover of
+master's-level staff can disrupt ongoing projects if not appropriately planned for. Managers should strive to understand the career aspirations
+of master's-level staff and identify opportunities for professional growth for those not pursuing further education.
+Managers should consider that career trajectories and growth opportunities may differ for master's-level and doctoral-level staff. One primary
+challenge for retaining doctoral-level staff is that they may quickly reach the highest point in existing career ladders or job tracks, often with sala
+ries or compensation levels below those of faculty peers. Some AHCs lack a clear pathway for doctoral-level staff to become faculty (if desired),
+despite the fact that in some cases it can be difficult to differentiate the roles of doctoral-level staff and faculty. Managers of doctoral-level staff
+should understand whether these individuals aspire to pursue faculty positions or desire staff leadership roles. If the ultimate goal is to become
+faculty, the manager should map out a possible trajectory, which may include leaving the institution. The Duke BERD and Stanford Quantitative
+Sciences Unit have facilitated multiple doctoral-level staff in this transition to faculty positions at external entities.
+AHCs should ensure that they can both support staff in their evolving career goals and plan for staff transitions. For instance, a master's-level
+staff interested in applying to doctoral programmes may benefit from engaging in methodology-focused studies or submitting a manuscript as first
+author. At some institutions, like Mayo Clinic, staff (regardless of their terminal degree or job category) can apply for faculty-level titles. This is a
+good way to provide recognition for professional growth if appropriate at the institutional level. Similarly, doctoral-level staff interested in faculty
+positions may need to learn how to develop a proposal independently and have projects that they lead. Providing a supportive environment
+encourages staff to discuss their goals with their leadership, enabling the leadership to be aware of potential transitions and allowing sufficient
+time to plan for hiring or transferring other staff. Ensuring sufficient effort from experienced quantitative scientists is dedicated to taking on these
+mentor activities is key for retaining staff who value the training opportunities provided by an AHC.
+PESKOE ET AL. 7 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+5 | DISCUSSION
+This paper describes three essential factors for building and maintaining the workforce of collaborative staff quantitative scientists in AHCs:
+(1) organizational infrastructure and management, (2) recruitment, and (3) career development and retention. Specific strategies are provided as
+examples of how to establish quantitative units that excel in these areas. By implementing these strategies, quantitative scientists can effectively
+function as team scientists meaningfully embedded within research teams. Despite the key factors for success described, there are still several
+challenges in organizational infrastructure, recruitment, and career development that can impede this workforce.
+In the area of recruitment, offering competitive salaries for quantitative staff remains a challenge in the academic health care landscape.
+While we have found some success in implementing the aforementioned suggestions, such as working closely with HR to conduct market evalua
+tions, it remains difficult to set salaries that can convince staff to work in Academia. Funding used to cover those salaries would also need to
+increase if salaries are increased (e.g., grant funding) posing a major challenge. With the increasing need for staff positions in Academia and the
+increasing competition outside Academia, more work is needed to emphasize the need to compensate the crucial role of these staff.
+One obstacle to effective career development is the significant heterogeneity in the amount and depth of collaborative skills that are taught
+in quantitative graduate programmes. Many graduates of quantitative master's and doctoral programmes have had significant training in method
+ology and computational skills but little training in the realities of working with domain scientists on applied projects. When these graduates begin
+their career as a staff in collaborative quantitative units, it can be challenging to assess what they do not know and provide appropriate training
+and career development. Developing and utilizing a transparent evaluation process facilitates equitable hiring practices, yet there is a continued
+need for strong evaluation strategies when hiring and the creation of on-the-job training programmes.
+Overall, many of these challenges are systemic, and shifting longstanding perspectives can be slow and difficult. It is important for quantita
+tive scientist leaders to advocate for the creation of appropriate organizational infrastructure, pathway programmes, and the value of quantitative
+staff in academic research. Advocacy is more effective when accompanied by data. Leading experts have proposed a framework for evaluating
+BERD activities, particularly in the context of the development and maintenance of collaborations with clinical and translational science
+investigators (Rubio et al., 2011). Future efforts should be placed on utilizing and continuing to refine these metrics to demonstrate the value that
+quantitative staff provide to collaborative, academic research. Being able to measure the impact of this important role facilitates evidence-based
+decision-making by administrators and university leadership to grow and support effective units of collaborative quantitative scientists.
+AUTHOR CONTRIBUTIONS
+Sarah Peskoe: Conceptualization; manuscript outline, writing and editing; development and collation of resources; co-led group meetings. Emily
+Slade, Mary Boulos, Manisha Desai, Mihir Gandhi, Jonathan AL Gelfond, Shofoufeh Khalatbari, Phillip Schulte, Denise Snyder, Sandra Taylor,
+Jesse Troy, and Roger Vaughan: Provided content and critical input on resources and structure; manuscript editing. Lacey Rende: Provided input
+on content and structure; manuscript editing; collated resources and coordinated group meetings. Gina-Maria Pomann: Initial conceptualization,
+project design, oversight, and workgroup development; manuscript outline, writing, and editing.
+CONFLICT OF INTEREST STATEMENT
+The authors have no conflicts of interest to declare.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no new data were created or analyzed in this study.
+ORCID
+Sarah Peskoe https://orcid.org/0000-0002-1190-3606
+Emily Slade https://orcid.org/0000-0002-1654-3822
+Lacey Rende https://orcid.org/0009-0005-8695-1839
+Manisha Desai https://orcid.org/0000-0002-6949-2651
+Jesse D. Troy https://orcid.org/0000-0001-5410-8146
+Gina-Maria Pomann https://orcid.org/0000-0002-6324-3953
+REFERENCES
+Ange, B., Varghese, G., LaLonde, D., & Wasserstein, R. (2022). 2021–2022 academic salary survey. American Statistical Association. Retrieved May 28, 2023, from https://www.amstat.org/docs/default-source/amstat-documents/ycr-2021-2022-academicsalaryreport.pdf Begg, M. D., & Vaughan, R. D. (2011). Are biostatistics students prepared to succeed in the era of interdisciplinary science? (And how will we know?). The American Statistician, 65(2), 71–79. https://doi.org/10.1198/tast.2011.10222
+8 of 11 PESKOE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Benn, E. K. T., Tabb, L. P., Exum, P., Moore, R. H., Morales, K. H., Simpson, F. R., Lawrence, S. A., & Bellamy, S. L. (2020). Creating and sustaining effective pipeline initiatives to increase diversity in biostatistics: The ENAR fostering diversity in biostatistics workshop. Journal of Statistics Education, 28(3), 295–303. https://doi.org/10.1080/10691898.2020.1820409 Biostatistician Trends. (n.d.). Retrieved May 28, 2023, from https://www.zippia.com/biostatistician-jobs/trends/ Brouwer, R. N., Deeter, C., Hannah, D., Ainsworth, T., Mullen, C., Hames, B., Gaudaur, H., McKellar, T., & Snyder, D. C. (2017). Using competencies to transform clinical research job classifications. Journal of Research Administration, 48(2), 11–25. Burtch Works. (2023). Data science & AI professionals salary report 2023 edition. Burtch Works. Retrieved May 28, 2023, from https://uploads-ssl.webflow. com/642f06aad4855fdea1778af3/64e3e618dac4d02a21e14772_2023_Burtch_Works_Salary_Report.pdf Deeter, C., Hannah, D., Reyes, C., Mack, M. E., Stroo, M., Freel, S. A., Brouwer, R. J. N., Gaudaur, H. E., Doughty, A. L., & Snyder, D. C. (2020). Professional development for clinical research professionals: Implementation of a competency-based assessment model. Journal of Research Administration, 51(2), 15–40. Deeter, C., Hannah, D., Stroo, M., Brouwer, R., Gaudaur, H., Freel, S. A., & Snyder, D. (2023). Tackling standardization in clinical research workforce hiring using competency-based job classifications. Journal of Clinical and Translational Science, 7, e244. https://doi.org/10.1017/cts.2023.672 Desai, M., Boulos, M., Pomann, G. M., Steinberg, G. K., Longo, F. M., Leonard, M., Montine, T., Blomkalns, A. L., & Harrington, R. A. (2022). Establishing a data science unit in an academic medical center: An illustrative model. Academic Medicine: Journal of the Association of American Medical Colleges, 97(1), 69–75. https://doi.org/10.1097/ACM.0000000000004079 Freel, S. A., Snyder, D. C., Bastarache, K., Jones, C. T., Marchant, M. B., Rowley, L. A., Sonstein, S. A., Lipworth, K. M., & Landis, S. P. (2023). Now is the time to fix the clinical research workforce crisis. Clinical Trials (London, England), 20(5), 457–462. https://doi.org/10.1177/17407745231177885 Gigliotti, R. A., & Ruben, B. D. (2017). Preparing higher education leaders: A conceptual, strategic, and operational approach. Journal of Leadership Education, 16, 96–114. https://doi.org/10.12806/V16/I1/T1 Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., Welty, L. J., & Pomann, G.-M. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat (International Statistical Institute), 11(1), e521. https://doi.org/10.1002/sta4.521 Havermahl, T., LaPensee, E., Williams, D., Clauw, D., Parker, R. A., Downey, B., Liu, J., & Myles, J. (2015). Model for a university-based clinical research development infrastructure. Academic Medicine: Journal of the Association of American Medical Colleges, 90(1), 47–52. https://doi.org/10.1097/ACM. 0000000000000535 Institute of Medicine. (2004). Academic health centers: Leading change in the 21st century. The National Academies Press. https://doi.org/10.17226/10734 Khalatbari, S., Jazdzyk, D., Capsouras, J., Downey, B., Samuels, E., & Spino, C. (2020). Developing an applied biostatistical sciences (ABS) network. Journal of Clinical and Translational Science, 5(1), e15. https://doi.org/10.1017/cts.2020.506 Lee, S., Bagiella, E., Vaughan, R., Govindarajulu, U., Christos, P., Esserman, D., Zhong, H., & Kim, M. (2022). COVID-19 pandemic as a change agent in the structure and practice of statistical consulting centers. The American Statistician, 76(2), 152–158. https://doi.org/10.1080/00031305.2021.2023045 Lichtveld, M., Boulton, M., Lemmings, J., & Gale, J. (2008). From competencies to capacity: Assessing the national epidemiology workforce. Public Health Reports, 123(Suppl 1), 128–135. https://doi.org/10.1177/00333549081230S116 Lindsell, C. J., Pomann, G.-M., Oster, R. A., Mooney, S. D., & Enders, F. T. (2021). Data science in clinical and translational research: Improving the health of the data to knowledge pipeline. Journal of Clinical and Translational Science, 5(1), e77. https://doi.org/10.1017/cts.2020.569 Mehta, C. C., Stedman, M. R., Rao, S. R., & Podolsky, R. (2022). Advice for isolated statisticians collaborating in academic healthcare centre settings. Stat, 11(1), e492. https://doi.org/10.1002/sta4.492 Mulder, N., Schwartz, R., Brazas, M. D., Brooksbank, C., Gaeta, B., Morgan, S. L., Pauley, M. A., Rosenwald, A., Rustici, G., Sierk, M., Warnow, T., & Welch, L. (2018). The development and application of bioinformatics core competencies to improve bioinformatics training and education. PLoS Computational Biology, 14(2), e1005772. https://doi.org/10.1371/journal.pcbi.1005772 Perkins, S. M., Bacchetti, P., Davey, C. S., Lindsell, C. J., Mazumdar, M., Oster, R. A., Peduzzi, P. N., Rocke, D. M., Rudser, K. D., & Kim, M. (2016). Best practices for biostatistical consultation and collaboration in academic health centers. The American Statistician, 70(2), 187–194. https://doi.org/10.1080/ 00031305.2015.1077727 Pomann, G.-M., Boulware, L. E., Cayetano, S. M., Desai, M., Enders, F. T., Gallis, J. A., Gelfond, J., Grambow, S. C., Hanlon, A. L., Hendrix, A., Kulkarni, P., Lapidus, J., Lee, H.-J., Mahnken, J. D., McKeel, J. P., Moen, R., Oster, R. A., Peskoe, S., Samsa, G., ... Thomas, S. M. (2020). Methods for training collaborative biostatisticians. Journal of Clinical and Translational Science, 5(1), e26. https://doi.org/10.1017/cts.2020.518 Pomann, G.-M., Boulware, L. E., Chan, C., Grambow, S. C., Hanlon, A. L., Neely, M. L., Peskoe, S. B., Samsa, G., Troy, J. D., Yang, L. Z., & Thomas, S. M. (2022). Experiential learning methods for biostatistics students: A model for embedding student interns in academic health centers. Stat, 11(1), e506. https://doi.org/10.1002/sta4.506 Pomann, G.-M., Truong, T., Boulos, M., Ebony Boulware, L., Brouwer, R. N., Curtis, L. H., Kapphahn, K., Khalatbari, S., McKeel, J., Messinger, S., O'Hara, R., Pencina, M. J., Samsa, G. P., Spino, C., Zidanyue Yang, L., & Desai, M. (2023). Needles in a haystack: Finding qualitative and quantitative collaborators in academic medical centers. Academic Medicine: Journal of the Association of American Medical Colleges, 98(8), 889–895. https://doi.org/10.1097/ACM. 0000000000005212 Rubio, D. M., Del Junco, D. J., Bhore, R., Lindsell, C. J., Oster, R. A., Wittkowski, K. M., Welty, L. J., Li, Y. J., Demets, D., & Biostatistics, Epidemiology, and Research Design (BERD) Key Function Committee of the Clinical and Translational Science Awards (CTSA) Consortium. (2011). Evaluation metrics for biostatistical and epidemiological collaborations. Statistics in Medicine, 30(23), 2767–2777. https://doi.org/10.1002/sim.4184 Slade, E., Brearley, A., Coles, A., Hayat, M., Kulkarni, P., Nowacki, A., Oster, R., Posner, M., Samsa, G., Spratt, H., Troy, J., & Pomann, G.-M. (2023). Essential team science skills for biostatisticians on collaborative research teams. Journal of Clinical and Translational Science, 7, e243. https://doi.org/10.1017/ cts.2023.676 Spratt, H., Fox, E. E., Shara, N., & Mazumdar, M. (2017). Strategies for success: Early-stage collaborating biostatistics faculty in an academic health center. The American Statistician, 71(3), 220–230. https://doi.org/10.1080/00031305.2016.1277157 Stroo, M., Asfaw, K., Deeter, C., Freel, S. A., Brouwer, R. J. N., Hames, B., & Snyder, D. C. (2020). Impact of implementing a competency-based job framework for clinical research professionals on employee turnover. Journal of Clinical and Translational Science, 4(4), 331–335. https://doi.org/10.1017/cts. 2020.22
+PESKOE ET AL. 9 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Taylor, S. L., Podolsky, R. H., Montez-Rath, M. E., & Slade, E. (2023). Building a strong collaborative biostatistics workforce: Strategies for effective intraunit professional development activities. Journal of Clinical and Translational Science, 7(1), e230. https://doi.org/10.1017/cts.2023.653 van Tuyl S, Beck D, Cosden I, Joyce BL, Liu J, Maimone C, McHenry K, Parker M, Agate N. (2023). Hiring, Managing, and Retaining Data Scientists and Research Software Engineers in Academia: A Career Guidebook from ADSA and the US-RSE. https://doi.org/10.5281/zenodo.8264153 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. J., Lindsell, C. J., Macaluso, M., Mazumdar, M., Nietert, P. J., Oster, R. A., Pollock, B. H., Roberson, P. K., & Ware, J. H. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine: Journal of the Association of American Medical Colleges, 88(4), 454–460. https://doi.org/10.1097/ACM.0b013e31828578ed Zapf, A., Huebner, M., Rauch, G., & Kieser, M. (2019). What makes a biostatistician? Statistics in Medicine, 38(4), 695–701. https://doi.org/10.1002/sim. 7998
+AUTHOR BIOGRAPHIES
+Sarah Peskoe is an assistant professor of biostatistics and bioinformatics and the director of the Data Science and Statistics Lab (DSSL) in the
+Aging Center at Duke University. Her research involves evaluating and correcting biases that arise in epidemiologic studies, with a particular
+focus on applications to aging-related research.
+Emily Slade is an assistant professor of Biostatistics at the University of Kentucky and the founder and director of the Biostatistics Consulting
+and Interdisciplinary Research Collaboration Lab (Biostat CIRCL). Her research focuses on effective training and integration of biostatisticians
+on collaborative research teams.
+Lacey Rende is the project planner for the Biostatistics, Epidemiology, and Research Design (BERD) Methods Core at Duke University, a data
+science unit of over 50 student, staff, and faculty biostatisticians and data scientists who collaborate on biomedical research projects with
+clinical and translational researchers across the institution.
+Mary Boulos is the executive director of the Quantitative Sciences Unit within the Department of Medicine at Stanford University, a data sci
+ence unit of over 50 data scientist faculty, staff, and trainees created primarily for the purposes of practicing data science/team science and
+providing the statistical foundation for interdisciplinary and collaborative translational research. She is also the operations lead for the CTSA
+funded Biostatistics, Epidemiology, and Research Design (BERD) Program at Stanford University.
+Manisha Desai is the Kim and Ping Li Professor of Medicine, Biomedical Data Science, and Epidemiology and Population Health at Stanford
+University. She directs the Biostatistics, Epidemiology, and Research Design (BERD) Program at Stanford where she leads translational science
+initiatives. She also serves as founding director of the Quantitative Sciences Unit, a team of over 40 faculty, staff, and trainees who engage
+with clinical and translational scientists on translational research.
+Mihir Gandhi is a medical statistician. He is an assistant professor in the Signature Program in Health Services & Systems Research and head
+of Biostatistics Core team at the Centre for Quantitative Medicine, Duke-NUS Medical School, Singapore. He is also affiliated with the
+Singapore Clinical Research Institute, Singapore as the head of Biostatistics Department and the Global Health Group at the Center for Child
+Health Research, Tampere University, Finland as a visiting researcher.
+Jonathan A. L. Gelfond is a professor in the Department of Population Health Sciences and the director of the Biostatistics, Epidemiology,
+and Research Design (BERD) Program at UT Health San Antonio.
+Shokoufeh Khalatbari is a statistician staff specialist and manager of the Biostatistics Program at Michigan Institute for Clinical and Health
+Research (MICHR), University of Michigan, Ann Arbor, MI. The Biostatistics Program is a team of four staff biostatisticians with over 25 years
+of experience and one faculty member who collaborate with clinical and/or translational researchers.
+Phillip J. Schulte is an associate professor of biostatistics in the Division of Clinical Trials and Biostatistics, Department of Quantitative Health
+Sciences, and is director of the Biostatistics Core at Mayo Clinic, Rochester, MN. The Biostatistics Core includes more than 80 staff biostatis
+ticians and 100 staff statistical programmers at the Rochester, MN campus. The Mayo Clinic Division of Clinical Trials and Biostatistics
+includes 24 faculty biostatisticians. Biostatistics Core staff and division/department faculty work together in support of collaborations in clini
+cal and translational science across the Mayo Clinic enterprise.
+Denise C. Snyder is an associate dean for Clinical Research and leads the Duke Office of Clinical Research (DOCR) at Duke University,
+Durham, NC. DOCR is a central support office with expertise in coverage analysis, study logistics, data management, regulatory oversight,
+workforce innovation, clinical research systems at elbow support, and guidance for clinical research operations for Duke as a site.
+Sandra L. Taylor manages the Biostatistics Support Unit (BSU) for the Department of Public Health Sciences at the University of California,
+Davis. The BSU consists of 9 staff biostatisticians who provide statistical expertise to clinical and translational investigators.
+10 of 11 PESKOE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Jesse D. Troy is an associate professor in the Department of Biostatistics and Bioinformatics and the associate director of Graduate Studies
+for the Masters of Biostatistics Program at Duke University. Dr. Troy also teaches biostatistics to physician scientists in the Clinical Research
+Training Program at Duke, and he collaborates on research studies in cancer therapeutics and palliative care at the Duke Cancer Institute.
+Roger Vaughan is the director for the Centre for Quantitative Medicine (CQM) and Centre for Clinician Scientist Development (CCSD), and
+he is also the associate dean for the Office of Research at the Duke-NUS Medical School, Singapore.
+Gina-Maria Pomann is an associate professor of biostatistics and bioinformatics and the director of the Biostatistics, Epidemiology, and
+Research Design (BERD) Methods Core at Duke University, Durham, NC. The BERD Methods Core is a team of over 50 student, staff, and
+faculty biostatisticians and data scientists in the Department of Biostatistics and Bioinformatics who collaborate with clinical and/or transla
+tional researchers.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this article.
+How to cite this article: Peskoe, S., Slade, E., Rende, L., Boulos, M., Desai, M., Gandhi, M., Gelfond, J. A. L., Khalatbari, S., Schulte, P. J.,
+Snyder, D. C., Taylor, S. L., Troy, J. D., Vaughan, R., & Pomann, G.-M. (2024). Methods for building a staff workforce of quantitative
+scientists in academic health care. Stat, 13(2), e683. https://doi.org/10.1002/sta4.683
+PESKOE ET AL. 11 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.683 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

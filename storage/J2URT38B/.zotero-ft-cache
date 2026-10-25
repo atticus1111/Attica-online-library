@@ -1,0 +1,2568 @@
+© Jorge Lasca
+PARTNERSHIP IN STATISTICS FOR DEVELOPMENT IN THE 21ST CENTURY
+STATISTICAL CAPACITY
+DEVELOPMENT
+OUTLOOK 2019
+
+
+Statistical Capacity Development
+Outlook 2019
+
+
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 3
+Acknowledgements
+The 2019 Statistical Capacity Development Outlook was prepared by the Secretariat of the Partnership in
+Statistics for Development in the 21st Century (PARIS21). The present report is the result of a collaborative
+effort carried out jointly by PARIS21 with the support of various reporters from external agencies and countries.
+The team worked under the direction of Johannes Jütting, Manager of PARIS21, and El Iza Mohamedou,
+Deputy Manager of PARIS21. Production of the report was coordinated by Rolando Avendano (PARIS21).
+The report benefitted from the fruitful collaboration between various authors across PARIS21 and partner
+organisations, including in alphabetical order Bárbara Yael Baredes (OECD Public Governance Directorate),
+Matthew Fischer-Post (Paris School of Economics), Manuel Kuhm (PARIS21) and Yu Tian (PARIS21). Significant
+inputs were provided by Peter Carlson (PARIS21), François Fonteneau (PARIS21), Thilo Klein (ZEW), Zsusanna
+Lonti (OECD Public Governance Directorate), Charlotte Mayard (PARIS21), Ida McDonnell (OECD Development
+Co-operation Directorate), Archita Misra (PARIS21), Rajiv Ranjan (PARIS21), Gay Tejada (PARIS21) and Koffi
+Zougbede (Sahel and West Africa Club - OECD). The authors are grateful for insightful comments by other
+members of the PARIS21 team and OECD colleagues.
+Additional inputs and guidance were provided by Shaida Badiee (Open Data Watch), Rachel Calleja (Overseas
+Development Institute), Samantha Custer (AidData), Grant Cameron (World Bank), Mustafa Dinc (World
+Bank), Martine Durand (OECD Statistics and Data Directorate), Alain Gaugris (International Monetary Fund),
+Stephanie Medina (International Monetary Fund), Johannes Mueller (International Monetary Fund), Andrew
+Rogerson (Overseas Development Institute), Stefan Schweinfest (UNSD), Steven Vale (UNECE) and James
+Whitworth (Eurostat). The team is grateful to Graham Eele (Royal Statistical Society) for his review and support.
+The report benefitted from the editorial work of Fiona Hinchcliffe. Pierre-Yves Perez-Queyroi (PYKHA) provided
+support on the design of the report.
+The accompanying electronic platform, the PARIS21 Statistical Capacity Monitor, was designed by WeDoData.
+Giorgi Sharvadze (PARIS21) provided guidance in the conception and implementation of the platform. The
+team is grateful for bilateral consultations with PARIS1 partner organisations and Board members for the
+design of the Statistical Capacity Monitor.
+For more details, including copies of the 2019 Statistical Capacity Development Outlook:
+Contact the PARIS21 Secretariat at contact@paris21.org
+Visit www.PARIS21.org
+Follow PARIS21 on Twitter @contactparis21.
+
+
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 5
+Foreword
+Today, data and statistics have entered the public debate ranging from data as the “new oil” to the misuse of
+personal data undermining the privacy of citizens. What we clearly can observe, is an unprecedented demand
+for robust, reliable and, increasingly, real-time data to not only inform but drive policy debates. As a result, the
+production of data is increasingly under the microscope accompanied by, on the one hand, strong scrutiny of
+its power to shape policies and public perception, and on the other, innovative tools and approaches to close
+critical data gaps or expand horizons of knowledge.
+The first PARIS21 Statistical Capacity Development Outlook aims to provide a global snapshot of this changing
+landscape of the data ecosystem, and the implications for national statistical systems. The Outlook offers
+a comprehensive assessment of the statistical capacity of countries in respect to planning, production,
+dissemination, use, and investment. It is not a cross-country comparison designed to rank countries. Instead, the
+Outlook provides a first stocktake of where countries are and what investments and strategies will be required
+to respond to the growing demands for more and better data.
+The Outlook is a valuable contribution to key questions related to the present and future challenges of data
+production, notably the capacity of data providers. To what extent do traditional data providers, the National
+Statistical Offices and line ministries, have the tools and mechanisms to meet and keep up with new demands
+for data? Should or how can official statistics work hand in hand with new data providers, and what are the
+implications for national data production? These are critical questions for all development actors as we consider
+how to deliver on the promises of “Leave no one behind” and the Sustainable Development Goals agenda.
+The Outlook is also complemented by the Statistical Capacity Monitor, a global platform of indicators on statistical
+capacity, created by PARIS21 to support countries, development partners and service providers to understand
+where the capacity needs are and to tailor capacity development programmes in statistics. The Monitor aims
+to support greater alignment between the supply and demand of programmes, enhance coordination in the
+provision of capacity development and build on our collective knowledge of what capacity means.
+Data and evidence must be fit for purpose, which will mean evolving while retaining their vital function in
+knowledge production, accountability and transparency. The Outlook and the Statistical Capacity Monitor
+provide timely recommendations for pathways forward for countries to consider for their statistical capacity
+development. They also provide a vital useful information to capture the changing roles and responsibility of
+data and data providers. I encourage all my fellow colleagues within the statistical community – and beyond- to
+draw on these new tools to reflect on how we can ensure that data can continue to inform policies that improve
+the well-being of our societies and fulfil the promise of the Leave No One behind agenda.
+Lisa Grace S. Bersales
+National Statistician and Civil Registrar General of the Philippines - PARIS21 Chair
+
+
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 7
+Table of Contents
+Acknowledgements .............................................................................................................................................................................................................................................................................................................. 3
+Foreword..................................................................................................................................................................................................................................................................................................................................................... 5
+List of acronyms ............................................................................................................................................................................................................................................................................................................................. 8
+Chapter 1. Overview.......................................................................................................................................................................................................................................................................................................... 11
+Chapter 2. Recent trends in statistical capacity development............................................................................................................................................................ 21
+Chapter 3. A revised approach to assessing statistical capacity in the new data ecosystem.................................................... 41
+Chapter 4. Developing capacity for the more effective use of statistics.......................................................................................................................... 61
+
+
+8 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+ADAPT Advanced Data Planning Tool
+AfDB African Development Bank
+AFRISTAT Observatoire économique et statistique d’Afrique subsaharienne – Economic and Statistical Observatory for Sub-Saharan Africa
+ASEAN Association of Southeast Asian Nations
+BAPS Busan Action Plan for Statistics
+CDB Caribbean Development Bank
+CD4.0 Capacity Development 4.0
+CAN Comunidad Andina (Andean Community)
+CARICOM Caribbean Community
+CEMAC Central Africa Economic and Monetary Community
+COMESA Common Market for Eastern and Southern Africa
+CPIA Country Policy and Institutional Assessment
+CRESS Country Report on Support to Statistics
+CRS Creditor Reporting System
+CRVS Civile Registration and Vital Statistics
+CTGAP Cape Town Global Action Plan for Sustainable Development Data
+DAC Development Assistance Committee (OECD)
+DFID Department for International Development (United Kingdom)
+DHS Demographic and Health Survey
+D4D Data for Development
+EC European Commission
+ESC European Statistical Competition
+ESS European Statistical System
+ECOWAS Economic Community of West African States
+EFTA European Free Trade Association
+e-GDDS Enhanced General Data Dissemination System
+EU European Union
+EUROSTAT Statistical Office of the European Communities
+FAO Food and Agriculture Organization of the United Nations
+FAS Financial Access Survey
+GDDS General Data Dissemination System
+GDP Gross Domestic Product
+HLG-PCCB High-level Group for Partnership, Coordination and Capacity-Building
+HMN Health Metrics Network
+IADB Inter-American Development Bank
+IBRD International Bank for Reconstruction and Development
+IDA International Development Association
+IMF International Monetary Fund
+IsDB Islamic Development Bank
+LAC Latin America and Caribbean
+LMIC Lower-Middle-Income Countries
+LDCs Least Developed Countries
+LLDCs Landlocked Developing Countries
+LNOB Leave No One Behind
+LSMS Living Standards Measurement Survey
+M&E Monitoring and Evaluation
+MAPS Marrakech Action Plan for Statistics
+MDG Millennium Development Goals
+MENA Middle East and North Africa
+MICS Multiple Indicator Cluster Survey
+NADA National Data Archive
+NDP National Development Plan
+NSDS National Strategy for the Development of Statistics
+NSO National Statistical Office
+NSS National Statistical System
+OAR Open Assessment Repository
+ODA Official Development Assistance
+ODIN Open Data Inventory
+ODW Open Data Watch
+OECD Organisation for Economic Co-operation and Development
+OSIMM Open Group Service Integration Maturity Model
+PARIS21 Partnership in Statistics for Development in the 21st Century
+PRESS Partner Report on Support to Statistics
+List of Acronyms
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 9
+PRSP Poverty Reduction Strategy Paper
+RSDS Regional Strategy for the Development of Statistics
+SCB Statistical Capacity Building
+SCI Statistical Capacity Index
+SDDS Special Data Dissemination Standard
+SDGs Sustainable Development Goals
+SESRIC Statistical, Economic and Social Research and Training Centre for Islamic Countries
+SIDS Small Island Developing States
+SMS Short Message Service
+SNA System of National Accounts
+SPC Secretariat of the Pacific Community
+SPI Statistical Performance Index
+TIMSS Trends in International Mathematics and Science Study
+TASC Tool for Assessing Statistical Capacity
+UK United Kingdom
+UN United Nations
+UNDP United Nations Development Programme
+UNECA United Nations Economic Commission for Africa
+UNECE United Nations Economic Commission for Europe
+UNESCWA United Nations Economic and Social Commission for Western Asia
+UNESCO-UIS United Nations Educational, Scientific, and Cultural Organization – Institute for Statistics
+UNFPA United Nations Population Fund
+UNFPOS United Nations Fundamental Principles of Official Statistics
+UNICEF United Nations Children’s Fund
+UNSC United Nations Statistical Commission
+UNSD United Nations Statistics Division
+UNSIAP United Nations Statistical Institute for Asia and the Pacific
+UN Women United Nations Entity for Gender Equality and the Empowerment of Women
+USA/US United States of America
+USD United States Dollar
+USAID United States Agency for International Development
+WHO World Health Organization
+ZEW Zentrum für Europäische Wirtschaftsforschung
+
+
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 11
+Chapter 1.
+Overview
+
+
+CHAPTER 1. OVERVIEW
+12 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+SDGs, data and capacity development: joining the dots
+Robust, reliable data will be vital for achieving the Sustainable Development Goals (SDGs). Without data
+to identify where support is needed, to plan and implement actions and monitor progress, little headway
+will be made. But data cannot thrive without the capacities to generate, analyse, disseminate and use it.
+National statistical systems (NSSs) have a central role in generating high-quality data, as well as in making data
+accessible to everyone with an interest in sustainable development and leaving no one behind.
+While many low-income countries have made progress in producing more and better data and statistics,
+greater and continued efforts are needed to strengthen the capacity of national statistical systems. A
+heightened demand for data from policy makers and citizens is translating into the need to measure more
+extensive areas of development, both for domestic policy and SDG implementation. Expectations are high
+for responsive, and more efficient, data production. A global initiative, the 2017 Cape Town Global Action
+Plan for Sustainable Development Data (UNSC, 2017), has acknowledged that the data challenge will not be
+met unless and until national statistical systems have the required capacity and financial support – a view
+reinforced in the OECD Development Co-operation Report 2017: Data for Development (OECD, 2017).
+Past efforts to strengthen statistical capacity have seen improvements in several areas, in particular among
+countries starting from a low base (Figure 1; Panel B). But while individual initiatives have brought localised
+results, a fragmented landscape with too many priorities and sectors has held back collective results. When
+it comes to strengthening national systems for making information available to the right people at the right
+time, there is still room for progress.
+Against this backdrop, what needs to be done? This report has been prepared to identify what works, and
+what does not; to make sure the right questions are being asked; to identify scalable solutions; and to set
+out a framework for future programmes of action. In addition to this Overview, it consists of three chapters.
+Chapter 2 summarises trends and assesses global performance in five areas of statistical capacity – planning,
+production, dissemination, use and investment. Chapter 3 reviews how the concept of statistical capacity
+needs to change to adjust to the new data ecosystem and how this in turn will affect how we measure it.
+Finally, Chapter 4 highlights the important but often overlooked area of data use and literacy, introducing a
+new global indicator for measuring data use in policy planning.
+This report is the first in a new flagship series produced by PARIS21, the Statistical Capacity Development
+Outlook, accompanied by an online Statistical Capacity Monitor.1 It fills an important knowledge gap by
+1. www.statisticalcapacitymonitor.org
+
+
+CHAPTER 1. OVERVIEW
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 13
+providing a much-needed overview of issues and current trends in statistical capacity development and a
+snapshot of where countries stand. It is also intended to play a role in guiding future efforts to develop capacity
+within and across national statistical systems and to support co-ordination efforts among development
+partners.
+What is statistical capacity and why is it important?
+The existence of effective systems, institutions and agencies with the capacity to compile and disseminate
+high-quality statistical information is a central but often overlooked element in the development process.
+Statistical capacity is defined as “the ability of a country’s national statistical system, its organisations and
+individuals to collect, produce, analyse and disseminate high quality and reliable statistics and data to meet
+users’ needs” (PARIS21, 2017). A well-functioning national statistical system provides quality data on a
+country’s economic and social progress, increases accountability and sets guidelines for defining its future
+development strategy. It is a fundamental player in planning, implementation and monitoring and evaluation.
+As well as meeting national data needs, national statistical systems provide the data required for global
+monitoring, which is of growing importance in an increasingly interconnected world. Statistical capacity is
+also fundamental for allowing users to understand, reason and engage critically with data.
+How are we doing in capacity development?
+Measures of statistical capacity show that progress has been made in some areas, such as planning and
+production. While trends in the World Bank’s Statistical Capacity Indicator over the past 13 years are stable
+at the aggregate level (with a 2% global improvement; Figure 1 Panel A), some subregions have made more
+substantial progress. East and Southeast Asian countries, for instance, have improved by 10% over the past
+decade (Figure 1, Panel B). Countries have also begun to take control of the development of their statistical
+systems, especially through the preparation and implementation of national statistical development strategies.
+By 2018, 129 countries were implementing a comprehensive national statistical plan, up from 102 in 2017,
+denoting an increasing awareness of the importance of a holistic and aligned approach to the development of
+statistical activities. Countries have also adopted better data dissemination policies and improved access and
+exchange between data producers and users. Between 1996 and 2019, the share of International Monetary
+Fund (IMF) member countries adhering to IMF data dissemination standards increased from 23% to 95%,
+while the Open Data Inventory (ODIN) index, which assesses the coverage and openness of official statistics,
+showed a moderate increase of 3 points between 2015 and 2018 (ODW, 2019).
+
+
+CHAPTER 1. OVERVIEW
+14 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 1. Statistical capacity remains stable, and has improved in some regions
+SCI score (0-100)
+Panel A. World Bank`s Statistical Capacity Indicator score by region, 2004-2017
+Panel B. Change of World Bank`s Statistical Capacity Indicator score by region and classification, 2009-2018
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+2004
+2005
+2006
+2007
+2008
+2009
+20010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+Asia
+Europe Oceania
+Africa Americas
+Percentage change since 2009 SCI score (0-100)
+-5
+-3
+-1
+1
+3
+5
+7
+9
+11
+L.America/
+Caribbean
+W.Asia/N.Africa
+C.Asia/S.Asia
+LLDC
+N.America/Europe
+SIDS
+Sub-SaharanAfrica
+Oceania
+LDC
+E.andS.E.Asia
+Percentage change since 2009
+Score in 2018
+Note: LDCs: least developed countries; LLDCs: landlocked developing countries; SIDS: small island developing states
+Source: World Bank (2018), Statistical Capacity Indicator dashboard, http://datatopics.worldbank.org/statisticalcapacity/SCIdashboard.aspx.
+Progress in data dissemination is driven by various elements, including the global call for government
+transparency and openness, greater scrutiny from data users and funders, and the decreasing costs of the
+underlying technologies. While digitalisation trends may have allowed many low-income countries to make
+data and information available, there is still a long way to go to make sure official statistics, and data more
+generally, are used, especially in public policy (Chapter 4). The analysis of how data is used in policy cycles
+is not fully conceptualised and we still need to understand the levers behind better data use in different
+policy phases, contexts, and sectors. Progress has been observed in some areas: data use in policy planning
+documents between 2000-08 and 2009-17 increased 14% globally, suggesting a more systematic use
+of statistical information for policy formulation, but with an emphasis on basic use (Figure 2). Still, while
+there is more awareness of the importance of data use, only 50% of national statistical offices (NSOs) in the
+lower-middle statistical capacity level monitor the use of their data (Sethi and Prakash, 2018). Refining our
+understanding and advancing the measurement of data use is therefore a priority.
+
+
+CHAPTER 1. OVERVIEW
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 15
+Figure 2. Use of statistics in policy making has increased in most regions, 2000-17
+Note: the aggregate score on the vertical axis captures the use of statistical concepts in national policy documents across levels of use (basic – level 1, diagnostic – level 2, statistical analysis – level 3) and the level of disaggregation. The higher the score, the more sophisticated the use. Levels in North America and Europe region explained by absence of National Development Plans in several industralised economies.
+Source: PARIS21 (forthcoming), “Proposing a Use of Statistics indicator in national development plans”, PARIS21.
+What capacity do we need?
+The understanding that good-quality statistics depend upon an infrastructure of properly financed
+organisations, an effective legal and political mandate and well-trained and managed technical and professional
+people is well known and not new. In the past though, efforts at developing statistical capacity have tended to
+focus mostly on technical concerns, such as survey design and data management. Where both financial and
+technical support has been provided, it has often emphasised data production, particularly in areas that are
+seen as important by development partners. A new approach is needed.
+One problem affecting our delivery of capacity support is the narrow way in which the capacity of national
+statistical systems is assessed. Statistical assessments are traditionally focused on skills for statistical production
+processes, quality assurance and codes of conduct; or dimensions such as legislation, principles and institutional
+frameworks. Yet technological change, the emergence of new data providers and users, and the increasing
+
+
+CHAPTER 1. OVERVIEW
+16 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+complexity of the data ecosystem are calling for new skills and organisational practices. Soft skills, such as
+management and leadership, are increasingly important across statistical organisations, and we need to do better
+at understanding the incentives and political dimensions behind capacity delivery (Chapter 3). Understanding the
+motivation for partners and beneficiaries to participate can make programmes more relevant and sustainable.
+The gap between what technical assistance is provided and what is needed means that country ownership of
+capacity programmes is modest. More than half of all African NSOs perceive that capacity programmes did not
+involve sufficient consultation between national and international stakeholders; worldwide, one third of NSOs
+consider that programmes are not meeting their needs (PARIS21, 2018b). Assessment tools tend to stress the
+measurement of organisational and system capabilities at the expense of individual ones: while only 2% of assessed
+capabilities target the individual, 32% of countries expressed that individual capabilities need to be improved to
+rise to new data ecosystem challenges. To many, the current approach involves a system in which development
+partners focus on short-term, output-related results (e.g. number of people trained), and statistical organisations
+rely on capacity programmes to motivate their employees (e.g. using per diems as rewards). This supply-driven
+approach is in part due to development partners’ results-based frameworks perspectives, characterised by short
+timeframes and project-level quantifiable results. The overall result is a significant discrepancy between what is
+asked and measured, and what is needed to move forward in the changing data ecosystem (Figure 3).
+Figure 3. There is a capacity mismatch between statistical assessments and country priorities
+Skills and Knowledge Incentives
+Organizational
+Resources
+Skills and Knowledge
+Management
+Politics and Power
+Incentives
+System
+Resources
+Skills and Management Knowledge
+Politics and Power
+Incentives
+Assessment capabilities
+Individual Organizational System
+Individual
+Skills and Knowledge
+Management Politics and Power
+Incentives
+Organizational
+Resources
+Skills and Knowledge Management
+Incentives Politics and Power
+System
+Resources
+Skills and Knowledge
+Management
+Politics and Power Incentives
+Expressed country priorities
+Skills and Knowledge Incentives
+Organizational
+Resources
+Skills and Knowledge
+Management
+Politics and Power
+Incentives
+System
+Resources
+Skills and Management Knowledge
+Politics and Power
+Incentives
+Assessment capabilities
+Individual Organizational System
+Individual
+Skills and Knowledge
+Management Politics and Power
+Incentives
+Organizational
+Resources
+Skills and Knowledge Management
+Incentives Politics and Power
+System
+Resources
+Skills and Knowledge
+Management
+Politics and Power Incentives
+Expressed country priorities
+dge Incentives
+Skills and Knowledge
+Politics and Power
+Incentives
+Individual Organizational System
+Individual
+Skills and Knowledge
+Management Politics and Power
+Incentives
+Organizational
+Resources
+Skills and Knowledge Management
+Incentives Politics and Power
+System
+Resources
+Skills and Knowledge
+Management
+Politics and Power Incentives
+Expressed country priorities
+Source: PARIS21 (2018c), “Survey results: new approaches to capacity development and future priorities”, https://paris21.org/capacitydevelopment-40/cd40-survey.
+What new approaches are emerging?
+As the data environment changes, we need to reflect on the way we are supporting national statistical systems
+to adapt to these changes. New data producers are emerging, including citizens and the private sector. National
+statistical systems have evolved from simple systems reporting mainly to governments to guide economic policy
+and to manage budgets, to providing statistical information on an ever-increasing number of areas, including the
+
+
+CHAPTER 1. OVERVIEW
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 17
+SDG Agenda. Yet, we do not yet have in place all the necessary instruments, or the financing, to meet today’s
+data needs. New initiatives are emerging, however, and are highlighted in this report.
+A holistic measurement framework: Capacity Development 4.0
+To fill these gaps, the frameworks, tools and measures used to assess and measure statistical capacity are
+being revised (Cameron et al., 2019; PARIS21, 2018b). One new initiative – the Capacity Development 4.0
+(CD4.0) framework – has been developed by PARIS21 to broaden the approach to statistical capacity and its
+assessment (PARIS21, 2017). It aims for a more comprehensive approach to individual skills and organisational
+practices (see Chapter 3). The CD4.0 framework recognises leadership, management and communication
+skills as effective catalysers of stronger organisational processes in NSSs. Internally, a coherent arrangement
+of resources matched to goals, a culture of innovation and a motivated workforce are critical. Externally, good
+communication with stakeholders and strong co-ordination among statistics suppliers are the cornerstones of
+an approach which meets users’ needs. Developing this new set of skills and practices will allow actors in the
+NSS to create relevant products and reach users more effectively.
+PARIS21 has realised this, and is reflecting on and developing new indicators to measure statistical capacity
+that take into account these new dimensions, and that allow for diagnosing and highlighting deficiencies
+in unexplored capacity areas. It is calling on partners to join this effort. Examples include indicators on
+institutional independence, leadership, mobility, individual skills and data use – all of which will provide a
+more comprehensive assessment of capacity in statistical organisations.
+A global financing mechanism
+Delivering on these expanded capacity requirements requires additional resources and better co-ordination
+of existing efforts. A more co-ordinated and balanced approach to financing statistics could lead to better
+results in statistical capacity building. Financing data show that over the past 10 years, while external
+partners have increased their commitment to statistics, aid towards the sector is barely co-ordinated. Areas
+such as environmental statistics are not getting enough support, while the majority of recent funding has
+been allocated to economic and demographic statistics. The regional concentration of partners also poses
+challenges for planning and implementation (Figure 4).
+To be more effective, evidence suggests that a co-ordinated investment approach should involve three patterns
+of support: i) sufficiency: countries receiving at least USD 10 per capita for statistical support increased their SCI
+score by 14 points between 2006-16; ii) sustainability: countries that have been among the top 25 recipients
+for at least 5 of the last 10 years show greater progress in statistical capacity than countries that have received
+sporadic support; and iii) progressivity: poorer and lower-capacity countries receive more support.
+
+
+CHAPTER 1. OVERVIEW
+18 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 4. External investments in statistical capacity are not regionally balanced, 2006-18
+New mechanisms being discussed for improving development partner co-ordination in the data and statistics
+sector include the creation of a global financing facility or similar new funding mechanism for development data.
+Such a mechanism could raise political demand for data, improve alignment with national priorities, promote
+development partner co-ordination and speed up access to finance at scale (Calleja and Rogerson, 2019).
+The model of establishing a global partnership for managing financial resources for data could be extended
+to other areas, for example, to optimise capacity development planning and the comparative advantages of
+capacity development programmes among providers. Alignment through established approaches, including
+strategic frameworks, such as National Strategies for the Development of Statistics and planning tools, such
+as ADAPT, will continue to ensure a strong basis for co-ordination.
+New co-ordination tools: the PARIS21 Statistical Capacity Monitor and Open
+Assessment Repository
+Increasing co-ordination and aligning capacity-building efforts with country priorities will require a more
+collaborative and coherent assessment framework to understand and measure statistical capacity. The PARIS21
+Statistical Capacity Monitor aims to become a comprehensive and accessible online “portal of portals” for
+the most relevant and publicly available indicators on statistical capacity. Gathering more than 140 indicators,
+
+
+CHAPTER 1. OVERVIEW
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 19
+the monitor provides access to an extensive, and evolving, battery of indicators on statistical capacity. It
+facilitates country and regional comparisons across multiple dimensions of statistical capacity, presenting
+trends in key drivers (including funding and legislation) and periodically proposing new indicators that can
+inform our understanding of capacity. By building on existing indicators and avoiding duplication, it can offer
+a clearer landscape of where countries stand in the various areas of capacity, identify complementarities and
+interoperability of monitoring systems, and reduce the burden on countries of responding to surveys.
+It can also promote joint efforts to gather data on those aspects that are currently difficult to measure. This
+is also one of the roles of the PARIS21 Open Assessment Repository (OAR) – a platform for comparing various
+statistical capacity assessment frameworks in order to improve the way statistical capacity is measured. In
+particular, the OAR will identify possible domains which are overlooked, such as the capacity of countries to
+use statistics.
+What are the next steps for the capacity-building data challenge?
+This first issue of the Statistical Capacity Development Outlook, along with its online Statistical Capacity
+Monitor, presents evidence of the need for a fresh look at the data and statistical capacity challenge in
+developing countries. It calls for action in several areas:
+• Re-thinking the measurement of and approaches to capacity development, taking a much more holistic
+and co-ordinated approach which responds more closely to countries’ needs. Innovative approaches to
+measurement and new indicators in different areas of capacity will be part of this agenda.
+• Shifting the focus more towards the demand and user side, promoting data literacy programmes for
+users, engaging with the media community and empowering NSOs to engage in constructive dialogue
+with the user community. Refining our understanding of data use will be a priority in the years to come
+and will support the value of statistics for society. This is a key building block missing from the current
+approach.
+• Securing more and better funding. Without this, we will make little progress in producing high-quality
+data for the public good. While financing is certainly not the only driver, the current levels of both
+domestic and international support for data and statistics are simply too modest to respond to the ever
+increasing demand driven by global initiatives such as the SDGs. Better quality investment will also be
+required.
+
+
+CHAPTER 1. OVERVIEW
+20 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+References
+Cameron, G. J., Dang, H., Dinc, M., Foster, J. S. and M. Lokshin (2019), “Measuring the statistical capacity of
+nations” (English), Policy Research Working Paper No. WPS 8693, World Bank Group, Washington, DC, http://
+documents.worldbank.org/curated/en/304431546956224461/Measuring-the-Statistical-Capacity-of-Nations.
+Denney, L. and Mallett, R. with Benson, M. S. (2017), “Service delivery and state capacity: findings from
+the Secure Livelihoods Research Consortium”, Secure Livelihoods Research Consortium, London, https://
+securelivelihoods.org/wp-content/uploads/Service-delivery-and-state-capacity_Findings-from-the-Secure
+Livelihoods-Research-Consortium.pdf.
+IMF (2019), Dissemination Standards Bulletin Board (DSBB), webpage, International Monetary Fund,
+Washington, DC, https://dsbb.imf.org/.
+ODW (2019), “Open Data Inventory 2018/19 Annual Report: Reporting Advancements in Open Data”, Open
+Data Watch, Washington, DC, http://odin.akroninc.net/Report/annualReport.
+OECD (2017), “Development Co-operation Report 2017: Data for Development”, OECD Publishing, Paris,
+http://dx.doi.org/10.1787/dcr-2017-en.
+PARIS21 (2018a), “Proposing a Framework for Capacity Development 4.0”, PARIS21, Paris, https://paris21.
+org/sites/default/files/inline-files/CD4.0-Framework_final.pdf.
+PARIS21 (2018b), “Measuring statistical capacity development: a review of current practices and ideas for the
+future – moving towards Statistical Capacity 4.0”, PARIS21 Discussion Paper No. 11, PARIS21, Paris,https://paris21.
+org/sites/default/files/inline-files/Measuring-Statistical-Capacity-Development_draft.pdf.
+PARIS21 (2018c), “Survey results: new approaches to capacity development and future priorities”, PARIS21,
+Paris, https://paris21.org/capacity-development-40/cd40-survey.
+PARIS21 (forthcoming), “Proposing a Use of Statistics indicator in national development plans”, PARIS21
+Discussion Papers No. 14, PARIS21, Paris,
+Sethi, T. and M. Prakash (2018), “Counting on statistics: How can national statistical offices and donors
+increase use?”, AidData at William & Mary, Williamsburg, VA, https://docs.aiddata.org/ad4/pdfs/Counting_
+on_Statistics--Full_Report.pdf.
+UNSC (2017), “Cape Town Global Action Plan for Sustainable Development Data”, High-level Group
+for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable
+Development, UN Statistical Commission 48th Session, New York, https://unstats.un.org/sdgs/hlg/Cape_
+Town_Global_Action_Plan_for_Sustainable_Development_Data.pdf.
+World Bank (2018), Statistical Capacity Indicator Dashboard (database), webpage, World Bank, Washington,
+DC, http://datatopics.worldbank.org/statisticalcapacity/SCIdashboard.aspx.
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 21
+Chapter 2.
+Recent trends in statistical
+capacity development
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+22 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+The ability to generate good quality statistics and to use them effectively is fundamental to a country’s
+development process. From planning and implementation to monitoring and evaluation, data and statistics
+are fundamental tools for governments to design and achieve their objectives. An effective national statistical
+system (NSS) is able to provide and explain the information needed to guide and track a country’s economic
+and social growth, help it create a sound development strategy and allow it to participate in tracking progress
+towards global initiatives such as the Sustainable Development Goals.
+Understanding and measuring a country’s capacity to produce and use quality statistics is complex. It depends
+on many factors – on having a proper institutional and legal framework, having enough long-term funding,
+and whether it follows international practices. A whole suite of indicators have been developed by various
+organisations to measure these dimensions. Some look at countries’ statistical processes and outputs, some
+at data collection practices, the availability of surveys and censuses, or statistical standards. They provide
+valuable information on where countries stand in statistical capacity and where they can go. In some of these
+areas, statistical capacity has shown some progress, but other areas are still challenging for many regions.
+This chapter explores recent trends in statistical capacity. It summarises global and regional performance
+in five areas of statistical capacity – planning, production, dissemination, use and investment. It explores in
+depth the links between countries’ statistical capacity and financial support for statistics. It asks whether more
+investment always means greater capacity, and suggests ways that financing statistical capacity development
+could improve.
+A brief history of development statistics
+The creation and development of national statistical systems worldwide has a long history, evolving from the
+focus on economics statistics in the post-1945 era, to the expansion of social statistics in the 1970s, spawning
+various household survey initiatives (e.g. Living Standards Measurement Surveys, Demographic and Health
+surveys; Khan, Wales and Stuart, 2015). The 1990s witnessed a transition towards regular data reporting
+systems to design and inform policy planning. That decade also saw the introduction of data dissemination
+standards. With the arrival of the Millennium Development Goals in 2000, the attention focused on poverty
+reduction and related indicators, with data mainly obtained from household surveys. The introduction
+of National Development Plans and Poverty Reduction Strategy Papers in a large number of developing
+economies made the need for good data even more imperative.
+The Marrakesh Action Plan for Statistics, established in 2004, provided a first global framework for strengthening
+national statistical systems through the implementation of National Strategies for the Development of Statistics
+(NSDSs) in International Development Association (IDA) countries, and the establishment of the International
+Household Survey Network. The 2011 Busan Action Plan for Statistics (BAPS) continued this effort, integrating
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 23
+national statistical activities into national planning, promoting open access and increasing the knowledge
+base for using statistics effectively. Today, the Cape Town Global Action Plan for Sustainable Development
+Data (CTGAP),1 agreed in March 2017 by the UN Statistical Commission (UNSC), provides a roadmap and key
+actions for modernising statistical systems and expanding statistical capacity to achieve the 2030 Agenda for
+Sustainable Development and track progress towards the 17 global Sustainable Development Goals set by the
+United Nations General Assembly in 2015.
+Recent trends in statistical capacity
+Many different institutions measure statistical capacity, often using different approaches, creating a myriad
+of indicators, frameworks, time periods and sectoral and geographic coverage. To present a general overview
+of trends, the following five families of indicators of statistical capacity have been identified for this Outlook:
+planning, production, dissemination, use and investment (see Annex 1). This taxonomy is based on the concept
+of the statistics value cycle, or virtuous data cycle (Figure 1; OECD, 2017), which highlights the reinforcing
+cycle of statistical capacity development: improving one aspect of the system complements its other parts.
+These five families are also used in the Outlook’s companion online platform, the Statistical Capacity Monitor
+(Box 1). The rest of this section outlines the status of each of these five types of capacity.
+Figure 1. The virtuous data cycle
+STRONGER STAT
+ISTICALSYSTEMS
+Planning & Production Dissemination
+Literacy
+Use & Value
+Invest
+ment NATIONAL STATISTICAL
+OFFICES
+DEMAND
+RESOU
+RCES
+LA
+WS
+GOVERNANCEFRAMEWORKS
+Source: OECD (2017), Development Co-operation Report 2017: Data for Development.
+1.The plan builds on earlier global action plans for development data launched in Marrakesh (2004) and Busan (2011) and was adopted by the United Nations Statistical Commission and welcomed by the UN General Assembly in July 2017 (Resolution 71/313).
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+24 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+BOX 1.
+Introducing the Statistical Capacity Monitor
+The implementation of the 2030 Agenda has put the
+spotlight on the new skills and practices that national
+statistical systems will need to develop. Understanding
+these needs, generating more accessible information
+and tracking progress in building the statistical
+capacity required is still a work in progress.
+In 2019 PARIS21 launched the Statistical Capacity
+Monitor – an online platform that aims to provide
+a comprehensive overview of existing as well as
+potentially useful new indicators to measure capacity
+in statistics. Gathering more than 140 indicators,
+the monitor provides access to an extensive, and
+evolving, battery of indicators on statistical capacity in
+order to offer a clearer landscape of where countries
+stand in the various areas of capacity. It allows for
+country and regional comparisons across multiple
+dimensions of statistical capacity, presents trends
+in key drivers (including funding and legislation) and
+periodically proposes new indicators that can inform
+our understanding of capacity.
+Drawn from PARIS21’s internal resources and more than
+a dozen external sources, the monitor uses a variety of
+interactive graphs to display relevant indicators for the
+five different stages of the data cycle process (Annex 1).
+For more information: www.statisticalcapacitymonitor.org.
+Planning
+Planning indicators measure how countries organise themselves to produce statistics. A strong, coherent,
+feasible and politically backed national statistical plan can guide a country in developing statistical capacity
+across the entire national statistical system (NSS). This strategic vision allows a country to respond to the
+growing demand for high-quality, timely and accessible data while also providing a framework to mobilise
+domestic and external resources.
+Global indicators on statistical planning show that the number of countries that have formulated a and are
+currently implementing a national statistical plan or national strategy for the development of statistics varies
+significantly by region (Figure 2), with Europe, Africa and Asia leading.
+In 2018, 129 countries were implementing a national statistical plan, up from 102 countries in 2017. The regions
+in which the most statistical plans were under implementation Northern America, Europe and Sub-Saharan
+Africa representing 27% each of the total implementing countries. However, “under implementation” does
+not always mean being fully funded. Among the regions with statistical plans under implementation, Sub
+Saharan Africa has the lowest percentage of fully funded plans with only 23%, compared to 94% for North
+America and Europe. Progress has been made since the adoption of the 2030 Agenda, with more 11 countries
+having their plan fully funded. Besides Northern America and Europe, none of the other regions have more
+than 2 countries showing progress in this direction. Although SDG target 17.18 specifically called for more
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 25
+attention to LDCs and SIDS, in these groups only one country graduated. Insufficient funding for a national
+statistical strategy could partly explain why less than half of SDG indicators are being produced by countries
+(Tier I indicators).2
+Figure 2. Number of countries with a national statistical plan under implementation
+Percentage of countries
+0 10 20 30 40 50 60 70 80 90 100
+World
+Sub-Saharan Africa
+Western Asia and
+Northern Africa
+Central Asia and Southern Asia
+Eastern Asia and
+South-eastern Asia
+Latin America and
+the Caribbean
+Australia and New Zealand
+Oceania excluding Australia
+and New Zealand
+Northern America and Europe
+LDCs
+LLDCs
+SIDS
+Under implementation Not implementing Information Not Available
+Note: LDCs: least developed countries; LLDCs: landlocked developing countries; SIDS: small island developing states
+Source: SDG indicator 17.18.3 (PARIS21).
+Production
+Production indicators measure the process of constructing statistics. While comparable indicators on
+statistical production at the country level are scarce, indicators associated with the availability of standard
+statistical outcomes such as censuses, thematic surveys or compliance with standards can provide an initial
+indication of recent trends in statistical capacity. The World Bank’s Statistical Capacity Index (SCI) measures,
+among other areas, statistical outputs and production. Its universal coverage allows for the evaluation of
+the efficiency of statistical support provided to a country. A regional comparison of the SCI between 2004
+and 2017 shows only modest improvements in statistical capacity in all regions (Figure 3). On average, the
+SCI has improved 2 points (on a 0-100 scale) over the past 13 years. More striking are the persistent gaps
+between regions in terms of statistical performance. Europe and the Americas lead the regions, with Africa
+and Oceania performing considerably more poorly than the rest.
+2. A Tier I indicator is conceptually clear, has an internationally established methodology and standards are available, and data are regularly produced by countries for at least 50 per cent of countries and of the population in every region where the indicator is relevant.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+26 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 3. World Bank’s Statistical Capacity index by region, 2004-2017
+SCI score (0-100)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017
+Africa Americas Asia Europe Oceania
+Note: The World Bank’s Statistical Capacity Indicator is a composite score assessing assessing the following areas of a country’s statistical system: methodology; data sources; and periodicity and timeliness. Countries are scored against 25 criteria in these areas. The overall score is calculated as simple average of all three area scores on a scale of 0-100.
+Source: World Bank (2018), “Statistical Capacity Indicator dashboard”, World Bank, Washington, DC, http://datatopics. worldbank.org/statisticalcapacity/SCIdashboard.aspx.
+Other standard indicators of statistical production include the availability of censuses, vital registration
+data and data quality management. Agricultural censuses have been implemented in most countries, with
+their scope varying depending on the resources available, the importance of the agriculture sector for the
+economy and national priorities. An estimation of the availability of agricultural census data by region shows
+that by the early 2000s, almost all regions had coverage for at least half of their countries (Figure 4, Panel A).
+In other areas, such as government finance statistics, the picture is similar, with some regions reaching 75%
+coverage (Figure 4, Panel B). The use of the IMF Balance of Payments Manual is another standard indicator
+of production. Over the past 15 years, most regions in the world have converged towards the use of the
+manual (Figure 4, Panel C). Oceania, in particular, has experienced an important increase since 2008. Despite
+these overall improvements in capacity, important gaps remain. The Civil Registration and Vital Statistics
+(CRVS) indicator still shows large discrepancies between regions, with Africa and Asia lagging behind (Figure
+4, Panel D). While standard indicators on statistical production show progress, other important areas such as
+generating disaggregated data have scope for improvement (Box 2).
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 27
+Figure 4. Statistical outputs by region Percentage of countries producing these statistics
+Percentage of countries
+Panel A. Availability of agricultural census, 2004-2017 Panel B. Government finance accounting, 2004-2017
+Panel C. Balance of Payments Manual in use, 2004-2017 Panel D. Civil Registration and Vital Statistics, 2017
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Source: Food and Agriculture Organisation (FAO). Source: IMF Government Finance Statistics Yearbook.
+2004
+2005
+2006
+2007
+2008
+2009
+20010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+Note: Percentage value only for group of reporting countries Source: IMF Balance of Payment Statistics Yearbook.
+Note: Percentage value only for group of reporting countries Source: UNSD Population and Vital Statistics Report.
+2004
+2005
+2006
+2007
+2008
+2009
+20010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2004
+2005
+2006
+2007
+2008
+2009
+20010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+Asia
+Europe Oceania
+Africa Americas
+Percentage of countries
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Percentage of countries
+Percentage of countries
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Asia
+Europe Oceania
+Africa Americas
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Asia
+Europe Oceania
+Africa Americas
+Africa
+Americas
+Asia
+Europe
+Oceania
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+28 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+BOX 2.
+Are national statistical systems ready for data disaggregation?
+Getting in line with the 2030 Agenda and the “leave
+no one behind” pledge requires refocusing efforts
+on providing data on excluded population groups,
+revealing disparities, and boosting the amount and
+quality of information so as to ensure increasingly
+responsive and transparent policies.
+According to the 2030 Agenda, to be effective,
+data should at least be disaggregated by income
+quintile, gender, geography, age and disability. This
+requires major amendments in the way data and
+statistics are collected, analysed and made available
+– amendments which are still beyond most countries.
+Several limitations are preventing the production of
+more granular data:
+• Surveys, which are the most commonly used
+method of measurement, do not record information
+on marginalised and excluded groups and do not
+account for intra-household disparities.
+• Income remains the most commonly used
+indicator for measuring wealth, and many
+disparities are not accounted for at the regional,
+local and household level
+• Disaggregation by geographical area encounters
+many problems, such as the lack of statistical
+harmonisation of the definition of rural and urban
+areas.
+New opportunities to fill these gaps are arising from the
+use of new technologies as complementary or alternative
+data sources. Administrative data, citizen-generated
+data and geospatial data show some promising results
+in disaggregating existing survey data. They are often
+put forward as cost-effective and timely solutions.
+For example, satellite imagery, remote sensing and
+cartography are used to improve population coverage
+and provide accurate geographic boundaries for field
+surveys and censuses (OECD, 2018). Nevertheless,
+new technologies are still out of reach for many NSOs.
+More than 40% of NSOs report being interested in
+establishing partnerships to access geospatial data,
+but lack sufficient knowledge to pursue them (PARIS21,
+2018b). Currently many NSOs in developing countries
+still work with only basic technical equipment.
+In addition to disaggregating data, we need to know
+what data are missing and where, and plan for the
+most appropriate manner to collect them. New
+tools are being implemented to assess data gaps
+between demand and supply and can help include
+disaggregated data in monitoring and evaluations
+frameworks (e.g. PARIS21`s ADAPT tool). The expense
+involved in making data anonymous, as well as
+ensuring appropriate coverage when producing
+disaggregated data, means many developing countries
+rarely conduct surveys or update population counts.
+For disaggregation to be implemented appropriately,
+we need to increased advocacy for statistics as a way
+to improve policy design and targeting, and secure
+political commitment and funding.
+Note: For more information on ADAPT: see https://paris21.org/advanced-data-planning-tool-adapt.
+Source: Based on OECD (2018), “Data diagnostics”, Chapter 5 in the Development Co-operation Report 2018: Joining Forces to Leave No One Behind,OECD Publishing, Paris, https://doi.org/10.1787/dcr-2018-en.
+Dissemination
+Dissemination indicators measure the action of sharing statistical information widely. Data dissemination
+standards have become an important area for national statistical offices as a way to communicate data
+effectively. Dissemination standards have helped countries to provide economic and financial data to the
+public and enhance the availability of timely and comprehensive statistics.
+Two widely used indicators of dissemination are the International Monetary Fund’s (IMF) data dissemination
+standards (GDDS/SDDS/SDDS plus) and Open Data Watch’s Open Data Inventory (ODIN) index. The Special Data
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 29
+Dissemination Standard (SDDS) and General Data Dissemination Standard (GDDS) offer a global benchmark
+of the dissemination of macroeconomic statistics to the public. Countries that subscribe to the SDDS agree
+to follow good practices in coverage, periodicity, and timeliness of data, public access, data integrity and
+data quality. A regional comparison suggests varying levels of compliance with these standards by region.
+Overall, the general trend is towards a significant increase in the number of countries adhering to IMF data
+dissemination standards in the last 15 years (Figure 5, Panel A).
+Collected since 2015, the Open Data Inventory (ODIN) provides a comprehensive overview of countries`
+data dissemination practices. It assesses the coverage and openness of official statistics, and aims at helping
+national statistical offices to establish a better dialogue with users. It also considers openness as a spectrum
+of five principles: availability of metadata, non-proprietary format, download options, machine readability,
+and terms of use policy/data licence. The 2018 ODIN results suggest that national statistical systems are
+becoming more open (Figure 5, Panel B) and there is rising geographic diversity amongst the top 20 most
+improved countries, 5 of which are low or lower-middle income (Open Data Watch, 2019).
+Figure 5. Data dissemination outcomes by region
+Panel A. Number of countries adhering to IMF Data Dissemination Standards
+Panel B. Open Data Inventory (ODIN) score, 2015-2018
+Source: IMF Dissemination Standards Bulletin Board. Source: Open Data Watch.
+Participants/Subscribers in the e-GDDS/SDDS/SDDS Plus
+Percentage of IMF member countries ODIN score (0-100)
+Percentage of IMF Member Countries
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+e-GDDS SDDS SDDS Plus
+2015
+2016
+2017
+2018
+Asia
+Europe Oceania
+Africa Americas
+Note: GDDS: SDDS: SDDS Plus
+While the dissemination results are promising, challenges remain – most notably surrounding data availability
+and coverage gaps. NSOs have an enormous opportunity to embrace the new technologies on offer in a bid
+to stay relevant in a competitive data ecosystem. On the other hand, the technologies and IT systems have
+often failed to generate adequate return on investment or meet the needs of users adequately. Greenwell
+et al. (2016) highlight how the proliferation of data portals with the adoption of Agenda 2030 has had mixed
+impacts on implementation, due mainly to overlapping functionalities, duplication and higher costs for NSOs.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+30 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Since then, efforts have been made to establish basic principles in the official statistics community for data
+dissemination, such as fitness for purpose, sustainability and interoperability (UNSC, 2018).
+Use
+Use indicators measure the concepts of statistical literacy, data use, and the esteem and valuation of statistics.
+Today, there are currently very few indicators on data use and no global indicator is available to monitor progress on
+reaching users of official statistics. Nonetheless, important recent effort have been made to measure, for example,
+the use of NSO websites and data portals (Open Data Watch, 2018). A more detailed description of the available
+indicators and current trends in data use, including by media, NSOs and policy makers, is provided in Chapter 4.
+Investment
+Efforts to strengthen statistical capacity have been modest, but sustained. Investment indicators measure the allocation
+of resources to the statistical system. The international support to statistics over the period 2006-16 represented,
+on average, 0.3% of official development assistance (ODA). However, support to statistics is uneven across regions
+(Figure 6). Africa received the largest share of statistical support between 2006 and 2016, whereas support to Latin
+America and the Caribbean (LAC) has been variable, often depending on the commitments to national censuses in
+the region. In contrast, commitments to Asia and the Pacific have fallen significantly in recent years. A further 15%
+(USD 68 million) was committed to global projects and programmes that were not region-specific.
+Figure 6. Evolution of total external commitments to statistics by region, 2006-16 USD millions
+$100m
+0
+$200m
+$300m
+$400m
+$500m
+$600m
+$700m
+$800m
+$900m
+2006-08 2007-09 2008-10 2009-11 2010-12 2011-13 2012-14 2013-15 2014-16
+Total commitments (in US$)
+Africa Asia Europe LAC Unallocated
+Source: PARIS21 (2018a), “PRESS 2018: Partner Report on Support to Statistics”, PARIS21, Paris, https://paris21.org/sites/default/files/ inline-files/PRESS2018_V3_PRINT_sans%20repres_OK_0.pdf.
+Financing needs for national statistical systems remain substantial. The Cape Town Global Action Plan for
+Sustainable Development Data (CTGAP), agreed in March 2017 by the UN Statistical Commission (UNSC),
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 31
+provides a roadmap and key actions for modernising statistical systems and expanding statistical capacity to
+meet future needs. It is estimated that USD 800 million per year from international development co-operation
+will be needed to fill the gap in basic data production for the Sustainable Development Goals. Another USD
+500 million is required to implement all objectives listed under the Cape Town Global Action Plan. Yet, by
+2016, developing countries received only USD 623 million of support from multilateral and bilateral bilateral
+donors for all areas of statistics. Assuming the current trend continues, international resources will not be
+sufficient for SDG data collection by 2021 (Calleja and Rogerson, 2019).
+A more co-ordinated and balanced approach to financing statistics could lead to better results in statistical
+capacity building. Over the past 10 years, while external partners have increased their commitment to statistics
+aid towards the sector is barely co-ordinated. Areas such as environmental statistics are not getting enough
+support, while the majority of recent funding has been allocated to economic and demographic statistics
+(Figure 7). The regional concentration of partners also poses challenges for planning and implementation
+(Figure 8). Still, increasing financial commitments should not be the only focus for statistics advocacy. Aligning
+statistical projects with NSDS priorities and improving donors’ co-ordination mechanism at the country level
+will also be essential. The CTGAP should eventually offer a guiding framework for prioritising financial support
+for statistics vis-a-vis national priorities and the SDG agenda.
+Figure 7. Allocation of international commitments to statistics by area and development partner
+Note: Percentage of total commitments to statistics by areas of statistics. Classification of areas is based on the Classification of Statistical Activity (CSA) methodology. https://unstats.un.org/unsd/iiss/Classification-of-International-Statistical-Activities.ashx
+Source: PARIS21, based on Partner Report on Support to Statistics (PRESS) data.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+32 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 8. Allocation of international commitments to statistics by region
+Note: Percentage of total commitments by geographic regions. «Unallocated» indicates global projects, projects target on multiple regions or projects of which information on recipient is on available.
+Source: PARIS21, based on Partner Report on Support to Statistics (PRESS) data.
+Do more investments mean greater capacity?
+More granular evidence for investment in statistical capacity development and improvements in statistical
+performance shows a mixed landscape. While improving global trends in the World Bank’s Statistical Capacity
+Indicator score in International Bank for Reconstruction and Development (IBRD) and IDA countries have stalled
+over the past ten years, some regions still show significant improvements. Eastern and South Eastern Asian
+countries have improved their capacity scores by almost 10% and are now the second highest after Northern
+America and Europe (Figure 9). The average score for Oceania (excluding Australia and New Zealand) has increased
+by 8% but remains the lowest, while SIDS countries still perform lower than the Sub-Saharan Africa region.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 33
+Figure 9. Regional performance in the World Bank`s Statistical Capacity indicator, 2009-2018
+Percentage change since 2009 SCI score (0-100)
+-1.40% -0.69%
+0.17% 0.83%
+1.88%
+4.97%
+7.51% 7.99%
+9.43% 9.96%
+70 65
+71 69
+82
+56
+62
+49
+60
+79
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+-0.05
+-0.03
+-0.01
+0.01
+0.03
+0.05
+0.07
+0.09
+0.11
+Easternand
+South-EasternAsia
+LatinAmerica
+andtheCaribbean
+WesternAsia
+andNorthernAfrica
+CentralAsia
+andSouthernAsia
+LLDC
+NorthernAmerica
+andEurope
+SIDS
+Sub-SaharanAfrica
+Oceaniaexcluding
+Australiaand
+NewZealand LDC
+Percentage change since 2009 Score in 2018
+Source: World Bank (2018), «Statistical Capacity Indicator Dashboard», http://datatopics.worldbank.org/statisticalcapacity/SCIdashboard.aspx.
+Three patterns of support to statistics have generated better outcomes over the period 2006-16. First, the
+statistical capacity of countries increase, on average, by 14 points when receiving over USD 10 per capita for
+statistical support. Above a threshold of support, improvements in statistical capacity are more likely. Second,
+benefits were evident when the funding was not only sufficient, but also consistent. Countries that have been
+among the top 25 recipients for at least 5 of the last 10 years show greater progress in statistical capacity
+than countries that have received sporadic support. Third, the progressivity of spending on statistical capacity
+remains important. Countries in the lowest quartile of the distribution received the highest level of funding
+per capita (USD 0.89) and countries with highest capacity received the lowest.
+These examples of regional and country progress reveal that the funding landscape for development data
+faces challenges. Support for data and statistics is widely spread across investments in other sectors, like
+health or education, and concentrated among relatively few partners. More importantly, development data
+faces a lack of political awareness, and low visibility, due to insufficient understanding of the uses to which
+better data could be put (Calleja and Rogerson, 2019). Aid fragmentation is persistent, as many activities
+consist of small-sized technical assistance, often in kind, with poor harmonisation across providers. There is
+poor alignment with national priorities, due to multiple donor reporting requirements and excessive emphasis
+on data instruments over underlying systems building.
+To respond to these challenges, new efforts to improve the funding mechanisms for data and statistics are
+emerging. Recent discussions on the feasibility of a global financing facility for development data suggest
+that a comprehensive and co-ordinated response could address some of the existing challenges (Calleja and
+Rogerson, 2019). Similar structures already exist in the area of economic statistics (Box 3). A global financing
+facility for data could raise political demand for development data, improve alignment with national priorities,
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+34 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+promote donor co-ordination and speed up access to finance at scale. The facility under discussion would be
+designed to match funding for national data capacity within national investment plans, produced by country
+platforms, with clear end-use objectives and results metrics. This would support both domestic resource
+mobilisation, additional concessional lending and other external assistance. A second window would focus on
+data innovation and new partnerships, as well as “smart funding” to encourage scaling up.
+BOX 3.
+The D4D Fund: an innovative instrument for IMF capacity development in economic statistics
+In June 2018, the International Monetary Fund (IMF)
+launched the Data for Decisions (D4D) Fund to provide
+more and better data for evidence-based economic
+decision making, accountability and transparency.3
+Targeting low and lower-middle income countries,
+the D4D Fund will also be conducive to improving the
+monitoring of the SDGs, as around 40% of SDG indicators
+directly or indirectly include economic variables. The
+D4D Fund is set up in modules which allows agility in
+reacting to changing priorities in country needs as well
+as technological innovations:
+• Module 1 aims to address data gaps in core economic
+statistics: national accounts and prices, as well as
+external sector and government finance statistics.
+Examples include the estimation of residential property
+price indices and a pilot for using Big Data as a cost
+efficient source to generate remittances data.
+• Module 2 centres on promoting financial inclusion
+data through the IMF’s Financial Access Survey (FAS),4
+a global supply-side database covering all aspects
+of financial access. Latest FAS innovations include
+developing granular data on the impact of financial
+technology (fintech) on financial inclusion and gender
+specific data to guide policy initiatives for women.
+• Module 3 aims at widening the reach of the IMF’s
+training activities through the development of online
+learning courses on national accounts, fiscal, external
+and financial sector statistics, to be translated in up to
+six languages for truly global delivery.
+• Module 4 focuses on statistical information
+management for establishing sound information
+management practices and systems.
+This work under the D4D Fund directly delivers data
+for the two SDG indicators for which the IMF has been
+chosen as custodian agency, the indicator on the
+proportion of the domestic budget funded by domestic
+tax benefits and the Financial Access Survey. Yet, the
+D4D Fund’s impact on SDG reporting goes beyond
+these areas. As many SDG indicators are expressed as
+percentage of GDP, a regular re-basing of the weights
+for different sectors in the economy is essential.
+The D4D Fund complements the IMF’s arsenal of statistical
+capacity development across key macroeconomic
+statistical areas. In addition to the D4D Fund, the IMF
+provides extensive technical assistance and training
+through its global network of Regional Capacity
+Development Centers,5 the Financial Sector Stability
+Fund,6 and other capacity development programmes
+in statistics, both IMF- and donor-funded. Finally,
+the IMF’s Results-Based Management framework7
+provides a coherent system for monitoring agreed
+outcomes.
+Fundraising for the D4D Fund has got off to a strong start,
+with 85% of the USD 33 million funding goal already
+secured for the five years programme duration (2018
+2023). Current partners are Luxembourg, Switzerland,
+the European Commission, the Netherlands, The
+Republic of Korea, China, Germany, and Japan.
+Source: Based on OECD (2018), “Data diagnostics”, Chapter 5 in the Development Co-operation Report 2018: Joining Forces to Leave No One Behind, OECD Publishing, Paris, https://doi.org/10.1787/dcr-2018-en.
+3. See https://www.imf.org/en/Capacity-Development/d4d-fund for a general presentation of the D4D Fund, its list of activities, and latest developments. 4. Visit http://data.imf.org/?sk=E5DCAB7E-A5CA-4892-A6EA-598B5463A34C for more information about the FAS. 5. See https://www.imf.org/external/np/ins/english/pdf/FSSF.pdf. 6. See https://www.imf.org/~/media/Files/capacity-developement/RCDC/IMF-Regional-Capacity-Development-Centers-2018.ashx?la=en. 7. See https://www.imf.org/~/media/Files/Publications/PP/new-common-evaluation-framework-for-imf-capacity-development.ashx for more information about the New Common Evaluation Framework for IMF Capacity Development.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 35
+Conclusion
+This chapter has provided an overview of recent trends in statistical capacity through different phases of the
+data cycle: planning, production, dissemination, use and investment.
+The emerging landscape in the areas of planning and production is relatively positive; most regions show
+improvements in the adoption of national statistical plans and in the number of countries that are actually
+implementing them. Statistical production has also improved, with many countries implementing agricultural
+censuses, for instance, although challenges remain in basic areas such as civil registration and vital statistics.
+Data dissemination practices also suggest that national statistical systems are becoming more open, but
+improvements are needed in data availability and coverage gaps. Data use, as will be discussed in Chapter 4,
+calls for the development of more and better global indicators on data use in the future.
+Finally, the overall landscape of financing for statistics, which is relatively stable, still reflects many of the
+persistent challenges of the sector: insufficient visibility, poor harmonisation and co-ordination among
+providers, and little alignment with national priorities. New funding mechanisms in the sector are emerging,
+and should be designed to tackle some of these challenges in the future.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+36 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+References
+Calleja, R. and A. Rogerson (2019), “Financing challenges for developing statistical systems”, PARIS21 Discussion
+Paper No. 14, PARIS21, Paris, https://paris21.org/sites/default/files/2019-01/Financing%20challenges%20
+for%20developing%20statistical%20systems%20(DP14).pdf.
+Cameron, G. J., Dang, H., Dinc, M., Foster, J. S. and M. Lokshin (2019), “Measuring the statistical capacity
+of nations” (English), Policy Research Working Paper No. WPS 8693, World Bank Group, Washington, DC,
+http://documents.worldbank.org/curated/en/304431546956224461/Measuring-the-Statistical-Capacity-of
+Nations.
+Greenwell, G., Kinyua, J., Klein, T. and R. Ranjan (2016), “Making data portals work for SDGs: a view on
+deployment, design and technology”, PARIS21 Discussion Paper No. 8, PARIS21, Paris, https://paris21.org/
+sites/default/files/Paper_on_Data_Portals%20wcover_WEB.pdf.
+Khan, A., Wales, J. and E. Stuart (2015), “Country Priorities for Data Development: What does history tell
+us?”, Overseas Development Institute, London, https://www.odi.org/sites/odi.org.uk/files/odi-assets/
+publications-opinion-files/9695.pdf.
+Laliberté, L. (2002), “Statistical capacity building indicators”, PARIS21, Paris, https://paris21.org/sites/default/
+files/scbi-final-en.pdf.
+OECD (2017), “Development Co-operation Report 2017: Data for Development”, OECD Publishing, Paris,
+http://dx.doi.org/10.1787/dcr-2017-en.
+OECD (2018), “Development Co-operation Report 2018: Joining Forces to Leave No One Behind”, OECD
+Publishing, Paris, https://doi.org/10.1787/dcr-2018-en.
+Open Data Watch (2018), “Measuring Data Use: An Analysis of Data Portal Web Traffic”, Open Data Watch,
+Washington, DC, https://opendatawatch.com/publications/measuring-data-use.
+Open Data Watch (2019), “Open Data Inventory 2018/19 Annual Report: Reporting Advancements in Open
+Data”, Open Data Watch, Washington, DC, http://odin.akroninc.net/Report/annualReport.
+PARIS21 (2018a), “PRESS 2018: Partner Report on Support to Statistics”, PARIS21, Paris, https://paris21.org/
+sites/default/files/inline-files/PRESS2018_V3_PRINT_sans%20repres_OK_0.pdf.
+PARIS21 (2018b), “Survey results: new approaches to capacity development and future priorities”, PARIS21,
+Paris, https://paris21.org/capacity-development-40/cd40-survey.
+UNDESA (2018), “The Sustainable Development Goals Report 2018”, United Nations Department of Economic
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 37
+and Social Affairs, New York, https://unstats.un.org/sdgs/files/report/2018/TheSustainableDevelopmentGoa
+lsReport2018-EN.pdf.
+UNSC (2018), “Report of the Conference on National Reporting and Dissemination Platforms”, Background
+document for 49th session of the United Nations Statistical Commission, New York, https://unstats.un.org/
+unsd/statcom/49th-session/documents/BG-Item3a-NRDP-E.pdf.
+World Bank (2018), Statistical Capacity Indicator Dashboard (database), World Bank, Washington, DC,
+http://datatopics.worldbank.org/statisticalcapacity/SCIdashboard.aspx.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+38 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Annex 1. Establishing a classification of indicators for the Statistical Capacity Monitor
+An intuitive way to think about the indicators of statistical capacity is laid out in the Generic Activity Model
+for Statistical Organizations (GAMSO), endorsed by the High-Level Group for the Modernisation of Official
+Statistics. GAMSO describes processes and activities in official statistical production and management, from
+strategy and leadership, to capability development, corporate support and production. Within each of these
+overarching themes is another level of best-practice activities against which a statistical organization can
+monitor its performance. Another international standard in data production is the Generic Statistical Business
+Process Model (GSBPM), which highlights the business processes of statistical production—from needs
+assessment and planning, to data collection and processing, and dissemination and evaluation. These tools
+summarize production processes and statistical, but do not necessarily map onto other external indicators of
+the results and outcomes that measure and monitor statistical capacity. Similarly, the ten UN Fundamental
+Principles of Official Statistics are standards of reference that lay out a fine set of ethical principles. However,
+they do not neatly match the set of indicators that we have collected.
+Without an obvious signpost or map, PARIS21 proceeded in an organic way to consider the breadth, depth,
+and relatedness of the universe of indicators in the Statistical Capacity Monitor platform and database.
+Many indicators monitor data quality and availability, others measure governance and compliance and even
+legislation, others communication and dissemination, others institutional and donor support. Still, other
+measures are the headline overall capacity scores of national statistical systems writ large. The classification
+scheme should be flexible enough to encompass this variety. This exercise produced five groups of indicators
+for the Statistical Capacity Monitor, i.e. those concerned with:
+• Planning
+• Production
+• Dissemination
+• Use
+• Investment
+These five families distinctly and comprehensively cover the territory of the 140 indicators available in the
+monitor. In fact, this grouping is remarkably similar to what is known in statistical circles as the Statistical
+Value Cycle, or the Data Life Cycle. This conceptual framework was developed to argue the generalized need
+for a virtuous cycle in statistical capacity, in which investments and improvements in each part of the system
+would feed off of one another to advance the others, and ultimately the whole (OECD, 2017).
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 39
+Broadly, the indicators reflect a similar monitoring scheme as the one that this classification points to. A slight
+difference lies in the vast number of indicators that can reflect both planning and production—so they were
+separated into distinct categories. By contrast, literacy and use and value have been combined together into
+a single category (use). This modification emphasises instead that planning and production are separate ideas
+with a wide range of measures, whereas literacy, use and value can be subsumed into a system-wide valuing
+of statistics—and perhaps in many cases not measured separately from one another.
+
+
+CHAPTER 2. TRENDS IN STATISTICAL CAPACITY
+40 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Annex 2. List of new indicators included in the Statistical Capacity Monitor
+The list below contains the new 15 indicators included in the Statistical Capacity Monitor.
+Indicator Definition
+Data dissemination policy Existence of Microdata Access Policies
+Sectoral Statistical Strategy Existence of sectoral strategy for agriculture, education and other sectors, including in consultation with colleagues and online
+Statistical society presence Whether the International Statistical Institute (ISI) recognizes a non-governmental statistical body in the country. The ISI is a non-profit, non-government organization and has had consultative status with the Economic and Social Council of the United Nations since 1949.
+Data portal The existence of a national database or data portal.
+National Statistical Council Existence of an agency/board/institution that advises the Chief Statistician on National Statistical Organization activities, primarily on program priorities. The name varies across countries: National Statistical Board, National Statistical Commission, National Statistical Committee.
+National statistical strategy generation The generation of the current national statistical strategy.
+National statistical plan Existence of a National Strategy for Development of Statistics or a National Statistical Plan
+Press releases issued at least quarterly Timeliness and frequency of official statements issued to journalists on statistical indicators
+Social media Whether the National Statistical Organization uses social media (Facebook and/or Twitter) to disseminate data and information
+Regional data platform Whether the country’s National Statistical Organization uses a regional data dissemination platform
+Website Website link to the National Statistical Organization
+UN FPOS Whether the national statistical legislation complies with United Nations Fundamental Principles of Statistics (SDG 17.18.2)
+Statistical plan implemented Whether there is a national statistical plan under implementation (SDG 17.18.3)
+Statistical plan fully funded Whether the national statistical plan under implementation is fully funded (SDG 17.18.3)
+Microdata datasets online The number of datasets that are available through the World Bank microdata cataloguing tool
+Microdata dataset citations The number of citations in peer-reviewed international journals, from the datasets that are available through the World Bank microdata cataloguing tool
+Microdata average citations per dataset The average number of citations in peer-reviewed international journals, per dataset, from World Bank microdata cataloguing tool
+Years of tenure current NSO head Number of years of tenure of the current head of the National Statistical Organization
+SDG portal Existence of official country-operated, dedicated online portal for reporting SDG progress
+Online appendices Whether explanatory material accompanies online published data (e.g. erratum, methodology, metadata, guides, manuals)
+Metadata published More than 50% of data published includes metadata
+International data dissemination Use of international data dissemination platform (e.g. African Information Highway, CountryStat, DevInfo, Eurostat, IMIS, NADA, OECDStat, Prognoz)
+Quality management Follow international quality management framework (e.g. GDDS, DQAF, Total Quality Management, ISO EN 9001)
+Regulations available online Whether the National Statistical Organization regulations are published online
+SDMX Use of the Statistical Data and Metadata eXchange, SDMX, at least in some statistical domains or for some datasets
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 41
+Chapter 3.
+A revised approach
+to assessing statistical capacity
+in the new data ecosystem
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+42 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Chapter 3. A revised approach to assessing statistical capacity in the new data ecosystem
+The rapid pace of technological change is having a major impact on people’s ability to get access to and use
+statistical information. New sources of data are emerging, presenting both opportunities and challenges for
+those agencies involved in the compilation and dissemination of official statistics. Data users are now being
+presented with information from multiple different sources and many do not have the knowledge or skills
+to distinguish between reliable and unreliable data. If National Statistical Systems (NSSs) are to benefit from
+new technology and the massive increase in data availability, then they will have to develop new skills and
+organisational practices.
+Official statistics are relevant for decision making and for citizens to hold their governments accountable.
+Investing in better statistical systems can help policy makers understand the impact of public policies, but can
+also lead to more pressure from civil society organisations to perform better (Dargent et al., 2018). The more
+data the government releases, the more exposed it is to external criticism and influence from rival political
+parties or interest groups. Nevertheless, in the current data ecosystem, citizens are constantly exposed to
+information from different sources and governments may feel compelled to release their own figures to
+contest critical claims.
+In response to the increasing challenges faced by national statistical systems, international co-operation
+needs to evolve to support countries to develop the new capabilities that modern data ecosystems require.
+At the 2017 UN World Data Forum in Cape Town1, representatives from the data and statistics community
+made a call to assess the progress made so far on statistical capacity and to find ways of moving forward.
+This chapter reviews how the concept of statistical capacity needs to change to adjust to the new data
+ecosystem and how this in turn will affect how we measure it. It proposes the broad contours of an alternative
+approach – Capacity Development 4.0 (CD4.0) – which could form the basis of a more holistic, better co
+ordinated and more effective assessment framework. The chapter provides an up-to-date account of how
+statistical capacity is defined in the most widely used statistical assessments, and examines the extent to which
+these have tended to reflect the interests and requirements of the organisations that have developed them,
+rather than the needs and circumstances of a particular national statistical system. Our analysis indicates that
+a more collaborative and coherent assessment framework is needed to understand and measure statistical
+capacity, reduce respondent burden and collect more relevant and useful information.
+1. The UN World Data Forum brings together data creators and users from government, private sector, civil society, and academia to discuss ways to improve and better use data to support the Sustainable Development Goals and launch new data-based initiatives.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 43
+Why do we need a new approach to measuring statistical capacity?
+Identifying inefficiencies in the current global monitoring system2 of statistical capacity assessments is a necessary
+first step in revisiting development co-operation projects for better outcomes in statistics. Since the 2005 Paris
+Declaration on Aid Effectiveness, development partners have made major efforts to measure the results of their
+investments. To this end, international assessments provide inputs to the design of projects, both in identifying
+countries’ weaknesses and as a baseline against which to evaluate future project success. The problem, however,
+is that the frameworks that are used for the assessments tend to be backward-looking and focus on the provision
+of data that are important to the development partner. There has been rather less focus, at least so far, on
+identifying what national statistical systems need to adapt to and manage in a rapidly changing environment.
+As a result, there is increasing evidence that assistance from development partners is not fully meeting
+countries’ needs. The majority of capacity development programmes focus on training employees to improve
+their technical skills and statistical analysis capabilities. Yet, only one third of African countries, for example,
+are satisfied with how these programmes met their capacity development needs (PARIS21, 2018a); worldwide
+almost two thirds of national statistical offices (NSOs) are satisfied with program outcomes. Clearly more
+needs to be done to improve the results of statistical capacity development projects and to design more
+effective capacity development programmes.
+A key component of this process is to analyse and understand how regional and international organisations
+currently measure statistical capacity and the extent to which the assessment process affects programme
+design and implementation (Open Data Watch, 2015, Oxford Policy Management, 2008 and Independent
+Evaluation Group, 2017).
+Introducing the Capacity Development 4.0 framework
+There exists a wealth of assessments of statistical capacity (see Table 1). Tools have been created to
+inform national statistical strategies, to advise partners who wish to invest in statistical capacity, to assist
+with designing projects, to monitor statistical performance at a global level and to assess compliance with
+international standards or codes of practice (PARIS21, 2018b).
+Organisations assess countries to understand how they are faring against a given benchmark. The reference
+point could be an international standard (such as the UN Fundamental Principles of Official Statistics or the
+System of National Accounts) or another NSS (such as peer-reviews). In the current global monitoring system,
+there are multiple benchmarks, and the same institutions may use different ones for different purposes. They
+2. By “global monitoring system” this chapter refers to the collection of tools, mechanisms, assessment frameworks and processes through which international partners (bilateral donor agencies, international organisations, regional organisations, etc.) track progress in countries’ statistical capacity.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+44 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+also diverge in how they administer the assessments (such as self-assessments, peer reviews and external
+assessments). Despite their diversity, all assessments have a role in international co-operation. They all
+seek to highlight the weaknesses and strengths of NSSs, and are generally followed up with support from
+international partners.
+A more articulate global monitoring system would reduce respondent burden while producing suitable
+information to inform capacity development projects. An initial step in this direction would be for all development
+partners to use a common framework of statistical capacity. With a defined framework in mind, assessments
+could be used to identify gaps in existing knowledge based on countries’ expressed priorities. Subsequently, this
+approach would also help to address the flaws of current results-based management strategies.3
+In order to address these concerns, a new approach – the PARIS21 CD4.0 framework (PARIS21, 2017) – has been
+developed to broaden the approach to statistical capacity and its assessment. CD4.0 defines statistical capacity
+as “the ability of a country’s national statistical system, its organisations and individuals to collect, produce,
+analyse and disseminate high quality and reliable statistics and data to meet users’ needs” (PARIS21, 2017).
+In this sense, capacity is not composed of individual building blocks, but rather of the linkages between them.
+Figure 1 illustrates the framework, which reflects the capabilities that NSSs need in the new data ecosystem.
+Figure 1. The Capacity Development 4.0 framework
+Resources Individual
+Organization
+System
+Skills and Knowledge
+Management
+Politics and power
+Incentives
+Targets
+Levels
+Source: PARIS21 (2017), based on Denney, L. and Mallett, R. with Benson, M. S. (2017), Service delivery and state capacity: findings from the Secure Livelihoods Research Consortium.
+3. Results-based management implies producing a logical chain of results at the project design stage, which should not be changed at the time of implementation. Spending and progress indicators should be tied to specific outputs and schedules. Regardless of the long-term impact of programmes, project managers must report the immediate results and timelines of their actions (e.g. number of trainees) against the budget they are assigned. Improving the national and global monitoring system of assessment frameworks requires revisiting management strategies of development partners.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 45
+The CD4.0 framework is composed of three levels:
+1. Individual: individuals’ capabilities within a statistical organisation
+2. Organisation: organisation-wide practices
+3. System: interactions within the NSS and with external stakeholders. These are both the formal
+channels, such as laws, and the more informal ones, such as relationships (Denney et al.,2017).
+Each of the levels has five capacity targets: resources, skills and knowledge, management, politics and power, and
+incentives. Resources are the means, whether human, physical, financial or legal, to support statistical production.
+Skills and knowledge include the cognitive and non-cognitive abilities required to perform a task. Making the
+best use of resources and available knowledge also requires efficient management practices. Delivering high
+quality statistics entails a correct distribution of resources and allocation of tasks and responsibilities among
+different actors across the NSS, and within each agency. Without a strategic vision and good management skills
+to implement it, despite the most up-to-date statistical production processes and the best infrastructure, staff
+would not be able to provide the timely data needed by policy makers and citizens.
+As well as aspects that enable the production of statistics, sustainable capacity development also requires
+stakeholders’ incentives to be aligned. NSSs involve a complex group of individuals and organisations that
+have their own interests and motivations – but these may conflict with each other. External stakeholders may
+also introduce roadblocks, or they may support the development of official statistics. The CD4.0 framework
+intends to address this through its “politics and power” target, defined as the interactions and relationships
+between individuals and organisations, which often determine the dynamics of the whole system. Incentives
+are defined as the motives behind such interactions.
+At the intersection between a target and a level, the CD4.0 framework contains 46 unique dimensions that
+provide further detail of the capabilities needed to produce statistics that meet users` needs (PARIS21, 2017).
+For example, “statistical production processes” is located within organisational skills and knowledge and
+“accountability” falls within systemic politics and power.
+What gaps does the CD4.0 framework aim to fill?
+The CD4.0 framework aims to reflect the need for national statistical systems to build a qualified workforce
+and adopt organisational practices that can respond to the new needs of the data ecosystem. With the rapid
+change in information technologies and the emergence of new data sources, the competencies required to
+perform statistical analysis are also changing.
+Although the technical aspects of statistical capacity are certainly important, other factors are also crucial
+to meet users` needs and for NSSs to deliver high-quality statistics. Strengthening co-ordination and
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+46 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+communication among the producers, users and providers of data will prove critical. The gap between
+existing capacity support and needs has already been identified by many national statistical offices (NSOs) in
+the joint PARIS21-High Level Group for Partnership, Coordination and Capacity-Building for Statistics for the
+2030 Agenda for Sustainable Development (HLG-PCCB) survey (Box 1).
+BOX 1.
+Joint survey on new approaches to capacity development and future priorities
+This survey, designed by PARIS21 in consultation with the High-level Group for Partnership, Coordination
+and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development (HLG-PCCB) and with
+support of the United Nations Statistics Division (UNSD), aimed to provide a better understanding of the
+current state of capacity development in NSOs and more broadly across NSSs, and the challenges, priorities
+and plans they have for the short and medium term.
+The survey had four main objectives: (i) to identify NSOs medium term goals and challenges for capacity development,
+(ii) to identify the immediate capacity building priorities for NSOs as they relate to the Sustainable Development
+Goals, (iii) to explore what programmes/activities NSOs associate to such goals, both in the medium and the short
+term and (iv) to describe how capacity development is currently implemented. This survey explores untapped areas
+of capacity development, including individual non-technical skills, organisational practices, co-ordination between
+national agencies and mainstreaming of the SDGs in national policies and reporting mechanisms.
+The questionnaire was distributed in December 2017 to 193 UN member states and 2 non-members, out of
+which 98 submitted a reply (50% response rate).
+Source: PARIS21 (2018d), “Survey results: new approaches to capacity development and future priorities”, PARIS21, Paris, https://paris21. org/capacity-development-40/cd40-survey.
+Exploiting the potential of new data sources and technologies requires implementing new processes with
+which employees may not be familiar. Currently, more than half of the NSSs surveyed in Africa, Asia and Eastern
+Europe suffer from shortages of skilled staff (reported as an obstacle to the success of capacity development
+initiatives) (PARIS21, 2018a). Improved management skills are also seen as crucial, especially in countries
+where resources are severely constrained. Given the large number of actors and the intensity of information
+flows in the data ecosystem, better communication is required to reach an understanding and reinforce trust
+among stakeholders, especially policy makers and citizens. NSOs therefore require employees with stronger
+leadership (45% of the respondents to the Joint Survey on New Approaches to Capacity Development),
+strategic planning (43%) and teamwork (41%) capabilities.
+Figure 2 summarises the results of the Joint Survey on New Approaches to Capacity Development (Box 1).
+The results highlight that countries’ own priorities are more balanced across the three CD4.0 levels than the
+topics generally covered in typical capacity-building assessments (see Section 3.2 and Table 1 for details):
+needs at the individual level are more pronounced, especially regarding technical skills, leadership, teamwork
+and work ethics. Additionally, resources, and skills and knowledge at the organisational and systemic level
+play a less prominent role in countries’ priorities, while incentives are more important in the assessment
+tools. The result shows a significant discrepancy between what is asked and measured, and what countries
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 47
+need to move forward in the changing data ecosystem.
+Figure 2. The mismatch between capabilities emphasised in assessments and countries’ own priorities
+Skills and Knowledge Incentives
+Organizational
+Resources
+Skills and Knowledge
+Management
+Politics and Power
+Incentives
+System
+Resources
+Skills and Management Knowledge
+Politics and Power
+Incentives
+Assessment capabilities
+Individual Organizational System
+Individual
+Skills and Knowledge
+Management Politics and Power
+Incentives
+Organizational
+Resources
+Skills and Knowledge Management
+Incentives Politics and Power
+System
+Resources
+Skills and Knowledge
+Management
+Politics and Power Incentives
+Expressed country priorities
+Skills and Knowledge Incentives
+Organizational
+Resources
+Skills and Knowledge
+Management
+Politics and Power
+Incentives
+System
+Resources
+Skills and Management Knowledge
+Politics and Power
+Incentives
+Assessment capabilities
+Individual Organizational System
+Individual
+Skills and Knowledge
+Management Politics and Power
+Incentives
+Organizational
+Resources
+Skills and Knowledge Management
+Incentives Politics and Power
+System
+Resources
+Skills and Knowledge
+Management
+Politics and Power Incentives
+Expressed country priorities
+dge Incentives
+Skills and Knowledge
+Politics and Power
+Incentives
+Individual Organizational System
+Individual
+Skills and Knowledge
+Management Politics and Power
+Incentives
+Organizational
+Resources
+Skills and Knowledge Management
+Incentives Politics and Power
+System
+Resources
+Skills and Knowledge
+Management
+Politics and Power Incentives
+Expressed country priorities
+Source: PARIS21 (2018d), “Survey results: new approaches to capacity development and future priorities”, PARIS21, Paris, https://paris21. org/capacity-development-40/cd40-survey.
+Note: The Joint Survey on New Approaches to Capacity Development was conducted in 2018 and included a total number of 98 responding countries.
+Since there is no commonly defined framework to measure statistical capacity in the international community,
+the aspects that are considered relevant for statistical capacity may vary across assessments and may not
+coincide with countries’ expressed priorities and needs.
+What aspects of statistical capacity do assessments measure?
+This section seeks to explore the areas that are measured in current statistical capacity assessments in more
+detail in order to identify where the gaps lie. For this purpose, a text-mining technique (see Annex 1) was applied
+to 2 049 questions from the 19 most commonly used assessments of statistical capacity (see Table 1). Within this
+context, text-mining refers to “the process of analysing collections of textual materials in order to capture key
+concepts and themes and uncover hidden relationships and trends without requiring that you know the precise
+words or terms that authors have used to express those concepts” (IBM Knowledge Centre, 2019).
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+48 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Table 1. List of statistical capacity assessments used for text analysis
+No. Assessment Sector Organisation
+1 Self-Assessment Guidance Questionnaire General public services UN Economic Commission forAfrica (UNECA) 2 Snapshot General public services EUROSTAT 3 Country Assessment of Agricultural Statistical Systems in Africa Economics, agriculture African Development Bank 4 Tool for Assessing Statistical Capacity (TASC) General public services US Census Bureau 5 Light Self-assessment questionnaire on the implementation of the European Statistics Code of Practice - Indicators
+General public services European Commission
+6 Light Self-assessment questionnaire on the implementation of the European Statistics Code of Practice Framework
+General public services European Commission
+7 Statistical Capacity Indicator General public services World Bank 8 Generic National Quality Assessment Framework General public services UN Statistics Division (UNSD) 9 Global Assessment of the National Statistical System General public services EUROSTAT 10 Data Quality Assessment Framework for National Accounts Statistics General public services IMF 11 Assessing the National Health Information System: An Assessment Tool Health Health Metrics Network 12 African Statistical Development Indicators General public services UNECA 13 African Statistical Development Indicators Framework General public services UNECA 14 Environment Statistics Self-Assessment Tool Environment UNSD 15 Pan-Africa Statistics Programme: Peer-Reviews of NSIs/NSSs in African countries
+General public services EUROSTAT
+16 Tool for Assessing Statistical Capacity General public services Inter-American Development Bank 17 Global Review of Gender Statistics Gender UNSD 18 National Gender Assessment Framework (Bangladesh) Gender UN Women 19 Development of National Gender Statistics Programmes Gender UN Economic and Social Commission for Western Asia
+Note: For further information about the assessment questionnaires, please consult PARIS21 Open Assessment Repository (OAR). http://oar.paris.org/.
+The methodology relies on measuring the proximity of concepts and the density of their connections to
+build a visual representation. The predominant keywords of the assessments are represented in a network
+co-occurrence graph visualising repetitive patterns derived from the source text material of the assessments,
+using word distances and the frequency of interactions between keywords (see Figure 3).
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 49
+Figure 3. Network co-occurrence graph of the keyword “survey”
+Note: Network co-occurrence graphs visualise the main thematic focus of a source text. A network is a graph of nodes and their relations. The basis for those relations is the co-occurrences of the words near each other. If the words appear more frequent and closer to each other within the source text they are connected with a stronger weight. The size of the nodes illustrates the number of connections.For more information on network co-occurrence graphs and the methodology employed, please consult Annex 1.
+The text-mining analysis shows that only a few thematic areas predominate in most of the assessments.4
+Figure 3 shows assessments are dominated by a small group of five keywords closely related to statistical
+activity, i.e. “survey”, “procedure”, “user”, “staff”, “information” and “system” (see Table 2). Their frequency
+adds up to 5% of the words in the assessment questions – the same share as the bottom 927 keywords. These
+topics also appear as the most frequent neighbouring terms related to different topics (e.g., “information”
+is one of the closest neighbouring terms to “system”). Generally, these results suggest that the assessments
+focus on a limited set of NSS capabilities.
+4. A contribution of this chapter is to help the reader visualise the main thematic focus of the different assessments of statistical capacity. For this purpose, the methodology relies on measuring the proximity of concepts and the density of their connections to build a visual representation. The predominant keywords of the questionnaires are represented in a co-occurrence network graph measuring repetitive patterns derived from the text’s structure, using the level of connectivity and intensity of interactions between keywords.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+50 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Table 2. Five most frequent keywords in the assessments, and their closest neighbours
+Rank Five most frequent
+words in assessments
+Absolute frequency
+Words most often used after
+Words most often used before
+1 survey 209 conducted census
+2 procedure 172 guideline policy
+3 user 153 satisfaction consultation
+4 staff 152 trained permanent
+5 information 151 system request
+A deeper analysis of the assessments reveals the narrow focus of the assessment tools. Although different
+subjects, related to the most frequent topics, are introduced, only a few of them are stressed and analysed in
+more detail. With regards to the keyword “survey”, the most relevant subjects of enquiry are modules, sampling
+frames and survey design. In particular, assessments refer to what has been done in the past (e.g. last year). Less
+prominent are publicity campaigns and the treatment of the datasets (e.g. estimation, adjustments).
+Assessments generally focus on the perspective of the NSO or other institutions in the NSS, rather than
+on data users. When analysing the network around “user”, the most relevant subjects are identifying their
+needs, informing them and consulting stakeholders. No terms in the assessment refer to concepts of data use,
+such as data literacy or understanding of statistics. For terms related to human resource management, such
+as “staff”, emphasis is placed on the specialised workforce, training, participation in surveys/censuses and
+confidentiality agreements. However, aspects related to their motivation (e.g. wages, personal incentives) or
+a competencies framework are not addressed.
+Overall, the results of this analysis illustrate that the assessments place great emphasis on assessing the
+technical and technological capabilities of NSOs. The topic “information”, for example, is associated with
+dissemination formats (e.g. hard copy, information technology), data disaggregation (e.g. district, subnational)
+and availability. Little attention is devoted to information management or requests from users, for instance.
+Relating the co-occurrence graphs and predominant concepts such as “survey” and “staff” to “information”
+strongly supports this conclusion.
+It also seems clear that the current frameworks used for statistical assessments are fragmented. For example,
+Eurostat has several tools conceived for different purposes (such as the Snapshot, used in project design, and
+the Global Assessment, which focuses on compliance) and which use different implementation methods (the
+Snapshot could be used as a self or external assessment, while the Global Assessment is a peer review).
+As shown by the text-mining results, development partners do not share an explicit framework to define
+“statistical capacity”. As a result, they create a large number of assessments requesting similar information
+from countries. In most cases the results are not shared with other organisations, and even when they are,
+the information is rarely reused or disseminated. At the same time, there is little or no overall management of
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 51
+the respondent burden. There are no joint efforts for reducing the burden placed on countries to respond to
+external needs. Information requests are complemented by regional and global surveys and monitoring and
+evaluation of capacity development projects.
+Using the CD4.0 lens to understand the mismatch in needs and capabilities
+Although illustrative, the results of the text-mining analysis do not provide the full picture of the areas that
+development providers, multilaterals and countries consider relevant when assessing countries’ statistical
+capacity levels. A common framework could provide a reference point as different types of assessments may
+stress different capabilities or use different benchmarks.
+The questions and indicators of the same 19 assessments studied in the previous section were coded to the
+targets and levels of the CD4.0 framework to identify what capabilities they emphasise and try to measure.
+The objective of this exercise was to understand the focus of capacity development providers at the time of
+designing their projects and to see how well they match the needs expressed by countries. To do this, the
+assessments listed in Table 1 were first classified by type of instrument, which identifies three groups:
+1. The most frequent type is structured questionnaires, such as the Tool for Assessing Statistical Capacity
+(TASC) of the US Census Bureau.
+2. A second type involves open guidelines, such as Eurostat’s Light Self-Assessment Questionnaire.
+3. The third type involves data collection by means of secondary information sources, such as the
+World Bank Statistical Capacity Indicator; this type focuses on inferring capacity based on reported
+methodologies and outputs.
+Second, the three groups were mapped onto the typology of NSS assessment tools proposed by PARIS21 in its
+Guide to Assessment of National Statistical Systems (Strode, 2017), which distinguishes four main purposes
+for statistical assessments: national planning and advocacy for statistical improvements and modernisation;
+development partner project design and monitoring; global monitoring of statistical performance; and data
+quality assurance and compliance with codes of practice, norms and standards (PARIS21, 2018b).
+The results of all the above mapping and coding exercises show that most assessments portray statistical capacity
+through the lens of organisational knowledge and systemic resources. They focus mainly on the skills and
+knowledge target and the organisational level, and especially their intersection (Table 3). Significant attention is
+also placed on the systemic level and the resources target, mostly at their juncture. In addition, the management
+target is enquired about mostly at the systemic and organisational levels as defined in the CD4.0 framework.
+Other aspects of the CD4.0 framework are virtually absent from existing assessments. This is mainly the case
+for the individual level (only 2% of the questions) and the incentives target (3%). Systemic skills and knowledge
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+52 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+(i.e. data literacy and knowledge sharing) are not included, potentially because they became relevant only
+recently with the spread of “fake news”. Organisational politics and power (i.e. transparency and workplace
+politics) are barely covered either.
+Table 3. Percentage of statistical assessments measuring CD4.0 levels/targets/dimensions
+Individual Organisational System Total
+Resources 0% 7% 16% 23%
+Skills & Knowledge 1% 38% 1% 40%
+Management 0% 9% 9% 18%
+Politics & Power 0% 7% 9% 16%
+Incentives 1% 1% 1% 3%
+Total 2% 62% 36% 100%
+Note: See Table 1 for full list of statistical capacity assessment tools considered.
+Source: PARIS21 (2018a), “Measuring Statistical Capacity”, PARIS21 Discussion Paper, No. 11, Paris. http://paris21.org/paris21discussion-and-strategy-papers.
+Moreover, there are differences in coverage of the CD4.0 framework between types of assessments (external,
+peer-review or self-assessments). Figure 4 shows that the distribution of questions across CD4.0 dimensions
+varies significantly (at a 1%-level in a Chi-squared test) among different types of assessments. For instance,
+peer reviews place more focus on the system level – notably on system resources and politics and power 
+while external assessments focus mostly on organisational skills and knowledge – with management and
+resources at the organisational level also of interest.
+Figure 4. Distribution of CD4.0 dimensions by assessment types
+%
+0 10 20 30 40 50 60 70 80 90 100
+Self
+Peer
+External
+Individual Management
+Organisation Management
+System Management
+Individual Resources Individual Politics and Power
+Organisation Resources Organisation Politics and Power
+System Resources System Politics and Power
+Individual Skills and Knowledge Individual Incentives
+Organisation Skills and Knowledge Organisation Incentives
+System Skills and Knowledge System Incentives
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 53
+Additionally, Figure 5 shows there are significant differences in the distribution of assessment questions
+across the four purposes of assessment tools, i.e. national planning, project design, global monitoring and
+compliance (Chi-squared test significant at 1% level). For example, assessments of support in national planning
+enquire more about the system (especially resources and management) than the others, while those that
+assess compliance place more emphasis on the organisational level, especially skills and knowledge. These
+results show that the content of assessments is consistent with their stated purpose.
+Figure 5. Distribution of CD4.0 dimensions by assessment purpose
+%
+0 10 20 30 40 50 60 70 80 90 100
+Individual Management
+Organisation Management
+System Management
+Individual Resources Individual Politics and Power
+Organisation Resources Organisation Politics and Power
+System Resources System Politics and Power
+Individual Skills and Knowledge Individual Incentives
+Organisation Skills and Knowledge Organisation Incentives
+System Skills and Knowledge System Incentives
+National Planning
+Project Design
+Global Monitoring
+Compliance
+When delving deeper into the 46 dimensions of the CD4.0 framework, the predominance of a subset of
+capabilities becomes more evident. Figure 6 shows that together the top five dimensions account for more
+than half of the sample. In particular “statistical production processes” and “quality assurance and codes of
+conduct” account for one third of them – both included in the “organisational skills and knowledge” category.
+The remaining 41 dimensions make up less than half of the topics.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+54 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 6. Distribution of the 46 CD4.0 dimensions covered in the assessments
+Statistical production processes
+Quality assurance and codes of conduct
+Transparency
+Legislation, principles and institutional setting
+Strategic planning, and monitoring and evaluation
+Other
+25%
+9%
+8%
+7%
+4%
+47%
+In summary, the CD 4.0 approach emphasises that the definition of statistical capacity in existing assesments
+does not really cover the capabilities needed to overcome the challenges of the new data ecosystem. Two
+examples of this area partnership engagement and coordination. The Cape Town Global Action Plan signals
+the need for multi-stakeholder partnerships and coordination with governments, civil society, private sector
+and others who produce and use data for sustainable development (Strategic Area 5). Yet, while 40% of
+the countres who responded to the Joint Survey on New Approaches to Capacity Development (Box 1)
+indicated that establishing such partnerships is a top priority, of these, half have not been able to succeed
+in collaboration efforts. Also, co-ordination implies loss of autonomy and may conflict with the institutional
+interests of the various parties involved. Not all agencies in the NSS are ready to co-operate with each other
+under the lead of the NSO, whereas NSOs might not be ready to co-ordinate co-operation within the whole
+NSS. While modifying business processes and reporting systems entails efforts from participating institutions,
+the incentives to do so may not be clear. These areas will need to be addressed in capacity building efforts if
+countries are to rise to the new data challenges.
+Refining the system and reducing the burden on development partners
+Since the launch of the Cape Town Global Action Plan, there have been significant efforts to improve the
+measurement of statistical capacity. Development partners have, for the most part, acknowledged the need
+to consider a wider range of aspects than before. For example, the Statistical Capacity Indicator from the
+World Bank has been improved to take a broader perspective on capacity (hereafter referred to as Statistical
+Performance Index; Box 2). Also, the United Nations Economic Commission for Europe (UNECE) capacity
+development strategy has incorporated maturity models and other innovations in their approach (Box 3).
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 55
+BOX 2.
+Statistical Performance Index: Measuring the Statistical Capacity of Nations
+Improving the capacity of national statistical systems (NSSs) has long been a part of the global development
+agenda. However, in-depth capacity assessments of NSSs are both resource intensive, time consuming and open
+to the subjectivity of assessors.
+Given the difficulties of synthethising detailed assessments to determine progress on a global scale, there is an
+understandable desire to form a single composite index drawing from publicly available information. The World
+Bank’s Statistical Performance Index (SPI) in conjunction with Country Statistical Profiles provide such a measure
+that also help compare countries and to track performance over time.
+The SPI aims to provide an objective, justifiable/verifiable assessment of the statistical performance of countries
+over time by using publicly available information from international agencies and country websites that were
+produced by national statistical systems. The SPI framework helps countries and development partners identify the
+strengths and weaknesses of national statistical systems and areas of potential improvements. It could also provide
+actionable guidance for national statistical systems in areas that may require further and deeper assessment. Key
+characteristics of the SPI are as follows: uses only publicly accessible data, transparent methodology, replicability,
+long time series to track progress, captures outcomes and supporting elements, reflects the SDGs and facilitates
+global comparability.
+A recent paper by Cameron et al. (2019) provides the conceptual foundation for SPI in measuring the ability of NSSs
+to produce high-quality data to inform national and international policy decisions.
+The concept behind the SPI views the statistical capacity of an NSS in terms of its range of products, and the
+processes the NSS uses to generate and disseminate them. This approach identifies four dimensions for measuring
+statistical capacity: a) Methodology, Standards and Classifications, which provides information on the technology
+being used by the NSS. b) Census and Surveys, which describes the intermediate products of the NSS. c) Availability
+of Key Indicators, which focuses on key final products needed for policy. d) Dissemination Practices and Openness,
+which evaluates the extent to which products are publicly disseminated
+The new Statistical Performance Index (SPI) is designed to satisfy seven criteria. The SPI should be:
+1. Simple. It must be understandable and easy to describe
+2. Coherent. It must conform to a common-sense notion of what is being measured
+3. Motivated. It must fit the purpose for which it is being developed
+4. Rigorous. It must be technically solid
+5. Implementable. It must be operationally viable
+6. Replicable. It must be easily replicable
+7. Incentive Compatible. It must respect country incentives
+The SPI also satisfies three axioms. The symmetry axiom requires that the index value is unaffected when variable
+levels are switched. The dominance axiom requires that the index value rises whenever one variable rises from 0
+to 1 and the rest of the variables do not fall in value. The subgroup decomposability axiom allows the index to be
+divided into salient sub-indices and linked back to the original index for policy analysis.
+Taken together, the criteria and axioms provide a theoretical framework that guides indicator selection and informs
+how indicators are aggregated into a summary measure. The SPI is flexible enough to allow for future revisions as
+the global data landscape evolves.
+Source: Cameron, G. J., Dang, H., Dinc, M., Foster, J. S. and M. Lokshin (2019), “Measuring the Statistical Capacity of Nations” (English), http://documents.worldbank.org/curated/en/304431546956224461/Measuring-the-Statistical-Capacity-of- Nations.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+56 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+However, more needs to be done to incorporate the political and motivational aspects of statistical capacity.
+To reduce countries’ respondent burden, development partners will also need to design strategies that make better
+use of secondary data sources. To this end, better use of techniques such as text-mining, machine learning and
+semantic analysis could help to extract valuable information from existing documents or websites and employing
+data-mining techniques could be a resource-efficient alternative for extracting data on factors of statistical capacity.
+Direct requests for information from countries should only be made to gather data on the less tangible aspects
+of capacity. Currently, peer reviews are better placed to explore systemic issues of politics and power, as
+illustrated in Figure 4. These exercises involve a thorough self-assessment, during which the senior authorities
+of the NSS reflect on their compliance with codes of practice, and peers interview various stakeholders who
+provide recommendations based on their experience (PARIS21, forthcoming). Such reviews are lengthy
+processes, since they involve the various levels and agencies of the NSS, government representatives, the
+media, private companies, and other user communities. New tools can be envisioned to create a better
+understanding of all the aspects that make up statistical capacity.
+BOX 3.
+What are maturity models and how should they be used?
+A maturity model is a self-assessment tool to help understand the extent to which an organisation has developed a
+capability or implemented a standard. In other words, it helps the organisation to understand its level of “maturity”
+with respect to that capability or standard. Maturity models are tables in which the columns show maturity levels
+and the rows show dimensions of maturity.
+Maturity models are used to determine the current level of maturity, and to define the target level for the organisation.
+They are management tools to identify where improvements are needed, and to help decide on priorities. Maturity
+models include different dimensions (people, methods, technology, standards/frameworks, processes information,
+institutional settings) which are analysed at different states of development (initial awareness, pre-implementation,
+early implementation, corporate implementation, mature implementation). The target level of maturity might be
+“Mature implementation”, but for some capabilities or standards, the organisation might decide that a lower level of
+maturity is sufficient. As an example, one of the target maturity levels is “Corporate implementation”. An organisation
+may have already reached this level for the “Methods” dimension, but not for the other dimensions. It has most work
+to do in the “Technology” and “Processes” dimensions, which should be priority areas for future work.
+Maturity levels are defined specifically for each capability or standard, and each cell in the maturity model table
+contains a description of what that combination of maturity level and dimension means in practice.
+The idea of maturity models for official statistics has been adapted from the Open Group Service Integration Maturity
+Model (OSIMM)5. Several pilot maturity models were developed in UNECE projects, covering the implementation
+of the Generic Statistical Business Process Model and related standards, as well as risk management in statistical
+organisations.6
+Source: UNECE (2018), “Introduction to the Modernisation Maturity Model and its Roadmap”, https://statswiki.unece.org/display/ RMIMS/Introduction+to+the+Modernisation+Maturity+Model+and+its+Roadmap.
+5. http://www.opengroup.org/soa/source-book/osimmv2/ 6. https://statswiki.unece.org/pages/viewpage.action?pageId=129172266
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 57
+Joint efforts to centralise information on countries’ statistical capacity, priorities and partners’ interventions
+are key to effective co-operation. The PARIS21 Statistical Capacity Monitor is a one-stop source of the most
+relevant and publicly available indicators on statistical capacity. As well as gathering existing indicators (e.g.
+ODIN by Open Data Watch), new indicators of less explored areas of the PARIS21 CD4.0 framework are also
+presented. For example, the number of years of tenure of NSO heads is a new indicator that provides more
+information on the institution’s independence from political authorities. The citations per dataset available
+in the National Data Archive (NADA) catalogue signal whether the released data are being used effectively by
+academia.
+Whenever possible, partners should provide an account of their active projects in countries in order to co
+ordinate together before implementing new projects. In addition, country reports on statistical capacity, such
+as Eurostat’s Peer Reviews or IMF’s Country Reports, should be shared (with the agreement of countries). This
+information could be shared through the PARIS21 Statistical Capacity Monitor in the medium term.
+Using a wider range of indicators would allow countries to track their progress towards the goals laid out
+in their national strategies for the development of statistics and other national planning frameworks. For
+example, relevant indicators on incentives at the organisational level could be staff turnover rate (especially
+after receiving specialised training) or trust in NSO publications (as a survey to the general population,
+for instance). Individual skills could be captured through surveys of middle-level managers or employees
+themselves. Other useful indicators could include a measure of task completion against deadlines (time
+management), or the percentage of management positions filled by internal promotion (leadership skills).
+Finally, capacity development is a process of trial and error. These efforts must be complemented by
+modifying management frameworks to encourage long-term investments rather than a focus on outcomes.
+The forthcoming PARIS21 Guidelines on CD4.0 Implementation are a first step towards providing a common
+operational roadmap for designing and implementing projects that take into account the iterative nature of
+capacity development. They provide advice on how to work more closely with users to ensure an increased
+demand for official statistics, which will lead to greater investments from national governments.
+What is the outlook for assessing statistical capacity?
+This chapter has analysed the definition of statistical capacity in country assessments created by international
+organisations and used worldwide. Since there is no commonly agreed framework, a text-mining technique was used
+to identify patterns and understand in more detail the main concepts in the assessment questionnaires, and their
+related subjects of enquiry. The PARIS21 CD4.0 framework, which provides an ample classification of the capabilities
+needed in the new data ecosystem, was used to categorise questions into dimensions, targets and levels.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+58 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+The results of the analysis show that current assessments characterise “statistical capacity” mainly as a
+compilation of resources and institutional knowledge (statistical production processes in particular) with some
+complementary management techniques. This perspective is limited when compared to the needs expressed
+by countries, which importantly include incentives and individual capacities as well. The current assessment
+frameworks are outdated with regards to the needs of NSSs in the new data ecosystem, they impose a significant
+respondent burden on country systems and create a silo mentality among international organisations.
+Moving forward, new indicators to assess progress in the context of the new data ecosystem will be needed.
+The Capacity Development 4.0 approach aims at identifying and prioritising these indicators. Secondary data
+sources (especially online reports) could be tapped for collecting relevant data on the most formal aspects
+of statistical capacity. Assessments in the form of peer reviews, expert visits or self-assessments can also be
+used to collect information on the less tangible aspects (such as incentives). A centralised data portal, such
+as the PARIS21 Statistical Capacity Monitor, will act as a one-stop repository and source of available data for
+assessing countries’ progress.
+A potential way of improving co-ordination among development partners and countries would be to agree
+on a common framework for statistical capacity. The various assessments and frameworks introduced in this
+chapter, including but not limited to the CD4.0 approach, propose elements to guide this objective. Joint
+efforts could be made to gather data on those aspects that are currently difficult to measure, while reducing
+respondent burden. Gradual steps towards a common assessment tool and knowledge sharing efforts will
+help to make a shift in the way capacity is measured and approached by the development and statistics
+community.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 59
+References
+Cameron, G. J., Dang, H., Dinc, M., Foster, J. S. and M. Lokshin (2019), “Measuring the statistical capacity
+of nations” (English), Policy Research Working Paper No. WPS 8693, World Bank Group, Washington, DC,
+http://documents.worldbank.org/curated/en/304431546956224461/Measuring-the-Statistical-Capacity-of
+Nations.
+Dargent, E., Lotta, G., Mejía, J.A. and G. Moncada (2018), “Who wants to know? The political economy of
+statistical capacity in Latin America”, Inter-American Development Bank, Washington, DC, https://publications.
+iadb.org/sites/default/files/publications/english/document/Who-wants-to-know-The-Political-Economy-of
+Statistical-Capacity-in-Latin-America.pdf.
+Denney, L. and Mallett, R. and M.S. Benson (2017), “Service delivery and state capacity: findings from
+the Secure Livelihoods Research Consortium”, Secure Livelihoods Research Consortium, London, https://
+securelivelihoods.org/wp-content/uploads/Service-delivery-and-state-capacity_Findings-from-the-Secure
+Livelihoods-Research-Consortium.pdf.
+IBM Knowledge Centre (2019), About text mining, webpage, IBM, Armonk, https://www.ibm.com/support/
+knowledgecenter/en/SS3RA7_17.1.0/ta_guide_ddita/textmining/shared_entities/tm_intro_tm_defined.
+html.
+Independent Evaluation Group (2017), “Data for Development : An Evaluation of World Bank Support for
+Data and Statistical Capacity”, World Bank, Washington, DC, https://openknowledge.worldbank.org/
+handle/10986/28485.
+Keijzer, N. and S. Klingebiel (2017), “Realising the data revolution for sustainable development: towards
+Capacity Development 4.0?”, PARIS21 Discussion Paper No. 9, Paris, https://paris21.org/sites/default/files/
+Capacity-Development-4.0_(DRAFT)_P21_for_review.pdf.
+Open Data Watch (2015), “Partnerships and Financing for Statistics: Lessons Learned from Recent Evaluations”,
+Open Data Watch, Washington, DC, http://opendatawatch.com/wp-content/uploads/2015/12/Partnerships
+and-Financing-for-Statistics-Lessons-Learned-1.pdf.
+Oxford Policy Management (2009), “Evaluation of the implementation of the Paris Declaration: thematic study
+– support to statistical capacity building”, Synthesis Report, Oxford Policy Management, Oxford, https://www.
+oecd.org/dac/evaluation/dcdndep/43189996.pdf.
+PARIS21 (2017), “Proposing a framework for Statistical Capacity Development 4.0”, PARIS21, Paris, https://
+paris21.org/sites/default/files/inline-files/CD4.0-Framework_final.pdf.
+
+
+CHAPTER 3. REVISITING APPROACHES TO STATISTICAL CAPACITY DEVELOPMENT
+60 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+PARIS21 (2018a), “Measuring statistical capacity development: a review of current practices and ideas for the
+future – moving towards Statistical Capacity 4.0”, PARIS21 Discussion Paper No. 11, PARIS21, Paris, https://
+paris21.org/sites/default/files/inline-files/Measuring-Statistical-Capacity-Development_draft.pdf.
+PARIS21 (2018b), “Assessing the Capacity of National Statistical Systems: A user’s guide”, PARIS21, Paris,
+http://paris21.org/nss-assessments.
+PARIS21 (2018c), “PRESS 2018: Partner Report for Support to Statistics”, PARIS21, Paris, https://paris21.org/
+press2018.
+PARIS21 (2018d), “Survey results: new approaches to capacity development and future priorities”, PARIS21,
+Paris, https://paris21.org/capacity-development-40/cd40-survey.
+PARIS21 (forthcoming), “Moving forward with peer reviews of national statistical systems”, PARIS21, Paris.
+Strode, M. (2017a), “Guide to Assessment of National Statistical Systems”, PARIS21, Paris.
+Strode, M. (2017b), “Effective National Statistical Assessments: Heading Towards Open Frameworks”,
+Presentation prepared for the 49th UN Statistical Commission, UN Headquarters, New York, March 2017,
+https://paris21.org/sites/default/files/UNSC%20P21%202017%20FInal%203%20March%202017.pptx.
+
+
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 61
+Chapter 4.
+Developing capacity
+for the more effective use
+of statistics
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+62 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Why are we interested in the use of statistics?
+Official statistics enable governments, international organisations, civil society, the private sector and the
+public to make evidence-based decisions and hold representative bodies to account. This is why the full
+integration of official statistics into policy making was set as a common objective for international actors and
+government representatives in the Cape Town Global Action Plan for Sustainable Development Data (CTGAP).
+However, understanding how official statistics, and data more generally, are used for individual or collective
+decision making and for measuring the CTGAP objectives is challenging. The use of statistics is defined as
+the systematic use of statistical knowledge to raise awareness, inform programme design and policy choice,
+forecast scenarios, monitor policy implementation and evaluate policy impact (Scott, 2005). At the individual
+level, the use of statistics is often associated with statistical literacy, defined as the ability to understand,
+reason with and draw conclusions from data or arguments that use data (Corselli-Norbland and Gauckler,
+2018). At the decision-making level, use of statistics is associated with the use of data across the policy
+making process. Governments are expected to analyse empirical evidence to identify issues that require
+action, design and weigh potential interventions, monitor the implementation of policies and evaluate their
+impact. In general the literature on measuring data use is sparse and fragmented. A few descriptive models
+can be found in Colebatch and Hoppe (2018) and Fischer et al. (2006), who characterise the public policy
+process. Nutley (2012) focuses on data use in health systems and USAID (2018) reviews the evidence-use
+process for informed decision making.
+Against this background, this chapter has several objectives. First, it aims to fill the measurement gap by
+introducing a new global indicator for measuring data use in policy planning, highlighting its advantages
+and future improvements, and presenting recent findings from its use. Second, it discusses the concept of
+statistical literacy and explores how it has been measured for one group of data users (the media). Third,
+it presents recent findings for increasing the use of NSO statistics by government policy makers. Finally, it
+outlines the next steps planned for improving the outlook for measuring data use.
+A new indicator to measure the use of statistics in policy making
+Disentangling the linkages between data use and policy formulation is a challenge. There is no single approach
+for understanding how data can influence policy or how policies benefit from better information. Indeed, the
+design and implementation of national public policies involves numerous actors and consultations. National
+policy documents, such as National Development Plans (NDPs) or Poverty Reduction Strategies (PRSPs),
+are outputs of this process, as they aim to condense the vision, objectives and establish practical steps for
+governments to overcome development constraints.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 63
+In general, the literature identifies two main channels through which statistics affect public policy making
+(Ardanaz, Scartascini and Tommasi, 2010; Stein et al., 2006). First, an efficiency channel describes the effect
+of official statistics on the efficient allocation of scarce resources to activities with high returns. Second, a
+public-regardedness channel describes the extent to which official statistics promote public welfare and can
+be considered a public good.
+These two visions of data use in the formulation of public policy were first captured in the “use of statistics
+indicator” introduced in 2010 by PARIS21. This proposed a composite indicator based on the systematic
+analysis of National Development Plans and Poverty Reduction Strategy Papers and has been used as an
+indicator to monitor the Busan Action Plan for Statistics (BAPS).
+Since then, major changes in the data ecosystem and global monitoring framework mean that methodological
+improvements to the indicator have been required to increase its accuracy and relevance. Recent improvements
+include the development of a fully automatised machine-learning and text-mining algorithm; the expansion
+of geographic, time and thematic coverage; refining the selection of keywords; and including different “levels
+of use” (Avendano et al. (forthcoming); Box 1).
+BOX 1.
+Methodological improvements to the use of statistics indicator
+The text-mining methodology analyses a large corpus
+of documents by identifying predefined keywords
+to assign probability scores to policy documents (in
+this case, National Development Plans and Poverty
+Reduction Strategy Papers). To improve the validity of
+the indicator, the list of keywords is complemented with
+indicators from international agencies (e.g. World Bank,
+World Health Organisation, United Nations Statistical
+Division) and statistical terms related to the SDG
+agenda. This has expanded the statistical keywords
+from 183 to 572 across 16 sectors.
+PARIS21 has also developed a new scoring system
+that aims to reflect the relevance of statistical evidence
+in the documents. The scoring system defines four
+dimensions of use: 1) basic use of statistics (in three
+levels); 2) disaggregation; 3) monitoring and evaluation
+arrangements; and 4) assessment of previous plans.
+To distinguish variations in the complexity of analysis
+of statistical evidence, three levels were defined based
+on the Statistical Literacy Indicator (Klein, Galdin &
+Mohamedou, 2016, see next section): Level 1 (Basic
+consideration), Level 2 (Diagnosis) and Level 3 (Statistical
+Analysis). While a high score in a single level provides
+part of the picture of the extent to which available
+data were used, the three sub-indexes complement
+each other and should be interpreted together. Table 1
+summarises the breakdown and scoring of the various
+components of the composite indicator.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+64 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+BOX 1.
+Methodological improvements to the use of statistics indicator (cont.)
+Table 1: Scoring system for the indicator on use of statistics in policy making
+Component Total score Scoring Methodology
+Basic use
+Level 1: 10 pts Basic consideration. Starting from 0 point, 1 point is added for every 2% of all sentences using statistical
+terms at level 1. Level 2: 20 pts Diagnostic. Starting from 0 point, 2 point is added for every 2% of all sentences using statistical terms at level 2. Level 3: 30 pts Statistical analysis. Starting from 0 point, 3 point is added for every 1% of all sentences using statistical terms
+at level 3.
+Disaggregation 20 pts
+Based on use of statistical terms disaggregated by topics (Poverty; Economic Growth, etc) and sectors.
+Scoring based on counting the unique interactions of keywords from the list of topics and sectors within the same sentence. Categories range from “no disaggregation”, “significant use of disaggregation in at least 5 topics and 1 0 sectors”. Monitoring and
+evaluation arrangements 10 pts Whether an M&E framework is in place or not. Depending on the frequency and sectoral distribution of M&E
+framework, categories range from “no M&E framework” to “M&E framework significant in document”
+Assessment
+of previous plans 10 pts How much analysis undertaken in the report about the previous plans.
+The categories range from “No assessment present” up to “Comprehensive assessment”.
+Source: Avendano, R., Baredes, B., Klein, T. and Tian, Y. (forthcoming), “Proposing a Use of Statistics indicator in national development plans”.
+To what extent are statistics used in policy planning?
+Results from the use of statistics indicator suggest a diverse landscape when it comes to the use of statistical
+evidence to support policy planning (Figure 1). The analysis was applied retrospectively to the NDPs of 102
+countries and 199 PRSPs (publicly available in English), covering two periods (2000-2008 and 2009-2017).
+Figure 1. Use of statistics in policy making by region, 2000-17
+Use of Statistics score (1-100)
+0
+5
+10
+15
+20
+25
+30
+35
+Asia Latin America and the Caribbean
+Northern Africa Oceania Sub-Saharan Africa North America and Europe
+Level 1 Level 2 Level 3 Disaggregation
+Note: The aggregate score captures the use of statistical concepts in national policy documents across levels of use (basic, diagnostic, statistical analysis) and the level of disaggregation. Levels in North America and Europe region explained by absence of National Development Plans in several industralised economies.
+Source: PARIS21, based on Avendano, R., Baredes, B., Klein, T. and Tian, Y. (forthcoming), “Proposing a Use of Statistics Indicator in National Development Plans”, PARIS21, https://paris21.org/sites/default/files/inline-files/Proposing%20a%20Use%20of%20 Statistics%20indicator%20for%20National%20Development%20Plans%20PARIS21%20draft.pdf.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 65
+For most regions, Level 1 data use (i.e. basic) represents the largest share of the indicator, with Asia and North
+America and Europe achieving the highest scores. Level 3 data use (i.e. monitoring and evaluation), which
+denotes the more complex use of data for statistical inference, represents a smaller share of the overall index.
+Interestingly the disaggregation component of the index, which measures how national policy documents
+track disaggregation-related concepts, such as such as income or gender, is similar across policy documents
+for most regions.
+Over time, there has been an improvement overall in the use of statistics in national policy documents. Figure 2
+illustrates the aggregate indicator scores for the second period, while Figure 3 shows the difference in country
+scores between the two periods considered. The significant difference (at 5%-level) between periods in the
+average country score suggests that most countries have improved their use of statistics in national planning
+and policy making since 2000.
+Figure 2: Scores for the use of statistics indicator for national plans and policies, 2009-2017
+Note: The aggregate score captures the use of statistical concepts in national policy documents across levels of use (basic, diagnostic, statistical analysis) and the level of disaggregation. A score above 45 points is considered high in the sample.
+Source: PARIS21, based on Avendano, R., Baredes, B., Klein, T. and Y. Tian (forthcoming), «Proposing a Use of Statistics indicator in national development plans», PARIS21, https://paris21.org/sites/default/files/inline-files/Proposing%20a%20Use%20of%20Statistics%20 indicator%20for%20National%20Development%20Plans%20PARIS21%20draft.pdf.
+The results also suggest that data use is not always associated with economic or statistical development.
+While the use of statistics indicator is robust to changes in weighting, components and aggregation methods,
+it is not associated with basic economic indicators (e.g. gross domestic product), governance indicators (e.g.
+Country Policy and Institutional Assessment - CPIA index) or other indicators of statistical development (e.g.
+the World Bank’s Statistical Capacity Indicator). While the indicator can provide an estimation of the quality
+of a national policy document, it cannot provide a detailed account of how data drives policy decision making.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+66 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 3: Change in scores for the use of statistics indicator in national plans and policies between 2000-2008 and 2009-2017
+Use of statistics index (0-100)
+0 5 10 15 20 25 30 40
+Asia
+Latin America and
+the Caribbean
+Northern Africa
+Oceania
+Sub-Saharan Africa
+North America
+and Europe
+2009-2017 2000-2008
+Source: PARIS21, based on Avendano, R., Baredes, B., Klein, T. and Y. Tian (forthcoming), «Proposing a Use of Statistics indicator in national development plans», PARIS21, https://paris21.org/sites/default/files/inline-files/Proposing%20a%20Use%20of%20Statistics%20 indicator%20for%20National%20Development%20Plans%20PARIS21%20draft.pdf.
+The methodology will be further refined in the future. A broader set of disaggregation keywords will be
+combined with the three levels of data use. The indicator will also incorporate specific modules, including
+monitoring and evaluation frameworks and the assessment of progress (period over period). Further work
+will also include developing similar indicators for specific sectors (e.g. agriculture, gender or labour), using
+sector-specific lists and documents for the analysis. The result will be a more subtle and robust metric for
+measuring the use of statistics in policy making.
+Statistical literacy to promote better data use
+Another important component of the promotion of data use is the consolidation of statistical literacy
+programmes. Statistical literacy refers to the ability of data users to interpret and critically evaluate statistical
+information in a variety of contexts; as well as the ability to use it for analytical purposes and to communicate
+this understanding. It also includes the use of statistical inference to make decisions in situations of
+uncertainty. On the data producers’ side, promoting literacy in data and statistics within the population is an
+important factor for enhancing data demand from the various user communities (e.g. academia, civil society
+organisations, media, etc.). The need for statistical organisations to invest in statistical literacy is reinforced
+by the current concerns about “fake news”. From a skills perspective, statistical literacy can also ensure that
+national statistical systems can draw on a good pool of human resources knowledgeable about data collection,
+interpretation, and dissemination.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 67
+Countries have shown their commitment to improving statistical literacy in recent years. One example of this
+engagement is Mongolia, where the National Statistics Office (NSO), working with the World Bank and Ministry
+of Education, has developed a Handbook on Statistical Methodology for general education schoolteachers
+(Mongolia National Statistics Office, 2018). The handbook includes exercises for students to improve their
+understanding of data, pedagogical and training material for teachers. Another example is the statistical
+literacy plan laid out in the Caribbean Community (CARICOM) Regional Strategy for the Development of
+Statistics (RSDS) 2019-2030 (CARICOM, 2018). In New Zealand, learning and visualisation tools have been
+integrated into secondary school curricula to help students understand and analyse data.1 Some of the tools
+have also been deployed in small islands developing states such as Cook Islands (Barnett, Sporle and Wild,
+2018). Other initiatives have aimed at improving data dissemination among student groups. Under the project
+for digital communication in Vision 2020 (an initiative to modernise communication and dissemination), the
+European Statistical System (ESS) has implemented a European statistical competition (ESC)2 in 11 participating
+countries for secondary school students (14-18 years). Also, the Trends in International Mathematics and
+Science Study (TIMSS)3 compares data on the mathematics and science achievement of US students with
+those of students in 60 countries.
+These national and regional initiatives could inform the design of new indicators of statistical literacy. While a
+global indicator for statistical literacy is currently not available, there have been efforts to develop comparable
+indicators at the national level. Using news article feeds from top national newspapers, PARIS21 has recently
+developed an indicator to monitor statistical literacy levels in newspapers and online media in 70 International
+Development Association (IDA) countries (Klein, Galdin and Mohamedou, 2016). In this case, statistical literacy
+refers specifically to the use of statistical evidence and concepts in the written press. Targeting journalists and
+readers, the indicator provides a measure of the use of and critical engagement with statistics in national
+media at three different levels (consistent non-critical, critical and mathematical). Results suggest a high level
+of “basic” use of data in newspapers, with important differences in the performance across regions (Figure 4).
+The statistical literacy scores also show a positive correlation with TIMMS international scores, suggesting a
+link between statistical literacy in schools and in the media.
+1. https://www.stat.auckland.ac.nz/~wild/iNZight/ 2. https://www.eso2018.eu/ 3. https://nces.ed.gov/timss/
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+68 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+Figure 4. Statistical literacy in national newspapers
+Statistical literacy score (0-300)
+0
+5
+10
+15
+20
+25
+North America and Europe Africa LAC Asia Oceania
+Level 1 Level 2 Level 3
+Note: The indicator measures statistical literacy and critical thinking in national newspapers. Levels of use are defined as consistent non critical (level 1), critical (level 2) and critical mathematical (level 3).
+Source: PARIS21, based on Klein, T., Galdin, A. and E.I. Mohamedou (2016),”An Indicator for Statistical Literacy based on National Newspaper Archives”, in Proceedings of the Roundtable Conference of the International Association of Statistics Education (IASE), July 2016, Berlin, https://iase-web.org/documents/papers/rt2016/Klein.pdf.
+How can NSOs and donors increase the use of statistics?
+Together with the improvements in measuring data use and statistical literacy, understanding how NSOs can
+increase the use of official statistics is also important (Sethi and Prakash, 2018; Open Data Watch, 2018). In
+great part, improving data use requires NSOs to align their strategies with the needs of government statistics
+users. A recent survey explored whether NSO perceptions of the use of official statistics are aligned with the
+needs of their government users (Sethi and Prakash, 2018).4 The survey was conducted on 400 NSO officials
+(data providers) and approximately 650 government officials (data users) across different sectors from 140
+low and middle-income countries. The NSO officials were asked how they inform their users about their data,
+while the government officials were asked how they would prefer to learn about the availability of NSO data.
+The survey showed that NSO officials believe that international development partners are the most important
+and frequent users of their data. They also suggest that NSOs need to rethink their dissemination strategies to
+be more in line with government users’ needs: almost half of government officials would like to receive data
+updates via email or SMS, while only 29% of NSOs provide such subscription services (Figure 5).
+4. The survey was conducted in collaboration between Open Data Watch, AidData at William & Mary and PARIS21. The second part of the project focuses on measuring the use of data analysing data portales to gather use metrics, led by Open Data Watch and PARIS21 (Open Data Watch, 2018).
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 69
+Figure 5. Do NSO data dissemination methods meet users’ needs?
+%
+0 10 20 30 40 50 60 70 80 90
+Post the data on [NSO]
+website or data portal
+Printed publications
+Formal meetings
+or consultations
+News and links on
+social media
+Disseminate memorandums
+/policy briefs/technical papers
+Digital media
+Informal communication
+with users
+Send updates to subscribers
+through email or SMS
+Other
+We do not inform users
+about our data
+NSO Officials (%)
+Visiting [NSO] website to see
+if new datahave been posted
+Subscribe to updates from
+[NSO] through email or
+SMS/text message
+Printed publications
+News and links
+on social media
+Memorandum/policy briefs/
+short technical papers
+produced by [NSO]
+Formal meetings
+or consultations
+Digital media
+Informal communication
+with personnel from [NSO]
+Other
+%
+0 10 20 30 40 50 60 70 80 90
+Ministry Officials (%)
+Note: Percentage of respondents. NSO officials could select all that apply. Ministry officials could select up to three options. This figure is based on questions asked to NSO and line ministry officials. The question in the NSO snap poll was: How do you inform your users about your data? The number of respondents that answered this question was 332. The question in the line ministry snap poll was: How would you prefer to learn about the availability of data produced by [NSO]? The number of respondents that answered this question was 557.
+Source: Sethi, T., and M. Prakash. (2018), “Counting on Statistics: How can national statistical offices and donors increase use?”, Williamsburg, VA: AidData at William & Mary, https://docs.aiddata.org/ad4/pdfs/Counting_on_Statistics--Full_Report.pdf.
+Although the monitoring of data use has improved, it is still not a generalised practice among NSOs. Most NSO
+officials consider it important to monitor the use of their data using web analytics. However, monitoring data
+use increases with income or statistical capacity levels: around 50% of NSOs in the lower-middle statistical
+capacity level do not monitor the use of their data.
+The survey also revealed a growing awareness of the need to improve data use among government agencies. NSO
+and government ministries agree that making NSO-produced data easier to use and access is critical to spur data
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+70 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+use. Explicitly, 40% of NSO officials and almost 30% of government officials suggest that improving NSO website
+navigation would foster more use (Figure 6). Over half of the NSOs listed lack of technical capacity as a major
+hurdle to increasing data use. Furthermore, areas where change is most needed span from the system (political
+support from the government), and resources (upgrading software and hardware) to the individual (hire dedicated
+staff). The breadth of areas requiring support for promoting better data use is reflected in the new approaches to
+statistical capacity embodied by the Capacity Development 4.0 framework (see Chapter 3). Some recommendations
+emerging from the survey for improving alignment between production and use are listed in Box 2.
+Figure 6. What changes would NSOs like to see to encourage the use of data they produce?
+%
+0 10 20 30 40 50 60 70 80 90
+Increased technical expertise
+among current staff at NSO
+Technical support from
+development partners
+Upgrading or procuring
+software or hardware equipment
+More interaction with
+users of statistics
+Improved strategic
+management/planning
+Political support from
+the government
+Hire more dedicated staff
+Other
+Note: Percentage of respondents. Each respondent could select up to three options. Respondents were asked to rank their three improvements in order of importance. Based on what they selected as the top-ranked improvement, they answered a subsequent question: You selected [improvement] as the most important improvement to encourage data use. To make this improvement, what do you think [NSO] would need? Respondents could select up to three most important changes. Total number of respondents that answered this question was 325. The figure shows the percentage of respondents that selected each organisational need.
+Source: Sethi, T., and M. Prakash. (2018), “Counting on Statistics: How can national statistical offices and donors increase use?”, Williamsburg, VA: AidData at William & Mary, https://docs.aiddata.org/ad4/pdfs/Counting_on_Statistics--Full_Report.pdf.
+BOX 2.
+Six recommendations for improving data and statistics use through better alignment
+#1: To increase the use of NSO-produced data within the government, NSOs should allow users to subscribe to receive email or SMS updates on new datasets.
+#2: NSOs should build local demand for official statistics by prioritising the needs of domestic users and engaging more with technical staff in ministries.
+#3: NSOs can build trust in official statistics by soliciting feedback, increasing transparency, and using thirdparty validation for quality assurance.
+#4: Development partners should help NSOs, particularly in resource- and capacity-constrained countries, to monitor the use of official statistics through web analytics.
+#5: Global partnerships and trust funds should invest in areas prioritised by producers and users of official statistics: making data more accessible and easier to use.
+#6: Development partners should responsibly leverage their position as important users of NSO-produced data to bolster a greater supply of official statistics in line with domestic demand.
+Source: Sethi, T. and M. Prakash (2018), “Counting on Statistics: How can national statistical offices and donors increase use?”.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 71
+What is the outlook for measuring data use?
+Refining the understanding and advancing the measurement of data use in public policy processes will
+continue to remain a priority for the data community in the years to come. Both are essential prerequisites for
+efficient campaigning and greater evidence-based policy making. They are also necessary to demonstrating
+the value of statistics for societies, and the value of the systems and the people who generate these statistics.
+This is a key building block currently missing from the narrative arguing for greater resources for national
+statistical systems.
+The agenda in this direction is ambitious. First, progress on defining a conceptual framework for data use
+among different types of data users will allow to identify the drivers for increasing data demand. In consultation
+with other actors, PARIS21 is preparing a conceptual model and a measurement framework for assessing data
+use in policy processes. This conceptual model will clarify how data are used, and the factors influencing
+data use, at the different phases and steps of the policy cycle. The model, to be tested in two volunteer
+countries in 2019, will be instrumental in understanding how sectoral specificities, and geographical levels
+(national, subnational, cities, etc.) associated with different phases of the policy cycle can be mainstreamed
+and specified in the model.
+Second, the design of indicators that are fit-for-purpose and allow for comparability, while capturing
+idiosyncratic elements at the national or local level, could be enriched from different methodological
+approaches and further exploration. A recent effort in this direction is the monitoring of NSOs’ data portal
+web traffic (Open Data Watch, 2018). PARIS21 will collaborate with partners to define different possible
+measures of data use, and the factors influencing it. These proposed measures will capture processes
+both upstream and downstream of the actual policy documents – and will therefore complement the two
+indicators currently being calculated (described above). The initial results will be validated with partners and
+disseminated through the PARIS21 Statistical Capacity Monitor web platform. They will constitute an essential
+corpus of PARIS21 Statistical Capacity Monitor, mirroring the substantially larger and more granular measures
+of the national capacity to produce statistics.
+Finally, improving the communication of the importance of measuring data use with the policy community,
+where data is a means to an end, can invite to further involvement of other relevant actors in this agenda.
+With this aim, PARIS21 will develop with partner organisations a short poll of public policy makers in selected
+IDA countries to explore the feasibility of developing a direct measure of data use by public policy makers
+from central, decentralised, executive and legislative policy units. Second, the pilot poll will generate first
+hand data, which will be also featured in the PARIS21 Statistical Capacity Monitor.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+72 STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019
+References
+Ardanaz, M., Scartascini, C. and M. Tommasi (2010), “Political institutions, policymaking, and economic policy
+in Latin America”, Inter-American Development Bank Working paper No. IDB-WP-158, http://www20.iadb.
+org/intal/catalogo/PE/2010/04914.pdf.
+Avendano, R., Baredes, B., Klein, T. and Y. Tian (forthcoming), “Proposing a Use of Statistics Indicator in National
+Development Plans”, PARIS21, Paris, https://paris21.org/sites/default/files/inline-files/Proposing%20a%20
+Use%20of%20Statistics%20indicator%20for%20National%20Development%20Plans%20PARIS21%20draft.pdf.
+Barnett, D., Sporle, A. and C. Wild (2018), “Making official statistics usable by non-statisticians”, Presentation
+prepared for the 16th Conference of the International Association for Official Statistics (IAOS), OECD Headquarters,
+Paris, 19-21 September 2018, https://www.slideshare.net/StatsCommunications/iaos-2018-making-official
+statistics-usable-by-nonstatisticians-a-sporle-c-wild-d-barnett-a-stuteley/StatsCommunications/iaos-2018
+making-official-statistics-usable-by-nonstatisticians-a-sporle-c-wild-d-barnett-a-stuteley.
+CARICOM (2018), “Regional Strategy for the Development of Statistics 2019-30 – Strategic Framework”, CARICOM,
+Georgetown, https://caricom.org/Document-Library/view-document/caribbean-community-caricom-regional
+strategy-for-the-development-of-statistics-rsds-2019-2030.
+Colebatch, H.K. and R. Hoppe (eds.; 2018), “Handbook on Policy, Process and Governing”, Edward Elgar
+Publishing, Cheltenham, https://www.e-elgar.com/shop/handbook-on-policy-process-and-governing.
+Corselli-Nordbland, L. and B. Gauckler (2018), “New tools to improve statistical literacy: development and
+projects”, Paper prepared for the 16th Conference of the International Association of Official Statisticians (IAOS),
+OECD Headquarters, Paris, 19-21 September 2018, www.oecd.org/iaos2018/programme/IAOS-OECD2018_
+Item_3-E-1-Corselli-Gauckler.pdf.
+Fischer, F. and G.J. Miller (2006), “Handbook of Public Policy Analysis: theory, politics, and methods”, CRC
+Press, Boca Raton, https://www.crcpress.com/Handbook-of-Public-Policy-Analysis-Theory-Politics-and-Methods/
+Fischer-Miller/p/book/9781574445619.
+Klein, T., Galdin, A. and E.I. Mohamedou (2016), “An indicator for statistical literacy based on national
+newspaper archives”, in Proceedings of the Roundtable Conference of the International Association of
+Statistics Education (IASE), Berlin, July 2016, https://iase-web.org/documents/papers/rt2016/Klein.pdf.
+Mongolia National Statistics Office, Mongolia Ministry of Education, Culture, Science and Sport and World Bank
+(2018), “Handbook on Statistical Methodology for General Education Teachers”, Ulaanbaatar, http://1212.
+mn/BookLibraryDownload.ashx?url=EBS_Handbook_on_statistical_methodology.pdf&ln=En.
+
+
+CHAPTER 4. BETTER CAPACITIES FOR BETTER USE
+STATISTICAL CAPACITY DEVELOPMENT OUTLOOK 2019 © PARIS21 2019 73
+Nutley, T. (2012), “Improving Data Use in Decision Making. An intervention to strengthen health systems”,
+MEASURE Evaluation, Chapel Hill, https://www.measureevaluation.org/resources/publications/sr-12-73.
+Open Data Watch (2018), “An analysis of data portal web traffic”, Open Data Watch, Washington, DC, https://
+opendatawatch.com/publications/measuring-data-use.
+Scott, C. (2005), “Measuring Up to the Measurement Problem”, PARIS21, Paris, https://paris21.org/sites/
+default/files/MUMPS-full.pdf.
+Sethi, T. and M. Prakash (2018), “Counting on statistics: How can national statistical offices and donors increase
+use?”, AidData at William & Mary, Williamsburg, VA, https://docs.aiddata.org/ad4/pdfs/Counting_on_Statistics
+-Full_Report.pdf.
+Stein, E., Tommasi, M., Echebarría, K., Lora, E., and M. Payne (2006), “The Politics of Policies”, Inter-American
+Development Bank, David Rockefeller Centre for Latin American Studies, Harvard University, Cambridge, MA,
+https://publications.iadb.org/en/publication/16950/politics-policies-economic-and-social-progress-latin
+america-2006-report.
+USAID (2018), “Applying evidence: what works? A rapid literature review”, United States Agency for International
+Development, Washington, DC, https://usaidlearninglab.org/sites/default/files/resource/files/pa00sxt9.pdf.
+
+
+www.PARIS21.org
+@contactPARIS21
+The Statistical Capacity Development Outlook 2019, a new flagship series produced by PARIS21, provides a snapshot of trends and current issues in statistical capacity development. The report consists of four chapters. Chapter 1 provides an overview of the report. Chapter 2 summarises trends and assesses global performance in different areas of statistical capacity. Chapter 3 reviews how the concept of statistical capacity is evolving to adjust to the new data ecosystem and explores recent approaches to measuring it. Finally, Chapter 4 highlights recent developments in understanding and measuring data use. The report aims to guide future efforts to develop capacity within and across national statistical systems and co-ordinate efforts among development partners.
+Visit: https://paris21.org/flagship/2019
+The report is accompanied by the Statistical Capacity Monitor, a comprehensive and accessible online platform providing the most relevant and publicly available indicators on statistical capacity.
+Visit: https://www.statisticalcapacitymonitor.org/
+Table of contents
+Chapter 1. Overview
+Chapter 2. Recent trends in statistical capacity development Chapter 3. A revised approach to assessing statistical capacity in the new data ecosystem Chapter 4. Developing capacity for the more effective use of statistics

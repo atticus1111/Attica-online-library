@@ -1,0 +1,1097 @@
+EPA530-R-94-036 NTIS PB94-201829
+TECHNICAL DOCUMENT
+ACID MINE DRAINAGE PREDICTION
+December 1994
+U.S. Environmental Protection Agency Office of Solid Waste Special Waste Branch 401 M Street, SW Washington, DC 20460
+
+
+ Acid Mine Drainage Prediction
+DISCLAIMER AND ACKNOWLEDGEMENTS
+This document was prepared by the U.S. Environmental Protection Agency (EPA). The mention of company or product names in this document is not to be considered an endorsement by the U.S. Government or by the EPA.
+This technical document consists of a brief review of acid forming processes at mine sites, followed by a summary of the current methods used to predict acid formation, selected state regulatory requirements, and case histories. This report was distributed for review to the U.S. Department of the Interior's Bureau of Mines and Bureau of Land Management, the U.S. Department of Agriculture's Forest Service, the Interstate Mining Compact Commission, the American Mining Congress, the Mineral Policy Center, representatives of state agencies, and public interest groups. EPA is grateful to all individuals who took the time to review this technical document.
+The use of the terms "extraction," "beneficiation," and "mineral processing" in this document is not intended to classify any waste stream for the purposes of regulatory interpretation or application. Rather, these terms are used in the context of common industry terminology.
+
+
+ Acid Mine Drainage Prediction
+TABLE OF CONTENTS
+Page
+1. INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.1 Oxidation of Metal Sulfides . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.2 Source of Acid and Contributing Factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2. ACID GENERATION PREDICTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+2.1 Sampling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+..................................................................
+...........................................
+11
+2.2 Static Tests 13
+2.2.1 Acid-Base Accounting (ABA) 16
+2.2.2 Modified Acid Base Accounting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+...............................
+.........................
+.......................
+16
+2.2.3 British Columbia Research Initial Test (BC) 17
+2.2.4 Alkaline Production Potential : Sulfur Ratio (APP:S) 17
+2.2.5 Net Acid Production Test . . . . . . . . . . . . . . . . . . . . . . . .
+...................................................
+..............................................
+........................................................
+..............................
+.......................................
+......................................................
+17
+2.3 Kinetic Tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+2.3.1 Humidity Cell Tests 18
+2.3.2 Soxhelet Extraction Tests 19
+2.3.3 Column Tests 21
+2.3.4 British Columbia Research Confirmation Test 21
+2.3.5 Batch Reactor (Shake Flask) Tests 22
+2.3.6 Field Scale Test 22
+2.4 Application of Test Results in Prediction Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.............................
+.................................
+...........................................
+.....................................................
+..................................................
+..................................................................
+23
+2.4.1 Some Experience With Static and Kinetic Tests 24
+2.5 Mathematical Modeling of Acid Generation Potential 25
+2.5.1 Overview of Existing Models 25
+2.5.2 Empirical Models 26
+2.5.3 Deterministic Models 27
+2.6 Conclusions 28
+3. CURRENT REGULATORY REQUIREMENTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+................................................................
+..........................................
+.........................................................
+.........................................................
+.............................................
+...........................................................
+..............................................
+28
+4. CASE HISTORIES 32
+4.1 Newmont Rain Facility, Elko County, NV 33
+4.1.1 Introduction 33
+4.1.2 Waste Rock 33
+4.1.3 Acid Generation Prediction 34
+4.1.4 Treatment 34
+4.2 Cyprus Thompson Creek, Challis, ID 35
+4.2.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.........................................................
+.............................................
+.............................................................
+.............................................
+35
+4.2.2 Waste Rock 36
+4.2.3 Acid Generation Prediction 36
+4.2.4 Tailings 37
+4.2.5 Acid Generation Prediction 37
+4.2.6 Treatment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+..............................
+.........................................................
+....................................
+37
+4.3 LTV Steel Mining Company, The Dunka Site, Minnesota 38
+4.3.1 Introduction 38
+4.3.2 The Acid-Generating Duluth Complex 39
+ii
+
+
+ Acid Mine Drainage Prediction
+4.3.3 Acid Rock Drainage Prediction Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+4.3.4 Environmental Risks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+4.3.5 Treatment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+4.4 California Gulch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+4.5 Clear Creek/Central City . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+4.6 Iron Mountain Mine . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+4.7 Silver Bow Creek/Butte Area Site . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+5. REFERENCES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+LIST OF TABLES
+Page
+Table 1. Comparison of Acid Rock Drainage Factors In Waste Rock Piles and Tailings Impoundments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 Table 2. Partial List of Sulfide Minerals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 Table 3. Sulfide Ore Bacteria and Their Growth Conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 Table 4. Sources of Information on Acid Generation Potential for New and Operating Mines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 Table 5. Summary of Static Test Methods, Costs, Advantages, and Disadvantages . . . . . . . . . . . . . . . 15 Table 6. Summary of Some Kinetic Test Methods, Costs, Advantages, and Disadvantages . . . . . . . . 20 Table 7. Summary of State Regulations for Acid Generation Prediction Testing (August 1994) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+iii
+
+
+ Acid Mine Drainage Prediction
+ACID MINE DRAINAGE PREDICTION
+1. INTRODUCTION
+The U.S. Environmental Protection Agency (EPA), the states, and the Federal Land Management Agencies all need better tools to manage acid mine drainage at mine sites. This report examines acid generation prediction methods as they apply to non-coal mining sites. Following a brief review of acid forming processes at mine sites, the report summarizes the current methods used to predict acid formation including sampling, testing, and modeling. Selected State requirements for testing the potential of mining wastes to generate acid are summarized. Case histories from active mining sites and sites on the Superfund National Priorities List (NPL) are also presented. It is hoped that this report will assist states and the mining industry in their use of predictive methods. The Agency has not yet determined whether any one method is more accurate than another. This report also does not incorporate material presented at the Third International Conference on the Abatement of Acidic Drainage, held in Pittsburgh, Pennsylvania, in April 1994. The Agency is preparing additional reports to update this information, including a document containing extended summaries of selected papers presented at the conference.
+The formation of mine acid drainage and the contaminants associated with it has been described by some as the largest environmental problem facing the U.S. mining industry (U.S. Forest Service 1993, Ferguson and Erickson 1988, Lapakko 1993b). Commonly referred to as acid rock drainage (ARD) or acid mine drainage (AMD), acid drainage from mine waste rock, tailings, and mine structures such as pits and underground workings is primarily a function of the mineralogy of the rock material and the availability of water and oxygen. Because mineralogy and other factors affecting the potential for AMD formation are highly variable from site to site, predicting the potential for AMD is currently difficult, costly, and of questionable reliability. The U.S. Forest Service sees the absence of acid prediction technology, especially in the context of new mining ventures, as a major problem facing the future of metal mining in the western United States (U.S. Forest Service 1993).
+Acid mine drainage from coal and mineral mining operations is a difficult and costly problem. In the eastern U.S., more than 7,000 kilometers of streams are affected by acid drainage from coal mines (Kim et al. 1982). In the western U.S., the Forest Service estimates that between 20,000 and 50,000 mines are currently generating acid on Forest Service lands, and that drainage from these mines is impacting between 8,000 and 16,000 kilometers of streams (U.S. Forest Service 1993). In addition to the acid contribution to surface waters, AMD may cause metals such as arsenic, cadmium, copper, silver, and zinc to leach from mine wastes. According to the Forest Service, the metal load causes environmental damage, and is of greater concern than the acidity in environmental terms.
+1
+
+
+ Acid Mine Drainage Prediction
+Acid mine drainage prediction tests are increasingly relied upon to assess the long-term potential of acid generation. This concern has developed because of the lag time at existing mines between waste emplacement and observation of an acid drainage problem (Univ. of California, Berkley 1988). The issue of long-term, or perpetual care of acid drainage at historic mines and some active mines has focussed attention on the need for improving prediction methods and for early assessment of the potential during the exploratory phase of mine development. In addition to many other mines, examples of three mine sites where the potential to generate acid was either not considered or not expected but later developed include: Cyprus Thompson Creek in Idaho; the Newmont Gold Company's Rain Mine in Nevada; and the LTV Dunka Mine in Minnesota. Case studies for these mines are presented in Section 4.0 of this report. Also included are short case studies of four sites on the NPL due, in part to acid drainage (U.S. EPA 1991).
+Wastes that have the potential to generate acid as a result of metal mining activity include mined material such as spent ore from heap leach operations, tailings, and waste rock units, including overburden material. While not wastes or waste management units, pit walls in the case of surface mining operations, and the underground workings associated with underground mines and subgrade ore piles, also have the potential to generate ARD.
+As mineralogy and size variables change, the ability to accurately predict the acid potential becomes quite difficult (Brodie, et al. 1991). Waste rock piles and subgrade ore piles, when left onsite, are both characterized by wide variation in mineralogy and particle size. Changes in these variables appear to influence drainage water quality (Doepker 1993). Coarse grain material allows air circulation; however, fine grain material exposes more surface area to oxidation (Ferguson and Erickson 1988). Drainage water quality from waste rock piles at several mines in British Columbia have demonstrated wide variability. Research at these sites focussed on variables affecting the frequency of acid effluent observed in permit-related monitoring (British Columbia AMD Task Force, 1990). The results reflect the diurnal and seasonal fluctuations in drainage quality as well as variation in mineralogy and particle size common to waste rock piles. In contrast, drainage from tailing impoundments are more likely to carry a more uniform contaminant load due to their more uniform mineralogy and texture. Table 1
+2
+
+
+ Acid Mine Drainage Prediction
+Table 1. Comparison of Acid Rock Drainage Factors In Waste Rock Piles and Tailings Impoundments
+Acid Generation Factors Affecting
+Waste Rock Piles Tailings Impoundment
+Sulphide Source • •
+Variable in concentrati Conditions may vary from sulphide rich to basic over short distances.
+on•and locatCioonn.ditions uniform, often with very high sulphide content.
+Particle Size • Average rock size typic than 20 cm (but highly variable).
+al•ly greaterTailings may be 100% less than 0.2mm.
+pH Variation • Highly variable conditi distances.
+on•s over shoFratirly uniform conditions with a few major horizontal zones.
+Initiation Of Rapid Oxidation
+• Usually starts immediately after first rock is placed (in "trigger" spots).
+• Usually starts after tailings placement ceases at end of mine life.
+Oxygen Entry • •
+pid along preferential flow paths. Seasonal variations in flow path "flushes" out stored products resulting in concentration peaks.
+• Seepage slow and uniform. • Reduced flow path variation and stored product "flushing."
+ARD Releases •
+•
+Large infiltration resulti seepage from toe and to groundwater. Rapid release following generation, sometimes with both neutralized and acid ARD seeps.
+n•g in largeLarge early top surface ARD runoff. • Lower infiltration. • Gradual transition in seeps from process water to neutralized ARD to low pH ARD.
+(Source: Brodie et al., 1991)toS
+3
+
+
+ Acid Mine Drainage Prediction
+compares acid rock drainage factors of waste rock piles and tailings impoundments. In examining this table, it is important to note that diffusion of oxygen into water is slow and, therefore, oxidation of iron sulfide is inhibited until the water level drops, which can occur periodically or seasonally in some cases.
+1.1 Oxidation of Metal Sulfides
+Acid is generated at mine sites when metal sulfide minerals are oxidized. Metal sulfide minerals are present in the host rock associated with most types of metal mining activity. Prior to mining, oxidation of these minerals and the formation of sulfuric acid is a function of natural weathering processes. The oxidation of undisturbed ore bodies followed by release of acid and mobilization of metals is slow. Discharge from such deposits poses little threat to receiving aquatic ecosystems.
+Extraction and beneficiation operations associated with mining activity increase the rate of these same chemical reactions by exposing large volumes of sulfide rock material with increased surface area to air and water.
+The oxidation of sulfide minerals consists of several reactions. Each sulfide mineral has a different oxidation rate. For example, marcasite and framboidal pyrite will oxidize quickly while crystalline pyrite will oxidize slowly. For discussion purposes, the oxidation of pyrite (FeS ) will be examined (Manahan 1991). Other
+2
+sulfide minerals are identified in Table 2.
+Table 2. Partial List of Sulfide Minerals
+Mineral Composition
+Pyrite FeS2
+Marcasite FeS2
+Chalcopyrite CuFeS2
+Chalcocite Cu2S
+Sphalerite ZnS
+Galena PbS
+Millerite NiS
+Pyrrhotite Fe1-xS (where 0<x<0.2)
+Arsenopyrite FeAsS
+Cinnabar HgS
+(Source: Ferguson and Erickson 1988)
++ 2- 2+
+2FeS (s) + 2H O + 7O --> 4H + 4SO + 2Fe
+2 22 4
+4
+
+
+ Acid Mine Drainage Prediction
+In this step, S22- is oxidized to form hydrogen ions and sulfate, the dissociation products of sulfuric acid in solution. Soluble Fe2+ is also free to react further. Oxidation of the ferrous ion to ferric ion occurs more slowly at lower pH values:
+2+ + 3+
+4Fe + O + 4H --> 4Fe + 2H O
+22
+At pH levels between 3.5 and 4.5, iron oxidation is catalyzed by a variety of Metallogenium, a filamentous bacterium. Below a pH of 3.5 the same reaction is catalyzed by the iron bacterium Thiobacillus ferrooxidans. Other bacteria capable of catalyzing the reaction are presented in Table 3. If the ferric ion is formed in contact with pyrite the following reaction can occur, dissolving the pyrite:
+3+ 2+ 2- +
+2FeS (s) + 14Fe + 8H O --> 15Fe + 2SO + 16H
+22 4
+3+
+This reaction generates more acid. The dissolution of pyrite by ferric iron (Fe ), in conjunction with the oxidation of the ferrous ion constitutes a cycle of dissolution of pyrite. Ferric iron precipitates as hydrated iron oxide as indicated in the following reaction:
+Fe3+ + 3H O <--> Fe(OH) (s) + 3H+
+23
+Fe(OH) precipitates and is identifiable as the deposit of amorphous, yellow, orange, or red deposit on stream
+3
+bottoms ("yellow boy").
+Table 3. Sulfide Ore Bacteria and Their Growth Conditions
+Microorganism pH Temp., C Aerobic Nutrition
+Thiobacillus thioparus 4.5-10 10-37 + autotrophic
+T. ferrooxidans 0.5-6.0 15-25 + "
+T. thiooxidans 0.5-6.0 10-37 + "
+T. neapolitanus 3.0-8.5 8-37 + "
+T. denitrificans 4.0-9.5 10-37 +/ "
+T. novellus 5.0-9.2 25-35 + "
+T. intermedius 1.9-7.0 25-35 + "
+T. perometabolis 2.8-6.8 25-35 + "
+Sulfolobus acidocalderius 2.0-5.0 55-85 + "
+Desulfovibrio desulfuricans 5.0-9.0 10-45 - heterotrophic
+(Source: Thompson 1988)
+1.2 Source of Acid and Contributing Factors
+5
+
+
+ Acid Mine Drainage Prediction
+The potential for a mine to generate acid and release contaminants is dependent on many factors and is site specific. Ferguson and Erickson identified primary, secondary, and tertiary factors that control acid drainage. These factors provide a convenient structure for organizing the discussion of acid formation in the mining environment. Primary factors involve production of the acid, such as the oxidation reactions. Secondary factors act to control the products of the oxidation reaction, such as reactions with other minerals that consume acid. Secondary factors may either neutralize acid or react with other minerals. Tertiary factors refer to the physical aspects of the waste management unit (e.g., pit walls, waste rock piles, or tailings impoundments) that influence the oxidation reaction, migration of the acid, and consumption. Other downstream factors change the character of the drainage by chemical reaction or dilution (Ferguson and Erickson 1988). These downstream factors are beyond the scope of this paper and are not discussed herein.
+Primary factors of acid generation include sulfide minerals, water, oxygen, ferric iron, bacteria to catalyze the oxidation reaction, and generated heat. Some sulfide minerals are more easily oxidized (e.g., framboidal pyrite, marcasite, and pyrrhotite) and hence, may have a greater impact on timing and magnitude during acid prediction analysis compared to other metal sulfides. Also important is the physical occurrence of the sulfide mineral. Well crystallized (euhedral) minerals will have smaller exposed surface areas than those that are disseminated.
+Both water and oxygen are necessary to generate acid drainage. Water serves as both a reactant and a medium for bacteria in the oxidation process. Water also transports the oxidation products. A ready supply of atmospheric oxygen is required to drive the oxidation reaction. Oxygen is particularly important to maintain the rapid bacterially catalyzed oxidation at pH values below 3.5. Oxidation of sulfides is significantly reduced when the concentration of oxygen in the pore spaces of mining waste units is less than 1 or 2 percent. Different bacteria are better suited to different pH levels and other edaphic factors (edaphic factors pertain to the chemical and physical characteristics of the soil and water environments). The type of bacteria and their population sizes change as their growth conditions are optimized (Ferguson and Erickson 1988). Table 3 identifies some of the bacteria involved in catalyzing the oxidation reactions and their growth conditions.
+The oxidation reaction is exothermic, with the potential to generate a large amount of heat, and therefore thermal gradients within the unit. Heat from the reaction is dissipated by thermal conduction or convection. Research by Lu and Zhang (undated) on waste rock using stability analysis indicates that convective flow can occur because of the high porosity of the material. Convection cells formed in waste rock would draw in atmospheric air and continue to drive the oxidation reaction. Convection gas flow due to oxidation of sulfide minerals depends on the maximum temperature in the waste rock. The maximum temperature depends on ambient atmospheric temperature, strength of the heat source, and the nature of the upper boundary. If the sulfide waste is concentrated in one area, as is the case with encapsulation, the heat source may be very strong.
+6
+
+
+ Acid Mine Drainage Prediction
+Secondary factors act to either neutralize the acid produced by oxidation of sulfides or may change the effluent character by adding metals ions mobilized by residual acid. Neutralization of acid by the alkalinity released when acid reacts with carbonate minerals is an important means of moderating acid production. The most common neutralizing minerals are calcite and dolomite. Products from the oxidation reaction (hydrogen ions, metal ions, etc.) may also react with other non-neutralizing constituents. Possible reactions include ion exchange on clay particles, gypsum precipitation, and dissolution of other minerals. Dissolution of other minerals contributes to the contaminant load in the acid drainage. Examples of metals occurring in the dissolved load include aluminum, manganese, copper, lead, zinc, and others (Ferguson and Erickson 1988).
+Some of the tertiary factors affecting acid drainage are the physical characteristics of the material, how acid generating and acid neutralizing materials are placed, waste, and the hydrologic regime in the vicinity. The physical nature of the material, such as particle size, permeability, and physical weathering characteristics, is important to the acid generation potential. Particle size is a fundamental concern since it affects the surface area exposed to weathering and oxidation. Surface area is inversely proportional to particle size. Very coarse grain material, as is found in waste dumps, exposes less surface area but may allow air and water to penetrate deeper into the unit, exposing more material to oxidation and ultimately producing more acid. Air circulation in coarse material is aided by wind, changes in barometric pressure, and possibly convective gas flow caused by heat generated by the oxidation reaction. In contrast, fine-grain material may retard air and very fine material may limit water flow; however, finer grains expose more surface area to oxidation. The relationships between particle size, surface area, and oxidation play a prominent role in acid prediction methods. As materials weather with time, particle size is reduced, exposing more surface area and changing physical characteristics of the unit. Though difficult to weigh, each of these factors influences the potential for acid generation and are therefore important considerations for the long-term (Ferguson and Erickson 1988, Lu and Zhang undated).
+The hydrology of the area surrounding mine workings and waste units is also important in the analysis of acid generation potential. When acid generating material occurs below the water table, the slow diffusion of oxygen in water retards acid production. This is reflected in the portion of pits or underground workings located below the water table. Where mine walls and underground workings extend above the water table, the flow of water and oxygen in joints may be a source of acid. A similar relationship is evident with tailings, which are typically fine grained and disposed of subaqueously; the slow diffusion of oxygen inhibits formation of acid. However, since tailings are placed in either raised or valley impoundments, they are likely to remain saturated for only a limited period of time during mine operation. Following mine closure, the free water surface in the impoundment may be drawn down substantially, favoring AMD conditions.
+The spatial distribution of mining wastes in units, or waste placement, affects acid generation potential. For example, the distribution of acid generating wastes with neutralizing wastes may be controlled by the stacking sequence. Calcareous material may be mixed with or placed above sulfidic wastes to buffer acid production or provide alkalinity to infiltrating solution prior to contact with acid generating wastes. An alternative to layering or mixing is encapsulation. This technique attempts to isolate acid generating wastes from oxygen
+7
+
+
+ Acid Mine Drainage Prediction
+and water, thereby reducing its potential to produce acid. It is unclear if encapsulation is feasible over the long-term.
+Wetting and drying cycles in any of the mine workings or other waste management units will affect the character of any acid drainage produced. Frequent wetting will tend to generate a more constant volume of acid and other contaminants as water moves through and flushes oxidation products out of the system. The build-up of contaminants in the system is proportional to the length of time between wetting cycles (Ferguson and Erickson 1988, Doepker 1993). As the length of the dry cycle increases, oxidation products will tend to accumulate in the system. A high magnitude wetting event will flush accumulated contaminants out of the system. This relationship is typical of the increase in contaminant load observed following heavy precipitation for those areas having a wet season.
+8
+
+
+ Acid Mine Drainage Prediction
+2. ACID GENERATION PREDICTION
+The objectives of predictive testing are to: (1) determine if a discrete volume of mining waste will generate acid and (2) predict the quality of the drainage based on the rate of acid formation measured (California Mining Association 1991). There are two important points that must be considered when evaluating the acid generation potential of a rock material. The first is how to collect samples from the field for use in analytical testing. The second is which analytic test method should be used. Both points have a profound impact on the reliability of analytical tests. Results from any analytical test are only as reliable as the samples used for the test. Once the sampling strategy is selected, an appropriate analytical method (or methods) can be selected. Methods used to predict the acid generation potential are classified as either static or kinetic. Factors affecting the selection of the sampling regime and analytical method include an existing knowledge of the geology, costs, and length of time available to conduct the test. This section will examine sample methodology and analytic tests used to predict acid generation potential.
+The following list of components describes the solid phase composition and reaction environment of sulfide minerals. Potential contaminants are included to indicate their importance in the scope of acid generation. These components should be kept in mind while evaluating information on acid generation potential.
+Components affecting the total capacity to generate acid are characterized by:
+• Amount of acid generating (sulfide) minerals present [Note: assumes total reaction of sulfide minerals]
+• Amount of acid neutralizing minerals present
+• Amount and type of potential contaminants present.
+Components affecting the rate of acid generation include:
+• Type of sulfide mineral present (including crystal form)
+• Type of carbonate mineral present (and other neutralizing minerals, as appropriate)
+• Mineral surface area available for reaction
+- Occurrence of the mineral grains in the waste (i.e., included, liberated) - Particle size of the waste
+• Available water and oxygen
+• Bacteria.
+Analytical tests used to assess a material's acid generation potential are either static or kinetic in nature. A static test determines both the total acid generating and total acid neutralizing potential of a sample. The
+9
+
+
+ Acid Mine Drainage Prediction
+capacity of the sample to generate acidic drainage is calculated as either the difference of the values or as a ratio of the values. These tests are not intended to predict the rate of acid generation, only the potential to produce acid. Static tests can be conducted quickly and are inexpensive compared to kinetic tests. Kinetic tests are intended to mimic the processes found at mining sites, usually at an accelerated rate. These tests require more time and are considerably more expensive than static tests. Data from the tests are used to classify wastes or materials according to their acid generating potential. This information can be collected and evaluated during the economic analysis of mines in their exploratory phases. Based on this information, decisions can be made with respect to specific mitigation practices for existing mines.
+In this discussion, it will be useful to keep in mind sources of information needed to assess acid potential. Some of the primary and secondary factors that affect the drainage character from waste management units are presented in Table 4. The variables identified may be appropriate when considering other than waste units, such as mine pits and underground workings.
+Table 4. Sources of Information on Acid Generation Potential for New and Operating Mines
+Information Type New Mine Operating Mine
+Mine Rock Classification • Outcrop exposures • Exploration drill samples, logs • Geological sections • Core assays
+• Outcrop and excavation exposures • Drill core • Production sampling • Core assays • Specific sampling from working areas and piles
+Mine Rock Distribution • Mine planning • Mine planning • Mine rock placement records • Pit and underground plans and exposures • Pile surveys • Pile drilling and sampling • Site personnel
+Acid Generation, Leaching Potential
+• Static testing • Short term leach extractions • Mineralogy • Site comparisons
+• Observation of old cores • Field sampling • Static testing of distinct sub-units from working areas
+Drainage Water Quality • Kinetic testing • Background water quality
+• Regular monitoring • Seep surveys • Kinetic testing • Leach extraction
+(Source: Modified from Robertson and Broughton, undated)
+Efforts by both the mining industry and state regulatory agencies to develop the best protocols for sampling and/or analytical methods to predict acid generation potential have demonstrated that site specific conditions (e.g., climate and geology) dictate a case-by-case approach when evaluating acid potential. This is complicated by the fact that a variety of research efforts on different methods by the Bureau of Mines, EPA,
+10
+
+
+ Acid Mine Drainage Prediction
+and the Canadian Mine Environment Neutral Drainage (MEND), as well as those used by mining companies and their consultants, make comparison of data difficult. Several authors have conducted comparative evaluations of predictive tests (Lapakko 1992, Bradham and Caruccio 1990, Coastech 1989). Kim Lapakko of the Minnesota Department of Natural Resources has conducted comparative evaluations of static and kinetic test methods using a range of rock types. Bradham and Caruccio conducted a comparative study on tailings.
+When evaluating the acid generation potential, a phased testing plan selects samples appropriate for the detail needed (California Mining Association 1991). This approach allows investment in acid prediction testing to be commensurate with a deposit's economic potential and saves time and expense associated with unnecessary tests. Sampling and testing should be an iterative process, collecting, testing, and evaluating a small amount of information to establish the acid generation potential. Based on the preliminary findings, subsequent sampling and testing can be selected to refine the information as needed.
+The typical steps in predicting the acid forming potential, as described in summary documents on the subject, are listed below (California Mining Association 1991, British Columbia AMD Task Force 1989):
+1. Define the geologic (or lithologic) units that will be encountered during mining. Describe the geology and mineralogy of these units in detail.
+2. Develop a sampling plan based on understanding of geology (rock mass, etc.). Collect samples to represent ranges of compositional variation within a rock unit (see Lapakko 1988, 1990a).
+3. Select static or kinetic tests and evaluate potential for acid formation.
+4. Evaluate sampling criteria and conduct additional kinetic tests as required.
+5. Develop a model as appropriate.
+6. Based on findings, classify geologic (lithologic) units as acid, non-acid forming, or uncertain. (Note: the potential to produce acid may vary within a given geologic unit.)
+2.1 Sampling
+Selection of samples has important implications for subsequent acid prediction testing. The purpose of testing rock material is to allow classification and planning for waste disposal based on the predicted drainage quality from that material. Samples must be selected to characterize both the type and volume of rock materials and also account for the variability of materials that will be exposed during mining. When to collect samples for testing is an equally important consideration. Researchers agree that sampling and testing should be concurrent with resource evaluation and mine planning (Lapakko 1990a, British Columbia AMD Task Force 1989). Sampling techniques used to evaluate recoverable mineral resources (assay samples) are similar to those required for prediction of acid generation potential. Active mining operations for which
+11
+
+
+ Acid Mine Drainage Prediction
+predictive tests were not conducted in advance of mining lack the advantage of front end planning; however, these mines can still use these samples and other information collected to establish the acid generating potential.
+The pressure is increasing for new operations or those in the exploratory phase to accurately predict future drainage water quality. By comparison, the acid drainage potential at old mines may be well established. Examples of information needed from existing operations are the quantity of existing acid products, the potential and stage of acid generation in each of the waste units, and the acid forming potential of future wastes to be generated (see Table 4). Broughton and Robertson recommend that the first two stages of an acid prediction analysis for either new or existing mines are (1) to review the geology and mineralogy and (2) classify the rock and collect samples (Robertson and Broughton, undated; Broughton and Robertson, 1992).
+Sample collection for prediction tests for both old and new mines should consider both geologic and environmental factors. Geologic factors for sample selection are primarily a good understanding of the local geology. If available, this may include information from mines, core logs, or other sources in the immediate area. The exploration geologist or mine geologist is probably the best resource for understanding and describing the mine's geology in detail. This information is important to both the sampling program and application of test results. Environmental factors include consideration of the potential environmental contaminants in the rock and climatic variables. A quality assurance/quality control program should be developed and coordinated with the mine plan for sample collection and acid generation testing.
+There are many opinions concerning the number of samples to be collected in a fixed-frequency sampling program. One mining consulting firm recommends about 8 - 12 samples of each significant rock type or 1 sample for each 1 million tons, at a minimum (Schafer 1993). In this case a significant rock type represents one or two percent of the total mine rock volume. Gene Farmer of the U.S. Forest Service suggests that one sample (about 1,500 grams) be collected per 20,000 tons of waste rock, or about 50 samples for each 1 million tons (USDA Forest Service 1992). These samples would be collected by compositing from individual drill hole cuttings prior to blasting. The British Columbia AMD Task Force recommends a minimum number of samples based on the mass of the geologic unit. Their recommended minimum sample number is 25 for a 1 million ton geologic unit, or one sample for every 40,000 tons. Using the British Columbia method, as waste volume increases, the number of samples decreases. For example, for a unit of 10 million tons, the minimum sample number is 80, or one sample for every 125,000 tons (British Columbia AMD Task Force 1989).
+There are reservations to prescribing a fixed number of samples for collection per volume of material. This is particularly true for existing mines when collecting samples from waste rock dumps for acid generation potential tests. Waste rock dumps are usually constructed by end-dumping of rock from trucks, creating heterogeneous deposits that are very difficult to sample with confidence. Tailings are comparatively more uniform due to milling and depositional methods used, and it is easier to characterize their variability. Fixedfrequency sampling does not encourage the use of best judgement on the part of the sample collector
+12
+
+
+ Acid Mine Drainage Prediction
+(typically a mining company). It also does not provide the statistical basis to account for variability among samples. The determination of how many samples should be taken at any one time appears to be dependent on variability of the site's geology and how the mine will be developed. Due to general uncertainty regarding AMD predictive methods, it may be prudent to sample wastes or material throughout the life of the mine.
+Factors to consider in a sampling program for existing or planned mines include the method of sample collection, length of time samples are to be (or have been) stored, and the sample storage environment. Each of these can affect the physical and chemical characteristics of a sample. Samples collected from cores exposed to the environment may be physically and/or chemically altered. If samples are collected from drill core, contamination may be a problem if a lubricant was used. At existing mines, tailings samples should be taken over a variety of depths to determine if oxidation of sulfide minerals is occurring. The influence of lime addition during milling may maintain alkaline conditions. Collecting samples of waste rock is difficult because of the variability inherent in these waste units. Drilling is considered to be the preferred method for collecting samples from waste rock piles (Ferguson and Morin 1991).
+Since individual samples will be used to test and classify larger volumes of waste, it is important to consider how representative samples are to be collected. Compositing is a common practice used to sample large volumes of material. Typically, composite samples are collected from drill hole cuttings on benches prior to blasting. However, compositing merges information about the variation of sample that would be identified if more samples were collected and analyzed. Therefore, information about sample variability is lost (British Columbia AMD Task Force 1990, Robertson and Broughton undated). Composite sampling of tailings may be useful as a "first look" for characterizing tailings; compositing with stratification by lithology and alteration can help to avoid the problems of simple composite samples (Schafer 1993).
+2.2 Static Tests
+Static tests predict drainage quality by comparing the sample's maximum acid production potential (AP) with its maximum neutralization potential (NP). The AP is determined by multiplying the percent of total sulfur or sulfide sulfur (depending on the test) in the sample by a conversion factor (AP = 31.25 * %S). NP is a measure of the carbonate material available to neutralize acid. The value for NP is determined either by adding acid to a sample and back titrating to determine the amount of acid consumed or by direct acid titration of the sample; the endpoint pH is usually 3.5 (Ferguson and Morin 1991, Lapakko 1993a). Lapakko (1992) reported that using an endpoint pH of 3.5 measures a sample's acid neutralizing potential below 6.0, but noted that a drainage pH in the range of 3.5 may not be environmentally acceptable. The net neutralization potential (NNP), or acid/base account (ABA) is determined by subtracting the AP from the NP (NNP = NP - AP). A ratio of NP to AP is also used. An NNP of 0 is equivalent to an NP/AP ratio of 1 (Ferguson and Morin 1991). Units for static test results (AP, NP, and NNP) are typically expressed in mass (kg, metric ton, etc.) of calcium carbonate (CaCO ) per 1000 metric tons of rock, parts per thousand.
+3
+If the difference between NP and AP is negative then the potential exists for the waste to form acid. If it is positive then there may be lower risk. Prediction of the acid potential when the NNP is between -20 and 20 is
+13
+
+
+ Acid Mine Drainage Prediction
+more difficult. If ratios are used, when the ratio of a sample's neutralization potential and acid production potential is greater than 3:1, experience indicates that there is lower risk for acid drainage to develop (Brodie et al. 1991). For ratios between 3:1 and 1:1, referred to as the zone of uncertainty, additional kinetic testing is usually recommended. Those samples with a ratio of 1:1 or less are more likely to generate acid. Prediction of drainage quality for a sample based on these values requires assumptions that reaction rates are similar and that the acid consuming minerals will dissolve (Lapakko 1992). When reviewing data on static tests, an important consideration is the particle size of the sample material and how it is different from the waste or unit being characterized.
+Information on these and other static acid prediction tests, including summaries of test results, is available (Coastech 1989, Lapakko 1993b). The following descriptions are excerpted from Lapakko (1993b). Lapakko (1992) has also conducted comparison tests of static methods using mine waste samples from different mines. Additional summaries of static tests have been completed by Coastech (1989) as part of the MEND Project, and the California Mining Association (1991). Five static tests will be summarized here and in Table 5.
+14
+
+
+ Table 5. Summary of Static Test Methods, Costs, Advantages, and Disadvantages
+Acid Mine Drainage Prediction
+Table 5. Summary of Static Test Methods, Costs, Advantages, and Disadvantages
+Acid Base Accounting
+(Sobek et al, 1978) MODIFIED Acid Base
+Accounting
+(Coastech, 1989)
+BC RESEARCH INITIAL
+(Duncan and Bruynesteyn,
+1979)
+Alkaline Production Potential: Sulfur
+(Caruccio et al, 1981)
+Net Acid Production
+(Coastech 1989)
+ACID PRODUCTION DETERMINATION
+Acid Producing Potential =
+31.25
+* Total S
+Acid Producing Potential =
+31.25
+* Total S
+Total Acid Production =
+31.25
+* Total S
+Total S used as indicator 300 mL H O added to
+22
+5 g rock to directly
+oxidize sulfides present
+NEUTRALIZATION POTENTIAL DETERMINATION
+-60 mesh (0.24 mm)
+sample
+add HCl as indicated by
+fizz test, boil one minute
+than cool
+titration endpt pH 7.0
+cost: 34-110
+-60 mesh (0.24 mm)
+sample
+add HCl as indicated by fizz
+test agitate for 23
+hours at room
+temperature
+pH 1.4 - 2.0 required
+after six hours agitation
+titration endpt pH 8.3
+cost: 34-110
+-300 mesh (0.038 mm)
+sample
+titrate sample to pH 3.4
+with 1.0 N H2SO3
+titration endpt not
+applicable
+cost: 65-170
+-0.023 mm sample
+20 mL 0.1 N HCl to 0.4g
+solid for 2 hours at
+room temperature
+titration endpt pH 4.0
+cost: 34-110
+particle size not
+presented
+acid produced by iron
+sulfide oxidization
+dissolves buffering
+minerals
+titration endpt pH 7.0
+cost: 25-68
+ADVANTAGES AND DISADVANTAGES
+1,3
+simple and short time
+no special equipment 1
+and easy interpretation
+many samples can be
+tested3
+2
+does not relate to kinetic
+assumes parallel acid/
+alkaline release2,3
+if APP and NP are close,
+hard to interpret and
+different particle size not
+reflected3
+simple,
+short time,
+no special equipment, 1
+and easy interpretation
+2
+does not relate to kinetic
+assumes parallel acid/
+alkaline release2,3
+if AP and NP are close,
+hard to interpret and
+different particle size not
+reflected3
+simple and
+fairly short time1,3
+no special equipment and
+1
+easy interpretation
+many samples can be
+tested3
+assumes parallel acid/
+alkaline release,
+different particle size not
+reflected, and
+if APP and NP are close,
+hard to interpret3
+simple,
+short time, and
+no special equipm
+moderate interpre
+ent1
+1
+tation
+simple,
+short time,
+no special equipment,
+and 1
+easy interpretation
+4
+limited reproducibility
+uncertain if extent of
+sulfide oxidation
+simulates that in field
+1 = Coastech 1989, as referenced in Lapakko 1993
+2 = Bradham and Caruccio 1990, as referenced in Lapakko 1993
+3 = Ferguson 1984, as referenced in Lapakko 1993
+4 = Lawrence 1991, as referenced in Lapakko 1993
+(Source: Lapakko 1993b)
+15
+
+
+ Acid Mine Drainage Prediction
+2.2.1 Acid-Base Accounting (ABA)
+The acid-base accounting test, a form of static testing, was developed in 1974 to evaluate coal mine waste and was modified by Sobek et al. in 1978. The acid production potential (APP) is determined from the total sulfur content as follows:
+31.25 x percent S = APP
+and assumes that two moles of acid will be produced for each mole of sulfur. Units for APP are tons of acidity per ton of rock. Neutralization Potential (NP) is determined first by a simple fizz test to select the acid strength to use in the next step. Based on this information, hydrochloric acid is added to the sample and the sample is boiled until the reaction stops. The resulting solution is back titrated to pH 7 with sodium hydroxide to determine the amount of acid consumed in the reaction between HCl and the sample.
+The net neutralizing potential (NNP) is determined by subtracting the APP from the NP and is a measure of the difference between the neutralizing and acid forming potentials. The value for NNP may be either positive or negative. Tests conducted by Ferguson (reported by Lapakko 1993b) indicate that NNP values less than 20 (kg CaCO /ton) are likely to form acid. Those with NNP values greater than 20 were not likely
+3
+to form acid. For NNP values between -20 and 20 it was difficult to determine the acid potential.
+Assumptions of the test are that all the sulfur in the sample is reactive. This assumption does not take into account the presence of gypsum and other non-reactive sulfur minerals. A shortcoming of the technique is the potential to overestimate NP in one or more of the following ways: (1) use of strong acid may dissolve minerals that would not otherwise react to maintain drainage pH within an environmentally acceptable range; (2) use of boiling acid may cause an overestimation of NP by reacting with iron and manganese carbonates, which would not otherwise factor in the natural NP (this observation is problematic with samples that contain large quantities of these carbonates; (3) the NP may be underestimated by contribution from metal hydroxides that precipitate during the titration with sodium hydroxide.
+2.2.2 Modified Acid Base Accounting
+The Modified Acid Base Accounting method is similar to the previous method with some exceptions. It calculates APP on the sulfide sulfur content (Lawrence 1990). This is different from the total sulfur calculation used in the ABA test in that the sulfur contribution from non-sulfide sources is not included. Determination of NP uses a longer (24-hour) acid digestion at ambient temperature, rather than boiling hydrochloric acid as used in the ABA method. When back titrating with sodium hydroxide to determine the acid consumed in the digestion, an endpoint of 8.3 is used instead of 7.
+This modified method assumes that sulfur present as sulfate is not acid producing, and therefore may underestimate available APP if jarosite or other acid producing sulfate minerals are present. Conducting the
+16
+
+
+ Acid Mine Drainage Prediction
+acid digestion at standard temperature may reduce the contribution of iron carbonate minerals when determining the NP.
+2.2.3 British Columbia Research Initial Test (BC)
+The B.C. Research Initial Test, as developed by Duncan and Bruynesteyn (1979), is similar to the ABA test in that it calculates APP based on total sulfur. Consequently, similar concerns should be kept in mind for the APP values. NP (or acid consuming capability) is determined by titrating the sample with 1.0 normal sulfuric acid to pH 3.5. Coastech (1989) notes that this requires more sophisticated equipment (i.e., automatic titrator) than the ABA procedure and is more time consuming. Samples are crushed to minus 400 mesh. Data for APP and NP are compared by difference or ratio, as described above. If a sample is determined to be potentially acid generating, the B.C. Confirmation kinetic test may be conducted. This test is presented in the next section.
+2.2.4 Alkaline Production Potential : Sulfur Ratio (APP:S)
+The Alkaline Production Potential : Sulfur Ratio test was developed by Caruccio et al. (1981) and modified by Coastech (1989) to measure the acid forming potential of coal waste. Like the ABA and B.C. initial tests, the APP:S test uses total sulfur to determine the total acid potential. Again, similar problems exist for the APP:S test as were experienced with these other tests. A change in nomenclature should be noted here. The acid consuming potential (NP in the previous tests) is referred to as the Alkaline Production Potential. The value is determined by grinding a 500 mg sample to minus 23 micron and adding 20 mL of 0.1N HCl and allowing it to react for 2 hours at ambient temperature. The sample and solution are then titrated to pH 5 to determine the alkaline production potential.
+Samples representative of the geologic variation at the site are collected as in other tests and the Alkaline Production Potential is determined. Results from the alkaline production potential test are plotted with the results for total sulfur content of the same samples. Samples of several APP:S ratios are selected for kinetic testing to determine which will be acid producing. With this calibration, the acid producing potential of future samples from the various geologic units can be projected based on the APP:S ratio, rather than depending on kinetic tests, which require more time.
+Because this test uses total sulfur, similar to the ABA, to determine acid production, it also tends to overestimate potential acid production for samples containing sulfate minerals. Coastech (1989) noted the shorter exposure to less concentrated acid used in the digestion reaction would tend to underestimate Alkaline Production Potential (NP), and preclude the complete reaction of all buffering carbonates present.
+2.2.5 Net Acid Production Test
+In the Net Acid Production Test, hydrogen peroxide is used to accelerate the oxidation of sulfide (Lawrence et al. 1988). For the test, five grams of material are oxidized by 100 mL of 15 percent hydrogen peroxide to
+17
+
+
+ Acid Mine Drainage Prediction
+oxidize the metal sulfide minerals. The reaction generates acid which in turn reacts with the buffering minerals in the sample. The reaction is allowed to continue for one hour after all visible signs of reaction have ended. The pH of the solution is determined and then titrated to pH 7. This gives a value for the Net acid or neutralizing potential of the sample. This test is different from static tests described above in that it mimics the reaction of APP and NP and determines a single value, NNP. One potential limitation of the test was noted. If the extent of oxidation in the field setting is greater than in the test, the potential exists for the test to underestimate acid production, creating the possibility that some acid producing waste may be incorrectly classified as non-acid-producing.
+2.3 Kinetic Tests
+Kinetic tests are distinguished from static tests in that they attempt to mimic natural oxidation reactions of the field setting. The tests typically use a larger sample volume and require a much longer time for completion than for static tests. These tests provide information on the rate of sulfide mineral oxidation and therefore acid production, as well as an indication of drainage water quality. Of the different kinetic tests used, there is no one test that is preferred. The preference for tests changes with time as experience and understanding increase. In a 1988 summary article by Ferguson and Erickson, the B.C. Research Confirmation Test was considered to be the most widely used. A similar 1991 article by Ferguson and Morin stated that the use of modified humidity cells was becoming more common. From information reviewed for this report, there does seem to be a trend toward the preference for modified humidity cell and column type tests.
+Kinetic tests can be used to assess the impact of different variables on the potential to generate acid. For example, samples may be inoculated with bacteria (a requirement for some tests); temperature of the sample environment may also be controlled during the test. Most tests require the sample particle size to be less than a specified sieve size (e.g., minus 200 mesh). Larger sample volumes and test equipment may examine acid potential from coarse particles. Acid drainage control mechanisms, such as increasing alkalinity by adding lime, may also be examined using kinetic tests.
+It is helpful to supplement kinetic tests with an understanding of empirical data characterizing the sample. Examples include analysis of specific surface area, mineralogy, and metals. Such information may affect the interpretation of test data and are important when making spatial and temporal comparisons between samples based on the test data. As with static tests, it is important to consider the particle size of the test sample, particularly when comparing test results with field scale applications.
+Seven kinetic tests are summarized primarily from Lapakko's (1993b) review and the BC AMD Task Force, Draft Technical Guideline, Volume I (1989). Other sources are noted in the text. Brief descriptions of the kinetic tests discussed are also presented in Table 6.
+2.3.1 Humidity Cell Tests
+18
+
+
+ Acid Mine Drainage Prediction
+Both Standard and Modified Humidity Cell Tests are used to determine the rate of acid generation. Tests are conducted in a chamber resembling a box with ports for air input and output. The modified humidity cell uses crushed samples and resembles a column. There is no standard for either humidity cell test.
+The Humidity Cell Test, as conducted by Sobek (1978), leaches a 200 g sample crushed to minus 2.38 mm in an enclosed plastic container. The test is typically run for ten weeks and follows a seven day cycle. The sample may be inoculated with bacteria. During the seven day cycle, dry air is passed through the sample container for the first three days and humidified air for the next three days. On the seventh day the sample is rinsed with 200 mL of distilled water. The solution may be analyzed for pH, acidity, alkalinity, and specific conductance; redox potential (the oxidation-reduction potential of an environment), sulfate, and dissolved metals may also be tested. The humidity cell test method is very similar to the column test described below.
+Depending on the sample, the test duration may need to be extended. Monitoring sulfate and dissolved metal loads is important to track both the oxidation reaction and metal mobility. Two points are important when using this and other kinetic tests: (1) if the sample was allowed to react before testing began (e.g., in storage) there may be a build up of oxidation products in the sample—this would be flushed out in the early water rinses, and (2) neutral drainage may lead to an incorrect prediction of acid potential if the test period is not long enough.
+2.3.2 Soxhelet Extraction Tests
+This test simulates geochemical weathering using a soxhelet extraction apparatus to recirculate solution through the sample. The sample is placed in a thimble in the unit and solution is circulated from a reservoir. Two procedures are used—one is the standard test described by Singleton and Lavkulich (1978); the other is the modified test described by Sobek et al. (1978). In the standard test the sample is leached using a 70 C solution of acetic acid or distilled water over a period of six weeks (duration of the procedure may vary). The modified test uses only distilled water at 25 C.
+Research by Coastech (1989) determined that use of acetic acid yielded unrealistic results. Soxhelet extraction test conditions are more extreme than other kinetic tests. However, it is a shorter test and may be useful in simulating long weathering trends in a relatively short test time. Drawbacks include the complex equipment required and the more complex nature of the test in general.
+19
+
+
+ Acid Mine Drainage Prediction
+Table 6. Summary of Some Kinetic Test Methods, Costs, Advantages, and Disadvantages
+HUMIDITY CELLS
+(Sobek et al., 1978) SOXHELET EXTRACTION
+(Singleton and Lavkulich, 1978;
+Sullivan and Sobek, 1982)
+COLUMN TESTS
+(Bruynesteyn and Hackl, 1982;
+Hood and Oertel, 1984)
+SUMMARY OF TEST METHOD -2.38 mm particle size
+200g of rock exposed to three days dry air,
+three days humidified air, and rinsed with
+200 mL on day seven
+cost: 425-850
+particle size not presented
+T=70 C (Singleton and Lavkulich, 1978)
+T=25 C (Sullivan and Sobek, 1982)
+water passed through sample is distilled
+and recycled through sample
+cost: 212-425
+variable particle size
+columns containing mine waste are leached
+with discrete volumes or recirculating
+solutions
+cost: dependent upon scale
+ADVANTAGES AND DISADVANTAGES
+models AP and NP well and simple, models AP and NP,
+models wet/dry3 results in short time, and models effect of different rock types,
+approximates field conditions and assessment of interaction between AP and models wet/dry, and
+rate of acidity per unit of sample NP3 3
+models different grain sizes
+moderate to use, moderate to use and difficult interpretation,
+results take long time, and 1
+need special equipment 3
+not practical for large number of samples
+1
+some special equipment 1,3
+moderate interpretation 2
+large volume of sample
+1,3
+moderate ease of interpretation in developmental stage and lots of data generated,
+2
+large data set generated relationship to natural processes n 3
+ot clear long time, and
+potential problems: uneven leachate
+2,3
+application, channelization
+(Source: Lapakko 1993b)
+BC RESEARCH CONFIRMATION
+(Duncan and Walden, 1975) BATCH REACTOR
+(Halbert et al., 1983) FIELD TESTS
+(Edger and Lapakko, 1985)
+METHOD -400 mesh particle size 1
+-200 mesh particle size field scale particles
+15-30g added to bacterially active solution
+at pH 2.2 to 2.5, T=35 C
+if pH increases, sample is non acid
+producer
+if pH decreases, 1/2 original sample mass
+is added in each of two increments
+cost: 170-340
+sample/water slurry is agitated
+1
+200g/500 mL
+cost: 425-850
+800 to 1300 metric ton test piles
+constructed on liners flow and water
+quality data collected
+tests began in 1977 and are ongoing
+cost: initial construction is expensive,
+subsequent costs are comparable
+ADVANTAGES AND DISADVANTAGES
+simple to use,
+low cost, 3
+assesses potential for biological leaching
+moderate to use,
+longer time needed, and 1
+some special equipment needed
+difficult interpretation if pH change is
+small,
+does not model initial AP step, and
+3
+long time for pH to stabilize
+able to examine many samples
+simultaneously and 4
+relatively simple equipment
+subject to large sampling errors and
+4
+lack of precision
+uses actual mine waste under
+environmental conditions
+can be used to determine drainage volume
+mitigation methods can be tested
+expensive initial construction
+long time
+(Source: Lapakko 1993)
+1 = Coastech 1989, as referenced in Lapakko 1993
+2 = Bradham and Caruccio 1990, as referenced in Lapakko 1993
+3 = Ferguson 1985, as referenced in Lapakko 1993
+4 = Babij et al. 1980, as referenced in Lapakko 1993
+20
+
+
+ Acid Mine Drainage Prediction
+2.3.3 Column Tests
+Column Tests are conducted by stacking the waste or material in a cylinder or similar device. Wetting and drying cycles are created by adding water and then allowing the column to dry. Each of the cycles may occur over a period from several days to a week or more, though they typically last for three days each. Care must be taken to avoid piping along the sample-wall interface when packing the column. Water added to the column is collected and analyzed to determine the current oxidation rate, sulfate production, metal release, and other parameters.
+Column test equipment, like humidity cells, is a relatively simple apparatus compared to a soxhelet extraction device. It is easily modified to test control options, such as the addition of limestone, the influence of bacteria, and water saturation (Water Resources Control Board 1990). Results from research indicate that column tests of well sorted tailings material greater than 0.5 cm in diameter accurately represents field test conditions (Bradham and Caruccio 1990). Tests of waste rock material were not reported. Some of the disadvantages of column type tests are that the long time required, the associated high costs, and as mentioned above, the potential for channeling.
+2.3.4 British Columbia Research Confirmation Test
+Originally developed by Duncan and Bruynesteyn (1979), this test is intended to confirm results of the B.C. Initial (static) Tests; specifically, it is intended to determine if bacteria can catalyze enough reactions to satisfy their acid demands. As described in the Draft Technical Guide, Volume I (1989), sulfuric acid is added to a sample volume to a pH of 2.5. Although not identified in the Draft Technical Guide, other researchers use sample volumes in the range of 15 to 30 g of material passing a 400 mesh screen (Lapakko 1993b). The sample is shaken for four hours and acid is added to maintain a solution pH between 2.5 and 2.8. The sample is then inoculated with Thiobacillus ferrooxidans and the flask weighed. The flask is plugged with cotton, incubated at 35 C, and shaken continuously. The pH and metals in solution are monitored for the first three days and the pH maintained below 2.8. Distilled water is added to maintain constant weight. When the pH is established below 2.8, monitoring for pH and the metal is performed every second day until microbiological activity stops. This occurs when pH and metal values remain constant. Additional sample material is then added to the flask and this is shaken for 24 hours. When tested, if the pH is 3.5 or higher, the test is terminated. If the pH of the solution is less than 3.5, more of the sample is added and is shaken for 24 hours. The pH is tested; if it is greater than 4 or less than 3.5, the test is terminated. If the pH is less than or equal to 4, or greater than or equal to 3.5, the sample is shaken for 48 more hours and a final pH reading is taken (British Columbia AMD Task Force 1989).
+If the bacteria are sustained in the sample, there is a strong possibility that acid drainage will be generated in the waste unit being characterized (British Columbia AMD Task Force 1989). If insufficient acid is produced, the solution pH will approach the natural pH (above 3.5), and the sample is determined to be non acid producing. If the solution remains below 3.5 then there is a strong possibility that the sample will be an acid producer.
+21
+
+
+ Acid Mine Drainage Prediction
+The initial acidification of the sample in this test presents conditions significantly different than in a typical waste unit. The test does not examine mineral/bacterial reactions above a pH of 2.5 (2.8 as described above). Reactions above these levels may be a major influence in determining if acid drainage is generated (Lapakko 1993b). Other disadvantages are that the test ignores neutralization potential and sulfide oxidation rates (British Columbia AMD Task Force 1989).
+2.3.5 Batch Reactor (Shake Flask) Tests
+In the Batch Reactor test, like the British Columbia Confirmation test, a mine sample and water are slurried together in a flask. The solution is usually distilled water, however, nutrients may be added. Sample size and solution volume are determined by the user. Coastech (1989) conducted tests using 250 g of waste and 500 mL of distilled water. Flasks are shaken continuously during the test. Water samples are taken at regular intervals to determine water quality parameters such as pH, sulfate, and metals in solution. Sampling for water quality analysis during longer tests may require addition of water to maintain volume. This would complicate interpretation of test data. Data from the tests are used to estimate the rate of sulfide mineral oxidation and release of contaminants, such as metals.
+The batch reactor is relatively simple and allows examination of multiple factors, such as pH and temperature, which can be tested simultaneously. The influence of bacteria and control measures may be used as test parameters. The primary difficulty with the method is that the duration of the test may not exceed the lag time prior to acid formation (Lapakko 1993b). Other concerns are that the water volume in the flask may inhibit acid formation and bacteria may not acclimate in the test conditions (British Columbia AMD Task Force 1989).
+2.3.6 Field Scale Test
+Field Scale Testing, similar to On-site Rock Piles described by B.C. AMD Task Force, use large volumes of material to construct test cells in ambient environmental conditions, typically at the mine site in question. These tests are very different from laboratory tests where the experiment is conducted under controlled conditions. Sample size varies and may be as much as 1000 metric tons or more, depending on space availability. Particle size of the test material is not usually reduced for the test to better approximate field conditions. The sample is loaded on to an impervious liner to catch solutions and a vessel is used to collect the leachate. The volume of solution is determined and an aliquot is analyzed for pH, sulfate, dissolved metals, and other parameters.
+Consideration of climatic conditions is important when evaluating results from field scale tests. Climatic effects must be distinguished from the rate of sulfide oxidation, acid generation, neutralization, and metal dissolution as determined by analysis of the leach solution. This is necessary because climatic effects, especially precipitation, determine the flushing rate but do not influence either reaction rate or the subsequent chemical composition of the leachate (British Columbia AMD Task Force 1989).
+22
+
+
+ Acid Mine Drainage Prediction
+Lapakko (1988) demonstrated that carefully constructed kinetic tests in the laboratory could be extrapolated to field scale tests. That research is summarized in Section 5.3 of the report.
+Field scale tests have the advantage of being conducted under the same environmental conditions as the waste or other units they are simulating. They also allow monitoring of the influence of bacteria and control measures. Drawbacks to field tests are that they require long test durations. Unlike other kinetic tests, field test do not accelerate environmental conditions, which tend to assess the potential to generate acid more quickly. Consequently, field tests will provide information on acid generation potential for a mine waste unit for that amount of time that they are started before waste emplacement begins. For some operations this may be 10 years or more and test results may be used to optimize reclamation design (Lapakko 1993b).
+2.4 Application of Test Results in Prediction Analysis
+Results from static and kinetic tests are used to classify mine wastes on the basis of their potential to generate acid. Static tests yield information about a sample's ability to neutralize and generate acid. The difference or ratio of these values becomes the basis of the classification. As discussed, for samples with NNP values greater than 20 tons CaCO /1000 tons of waste (ratio of 3:1), the potential to generate acid is low (Smith and
+3
+Barton-Bridges 1991). For NNP values between -20 and 20 (ratios between 1:1 and 3:1), the potential for acid generation remains, and uncertainty will exist. It is important to note that each of these values are generalities and can be affected by the relative availability of surface areas of iron sulfides and calciummagnesium carbonates.
+The determination of AP based on estimated or reactive sulfur content in the sample has some inherent limitations. When total sulfur is used as the basis to estimate sulfide content, this uncertainty may be attributable to possible errors in: (1) assessment of true acidity and neutralization in the sample; (2) calculated acidity based on total sulfur conversion value; and (3) analytical error. Similar errors exist for static tests that determine reactive sulfide mineral concentrations. Estimating long-term reactive sulfide based on short-term tests may result in uncertainty due to difficulties in making oxidation rate predictions (British Columbia AMD Task Force 1989).
+Acid base accounting tests conducted on an iterative basis, where the initial sample set is small, are helpful when establishing boundaries between lithologic units. As data from static tests is collected and evaluated, the sampling selection can be refined. The goal of sampling is to collect representative samples that define the variability of the lithologies present. If significant variability in the acid generation or neutralization potential is identified in the initial sample test results, additional sampling to refine lithologic boundaries is necessary (California Mining Association 1991).
+Kinetic tests are often conducted to confirm results of static tests and estimate when and how fast acid generation will occur. The test provides insight on the rate of acid production and the water quality potentially produced and is used to evaluate treatment and control measures. Unlike static tests, there is no standardized method for evaluating test results. Data are examined for changes through time and water
+23
+
+
+ Acid Mine Drainage Prediction
+quality characteristics. Kinetic tests tend to accelerate the natural oxidation rate over those observed in the field. This may have the advantage of condensing time, and providing earlier insight into the potential for acid generation.
+Generally, kinetic tests are evaluated for changes in pH, sulfate, acidity and a host of potential metals. According to the B.C. AMD Task Force (1989), samples with pH values less than 3 are considered strongly acid; between 3 and 5 the sample is acid generating and there may be some neutralization occurring; at pH values >5, the sample is not significantly acid, or an alkaline source is neutralizing the acid. Sulfate is a byproduct of sulfide oxidation and can be used as a measure of the rate of oxidation and acid production. When evaluating test data it is important to examine the cumulative sulfate production curve as an indicator of sulfide oxidation, in addition to other parameters. An analysis of metals in the sample solution serves as an indicator of contaminant load but is not a good indicator of acid generation.
+Based on test data, decisions with respect to the mine plan are made. Similar to static tests, kinetic tests are refined to address variability of the geology. Information collected from kinetic tests, such as oxidation rates and water quality, are more commonly being used as inputs to models, which are discussed in the following section.
+2.4.1 Some Experience With Static and Kinetic Tests
+Ferguson estimated that for about 50 percent of the mines it is easy to determine whether acid generation is a problem, and noted that predicting the potential for the other 50 percent is more difficult (U.S. EPA 1992a). When data collected from static and kinetic tests is inconclusive it may be necessary to extrapolate from existing data using oxidation rates and other factors and project how a sample may react. The soundness of the extrapolation is dependent on the representativeness of the sample, accuracy of the tests data, and the interpretation of the data.
+Ferguson and Morin (1991) found that samples with an NP/AP ratio of less than 0.1 tended to produce acid during typical laboratory timeframes. They expected that if laboratory tests were conducted for longer time periods the NP/AP ratio would shift closer to 1 and did not speculate on what the values for NNP and NP/AP would be in the future. Extrapolating a sample's ability to generate acid was divided into short (less than one year), medium (a few years), and long-term (many years) time frames. Short term projections are based on laboratory data. Medium term projections require knowledge of the neutralization process, primarily consumption of carbonate. Long-term extrapolations of acid generation potential will require an understanding of weathering rinds and diffusion of oxygen into and reaction products out of that rind. Longterm projections were identified as being extremely problematic.
+Researchers in British Columbia, Canada, have examined results of static and kinetic tests conducted on tailings and waste rock (Ferguson and Morin 1991). The results are based on a study of 20 active or abandon mines in British Columbia. Their findings indicate that for tailings, only those samples having a negative NNP produced acid. The test method was not identified and the limitations are therefore not discussed here.
+24
+
+
+ Acid Mine Drainage Prediction
+According to this report, waste rock data from static tests is very limited and demonstrates the variability expected with these waste units. They observed that samples of waste rock that had weathered for one month (prior to sample collection) needed to be flushed initially to remove existing oxidation products.
+Lapakko (1990b) used solid phase characterization of the sample in conjunction with acid base accounting data and the rates of acid production and consumption to extrapolate information beyond the timeframe of kinetic tests. The rates of acid production and consumption were based on kinetic test results over a 20 week period. The time required to deplete sulfide and carbonate minerals was determined using rates established from kinetic tests. Based on these observations the time required to deplete the iron sulfide content was 950 weeks and the time to deplete the carbonate content was 40 weeks. This prediction agreed with an observed drop in pH between week 36 and week 56 from 8.7 to 6; after another 20 weeks the pH dropped below 5. This research appears to indicate that kinetic tests should be run for periods of at least 20 weeks in length.
+2.5 Mathematical Modeling of Acid Generation Potential
+As the preceding discussion indicates, static and kinetic testing provide only a partial picture of the potential of mine wastes to produce ARD. Static testing estimates the ultimate APP and NP of waste material but is generally silent with regard to the rates of generation of acidic and alkaline flows in actual waste matrices. Kinetic testing is more helpful with regard to estimating the rates of oxidation and neutralization. As discussed above, actual waste units can be very non-homogenous and anisotropic with respect to the distributions of mineral types, particle size, hydrologic conditions and so forth. Thus, while a given kinetic test may well approximate the potential for ARD in a portion of a waste unit, the result may not be representative of the "global" potential for ARD. Equally important is the practical limitation on the duration of kinetic tests: because kinetic tests are generally short-lived with respect to the potential period of persistence of AMD, they inadequately mimic the evolutionary nature of the process of acid generation.
+To overcome the uncertainties inherent in short-term testing, as well as avoid the prohibitive costs of very long-term testing, some researchers have developed mathematical models to aid in predicting the long-term effects on water quality of acid generating wastes. Predictive modelling offers the hope of providing tools for estimating the potential extent of acid generation prior to its occurrence. Ideally, such information may be compared for scenarios entailing alternative management options to identify the design, operating, and closure methods that best meet economic and environmental objectives. As a practical matter, existing AMD models fall short of the ideal. Nevertheless, these models may provide valuable information for planning purposes, and may have an important role in understanding and predicting AMD.
+2.5.1 Overview of Existing Models
+A number of distinct approaches to modelling ARD have emerged to date. In general, all the models attempt to describe the time-dependant behavior of one or more variables of a mine waste geochemical system in terms of observed behavior trends (empirical models) or chemical and/or physical processes that are believed to control ARD (deterministic models). Empirical models extrapolate values for the desired output variables
+25
+
+
+ Acid Mine Drainage Prediction
+(e.g., acid generation) from laboratory or field data (British Columbia AMD Task Force 1989). Deterministic models simulate the changes in system values according to the causal mechanisms relating each element of the system to the others.
+It is important to remember that all ARD models are simplifications of reality. Simplification is required by incomplete understanding of all factors influencing ARD. Simplification can substantially reduce the cost and time required to model the system under study. However, simplifying assumptions can lead to incorrect conclusions if they result in the omission of important causal mechanisms. For instance, failure to consider the presence of neutralizing materials in a waste pile could result in an overestimation of the rate of acid generation. Similarly, failure to consider hydrogeochemical conditions within a waste pile may preclude consideration of adsorption/precipitation reactions involving metals, thereby miscalculating the potential for metals loading in effluent streams. Because the importance of any given controlling factor may vary from site to site, the significance of a simplifying assumption for any particular modelling effort must be weighed carefully.
+2.5.2 Empirical Models
+As stated above, empirical models extrapolate values of sulfide oxidation from existing laboratory and field test data. The method of extrapolation typically involves determination of the "best-fit lines" through test data points (British Columbia AMD Task Force 1989). The equations so derived may then be solved to provide, for instance, the acid generation rate of a particular waste unit at some time in the future. Using the projected acid generation rate as an input to a separate hydrogeochemical model that accounts for attenuation of seepage constituents in soils and dilution in receiving waters, the estimated constituent loading rates and consequent receiving water quality at time T may be estimated (Broughton and Robertson 1991).
+Empirical models generally do not explicitly consider the causal mechanisms driving oxidation of sulfides and neutralization of seepage. Rather, such models assume that the operation of such controls is accurately represented in the test data. Therefore, the accuracy of empirical models in predicting AMD depends heavily on the quality of the test data used in the models. Principle sources of uncertainty may be expected to include variations in the spatial and particle size distribution of sulfide and alkaline minerals not captured by the data due to insufficient spacial distribution of samples; changes in the distribution of particle sizes throughout the waste unit (due to weathering) not captured by the data; and failure to accurately calibrate the model to reflect the actual quantity and type of materials disposed of (British Columbia AMD Task Force 1989).
+It is important to note that empirical models, by their nature, are site-specific. Because the models rely on actual trends observed at a specific site, rather than generic causal mechanisms, the best fit lines for one site can not be assumed to be representative for another site. Further, significant changes in waste unit composition, geometry, or controls over time may invalidate previous representativeness of empirical models. Nevertheless, empirical models may provide cost-effective and reasonably reliable estimations of short-term future AMD conditions for sites with sufficient spatial and temporal data.
+26
+
+
+ Acid Mine Drainage Prediction
+2.5.3 Deterministic Models
+Deterministic models simulate AMD by solving systems of equations that represent the various controlling factors in the waste reaction process (Broughton and Robertson 1991). The simulation approach allows the users to examine the potential sulfide oxidation rate and resulting seepage quality over periods of tens to hundreds of years in the future. The greatest promise of deterministic models is that they may allow the user to predict AMD as it evolves over time under the changing influence of rate controlling factors. Existing models have built upon earlier work on acid releases from coal mine spoils as well as work on leachate quality in metals heap leach operations (Nicholson 1992). The models may rely solely on the causal relationships described in the equations, or may include empirical data as exogenous drivers (outside the model structure) to solve for certain aspects of the system (Nicholson 1992; Broughton and Robertson 1991). The most important differences between the models lie in the particular causal mechanisms (e.g., oxygen diffusion, changing particle size, temperature variations due to exothermic reactions) addressed within each model structure.
+1
+Nicholson presents a review of AMD models. In that review, Shumate (1971) is credited with first recognizing that diffusion of oxygen within mine rock limits the overall rate of oxidation of sulfides
+1
+(Nicholson 1992). The first working models to incorporate this process (Morth 1972 , Rica and Chow
+11
+1974 ) used the acid generation rate to calculate resulting drainage water quality. Rittchie (1977) added to this concept by explicitly accounting for the removal of oxidized sulfur from the store of available unreacted sulfide. Other models have included convection as a means of oxygen transport within waste piles (Lu and Zhang undated). Convection may be influenced by changes in barometric pressure or by the release of heat from the exothermic oxidation of sulfides. Some researcher's have modelled the feedback mechanisms operating between temperature and biological and chemical oxidation rates, noting that the mechanism is only significant where waste permeabilities are high enough to allow convective oxygen transport to occur (Nicholson 1992).
+More recent models have addressed the hydrologic and geochemical conditions in waste unit matrices, as well as reaction product transport, to more realistically represent changes in seepage quality (Nicholson 1992).
+1
+Bennett (1990) and others found that water flow through the waste pile strongly influences sulfide oxidation rates by acting as a heat sink and removing heat produced by oxidation.
+11
+Jaynes et al. (1986) and Schafer (1991) have incorporated chemical equilibrium relationships of varying complexity to model the mobilization and attenuation of oxidation and dissolution products within the waste pile. These relationships drive the residence times of various constituents within "mixing cells" of the waste matrix, and, along with allowing for consumption of acid by alkaline materials, result in changes in effluent chemistry as conditions within the matrix evolve (Nicholson 1992).
+1As cited in Nicholson 1992.
+27
+
+
+ Acid Mine Drainage Prediction
+Model developments such as those listed above have significantly contributed to understanding of the processes controlling AMD. For instance, explicit consideration of oxygen diffusion reveals that, in instances where diffusion is restricted, fast processes such as biologically catalyzed oxidation can be unimportant to the overall rate of oxidation. Similarly, consideration of hydrologic flow within the waste matrix shows that the rate of release of oxidation products from waste piles depends strongly on the flow characteristics within the wastes (Nicholson 1992). More recent models have corroborated the proposition that waste dump geometry can be important to oxidation rates by influencing the surface area exposure and air infiltration rates (Nicholson 1992).
+2.6 Conclusions
+Notwithstanding the understanding that existing models have provided, AMD models to date have not found extensive applications in predicting oxidation rates and effluent quality at operating or proposed sites (Ferguson and Erickson 1988). As stated above, models are simplifications of reality, and consequently are subject to a high degree of uncertainty. Among the sources of uncertainty are incomplete or invalid model structure; natural variability of certain parameters; and lack of parameter calibration and model verification (British Columbia AMD Task Force 1989).
+Among the greatest concerns facing the reliability of predictive deterministic models are model calibration and validation. Model parameters must be adjusted to match the conditions prevailing at an actual site. Therefore, reliable waste characteristics, hydrologic and geochemical data must be collected and incorporated into the model structure. Validation requires comparison of model predictions with actual field sampling results. To date, the availability of field data for validation is very limited.
+CURRENT REGULATORY REQUIREMENTS
+28
+
+
+ Table 7. Summary of State Regulations for Acid Generation Prediction Testing (August 1994) (Continued)
+Acid Mine Drainage Prediction
+Regulatory programs for five states were reviewed for their requirements concerning acid generation prediction. A summary of the regulatory requirements for California, Minnesota, Idaho,
+29
+Regulations/Guidance Sampling Analysis
+e
+r
+id
+Nevada5
+Regulations address process components,
+Nevada regulations, § 445.242
+Guidance documents include the Nevada
+Division of Environmental Protection's
+(NDEP's) "Waste Rock and Overburden
+Evaluation" document, dated September 14,
+1990.
+This evaluation document requires the use of
+the Meteoric Water Mobility Test (MWMT) to
+determine a sample's potential to release
+pollutants. This test does not test for AGP, but
+is required as a precursor to acid generation
+tests. Procedural requirements for the MWMT
+are provided in NDEP's September 19, 1990
+guidance document titled, "Meteoric Water
+Mobility Procedure," dated September 19,
+1990.
+Wasterock and overburden must be evaluated for its potential to
+release pollutants and its acid generation potential. (NDEP 1990)
+Drill core samples should be collected during initial orebody
+definition, and used to characterize materials. Samples should be
+sent to an assay lab. During active mining operations, samples can
+be collected from remaining, saved, assayed materials to be
+"representatively composited" (not defined) on a quarterly basis fo
+on-going evaluations. Samples are also required of waste materia
+that were not subject to assaying. (NDEP 1990)
+A representative sampling program must consider lithological and
+mineralogical variation, the extent of "sulfide" mineralization, col
+variation, degree of fracturing and of oxidation, and extent of
+secondary mineralization. (NDEP 1990)
+The Meteoric Water Mobility Procedure should be used to determin
+the potential release of pollutants from samples. Consult NDEP's
+"Meteoric Water Mobility Procedure", dated September 19, 1990 fo
+specifics regarding the procedure requirements. Acid generation
+potential must be evaluated using the Static Test, Acid/Base
+Accounting procedure, to determine neutralization potential (NP).
+(NDEP 1990)
+r
+lsAcidification potential (AP) should be determined based on two
+alternatives: (1) determining total sulfur content, or (2) determining
+peroxide oxidizable sulphur. For alternative (1), compare results to
+NP. If NP exceeds AP value by 20%, material is considered non-acid
+orgenerating. If less than 20%, determine total sulfide sulfur content
+according toStandard Methods of Chemical Analys,eosr equivalent
+procedure. If NP is less than 20% greater than AP, kinetic testing
+must be initiated. For alternative (2), if NP value exceeds value by
+100%, material is non-acid generating. If less than 100%, initiate
+kinetic testing. (NDEP 1990)
+Operating facilities with positive acid generating results from static
+testing, must notify the NDEP and begin kinetic testing within 10
+days. Kinetic testing is required to be conducted according to
+procedures identified in attachment I. If kinetic testing confirms ac
+generating potential, containment/neutralization methods must be
+evaluated on site specific basis and proposed to the NDEP for
+approval. (NDEP 1990)
+(Source: Based on phone conversations with State personnel and collected documents)
+(Source: 1Humphries, 1994)
+(Source: 2Lapakko, 1994)
+(Source: 3Schuld, 1994)
+(Source: 4Miller, 1994)
+(Source: 5Gaskin, 1994)
+
+
+ Table 8. Summary of State Regulations for Acid Generation Prediction Testing (August 1994)
+Regulations/Guidance Sampling Analysis
+California1
+No specific requirements indicated. Each site is considered on a California is considering adoption of new regulations. These new
+Regulations: Waste classification under
+§2571C of Chapter 15, of the California Miningcase-by-case basis. regulations require testing of rock using a procedure for predicting
+Code. No other requirements specified. AMD. Neither specific static or kinetic testing procedures are
+identified. Test results would be analyzed and interpreted by the
+mining company or its contractor.
+The state sets a trigger level at a 3:1 ratio (NP/AP) with a 95 percent
+confidence interval. If samples do not meet this requirement, kinetic
+tests are required, or the mine has the option to develop a managemen
+plan for waste disposal.
+Minnesota2
+Regulations: Under §6132.1000 Mine Waste Sample types include material generated from exploration, preBased on results of analyses and tests, additional mine waste
+Characterization: production sampling, and process testing. An outline of chemical characterization may be required. May include laboratory dissolution
+and mineralogical analyses and laboratory tests must be conducted tests to describe a material's acid-producing and acid consuming
+and presented to the commissioner for use in evaluating mining andmineral content. (Minnesota §6132.100)
+reclamation plans. Mine waste characterization data submitted must
+include laboratory tests describing acid generation and dissolved Results of mine waste characterization data should be submitted
+solids release from mine waste. (Minnesota §6132.100) throughout the life of the operation to regulatory agencies establishin
+water quality and compliance monitoring standards. (Minnesota
+§6132.100)
+Idaho3
+Sampling should begin during exploration. The state requires that Idaho does not require the use of a specific static or kinetic test,
+Regulations: There are no formal policies or
+regulations that specifically address AMD. exploration plans stipulate that half the samples collected should behowever, the state must be informed of, and approve, the test
+Under Chapter 47-1513 of Idaho's Surface kept in storage. Storage should minimize potential for sample methodology selected. Tests are conducted by U.S. EPA approved
+Mining Act and Dredge and Placer Mining Act,weathering. CLP laboratories only.
+reclamation and operating plans are required
+that are protective of Idaho's water resources. Materials selected for sampling should include waste rock, Idaho uses BMPs in place of monitoring requirements to prevent any
+(Schuld 1993) overburden, and ore/subore. Composites of core samples should becontact of AMD with groundwater or surface waters of the State.
+obtained as samples. BMPs must function to avoid AMD generation, or should collect and
+Protocols based on BC Acid Mine Task Force treat AMD until it no longer exists.
+Report "Acid Rock Drainage Technical Guide."The number of samples obtained for AMD prediction testing should
+Also, a proposed "Policy Guidance be based on the size of probable ore reserves and overburden. Future goals for BMPs will include (1) Leachate
+Memorandum" has been submitted to the DEQ, Consult "Acid Rock Drainage Guide" or other technical guidance Detection/Collection Systems, (2) Closure requirements and
+but has not been signed by Administrator as of document, in addition to best professional judgement, to determine monitoring, and (3) Bonding.
+April 1993. (Schuld 1993) Under this policy, minimum number of samples. (Schuld 1993) The sampling interval
+Idaho may request Federal land managers is based on lithology and changes in units. If the ratio of acid potential (AP) to neutralization potential (NP) is
+(BLM, USFS) to determined AGP for sites on greater than 2:1, the State requires a kinetic test to be performed.
+Federal lands. Reporting should occur prior to excavation and continue after
+mining has commenced. Results of static tests must be reported in If State waters are impacted, an NOV and/or Consent Order may be
+order to prepare permit. issued, and other site specific requirements may be imposed.
+Acid Mine Drainage Prediction
+Table 7. Summary of State Regulations for Acid Generation Prediction Testing (August 1994)
+t
+g
+Montana,andNevada is presented in Table 7
+30
+
+
+ Acid Mine Drainage Prediction
+Table 7. Summary of State Regulations for Acid Generation Prediction Testing (August 1994) (Continued)
+Regulations/Guidance Sampling Analysis
+Montana4
+Regulations: Under Title 82, "Metal Mine
+Reclamation", § 82-4-336 (7), reclamation Sample collection is preferred during the advanced exploration st
+of project. This allows data to be compiled and long term leachate
+agFeor splits from each sample provide analyses for: total element or
+trace element and any static test. After data is reviewed and
+plans are required to provide for "...reclamation extraction tests to be performed before submittal for a mining permicto.mpared to average crustal abundances and/or regional background
+of disturbed land to comparable utility and Information requested includes descriptions of climate, topography,values, a carefully picked subset of samples should be analyzed usin
+est
+stability,...". The State interprets this to mean hydrology, vegetation, geology, mineralogy especially iron sulfidesa,ny humidity cell test method and/or any field leachate extraction t g
+both chemical and physical stability. Review and total element content for mineralized and unmineralized method to help establish limits for suitable and unsuitable material.
+and approval of reclamation plans gives the lithologies. The definition of "suitable" and "unsuitable" may vary with each site
+State the authority to reject plans that do not depending on the regional geology. Any laboratory and/or method
+adequately assess AMD potential. The number of samples to collect is dependent on the variability of
+the lithology/alteration assemblage. The British Columbia Draft may be used but must be approved by the agency prior to use.
+Rationale must be given as to why certain methods were used. Guidance:DRAFT, "Geochemical
+Characterization Checklist", Montana Task Force Guide (SRK, 1989) and the Saskatchewan Mine Rock
+Guidelines (SRK, 1992) are used as references for a rough guide asAfter all information has been compiled and reported for each suite,
+Department of State Lands. This provides to methods and sample sizes needed to characterize mine waste. decisions are made as to what materials are suitable for reclamation
+specific recommendations that are only purposes and which materials are unsuitable and need to be isolated.
+summarized in this table. Samples should not be composited if possible. Samples should be
+split 4 ways. For each sample please record: sample location,
+sample description including mineralogy/petrology especially
+sulphur fractionation and carbonates, grain size and crystal form o
+iron sulfides, particle size distribution, paste pH, and slaking
+characteristics after Brodie et al, 1991.
+Two suites of samples should be collected.
+1) Collect representative samples from each lithology for a refere
+suite. This suite should incorporate samples from unmineralized
+areas to establish regional background. The "representativeness"
+each sample should be determined by the geologist who is most
+familiar with the site. This sample set will be biased.
+The above mentioned testing sequence will not predict whether a
+material will produce contaminants. It will define which
+lithologies/alteration assemblages are suspect with respect to
+fcontaminant production and should be segregated from the suitable
+waste materials. Independent interpretations of the data set can be
+forwarded but the agencies' interpretation will comprise the effectiv
+recommendation. Testing should be ongoing throughout mine life
+better substantiate preliminary conclusions made during the
+permitting process.
+ce
+n More detail and references are given in "Permitting Guidelines for
+forMine Rock Characterization" available from the Department of Sta
+Lands, Hard Rock Bureau, 1625 11th Ave, Helena, MT 59620.
+(406) 444-2074.
+e
+to
+te
+2) Collect random samples over the entire deposit to limit bias. T
+sample set will be much larger than the representative suite. At le
+8 samples should be analyzed for each lithology or alteration
+assemblage. A statistical analysis of the data should be compiled.
+hi(sReferences: Brodie, 1991; Steffen et al, 1989; Steffen et al, 1992)
+ast
+31
+
+
+ Acid Mine Drainage Prediction
+. In addition, the U.S. Forest Service is developing a protocol. In the meantime, the acid generating potential associated with mines on Forest Service land is considered on a case-by-case basis as part of their review of proposed plans of operation.
+3. CASE HISTORIES
+Presented below are selected case studies for mines where acid drainage from mine wastes or mine works has occurred. Both active sites and sites on the National Priorities List are described. The active sites were selected to represent sites where the potential to generate acid was either not considered, or not expected, but later developed. Case histories for the Newmont Rain facility in Nevada, Cyprus Thompson Creek in Idaho, and the LTV Steel Mining Company Dunka site in Minnesota are presented below in Sections 4.1, 4.2, and 4.3, respectively. EPA visited each of these sites to further its understanding of the mining industry. Each site has experienced acid generation problems; however, it is important to note that each is also taking corrective action to mitigate the problem. The companies are working with appropriate State and Federal agencies to determine long-term treatment needs.
+The EPA (1991) has prepared National Priorities List (NPL) Site Summary Reports for the mining sites on the NPL. NPL sites were selected from these reports if acid generation was identified as a problem. Using this criteria, seven of 56 mining-related sites were selected for review. The purpose of the review was to determine if acid generation predictive tests were conducted at individual sites, and if such tests were conducted, how the data were used. The review included examination of available literature on each site and interviews with each site's Remedial Project Manager (RPM). Based on incomplete information for the seven sites studied, tests for either acid prediction or pH prediction have not been conducted at Silver Bow Creek, Eagle Mountain Mine, Tar Creek, and Whitewood Creek. Eagle Mountain Mine and Silver Bow Creek have not conducted prediction tests because acid generation is such a clear and extreme problem (Taylor 1993, Forba 1993, and Overbay 1993).
+Sites that have assessed the acid generation potential include Clear Creek/Central City, California Gulch, and Iron Mountain. At Clear Creek acid/base potentials were calculated for waste materials and potential acid generation testing is being required by the City of Clear Creek for any new development that disturbs the ground. Both the RPM and State contact for Iron Mountain indicate that acid generation predictive tests have been done while mucking out tunnels. Acid generation prediction has also occurred at California Gulch. Further details on the sampling and analytical methods used to predict acid generation have not been obtained. Sections 4.4 through 4.7 provide details on acid generation prediction experiences at these three NPL sites (Fliniau 1993, Hyman 1993, and Sugarek 1993).
+32
+
+
+ Acid Mine Drainage Prediction
+3.1 Newmont Rain Facility, Elko County, NV
+3.1.1 Introduction
+EPA visited Newmont Gold Company's Rain facility in September of 1991 (U.S. EPA 1992b). The facility is located on approximately 627 acres, 9 miles southeast of Carlin in Elko County, Nevada. The facility is a mining-milling-leaching operation for beneficiating disseminated gold ore. Ore and waste rock are mined from an open pit. Of the ore removed from the mine, over forty percent is milled and beneficiated by the carbon-in-leach method at a current rate of about 840,000 tons per year (TPY). The remaining ore (about 1,000,000 tons per year) is leached using a modified heap method referred to as a valley leach. An average of 35,000 tons of material was being removed from the mine each day as of late 1991. Of this, 5,500 tons was ore grade, 29,500 tons was waste rock. This rate varies between 7,000 and 40,000 tons per day, respectively.
+Most of the ore-grade material is taken from the oxidized sediments of the Webb Formation, proximal to the Rain fault. Gold concentrations in this material range from 0.01 to 0.15 ounces of gold per ton of rock. According to Newmont, sulfide-bearing rock does not contain gold in sufficient quantity to be economically recoverable, and is therefore disposed of as waste rock.
+3.1.2 Waste Rock
+Projected waste rock tonnage was estimated to be 41.4 million tons by the end of 1990, and 62.5 million tons during the life of the mine. In late 1991, the waste rock dump covered 211 acres north and east of the pit. Waste rock production from the pit averaged 29,500 tons per day. Of this, 7,500 tons were sulfidic and 22,000 tons oxide. Newmont had estimated that by mine closure in 1995, there will be 62.5 million tons of waste rock; of this, 77.8 percent was expected to be mostly oxidized mixed sedimentary material of the Webb Formation (some of which will contain sulfide mineralization), 15.4 percent carbonaceous and potentially sulfidic, 4.3 percent limestone of the Devil's Gate Formation, and 2.5 percent alluvium from surface deposits.
+Prior to the spring of 1990, sulfide, oxide, and calcareous waste rock were disposed of together. On May 8, 1990, acid drainage was observed flowing from the base of the waste rock dump and into the unnamed drainage above Emigrant Spring, toward Dixie Creek. Inspection of the drainage downstream of the dump revealed that approximately two miles of the channel contained a red-brown precipitate. Discharge to the drainage was estimated by Newmont to be 3 gpm. According to Newmont, snow removed from the roads was disposed of on the waste dump. As the snow melted, it infiltrated the waste rock pile, oxidizing sulfurbearing minerals and generating acid. The solution migrated along pre-mining topography and discharged at the toe of the dump.
+Surface-water samples were taken along 5 points in the drainage above and below Emigrant Spring in May, June, and July of 1990. They showed pH values ranging from 2.37 to 3.21 near the base of the waste rock at the discharge point, and from 6.5 to 8.64 about 4,000 feet downstream. Arsenic levels near the effluent point
+33
+
+
+ Acid Mine Drainage Prediction
+were 46 ppm in May and 1.5 ppm in July; at the distant sampling point, arsenic levels were 0.023 ppm in May and 0.005 ppm in July. Mercury levels near the discharge point were 0.19 ppm in May and 0.0019 ppm in July; at the distant sampling point, mercury levels were <0.0001 ppm in May and 0.0003 ppm in July.
+3.1.3 Acid Generation Prediction
+Following detection of the acid generation in 1991, Newmont's Rain facility Water Pollution Control Permit was revised. As part of the revised Permit, Newmont is required to report quarterly on results of Meteoric Water Mobility testing and Waste Rock Analysis. The meteoric water mobility test is an extraction procedure that determines moisture content of the waste, percent of a sample passing -200 mesh, pH of deionized water, and final pH of extract (following 24-hour extraction time). Following the meteoric water mobility test, total carbon, organic-carbon, and sulfur assays are obtained on the composite waste sample by combustion-infrared analysis to measure sulfur and sulfide contents, and to estimate carbonate content. Acid neutralization potential is then measured using titration. The extracted solution is analyzed for nitrate, phosphorous, chloride, fluoride, total dissolved solids, alkalinity, sulfate, and metals. Waste rock analysis is intended to determine the net acid generation potential of the material placed in the waste rock dump during the quarter.
+Data for the third and fourth quarters of 1990 and the first quarter of 1991 were examined by EPA following the site visit (U.S. EPA 1992b). Third quarter results for the waste rock analysis indicated a net acid generation potential of -10.6 tons of CaCO for each 1,000 tons of waste. This suggests that the wastes
+3
+generated during this quarter had sufficient buffering capacity to neutralize any acid solution generated by sulfidic material. Fourth quarter results showed a large shift, with an acid generating potential of 5.35 tons of CaCO for each 1,000 tons of waste. The total acid generating potential of waste rock disposed during this
+3
+quarter was equivalent to the amount of acid neutralized by 5.35 tons of CaCO for each 1,000 tons of waste
+3
+rock. For the first quarter of 1991, waste rock analysis data showed a net acid generating potential of 8.57 tons. In these circumstances, Newmont is required to perform kinetic testing according to State of Nevada protocol. Results of this analysis were not available; however, in the third Quarterly Monitoring Report for 1991, Newmont indicated that column studies were underway to fulfill this requirement.
+3.1.4 Treatment
+In response to the drainage, Newmont took the following actions. By May 9 (one day after the drainage was noted), a small pond was constructed to collect the flow from the dump. On May 11, an HDPE liner was installed in the pond, and on May 18, Newmont constructed a cutoff trench across the channel downstream of the collection pond to collect subsurface solution. The trench was twenty feet deep and forty feet across and included a HDPE liner. Inflow to this trench was pumped to the collection pond and then trucked to the tailings impoundment for disposal.
+The State and BLM approved Newmont's long-term mitigation plan with construction beginning in November of 1990, and completed in March of 1991. The solution collection and return system consists of
+34
+
+
+ Acid Mine Drainage Prediction
+surface and subsurface water collection and recovery system. Surface water is collected in a ditch and drains to a sump located at the toe of the waste rock pile. Drainage collected in the sump drains by gravity to a 200,000-gallon capacity, double-lined pond. Subsurface flow is recovered in an HDPE-lined trench and also drains to the double-lined pond. Flows average 23.8 gpm with a maximum of 183 gpm. In the event of a power failure, the pond has a capacity to retain in excess of 65 hours of inflow at the maximum projected flow rate. In addition, storm water from the surface of the waste rock dump and surrounding area is collected in a single-lined, 600,000-gallon pond located just below the double-lined pond. Solution from both ponds is pumped to the mill area and added to the tailings pipeline.
+As a long-term mitigation/prevention measure, Newmont began encapsulating sulfidic waste rock within oxidized and/or calcareous waste rock that has either no net acid generating potential or some acid neutralizing potential. As of late 1991, this was being accomplished by placing a pervious layer of coarse oxidized waste rock on the native soil. On this, five feet of compacted oxidized ore was placed. Additional oxide ore was placed against the natural hillslope to act as a barrier. These layers were to act as barriers to water movement into and out of the sulfidic waste rock. Following these steps, sulfidic waste rock was placed on and in front of the oxide ore. Several lifts were expected to be added to the sulfidic waste pile. In addition, haul trucks follow random routes during construction to compact the material, thereby reducing its permeability. Eventually, the front edge and top will be covered with 15 feet of oxidized material to complete the encapsulation. Prior to encapsulation, sulfide waste rock will be mixed with oxidized material or the limited quantity of calcarious material available to buffer any acidic solution generated. The sulfidic materials are fine to coarse grain sedimentary rocks extracted primarily from the Webb Formation.
+Neither the draft nor the final Environmental Assessment prepared for the Rain Facility discussed the potential for sulfidic material to generate acid drainage.
+3.2 Cyprus Thompson Creek, Challis, ID
+3.2.1 Introduction
+EPA conducted a site visit of the Cyprus Minerals Corporation Thompson Creek (Cyprus) facility in September 1991 (U.S. EPA 1992c). Cyprus mines molybdenite (molybdenum disulfide, MoS ) from an open
+2
+pit mine near Challis in central Idaho. Cyprus staked its first mineral claims at Thompson Creek in 1967. In 1981, mining operations began and the first concentrates were produced in 1983. In late 1991, the Cyprus Thompson Creek Mine site consisted of (1) an open pit mine and two waste rock dumps; (2) a primary in-pit crusher; (3) a mill with grinding and flotation, and (4) a tailings impoundment.
+Cyprus has been conducting a study to investigate the potential for the waste dumps and the tailings impoundment to generate AMD. The results of the AMD study of the waste rock and tailings were to be provided to USFS by March 1, 1992. Proposed revisions to the facility's reclamation plan were also to be submitted to the U.S. Forest Service (U.S.FS). According to USFS personnel, the revisions to the Plan of Operations were to be subjected to the environmental review requirements of National Environmental Policy
+35
+
+
+ Acid Mine Drainage Prediction
+Act (NEPA). This review may include preparation of a supplemental Environmental Impact Statement (U.S. EPA 1992c). The AMD study has been requested.
+3.2.2 Waste Rock
+When mining began in 1981, approximately 130 million tons of overburden were initially removed as "pre production stripping." Most of the overburden was placed in two waste rock dumps (the Buckskin and Pat Hughes dumps) located adjacent to the pit. In 1990, approximately 16.2 million cubic yards of waste rock were generated, consisting mainly of metasediment, quartz monzonite, challis volcanics, and clayey rock (i.e., decomposed volcanics).
+3.2.3 Acid Generation Prediction
+Both intrusive and metasedimentary rocks have high sulfur content (up to 1.13 and 1.66 percent, respectively). Therefore, in 1990, Cyprus began a study of the potential for AMD generation from the waste rock and tailings, using both static and kinetic test methods. As of late 1991, static testing had been performed on twenty intrusive rock, and 58 metasedimentary rock samples collected from both the lower and upper benches of the pit. For each sample, Cyprus calculated the neutralization potential (NP) and the acid generation potential (AP) to determine the net neutralization potential (NNP) and the NP/AP ratio. The NNP represents the neutralization potential (the tons of calcium carbonate required to neutralize 1,000 tons of waste rock) minus acid generation potential (calculated based on the total sulfur content). According to Cyprus personnel, waste rock with an NP/AP ratio in excess of 3:1 was considered non-acid generating. According to USFS personnel, a NP/AP ratio of at least 5:1 should be required before a material is determined to be non-acid forming (U.S. EPA 1992c).
+Static testing of eight intrusive rock samples from the lower benches of the pit, close to the ore zone, yielded an average net neutralization potential (NNP), and neutralization ratio (NP/AP) of 0.53 and 1.88:1, respectively. These results exhibited more AMD potential than the average NNP (4.93) and average NP/AP (3.80:1) values obtained from 12 intrusive rock samples from the upper bench. They indicate a greater potential for AMD with intrusive waste rock in the vicinity of the ore zone. The AMD potential decreased with distance from the ore zone. The difference between intrusive rock samples collected from the upper and lower benches was believed to be caused by a relatively predictable pattern of mineralization and alteration zoning around the ore body.
+According to Cyprus, the metasedimentary rocks did not appear to be sources of AMD. Cyprus has performed static testing on the metasedimentary rock in the lower benches and found average NNP and NP/AP values of 24.95 and 3.11:1, respectively. It should be noted that, while the metasedimentary rocks are considered non-acid forming by Cyprus (NP/AP greater than 3:1), the average NP/AP ratio is less than the minimum (5:1) ratio suggested by the USFS. Metasedimentary rock samples obtained from the upper benches showed average NNP and NP/AP values of 19.02 and 8.52:1, respectively. Though the average
+36
+
+
+ Acid Mine Drainage Prediction
+NNP value did not increase in samples from the upper bench, the NP/AP ratio increased significantly, supporting the theory that AMD potential decreases with distance from the ore zone.
+Kinetic testing of intrusive and metasedimentary rock was ongoing in 1991 for those static test samples showing acid generating potential. Results of these tests were to be incorporated into the AMD study as they became available.
+3.2.4 Tailings
+During the ongoing acid drainage study, indications of acid generation were found in the tailings. As of late 1991, the tailings impoundment covered a total of approximately 150 acres with the embankment covering about 60-70 acres and the tailings pond behind the embankment approximately 90 acres. According to Cyprus personnel, tailings oxidation to a depth of several feet had been evident for over two years (U.S. EPA 1992c).
+3.2.5 Acid Generation Prediction
+In October 1990, ten hollow stem auger borings were completed in the tailings embankment. Samples collected from the these borings were subjected to humidity cell testing, and showed that the average sulfur content of the tailings sands was 0.79 percent and the pH ranged from 3.5 to 7.3 s.u. (Analyses of tailings sands have shown pH levels as low as 3.0 s.u.) In addition, of eight samples tested, six produced elevated iron and sulfate concentrations, and associated increased acidity, within a 15-week test period. The kinetic tests affirm the reactive nature of the tailings found in static test results.
+According to Cyprus personnel, the tailings pond and the seepage return pond were not a problem (pH > 5.7 s.u.). However, in 1991, Cyprus conducted a water quality trend analysis for six surface water quality monitoring locations in the tailings impoundment area. These locations included the main drain of the rock toe, springs located on the left and right abutments of the rock toe, the discharge from the rock toe, the sump below the seepage return pond dam, and Bruno Creek (immediately downstream of the sump). This analysis found that during the period 1981-1990, (1) pH decreased at four locations (but not at the left and right abutment springs), (2) sulfate had increased at all locations, (3) iron had increased at four locations (not at the left and right abutment springs), and (4) no trends in zinc, copper, or arsenic were recognized. The increase in sulfate concentrations was attributed to tailings oxidation and acid generation.
+3.2.6 Treatment
+Cyprus applied trisodium phosphate (TSP) to tailings embankment sand to address the AMD problem. Previous column testing had found that TSP addition increased the pH, and reduced iron concentrations in leachate samples. According to Cyprus's consultant, two TSP tests, humidity cell tests and large scale tests, were being conducted in 1991 to determine TSP's effectiveness in controlling AMD from the embankment, and maintaining impoundment water quality. However, because the tailings impoundment unit has no
+37
+
+
+ Acid Mine Drainage Prediction
+discharge and water from the impoundment, seepage return pond, and pump back system is returned to the mill, the TSP application were expected to cause elevated phosphorus levels in the reclaim water. Cyprus personnel indicated these levels may adversely affect flotation operations and that this issue was being studied.
+Cyprus' original plan for reclamation of the tailings impoundment indicates that Cyprus initially anticipated that water quality standards could be met by diluting impoundment seepage with natural runoff. No water treatment beyond sediment control was expected to be required. However, the original reclamation plan did not consider the AMD issue. According to Cyprus personnel, the AMD problem could extend well beyond the life of the mine and perpetual care/treatment may be necessary. Therefore, Cyprus was evaluating remedial alternatives (other than perpetual care) and was preparing to submit a revised tailings pond reclamation plan (as a modification to their operating plan).
+Alternatives to be considered included installing an additional flotation unit to remove pyrite and/or in-place treatment of tailings with trisodium phosphate as a buffer. Preliminary flotation tests have been conducted to investigate the possibility of removing sulfides from the tailings prior to disposal in the impoundment. Test results indicated that a high percentage of pyrite may be recovered. Limited static testing performed on a whole tailings sample from which pyrite was recovered indicated a NP/AP ratio in excess of 4:1 compared to an average value of 0.84:1 for all tailings analyses.
+According to Cyprus personnel, oxidation had only been found to occur in the top two to three feet of tailings (despite the results of analyses of the 1990 borehole samples that showed oxidation at all depths down to 150 feet). Therefore, an additional alternative under consideration was to encapsulate the tailings. Information on specific types of cover materials was not provided. Additionally, Cyprus was investigating the potential use of wetlands treatment.
+3.3 LTV Steel Mining Company, The Dunka Site, Minnesota
+3.3.1 Introduction
+EPA visited the LTV's Dunka site in August 1991 (U.S. EPA 1992d). The site is located approximately 20 miles northeast of LTV Steel Mining Company's (LTV SMCo.) Hoyt Lakes facility. The site is on private, State, Bureau of Land Management, and U.S. Forest Service lands; LTV SMCo. holds surface and mineral leases for the area. The Dunka pit is part of the eastern-most extension of the Biwabik iron formation and is one of the smaller pits on the Mesabi Range at three miles in length. Although additional material may be removed from the pit for beneficiation, in 1991, plans called for no further exploration activity at the site or enlargement of the pit.
+38
+
+
+ Acid Mine Drainage Prediction
+3.3.2 The Acid-Generating Duluth Complex
+The taconite ore at the Dunka site contacts Duluth Complex material (DCM), which must be removed to reach portions of the taconite ore deposit. The Duluth Complex is a sulfur-containing, mafic intrusive rock unit, considered to be one of the largest known sources of copper and nickel resources. As of late 1991, LTV SMCo. had removed and placed in "gabbro" stockpiles approximately 50 million tons of Duluth Complex material containing an average of more than 0.2 mass percent copper oxides and/or 0.05 mass percent nickel oxides as gabbro stockpiles.
+The remaining Duluth Complex material stockpiles were categorized as waste rock stockpiles and are made up of material containing less than 0.2 percent copper oxide and less than 0.05 percent nickel. Since these waste rock stockpiles were constructed in 1976, monitoring of drainage from the piles has revealed a decrease in pH levels, as well as an increase in trace metal concentrations. Copper and nickel concentrations as high as 1.7 and 40 mg/L, respectively, were observed in seepage/runoff from Duluth Complex waste rock stockpiles at the site. In addition, during sampling conducted by the Minnesota Department of Natural Resources between 1976 and 1980, pH values as low as 5.0 at Seep 1 were reported.
+3.3.3 Acid Rock Drainage Prediction Methods
+To address this drainage, the Minnesota Department of Natural Resources in conjunction with LTV SMCo., constructed full scale test piles of the Duluth Complex material to monitor its acid generation potential. The MDNR continues to monitor the test piles and study acid generation. Lapakko (1988) conducted kinetic tests of Duluth Complex material using a humidity cell. Nine samples were selected from core material and one sample from a test stockpile. This experimental method was selected based on ongoing field test results, which demonstrated a strong correlation between sulfur content, trace metal mobility, and acid production. Laboratory scale tests provided better control and simplified analysis. Sulfur content was identified as the independent variable. Samples that had variable sulfur content were selected. Part of the study was to determine the feasibility of extrapolating laboratory results to operational conditions.
+Each cell was loaded with 75 gram rock samples passing 100 mesh but less than 270 mesh. Samples were rinsed with 200 ml of distilled-deionized water, which was allowed to remain in contact with the sample for five minutes. Rinse water was collected and filtered through a 45 micron filter. At the beginning of the experiment, the samples were rinsed five times to remove oxidation products generated during sample preparation. Two rinses were used each week during the remainder of the experiment. Between the weekly rinsings, the samples were stored in a box fitted with temperature and humidity controls.
+The laboratory study found that drainage pH decreased as the sulfur content of the sample increased. Drainage pH also decreased as the experiment time increased. Both of these findings are consistent with field observations on pH variation correlated with sulfur content and time. Based on the data, Lapakko (1988) concluded that the small particles (<2.0 mm) have a large influence on field stockpile drainage quality. The weighted average sulfur content for particles in this fraction is 1 percent compared to 0.6 percent in the bulk
+39
+
+
+ Acid Mine Drainage Prediction
+rock. Most of the sulfur occurs as pyrrhotite. The higher sulfur content combined with the higher surface area of these particles make this fraction susceptible to more intense oxidation reactions.
+3.3.4 Environmental Risks
+Toxicity testing of the leachate showed that copper and nickel concentrations exceeded the 48-hour lethal concentration (LC50) for Daphnia pulicaria; nickel concentrations also exceeded the 96-hour LC50 for fathead minnow. Concentrations of calcium, magnesium, and sulfate in the stockpile drainage were also elevated. According to LTV SMCo., there was some question whether the metals were the toxic agent.
+Most of the seepage from waste rock piles at the Dunka site has historically been discharged to Unnamed Creek. Unnamed Creek flows into Bob Bay, a part of Birch Lake. In a 1976-1977 study of trace metals in Bob Bay, it was found that concentrations of copper, nickel, cobalt, and zinc in the waters of the Bay were higher than the regional average concentrations and decreased with distance from the mouth of Unnamed Creek. Elevated metal concentrations were also observed in the sediments, as well as in aquatic plant and clam tissue. In the study, it was estimated that the total discharge from the Dunka watershed into Bob Bay through Unnamed Creek was 500 million gallons per year. Unnamed Creek contributes more than 90 percent of the trace metals load to Bob's Bay. Annual loading is over one ton of nickel. Less than 40 percent of this nickel load was found to be removed from the system through natural lake processes. According to LTV SMCo., carbon dating of sediment samples from Bob Bay indicates significant metal concentrations which predate mining.
+3.3.5 Treatment
+As of late 1991, the State and LTV SMCo. were working to develop technologies to mitigate leachate generation and release of trace metals associated with stockpile drainage. The technologies being tested and employed included pile capping/channeling to limit infiltration, active treatment in a neutralization pond to lower pH and remove metals, and use of artificial wetlands to remove metals. The ultimate goal was a passive treatment system that would require little or no maintenance (U.S. EPA 1992d).
+3.4 California Gulch
+The California Gulch NPL site is located in the upper Arkansas River Valley in Lake County, Colorado. It is bounded by the Arkansas River to the west and the Mosquito Mountains to the east, and is approximately 100 miles southwest of Denver. The study area for the remedial action encompasses approximately 15 square miles, and includes California Gulch and the City of Leadville. California Gulch is a tributary of the Arkansas River. Mining for lead, zinc, and gold has occurred in the area since the late 1800's. This site was added to the NPL in 1983 (U.S. EPA, 1991).
+A Remedial Investigation conducted by EPA in 1984 indicated that the area is contaminated with metals (including cadmium, copper, lead, and zinc migrating from numerous abandoned and active mining
+40
+
+
+ Acid Mine Drainage Prediction
+operations). A primary source of the metals contamination in the Arkansas River is acid-mine drainage from the Yak Tunnel into California Gulch. The Yak Tunnel was built to drain the mine workings in the area of California Gulch. The acid dissolves and mobilizes cadmium, copper, iron, lead, manganese, zinc, and other metals. The tunnel and its laterals and drifts collect this metal-laden acidic water, and drain it to the tunnel portal. The tunnel drains into California Gulch and then to the Arkansas River. The Yak Tunnel's discharge contributes to the contamination of California Gulch, the Arkansas River, and the associated shallow alluvial ground-water and sediment systems. From previous investigations and sampling data, it was concluded that, as of the early 1980's, the Yak Tunnel discharged a combined total of 210 tons per year of cadmium, lead, copper, manganese, iron, and zinc into California Gulch, which is biologically sterile (U.S. EPA 1991). Results of acid generation predictive tests of tailings and waste rock samples were not available for this report.
+3.5 Clear Creek/Central City
+The Clear Creek/Central City NPL site is located approximately 30 miles west of Denver, Colorado, and includes the Clear Creek mainstem and the North and West Forks of Clear Creek. Active operations, which began in 1859, include gold, silver, copper, lead, molybdenum, and zinc mining. Initial investigations at the site focused on the discharges of Acid Mine Drainage (AMD) and milling and mining wastes from five mines/tunnels in the Clear Creek and North Clear Creek Drainages. The five mines/tunnels of interest are: (1) the Argo Tunnel; (2) the Big Five; (3) the National Tunnel; (4) the Gregory Incline; and (5) the Quartz Hill Tunnel. The first two are portals along Clear Creek and the last three are in the North Clear Creek Drainage. They are close to the Cities of Idaho Springs, Black Hawk, and Central City. Associated with the AMD is contamination of surface drainages by metals in solution such as cadmium, chromium (VI), lead, manganese, nickel, and silver (U.S. EPA 1991).
+Acid/base potentials, similar to acid/base accounting, of waste materials were tested as part of the Remedial Investigation. The acid/base potentials (NNP) were calculated as the neutralization potential (NP) minus the potential acidity (AP). Results indicated that waste materials at the Gregory Incline, the Quartz Hill Tunnel, and the Argo Tunnel have the capacity to generate large quantities of acid leachate. The mill tailings at the Gregory Incline are especially capable of producing acid through the oxidation of large quantities of pyrite. For example, the average acid potential for the Gregory Incline mill tailings was -21.5, the waste rock was 1.7, and the alluvium was 11.6 (a negative acid/base potential indicates acid forming potential). In the waste rock and alluvium, 11 of 18 and 2 of 13 samples showed acid forming potential. Information on the types of sampling and analytical methods used was not available.
+The City of Blackhawk, with guidance from EPA, is requiring, through a city ordinance, acid generation potential testing of onsite materials prior to any development activities. Central City is in the process of doing the same. The ordinance requires that, for any excavation or site development, a sample collection plan that includes chemical analysis of acid-base potential must be prepared. The ordnance requires that the tests conform to the methods outlined in EPA-670/2-74-070, Mine Spoil Potential for Soil and Water Quality or an equivalent method, and that sampling must be representative of the conditions at the property. If the
+41
+
+
+ Acid Mine Drainage Prediction
+acid/base potential is negative, the applicant must have a mitigation plan approved by the city (Fliniau, 1993).
+3.6 Iron Mountain Mine
+The Iron Mountain Mine is a 4,400-acre NPL site in Shasta County, California, approximately nine miles northwest of the City of Redding. Between 1865 and 1963, the area was used for the mining and processing of copper, silver, gold, zinc, and pyrite. In 1983, Iron Mountain Mine was added to the NPL. Acid mine drainage, leaching from both the underground mine workings and from the tailings piles located at the site, is causing zinc, cadmium, and copper contamination of the Spring Creek Watershed and the Sacramento River. Environmental damage is primarily in the Sacramento River and tributaries in the Spring Creek and Flat Creek watersheds, where fishery productivity loss and periodic fish kills have been observed. Drinking water drawn from the Sacramento River for the City of Redding (population 50,000) is also threatened (U.S. EPA 1991).
+In general, acid mine drainage generation is seasonal and is accelerated during periods of heavy rainfall. According to EPA, the annual average rate of acid mine drainage at the site is 100 gallons per minute (gpm) with peak flows of 300 to 600 gpm. The average loading per day to the Spring Creek Watershed from Iron Mountain Mine is 423 lbs of copper, 1,466 lbs of zinc, and 10.4 lbs of cadmium (U.S. EPA 1991, Biggs 1991).
+According to the Remedial Project Manager acid generation potential tests were conducted while the tunnels were being mucked out. The procedures used are those required by California State law. Information on test results and sampling and analytical methods used was not available (Hyman 1993 and Sugarek 1993).
+3.7 Silver Bow Creek/Butte Area Site
+The Silver Bow Creek/Butte Area NPL site is one of four separate but contiguous Superfund Sites located along the course of the Clark Fork River in southwestern Montana. The Silver Bow Creek/Butte Area Superfund Site is the largest (450 acres) and most complex of the four sites. The site was listed on the NPL in 1983. The Silver Bow Creek/Butte Area site includes the Cities of Butte and Walkerville (population 38,000), the Berkeley Pit (a nonoperating open-pit copper mine); numerous underground mine workings; the Continental Pit (operated by Montana Resources); Silver Bow Creek; Warm Springs Ponds (mine tailings); and Rocker Timber Framing and Treating Plant.
+In the early 1980s the Berkely Pit open pit mine was closed and dewatering pumps were shut down. As a result, the interconnected underground workings and the open pit began filling with water. EPA is concerned with the waters filling Berkeley Pit because they are highly acidic (the RI shows pH values ranging between 2.5 and 3.3, depending upon at what depth the samples were taken) and contain high concentrations of copper, iron, manganese, lead, arsenic, cadmium, zinc, and sulfates. If the water continues to rise in the Berkeley Pit, contaminated water may eventually flow into shallow ground water (alluvial aquifer) and into
+42
+
+
+ Acid Mine Drainage Prediction
+Silver Bow Creek, creating the potential for significant environmental impacts and human health problems (U.S. EPA 1991). There have been no tests performed to predict pH changes either in Berkely Pit or the drainages that feed the Berkely Pit (Forba 1993). Total acidity has been tested for some samples collected at the Silver Bow Creek site. Information on the materials sampled, analytical methods, and results were not available.
+43
+
+
+ Acid Mine Drainage Prediction
+4. REFERENCES
+Biggs, F., 1991, Remediation Progress at the Iron Mountain Mine Superfund Site, California, Bureau of Mines Information Circular, IC 9289.
+Bradham, W.S., and F.T. Caruccio, 1990. A Comparative Study of Tailings Analysis using Acid/Base Accounting, Cells, Columns and Soxhelets. Proceeding of the 1990 Mining and Reclamation Conference and Exhibition, Charleston, WV, April 23-26, 1990. p.19-25.
+British Columbia AMD Task Force, December 1989. Acid Rock Drainage Draft Technical Guide, Volumes I and II. Report 66002/2. Prepared for the British Columbia AMD Task Force by SRK, Inc.
+British Columbia AMD Task Force, 1990 (August). Monitoring Acid Mine Drainage. Prepared by E. Robertson in association with Steffen Robertson and Kirsten (B.C.) Inc. Bitech Publishing, Richmond, B.C.
+Brodie, M.J., L.M. Broughton, and Dr. A. MacG. Robertson, 1991. A Conceptual Rock Classification System for Waste Management and a Laboratory Method for ARD Prediction From Rock Piles. In Second International Conference on the Abatement of Acidic Drainage. Conference Proceedings, Volumes 1 - 4, September 16, 17, and 18, 1991, Montreal, Canada.
+Broughton, L.M. and Dr. A. MacG. Robertson, 1991. Modeling of Leachate Quality From Acid Generation Waste Dumps. In Second International Conference on the Abatement of Acidic Drainage. Conference Proceedings, Volumes 1 - 4, September 16, 17, and 18, 1991, Montreal, Canada.
+Broughton, L.M. and Dr. A. MacG. Robertson, 1992. Acid Rock Drainage From Mines - Where Are We Now. Steffen, Robertson and Kirsten, Vancouver, B.C. Internal Draft Paper.
+Bruynesteyn, A. and R. Hackl, 1982. Evaluation of Acid Production Potential of Mining Waste Materials. Minerals and the Environment 4(1).
+California Mining Association, 1991. Mine Waste Management. Edited and Authored by Ian Hutchison and Richard D. Ellison. Sponsored by the California Mining Association, Sacramento, CA.
+Coastech Research Inc. 1989. Investigation of Prediction techniques for Acid Mine Drainage. MEND Project 1.16.1a. Canada Center for Mineral and Energy Technology, Energy, Mines, and Resources Canada. 61 pages
+diPretoro, Richard S., 1986. Premining Prediction of Acid Drainage Potential for Surface Coal Mines in Northern West Virginia. Master of Science thesis submitted to West Virginia University.
+Doepker, Richard D., 1993. Laboratory Determination of Parameters Influencing Metal Dissolution From Sulfidic Waste Rock. Preprint from American Society of Surface Mining and Reclamation (Spokane, Washington, May 16 to 19, 1993).
+Duncan, D. and A. Bruynesteyn, 1979. Determination of Acid Production Potential of Waste Materials. Metaluragy Society, AIME, paper A-79-29. Published by AIME, Littleton, CO.
+Duncan, D. and C. Walden, 1975. Prediction of Acid Generation Potential. Report to Water Pollution Control Directorate, Environmental Protection Service, Environment Canada, November 1975.
+44
+
+
+ Acid Mine Drainage Prediction
+Edgar, A., and K. Lapakko, 1985. Heavy Metal Study Progress Report on the Field Leaching and Reclamation Program: 1977-1983. MN Dept. Nat. Res., Division of Minerals, St. Paul, MN.
+Ferguson, K.D. and P.M. Erickson, 1988. Pre-Mine Prediction of Acid Mine Drainage. In: Dredged Material and Mine Tailings. Edited by Dr. Willem Salomons and Professor Dr. Ulrich Forstner. Copyright by Springer-Verlag Berlin Heidelberg 1988.
+Ferguson, K. D., and K. A. Morin, 1991. The Prediction of Acid Rock Drainage - Lessons From the Database. In Second International Conference on the Abatement of Acidic Drainage. Conference Proceedings, Volumes 1 - 4, September 16, 17, and 18, 1991, Montreal, Canada.
+Fliniau, H., 1993, Personal communication between Holly Fliniau, Remedial Project Manager for Clear Creek, EPA Region 8, and Chris Lewicki, Science Applications International, on April 5 and May 5, 1993.
+Forba, R., 1993, Personal communication between Russ Forba, Remedial Project Manager for Silver Bow Creek/Butte Area Site, EPA Region 8, and Chris Lewicki, Science Applications International, April 5 and April 30, 1993.
+Gaskin, D., 1994. Supervisor of Mining Regulation, Nevada Department of Environmental Protection, Nevada, Personal Communication with Laurie Lamb, SAIC, August 23, 1994.
+Halbert, B., J. Scharer, R. Knapp, and D. Gorber, 1983. Determination of Acid Generation Rates in Pyritic Mine Tailings. Presented at the 56th Annual Conference of Water Pollution Control Federation, October 2-7, 1983.
+Hood, W. and A. Oertel, 1984. A Leaching Column Method for Predicting Effluent Quality From Surface Mines. In Proc. Symp. on Surface Mining Hydrology, Sedimentology and Reclamation. University of Kentucky.
+Humphries, R., 1994. Water Quality, State Water Resources Control Board, California, Personal Communication with Laurie Lamb, SAIC, August 23, 1994.
+Hyman, D., 1993, Personal communication between Dennis Hyman, California State Water Quality Control Board contact for Iron Mountain Mine, Redding Office, and Chris Lewicki, Science Applications International, May 5, 1993.
+Kim, A.G., B. Heisey, R. Kleinmann, and M. Duel, 1982. Acid Mine Drainage: Control and Abatement Research. U.S. DOI, Bureau of Mines IC 8905, p.22.
+Lapakko, K. 1988. Prediction of Acid Mine Drainage From Duluth Complex Mining Wastes In Northeastern Minnesota. In: Mine Drainage and Surface Mine Reclamation. Volume I: Mine Water and Mine Waste. U.S. Department of Interior, Bureau of Mines Information Circular 9183. p.180-191.
+Lapakko, K. 1990a. Regulatory Mine Waste Characterization: A Parallel to Economic Resource Evaluation. In: Mining and Mineral Processing Wastes. Proceedings of the Western Regional Symposium on Mining and Mineral Processing Wastes, May 30 - June 1, 1990, Berkley, California p.31-39. Edited by Fiona Doyle, Published by the Society for Mining, Metallurgy, and Exploration, Inc., Littleton, CO.
+45
+
+
+ Acid Mine Drainage Prediction
+Lapakko, K. 1990b. Solid Phase Characterization in Conjunction with Dissolution Experiments for Prediction of Drainage Quality. In: Mining and Mineral Processing Wastes. Proceedings of the Western Regional Symposium on Mining and Mineral Processing Wastes, May 30 - June 1, 1990, Berkley, California p.31-39. Edited by Fiona Doyle, Published by the Society for Mining, Metallurgy, and Exploration, Inc., Littleton, CO.
+Lapakko, K. 1992. Evaluation of Tests for Predicting Mine Waste Drainage pH. Draft Report to the Western Governors' Association, May 1992.
+Lapakko, K. 1993a. Predictive Testing for Mine Waste Drainage Quality. In Mine Operation and Closure Short Course. Sponsored by EPA and others April 27 - 29, 1993. Helena, MT.
+Lapakko, K. 1993b. Mine Waste Drainage Quality Prediction: A Literature Review. Draft Paper. Minnesota Department of Natural Resources, Division of Minerals, St. Paul, MN.
+Lapakko, K., 1994. Department of Natural Resources, Minnesota, Personal Communication with Laurie Lamb, SAIC, August 23, 1994.
+Lawerence, R., 1990. Prediction of the Behavior of Mining and Processing Wastes in the Environment. In Proc. Western Regional Symposium on Mining and Mineral Processing Wastes. Edited by Fiona Doyle, Published by the Society for Mining, Metallurgy, and Exploration, Inc., Littleton, CO.
+Lawrence, R., S. Jaffe, and L. Broughton, 1988. In-house Development of the Net Acid Production Test Method. Coastech Research.
+Lu, Ning, and Yiqiang Zhang, undated. Thermally Induced Gas Convection in Mine Wastes. Disposal Safety Inc., Washington, DC.
+Lutwick, G.D., 1986. Mineral Composition and Acid Consuming Potential of Nova Scotia Shales. Nova Scotia Research Foundation Corporation, Halifax, Nova Scotia.
+Manahan, Stanley E. 1991. Environmental Chemistry. Fifth edition. Lewis Publishers, Inc. Chelsa, MI.
+Miller, R., 1994. Hardrock Bureau, Montana Department of State Lands, Montana, Personal Communication with Laurie Lamb, SAIC, August 23, 1994.
+Nicholson, Ronald V., 1992. A Review of Models to Predict Acid Generation Rates in Sulphide Waste Rock at Mine Sites. Presented to the International Workshop on Waste Rock Modelling, sponsored by the Mine Environment Neutral Drainage Program, September 29 - October 1, 1992 in Toronto, Canada.
+Overbay, M., 1993. Personal communication between Mike Overbay, Remedial Project Manager for Tar Creek, EPA Region 6, and Chris Lewicki, Science Applications International, April 7 and April 13, 1993.
+Plumlee, G.S., Smith, K.S., Ficklin, W.H., Briggs, P.H., and McHugh, J.B., 1993. Empirical Studies of Diverse Mine Drainages in Colorado: Implications for the Prediction of Mine-Drainage Chemistry. Planning, Rehabilitation and Treatment of Disturbed Lands Billings Symposium, 1993.
+Robertson, Dr. A. MacG. and L.M. Broughton, undated. Reliability of Acid Rock Drainage Testing. Steffen, Robertson and Kirsten, Vancouver, B.C.
+46
+
+
+ Acid Mine Drainage Prediction
+Schafer, Dr. William M. 1993. Design of Geochemical Sampling Programs. In Mine Operation and Closure Short Course. Sponsored by EPA and others April 27 - 29, 1993. Helena, MT.
+Schuld B., 1993. Letter from Bruce A. Schuld, Idaho Division of Environmental Quality, to Joe Rissing, SAIC, regarding Idaho protocol and requirements for prediction, prevention and remediation of acid mine drainage, dated April 13, 1993.
+Schuld, B., 1994. Idaho Division of Environmental Quality, Idaho, Personal Communication with Laurie Lamb, SAIC, August 23, 1994.
+Singleton, G.A. and L.M. Lavkulich, 1978. Adaption of the Soxhelet Extractor for Pedologic Studies. Soil Science Society of America Journal, Vol. 42, p. 984-986.
+Smith, A. and J.B. Barton Bridges, 1991. Some Considerations in the Prediction and Control of Acid Mine Drainage Impact on Groundwater From Mining in North America. In: Proceeding of the EPPIC Water Symposium, Johannesburg, May 16-17.
+Sobek, A.A., Schuller, W.A., Freeman, J.R. Smith, R.M. 1978. Field and Laboratory Methods Applicable to Overburden and Minesoils. EPA 600/2-78-054.
+Steffen, Robertson and Kirsten, Inc. (B.C.), in association with Norecol Environment Consultants and Gormely Process Engineering, 1989. Draft Acid Rock Drainage Technical Guide. Volumes I and II. Prepared for British Columbia Acid Mine Drainage Task Force.
+Steffen, Robertson and Kirsten, Inc. (B.C.), 1992. Mine Rock Guidelines: Design and Control of Drainage Water Quality. Saskatchewan Environment and Public Safety. Mines Pollution Control Branch Report #93301.
+Sugarek, R., 1993, Personal communication between Rick Sugarek, Remedial Project Manager for Iron Mountain Mine, EPA Region 9, and Chris Lewicki, Science Applications International, April 5, 1993.
+Sullivan, P.J. and A. Sobek, 1982. Laboratory Weathering Studies of Coal Refuse. Minerals and the Environment 4(1).
+Taylor, G., 1993, Personal communication between Gene Taylor, Remedial Project Manager for Eagle Mine, EPA Region 8, and Chris Lewicki, Science Applications International, April 5 and May 6, 1993.
+Univ. of California, Berkley 1988. Mining Waste Study: Final Report. Prepared for the California State Legislature.
+USDA Forest Service 1992. A Conceptual Waste Rock Sampling Program for Mines Operating in Metallic Sulfide Ores With a Potential for Acid Rock Drainage. Written by Gene Farmer with the Department of Agriculture, Forest Service, Ogden, Utah.
+USDA Forest Service 1993. Acid Mine Drainage From Mines on the National Forests, A Management Challenge. Program Aid 1505, p.12.
+47
+
+
+ Acid Mine Drainage Prediction
+U.S. Environmental Protection Agency, Office of Research and Development, 1992a. Draft. Predicting Acid Generation From Non-Coal Mining Waste: Notes of July 1992 Workshop. Prepared for the Environmental Monitoring Systems Laboratory, Las Vegas, NV 89193-3478 by SAIC, Falls Church, VA.
+U.S. Environmental Protection Agency, Office of Solid Waste, July 1992b. Mine Site Visit: Newmont Gold Company, Rain Facility. Draft of July 1992 prepared by the Office of Solid Waste, Washington, D.C.
+U.S. Environmental Protection Agency, Office of Solid Waste, June 1992c. Mine Site Visit: Cyprus Minerals Corporation Thompson Creek Mine. Draft of June 1992 prepared by the Office of Solid Waste, Washington, D.C.
+U.S. Environmental Protection Agency, Office of Solid Waste, June 1992d. Mine Site Visit: LTV Steel Mining Company (LTV SMCo.) Hoyt Lakes, Dunka, and Taconite Harbor Facilities. Draft of June 1992 prepared by the Office of Solid Waste, Washington, D.C.
+U.S. Environmental Protection Agency, Office of Solid Waste, 1991 (June 21). Mining Sites on the National Priorities List. Final Draft. NPL Site Summary Reports Volumes I-V. NTIS - PB 92-124767, PB 92 124775, PB 92-124783, PB 92-124791, PB 92-124809.
+U.S. Environmental Protection Agency, 1992. Mine Site Visit: Cyprus Minerals Corporation Thompson Creek Mine. Prepared for the Office of Solid Waste by Science Applications International Corporation, Falls Church, VA 22043.
+Water Resources Control Board, State of California, 1990. Report to the Legislature on Acid-Generation Potential Tests, 90-18CWP, December 1990. Written by Richard Humphreys, Division of Clean Water Programs.
+Williams, E.G., Rose, A.W., Parizek, R.R., and Waters, S.A., 1982. Factors Controlling the Generation of Acid Mine Drainage. Final Report on Research Grant No. G5105086, September 30, 1980 - December 31, 1981. Submitted to U.S. Bureau of Mines, April, 1982.
+48

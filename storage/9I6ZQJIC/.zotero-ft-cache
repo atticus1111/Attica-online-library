@@ -1,0 +1,572 @@
+(12) United States Patent
+Gormly et al.
+USOO7655145B1
+(10) Patent No.: US 7.655,145 B1
+(45) Date of Patent: Feb. 2, 2010
+(54) CONTAMINATED WATER TREATMENT
+(75) Inventors: Sherwin J. Gormly, Carson City, NV
+(US); Michael T. Flynn, Corte Madera,
+CA (US)
+(73) Assignee: United States Government as
+represented by the Administrator of
+the National Aeronautics and Space
+Administration (NASA), Washington,
+DC (US)
+*) Notice: Subject to any disclaimer, the term ofthis
+y
+patent is extended or adjusted under 35
+U.S.C. 154(b) by 276 days.
+(21) Appl. No.: 11/543,275
+(22) Filed: Sep. 28, 2006
+(51) Int. Cl.
+CO2F I/44 (2006.01)
+BOLD IS/00 (2006.01)
+BOID 61/OO (2006.01)
+(52) U.S. Cl. ....................... 210/649; 210/652:210/694;
+21 Of 724
+(58) Field of Classification Search ....................... None
+See application file for complete search history.
+(56) References Cited
+U.S. PATENT DOCUMENTS
+5,281,430 A 1/1994. Herron et al.
+6,436,282 B1 8/2002 Gundrum et al. ............ 210,117
+6,656,361 B1 12/2003 Herron et al.
+6,849,184 B1 2/2005 Lampiet al.
+2004/0004037 A1 1/2004 Herron .................. 210,321.83 2005/O155939 A1* 7/2005 Stadelmann ................ 210,764 2007/0181497 A1* 8, 2007 Liberman ................... 210,636 OTHER PUBLICATIONS
+Beaudry, et al., Direct Osmotic Concentration ofWaste Water, Final
+report, Osmotek, Inc. NASA contract No. NAS2-14069, 1999.
+Cath, et al., New Concepts and Performance of the Direct
+Osmotic . . . . Proceedings of 36th International Conference on
+Environmental Systems, Jul. 17-20, 2006, Norfolk, VA, USA.
+Exploration Systems Architechture Study (ESAS), NASA-TM
+2005-214062, Nov. 2005, 234.
+Gormly, et al., Direct Osmotic Concentration: A Primary Water. . . .
+Proceedings ofthe 33rd International Conference on Environmental
+Systems, Jul. 2003, Vancouver BC, Canada.
+Horan, et al., Application of Granular Activated Carbon-Biological
+Fluidized Bed for the Treatment of Landfill Leachat . . . . Wat. Sci.
+Tech., 1997, 369-375, 36-No. 2-3, IWAQ.
+Kliss, Water Regeneration Technologies for Human Space . . . .
+Proceedings ofConference on Innovative Technologies in the Water
+Sector, May 15-17, 2006, Rotterdam, Netherlands.
+* cited by examiner Primary Examiner Krishnan S Menon
+(74) Attorney, Agent, or Firm—John F. Schipper; Robert M.
+Padilla
+(57) ABSTRACT
+Method and system for processing ofa liquid ("contaminant
+liquid') containing water and containing urine and/or other
+contaminants in a two step process. Urine, ora contaminated
+liquid similar to and/or containing urine and thus having a
+relatively high salt and urea content is passed through an
+activated carbon filterto provide a resulting liquid, to remove
+most ofthe organic molecules. The resulting liquid is passed
+through a semipermeable membrane from a membrane first
+side to a membrane second side, where a fortified drink hav
+ing a lower water concentration (higher osmotic potential)
+than the resulting liquid is positioned. Osmotic pressure dif
+ferential causes the water, but not most of the remaining
+inorganic (salts) contaminant(s) to pass through the mem
+brane to the fortified drink. Optionally, the resulting liquid is
+allowed to precipitate additional organic molecules before
+passage through the membrane.
+8 Claims, 4 Drawing Sheets
+(21)
+Treated Urine containing
+Urine Salts, reduced TOC
+(25)
+Raw Urine Collection (22)
+And Conveyance (23)
+Activated carbon
+storage (1 to 2 hrs)
+and TOC treatment
+(24)
+Receiving liquid
+Container (27) with
+Fortified Drink (28)
+N FO membrane
+treatment
+(26)
+
+
+U.S. Patent Feb. 2, 2010 Sheet 1 of 4 US 7.655,145 B1
+Raw Urine
+Input (11)
+Raw Urine Fortified Drink
+Collection (12) Output
+Prior Art
+Activated Carbon Membrane
+Adsorption Bed Cell (15)
+(14)
+
+
+U.S. Patent Feb. 2, 2010 Sheet 2 of 4 US 7.655,145 B1
+(21)
+Receiving liquid
+Container (27) with
+Fortified Drink (28)
+Treated Urine containing
+Urine Salts, reduced TOC
+(25)
+Raw Urine Collection (22)
+And Conveyance (23)
+Activated carbon
+storage (1 to 2 hrs) N
+and TOC treatment FO membrane
+(24) treatment
+(26)
+Figure 2
+
+
+U.S. Patent Feb. 2, 2010 Sheet 3 of 4 US 7,655,145 B1
+Receive contaminated
+liquids 31
+Pass pre-treated liquid through
+Activated Carbon (AC) filter, to
+Remove most organic 32
+molecules and provide a
+resulting liquid
+Allow organic molecules in the
+contaminant liquid to continue
+precipitate from solution after AC, 33
+to provide additional pre
+treatment to the liquid
+Provide a semipermeable membrane, having
+first and second sides, selected to allow 34
+passage through the membrane of water,
+in the direction that tends to equalize
+water availability (osmotic potential) on
+each side of the membrane
+Position the resulting liquid in
+contact with at least a portion ofthe
+membrane first side
+35
+To step 36
+Figure 3A
+
+
+U.S. Patent Feb. 2, 2010 Sheet 4 of4
+From step 35
+Position a fortified drink concentrate,
+having a low water availability when
+compared to the water availability in
+the resulting liquid (from AC treatment)
+in contact with at least a portion of
+the membrane second side
+Collect the fortified drink and water that
+has passed to the
+drink side of the membrane
+38
+Figure 3B
+Allow a portion ofthe water in
+the resulting liquid to pass
+through the membrane into the
+fortified drink, to tend to reduce an
+imbalance ofosmotic pressure
+between the first and second sides
+US 7.655,145 B1
+36
+
+
+US 7,655,145 B1
+1.
+CONTAMINATED WATER TREATMENT
+FIELD OF THE INVENTION
+This inventionrelates to processingand recycling ofliquid,
+including urine, to remove contaminants in the liquid.
+BACKGROUND OF THE INVENTION
+The Crew Exploration Vehicle (“CEV) and the Lunar
+Surface Access Module (“LSAM), to be used for space
+exploration, will require new life Support systems to Support
+the crew onjourneys lasting from a few days to several weeks,
+or longer. These life Support systems should also be designed
+to reduce the mass required to keep humans alive in space.
+Water accounts for about 80 percent ofthe daily mass intake
+required to keep a person alive. As a result, recycling water
+offers a high return on investment for space life Support.
+Water recyclingcan also increase mission safety byproviding
+anemergency Supply ofdrinking water, whereanother Supply
+is exhausted or contaminated. Forathree-dayCEV missionto
+the International Space Station (ISS), water recycling can
+reducethe mass required tobetransportedto provide drinking
+water by 65 percent, when compared to stored water. For an
+18-day Lunar mission, a mass savings ofabout 70 percent is
+possible. These technologies also increase safety by provid
+ing a lightweight back-up to stored supplies, and they allow
+astronauts to meet daily drinking waterrequirements by recy
+cling the water contained in their own urine. During a three
+day CEV emergency return to Earth, this capability could be
+critical to the crews' Survival. These technologies also con
+verturine into a concentrated brine that is biologically stable
+and non-threatening and can be safely stored onboard. This
+approach eliminates the need to have a dedicated vent to
+dump urine overboard. This would result in one less through
+hull fitting on the CEV spacecraft (a significant safety advan
+tage).
+What is needed is a system for recycling urine (1) to pro
+vide a renewable source ofdrinking water, (2) to reduce the
+mass of water initially stored aboard a spacecraft, (3) to
+provide a temporary Source ofadditional nutrients for use by
+a spacecraft occupant, (4) to reduce the Volume of, and pro
+vide a biologically safe form of urine residuals (i.e. waste or
+non-water residues from urine) temporarily stored aboard a
+spacecraft and (5) reduce or eliminate the need for urine
+dumping during a space Voyage.
+SUMMARY OF THE INVENTION
+These needs are met by a system and associated method
+that provides a contaminant treatment pouch, referred to as a
+“urine cell' or “contaminant cell that converts urine or
+another liquid containing contaminants into a fortified drink,
+engineered to meet human hydration, electrolyte and caloric
+requirements, using a variant of forward osmosis (“FO”) to
+draw water from a urine container into the concentrated for
+tified drink as part ofa recycling stage. An activated carbon
+pre-treatment removes most organic molecules. Salinity of
+the initial liquid mix (urine plus other) is synergistically used
+to enhance the precipitation organic molecules so that acti
+vated carbon can remove most ofthe organics. A functional
+osmotic bagisthen usedto remove inorganic contaminants. If
+a contaminant is processed for which the saline content is
+differentthan optimal forprecipitating organic molecules, the
+saline content of the liquid should be adjusted toward the
+optimal value for that contaminant.
+5
+10
+15
+25
+30
+35
+40
+45
+50
+55
+60
+65
+2
+The development of a water recycling systems to Support
+CEV and LSAM missions can significantly reduce the mass
+of life support mechanisms. Current plans for the CEV
+assume that water is "tanked' and that urine is vented over
+board. This open loop approach does not attempt to minimize
+launch mass, and it requires provisions of at least one addi
+tional through-wall penetrations. The CEV is, by definition a
+pressure vessel upon which the crew's life depends and thus
+any through wall fitting represents a potentially fatal (to the
+crew) failure point in vehicle design. The CEV. Block 1
+mission, which is to transfer crew and limited cargo to ISS,
+and Block 2, a Lunar mission, are both relatively short flight
+duration vehicles, at most a few weeks. Short duration mis
+sions can be addressed by the use ofconsumable water treat
+ment products. These products offer reduced mass and pro
+duce recycled water for only a fraction ofthe weight ofthe
+water itself. For example, a disposable water purification
+system, Such as the urine cell, could produce 1 Kg ofdrinking
+water from urine with only 300 gm of water purification
+equipment, a 70 percent reduction in mass below what is
+required with stored water.
+BRIEF DESCRIPTION OF THE DRAWINGS
+FIG. 1 schematically illustrates the location of the basic
+X-Pack configuration (prior Art).
+FIG. 2 illustrates an embodiment of the invention.
+FIGS. 3A and 3B show a flow chart of a procedure for
+practicing the invention.
+DESCRIPTION OF BEST MODE OF THE INVENTION
+An FO based urine cell 11 utilizing both activated carbon
+(AC) and the X-PackTM technology, disclosed by Hydeation
+Technologies, Inc., is illustrated in FIG. 1. See, for example
+U.S. Pat. No. 6,849,184, issued to Lampi et al for previous
+disclosure ofFO membrane cell 15. In the inventionabladder
+pump 13 is fed by a urine collector 12 and moves the liquid
+through an activated carbon (AC) filter 14 into a membrane
+container in a pouch 15. The membrane promotes separation
+ofwater from urine, and the product, having a lowered urea
+content, is drawn offas product.
+The invention 21, illustrated in FIG. 2, is an improvement
+oftechnologies similar to the X-PackTM device. The liquid to
+be treated is passed through an activated carbon filter 24
+(granules or porous block or another Suitable filter mecha
+nism), which absorbs a majority of the remaining organic
+molecules to provide a resulting liquid. The resulting liquid is
+received by a container25 that is positioned adjacent to a first
+side ofa semipermeable, preferably hydrophilic, membrane
+26 (e.g., cellulous triacetate)that allows waterdiffuse through
+it, but blocks most contaminants (urea, brine, etc.) due to a
+micro-porous construction of the filter. A container 27 of a
+concentrated fortified drink 28 is positioned adjacent to a
+second side of the membrane 26. Some precipitation ofthe
+remaining organic molecules occurs within the container 25.
+Water is drawn through the membrane 26, from the first
+side to the second side, by an osmotic potential differential
+AOP generated by the feed (urine or another contaminated
+liquid) and by Sugars and electrolytes contained in the forti
+fied drink 28 that is concentrated (strength range 2-20 times
+normal strength, or more ifdesired). Water diffuses across the
+membrane 26 from the urine (water-rich) first side to the
+concentrated fortified drink (water-poor) second side in order
+to (partly) equalize the osmotic potential. During this diffu
+sion process, the concentrated fortified drink 28 will become
+
+
+US 7,655,145 B1
+3
+diluted through uptake of water, and the urine will become
+more concentrated by loss ofwater. The fortified drink con
+centrate has the Sugars, electrolytes and calories needed by a
+human and is formulated so that the final product is diluted to
+a level appropriate forhuman consumption. Because the pro
+cess uses osmotic potentialOPratherthanhydraulicpressure,
+the process is referred to as forward osmosis (“FO), which
+can be thought of as running reverse osmosis (“RO”) in
+reverse. Becausetheprocess uses osmotic potential instead of
+hydraulic pressure, it has been shown to have fewer mem
+brane fouling problems that are inherent to RO and micro
+filtration.
+Table 1 presents data on the treatment of organic com
+pounds using the membranes andAC filterselected for use in
+the urine cell (more generally, contaminant cell). Table 2
+provides the results ofbacteriological and viral rejection tests
+of the X-PackTM membranes.
+TABLE 1.
+Projected Performance of the Urine Cell
+Stage ofTreatment Typical Values (in mg/L TOC)
+2,500 to 5,500 mg/L
+50 to 100 mg/L
+20 to 30 mg/L
+Raw Urine After GAC Treatment
+After CTA (stock) Forward
+Osmosis Membrane
+Theoretical System 1 to 2 mg/L.
+Performance Limit with
+Optimal Membranes
+TABLE 2
+Bacterial and Viral Testing
+Test 1 hr 24 hr
+Description sample sample
+Anthrax Permeation
+1.200,000/ml O
+Pigment Ink Dilution
+0.4-1.0 micron O O E. Coi Permeation
+colony counts 1,000,000/ml O O
+colony counts 100,000,000/ml O O
+M 13 phage Permeation
+phage counts 10,000,000/ml O O
+phage counts 1,000,000,000/ml O O
+MS2 phage Permeation
+OO
+phage counts 1,000,000/ml
+phage counts 100,000,000/ml O O
+M13 phage.DNA Permeation
+2 mg in 4 liters O O
+Although a technology, such as the basic X-PackTM device,
+is capable of removing most inorganic compounds, this
+device will not reliably remove Small non-polar organics or
+ammonia; up to 50 percent of these compounds will pass
+10
+15
+25
+30
+35
+40
+45
+50
+55
+through the membrane. Urine contains many ofthese types of 60
+contaminates. Activated carbon, as granules or in a porous
+block, is used to pre-treat the urine and to remove many, but
+not all, organic molecules, including most non-polar organ
+ics. Activated carbon also has a weak affinity for ammonia.
+The relatively high concentration of salts in urine in FIG. 2
+works synergistically to improve the performance ofthe acti
+vated carbon. Commercially available AC is used.
+65
+4
+Preferably, the system 21 provides forthecollection 22 (12
+in FIG. 1) and movement 23 (13 in FIG. 1) of the urine,
+preceding to an activated carbon (AC) porous filter 24. The
+relatively high salinity ofthe urine enhances theperformance
+of the AC filter 24 by decreasing the solubility of organic
+molecules in the input liquid, significantly increasing the
+affinity ofthese molecules forAC, resulting in a product with
+approximately 50 mg/liter total organic carbon (TOC)
+remaining, as compared to about 200 mg/literTOC (as urea),
+after AC treatment offreshwater, with no urine salts present.
+Preferably, the urine temperature and the fortified drink tem
+perature are in a range between room temperature and about
+20 to 30°C.; and/or thepH ofthe fortified drink is adjusted to
+be no higher than about 8.
+FIG. 3 is a flow chart of a procedure for practicing the
+invention. In step 31, a liquid containingat least one contami
+nant ("contaminant liquid’), usually urine or a substantially
+similarly contaminated liquid, is received. In step 32, the
+contaminant liquid is passed through an activated carbon
+filter to produce a resulting liquid in which a majority of
+organic molecules have been removed. In step 33 (optional),
+a remainder of organic molecules in the resulting liquid are
+allowed to precipitate from Solution, before passage through
+a membrane(step 34). In step 34, a semipermeable membrane
+is provided, having a first side and a second side, and being
+selected to allow passage therethrough ofwater in a direction
+that tends to equalize concentration of water on the first and
+second sides ofthe membrane. In step 35, the resulting liquid
+is positioned in contact with at least a portion of the mem
+brane first side.
+In step 36, a concentrated fortified drink, having a low
+concentration ofwater compared to a concentration ofwater
+in the resulting (from AC treatment) liquid, is positioned in
+contact withat leasta portion ofthe membrane second side. In
+step 37, a portion of the resulting liquid is allowed to pass
+through the membrane, from the first side to the second side
+into the fortified drink, to reduce an imbalance ofconcentra
+tion ofwater on the first and second sides ofthe membrane. In
+step 38, the fortified drink and the water that has passed
+through the membrane are collected.
+Tests performed on the urine cell indicate that: (1) raw
+urine has a total organic content (“TOC) of 2,500-5,000
+mg/liter, before treatment; (2) after treatment, TOC lies in a
+range of25-50 mg/liter, and (3) an optimal treatment accord
+ing to the invention can theoretically lowerTOC to 1-2 mg/li
+ter. Urea is the source ofthe majority ofTOC present in urine,
+and testing indicates thatas much as 95-97 percentofureacan
+be removed using the invention.
+The membranes used inthe urine cell should be an effective
+barrier to inorganic compounds. Cellulose tri-acetate (CTA)
+membranes, similarto those used in the urine cell, are widely
+used in reverse osmosis (RO) applications and inorganic
+rejection data areavailablefrom suppliers andfrom published
+technical articles. Ammonia is present in low or modest per
+centages in fresh urine. The normal range ofurine ammonia
+for healthy adults is 200-500 ppm. This is a product of urea
+hydrolysis, a relatively slow process, and treatment within 1
+hourofurinegeneration shouldhelp to keep concentrations of
+ammonia low in the feed and in the product. Most ammonia
+and nitrogen that is present will be removed from the feed by
+an AC filter.
+In future urine cell designs it may be desirable to enhance
+the ammonia removal beyond the capabilities ofthe current
+(above claimed) design. This wouldbe accomplishedthrough
+the addition of a 3" treatment step located between the AC
+and the FO membrane steps of the urine cell, and would
+simply require a chemical addition during step 33 (FIG. 3:
+
+
+US 7,655,145 B1
+5
+Step 33). Ammonia that is not removedby the AC filtercan be
+further reduced by pH adjustment and/or by supplemental
+absorption using diatomaceous Earth or an amine chemical
+addition following AC treatment but prior to FO treatment.
+Low pH (highly acidic) values ensure that ammonia in solu
+tion exists predominantly as the ammonium ion. Ammonium
+ions can be removed by micro-porous membranes. Ammonia
+can also be removed by diatomaceous Earth or amines. In
+ether case theadditional pH adjustmentand/or chemicaladdi
+tion would be provided between to AC and FO treatments (at
+step 33)and is claimed as aprocess improvement option to be
+freely exercised (without fartherpatenting applications to the
+primary invention) should it become desirable or necessary. The urine cell may be usable more than once, until the
+osmotic strength of Salt in the bag approach the osmotic
+strength of the sugar in the fortified drink. The urine cell is
+relatively small and can be incorporated into a flight Suit or a
+spaceSuitand thus becomean integral part ofa spaceworkers
+apparel. Ifthe urine cell is made part ofapressure suit the cell
+may be useful during a specified 120-hour un-pressurized
+emergency return to Earth capability in a CEV. During an
+emergency, the urine cell can provide emergency urine col
+lection and drinking water Supplies, as a redundant backup.
+The urine cell uses no electrical power, has no complicated
+mechanical parts to break or to require maintenance, is silent,
+and has a shelf life in excess of one year. The cell includes a
+flexible plastic pouch, Surgical tubing, an AC filter, and a
+water collection device.
+The membrane may be hydrophilic, where the membrane
+pore diameters are as large as, or slightly larger than the
+minimum diameter required allow liquidphase waterto flow,
+but are Smallerthan required to pass most organic molecules.
+Some relatively small organic, non-polar compounds will
+pass through thesepores. The preferred design utilizes hydro
+philic membranes, but hydrophobic membranes, in which
+pore diameters are much smaller, can also be used when
+desirable. Hydrophilic membranes are preferable for the cur
+rent design because they achieve reasonable flux orthrough
+put (waterproductionrates), but futureapplication may chose
+to reduce flux rate for better rejection ofurea, in which case
+hydrophobic membranes would be used without further
+modification to the concept design. Water transfer rates are
+about 14 liters/hour/(meter) and 0.04 liters/hour/(meter) for
+the hydrophilic and hydrophobic membranes, respectively.
+The membrane Surface area can be increased by using a
+pleated membrane sheet or by using a plurality ofhelices to
+increase the effective surface area of the membrane.
+10
+15
+25
+30
+35
+40
+45
+6
+What is claimed is:
+1. A method for treatment ofa liquid containing urea, the
+method comprising:
+receiving a liquid containing urea (urea containing liquid
+or“UCL), having a salt contentofat least5 gm/literand
+having a total organic content (“TOC) ofat least 2500
+mg/liter,
+passing the UCL through an activated carbon filter to pro
+duce an intermediate liquid, in which at least 90 percent
+of organic molecules have been removed, within about
+one hour after the UCL was generated:
+providing a semipermeable membrane, having a first side
+and a second side, and being selected to allow passage
+therethrough of water in the intermediate liquid in a
+direction that tends to equalize osmotic potential of
+water on the first and second sides of the membrane;
+positioning the intermediate liquid in contact with at least
+a portion ofthe membrane first side;
+positioning a concentrated fortified drink, having a higher
+liquid osmotic potential for water than a UCL osmotic
+potential for wateron the membrane first side, in contact
+with at least a portion ofthe membrane second side; and
+allowing a portion of the intermediate liquid to pass
+through the membrane from the first side to the second
+side to tendto reduce an imbalance ofosmotic potential
+of the liquids on the first and second sides ofthe mem
+brane, and to produce a processed liquid having a TOC
+of no more than 25-50 mg/liter.
+2. The method ofclaim 1, further comprising collecting at
+least a portion of a mixture of said fortified drink and said
+water that has passed through said membrane, on said mem
+brane second side.
+3. The method ofclaim 1, further comprising maintaining
+or increasing salinity of said UCL before passing said UCL
+through said activated carbon filter, to promote additional
+removal oforganic molecules by said activated carbon filter.
+4. The method of claim 1, further comprising providing a
+hydrophilic membrane as said semipermeable membrane.
+5. The method ofclaim 1, further comprising providing a
+hydrophobic membrane as said semipermeable membrane.
+6. The method ofclaim 1, further comprising adjusting pH
+of said UCL after passing said UCL through said activated
+carbon filter, to promote separation ofa selected contaminant
+from said by said membrane.
+7. The method ofclaim 1, further comprising removing at
+least 95 percent ofurea from said UCL.
+8. The method ofclaim 5, further comprising removing at
+least 99 percent of said urea from said UCL.
+kkkkk
+
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+CERTIFICATE OF CORRECTION
+PATENT NO. : 7,655,145 B1 Page 1 of 1
+APPLICATION NO. : 1 1/543275
+DATED : February 2, 2010
+INVENTOR(S) : Gormly et al.
+It is certified that error appears in the above-identified patent and that said Letters Patent is hereby corrected as shown below:
+On the Title Page:
+The first or sole Notice should read -
+Subject to any disclaimer, the term ofthispatent is extended oradjusted under35 U.S.C. 154(b)
+by 403 days.
+Signed and Sealed this
+Twenty-third Day ofNovember, 2010
+David J. Kappos
+Director ofthe United States Patent and Trademark Office

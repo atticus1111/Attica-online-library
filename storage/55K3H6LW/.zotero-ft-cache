@@ -1,0 +1,1013 @@
+Skip to main content
+Skip to article
+View PDF
+Download full issue
+Journal of Hazardous Materials
+Volume 404, Part B, 15 February 2021, 124004
+Research paper
+Estimation of the mass of microplastics ingested – A pivotal first step towards human health risk assessment
+Author links open overlay panel
+Kala Senathirajah a
+,
+Simon Attwood b
+,
+Geetika Bhagwat c
+,
+Maddison Carbery c
+,
+Scott Wilson d
+, Thava Palanisami a
+Show more
+Share
+Cite
+https://doi-org.colorado.idm.oclc.org/10.1016/j.jhazmat.2020.124004
+Get rights and content
+Full text access
+Highlights
+•
+Ubiquitous presence of microplastics in the food web.
+•
+Microplastics mass ingestion rate is fundamental to assess the human health risk.
+•
+This study utilised the existing evidence to determine a global average rate of microplastic ingestion.
+•
+The findings of this study will contribute to the human health risk assessment frameworks.
+Abstract
+The ubiquitous presence of microplastics in the food web has been established. However, the mass of microplastics exposure to humans is not defined, impeding the human health risk assessment. Our objectives were to extract the data from the available evidence on the number and mass of microplastics from various sources, to determine the uncertainties in the existing data, to set future research directions, and derive a global average rate of microplastic ingestion to assist in the development of human health risk assessments and effective management and policy options. To enable the comparison of microplastics exposure across a range of sources, data extraction and standardization was coupled with the adoption of conservative assumptions. Following the analysis of data from fifty-nine publications, an average mass for individual microplastics in the 0–1 mm size range was calculated. Subsequently, we estimated that globally on average, humans may ingest 0.1–5 g of microplastics weekly through various exposure pathways. This was the first attempt to transform microplastic counts into a mass value relevant to human toxicology. The determination of an ingestion rate is fundamental to assess the human health risks of microplastic ingestion. These findings will contribute to future human health risk assessment frameworks.
+Graphical Abstract
+Download: Download high-res image (374KB)
+Download: Download full-size image
+Previous
+Next
+Abbreviations
+AMIMPaverage mass of individual microplastic particleANMPaverage number of microplastic particlesBPAbisphenol ABPSbisphenol SEDCendocrine disrupting chemicalGARMIglobal average rate of microplastics ingestedGITgastrointestinal tractMPmicroplasticPBDEpolybrominated diphenyl ethersPCpolycarbonatePCBpolychlorinated biphenylPEpolyethylenePETpolyethylene terephthalatePOPpersistent organic pollutantPPpolypropylenePSpolystyrenePSDparticle size distributionPVCpolyvinyl chloride
+Keywords
+Exposure pathwaysHuman healthIngestionMicroplasticsPlastic pollutionRisk
+1. Introduction
+Plastic pollution is an environmental concern garnering increasing attention globally. All life on earth, from ecosystems to people, are increasingly being exposed to plastic waste without knowledge of their full effects (WorldEconomicForum & EllenMacArthurFoundation, 2017). Plastics are highly resistant to degradation, and therefore are mass-produced as a versatile, cost-effective and durable material. Microplastics (MPs) are plastic particles less than 5 mm that can be intentionally manufactured (primary microplastics) or generated from larger plastics (secondary microplastics), and are introduced to the environment through various anthropogenic activities and natural pathways, contaminating ecosystems and entire food webs (Rochman, 2018). Microplastics have been identified in atmospheric, aquatic and terrestrial environments, as well as drinking water and food products for human consumption, thus potentially leading to adverse health effects upon ingestion and/or inhalation (Barcelo, 2019; Carbery et al., 2018; Barboza et al., 2018; Proshad et al., 2018; Smith et al., 2018; Allen et al., 2019) (Fig. 1). Concerns on the occurrence, distribution and toxicology of microplastics are now a focus of worldwide public attention (GESAMP, 2016, WHO, 2019a).
+Download: Download high-res image (661KB)
+Download: Download full-size image
+
+Fig. 1. Drivers for this study.
+
+The persistent nature and mismanagement of plastic waste facilitate the accumulation of microplastics in the environment, the leaching of hazardous additives, and the adsorption and migration of environmental pollutants (Revel et al., 2018). Microplastics are often referred to as a 'cocktail of contaminants' due to their association with additives, heavy metals, pharmaceuticals, pesticides and various other persistent organic pollutants present in the environment (Xu et al., 2020, Fred-Ahmadu, 2020, Carbery et al., 2020). Such contaminants have been linked to several human illnesses and diseases including obesity, diabetes, cancer, endocrine disturbance, developmental, cardiovascular and reproductive problems, suggesting that the uptake of microplastics may pose a significant risk to human health (Mishra et al., 2019, Alharbi et al., 2018, Volschenk et al., 2019, Pal and Maiti, 2019, Ribeiro et al., 2019).
+Microplastics may directly or indirectly impact human health by acting as physical stressors or vectors of environmental contaminants (Hartmann et al., 2017) and may enter the human digestive, respiratory and circulatory systems, acting as both physical and chemical stressors to the human system (Barboza et al., 2018; Hartmann et al., 2018). The concepts of bioaccessibility and bioavailability are fundamentally crucial for quantifying the risks that are associated with exposure to environmental contaminants. Briefly, bioaccessibility and bioavailability describe the potential to interact with an organism and the fraction of the dose (obtained via ingestion, inhalation or dermal pathways) that reaches the systemic circulation and is therefore available for absorption (Semple et al., 2004). Numerous in vitro studies have identified human health risks when exposed to plastic additives, including phthalates, organochlorines, PCBs, PBDEs, and toxic metals; and it was found that the toxicity of the microplastics' associated contaminants is primarily dependent on the dose and other factors including polymer type, particle size, surface chemistry and hydrophobicity (Fred-Ahmadu, 2020, Schirinzi et al., 2017, Lu et al., 2019). Thus it is pivotal to evaluate the amount of microplastics introduced to the human system and its potential impacts (Wright and Kelly, 2018).
+Despite the breadth of scientific literature currently available on microplastics (Fig. 2), uniform methods for collection, characterization and analysis have not been employed. The lack of agreement on standardized approaches amongst the scientific community has resulted in an acute shortage of readily comparable data (Koelmans et al., 2019). Not surprisingly, the findings from different studies have not been synthesized and put into a quantifiable risk context, leaving many questions unanswered. How much plastic are humans potentially ingesting? What are the likely ramifications? To date, limited studies have been undertaken to address these fundamental questions of human health.
+Download: Download high-res image (220KB)
+Download: Download full-size image
+
+Fig. 2. Number of scientific publications focussing on microplastics in the last 20 years.
+
+Research has largely focused on the marine environment and organisms to determine the prevalence of microplastics. This has inconspicuously resulted in a lack of detailed data, owing to the challenges associated with fieldwork and technological constraints. Recent studies have attempted to refine protocols that minimize background contamination, while improved analytical methodologies and instrumentation have improved the overall efficiency and limits of detection to enhance information relating to size, shape and polymer type (Maes et al., 2017, Raju, 2020, Rochman, 2020, Zhang, 2019, Zhu et al., 2019). Furthermore, microplastic research has expanded to investigate particles in the atmosphere (Allen and Allen, 2019, Bergmann et al., 2019, Dris et al., 2017, Rezaei et al., 2019), plants and soil (Rillig et al., 2019, Brandon et al., 2019, Boots et al., 2019), food items (Oßmann et al., 2018a, Cox et al., 2019, Hernandez, 2019, Kim et al., 2018, Kosuth et al., 2018, Kutralam-Muniasamy et al., 2020, Pivokonsky et al., 2018, Shruti et al., 2020a, Shruti et al., 2020b) and stools (Schwabl et al., 2019, Zhang et al., 2019).
+Through a systematic review and analysis of the published literature, our study aims to provide a snapshot of the global average rate of microplastic uptake by humans via various exposure pathways. This study is the first attempt to simultaneously estimate the numbers and mass of microplastics ingested, thereby setting a foundation for use in future human toxicological studies. Our key objectives were to:
+(i)
+analyze the available literature to extract data on the number and mass of microplastics present in various sources;
+(ii)
+translate the number of microplastics into a corresponding mass;
+(iii)
+assess the uncertainties in the existing data and set future research directions; and
+(iv)
+derive a global average rate of microplastic ingestion (GARMI) to assist in the development of human health risk assessments and effective management and policy options.
+2. Methods
+We searched the scientific literature using key search terms to obtain relevant publications. Publications included in the analysis met the inclusion criteria and contained quantitative data of the number and/or mass of microplastics detected in various samples (S1.1). Of the ninety-three publications identified, thirty-four were excluded for failing to meet set quality criteria, and fifty-nine were utilized in the analysis (Fig. 3). We extracted relevant data and categorized it into (i) Consumables, which consisted of microplastics in commonly consumed food and beverage products; (ii) Aquatic, which included microplastics reported in surface waters and sediments of marine and freshwater environments; (iii) Atmospheric, which consisted of microplastics reported in air and dust samples.
+Download: Download high-res image (269KB)
+Download: Download full-size image
+
+Fig. 3. Breakdown of publications considered for this research.
+
+A comprehensive excel database was created using essential metadata where available; details included study location, sources, size, sampling and analysis techniques, particle size distribution (PSD) etc. Due to the extensive range of methods employed, as well as the heterogeneity in reporting units among the studies, we had to normalize the data (Sections 2.1.1 and 2.1.2). To minimize the risk of over-estimation or risking incredulity from decision-makers and other stakeholders, we adopted a series of conservative assumptions (Table 1).
+
+Table 1. Conservative assumptions to assist with enabling estimations of the global average numbers and mass of microplastics ingested.
+
+Assumptions	Reference (s)	Comments
+Surface area of global oceans (marine) is 3.62 × 1014 m2, and the total freshwater area globally is 3% of the total water area, which equates to 1.08 × 1013 m2	(Everaert et al., 2018), (Atlas, 2016)	
+Number of MPs decreases exponentially in the water column to be negligible at 5 m depth	(Everaert et al., 2018, Reisser et al., 2015)	There is now anecdotal evidence that there are an abundance of MPs in the water column to a depth much greater than 5 m (Kane and Clare, 2019, Jâms et al., 2020).
+Volume of the ocean with significant numbers of microplastic particles is 1.81 × 1015 m3; and the volume of freshwater bodies would equate to around 5.42 × 1013 m3.	(Everaert et al., 2018)	This is a very conservative estimate as most of the data from the literature were obtained from sampling using neuston nets with an average depth of 2 m. We divide the number of particles found in the top 2 m (a smaller volume) by the volume in 5 m (a larger volume) to obtain a more conservative estimate of the number of particles in the aquatic environment.
+Total length of global coastlines is 1.63 × 1012 m, and it is assumed only 50% of the total coastlines are littered with MPs.	(Everaert et al., 2018)	Plastic pollution knows no boundaries, and it is therefore not inconceivable that >50% of the coastlines around the world are contaminated with MPs.
+Beach deposition zone width of MPs to be 50 m, thereby suggesting that the area of coasts littered with MPs to be 4.075 × 1013 m2	(Everaert et al., 2018)	Assuming only 50% of the total coastlines are littered with MPs
+Microplastics are only found down to 0.4 m in coastal beach sediments	(Everaert et al., 2018)	It should be noted that there is evidence that microplastics have been found in sediments to a depth greater than 0.4 m (Duncan et al., 2018).
+Volume of coastal beach sediment containing MPs would be around 1.63 × 1013 m3		Assuming only 50% of the total coastlines are littered with MPs
+The average density of MP particles in the aquatic environment is assumed to be 0.98 g/cm3	(Everaert et al., 2018), (Gajst et al., 2016), (Isobe et al., 2015), (Poulain et al., 2018)	The literature indicated that most of the microplastic particles in the aquatic environment were polyethylene (PE) or polypropylene (PP) polymers
+Assumed that the mass of the estimated ingestion rate to be a function of the polymer type, number of particles, size of the particles, the shape of the particle and PSD.		Due to the limitations of the data, it was not possible to include all factors such as demographics, geographical variations etc.
+The average density of MP particles in drinking water and beer is 1.4 g/cm3.	(Mintenig et al., 2019), (Pivokonsky et al., 2018), (Schymanski et al., 2018)	Polyethylene terephthalate (PET) and polyamide (PA) make up most of the microplastics in drinking water
+Each person drinks 5.94 L (5.94 kg) of beer per year in Germany and 4.1 L (4.1 kg) of beer per year in USA.	(WHO, 2019b)	In general, beer weighs more than water, however, in order to obtain a conservative estimate, we assume that the weight of beer is equal to the weight of water (1 L = 1 kg)
+Each person drinks a minimum of 0.45 L and a maximum of 1.2 L of tap water per day.	(MacGill, 2018)	The figures assumed are well below the World Health Organisation's guidelines of 3–4 L/person/day (WHO, 2005).
+Each person drinks 53.2 L of bottled water each year globally.	(Corp, 2018), (Statista, 2017)	
+Drinking water is a combination of tap water and bottled water, and that globally, each person drinks an average of 219 L/year (0.6 L/day) of drinking water.		The assumed are well below the World Health Organisation's guidelines of 3–4 L/ person/day (WHO, 2005).
+Each person consumes a minimum of 2.4 kg, and a maximum of 4.8 kg of molluscs each year. It was also assumed that 43–70 shellfish make up 1 kg of shellfish (including the shells). Each mussel is assumed to weigh around 17.7 g (with shell) and have 4.42 g of meat.	(Van Cauwenberghe and Janssen, 2014), (Kaufield, 2015)	Based on the 2015 Per Capita consumption report by the National Oceanic and Atmospheric Administration, it is reported that on average, each person consumes globally 19.4 kg of fish, crustaceans and molluscs per year. Geographic variability of the amounts consumed available inTable S1
+The lower limit of 0.5475 kg/person/year and the upper limit of 0.8395 kg/person/year as recommended by the US Food and Drug Administration 2018 to be the global minimum and maximum respectively of salt consumed per year by each person	(FDA, U. F. a. D. A., 2018)	This is significantly lower than the World Health Organisation's reported consumption that most people consume on average 3.25–4.38 kg/person/year or recommended intake of no more than 1.825 kg/person/year) (WHO, 2016)
+Assumed MP particles >1 mm could be omitted from the estimation. The omission is also based on the notion that smaller sized microplastic particles are more likely to present greater toxicological risks for humans (EFSA, 2016).	(EFSA, 2016)	Particles > 1 mm in cooked food may be ingested. The data available is not conclusive to confirm it is not ingested, but it is unlikely to occur on a frequent basis.
+Calculations of the mass of microplastics ingested (kg) were carried out based on the assumption that all microplastic particles ingested were of uniform shape and size less than 1 mm		
+When considering PSDs, the microplastic particles were assumed to be spherical particles, or cubes	(Eerkes-Medrano et al., 2019)	
+2.1. Calculation of ingestion rates
+To estimate the GARMI, we extrapolated the data to infill and populate missing data to determine the total number of microplastics (particles) and the total mass (g) to allow for the calculation of ingestion rates (g/week/person) based on the estimated mass of the individual microplastic particle (g/particle). The GARMI can be represented by the following formula:
+(1)
+GARMI=Average Number of Microplastics Ingested(ANMP)×Average Mass of Individual Particle(AMIMP)
+To elucidate, firstly, we constructed an experimental dataset for the number of microplastics present in various sample matrices. Secondly, we constructed an experimental dataset for the mass of microplastics (g) to allow for the derivation of the mass of an individual microplastic particle (g/particle) based on (i) uniform distribution using the reported mass of microplastics in aquatic environments and (ii) PSD, using a volume density approach. Finally, we applied the information generated in the frequency and mass datasets to three scenarios (Section 2.1.3) to determine preliminary estimates of the GARMI (g/year/person) (Fig. 4).
+Download: Download high-res image (543KB)
+Download: Download full-size image
+
+Fig. 4. A simplified overview of the methodology used in this study.
+
+2.1.1. Average number of microplastic particles
+2.1.1.1. Aquatic
+To construct a dataset of the number of particles for a minimum (Min) and maximum (Max) range, we standardized the units of reported microplastic particles to number of microplastic particles. Publications that reported the number of particles present in the water column as number of particles were used as reported. Data reported as particles/m2 were multiplied by the surface area of the ocean (3.62 × 1014 m2) for marine samples (Everaert et al., 2018), or 3% of this value (1.08 × 1013 m2) representing the surface area of freshwater bodies (Atlas, 2016) for freshwater samples. Data reported as particles/m3 were multiplied by the volume in which microplastics are generally found in marine (1.81 × 1015 m3) and freshwater (5.42 × 1013 m3) environments (Everaert et al., 2018, Reisser et al., 2015).
+The data reported as particles/kg were multiplied by the average density of 0.98 g/cm3, based on PE and PP being the most commonly reported microplastic polymers in aquatic environments (Everaert et al., 2018, Gajst et al., 2016, Isobe et al., 2015, Poulain et al., 2018), then multiplied by the volume of microplastics in the ocean for marine samples or volume of microplastics in the freshwater environment for freshwater samples. For data reporting the number of particles in deep-sea sediments as particles/kg, the values were multiplied by the density of 0.98 g/cm3 (Everaert et al., 2018, Gajst et al., 2016, Isobe et al., 2015, Poulain et al., 2018) multiplied by the surface area of the ocean and a depth of 0.4 m (Everaert et al., 2018). For sediments from coastal beaches, the data reported as particles/m2 were multiplied by the assumed deposition zone of 50 m (Everaert et al., 2018), multiplied by the assumed contaminated length (50% of total global length of coastlines, equaling 8.15 × 1011 m).
+2.1.1.2. Consumables
+A total of thirty-nine publications contained data relating to the number of particles potentially ingested through the consumption of water, shellfish, fish, salt, beer, honey and sugar (Table S2). The amount of microplastic particles found in salt, honey and sugar were reported as the number of particles per weight of the consumable (particles per g or kg). Microplastics in beer and water were reported as the number of particles per volume (particles per mL or L). For microplastics reported as the number of particles per gram wet weight (e.g. shellfish), we multiplied the data with the assumed annual weight consumed for the corresponding food group (Table 1). For data reported as particles per organism, the value was multiplied by the assumed number of organisms consumed per person per year (Table 1). By this process, we standardized all data to provide an estimated Min and Max number of particles ingested per person per year which afforded the ANMPingested input values for Eq. (1) (Table 2).
+
+Table 2. Estimated average number of microplastic particles ingested (ANMPingested) per person per year.
+
+Source of particles	The estimated average number of particles/person/year	Sample size
+Minimum	Maximum	n
+Shellfish	2602	16,288	24
+Fish	339	3005	6
+Salt	41	1088	13
+Honey	57	107	2
+Sugar	0.1	8211	1
+Beer	177	869	6
+Tap water	16,265	68,331	12
+Bottled water	346	292,251	10
+Drinking watera	9029	174,959	22
+a
+Drinking water includes both tap water and bottled water to provide a global representation of water ingested.
+2.1.1.3. Atmospheric
+The twenty-one atmospheric papers identified were divided into indoor (6 publications), and outdoor (15 publications) environments (Table S3 and Table S4). Although outdoor environments have fewer microplastic particles than indoor environments (Dris et al., 2017), there were fewer minimum data points reported for the indoor compared with outdoor studies. Furthermore, data was obtained from factories and industrial settings, indicating that it would not be truly representative of the global atmospheric environment. Due to these uncertainties, the disparity of inhalation volume due to an individual's lung capacity and breathing rate, and indicators of greater exposure through ingestion (Lehner et al., 2019), atmospheric microplastics were omitted from the calculations of the GARMI.
+2.1.2. Average mass of individual microplastic particle
+A representative AMIMP needed to be derived to calculate the GARMI (Eq. (1)). We investigated two approaches to determine the average microplastic particle mass.
+2.1.2.1. Estimation of AMIMP using uniform distribution Aquatic
+To construct Min and Max datasets of total mass, data from the publications that reported the mass of microplastic particles as weight were used as a mass (kg). We multiplied data reported as kg/km2 by the surface area of oceans for marine samples or by the surface area of freshwater bodies for freshwater samples, to estimate the global mass of microplastics present in the respective environments. Due to the complexity and geospatial variability in the population figures, data reported as kg/capita was not utilized in this project.
+From six publications, a total of 33 data points with paired 'Min particle mass' and 'Min number of particles' were rendered (Table S5). A further 10 data points with pairings of 'Max particle mass' and 'Max number of particles' were available from seven publications (Table S6). Data points with particle sizes >5 mm and outliers were removed. Particles in the upper size range of 1–5 mm were omitted from the calculation as the likelihood of ingesting particles >1 mm frequently would be low. The omission is also based on the notion that smaller sized microplastic particles are more likely to present greater toxicological risks to humans, having higher potential contaminant loads, and greater ability to translocate and be biodistributed (EFSA, 2016).
+The estimated mean minimum and maximum weights of individual microplastic particles in the aquatic environment when sorted by (i) the minimum particle size sampled and (ii) the maximum particle size sampled varied (Table 3). The data was sorted by particle sizes sampled and split into two categories, particles ranging from 0–1 mm and 1–5 mm. The mean of the Min and Max for each category was then calculated to obtain an estimate of the AMIMPaquatic.
+
+Table 3. Average mass of individual microplastic particle in aquatic environment (AMIMPaquatic) divided into 2 sizes ranges.
+
+Particle size range (mm)	Min (g/particle)	Max (g/particle)	Mean (g/particle) x 10−3
+ (i) Sorting by minimum particle sizes
+0–1	2.10 × 10−03	3.50 × 10−03	2.80 ± 3.54 (n = 20)
+1–5	1.12 × 10−02	1.15 × 10−02	11.4 ± 10.6 (n = 8)
+ (ii) Sorting by maximum particle sizes
+0–1	7.99 × 10−03	9.33 × 10−7	3.99 ± 9.10 (n = 15)
+1–5	2.75 × 10−03	5.45 × 10−03	5.12 ± 4.56 (n = 13)
+2.1.2.2. Consumable
+It was not feasible to estimate AMIMPs using the above method for the consumables due to the limited data relating to the mass of microplastics in consumables ingested. This method only provided an AMIMPaquatic from existing data on microplastics in aquatic environments, and a second approach was investigated to determine the AMIMPconsumable.
+2.1.2.3. Estimation of AMIMP using Particle Size Distribution
+This method was based on the incorporation of a PSD using fundamental principles of volume and density. We undertook this investigation to assess the impact of particle size on the AMIMPaquatic calculated to verify the application of this method to the consumables data.
+2.1.2.4. Aquatic
+Resorting to fundamental principles, using volume and density, we examined the impact of particle length (diameter) weighting compared to volume weighting on the AMIMP. As limited information on PSDs was available from the literature, for this estimation, we utilized the distribution from Cai et al., 2018 (Figure S1), assumed that all the particles were spherical, with an average density of 0.98 g/cm3. The average sizes of the particles were determined using the size of particle diameter and particle volume. Particle length weights were based on the frequency of particles reported in each size range and the particle diameter was estimated using the midpoint of each size interval. For volume weighting, the product of particle frequency and volume were used to calculate a volume-weighted mean.
+2.1.2.5. Consumable
+Given the lack of consumables data, the approach using volume and density of particles was applied to the four categories of consumables with most data (drinking water, salt, beer and shellfish) to estimate the GARMI. Where available, PSDs were used to determine a mean particle volume (Table S7) and from those appropriate densities (Table 1) were used to convert to the mean particle mass. The distributions were reported in histogram form where the index i represented each size range and percentage of particles in that size range. The percentages divided by 100 for each size range formed the first set weights, wi. The mid-point of each size interval was used to represent the particle diameter Di. Where the last interval was reported as greater than the size range of the next smallest, then the width of the previous interval was added to the last interval and the mid-point for the last interval estimated from that range. A volume, vi, was then calculated for a particle with the size of the mid-point in each class. The particle shape, either reported or assumed as appropriate, were the basis for the volume formulae used from which the volumes for each size class vi were calculated. The most common assumption was that particles were spherical, or cubes (Eerkes-Medrano et al., 2019) and therefore both these shapes were investigated.
+The volume contribution for each size class was calculated using
+(2)
+Vi=wivi
+The volume-weighted mean particle size was calculated by
+(3)
+Vm=ΣDiVi/ΣVi,
+the weights being a combination of the proportion of particles in the size class and the volume associated with particles of that size. Then the volume V(sphere or cube) of the weighted mean particle size was calculated using a volume formula appropriate to the particle shape, that is
+(4)
+Vsphere=43π(Vm/2)3
+and
+(5)
+Vcube=Vm3
+Finally, the volume was converted to a mass using the appropriate plastic density using
+(6)
+AMIMP(sphere or cube)=V(sphere or cube)xρ
+Using the publications with PSDs for the specific categories of consumables ingested, the AMIMPconsumable assuming all particles were spheres AMIMPconsumable(sphere) or cubes AMIMPconsumable(cube) were calculated (Table 4).
+
+Table 4. Average mass of individual microplastic particle utilizing the PSDs for each category of consumable assuming all microplastics either spheres or cubes (AMIMPconsumable(sphere or cube)).
+
+Source of particles	Sample size	Average volume weighted	Average density	Average mass of individual microplastic particle(sphere/cube)
+
+Empty Cell
+	n	Assume sphere cm3	Assume cube cm3	g/cm3	Assume sphere g	Assume cube g
+Shellfish	2	7.1 × 10−09	1.4 × 10−08	0.98	6.9 × 10−09	1.3 × 10−08
+Salt	4	1.3 × 10−02	2.6 × 10−02	0.98	1.3 × 10−02	2.5 × 10−02
+Beer	2	4.8 × 10−04	6.6 × 10−04	1.4	4.8 × 10−04	9.2 × 10−04
+Drinking water	13	3.1 × 10−07	5.8 × 10−07	1.4	4.3 × 10−07	8.2 × 10−07
+2.1.3. Estimating global average rate of microplastics ingested (GARMI)
+In light of the three average microplastic particle masses estimated (AMIMPaquatic, AMIMPconsumable(sphere) and AMIMPconsumable(cube)), three scenarios were investigated to estimate the GARMI expressed by Eq. (1).
+
+Scenario 1
+
+Uniform distribution – assuming MPs were average aquatic particle.
+GARMI=ANMPingestedxAMIMPaquatic
+.
+
+Scenario 2
+
+Particle size distributions – assuming MPs were average spherical particles.
+GARMI=ANMPingestedxAMIMPconsumable(sphere)
+.
+
+Scenario 3
+
+Particle size distributions – assuming MPs were average cuboid particles.
+GARMI=ANMPingestedxAMIMPconsumable(cube)
+.
+2.2. Uncertainty assessment
+Due to the accuracy of assumptions and estimates used to derive the ANMP and AMIMP, a simulation approach was used to determine the level of uncertainty in the estimates. A coefficient of variation of 0.5 was adopted to introduce uncertainty in the estimates, meaning that the minimum number of particles was decreased by 50% and the maximum number of particles was increased by 50%. Consequently, the upper and lower limits of the particle mass estimates were also allowed greater variability that were 50% smaller and larger respectively. The GARMI was then calculated as ANMP multiplied by the AMIMP for each of the 100,000 simulations of randomly drawn values from the Uniform distributions. Monte Carlo simulations were carried out using the statistical package R (Team, R.C., 2017). The 95% confidence intervals for the true masses were obtained for each of the 5 distributions using the 2.5% and 97.5% percentiles of the simulated distributions, as well as the median and means. This analysis was conducted for the three scenarios.
+3. Results
+3.1. Calculation of ingestion rates
+The predictor variables for the ingestion rate were identified to be the number of particles (concentration), size, shape, polymer type, PSD, physical characteristics of individuals, as well as surrounding environment, geographical location, demographics and diet. The study noted that the mass of microplastics ingested was a function of the number of particles, size, shape, polymer type and particle size distribution. The imprecision related to the methods utilized to convert the number of microplastic particles into a mass of microplastic particles explicates the ranges of the weekly ingestion rates seen in Table 5.
+
+Table 5. Estimated number of particles and mass of microplastics <1 mm ingested per person per year using 3 AMIMPs (lit review derived mass, volume density based on the sphere, volume density based on cube).
+
+Source of particles	Density	AMIMP(aquatic or consumable (sphere or cube)) (g)	Sample size	ANMP particles/person/year	GARMI: estimated mass ingested/person/year (g)
+Scenario 1: Assuming aquatic (size 0–1 mm)a	Scenario 2: Assuming sphere (diam 0–1 mm)b	Scenario 3: Assuming cube (length 0–1 mm)b
+g/cm3	Scenario 1 AMIMPaquatic	Scenario 2 AMIMPconsumable (sphere)	Scenario 3 AMIMPconsumable (cube)	n	Min	Max	Min	Max	Mean	Min	Max	Mean	Min	Max	Mean
+Shellfish	0.98	2.8 × 10−03	6.9 × 10−09	1.3 × 10−08	24	2602	16,288	7.3	45.6	26.4	0.0	0.0	0.0	0.0	0.0	0.0
+Salt	0.98	2.8 × 10−03	1.3 × 10−02	2.5 × 10−02	13	41	1088	0.1	3.1	1.6	0.5	14.3	7.4	1.0	27.3	14.2
+Beer	1.4	2.8 × 10−03	4.8 × 10−04	9.2 × 10−04	6	177	869	0.5	2.4	1.5	0.09	0.4	0.3	0.2	0.8	0.5
+Drinking water	1.4	2.8 × 10−03	4.3 × 10−07	8.2 × 10−07	22	9029	174,959	25.3	489.7	257.5	0.00	0.07	0.04	0.01	0.14	0.08
+Total	65	11,849	193,205	33.2	540.8	287.0	0.6	14.8	7.7	1.2	28.2	14.7
+Total (per week)	65	228	3715	0.6	10.4	5.5	0.0	0.3	0.1	0.0	0.5	0.3
+a
+Particle size based on aquatic particle size data from literature reviewed.
+b
+Particle size based on PSDs specific to each category of consumable.
+3.1.1. Number of microplastic particles ingested
+Globally, the ANMP humans potentially ingest ranges between 11,845 to 193,200 MPs per person per year with the largest source being drinking water (Table 2). Given the small sample sizes for honey and sugar, the data was not included in the estimation of GARMI. Fish data was also excluded due to uncertainties associated with the amounts of microplastics removed during food preparation (e.g. removal of the gut, which is not ordinarily consumed). Only the four categories of consumables with sufficient data (shellfish, salt, water and beer) were utilized to estimate the GARMI.
+3.1.2. Average mass of individual microplastic particle
+3.1.2.1. AMIMPaquatic ‐ Uniform Distribution
+Based on the analysis (Table 3), the mean 2.80 × 10−06 ± 3.54 × 10−03 g/particle (AMIMPaquatic), for the maximum and minimum data sorted by minimum particle size sampled in the range of 0–1 mm, was adopted for use in Scenario 1 to represent the average particle mass for each microplastic particle ingested.
+3.1.2.2. AMIMPaquatic – Particle Size Distribution
+The resulting weighted mean particle diameter for the Cai, 2018 distribution was 147 µm using the frequency weight, and equated to a particle mass of 1.64 × 10−06 g/particle. The weighted mean particle diameter of 494 µm was obtained using the volume weighting factor and equated to a particle mass of 6.19 × 10−05 g/particle. The volume weighted mean particle size appeared to be more suitable in this study, given the assumption that the microplastic particle size ranges from 0 -1 mm, and representative of the total mass for samples in the aquatic environment. Given the focus on microplastics particle size ranging from 0 - 1 mm, the volume weighted mean particle size appeared to be a suitable approach to represent the total mass for samples in the aquatic environment. Assumptions to determine a mean particle size to represent the mass of total particles were made based on Cai et al., (2018) where the range of the data was 0–750 µm, and the volume-weighted average particle size (494 µm) was about 2/3 of the maximum value. It was thus assumed that all microplastic PSDs are right-skewed, (with a similar shape to Figure S1), and the simple approach of using the mid-point of the range of sizes reported was adopted to represent the volume-weighted mean particle size.
+The mean minimum particle weight was assumed to be the volume of the average 0–1 mm multiplied by the average density of 0.98 g/cm3 (Everaert et al., 2018, Gajst et al., 2016, Isobe et al., 2015, Poulain et al., 2018) which resulted with a mass of 6.41 × 10−05 g/particle. The mean particle weight for 1–5 mm was based on the volume of the average 1–5 mm multiplied by the average density of 0.98 g/cm3 (Everaert et al., 2018, Gajst et al., 2016, Isobe et al., 2015, Poulain et al., 2018) which resulted with a mass of 1.39 × 10−02 g/particle. These were comparable to the mass estimated using the data from the aquatic environment (Table 3) and validated the estimate, thereby indicating that the approach of using volume and density was plausible to determine the mass, and was thus adopted.
+3.1.2.3. AMIMPconsumable – Particle Size Distribution
+Using the limited publications with PSDs for the specific categories of consumables ingested, the estimated AMIMP derived by firstly assuming all particles in the consumables to be spheres, and secondly all particles to be cubes (Table 4). It followed that the AMIMP calculated varied based on the assumed shape of the microplastic particle. Due to finer particle size, AMIMPcomsumable for drinking water and shellfish were found to be lower than beer and salt. For drinking water, the AMIMPconsumable were 4.3 × 10−7 g and 8.2 × 10−7 g for spherical and cubed particles respectively. In the case of shellfish, the AMIMP were 6.9 × 10−9 g for spherical and 1.3 × 10−8 g for cubed particles.
+3.1.3. Estimating GARMI
+Three scenarios were analyzed to provide estimations of the GARMI (0–1 mm) ranging between 287.0 g and 7.7 g per person per year (Table 6). Details relating to the calculations of the GARMI are presented in Table 5. It should be noted that the limited datasets of microplastic PSDs in the consumables contributes to the uncertainty factor of the estimates from this technically more accurate method.
+
+Table 6. Summary of the annual average number of microplastics (particles) ingested (particles), and global average rate of microplastics ingested (g) per person per year.
+
+Source of particles	ANMPingested (particles)	GARMI (0–1 mm) Scenario 1 (g)	GARMI (0–1 mm) Scenario 2 (g)	GARMI (0–1 mm) Scenario 3 (g)
+Shellfish	9,445	26.4	0.0	0.0
+Salt	565	1.6	7.4	14.2
+Beer	523	1.46	0.3	0.5
+Drinking water	91,994	257.5	0.0	0.0
+Total (per year)	102,527	287.0	7.7	14.7
+TOTAL (PER WEEK)	1,972	5.5	0.1	0.3
+3.2. Uncertainty assessment
+Histograms of the frequency distributions for the masses of water, salt, shellfish and beer ingested and for the total mass were generated (Figures S2 to S4). The interpretation of the 95% confidence intervals is that the "true" mass ingested for each food source and total mass will be within the ranges calculated (Table 7). However, this depends critically on the shape of the uniform distribution chosen and the assumed 50% relative uncertainty in number of particles and mass of particles. This uncertainty was chosen arbitrarily to help in understanding the sensitivity of the mass ingested to errors in the estimates reported.
+
+Table 7. Uncertainties in mass estimates for consumable categories based on Monte Carlo simulation results (g/year) of estimated mean mass and 95% confidence intervals of microplastics <1 mm ingested per person per year using 3 scenarios.
+
+Source of particles	Monte Carlo simulation of mean mass consumed (g/person/year) [95% confidence interval]
+Scenario 1:	Scenario 2:	Scenario 3:
+Assuming aquatic particle (size 0–1 mm)a	Assuming sphere (diam 0 – 1 mm)b	Assuming cube (length 0–1 mm)b
+Shellfish	36.0 [4.7,84.8]	8.9 × 10−05 [1.2 × 10−05, 2.1 × 10−04]	1.7 × 10−04 [2.3 × 10−05, 4.0 × 10−04]
+Salt	2.3 [0.2, 5.6]	10.8 [0.7, 26.0]	20.8 [1.4, 50.9]
+Beer	1.9 [0.3, 4.5]	0.3 [0.05, 0.8]	0.6 [0.098, 1.5]
+Drinking water	372.6 [28.1, 906.4]	0.06 [0.004, 0.1]	0.1 [0.008, 0.3]
+TOTAL	412.8 [63.4, 948.8]	11.2 [1.1, 27.0]	21.6 [2.1, 51.7]
+TOTAL (g/week)	7.9 [1.2, 18.2]	0.22 [0.02, 0.52]	0.42 [0.04, 0.99]
+a
+Particle size based on aquatic particle size data from literature reviewed.
+b
+Particle size based on PSDs specific to each category of consumable.
+4. Discussion
+Globally, humans have been exposed to microplastics from various sources and their adverse health impacts are emerging. Human health risk assessments could be conducted using standard in vitro and in vivo models if the mass of microplastics ingested was known, similar to pharmaceutical assessments. Thus, the estimation of an ingestion rate would form the basis of a human health risk assessment. This study builds on current knowledge by converting the ANMP ingested into a mass value which has greater relevance to human toxicology, as a rate based on ANMP fails to provide information regarding the size or bioaccessibility of microplastics (Filella, 2015, Lehtiniemi et al., 2018). Predictor variables were identified, and with the use of conservative assumptions, a simple relationship between the ANMP and AMIMPs was developed to provide a preliminary GARMI and a dynamic conceptual system that can be updated with further developments.
+4.1. Toxicology
+Whilst there is still a need for further evidence to determine the full impacts of microplastics on human health, there is sufficient evidence to necessitate a precautionary approach in dealing with microplastics which expounds the need for a preliminary ingestion rate. Studies on the impacts of microplastics on living organisms infer potential risks and direct links to human health (Nelms et al., 2018, Prata et al., 2020). For example, common plastic additives including phthalates, BPA and BPS, are considered endocrine−disrupting chemicals (EDCs), having been linked with reproductive and developmental disorders including breast cancer, blood infection, early onset of puberty and genital defects (Mishra et al., 2019, Ribeiro et al., 2019, Fraunhofer et al., 2019). The accumulation of microplastics in the liver and kidney causes disturbance of energy and lipid metabolism as well as oxidative stress (Deng and Zhang, 2019). Microplastics are able to be translocated in the gastrointestinal tract (GIT) by persorption through the gaps in GIT (Volkheimer, 2001) or possibly by endocytosis through Peyer's patches of the small intestine into the circulatory system (Powell et al., 2010). Browne et al., (2013) postulated that fine microplastics have the potential to transfer chemicals directly into tissues without the need for gastric desorption. Studies that investigated the inhalation exposure of microplastics via aerosol particles and household dust indicated a high risk to humans (Zhang, 2019, Zhang et al., 2020). Prata (2018) estimated that human lungs may be exposed to 26–130 microplastics daily, posing a significant health risk due to the difficulties associated in clearing the particles from the respiratory system, the potential of the plastic to interact with other organic materials, and through the release of hazardous chemicals.
+4.2. Evidence of microplastics in humans and their associated impacts
+Evidence confirms the entry and presence of microplastics in the human system. Microplastics were detected in human stool in the order of 2 MP particles/g (Schwabl et al., 2019). A total of 9 polymer types were identified (mainly PP (63%) and PET (17%)) predominantly as films or fragments. Assuming the particles to be either all films or fragments, in the proportion of the polymers identified (Schwabl et al., 2019), a rate of 1.1–29.36 mg/week of 50 µm < MP < 500 µm could be excreted (S1.6). Recently, J. Zhang et al., (2019) assessed the mass of microplastics recovered from pet stool, as a surrogate for the biomonitoring of microplastics in humans, and found high concentrations of PET and PC in stools of cats and dogs, at a potential excretion rate of 0.03–677.1 mg/week (S1.7). These findings are noteworthy as high concentrations of PP stimulated the immune system and enhanced potential hypersensitivity (Hwang et al., 2019). PET was reported to act as an irritant, causing blurring and tearing when in contact with eyes (J. Zhang et al., 2019).
+Additionally, phthalates plasticizers have been identified in human blood, sweat and urine (Genuis et al., 2012, Koch et al., 2017, Colón et al., 2000, Heffernan et al., 2020). PVC commonly contains BPA and phthalates which disrupts the normal development and functioning of the endocrine system (Proshad et al., 2017). For instance, a link between the concentrations of phthalates (suspected to have leached from plastic containers) in the blood of young girls, and the early onset of breast development was identified (Colón et al., 2000).
+Lung biopsies from workers in the textile industry revealed interstitial fibrosis and legions containing acrylic, polyester and nylon dust, highlighting the biopersistence of synthetic fibres in humans (Pimentel et al., 1975). Long-term occupational exposure to microplastics may lead to persistent interstitial lung diseases, various forms of cancer and death by pneumoconiosis (Prata, 2018, Turcotte et al., 2012).
+PS, produced from the styrene monomer, a known carcinogen capable of inducing neurotoxic and genotoxic effects (Oliveira and Almeida, 2019), demonstrated cytotoxic effects to cerebral and epithelial cells (Schirinzi et al., 2017), disruptions of the mitochondrial membrane potential of intestinal cells (Wu et al., 2019) and DNA damage (Poma et al., 2019). The prospect of PS accumulation in the tissues of the human placenta was observed during an ex vivo study (Grafmueller et al., 2015).
+Despite the discernible impacts different polymers and additives cause, these studies reiterate that these potentially hazardous contaminants are entering and migrating through our bodies. Evidence of the impacts of different polymers is evolving but is currently still scarce (Lehner et al., 2019, Rist et al., 2018) and warrants further research moreover as an identified predictor variable of the GARMI specifically relating to density.
+4.3. Microplastic sources
+Microplastics have been found in the food we eat, liquids we drink, the air we breathe and the environment we inhabit. It is thus predictable that there is a relationship between the source of microplastics to humans and the environment it is acquired from. Several studies (Kim et al., 2018, Catarino et al., 2018, Qu et al., 2018a) have ascertained that there is a positive relationship between the number of microplastics present in aquatic organisms and their aquatic environments. Hence, the number of microplastics in foods sourced from the aquatic environments, such as seafood and salt, maybe directly correlated to the mass of microplastics present in aquatic environments. Microfibres are highly concentrated in domestic and commercial wastewaters and are released to the environment through final treated effluent and the land application of biosolids, and further transported by wind, runoff or other organisms (Wright and Kelly, 2018, Raju et al., 2018). Surface water sources that are close to wastewater discharge points and/or untreated prior to drinking are predisposed to higher concentrations of microplastic pollution particularly in urbanized environments where the prevalence of plastics are greater. Notwithstanding, microfibres have been detected in remote locations (Allen and Allen, 2019, Bergmann et al., 2019) with deposition rates comparable to that of highly developed cities (Cai et al., 2017, Dris et al., 2016), indicating their occurrence and extensive distribution throughout the atmosphere. Atmospheric microplastics, derived from natural or synthetic materials, are generated through the laundering and abrasion of textiles, carpets, artificial turf, household dust, tyres and road abrasions (Prata, 2018, McIlwraith et al., 2019, Saborowski et al., 2019). As humans not only inhale, but are also prone to ingesting dust particles (Catarino et al., 2018, Zhang et al., 2019), the inclusion of atmospheric data would further increase the estimation of the GARMI and provide additional information regarding the amounts of microplastics entering humans.
+4.4. Computing the GARMI
+Our analysis obtained a preliminary estimate of the GARMI utilizing the available data coupled with conservative estimates of ingestion rates (e.g. the amount of water consumed per person was assumed to be 0.6 L/day, the amount of salt ingested is the recommended daily intake (0.55 - 0.84 kg/person/year to 0.84 kg/person/year) instead of the actual reported average consumption (3.25–4.38 kg/person/year) (Table 1)). Only categories of consumables with robust data were utilized. Some categories were intentionally excluded due to their limited nature (honey, sugar and fish) while data from other categories (including staples such as pasta, oil, milk, bread, rice, meat and wheat) were not included due to the absence of data at the time of analysis. The contribution of microplastics from plastic utensils, cutlery, toothpaste, toothbrushes, food packaging (plastic and plastic-lined e.g. acrylic and polyester coatings in cans (Geueke, 2016)) were also excluded due to data limitations. Since then, additional publications have been released reporting new findings of microplastics in tea (Hernandez, 2019), milk (Kutralam-Muniasamy et al., 2020), soft drinks (Shruti et al., 2020a), and drinking water fountains (Shruti et al., 2020b). Clearly, there are multifarious microplastics which are yet to be investigated and accounted as contributory sources of ingestion, and should be added to the database generated through this study, to update the GARMI as new information becomes available.
+4.5. Number of microplastics
+Our global estimates of ANMP ingested are comparable with those recently reported by Cox et al., (2019), who estimated that North Americans ingest and inhale between 39,000 to 142,000 ANMP per year; and Q. Zhang et al., (2020) who estimated an ingestion rate up to 77,700 from salt and water, and up to 30,077,700 when including inhalation.
+4.6. Largest contributor from source of life
+Our study suggested that drinking water (tap and bottled) was the greatest contributor to the number of particles ingested by humans globally. Generally, higher counts of microplastics were reported in bottled water, which was likely to be from the packaging and processing (Schymanski et al., 2018). Raw water was not included in the calculation as consumption data is not readily available. Curiously, the amount of microplastics found in raw water samples (Pivokonsky et al., 2018) were in the same order of magnitude as those obtained for bottled water (Oßmann et al., 2018a) wherein both studies investigated microplastics down to 1 µm. Most microplastic research is now revealing that the ANMP increases as particle size decreases (Allen and Allen, 2019, Oßmann et al., 2018a) and as the drinking water studies reported finer microplastics, it is fathomable that this category is the largest contributor.
+4.7. Analytical challenges
+Due to technological and time constraints, fine microplastics and small volumes of samples are possibly yielding underestimations. For example, so as to manage both the ANMP and the time to analyze the finer particles, Oßmann et al., (2017) reduced the sample volumes to 250 mL. Furthermore, only a subset of the filters were analyzed and extrapolated to provide a quantity (particles/L). It is thus not only very possible to miss larger particles when using smaller samples, but also increase the risk of underestimation. Large volumes of samples are necessary to provide representative results when dealing with fine quantities of contaminants (Mintenig et al., 2019). Additionally, Oßmann et al., (2018a) stated that the particles tended to stack together on the filters when the numbers were high, which underestimated the total number of particles as the stacks were recognized as a single particle instead of the counts that made up the stack. This further compounds the underestimation of ANMP, and therefore total mass. Considering the toxicological risks associated with the ingestion of finer microplastics (<150 µm) (EFSA, 2016, Lehtiniemi et al., 2018), advanced analytical techniques capable of detecting microplastics especially in the bioavailable range must be employed in the quantification process to minimize underestimation.
+It is undeniably more challenging to identify and quantify finer particles (Oßmann et al., 2018a, Schymanski et al., 2018). Currently Raman spectroscopy and Fourier-transform infrared spectroscopy (FTIR) are recommended to characterize microplastics due to their non-destructible and highly accurate spectrum (Prata et al., 2019). However, the difficulty for all microplastics to be analyzed by spectroscopy due to subjective bias, and the possibility of the additive pigment spectra totally covering its spectra, needs to be considered as underestimations are tenable (Imhof et al., 2016, Lenz et al., 2015). Moreover, although technology such as Raman spectroscopy can analyze finer particles (when compared with FTIR), the intensity of the laser could potentially damage the microplastics, rendering underestimations (Schymanski et al., 2018). The analytical ability to identify and quantify fine microplastics is only just emerging (Toussaint et al., 2019a).
+The number of microplastics reported in the publication used for the development of the shellfish PSD was underestimated due to the detrimental effects of concentrated HNO3 on plastics during the extraction phase (Van Cauwenberghe and Janssen, 2014). Acid digestion of tissue and organics can result in degradation of the plastic matrix to the extent that plastics are overlooked during the identification process. Additionally, given that no fibres were reported by Van Cauwenberghe and Janssen (Van Cauwenberghe and Janssen, 2014), and that fibres were the dominant microplastic type reported by various other shellfish studies (Qu et al., 2018a, Mathalon and Hill, 2014, De Witte et al., 2014), it can be concluded that all microplastics were not accounted for. In light of this, the lower ingestion rate calculated for shellfish using the PSD approach compared with using the uniform distribution approach is to be expected.
+4.8. Microplastic size
+The size of microplastics has an influence on the GARMI as seen with shellfish. De Witte et al., (2014) reported that fibres recovered from shellfish ranged from 200 µm to 1500 µm, while Khan and Prezant (Khan and Prezant, 2018) found PE particles ranged between 250 µm and 300 µm in tissue sections of 50% of experimental mussels, whilst Phuong et al., (2016) identified 11% of the microplastics in mussels to be >100 µm. Our study employed a lower particle size of 23.8 µm for shellfish using the PSD approach. This explains the lower AMIMPconsumble when compared to the AMIMPaquatic. During experimental trials, shellfish have demonstrated the uptake and excretion of larger plastic particles (~30.6–4400 µm (Jâms et al., 2020, Saborowski et al., 2019, Cole et al., 2013)) indicating that larger particles need to be accounted for in order to achieve better accuracy for human risk assessment, as time of excretion is an unknown, ranging from hours to days (Saborowski et al., 2019, Cole et al., 2013). Our study does not account for particles >1mm which is potentially ingested (Jâms et al., 2020).
+The data from the water category, at glance suggested a bias that could be misinterpreted as an outlier due to the findings of a recent study (Pivokonsky et al., 2018). However, this is attributed to the fine microplastics (average ~29.1 µm) that were captured in the analysis (Pivokonsky et al., 2018) which were not captured in data from the aquatic environment literature (average ~300 µm). The data highlights that there are many fine microplastics that have not been accounted for in older studies. While individually possessing only a fraction of the mass of the more conspicuous particles, a considerable portion of microplastics, incrementally amassing, may be currently unaccounted for in microplastic estimates.
+4.9. Microplastic shape
+There is a direct relationship between the physical characteristics of the microplastics ingested and the mass ingested. Due to the limited data availability, in the estimations using PSDs, the microplastics were assumed to be spheres representing microbeads and the average particle, or cubes representing fragments and the largest particles. Cylinders were considered to represent microfibres, however, considering microfibres vary greatly in length, and that most microplastics recovered from human stool were rarely fibres (Schwabl et al., 2019), microfibres were not further investigated. Films, square prisms, were also discounted due to their limited reporting, their large variations in geometry and suspected underestimations. The assumed cubes commanded the largest unit volumes and therefore largest AMIMP, and films the smallest (Fig. 5). Had microplastic films been more abundant, it would have been included in the GARMI, and the corresponding mass could be lower (depending on the ANMP). Whilst studies on marine organisms indicate that shape influences ingestion and toxicity (Gray and Weinstein, 2017, de Sá et al., 2018), interestingly, an experimental study discovered that size of the plastic influenced the rate of ingestion more than its shape (Lehtiniemi et al., 2018) potentially suggesting for more research to focus on size before shape.
+Download: Download high-res image (154KB)
+Download: Download full-size image
+
+Fig. 5. Unit volumes of assumed microplastics shapes.
+
+4.10. Demystifying the approaches
+Many studies reviewed indicated that the microplastics reported could be underestimations, consequently rendering a high likelihood of an underestimated GARMI. Our theory of underestimation was similar to Cox et al., (2019) who expressed that they were only able to assess 15% of a person's dietary intake due to data limitations, and that their findings were therefore likely to be underestimations.
+Although individuals ingest microplastics through numerous sources daily, the preliminary GARMI only presents the findings through the ingestion of four consumables, hence the three scenarios, using a range of AMIMPs, provides a spectrum of the possibilities. Given the established correlation between the number of microplastics in organisms and their aquatic environments, it would seem reasonable to use the AMIMPaquatic to provide a worst case scenario of the GARMI. The rationale for use of AMIMPconsumable(cube) is attributed to an attempt to compensate for the underestimations in the reported data. The use of the AMIMPconsumable(sphere) presents a conservative average using the PSD approach (Table 8). The use of PSD data for all (and more) categories would have been the preferred approach to calculate an estimation, however the data sets were too limited.
+
+Table 8. Rationale behind the use of the estimated average masses of individual microplastics for the estimation of the global average rate of microplastic ingested.
+
+Assumed AMIMP	Rationalea
+AMIMPaquatic	Microplastics found in aquatic organisms mirror the microplastics in the aquatic environment, indicating the reality that organisms can ingest particles in this range, hence providing a reasonable "worst case scenario"
+AMIMPconsumable(sphere)	This presents a conservative average GARMI using PSD approach as the shape is mid of the range (Fig. 5)
+AMIMPconsumable(cube)	Underestimation of particles is undisputed, due to a variety of reasons, and the use of a cube particle with the PSD can somewhat compensate for the unaccounted microplastics
+a
+Noting the GARMI assumes only 4 consumables enter the human system
+4.11. Medley approach
+Improved analytical methods, and an increased number of studies, will allow for more accurate PSD analysis for various categories of consumables ingested, allowing for the GARMI to be updated. Until such time, the consideration of the three scenarios discretely projects a GARMI that somewhat accounts for the identified underestimations. A combination approach of the scenario resulted in a GARMI of 0.7 g/week (Table 9). Hence pending further availability of data, our preliminary estimates indicate that humans could potentially be ingesting between 0.1-5g of microplastics per week.
+
+Table 9. Estimates of the global average rate of Microplastics ingested using a combination of approaches and the rationale behind the choice of average mass of individual microplastic.
+
+Consumable Category	AMIMP to consider	Rationale for choice of AMIMP	GARMI (g/yr)
+Shellfish	AMIMPaquatic	Microplastics found in aquatic organisms mirror the microplastics in the aquatic environment (Kim et al., 2018, Catarino et al., 2018, Qu et al., 2018b)	26.4
+Salt (aquatic and terrestrial: sea salt, rock salt, lake salt)	AMIMPconsumable(sphere)	Studies suggest that salt are heavily concentrated with microplastics. The refining process of salt can remove particles, however, conversely, add particles if cleaning agents with microbeads are used in the processing plants (Kim et al., 2018).	7.4
+Water	AMIMPconsumable(cube)	Easy to underestimate fine particles (Toussaint, 2019b, Oßmann et al., 2018b) in liquids from small volume of samples (Mintenig et al., 2019), use of cube to compensate	0.08
+Beer	AMIMPconsumable(cube)	Easy to underestimate fine particles in liquids from small volume of samples and PSD, cube to compensate	0.5
+TOTAL INGESTING ALL CONSUMABLES	34.4 (0.7 g/wk)
+An individual's susceptibility to ingestion of microplastics, based on the predictor variables, will influence their corresponding exposure. For example, individuals with a significant diet of shellfish and bottled water, with a high calorific intake from these categories will be more likely to have an increased exposure to microplastics compared with individuals who consume less (Cox et al., 2019, Schymanski et al., 2018). Individuals who frequently ingest consumables packaged in plastics, will have higher exposure as plastic packaging contributes to microplastics in consumables (Kim et al., 2018). It is hypothesized that individuals from regions with a low reliance on plastic products, superior waste management facilities, better quality water sources and adequate policies with respect to food health and safety will be at less risk of microplastic exposure compared to individuals from regions that are still developing in these aspects. Further research is necessary to confirm this hypothesis. Nonetheless, there is sufficient evidence to indicate that the predictor variables identified influences individuals' exposure and the GARMI.
+4.12. Knowledge gaps and future directions
+Despite the dramatic increase in microplastics literature, there were considerable limitations and challenges encountered during this analysis, due to a scarcity of data, different reporting metrics, uncertainties, variations in identification techniques and analytical challenges faced by the authors, as well as a variety of experimental conditions. An assessment of the data quality of studies to date found that forty six out of fifty publications on microplastics in freshwaters and drinking water did not meet high standards of quality assurance and were considered incomplete or unreliable on various aspects involving controls, sampling methods, processing and analysis (Koelmans et al., 2019). This highlights the existence of many uncertainties associated with the quantification of microplastics in water, and by inference, other sources. Furthermore, there were a limited number of studies that collected and reported both the number and mass of microplastics, or information on the PSD of microplastics. As such, the ANMP and AMIMP for various categories were developed for the estimation of the GARMI using assumptions and extrapolations, including an even PSD for 0–1 mm. It is acknowledged that with every assumption and extrapolation, the level of uncertainty increases, which can only be reduced with input from additional research. The adoption of a Bayesian approach to update our preliminary estimate of the GARMI is recommended. Specific recommendations for future directions include:
+•
+Standardization of analytical methods and basic microplastic parameters that need to be collected during microplastic studies (e.g. size, shape, polymer, number of particles, mass of particles, PSDs), to allow for better standardized definitions of those parameters (e.g. the size of microfibres could be defined such that 25% of the material by weight is greater than a size). A standardized quantification and characterization of sampling, analysis and reporting would allow for the development of an inherently more robust data set.
+•
+Investigations into the influence of predictor variables on the GARMI be undertaken. Consideration given to various combinations and permutations of the predictor variables to determine adverse human health impacts of microplastic ingestion.
+•
+Acquisition of additional detailed data from food groups consumed daily (staples) including water, milk, rice, wheat, corn, bread, pasta, oils, meat, etc.
+•
+Investigations of technology to reduce and/or remove microplastics from staples with high GARMI to reduce exposure, taking into consideration the effects of bioaccumulation of microplastics in the natural environment and uptake of microplastics by plants, organisms, and transportation by wind.
+•
+Establishment of geographical, cultural and demographic patterns of microplastic ingestion based upon the availability, access to and cultural appropriateness of different consumables.
+•
+Evaluation of the degree to which microplastic size are transferred through the food web vs. transferred along other pathways through a mass balance.
+•
+Investigations of the interactions of microplastics and other contaminants and its fate, transport and impacts on the human system.
+•
+Determination of the threshold of toxicity of microplastics ingested, in terms of the physical characteristics of microplastics such as size, mass, polymer, and shape.
+•
+Determination of the extent of migration of microplastics from utensils and food packaging into food. Estimation of ingestion rates of plastics from cooking and eating utensils (especially by children).
+5. Conclusion
+The global presence and persistence of microplastics are well-established; however, the amounts of microplastics humans ingest was to be fully quantified. Our study provides a preliminary estimate of the potential amount of microplastics that may be ingested by humans, which can serve as a basis for future investigations. It highlights the risks to humans, stressing the need for a precautionary approach to be adopted. Following a systematic process, the analysis indicates that globally, on average, humans could potentially be ingesting 0.1–5 g of microplastics per week. The amount of the microplastics ingested by an individual will depend on a combination of highly variable parameters, not only of the characteristics of the microplastics but also to each individual's age, size, demographics, cultural heritage, geographic location, nature of the development of surrounding environment and lifestyle options.
+CRediT authorship contribution statement
+Kala Senathirajah conducted the underlying research, investigations and writing. Simon Attwood provided the conceptual basis for the study. Geetika Bhagwat and Maddison Carbery contributed graphics, proof reading and review. Scott Wilson provided drafting assistance. Thava Palanisami provided oversight and leadership for the overall research theme, planning and execution.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This project was commissioned by World Wide Fund for Nature (WWF) - Singapore, who provided partial funding for the research. We would also like to acknowledge Kim Colyvas for statistical support. The Research Training Program Scholarship offered by the Commonwealth of Australia and PhD Scholarship by Water Research Australia are also duly acknowledged.
+Competing financial interests declaration
+All authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Appendix A. Supplementary material
+Download: Download Acrobat PDF file (1MB)
+
+Supplementary material.
+
+.
+References
+Alharbi et al., 2018
+O.M.L. Alharbi, A.A. Basheer, R.A. Khattab, I. Ali
+Health and environmental effects of persistent organic pollutants
+J. Mol. Liq., 263 (2018), pp. 442-453, 10.1016/j.molliq.2018.05.029
+View PDF
+View articleView in ScopusGoogle Scholar
+Allen and Allen, 2019
+S. Allen, D. Allen, et al.
+Atmospheric transport and deposition of microplastics in a remote mountain catchment
+Nat. Geosci., 12 (2019), pp. 339-344, 10.1038/s41561-019-0335-5
+View in ScopusGoogle Scholar
+Atlas, 2016
+Atlas, W., 2016. Global data. 〈https://www.worldatlas.com/aatlas/infopage/oceans.htm〉.
+Google Scholar
+Barcelo and Pico, 2019
+D. Barcelo, Y. Pico
+Microplasticsin the global aquatic environment: Analysis, effects, remediation and policysolutions
+J. Environ. Chem. Eng., 7 (2019), Article 103421, 10.1016/j.jece.2019.103421
+View PDF
+View articleView in ScopusGoogle Scholar
+Barboza et al., 2018
+L.G.A. Barboza, A. Dick Vethaak, B.R.B.O. Lavorante, A.K. Lundebye, L. Guilhermino
+Marine microplastic debris: an emerging issue for food security, food safety and human health
+Mar.Pollut. Bull., 133 (2018), pp. 336-348, 10.1016/j.marpolbul.2018.05.047
+View PDF
+View articleView in ScopusGoogle Scholar
+Bergmann et al., 2019
+M. Bergmann, S. Mützel, S. Primpke, M.B. Tekman, J. Trachsel, G. Gerdts, et al.
+White and wonderful? Microplastics prevail in snow from the Alps to the Arctic
+Sci. Adv., 5 (2019), Article eaax1157, 10.1126/sciadv.aax1157
+View in ScopusGoogle Scholar
+Boots et al., 2019
+B. Boots, C.W. Russell, D.S. Green
+Effects of microplastics in soil ecosystems: above and below ground
+Environ. Sci. Technol. (2019), 10.1021/acs.est.9b03304
+(doi.org/)
+Google Scholar
+Brandon et al., 2019
+J.A. Brandon, W. Jones, M. D.Ohman
+Multidecadal increase in plastic particles in coastal ocean sediments
+Sci. Adv., 5 (2019), p. eaax0587
+View in ScopusGoogle Scholar
+Browne et al., 2013
+M.A. Browne, S.J. Niven, T.S. Galloway, S.J. Rowland, R.C. Thompson
+Microplastic moves pollutants and additives to worms, reducing functions linked to health and biodiversity
+Curr. Biol., 23 (2013), pp. 2388-2392, 10.1016/j.cub.2013.10.012
+View PDF
+View articleView in ScopusGoogle Scholar
+Cai et al., 2018
+M. Cai, et al.
+Lost but can't be neglected: huge quantities of small microplastics hide in the South China Sea
+Sci. Total Environ., 633 (2018), pp. 1206-1216, 10.1016/j.scitotenv.2018.03.197
+View PDF
+View articleView in ScopusGoogle Scholar
+Cai et al., 2017
+L. Cai, et al.
+Characteristic of microplastics in the atmospheric fallout from Dongguan city, China: preliminary research and first evidence
+Environ. Sci. Pollut. Res. Int., 24 (2017), pp. 24928-24935, 10.1007/s11356-017-0116-x
+View in ScopusGoogle Scholar
+Carbery et al., 2018
+M. Carbery, W. O'Connor, T. Palanisami
+Trophic transfer of microplastics and mixed contaminants in the marine food web and implications for human health
+Environ. Int., 115 (2018), 10.1016/j.envint.2018.03.007
+Google Scholar
+Carbery et al., 2020
+M. Carbery, et al.
+Baseline analysis of metal(loid)s on microplastics collected from the Australian shoreline using citizen science
+Mar. Pollut. Bull., 152 (2020), Article 110914, 10.1016/j.marpolbul.2020.110914
+View PDF
+View articleView in ScopusGoogle Scholar
+Catarino et al., 2018
+A.I. Catarino, V. Macchia, W.G. Sanderson, R.C. Thompson, T.B. Henry
+Low levels of microplastics (MP) in wild mussels indicate that MP ingestion by humans is minimal compared to exposure via household fibres fallout during a meal
+Environ. Pollut. (Barking, Essex : 1987), 237 (2018), pp. 675-684, 10.1016/j.envpol.2018.02.069
+View PDF
+View articleView in ScopusGoogle Scholar
+Van Cauwenberghe and Janssen, 2014
+L. Van Cauwenberghe, C.R. Janssen
+Microplastics in bivalves cultured for human consumption
+Environ. Pollut. (Barking, Essex : 1987), 193 (2014), pp. 65-70, 10.1016/j.envpol.2014.06.010
+View PDF
+View articleView in ScopusGoogle Scholar
+Cole et al., 2013
+M. Cole, et al.
+Microplastic ingestion by zooplankton
+Environ. Sci. Technol., 47 (2013), 10.1021/es400663f
+Google Scholar
+Colón et al., 2000
+I. Colón, D. Caro, C.J. Bourdony, O. Rosario
+Identification of phthalate esters in the serum of young Puerto Rican girls with premature breast development
+Environ. Health Perspect., 108 (2000), pp. 895-900, 10.1289/ehp.00108895
+View in ScopusGoogle Scholar
+Corp, 2018
+Corp, T.W., 2018. How many people consume bottled water globally. 〈https://tappwater.co/us/how-many-people-consume-bottled-water-globally/〉.
+Google Scholar
+Cox et al., 2019
+K.D. Cox, et al.
+Human consumption of microplastics
+Environ. Sci. Technol., 53 (2019), pp. 7068-7074, 10.1021/acs.est.9b01517
+View in ScopusGoogle Scholar
+Deng and Zhang, 2019
+Y. Deng, Y. Zhang
+Response to Uptake of microplastics and related health effects: a critical discussion of Deng et al., Scientific reports 7: 46687, 2017
+Arch. Toxicol., 93 (2019), pp. 213-215, 10.1007/s00204-018-2384-8
+View in ScopusGoogle Scholar
+Dris et al., 2017
+R. Dris, et al.
+A first overview of textile fibers, including microplastics, in indoor and outdoor environments
+Environ. Pollut. (Barking, Essex : 1987), 221 (2017), pp. 453-458, 10.1016/j.envpol.2016.12.013
+View PDF
+View articleView in ScopusGoogle Scholar
+Dris et al., 2016
+R. Dris, J. Gasperi, M. Saad, C. Mirande, B. Tassin
+Synthetic fibers in atmospheric fallout: a source of microplastics in the environment?
+Mar. Pollut. Bull., 104 (2016), pp. 290-293, 10.1016/j.marpolbul.2016.01.006
+View PDF
+View articleView in ScopusGoogle Scholar
+Duncan et al., 2018
+E.M. Duncan, et al.
+The true depth of the Mediterranean plastic problem: extreme microplastic pollution on marine turtle nesting beaches in Cyprus
+Mar. Pollut. Bull., 136 (2018), pp. 334-340, 10.1016/j.marpolbul.2018.09.019
+View PDF
+View articleView in ScopusGoogle Scholar
+Eerkes-Medrano et al., 2019
+D. Eerkes-Medrano, H. Leslie, B. Quinn
+Microplastics in drinking water: a review and assessment
+Environ. Sci. Health, 7 (2019), pp. 69-75, 10.1016/j.coesh.2018.12.001
+View PDF
+View articleView in ScopusGoogle Scholar
+EFSA, 2016
+EFSA
+Presence of microplastics and nanoplastis in food, with particular focus on seafood
+EFSA, 14 (2016), Article 4501, 10.2903/j.efsa.2016.4501
+Google Scholar
+Everaert et al., 2018
+G. Everaert, et al.
+Risk assessment of microplastics in the ocean: Modelling approach and first conclusions
+Environ. Pollut. (Barking, Essex : 1987), 242 (2018), pp. 1930-1938, 10.1016/j.envpol.2018.07.069
+View PDF
+View articleView in ScopusGoogle Scholar
+FDA, 2018
+FDA, U. F. a. D. A.,2018. Lowering salt In your diet. 〈https://www.fda.gov/consumers/consumer-updates/lowering-salt-your-diet〉.
+Google Scholar
+Filella, 2015
+M. Filella
+Questions of size and numbers in environmental research on microplastics: methodological and conceptual aspects
+12 (2015), pp. 527-538, 10.1071/EN15012
+View in ScopusGoogle Scholar
+Fraunhofer et al., 2019
+E.E. Fraunhofer, A. Wenzel, B.W. Fraunhofer, O. Keminer
+Bewertung des endokrinen Potenzials von Bisphenol Alternativstoffen in umweltrelevanten Verwendungen, Federal Environment Agency,, Germany (2019), pp. 5-10
+Google Scholar
+Fred-Ahmadu, 2020
+O.H. Fred-Ahmadu, et al.
+Interaction of chemical contaminants with microplastics: Principles and perspectives
+Sci. Total Environ., 706 (2020), 10.1016/j.scitotenv.2019.135978
+Google Scholar
+Gajst et al., 2016
+T. Gajst, T. Bizjak, A. Palatinus, S. Liubartseva, A. Krzan
+Sea surface microplastics in Slovenian part of the Northern Adriatic
+Mar. Pollut. Bull., 113 (2016), pp. 392-399, 10.1016/j.marpolbul.2016.10.031
+View PDF
+View articleView in ScopusGoogle Scholar
+Genuis et al., 2012
+S.J. Genuis, S. Beesoon, R.A. Lobo, D. Birkholz
+Human elimination of phthalate compounds: blood, urine, and sweat (BUS) study
+Sci. World J., 2012 (2012), 10.1100/2012/615068
+Google Scholar
+GESAMP, 2016
+GESAMP
+Sources, Fate and Effects of Microplastics in the Marine Environment: Part 2 of a Global Assessment, 220, IMO, FAO/UNESCO-IOC/UNIDO/WMO/IAEA/UN/UNEP/UNDP Joint Group of Experts on the Scientific Aspects of Marine Environmental Protection, London (2016)
+Google Scholar
+Geueke, 2016
+Geueke, B., 2016. Food Packaging Forum.
+Google Scholar
+Grafmueller et al., 2015
+S. Grafmueller, et al.
+Bidirectional transfer study of polystyrene nanoparticles across the placental barrier in an ex vivo human placental perfusion model
+Environ. Health Perspect., 123 (2015), pp. 1280-1286, 10.1289/ehp.1409271
+View in ScopusGoogle Scholar
+Gray and Weinstein, 2017
+A.D. Gray, J.E. Weinstein
+Size- and shape-dependent effects of microplastic particles on adult daggerblade grass shrimp (Palaemonetes pugio)
+Environ. Toxicol. Chem., 36 (2017), pp. 3074-3080, 10.1002/etc.3881
+View in ScopusGoogle Scholar
+Hartmann et al., 2017
+N.B. Hartmann, et al.
+Microplastics as vectors for environmental contaminants: exploring sorption, desorption, and transfer to biota
+Integr. Environ. Assess. Manag., 13 (2017), pp. 488-493, 10.1002/ieam.1904
+View in ScopusGoogle Scholar
+Hartmann et al., 2018
+J. Hartmann, M. van der Aa, S. Wuijts, A.M. de Roda Husman, J.P. van der Hoek
+Risk governance of potential emerging risks to drinking water quality: analysing current practices
+Environ. Sci. Policy, 84 (2018), pp. 97-104, 10.1016/j.envsci.2018.02.015
+View PDF
+View articleView in ScopusGoogle Scholar
+Heffernan et al., 2020
+A.L. Heffernan, et al.
+Harmonizing analytical chemistry and clinical epidemiology for human biomonitoring studies. A case-study of plastic product chemicals in urine
+Chemosphere, 238 (2020), Article 124631, 10.1016/j.chemosphere.2019.124631
+View PDF
+View articleView in ScopusGoogle Scholar
+Hernandez, 2019
+L.M. Hernandez, et al.
+Plastic teabags release billions of microparticles and nanoparticles into tea
+Am. Chem. Soc. (2019), 10.1021/acs.est.9b02540
+Google Scholar
+Hwang et al., 2019
+J. Hwang, D. Choi, S. Han, J. Choi, J. Hong
+An assessment of the toxicity of polypropylene microplastics in human derived cells
+Sci. Total Environ., 684 (2019), pp. 657-669, 10.1016/j.scitotenv.2019.05.071
+View PDF
+View articleView in ScopusGoogle Scholar
+Imhof et al., 2016
+H.K. Imhof, et al.
+Pigments and plastic in limnetic ecosystems: a qualitative and quantitative study on microparticles of different size classes
+Water Res., 98 (2016), pp. 64-74, 10.1016/j.watres.2016.03.015
+View PDF
+View articleView in ScopusGoogle Scholar
+Isobe et al., 2015
+A. Isobe, K. Uchida, T. Tokai, S. Iwasaki
+East Asian seas: a hot spot of pelagic microplastics
+Mar. Pollut. Bull., 101 (2015), pp. 618-623, 10.1016/j.marpolbul.2015.10.042
+View PDF
+View articleView in ScopusGoogle Scholar
+Jâms et al., 2020
+I.B. Jâms, F.M. Windsor, T. Poudevigne-Durance, S.J. Ormerod, I. Durance
+Estimating the size distribution of plastics ingested by animals
+Nat. Commun., 11 (2020), pp. 1-7, 10.1038/s41467-020-15406-6
+Google Scholar
+Kane and Clare, 2019
+I.A. Kane, M.A. Clare
+Dispersion, accumulation, and the ultimate fate of microplastics in deep-marine environments: a review and future directions
+Front. Earth Sci., 2019 (2019), 10.3389/feart.2019.00080
+Google Scholar
+Kaufield, 2015
+Kaufield, B., 2015. Per capita consumption. 〈https://www.st.nmfs.noaa.gov/Assets/commercial/fus/fus15/documents/09_PerCapita.pdf〉.
+Google Scholar
+Khan and Prezant, 2018
+M.B. Khan, R.S. Prezant
+Microplastic abundances in a mussel bed and ingestion by the ribbed marsh mussel Geukensia demissa
+Mar. Pollut. Bull., 130 (2018), pp. 67-75
+View PDF
+View articleCrossrefView in ScopusGoogle Scholar
+Kim et al., 2018
+J.S. Kim, H.J. Lee, S.K. Kim, H.J. Kim
+Global pattern of microplastics in commercial grade salts: sea salt as an indicator of seawater microplastic pollution
+Environ. Sci. Technol., 52 (2018), pp. 12819-12828, 10.1021/acs.est.8b04180
+View in ScopusGoogle Scholar
+Koch et al., 2017
+H.M. Koch, et al.
+Phthalate metabolites in 24-h urine samples of the German Environmental Specimen Bank (ESB) from 1988 to 2015 and a comparison with US NHANES data from 1999 to 2012
+Int. J. Hyg. Environ. Health, 220 (2017), pp. 130-141, 10.1016/j.ijheh.2016.11.003
+View PDF
+View articleView in ScopusGoogle Scholar
+Koelmans et al., 2019
+A.A. Koelmans, et al.
+Microplastics in freshwaters and drinking water: critical review and assessment of data quality
+Water Res., 155 (2019), pp. 410-422, 10.1016/j.watres.2019.02.054
+View PDF
+View articleView in ScopusGoogle Scholar
+Kosuth et al., 2018
+M. Kosuth, S.A. Mason, E.V. Wattenberg
+Anthropogenic contamination of tap water, beer, and sea salt
+PloS One, 13 (2018), Article e0194970, 10.1371/journal.pone.0194970
+View in ScopusGoogle Scholar
+Kutralam-Muniasamy et al., 2020
+G. Kutralam-Muniasamy, F. Pérez-Guevara, I. Elizalde-Martínez, V.C. Shruti
+Branded milks – are they immune from microplastics contamination?
+Sci. Total Environ., 714 (2020), 10.1016/j.scitotenv.2020.136823
+Google Scholar
+Lehner et al., 2019
+R. Lehner, C. Weder, A. Petri-Fink, B. Rothen-Rutishauser
+Am. Chem. Soc. (2019)
+Google Scholar
+Lehtiniemi et al., 2018
+M. Lehtiniemi, et al.
+Size matters more than shape: Ingestion of primary and secondary microplastics by small predators
+Food Webs, 17 (2018), Article e00097, 10.1016/j.fooweb.2018.e00097
+View PDF
+View articleView in ScopusGoogle Scholar
+Lenz et al., 2015
+R. Lenz, K. Enders, C.A. Stedmon, D.M.A. MacKenzie, T.G. Nielsen
+A critical assessment of visual identification of marine microplastic using Raman spectroscopy for analysis improvement
+Mar. Pollut. Bull., 100 (2015), pp. 82-91, 10.1016/j.marpolbul.2015.09.026
+View PDF
+View articleView in ScopusGoogle Scholar
+Lu et al., 2019
+L. Lu, et al.
+Interaction between microplastics and microorganism as well as gut microbiota: a consideration on environmental animal and human health
+Sci. Total Environ., 667 (2019), pp. 94-100, 10.1016/j.scitotenv.2019.02.380
+View PDF
+View articleView in ScopusGoogle Scholar
+MacGill, 2018
+MacGill, 2018. Water: do we really need 8 glasses a day?, 〈https://www.medicalnewstoday.com/articles/306638.php〉.
+Google Scholar
+Maes et al., 2017
+T. Maes, R. Jessop, N. Wellner, K. Haupt, A.G. Mayes
+A rapid-screening approach to detect and quantify microplastics based on fluorescent tagging with Nile Red
+Sci. Rep., 7 (2017), 10.1038/srep44501
+Google Scholar
+Mathalon and Hill, 2014
+A. Mathalon, P. Hill
+Microplastic fibers in the intertidal ecosystem surrounding Halifax Harbor, Nova Scotia
+Mar. Pollut. Bull., 81 (2014), pp. 69-79, 10.1016/j.marpolbul.2014.02.018
+View PDF
+View articleView in ScopusGoogle Scholar
+McIlwraith et al., 2019
+H.K. McIlwraith, et al.
+Capturing microfibers − marketed technologies reduce microfiber emissions from washing machines
+Mar. Pollut. Bull., 139 (2019), pp. 40-45, 10.1016/j.marpolbul.2018.12.012
+View PDF
+View articleView in ScopusGoogle Scholar
+Mintenig et al., 2019
+S.M. Mintenig, M.G.J. Löder, S. Primpke, G. Gerdts
+Low numbers of microplastics detected in drinking water from ground water sources
+Sci. Total Environ., 648 (2019), pp. 631-635, 10.1016/j.scitotenv.2018.08.178
+View PDF
+View articleView in ScopusGoogle Scholar
+Mishra et al., 2019
+S. Mishra, C.C. Rath, A.P. Das
+Marine microfiber pollution: a review on present status and future challenges
+Mar. Pollut. Bull., 140 (2019), pp. 188-197, 10.1016/j.marpolbul.2019.01.039
+View PDF
+View articleView in ScopusGoogle Scholar
+Nelms et al., 2018
+S.E. Nelms, T.S. Galloway, B.J. Godley, D.S. Jarvis, P.K. Lindeque
+Investigating microplastic trophic transfer in marine top predators
+Environ. Pollut., 238 (2018), pp. 999-1007, 10.1016/j.envpol.2018.02.016
+View PDF
+View articleGoogle Scholar
+Oliveira and Almeida, 2019
+M. Oliveira, M. Almeida
+The how and why of micro(nano) plastic research
+TrAC Trends Anal. Chem., 114 (2019), pp. 196-201, 10.1016/j.trac.2019.02.023
+View PDF
+View articleView in ScopusGoogle Scholar
+Oßmann et al., 2018a
+B.E. Oßmann, et al.
+Small-sized microplastics and pigmented particles in bottled mineral water
+Water Res., 141 (2018), pp. 307-316, 10.1016/j.watres.2018.05.027
+View PDF
+View articleView in ScopusGoogle Scholar
+Oßmann et al., 2017
+B.E. Oßmann, et al.
+Development of an optimal filter substrate for the identification of small microplastic particles in food by micro-Raman spectroscopy
+Anal. Bioanal. Chem., 409 (2017), pp. 4099-4109, 10.1007/s00216-017-0358-y
+View in ScopusGoogle Scholar
+Oßmann et al., 2018b
+B.E. Oßmann, G. Sarau, H. Holtmannspötter, M. Pischetsrieder, S.H. Christiansen, W. Dicke
+Small- sized microplastics and pigmented particles in bottled mineral water
+Water Res., 141 (2018), pp. 307-316, 10.1016/j.watres.2018.05.027
+(doi:)
+View PDF
+View articleView in ScopusGoogle Scholar
+Pal and Maiti, 2019
+D. Pal, S.K. Maiti
+Evaluation of potential human health risks from toxic metals via consumption of cultured fish species Labeo rohita: a case study from an urban aquaculture pond
+Expo. Health, 11 (2019), pp. 33-46, 10.1007/s12403-017-0264-8
+View in ScopusGoogle Scholar
+Phuong et al., 2016
+N.N. Phuong, et al.
+Is there any consistency between the microplastics found in the field and those used in laboratory experiments?
+Environ. Pollut.., 211 (2016), pp. 111-123, 10.1016/j.envpol.2015.12.035
+View PDF
+View articleView in ScopusGoogle Scholar
+Pimentel et al., 1975
+J.C. Pimentel, R. Avila, A.G. Lourenço
+Respiratory disease caused by synthetic fibres: a new occupational disease
+Thorax, 30 (1975), pp. 204-219, 10.1136/thx.30.2.204
+Google Scholar
+Pivokonsky et al., 2018
+M. Pivokonsky, et al.
+Occurrence of microplastics in raw and treated drinking water
+Sci. Total Environ., 643 (2018), pp. 1644-1651, 10.1016/j.scitotenv.2018.08.102
+View PDF
+View articleView in ScopusGoogle Scholar
+Poma et al., 2019
+A. Poma, et al.
+In vitro genotoxicity of polystyrene nanoparticles on the human fibroblast hs27 cell line
+Nanomaterials, 9 (2019), p. 1299, 10.3390/nano9091299
+View in ScopusGoogle Scholar
+Poulain et al., 2018
+M. Poulain, et al.
+Small microplastics as a main contributor to plastic mass balance in the North Atlantic subtropical gyre
+Environ. Sci. Technol., 53 (2018), pp. 1157-1164, 10.1021/acs.est.8b05458
+Google Scholar
+Powell et al., 2010
+J.J. Powell, N. Faria, E. Thomas-McKay, L.C. Pele
+Origin and fate of dietary nanoparticles and microparticles in the gastrointestinal tract
+J. Autoimmun., 34 (2010), pp. J226-J233, 10.1016/j.jaut.2009.11.006
+View PDF
+View articleView in ScopusGoogle Scholar
+Prata et al., 2019
+J.C. Prata, P. Costa, A.C. Duarte, T. Rocha-santos
+Methods for sampling and detection of microplastics in water and sediment: a critical review Density separation
+Trends Anal. Chem., 110 (2019), pp. 150-159, 10.1016/j.trac.2018.10.029
+View PDF
+View articleView in ScopusGoogle Scholar
+Prata et al., 2020
+J.C. Prata, J.P. da Costa, I. Lopes, A.C. Duarte, T. Rocha-Santos
+Environmental exposure to microplastics: an overview on possible human health effects
+Sci. Total Environ., 702 (2020), 10.1016/j.scitotenv.2019.134455
+Google Scholar
+Prata, 2018
+J.C. Prata
+Airborne microplastics: consequences to human health?
+Environ. Pollut., 234 (2018), pp. 115-126
+View PDF
+View articleView in ScopusGoogle Scholar
+Proshad, 2018
+R. Proshad, et al.
+Toxic effects of plastic on human health and environment: a consequence of health risk assessment in Bangladesh
+Int. J. Health, 6 (2018), p. 1, 10.14419/ijh.v6i1.8655
+Google Scholar
+Proshad, 2017
+R. Proshad, et al.
+Toxic effects of plastic on human health and environment: a consequences of health risk assessment in Bangladesh
+Int. J. Health, 6 (2017), pp. 1-5, 10.14419/ijh.v6i1.8655
+Google Scholar
+Qu et al., 2018a
+X. Qu, L. Su, H. Li, M. Liang, H. Shi
+Assessing the relationship between the abundance and properties of microplastics in water and in mussels
+Sci. Total Environ., 621 (2018), pp. 679-686, 10.1016/j.scitotenv.2017.11.284
+View PDF
+View articleView in ScopusGoogle Scholar
+Qu et al., 2018b
+X. Qu, L. Su, H. Li, M. Liang, H. Shi
+Assessing the relationship between the abundance and properties of microplastics in water and in mussels
+Sci. Total Environ., 621 (2018), pp. 679-686
+View PDF
+View articleView in ScopusGoogle Scholar
+Raju, 2020
+S. Raju, et al.
+Improved methodology to determine the fate and transport of microplastics in a secondary wastewater treatment plant
+Water Res., 173 (2020), 10.1016/j.watres.2020.115549
+Google Scholar
+Raju et al., 2018
+S. Raju, et al.
+Transport and fate of microplastics in wastewater treatment plants: implications to environmental health
+Rev. Environ. Sci. Biotechnol. (2018), 10.1007/s11157-018-9480-3
+Google Scholar
+Reisser et al., 2015
+J. Reisser, et al.
+The vertical distribution of buoyant plastics at sea an observational study in the North Atlantic Gyre
+Biogeosciences, 12 (2015), pp. 1249-1256, 10.5194/bg-12-1249-2015
+View in ScopusGoogle Scholar
+Revel et al., 2018
+M. Revel, A. Châtel, C. Mouneyrac
+Micro(nano)plastics: a threat to human health?
+Curr. Opin. Environ. Sci. Health, 1 (2018), pp. 17-23, 10.1016/j.coesh.2017.10.003
+View PDF
+View articleView in ScopusGoogle Scholar
+Rezaei et al., 2019
+M. Rezaei, M.J.P.M. Riksen, E. Sirjani, A. Sameni, V. Geissen
+Wind erosion as a driver for transport of light density microplastics
+Sci. Total Environ., 669 (2019), pp. 273-281, 10.1016/j.scitotenv.2019.02.382
+View PDF
+View articleView in ScopusGoogle Scholar
+Ribeiro et al., 2019
+F. Ribeiro, J.W. O'Brien, T. Galloway, K.V. Thomas
+Accumulation and fate of nano- and micro-plastics and associated contaminants in organisms
+TrAC Trends Anal. Chem., 111 (2019), pp. 139-147, 10.1016/j.trac.2018.12.010
+View PDF
+View articleView in ScopusGoogle Scholar
+Rillig et al., 2019
+M.C. Rillig, A. Lehmann, A.A.D.S. Machado, G. Yang
+Microplastic effects on plants
+N. Phytol. (2019), 10.1111/nph.15794
+Google Scholar
+Rist et al., 2018
+S. Rist, B. Carney Almroth, N.B. Hartmann, T.M. Karlsson
+626 (2018), pp. 720-726
+View PDF
+View articleView in ScopusGoogle Scholar
+Rochman, 2018
+C.M. Rochman
+360 (2018), pp. 28-29
+(AmericanAssociation for the Advancement of Science)
+CrossrefView in ScopusGoogle Scholar
+Rochman, 2020
+Rochman, C.M., 2020. Microplastics Study Design, Analysis, and Reporting. USA.
+Google Scholar
+Saborowski et al., 2019
+R. Saborowski, E. Paulischkis, L. Gutow
+How to get rid of ingested microplastic fibers? A straightforward approach of the Atlantic ditch shrimp Palaemon varians
+Environ. Pollut., 254 (2019), 10.1016/j.envpol.2019.113068
+Google Scholar
+de Sá et al., 2018
+L.C. de Sá, M. Oliveira, F. Ribeiro, T.L. Rocha, M.N. Futter
+645 (2018), pp. 1029-1039
+(Elsevier B.V.)
+View PDF
+View articleView in ScopusGoogle Scholar
+Schirinzi et al., 2017
+G.F. Schirinzi, et al.
+Cytotoxic effects of commonly used nanomaterials and microplastics on cerebral and epithelial human cells
+Environ. Res., 159 (2017), pp. 579-587, 10.1016/j.envres.2017.08.043
+View PDF
+View articleView in ScopusGoogle Scholar
+Schwabl et al., 2019
+P. Schwabl, et al.
+Detection of various microplastics in human stool: a prospective case series
+Ann. Intern. Med., 171 (2019), pp. 453-457, 10.7326/M19-0618
+View in ScopusGoogle Scholar
+Schymanski et al., 2018
+D. Schymanski, C. Goldbeck, H. Humpf, P. Fürst
+Analysis of microplastics in water by micro-Raman spectroscopy: release of plastic particles from different packaging into mineral water
+Water Res., 129 (2018), pp. 154-162, 10.1016/j.watres.2017.11.011
+View PDF
+View articleView in ScopusGoogle Scholar
+Semple et al., 2004
+K.T. Semple, et al.
+Defining bioavailability and bioaccessibility of contaminated soil and sediment is complicated
+Environ. Sci. Technol., 38 (2004), pp. 228A-231A, 10.1021/es040548w
+Google Scholar
+Shruti et al., 2020a
+V.C. Shruti, F. Pérez-Guevara, I. Elizalde-Martínez, G. Kutralam-Muniasamy
+First study of its kind on the microplastic contamination of soft drinks, cold tea and energy drinks − future research and environmental considerations
+Sci. Total Environ., 726 (2020), 10.1016/j.scitotenv.2020.138580
+Google Scholar
+Shruti et al., 2020b
+V.C. Shruti, F. Pérez-Guevara, G. Kutralam-Muniasamy
+Metro station free drinking water fountain − a potential “microplastics hotspot” for human consumption
+Environ. Pollut., 261 (2020), 10.1016/j.envpol.2020.114227
+Google Scholar
+Smith et al., 2018
+M. Smith, D.C. Love, C.M. Rochman, R.A. Neff
+Microplastics in seafood and the implications for human health
+Curr. Environ. Health Rep., 5 (2018), pp. 375-386, 10.1007/s40572-018-0206-z
+View in ScopusGoogle Scholar
+Statista, 2017
+Statista, 2017. Bottled water consumption worldwide from 2007 to 2017 (in billion liters). 〈https://www-statista-com.colorado.idm.oclc.org/statistics/387255/global-bottled-water-consumption/〉.
+Google Scholar
+, 2017
+Team, R.C.R, 2017. Foundation for Statistical Computing. Vienna, Austria.
+Google Scholar
+Toussaint et al., 2019a
+B. Toussaint, et al.
+Review of micro and nanoplastic contamination in the food chain
+Food Addit. Contam., 36 (2019), pp. 639-673, 10.1080/19440049.2019.1583381
+View in ScopusGoogle Scholar
+Toussaint, 2019b
+B. Toussaint, et al.
+36 (2019), pp. 639-673
+(Taylor and Francis Ltd.)
+CrossrefView in ScopusGoogle Scholar
+Turcotte et al., 2012
+S. Turcotte, et al.
+Flock worker's lung disease natural history of cases and exposed workers in Kingston, Ontario
+Chest, 143 (2012), 10.1378/chest.12-0920
+Google Scholar
+Volkheimer, 2001
+Volkheimer, G., 2001. The phenomenon of persorption: persorption, dissemination, and elimination of microparticles (Innsbrucker Str. 58, D-10825 Berlin, Germany).
+Google Scholar
+Volschenk et al., 2019
+C.M. Volschenk, et al.
+Bioaccumulation of persistent organic pollutants and their trophic transfer through the food web: Human health risks to the rural communities reliant on fish from South Africa's largest floodplain
+Sci. Total Environ., 685 (2019), pp. 1116-1126, 10.1016/j.scitotenv.2019.06.144
+View PDF
+View articleView in ScopusGoogle Scholar
+WHO, 2019a
+WHO
+Microplastics in Drinking-Water, World Health Organization, Geneva (2019)
+Google Scholar
+WHO, 2019b
+WHO, 2019b. Global drinking demographics. 〈https://www.alcohol.org/guides/global-drinking-demographics/〉.
+Google Scholar
+WHO, 2005
+WHO, 2005. Minimum water quantity needed for domestic uses.
+Google Scholar
+WHO, 2016
+WHO, 2016. Salt reduction. 〈https://www.who.int/news-room/fact-sheets/detail/salt-reduction〉.
+Google Scholar
+De Witte et al., 2014
+B. De Witte, et al.
+Quality assessment of the blue mussel (Mytilus edulis): comparison between commercial and wild types
+Mar. Pollut. Bull., 85 (2014), pp. 146-155, 10.1016/j.marpolbul.2014.06.006
+View PDF
+View articleView in ScopusGoogle Scholar
+WorldEconomicForum & EllenMacArthurFoundation. , 2017
+WorldEconomicForum & EllenMacArthurFoundation, 2017. The new plastics economy − catalysing action.
+Google Scholar
+Wright and Kelly, 2018
+S.L. Wright, F.J. Kelly
+Plastic and human health: a micro issue?
+Environ. Sci. Technol., 2017 (2018), 10.1021/acs.est.7b00423
+Google Scholar
+Wu et al., 2019
+P. Wu, Z. Cai, H. Jin, Y. Tang
+Adsorption mechanisms of five bisphenol analogues on PVC microplastics
+Sci. Total Environ., 650 (2019), pp. 671-678, 10.1016/j.scitotenv.2018.09.049
+View PDF
+View articleGoogle Scholar
+Xu et al., 2020
+S. Xu, J. Ma, R. Ji, K. Pan, A.-J. Miao
+Microplastics in aquatic environments: occurrence, accumulation, and biological effects
+Sci. Total Environ., 703 (2020), Article 134699, 10.1016/j.scitotenv.2019.134699
+View PDF
+View articleView in ScopusGoogle Scholar
+Zhang, 2019
+S. Zhang, et al.
+Microplastics in the environment: a review of analytical methods, distribution, and biological effects
+Trends Anal. Chem., 111 (2019), pp. 62-72, 10.1016/j.trac.2018.12.002
+View PDF
+View articleGoogle Scholar
+Zhang et al., 2020
+Y. Zhang, J. Lu, J. Wu, J. Wang, Y. Luo
+Potential risks of microplastics combined with superbugs: enrichment of antibiotic resistant bacteria on the surface of microplastics in mariculture system
+Ecotoxicol. Environ. Saf., 187 (2020), 10.1016/j.ecoenv.2019.109852
+Google Scholar
+Zhang et al., 2019
+J. Zhang, L. Wang, K. Kannan
+Polyethylene terephthalate and polycarbonate microplastics in pet food and feces from the United States
+Environ. Sci. Technol., 53 (2019), pp. 12035-12042, 10.1021/acs.est.9b03912
+View in ScopusGoogle Scholar
+Zhang, 2020
+Q. Zhang, et al.
+A review of microplastics in table salt, drinking water, and air: direct human exposure
+Environ. Sci. Technol., 54 (2020), pp. 3740-3751, 10.1021/acs.est.9b04535
+View in ScopusGoogle Scholar
+Zhu et al., 2019
+X. Zhu, et al.
+Identification of microfibers in the environment using multiple lines of evidence
+Environ. Sci. Technol., 53 (2019), pp. 11877-11887, 10.1021/acs.est.9b05262
+View in ScopusGoogle Scholar
+Cited by (902)
+Polystyrene nanoplastics penetrate across the blood-brain barrier and induce activation of microglia in the brain of mice
+2022, Chemosphere
+Show abstract
+Underestimated health risks: polystyrene micro- and nanoplastics jointly induce intestinal barrier dysfunction by ROS-mediated epithelial cell apoptosis
+2021, Particle and Fibre Toxicology
+Show abstract
+A Review of Human Exposure to Microplastics and Insights Into Microplastics as Obesogens
+2021, Frontiers in Endocrinology
+Show abstract
+Occurrence of Polyethylene Terephthalate and Polycarbonate Microplastics in Infant and Adult Feces
+2021, Environmental Science and Technology Letters
+Lifetime Accumulation of Microplastic in Children and Adults
+2021, Environmental Science and Technology
+Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk
+2022, Polymers
+View all citing articles on Scopus
+View Abstract
+Crown Copyright © 2020 Published by Elsevier B.V. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

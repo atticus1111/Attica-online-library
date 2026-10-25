@@ -1,0 +1,1889 @@
+THE REMOVAL OF TRACE POLLUTANTS IN WATER USING ADVANCED OXIDATION
+PROCESS UVB/BREAKPOINT CHLORINATION
+Master Thesis
+Institute of Environmental Engineering
+National Yang Ming Chiao Tung University
+Student: Shao Fang Lin
+Advisor: Yi Hsueh Chuang
+August 2024
+Taiwan, Republic of China
+============================================================
+ACKNOWLEDGEMENTS
+============================================================
+Two years of master's study have passed in the blink of an eye, and it is time to say
+goodbye. I sincerely thank the National Science and Technology Council research project,
+"Breakpoint Chlorination Chemistry and Its Application in Water Reuse Technology"
+(Project No. 112-2223-E-A49-004-MY4), which provided the funding that allowed me to
+conduct my research without worrying about financial support.
+I would also like to thank everyone who supported and helped me throughout this journey.
+Most of all, I would like to thank my advisor, Professor Yi Hsueh Chuang. Throughout the
+entire research process, you always provided guidance and valuable advice with wisdom
+and patience. Whenever I became stuck in an experiment or tangled in my logic, you
+helped me find the answer behind the problem. Without your pursuit of academic
+
+
+excellence and your sincere encouragement to your students, I would not have persevered
+to the end or completed graduate school.
+I would also like to thank my laboratory colleagues Jia-Shun, Ting-Liang, Min-Zhang, Ding
+Yuan, Tian-Qi, Wen-Xuan, and all my other laboratory friends. Your help made me feel
+supported and cared for during the research process. I especially thank Ting-Liang, who
+took classes with me, did experiments with me, and had fun with me throughout my first
+year of graduate school. We encouraged each other throughout this period, and when we
+encountered dieiculties, your encouragement helped me keep going. This friendship made
+my graduate experience both fulfilling and enjoyable. Finally, I would like to thank Min
+Zhang, who continuously helped me collect samples for analysis during the photochemical
+experiments in my second year. Without your selfless help, I cannot imagine how I could
+have turned the impossible into reality.
+On a personal level, I would like to thank my family and friends who quietly accompanied
+me. Your unconditional love and support gave me tremendous strength. Thank you to my
+parents for trusting and encouraging me throughout the years. Thank you to my friends,
+who have continually supported me like pillars and brought laughter into my life.
+I am truly happy to have completed graduate school. The completion of this thesis would
+not have been possible without all of your support and help. I oeer my most sincere thanks
+to all of you.
+Shao Fang Lin
+Institute of Environmental Engineering
+August 2024
+============================================================
+ABSTRACT
+============================================================
+
+
+Climate change has led to water shortages becoming a global issue. Many studies are
+focused on finding stable, reliable, and cost-eeective alternative water sources to achieve
+sustainable water supply. Wastewater recycling is one of the solutions to water shortages.
+By recycling secondary and tertiary eeluent from wastewater treatment plants and
+processing it through a comprehensive Full Advanced Treatment (FAT) system, it can be
+used as an alternative water source for drinking water facilities.
+To address the issues of low photon utilization eeiciency and residuals in UV/H2O2
+advanced oxidation processes, scholars are now using UV/HOCl as a replacement.
+However, HOCl undergoes breakpoint chlorination reactions with chloramines present in
+the RO permeate. This study uses Kintecus software to simulate the concentration
+changes of free chlorine and chloramines in RO permeate based on the mathematical
+model developed by Jafvert and Valentine. The average concentration of species after 30
+seconds of breakpoint chlorination is multiplied by their molar absorptivity coeeicients in
+the 230-400 nm range to obtain absorbance. Simulation results show that dichloramine
+has a high absorbance in the UVB range. This suggests that switching the UV/HOCl light
+source to UVB wavelengths could enhance the eeiciency of the UV advanced oxidation
+process in degrading trace pollutants.
+In this study, laboratory-synthesized RO permeate was spiked with six model
+micropollutants: nitrobenzene, benzoic acid, carbamazepine, ca0eine, 1,4-dioxane,
+and N,N-diethyl-m-toluamide. The objective was to investigate whether UVB306
+nm/breakpoint chlorination can eeectively transfer energy to dichloramine, thereby
+generating free radicals more eeiciently and enhancing pollutant degradation. Finally, the
+study further explored optimizing the operating conditions of UVB306 nm/breakpoint
+chlorination advanced oxidation processes (AOP) by examining the eeects of a 90-second
+dark reaction post-chlorination before irradiation, reducing the energy output per unit time
+of the UVB306 nm lamp, and changing the reactor's reflective surface material.
+Additionally, the study examined the formation and degradation of N-nitroso
+dimethylamine (NDMA).
+The study found that the degradation eeiciency of pollutants was optimal using a 4 W
+UVB306 nm/breakpoint chlorination system in a Teflon reactor. Compared to using an 8 W
+UVC254 nm/H2O2 and an 8 W UVC254 nm/breakpoint chlorination in a stainless steel
+reactor, the degradation eeiciencies for nitrobenzene and 1,4-dioxane were improved by
+
+
+73% and 29%, respectively. In the degradation of NDMA, the 4 W UVB306 nm/breakpoint
+chlorination with a Teflon reactor showed promising results. For countries facing water
+scarcity, the UVB with breakpoint chlorination technique in advanced oxidation processes
+holds potential. Future studies need to ensure that the treated eeluent does not exhibit
+higher toxicity.
+Keywords: UVB306 nm/breakpoint chlorination, synthetic RO permeate, model
+micropollutant, absorbance, N-nitroso dimethylamine
+============================================================
+TABLE OF CONTENTS
+============================================================
+Acknowledgements
+Abstract
+Table of Contents
+List of Figures
+List of Tables
+Chapter 1 Research Background
+1.1 Research Background and Motivation
+1.2 Research Objectives
+Chapter 2 Literature Review
+2.1 Wastewater Reuse
+2.1.1 Purpose and Methods of Wastewater Reuse
+2.1.2 Wastewater Treatment Process in a FAT System
+
+
+2.2 Advanced Oxidation Processes
+2.2.1 Characteristics of Advanced Oxidation Processes
+2.2.2 Problems with UV/H2O2
+2.3 Breakpoint Chlorination Reaction
+2.3.1 Reaction Mechanism of Breakpoint Chlorination
+2.3.2 Comparison of Radical Generation by Monochloramine and Dichloramine
+2.4 Application of Breakpoint Chlorination in Water Reuse Systems
+2.4.1 Simulation of Chloramine Species Concentrations in RO Permeate Using a
+Mathematical Model
+2.4.2 Pollutant Degradation by UV254 nm/Breakpoint Chlorination in a Laboratory-Scale
+Reactor
+2.5 Relationship Between Radicals Generated during Breakpoint Chlorination and Pollutant
+Removal
+2.6 Formation and Degradation of NDMA under Breakpoint Chlorination
+Chapter 3 Experimental Equipment and Methods
+3.1 Research Framework
+3.2 Experimental Apparatus, Chemicals, and Analytical Equipment
+3.2.1 Annular Stainless-Steel UV Reactor
+3.2.2 Experimental Chemicals
+3.2.3 Analytical Equipment
+3.3 Experimental Methods
+3.3.1 Photon Flux Measurement Method for the Annular Reactor
+3.3.2 Micropollutant Degradation Method
+3.3.3 Preparation of Synthetic RO Permeate
+3.3.4 UV AOP Experiments Using Synthetic RO Permeate
+3.3.5 NDMA Degradation Method
+
+
+Chapter 4 Results and Discussion
+4.1 Photon Flux Results for the Annular Reactor
+4.2 Degradation of Micropollutants by Breakpoint Chlorination without Irradiation in
+Phosphate Bueer
+4.2.1 Control Experiments under HOCl, NH4+, and Irradiation Conditions
+4.2.2 Breakpoint Chlorination Degradation of Pollutants in 10 mM, pH 5.8 Phosphate Bueer
+4.3 Comparison of UV/Breakpoint Chlorination and UV/H2O2 for Degradation of Model
+Pollutants in Phosphate Bueer
+4.3.1 Comparison of UVB306 nm/Breakpoint Chlorination under Weakly Acidic and Neutral
+Conditions
+4.3.2 Comparison of UVB306 nm/Breakpoint Chlorination at Dieerent Chlorine Dosages
+under Weakly Acidic Conditions
+4.4 Comparison of Dieerent AOPs for Removal of Model Micropollutants from Synthetic RO
+Permeate
+4.4.1 Breakpoint Curve of Synthetic RO Permeate
+4.4.2 Total Chlorine Changes and Pollutant Degradation under 8 W UVC254 nm/Breakpoint
+Chlorination
+4.4.3 Total Chlorine Changes and Pollutant Degradation under 8 W UVB306 nm/Breakpoint
+Chlorination
+4.4.4 Comparison of UVC254 nm/H2O2 and UV/Breakpoint Chlorination for Pollutant
+Degradation
+4.5 Eeect of Dieerent Chloramine Concentrations on AOP Treatment Performance
+4.6 Optimization of Operating Conditions for UVB306 nm/Breakpoint Chlorination AOP
+4.6.1 Eeect of a 90-Second Dark Reaction after Chlorination before Irradiation
+4.6.2 Eeect of Reducing the Energy Supplied per Unit Time by the Lamp
+4.6.3 Eeect of Changing the Reactor Reflective-Surface Material
+4.6.4 Comparison of Optimized UVB306 nm/Breakpoint Chlorination AOP and UV/H2O2
+AOP
+
+
+4.7 Eeect of UV/Breakpoint Chlorination on NDMA in Synthetic RO Permeate
+Chapter 5 Conclusions and Recommendations
+5.1 Conclusions
+5.2 Recommendations
+References
+============================================================
+LIST OF FIGURES
+============================================================
+Figure 2-1. FAT system treatment flow for wastewater reuse.
+Figure 2-2. Comparison of molar absorptivity of H2O2 and chloramines.
+Figure 2-3. Breakpoint chlorination curve. Source: Metcalf et al. (2007).
+Figure 2-4. Absorption spectra and molar absorptivities of NH2Cl and NHCl2 at the tested
+wavelengths.
+Figure 2-5. Simulation in RO permeate at pH 5.8 containing 35.21 uM NH2Cl and 10.56 uM
+NHCl2, with (a) 84.5 uM HOCl and (b) 112.7 uM HOCl; species concentration changes were
+analyzed over 5 minutes.
+Figure 2-6. Absorbance obtained from Kintecus simulation of average concentrations of
+HOCl, OCl-, NH2Cl, NHCl2, and NCl3 at 30 seconds of breakpoint chlorination multiplied
+by their molar absorptivities from 230-400 nm.
+Figure 2-7. Degradation of (a) benzoic acid and (b) nitrobenzene by UV254 nm/free chlorine,
+UV254 nm/NH2Cl, breakpoint chlorination, and UV254 nm/breakpoint chlorination.
+Conditions: pH 7; [benzoic acid]0 = 5 uM; [nitrobenzene]0 = 5 uM. Source: Aghdam et al.
+(2021).
+Figure 2-8. Eeect of initial chlorine dosage on benzoic acid degradation during (a)
+breakpoint chlorination in the dark and (b) UV254 nm/breakpoint chlorination. Conditions:
+
+
+pH 7; [benzoic acid]0 = 5 uM; [N-NH3]0 = 1 mg/L; [HOCl]0 = 7.6, 9.6, 12.6, and 17.6 mg/L as
+Cl2. Source: Aghdam et al. (2021).
+Figure 2-9. Schematic of a semi-enclosed laboratory-scale reactor.
+Figure 2-10. Schematic of the pilot-scale system. Source: supplementary information to
+Kwon et al. (2020).
+Figure 2-11. Structures of the six model micropollutants.
+Figure 2-12. NDMA concentration after adding 0-225 uM HOCl to water containing 50 uM
+NH4+ and 7.5 uM Cl-DMA at pH 7 and reacting for 1 hour; cumulative ClNO concentration
+over 1 hour was also simulated using the optimized UF model without Cl-DMA. Source:
+Chuang et al. (2023).
+Figure 3-1. Experimental framework flowchart.
+Figure 3-2. Schematic of the annular stainless-steel UV reactor.
+Figure 4-1. Philips TUV 8W G8T5 lamp information.
+Figure 4-2. SANKYO DENKI UVB G4T5E lamp information.
+Figure 4-3. Experimental control groups.
+Figure 4-4. Dark breakpoint chlorination degradation results for (a) nitrobenzene and (b)
+1,4-dioxane in 10 mM, pH 5.8 phosphate bueer.
+Figure 4-5. Comparison of degradation of (a) nitrobenzene and (b) 1,4-dioxane at pH 5.8
+and pH 7 with Cl2/N molar = 2 and 3 mg/L H2O2 under 8 W UVB306 nm and 8 W UVC254
+nm irradiation.
+Figure 4-6. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET after 8 W UVB306 nm irradiation at dieerent
+Cl2/N molar ratios.
+Figure 4-7. Breakpoint chlorination curve obtained after 30 minutes of reaction for
+synthetic RO permeate.
+Figure 4-8. Total chlorine concentration changes in synthetic RO permeate under 8 W
+UVC254 nm at Cl2/N molar ratios of 1.63, 2.17, 2.72, and 3.26.
+Figure 4-9. Degradation of the six model micropollutants in synthetic RO permeate after 8
+W UVC254 nm irradiation at dieerent Cl2/N molar ratios.
+
+
+Figure 4-10. Total chlorine concentration changes in synthetic RO permeate under 8 W
+UVB306 nm at Cl2/N molar ratios of 1.63, 2.17, 2.72, and 3.26.
+Figure 4-11. Degradation of the six model micropollutants in synthetic RO permeate after 8
+W UVB306 nm irradiation at dieerent Cl2/N molar ratios.
+Figure 4-12. Oxidant concentration changes at Cl2/N molar = 2.72 under 8 W UVC254
+nm/H2O2, 8 W UVC254 nm/breakpoint chlorination, and 8 W UVB306 nm/breakpoint
+chlorination.
+Figure 4-13. Comparison of degradation of the six model micropollutants by 8 W UVC254
+nm/H2O2 and UV/breakpoint chlorination at Cl2/N molar = 2.72.
+Figure 4-14. Total chlorine concentration changes at two background chloramine
+concentrations under 8 W UVB306 nm/breakpoint chlorination at Cl2/N molar = 2.72.
+Figure 4-15. Degradation of the six model micropollutants at two background chloramine
+concentrations under 8 W UVB306 nm/breakpoint chlorination at Cl2/N molar = 2.72.
+Figure 4-16. Kintecus simulation of absorbance at 10, 30, 60, and 90 seconds of breakpoint
+chlorination using average concentrations of HOCl, OCl-, NH2Cl, NHCl2, and NCl3
+multiplied by their molar absorptivities over 230-400 nm.
+Figure 4-17. Degradation of the six model micropollutants after a 90-second dark reaction
+followed by 8 W UVB306 nm irradiation at Cl2/N molar = 2.72.
+Figure 4-18. Total chlorine concentration changes under 4 W, 6 W, and 8 W UVB306 nm
+irradiation at Cl2/N molar = 2.72.
+Figure 4-19. Degradation of the six model micropollutants under 4 W, 6 W, and 8 W UVB306
+nm irradiation at Cl2/N molar = 2.72.
+Figure 4-20. Schematic of (a) reactor dimensions, (b) Teflon reactor, and (c) glass reactor.
+Figure 4-21. Information on the polytetrafluoroethylene (PTFE) film.
+Figure 4-22. H2O2 concentration versus time after irradiation in (a) 8 W UVC254 nm and (b)
+8 W UVB306 nm with tert-butyl hydroperoxide as an •OH scavenger.
+Figure 4-23. Total chlorine concentration changes after changing reactor reflective-surface
+material under 4 W UVB306 nm at Cl2/N molar = 2.72.
+Figure 4-24. Degradation of the six model micropollutants after changing reactor reflective
+surface material under 4 W UVB306 nm at Cl2/N molar = 2.72.
+
+
+Figure 4-25. Changes in (a) Cl-DMA and (b) NDMA concentrations as a function of
+irradiation energy.
+============================================================
+LIST OF TABLES
+============================================================
+Table 2-1. Chemical reaction pathways of free residual chlorine and ammonia nitrogen in
+water. Source: Jafvert and Valentine (1992).
+Table 2-2. Apparent and intrinsic quantum yields of NH2Cl and NHCl2. Source: Yin et al.
+(2020).
+Table 2-3. Products of intrinsic quantum yield and molar absorptivity. Source: Yin et al.
+(2020).
+Table 2-4. Reaction rate constants of pollutants with four radicals.
+Table 3-1. Chemicals required for photon-flux experiments.
+Table 3-2. Chemicals required for total-chlorine experiments with UV/breakpoint
+chlorination.
+Table 3-3. Chemicals required for pollutant degradation experiments.
+Table 3-4. Chemicals required to prepare synthetic RO permeate.
+Table 3-5. Chemicals required for Cl-DMA and NDMA analysis.
+Table 3-6. Analytical instruments.
+Table 3-7. HPLC parameters for benzoic acid and nitrobenzene analysis.
+Table 3-8. HPLC parameters for caeeine and carbamazepine analysis.
+Table 3-9. GC-MS parameters for 1,4-dioxane and DEET analysis.
+Table 3-10. HPLC parameters for Cl-DMA analysis.
+Table 3-11. GC-MS parameters for NDMA analysis.
+Table 3-12. Synthetic RO permeate parameters.
+
+
+Table 4-1. Calculated photon flux for UVC254 nm and UVB306 nm.
+Table 4-2. Energy-normalized degradation rates of pollutants for dieerent AOPs.
+============================================================
+CHAPTER 1. RESEARCH BACKGROUND
+============================================================
+1.1 Research Background and Motivation
+Environmental change and climate change, population growth, and economic
+development have caused water scarcity to become a global problem. Taiwan, California in
+the United States, Australia, and Singapore all face water shortages. In California, for
+example, climate change has caused the snowpack to gradually decrease (Ullrich et al.,
+2018). Therefore, finding stable, reliable, and cost-eeective alternative water sources is
+currently a major direction and goal of research.
+Wastewater recycling is part of the concept of sustainable water supply and "closing the
+water loop," and is one means of addressing water scarcity. In California, secondary and
+tertiary eeluent from municipal wastewater treatment plants is collected and treated
+through a full advanced treatment (FAT) system (Soufan et al., 2013). After stabilization, the
+treated water can be supplied to drinking-water plants as an alternative source (Gerrity et
+al., 2013; Kwon et al., 2020).
+As shown in Figure 1-1, the FAT system first adds hypochlorous acid (HOCl) before
+membrane treatment processes such as microfiltration (MF), ultrafiltration (UF), and
+reverse osmosis (RO) to inhibit biological growth on the membranes (Wang et al., 2021).
+Because secondary and tertiary eeluents contain some ammonia nitrogen, added HOCl
+reacts with ammonia nitrogen and forms chloramine species, mainly monochloramine and
+dichloramine. Because chloramine species are small neutral molecules that are not
+easily removed by membranes (Gerrity et al., 2013), they ultimately remain in the RO
+permeate and enter the UV reactor. The conventional approach is to use H2O2 as the
+oxidant for advanced oxidation treatment in the UV reactor.
+
+
+Figure 1-1. FAT treatment flow for wastewater reuse. Source: Gerrity et al. (2013).
+Although UV/H2O2 is widely used in water-reuse treatment systems internationally, it has
+two major problems. First, at 254 nm, chloramine species have much higher molar
+absorptivity than the 18.6 M^-1 cm^-1 of H2O2 (Yin et al., 2020). If the background matrix
+contains a certain concentration of chloramines, most of the UV energy emitted into
+the water is absorbed by chloramines, leaving very little energy for H2O2. Studies
+indicate that only about 10% of H2O2 consumed in a UV/H2O2 AOP is used to remove
+pollutants in water (Gao et al., 2020). Second, before treated water enters an
+environmental bueer water body, post-chlorination is required to maintain disinfection. To
+maintain the residual chlorine concentration, additional HOCl must be added to react with
+and remove the remaining H2O2 (Equation 1.1) (Guo et al., 2017; Kwon et al., 2020; Roback
+et al., 2021; Wu et al., 2016).
+HOCl + H2O2 -> O2 + H2O + Cl- + H+ (1.1)
+To address the low photon-utilization eeiciency and residual-oxidant problems of
+UV/H2O2, many researchers over the past decade have studied UV/HOCl or UV/chloramine
+as alternatives. Kwon et al. (2020) and Roback et al. (2021), for example, investigated RO
+permeate from the Orange County Water District Groundwater Replenishment System
+(OCWD/GWRS) and examined practical applications of UV/HOCl and UV/chloramine in
+place of UV/H2O2.
+Because chloramines are inevitably present at some concentration in RO permeate from
+water-reuse systems, when the advanced oxidation step after the RO membrane is
+changed to UV/HOCl, HOCl reacts with chloramines and, at certain chlorine-to-nitrogen
+molar ratios, produces a breakpoint chlorination reaction. The final forms produced by the
+reaction between HOCl and chloramines depend mainly on the molar ratio of free chlorine
+(HOCl and OCl-) to ammonia and the reaction time (Aghdam et al., 2021).
+In general, under neutral conditions, breakpoint chlorination reaches a stable state
+approximately 20-30 minutes after the reaction begins and can be divided into three stages
+
+
+(Figure 1-2). Before a chlorine-to-nitrogen mass ratio of 5:1 (approximately Cl2/N molar =
+1:1), when free chlorine is added to water containing ammonia nitrogen, free chlorine
+undergoes a series of complex reactions with ammonia to form combined residual
+chlorine, primarily monochloramine. As the amount of free chlorine increases, combined
+residual chlorine and total chlorine concentrations also increase. When Cl2/N molar
+reaches 1:1, free chlorine begins consuming the combined residual chlorine until the
+breakpoint is reached, at which point Cl2/N molar is approximately 1.5:1-2:1 (Metcalf et
+al., 2007; Wahman, 2018).
+The breakpoint is the point at which the total chlorine concentration in the water is lowest.
+Before the breakpoint, dichloramine is the major species. When the chlorine-to-nitrogen
+molar ratio exceeds the breakpoint, the combined residual chlorine has been consumed
+and further addition of free chlorine remains in the water as free residual chlorine (Jafvert
+and Valentine, 1992).
+Figure 1-2. Breakpoint chlorination curve. Source: Metcalf et al. (2007).
+At the microscopic reaction level, based on the reaction mechanism of free chlorine and
+ammonia nitrogen described by Jafvert and Valentine (1992), NH3 reacts with HOCl to form
+NH2Cl (Equation 1.2). NH2Cl can then react with HOCl to form NHCl2 (Equation 1.3), or
+undergo a disproportionation reaction to form NHCl2 (Equation 1.5). NHCl2 can
+subsequently react with HOCl to form NCl3 (Equation 1.4), or hydrolyze with water to form
+an intermediate product. NH2Cl or NHCl2 can then react with the intermediate to
+regenerate HOCl and other byproducts (Equations 1.6 and 1.7). Byproducts include N2,
+H2O, Cl-, H+, and NO3- (Equation 1.8). NCl3 can also react with NH2Cl or NHCl2 to
+regenerate HOCl (Equations 1.9 and 2.0), while HOCl further oxidizes NHCl2 to NCl3,
+sustaining the catalytic reaction.
+NH3 + HOCl -> NH2Cl + H2O (1.2)
+NH2Cl + HOCl -> NHCl2 + H2O (1.3)
+NHCl2 + HOCl -> NCl3 + H2O (1.4)
+NH2Cl + NH2Cl + H+ -> NHCl2 + NH3 + H+ (1.5)
+
+
+NH2Cl + intermediate I -> products (1.6)
+NHCl2 + intermediate I -> HOCl + products (1.7)
+2HOCl + NHCl2 + H2O -> NO3- + 5H+ + 4Cl- (1.8)
+NCl3 + NH2Cl -> HOCl + products (1.9)
+NCl3 + NHCl2 -> HOCl + HOCl + products (2.0)
+Aghdam et al. (2021) noted that HOCl has a higher quantum yield and molar absorptivity
+and can therefore generate radicals more eeectively during UV/HOCl AOP. The same paper
+noted that ammonia nitrogen is commonly present in rivers, wastewater, and reclaimed
+water. Municipal wastewater and reclaimed wastewater may contain approximately 1-25
+mg/L ammonia nitrogen, and adding dieerent amounts of HOCl to water containing
+ammonia produces chloramine species (NH2Cl, NHCl2, and NCl3) (Aghdam et al., 2021).
+When UV/HOCl AOP is used to treat water containing ammonia nitrogen, NH2Cl forms
+rapidly when Cl2/N molar < 1, making the process eeectively UV/NH2Cl AOP. When excess
+HOCl is added (Cl2/N molar > 1.5-2), breakpoint chlorination occurs (Aghdam et al., 2021).
+However, many studies of UV/breakpoint chlorination have not considered the dynamic
+changes in chlorine and chloramine speciation during the process or whether irradiation
+times match the reaction time for breakpoint chlorination. Therefore, dieerences between
+UV/HOCl and UV/breakpoint chlorination in practical applications cannot always be
+explained.
+Zhang et al. (2019b) found that RO permeate from a California water-reuse plant contained
+approximately 4 mg/L as Cl2 of chloramines, including approximately 2.5 mg/L as Cl2
+(35.21 uM) NH2Cl and 1.5 mg/L as Cl2 (10.56 uM) NHCl2. A normal UV/HOCl operating
+dose at a full-scale facility is 5-8 mg/L as Cl2 (70.4-112.7 uM) HOCl (Kwon et al., 2020;
+Zhang et al., 2019b). Kintecus simulations using the Jafvert and Valentine model showed
+that when 84.5 uM (~6 mg/L) HOCl was added to RO permeate under dark conditions,
+HOCl and NH2Cl rapidly decreased over approximately 30 seconds to 1 minute while
+NHCl2 was generated in large quantities. Around 3 minutes after the reaction began, the
+species concentrations approached a stable state (Figure 1-3). Thus, NHCl2 was the main
+product after breakpoint chlorination in the simulated RO permeate.
+
+
+Figure 1-3. Simulated changes in species concentrations over five minutes after adding
+84.5 uM HOCl to pH 5.8 RO permeate containing 35.21 uM NH2Cl and 10.56 uM NHCl2.
+Full-wavelength analysis of NH2Cl, NHCl2, NCl3, HOCl, and OCl- showed that each
+species has a dieerent absorbance profile. Because the first five minutes of breakpoint
+chlorination are the period when chloramine concentrations change most rapidly, clarifying
+the radical-generation rates of the dieerent oxidant species during this period is important
+for improving UV AOP eeiciency. The average concentration of each species at 30 seconds
+was multiplied by its molar absorptivity from 230-400 nm to obtain absorbance (Figure 1
+4). At 254 nm, all species generally showed low absorbance. Around 290-300 nm, however,
+NHCl2 showed high absorbance of about 0.011 cm^-1, indicating that NHCl2 was the
+dominant absorbing species in this range.
+Figure 1-4. Kintecus simulation of absorbance based on the Jafvert and Valentine model at
+30 seconds of breakpoint chlorination, using the average concentrations of HOCl, OCl-,
+NH2Cl, NHCl2, and NCl3 multiplied by their molar absorptivities over 230-400 nm.
+Simulation conditions: pH 5.8; [NH2Cl] = 35.21 uM; [NHCl2] = 10.56 uM.
+However, UV/HOCl can increase the formation of nitrosamines. Schreiber and Mitch (2007)
+used dimethylamine (DMA) as a model precursor and observed N-nitrosodimethylamine
+(NDMA) formation at dieerent Cl2/N molar ratios during breakpoint chlorination. NDMA
+concentration increased rapidly between 1.5 < Cl2/N molar < 2 and was about six times
+higher than at Cl2/N molar < 1.5 (Figure 1-5). Previous research by Bolton and Stefan found
+that RO treatment removes only about 30% of NDMA (Szczuka et al., 2020). However,
+NDMA has a high molar absorptivity at 254 nm, reaching 1650 M^-1 cm^-1. Thus, although
+UV254 nm/breakpoint chlorination can promote NDMA formation, UV254 nm can also
+photolyze NDMA eeectively (Soltermann et al., 2013).
+Figure 1-5. Relationship between Cl2/N molar ratio during chlorination disinfection and
+NDMA concentration. Source: Schreiber and Mitch (2007).
+1.2 Research Objectives
+
+
+According to Aghdam et al. (2021), in a conventional semi-enclosed laboratory reactor,
+breakpoint chlorination in the dark produced little additional pollutant degradation after
+about five minutes (Figure 1-6a). Researchers then investigated UV/breakpoint chlorination
+for benzoic acid. Figure 1-6b shows that 35-40 minutes of irradiation increased benzoic
+acid removal from 20% to 70%. One possible reason is the geometry of the conventional
+laboratory-scale semi-enclosed reactor. To produce partially collimated light, a distance is
+maintained between the UV source and the water surface (Figure 1-7), reducing the light
+intensity reaching the water and requiring a longer irradiation period. More importantly, the
+results may depend on how long dieerent species have been reacting, which can change
+oxidant forms and the composition of disinfection byproducts (DBPs).
+Kwon et al. (2020) reported that a pilot-scale AOP system can provide approximately 700
+1000 mJ/cm2 of UV dose within about one minute, which more closely matches breakpoint
+chlorination reaction times and practical hydraulic retention times in treatment plants.
+Figure 1-6. Eeect of initial chlorine dosage on benzoic-acid degradation during (a)
+breakpoint chlorination in the dark and (b) UV254 nm/breakpoint chlorination. Conditions:
+pH 7; [benzoic acid]0 = 5 uM; [N-NH3]0 = 1 mg/L; [HOCl]0 = 7.6, 9.6, 12.6, and 17.6 mg/L as
+Cl2. Source: Aghdam et al. (2021).
+Figure 1-7. Schematic of a conventional semi-enclosed laboratory-scale reactor.
+Based on these findings and the simulations, the study proposed two hypotheses.
+Hypothesis 1: changing the light source from the commonly used 254 nm wavelength to a
+UVB source around 300 nm could transfer energy more eeectively to dichloramine,
+allowing more eeicient radical generation and improved pollutant degradation. Hypothesis
+2: compared with UV/HOCl and UV/chlorine, using a UVB light source together with
+breakpoint chlorination as an AOP in a water-reuse treatment system may reduce NDMA
+and other nitrogenous disinfection byproducts.
+This study therefore investigates pollutant degradation using UVB306 nm with breakpoint
+chlorination, examines whether UVB irradiation promotes radical generation by
+dichloramine, and compares the process with UV254 nm/breakpoint chlorination and
+
+
+UV/H2O2. The study also seeks optimized operating conditions for the UVB306
+nm/breakpoint chlorination AOP and examines NDMA formation and degradation under the
+optimized conditions.
+============================================================
+CHAPTER 2. LITERATURE REVIEW
+============================================================
+2.1 Wastewater Reuse
+2.1.1 Purpose and Methods of Wastewater Reuse
+Recycling and reusing wastewater can reduce demand for freshwater resources, relieve
+water stress, and provide sustainable water supplies in water-scarce regions. It can also
+reduce withdrawals from rivers, lakes, and groundwater, thereby helping protect aquatic
+ecosystems and improve water quality.
+The main objectives of wastewater reuse can be achieved with a full advanced treatment
+(FAT) process (Gerrity et al., 2013). Wastewater is treated using membranes and advanced
+oxidation as physical and chemical barriers and is then, depending on the reuse purpose,
+discharged to engineered bueer reservoirs or environmental bueer water bodies, thereby
+improving contaminant removal and water quality.
+2.1.2 Wastewater Treatment Process in a FAT System
+As shown in Figure 2-1, the main units of the FAT system are membrane processes such as
+MF/UF and RO, together with a UV/H2O2 advanced oxidation process. MF/UF and RO use
+physical filtration to remove particles, microorganisms, and dissolved substances. The
+principal technologies are described below.
+
+
+1. Microfiltration (MF):
+Microfiltration is a physical filtration process that directly filters particles, bacteria,
+suspended solids, and large organic molecules through micropores. Typical pore sizes are
+0.1-10 micrometers, so MF cannot eeectively remove smaller dissolved substances.
+2. Ultrafiltration (UF):
+Ultrafiltration is a further physical filtration process capable of eeectively removing
+microorganisms, viruses, organic molecules, colloids, and macromolecular substances
+while retaining dissolved inorganic substances. Typical UF pore sizes are 0.001-0.1
+micrometers, smaller than those of MF. UF is widely used in drinking-water treatment,
+industrial water treatment, and wastewater reuse to provide high-quality water.
+3. Reverse Osmosis (RO):
+Reverse osmosis is a pressure-driven membrane filtration process. Water is forced under
+high pressure through a semipermeable membrane, removing dissolved solutes, salts,
+organic compounds, and microorganisms. RO is not eeective at removing small neutral
+molecules (Gerrity et al., 2013). RO membrane pores are typically about 0.0001-0.001
+micrometers, allowing removal of almost all dissolved substances and microorganisms.
+RO is widely used for drinking-water treatment, seawater desalination, industrial water,
+and wastewater reuse to produce high-quality water with low dissolved-solids content.
+In a typical FAT wastewater-reuse system, secondary and tertiary eeluent is collected and
+treated with a high concentration of HOCl. Ammonia in the eeluent reacts with added
+HOCl to form chloramines, mainly monochloramine and dichloramine, thereby controlling
+biological growth in downstream membrane processes. Because small neutral molecules
+are not easily removed by RO, chloramines ultimately appear in the RO permeate and enter
+the UV reactor. Conventionally, H2O2 is used as the oxidant in the UV reactor for advanced
+oxidation. After stabilization, the treated reclaimed water can be supplied to a water
+treatment plant as an alternative source.
+Figure 2-1. FAT treatment flow for wastewater reuse. Source: Gerrity et al. (2013).
+
+
+2.2 Advanced Oxidation Processes
+Advanced oxidation processes (AOPs) are advanced technologies used in water and
+wastewater treatment, primarily to remove organic pollutants, heavy metals, and other
+harmful substances. AOPs generally use oxidants to alter or destroy pollutant molecular
+structures, converting them into harmless substances or forms that are easier to treat
+(Fang et al., 2014). Oxidants can generate radicals more eeiciently under irradiation,
+creating processes such as UV/H2O2 and improving contaminant removal. AOPs are
+widely used in industrial wastewater treatment, drinking-water treatment, and groundwater
+remediation.
+2.2.1 Characteristics of Advanced Oxidation Processes
+Three common characteristics of AOP technologies are: (1) AOPs use highly reactive
+oxidants such as ozone (O3) and hydrogen peroxide (H2O2) to oxidize or destroy the
+chemical structures of organic pollutants; (2) AOPs may use ultraviolet or visible light to
+activate oxidants and promote pollutant degradation; and (3) ozonation itself is a form of
+AOP in which ozone gas oxidizes contaminants in water and converts them into
+compounds that are easier to treat.
+Based on previous UV/H2O2 studies, the eeectiveness of an AOP depends in part on the
+steady-state concentration of radicals in the system. After radicals are generated, they
+react with substances in the system and are continually generated and consumed, creating
+a dynamic balance that maintains a stable concentration (Chuang and Shi, 2022). Equation
+2.1 shows that radical steady-state concentration depends on the oxidant molar
+absorptivity (epsilon), quantum yield (Phi) (Yin et al., 2020), pollutant concentration, and
+intermediates. If the radical production rate exceeds the radical scavenging rate, radical
+steady-state concentration increases and pollutant removal can improve.
+[R•]ss = radical production rate / radical scavenging rate
+= [E0 * FS(lambda) * FOxi(lambda) * Phi(lambda)] /
+
+
+[koxidant[oxidant] + kc[contaminant] + sum(ki[Si])]
+(2.1)
+Here, [R•]ss is radical steady-state concentration; E0 is the surface light intensity;
+FS(lambda) is the fraction of incident light absorbed by the solution; FOxi(lambda) is the
+fraction of light absorbed by the oxidant; Phi(lambda) is the quantum yield; koxidant is the
+reaction rate constant between the oxidant and radical; and kc is the reaction rate constant
+between the pollutant and radical.
+2.2.2 Problems with UV/H2O2
+UV/H2O2 is one of the most commonly used AOP methods, but over the past decade many
+problems have been identified. First, before membrane treatment in a FAT system,
+secondary and tertiary eeluents receive a small amount of HOCl as a biocide. HOCl reacts
+with ammonia in the background matrix to form chloramines. Further analysis shows that
+at 254 nm, chloramines have a molar absorptivity of about 352 M^-1 cm^-1, much greater
+than the 18.6 M^-1 cm^-1 of H2O2 (Yin et al., 2020) (Figure 2-2). Thus, when both H2O2 and
+chloramines are present in the UV reactor, most UV energy is absorbed by the chloramines
+and little is available to H2O2. Studies indicate that only about 10% of H2O2 consumed in
+a UV/H2O2 AOP is used to remove pollutants (Gao et al., 2020).
+Second, treated eeluent requires post-chlorination before entering an environmental
+bueer water body to maintain disinfection. Additional HOCl is needed to maintain residual
+chlorine and react with remaining H2O2 (Equation 2.2) (Guo et al., 2017; Kwon et al., 2020;
+Roback et al., 2021; Wu et al., 2016), which increases overall operating cost.
+HOCl + H2O2 -> O2 + H2O + Cl- + H+ (2.2)
+Figure 2-2. Comparison of molar absorptivity of H2O2 and chloramines.
+
+
+Because of the two main problems of low photon-utilization eeiciency and oxidant
+residuals in UV/H2O2, many researchers have studied UV/HOCl and UV/chloramines as
+alternatives (Kwon et al., 2020; Roback et al., 2021). A major reason is that photolysis of
+HOCl can generate highly reactive radicals such as •Cl and •OH (Equations 2.3-2.5).
+HOCl + hnu -> •OH + •Cl (2.3)
+OCl- + hnu -> •O- + •Cl (2.4)
+•O- + H+ -> •OH (2.5)
+2.3 Breakpoint Chlorination Reaction
+2.3.1 Reaction Mechanism of Breakpoint Chlorination
+Free residual chlorine refers to active chlorine species existing in water as hypochlorous
+acid (HOCl) and hypochlorite ion (OCl-) (Equations 2.6-2.8). Their relative proportions
+depend on pH; at lower pH, the proportion of HOCl is higher. Both HOCl and OCl- are
+strong oxidants and can damage microbial cell membranes and intracellular proteins and
+other biological macromolecules.
+Cl- + H2O -> HOCl + OH- (2.6)
+Cl2 + H2O -> HCl + HOCl (2.7)
+HOCl -> H+ + ClO- (2.8)
+When free ammonia (ammonium [NH4+] and ammonia [NH3]) and free residual chlorine
+(HOCl and OCl-) coexist in water, three inorganic chloramines can form: monochloramine
+(NH2Cl), dichloramine (NHCl2), and trichloramine (NCl3) (Equations 2.9-2.11).
+NH3 + HOCl -> NH2Cl + H2O (2.9)
+NH2Cl + HOCl -> NHCl2 + H2O (2.10)
+
+
+NHCl2 + HOCl -> NCl3 + H2O (2.11)
+Secondary and tertiary eeluents in water-reuse processes contain free ammonia. If water
+contains a certain amount of ammonia nitrogen and dieerent amounts of free residual
+chlorine are added according to the chlorine-to-nitrogen molar ratio (Cl2/N molar), the
+breakpoint chlorination curve shown in Figure 2-3 can be obtained after approximately 30
+minutes.
+Breakpoint chlorination generally consists of three stages. Before a chlorine-to-nitrogen
+mass ratio of 5:1 (Cl2/N molar = 1:1), free residual chlorine reacts with ammonia nitrogen
+through a series of complex reactions, mainly forming monochloramine. As free chlorine
+increases, monochloramine and total chlorine concentrations also increase. When Cl2/N
+molar reaches 1:1, free residual chlorine begins to consume combined residual chlorine
+until the breakpoint, at which point Cl2/N molar is about 1.5:1-2:1 (Metcalf et al., 2007;
+Wahman, 2018).
+The breakpoint is the point at which total chlorine concentration is lowest. Dichloramine is
+the main species before the breakpoint. After the breakpoint, total chlorine concentration
+remains relatively stable because ammonia has been consumed and additional free
+chlorine remains in the water as free residual chlorine (Jafvert and Valentine, 1992).
+Figure 2-3. Breakpoint chlorination curve. Source: Metcalf et al. (2007).
+The reaction mechanism summarized in Table 2-1 is based on Jafvert and Valentine (1992).
+NH3 reacts with HOCl to form NH2Cl (F1). NH2Cl can react with HOCl to form NHCl2 (F3)
+or undergo disproportionation to form NHCl2 (F5). NHCl2 reacts with HOCl to form NCl3
+(F4), or hydrolyzes with water to form an intermediate. NH2Cl or NHCl2 can react with the
+intermediate to form HOCl and byproducts (F8, F9); byproducts include N2, H2O, Cl-, H+,
+and NO3- (F14). NCl3 can react with NHCl2 or NH2Cl to form HOCl (F12, F13), and HOCl
+further oxidizes NHCl2 to NCl3, allowing the catalytic reaction to continue.
+
+
+Table 2-1. Reaction pathways of free residual chlorine and ammonia nitrogen in water
+(Jafvert and Valentine, 1992).
+F1 HOCl + NH3 -> NH2Cl + H2O kU1[HOCl][NH3] 4.17x10^6 M^-1 s^-1
+F2 NH2Cl + H2O -> HOCl + NH3 kU2[NH2Cl] 2.10x10^-5 s^-1
+F3 NH2Cl + HOCl -> NHCl2 + H2O kU3[HOCl][NH2Cl] 2.78x10^2 M^-1 s^-1
+F4 NHCl2 + H2O -> NH2Cl + HOCl kU4[NHCl2] 6.39x10^-7 s^-1
+F5 NH2Cl + NH2Cl + H+ -> NHCl2 + NH3 + H+ kU5[NHCl2]^2 6.94x10^3 M^-2 s^-1
+F6 NHCl2 + NH3 + H+ -> NH2Cl + NH2Cl + H+ kU6[NH3][NHCl2][H+] 6.00x10^4 M^-2
+s^-1
+F7 NHCl2 + OH- -> I (HNO) + products kU7[NHCl2][OH-] 1.10x10^2 M^-1 s^-1
+F8 NHCl2 + I (HNO) -> HOCl + products kU8[NHCl2][I] 2.78x10^4 M^-1 s^-1
+F9 NH2Cl + I (HNO) -> products kU9[NH2Cl][I] 8.30x10^3 M^-1 s^-1
+F10 NH2Cl + NHCl2 -> products kU10[NH2Cl][NHCl2] 1.53x10^-2 M^-1 s^-1
+F11 NHCl2 + HOCl -> NCl3 + H2O kU11[NHCl2][HOCl] 5.60x10^-7 M^-1 s^-1
+F12 NCl3 + NHCl2 -> HOCl + HOCl + products kU12[NCl3][NHCl2][OH-] 5.56x10^3 M^-1
+s^-1
+F13 NCl3 + NH2Cl -> HOCl + products kU12[NCl3][NH2Cl][OH-] 1.39x10^2 M^-1 s^
+1
+F14 2HOCl + NHCl2 + H2O -> NO3- + 5H+ + 4Cl- kU5[HOCl][NHCl2] 2.30x10^2 M^-1
+s^-1
+2.3.2 Comparison of Radical Generation by Monochloramine and Dichloramine
+When free residual chlorine and ammonia nitrogen coexist, breakpoint chlorination occurs.
+The main sources of radicals are monochloramine and dichloramine. Radical generation
+depends on the oxidant's molar absorptivity (epsilon) and quantum yield (Phi), and the
+resulting radical concentration aeects pollutant degradation. Molar absorptivity describes
+the ability of an oxidant to absorb light at a particular wavelength, while quantum yield
+
+
+describes the number of radicals generated after the oxidant absorbs light (Chuang and
+Shi, 2022).
+According to Yin et al. (2020), the molar absorptivities of NH2Cl at 255, 265, 285, and 300
+nm are 345, 174, 75, and 4 M^-1 cm^-1, respectively. The corresponding values for NHCl2
+are 96, 111, 214, and 261 M^-1 cm^-1. Table 2-2 gives apparent and intrinsic quantum
+yields. Because radical generation depends on both molar absorptivity and quantum yield,
+their product provides a better comparison of radical generation at a given wavelength. The
+results in Table 2-3 show that at 255 nm, NH2Cl has a higher product of intrinsic quantum
+yield and molar absorptivity than NHCl2. At 265, 285, and 300 nm, NHCl2 has the higher
+product. Thus, 255 nm favors radical generation from NH2Cl, while the 280-320 nm UVB
+range favors radical generation from NHCl2. Therefore, the primary objective of this
+research is to create more dichloramine in the system so that dichloramine can generate
+large quantities of radicals under UVB irradiation, thereby improving UV AOP performance
+and ultimately enabling application in water-reuse drinking-water systems.
+Figure 2-4. Absorption spectra and molar absorptivities of NH2Cl and NHCl2 at the tested
+wavelengths. Source: Yin et al. (2020).
+Table 2-2. Apparent and intrinsic quantum yields of NH2Cl and NHCl2 (Yin et al., 2020).
+Wavelength (Mangalgiri et al.) | Phi_app-NH2Cl | Phi_app-NHCl2 | Phi_inn-NH2Cl | Phi_inn
+NHCl2
+255 (257.7) | 0.54 +/- 0.02 | 1.99 +/- 0.05 | 0.34 +/- 0.01 | 0.93 +/- 0.02
+265 (268) | 0.50 +/- 0.01 | 1.84 +/- 0.03 | 0.32 +/- 0.01 | 0.84 +/- 0.01
+285 (282.3) | 0.47 +/- 0.02 | 1.44 +/- 0.01 | 0.31 +/- 0.01 | 0.65 +/- 0.03
+300 (301.2) | 0.39 +/- 0.04 | 1.22 +/- 0.04 | 0.27 +/- 0.02 | 0.52 +/- 0.04
+Table 2-3. Product of intrinsic quantum yield and molar absorptivity (Yin et al., 2020).
+255 nm: NH2Cl 117.3 > NHCl2 89.28
+
+
+265 nm: NH2Cl 55.68 < NHCl2 93.24
+285 nm: NH2Cl 23.25 < NHCl2 139.1
+300 nm: NH2Cl 1.08 < NHCl2 135.72
+2.4 Application of Breakpoint Chlorination in Water Reuse Systems
+2.4.1 Simulation of Chloramine Species Concentrations in RO Permeate Using a
+Mathematical Model
+Over the past decade, researchers have studied UV/HOCl and UV/chloramine as
+replacements for UV/H2O2. When chloramines are present in the RO permeate of a water
+reuse system, added HOCl undergoes breakpoint chlorination with them. Zhang et al.
+(2019b) found that RO permeate from a California water-reuse facility contained
+approximately 4 mg/L as Cl2 chloramines, including 2.5 mg/L as Cl2 (35.21 uM) NH2Cl and
+1.5 mg/L as Cl2 (10.56 uM) NHCl2. A typical full-scale UV/HOCl dose is 5-8 mg/L as Cl2
+(70.4-112.7 uM) HOCl.
+Kintecus simulations based on Jafvert and Valentine (1992) were conducted at pH 5.8 with
+background concentrations of 35.21 uM NH2Cl and 10.56 uM NHCl2, adding 84.5 uM (~6
+mg/L) HOCl. Under dark conditions, HOCl and NH2Cl rapidly decreased over
+approximately 30 seconds to 1 minute, while a large amount of NHCl2 formed (Figure 2
+5a). After about 3 minutes, the concentrations of the species approached equilibrium,
+showing that NHCl2 is the major product after breakpoint chlorination in RO permeate.
+When comparing systems with 84.5 uM (~6 mg/L) versus 112.7 uM (~8 mg/L) HOCl, the
+concentration changes during the first 30 seconds to 1 minute were very similar. At later
+times, increasing HOCl did not produce more NHCl2; instead, more HOCl remained in the
+system and NHCl2 decreased slightly after 4-5 minutes. NCl3 remained below 1 uM in both
+systems because it reacts very rapidly with NHCl2 (F12, kF12 = 5.6x10^3 M^-1 s^-1) and is
+therefore rapidly consumed after formation.
+
+
+Figure 2-5. Simulation of species concentration changes over five minutes in pH 5.8 RO
+permeate containing 35.21 uM NH2Cl and 10.56 uM NHCl2, with (a) 84.5 uM HOCl and (b)
+112.7 uM HOCl.
+The Kintecus simulations show that the main species involved are HOCl, OCl-, NH2Cl,
+NHCl2, and NCl3. Because chloramine concentrations change most rapidly during the first
+five minutes of breakpoint chlorination, the radical-generation rates of these oxidants are
+important to UV AOP eeiciency. Full-wavelength molar-absorptivity analysis shows that
+each species absorbs dieerently at dieerent wavelengths. Multiplying the average
+concentrations at 30 seconds by their molar absorptivities from 230-400 nm gives the
+absorbance in Figure 2-6.
+At 254 nm, the absorbances of HOCl, NH2Cl, and NHCl2 are generally low, while OCl- and
+NCl3 are near zero. Around 290-300 nm, NHCl2 has much higher absorbance, about 0.011
+cm^-1. Higher absorbance indicates greater ability to absorb light at a particular
+wavelength; therefore NHCl2 is the primary absorbing species in this range.
+Figure 2-6. Kintecus simulation of absorbance at 30 seconds of breakpoint chlorination
+using average concentrations of HOCl, OCl-, NH2Cl, NHCl2, and NCl3 multiplied by their
+molar absorptivities from 230-400 nm. (a) 84.5 uM HOCl; (b) 112.7 uM HOCl. Conditions:
+pH 5.8; [NH2Cl] = 35.21 uM; [NHCl2] = 10.56 uM.
+2.4.2 Pollutant Degradation by UV254 nm/Breakpoint Chlorination in a Laboratory-Scale
+Reactor
+Aghdam et al. (2021) used the reactor shown in Figure 2-9 to compare UV/HOCl,
+UV/NH2Cl, breakpoint chlorination alone, and UV/breakpoint chlorination for nitrobenzene
+and benzoic acid removal. Overall removal decreased in the order UV/breakpoint
+chlorination > UV/free chlorine > UV/NH2Cl > breakpoint chlorination (Figure 2-7).
+Figure 2-7. Degradation of (a) benzoic acid and (b) nitrobenzene by UV254 nm/free chlorine,
+UV254 nm/NH2Cl, breakpoint chlorination, and UV254 nm/breakpoint chlorination.
+
+
+Conditions: pH 7; [benzoic acid]0 = 5 uM; [nitrobenzene]0 = 5 uM. Source: Aghdam et al.
+(2021).
+Aghdam et al. also found that, under dark breakpoint chlorination, pollutant degradation
+changed little after about five minutes (Figure 2-8a), indicating that the concentrations of
+the participating species had begun to stabilize. UV/breakpoint chlorination increased
+benzoic-acid removal from 20% to 70% compared with dark breakpoint chlorination, but
+required 35-40 minutes (Figure 2-8b). This was mainly attributed to the conventional semi
+enclosed laboratory reactor, in which the distance between the light source and water
+surface reduces the intensity reaching the water and requires a longer irradiation time.
+Figure 2-8. Eeect of initial chlorine dosage on benzoic-acid degradation during (a) dark
+breakpoint chlorination and (b) UV254 nm/breakpoint chlorination. Conditions: pH 7;
+[benzoic acid]0 = 5 uM; [N-NH3]0 = 1 mg/L; [HOCl]0 = 7.6, 9.6, 12.6, and 17.6 mg/L as Cl2.
+Source: Aghdam et al. (2021).
+Figure 2-9. Schematic of a conventional semi-enclosed laboratory-scale reactor.
+Kwon et al. (2020) investigated the eeect of chloramine concentration on 1,4-dioxane
+removal using a pilot-scale system between laboratory and full scale. Figure 2-10 shows
+the pilot-scale system, based on a Trojan UVPhox(TM) 08AL20 reactor with eight 250 W low
+pressure, high-output mercury-vapor UV lamps installed in a 20 cm diameter stainless
+steel chamber. The flow rate was 3.4-6.8 m3/h, giving a UV reactor hydraulic retention time
+of about 44 seconds. After a process change, the dosing point was allowed to pass through
+approximately three reactor hydraulic retention times, about 1-3 minutes, before sampling
+to ensure stable conditions (Kwon et al., 2020).
+Figure 2-10. Pilot-scale system schematic. The system includes a UV reactor, flow meter,
+injection ports, static mixer, online UV transmittance meter, pH meter, and DO meter. The
+influent to the UV reactor came from the advanced water purification facility eeluent of the
+Orange County Water District in Southern California. Source: Kwon et al. (2020).
+
+
+The Aghdam and Kwon studies indicate that a pilot-scale AOP can provide 700-1000
+mJ/cm2 of irradiation in about one minute, whereas laboratory-scale systems using lower
+intensity illumination may require about 30 minutes to achieve the same dose. However,
+because reaction rates and exposure times dieer between pilot and laboratory systems,
+the oxidant forms remaining after irradiation and the DBP composition generated when
+HOCl or chloramines react with natural organic matter and inorganic substances may
+dieer.
+2.5 Relationship Between Radicals Generated during Breakpoint Chlorination and Pollutant
+Removal
+Based on the structures and properties of six model micropollutants - benzoic acid (BA),
+nitrobenzene (NB), caeeine, carbamazepine (CBZ), 1,4-dioxane, and N,N-diethyl-m
+toluamide (DEET) - and their reaction-rate constants with reactive species that may be
+generated during photolysis of free chlorine and chloramines, including •OH, •Cl, •ClO,
+and •Cl2- (Patton et al., 2018; Patton et al., 2022; Zhang et al., 2019a), the six pollutants
+compete for dieerent radicals. Therefore, selecting pollutants with dieerent reactivities
+toward •OH, •Cl, •ClO, and •Cl2- provides a useful set of indicators for the study.
+For example, nitrobenzene is highly reactive toward •OH (k•OH = 3.9x10^9 M^-1 s^-1)
+(Aghdam et al., 2021), but there is insueicient literature on its reaction with chlorine
+radicals to predict its actual degradation in water containing other pollutants. 1,4-dioxane
+is highly reactive toward •OH (k•OH = 3.1x10^9 M^-1 s^-1) (Patton et al., 2017) but is less
+reactive toward •Cl (k•Cl = 4.4x10^6 M^-1 s^-1). DEET has high reaction-rate constants
+toward both •OH (4.6x10^9 M^-1 s^-1) and •Cl (3.8x10^9 M^-1 s^-1) (Sun et al., 2016), so
+when 1,4-dioxane and DEET are present together, DEET preferentially reacts with •Cl and
+competes with 1,4-dioxane for •OH.
+Caeeine and carbamazepine also react with •ClO and •Cl2-, in addition to •OH and •Cl.
+Their reported constants include k•OH = 6.4x10^9 M^-1 s^-1 for caeeine and 8.8x10^9 M^
+1 s^-1 for carbamazepine; k•Cl = 1.5x10^10 M^-1 s^-1 for caeeine and 5.6x10^10 M^-1 s^-1
+for carbamazepine (Guo et al., 2017; Lei et al., 2019; Wang et al., 2016).
+
+
+The reaction-rate constants indicate that •OH preferentially reacts with caeeine,
+carbamazepine, and DEET; •Cl preferentially reacts with benzoic acid, caeeine,
+carbamazepine, and DEET; and •ClO and •Cl2- preferentially react with caeeine and
+carbamazepine. Literature also indicates that nitrobenzene and benzoic acid are not
+readily degraded by UV but are highly reactive with radicals, so dieerent UV energy
+densities do not strongly aeect their radical reaction rates (Aghdam et al., 2021).
+Water-reuse systems contain many unknown contaminants. Because contaminants
+compete for dieerent radicals, selecting appropriate target pollutants while considering
+pollutant-radical rate constants is important for making laboratory results more
+representative of actual waters. Previous studies have generally analyzed only two or three
+pollutants and have less often considered systematic competition among multiple
+pollutants. The six pollutants selected here have dieerent structures and radical
+reactivities and therefore better represent the range of behavior expected in real water.
+Table 2-4. Reaction rate constants of pollutants with four radicals.
+Target compound k•OH (M^-1 s^-1) k•Cl (M^-1 s^-1) k•ClO (M^-1 s^-1) k•Cl2- (M^-1
+s^-1) Reference
+Nitrobenzene 3.9x10^9 -- -- -- Aghdam et al., 2021
+Benzoic acid 5.9x10^9 1.8x10^10 <3.0x10^6 2.0x10^6 Aghdam et
+al., 2021
+Caeeine 6.4x10^9 1.46-3.87x10^10 1.03x10^8 9.28x10^8 Guo et
+al.; Lei et al.; Sun et al.
+Carbamazepine 8.8x10^9 5.6(+/-1.6)x10^10 9.2x10^7 0.43(+/-0.03)x10^8
+Guo et al.; Lei et al.; Wang et al.
+1,4-dioxane 3.1x10^9 4.4x10^6 -- 3.3x10^6 Patton et al., 2017
+N,N-diethyl-m-toluamide 6.7x10^9 3.8x10^9 -- -- Sun et al.,
+2016
+2.6 Formation and Degradation of NDMA under Breakpoint Chlorination
+
+
+According to Szczuka and Mitch et al. (2020), the concentration of nitrosamines increases
+significantly after RO permeate in a water-reuse system undergoes UV/HOCl AOP. One
+proposed NDMA formation pathway under breakpoint chlorination is hydrolysis of NHCl2
+to nitroxyl/hyponitrous intermediates, followed by reaction of HNO with HOCl to produce
+nitrosyl chloride (ClNO), which then reacts with dimethylamine (DMA) to form NDMA
+(Equations 2.12 and 2.13) (Szczuka et al., 2020).
+NHCl2 + H2O -> HNO / ClNO (2.12)
+ClNO + DMA -> NDMA + HCl (2.13)
+In 2021, Pham and Fairey et al. re-examined the NDMA pathway proposed by Szczuka and
+Mitch. They proposed that NHCl2 hydrolyzes to HNO, which then reacts with oxygen to
+form peroxynitrous acid (HOONO) or peroxynitrite (OONO-) (Equation 2.14). These species
+then react with DMA to produce NDMA (Equation 2.15). Their work identified another
+possible NDMA pathway and emphasized the importance of HOONO and OONO- during
+UV/HOCl treatment (Pham et al., 2021).
+NHCl2 + H2O -> HNO / NO• -> HOONO / OONO- (2.14)
+HOONO / OONO- + DMA -> NDMA (2.15)
+Because these two groups of researchers proposed somewhat dieerent theories for NDMA
+formation, Chuang et al. (2023) further investigated whether the HOCl-HNO pathway
+proposed by Szczuka et al. was related to reactions between NCl3 and NHCl2. Their results
+indicated that NCl3 plays an important role in increasing NDMA formation during
+breakpoint chlorination because NHCl2 and NCl3 can react with each other to generate
+NDMA, while NCl3 forms through the reaction of HOCl and NHCl2.
+NHCl2 + NCl3 -> NDMA + other byproducts (2.16)
+NHCl2 + HOCl -> NCl3 + H2O (2.17)
+
+
+The study proposed two ways to reduce NDMA. First, when Cl2/N molar < 2, the
+accumulated ClNO concentration after one hour decreases as Cl2/N molar increases
+(Figure 2-12). This indicates that excess HOCl and OCl- convert NHCl2 to NCl3, lower the
+NHCl2 concentration, reduce the mutual reaction of NCl3 and NHCl2, and thereby reduce
+NDMA formation. Second, NHCl2 and NCl3 are readily photolyzed in a UV reactor, which
+can help control nitrosamine formation during breakpoint chlorination.
+Previous studies indicate that RO membranes remove only about 30% of NDMA (Szczuka et
+al., 2020). NDMA, however, has a molar absorptivity at 254 nm of 1650 M^-1 cm^-1.
+Although UV/breakpoint chlorination promotes NDMA formation, it can also rapidly
+photolyze NDMA. Therefore, using an appropriate energy density to control NDMA
+generated during the process is important, particularly in water-reuse systems intended for
+potable use (McCurry et al., 2017). This study therefore examines whether breakpoint
+chlorination with a UVB light source can achieve eeects comparable to 254 nm.
+Figure 2-12. NDMA concentration after adding 0-225 uM HOCl to water containing 50 uM
+NH4+ and 7.5 uM Cl-DMA at pH 7 and reacting for one hour. The one-hour cumulative ClNO
+concentration was also simulated under the same conditions without Cl-DMA using the
+optimized UF model. Source: Chuang et al. (2023).
+============================================================
+CHAPTER 3. EXPERIMENTAL EQUIPMENT AND METHODS
+============================================================
+3.1 Research Framework
+The experimental framework of this study, shown in Figure 3-1, is divided into five stages.
+Stage 1: Experimental design and photon-flux measurement
+
+
+To make the research more representative of practical plant conditions, a commercially
+available annular stainless-steel reactor was selected. The study used an 8 W UVC254 nm
+light source and 4 W, 6 W, and 8 W UVB306 nm light sources. Because lamp energy dieers
+with lamp wattage, photon-flux experiments were first conducted to determine the photon
+energy emitted per unit time (s), expressed as joules (J), at 254 and 306 nm for dieerent
+lamp powers. This allowed the experimental results to be compared more appropriately.
+Stage 2: UV/breakpoint chlorination experiments in pH 5.8 and pH 7 phosphate bueers
+Breakpoint chlorination pollutant-degradation experiments were conducted in phosphate
+bueered solutions at pH 5.8 and pH 7. UVB irradiation was used to excite chloramine
+species generated during breakpoint chlorination and produce radicals. The study
+examined whether UVB can eeectively generate radicals for pollutant removal and
+compared pollutant degradation rates and changes in total chlorine concentration during
+the reaction.
+Stage 3: UV/breakpoint chlorination experiments in synthetic RO permeate
+The research target was RO permeate from a wastewater-reuse treatment plant after
+membrane treatment. Because actual RO permeate is dieicult to obtain, synthetic RO
+permeate was prepared in the laboratory. The study investigated pollutant degradation
+rates and changes in total chlorine during UV/breakpoint chlorination under dieerent Cl2/N
+molar ratios, background chloramine concentrations, lamp powers, and reactor reflective
+surface materials.
+Stage 4: Comparison of NDMA photolysis under UVC254 nm and UVB306 nm
+This stage compared the rate of NDMA photolysis and the rate of NDMA formation after
+reactions between dichloramine and trichloramine under UVC254 nm and UVB306 nm with
+breakpoint chlorination. The main question was whether NDMA can also be eeectively
+photolyzed under a UVB light source.
+
+
+Figure 3-1. Experimental framework flowchart.
+Stage 1:
+- Design of the stainless-steel annular reactor.
+- Photon-flux measurement: 8 W UVC254 nm and 4 W/6 W/8 W UVB306 nm.
+Experimental conditions: flow rate = 2400 mL/min; total volume = 850 mL; Cl2/N molar
+ratios = 2, 2.5, 3; sampling times = 0, 1, 2, 3, 4, 5, 6, 8, 10 min.
+Stage 2:
+- Pollutant degradation and total chlorine analysis under dieerent breakpoint chlorination
+conditions in 10 mM phosphate bueer at pH 5.8 and pH 7.
+Experimental conditions: flow rate = 2400 mL/min; total volume = 850 mL; Cl2/N molar
+ratios = 1.63, 2.17, 2.72, 3.26; initial [NH2Cl] = 35.21 uM (2.5 mg/L as Cl2); initial [NHCl2] =
+10.56 uM (1.5 mg/L as Cl2); sampling times = 0, 1, 2, 3, 4, 5, 6, 8, 10, 15 min.
+Stage 3:
+- Pollutant degradation and total chlorine analysis under dieerent breakpoint chlorination
+conditions in synthetic RO permeate.
+Stage 4:
+- Comparison of UV/breakpoint chlorination, the rate of NDMA photolysis, and the rate of
+NDMA formation from dichloramine and trichloramine.
+Experimental conditions: flow rate = 2400 mL/min; total volume = 850 mL; initial [Cl-DMA] =
+1 uM; Cl2/N molar = 2.72; sampling times = 0, 1, 2, 5, 7, 12, 17, 22, 28 min.
+3.2 Experimental Apparatus, Chemicals, and Analytical Equipment
+3.2.1 Annular Stainless-Steel UV Reactor
+
+
+The reactor configuration shown in Figure 3-2 was based on the research of Bolton James
+and Linden Karl (2003), Feng and Smith (2007), Yin et al. (2018), and Kwon et al. (2020). The
+reactor is a stainless-steel vessel with a reflective interior. The reflective stainless-steel
+surface increases the optical path length and therefore improves photon utilization. The
+cylindrical vessel contains a hollow quartz tube with the UV light source inside it. The light
+sources used were 8 W UVC254 nm and 4 W, 6 W, and 8 W UVB306 nm. The maximum
+capacity of the stainless-steel vessel is 700 mL.
+During experiments, the reactor was installed vertically to ensure uniform mixing. A
+peristaltic pump transferred the water sample from a beaker into the reactor through the
+inlet. Once the reactor contained sueicient water, water flowed through the outlet tube
+back to the beaker, creating a rapid, continuous recirculating reaction system.
+For sampling, approximately 150 mL of sample was reserved outside the reactor,
+representing about 21.5% of the reactor volume. A magnetic stirrer mixed the water outside
+the reactor. This configuration allowed pollutant concentration changes over time to be
+studied. The error introduced by reserving sample outside the reactor could be accounted
+for through calculation.
+Figure 3-2. Schematic of the annular stainless-steel UV reactor.
+3.2.2 Experimental Chemicals
+The chemicals were divided into five groups: photon-flux measurement, total chlorine
+measurement, pollutant degradation, laboratory synthesis of RO permeate, and NDMA
+photolysis.
+Table 3-1. Chemicals for photon-flux experiments.
+Chemical | Purity | Manufacturer
+Potassium oxalate | 98.8% | Alfa Aesar
+
+
+Ammonium ferric sulfate, 12-hydrate | 98.5% | J.T. Baker
+Sulfuric acid | 97% | Showa Chemical
+1,10-phenanthroline | >99% | Acros Organics
+Sodium acetate | >99% | Acros Organics
+Table 3-2. Chemicals for UV/breakpoint chlorination total-chlorine experiments.
+Sodium hypochlorite (min. 6%) | Duksan
+Ammonium chloride | ACS | Macron
+Monopotassium phosphate | >99% | Acros
+DPD oxalate / N,N-diethyl-p-phenylenediamine | Analytical Grade | Hack
+Potassium iodide | >99.5% | Honeywell Fluka
+Sodium hydroxide | >=98% | Honeywell
+Table 3-3. Chemicals for pollutant degradation experiments.
+Nitrobenzene | >99% | Acros
+Benzoic acid | 98.0% | Acros
+Caeeine | 99.0% | Alfa Aesar
+Carbamazepine | >97.0% | TCI Japan
+1,4-dioxane | 99.8% | Acros
+N,N-diethyl-m-toluamide | 98% | Acros
+Methyl tert-butyl ether | HPLC grade, >99.0% | Alfa Aesar
+1,4-dioxane-d8 | >99.0% | Aldrich
+1,2-dibromopropane | 97% | Sigma Aldrich
+Methanol | HPLC grade | J.T. Baker
+Ascorbic acid | Reagent grade | Sigma
+
+
+Table 3-4. Chemicals for synthetic RO permeate.
+Methanol | HPLC grade | J.T. Baker
+Acetone | HPLC grade | J.T. Baker
+Monopotassium phosphate | >99% | Acros
+Sodium bicarbonate | D100% | You-Ho (Taiwan)
+Hydrochloric acid | 35% | Showa Chemical
+Nitric acid | 69.0-70.0% | J.T. Baker
+Sodium hypochlorite (min. 6%) | Duksan
+Ammonium chloride | ACS | Macron
+Table 3-5. Chemicals for Cl-DMA and NDMA analysis.
+Sodium hypochlorite (min. 6%) | Duksan
+Dimethylamine | 40 wt.% | Acros
+N-nitrosodimethylamine in methanol | 100% | AccuStandard
+N-nitrosodimethylamine-d6 in dichloromethane | 100% | AccuStandard
+Dichloromethane | >=99.9% | Honeywell Fluka
+3.2.3 Analytical Equipment
+Table 3-6 lists the four analytical instruments used in this study. An Agilent Cary 60 UV-Vis
+spectrophotometer was used for quantification of monochloramine and dichloramine,
+photon-flux measurement, and total-chlorine analysis. An Agilent 5977A GC-MS and
+Agilent Infinity II HPLC were used for target pollutant and NDMA concentration
+measurements. Detailed conditions are shown in Tables 3-7 to 3-11.
+Table 3-6. Analytical instruments.
+UV-Vis spectrophotometer | Cary 60 UV-Vis | Agilent
+
+
+Gas chromatography-mass spectrometry | 7890B GC System / 5977A MSD | Agilent
+High-performance liquid chromatography | 1260 Infinity II | Agilent
+High-pressure ion chromatography | DIONEX INTEGRION | Thermo Fisher
+Table 3-7. HPLC parameters for benzoic acid and nitrobenzene.
+Column: Zorbax ODS (Part No. 883952-702)
+Flow rate: 1 mL/min
+Mobile phase: 10 mM phosphate bueer (pH 3) : methanol (v/v)
+0-6 min: 30% : 70%
+Table 3-8. HPLC parameters for caeeine and carbamazepine.
+Column: Zorbax ODS (Part No. 883952-702)
+Flow rate: 1 mL/min
+Mobile phase: 10 mM phosphate bueer (pH 7) : methanol (v/v)
+0-3 min: 60% : 40%
+3-13.5 min: 45% : 55%
+13.5-13.6 min: 60% : 40%
+Table 3-9. GC-MS parameters for 1,4-dioxane and DEET.
+Column: RESTEK RTX-200
+Initial temperature / hold time: 40 C, 4 min
+Temperature ramp: 60 C/min
+Final temperature / hold time: 280 C, 4 min
+Table 3-10. HPLC parameters for Cl-DMA.
+Column: Zorbax ODS (Part No. 883952-702)
+
+
+Flow rate: 1 mL/min
+Mobile phase: 10 mM phosphate bueer (pH 7) : methanol (v/v)
+0-5 min: 30% : 70%
+Table 3-11. GC-MS parameters for NDMA.
+Column: RESTEK RTX-200
+Initial temperature / hold time: 40 C, 5 min
+Temperature ramp: 10 C/min to 165 C; 60 C/min to 275 C
+Final temperature / hold time: 275 C, 5 min
+3.3 Experimental Methods
+3.3.1 Photon Flux Measurement Method for the Annular Reactor
+According to Goldstein and Rabani (2008), the potassium iodide-potassium iodate method
+has greater than 99.9% light absorption below 285 nm. According to Lee et al. (2007), the
+ferrioxalate method is suitable in the 300-390 nm range. Therefore, the ferrioxalate
+chemical actinometry method was selected for measuring photon flux in the UVB range.
+During the experiment, 0.02 M ammonium ferric sulfate dodecahydrate was dissolved in
+400 mL of 0.1 N H2SO4, and 0.06 M potassium oxalate was dissolved in another 400 mL of
+0.1 N H2SO4. The two solutions were combined in an aluminum-foil-covered beaker, giving
+a total volume of 800 mL. In the absence of irradiation, the mixed solution was pumped
+through the annular stainless-steel reactor at 2400 mL/min. The lamp was then switched
+on while the pump and timer were started simultaneously. Under 306 nm UVB irradiation,
+samples were collected every 30 seconds, 1.5 mL each, and 1.5 mL of 0.1% (w/v) 1,10
+phenanthroline solution was added. Samples were allowed to react in the dark for 30
+minutes, after which absorbance of Fe(1,10-phen)3^2+ was measured at 510 nm using a
+UV-Vis spectrophotometer. The emitted photon energy per unit time (J/s) was then
+calculated.
+
+
+3.3.2 Micropollutant Degradation Method
+To investigate the eeects of water pH and Cl2/N molar on pollutant degradation, 10 mM
+phosphate-bueer solutions at pH 5.8 and pH 7 were prepared. Because ascorbic acid
+undergoes a redox reaction with HOCl and deactivates chlorine, ascorbic acid could be
+used before sample analysis to terminate breakpoint chlorination and ensure accurate
+pollutant measurements.
+Experimental procedure:
+1. Warm up the UV lamp for 30 minutes.
+2. To 850 mL of 10 mM phosphate bueer at pH 5.8 or pH 7, add 0.5 uM each of
+nitrobenzene, benzoic acid, CBZ, and caeeine, and 0.2 uM each of 1,4-dioxane and DEET.
+Mix thoroughly, then add 50 uM NH4Cl.
+3. With the lamp oe, pump the mixed solution through the annular stainless-steel reactor
+at 2400 mL/min.
+4. Add 100, 125, or 150 uM HOCl to the beaker outside the reactor, corresponding to Cl2/N
+molar = 2, 2.5, or 3. Immediately after adding HOCl, switch on the lamp and start the timer.
+5. Collect samples at specified times and store them in 20 mL vials containing ascorbic
+acid at 1.1 times the total chlorine concentration.
+Total chlorine was analyzed during the experiment using the N,N-diethyl-p
+phenylenediamine (DPD) colorimetric method, based on APHA Standard Method 4500-Cl
+G.
+Analysis procedure:
+1. Add 150 uL of 385 mM pH 6.5 phosphate bueer to 3 mL of sample.
+2. Add 150 uL of 3.81 mM DPD indicator.
+3. Add approximately 1 g of potassium iodide powder.
+
+
+4. Mix thoroughly and allow to react for 2 minutes.
+5. Measure absorbance at 515 nm using a UV-Vis spectrophotometer.
+After the experiment, pollutant concentrations were analyzed. Dieerent instruments
+required the following procedures:
+1. Transfer 1 mL of the 10 mL sample to a small vial and analyze nitrobenzene, benzoic
+acid, CBZ, and caeeine using HPLC-UV.
+2. Add 300 uL of 0.514 uM 1,4-dioxane-d8 to the remaining 9 mL as the internal standard
+for 1,4-dioxane.
+3. Add 2 mL methyl tert-butyl ether and 12 g Na2SO4, shake, and allow to stand for 2
+minutes for liquid-liquid extraction (LLE).
+4. Transfer the upper organic layer to a small vial using a glass dropper and analyze 1,4
+dioxane and DEET by GC-MS.
+3.3.3 Preparation of Synthetic RO Permeate
+To investigate RO permeate from actual water-reuse facilities, which is dieicult to obtain,
+experiments were conducted using laboratory-synthesized RO permeate. The synthetic
+water was then used for UV/breakpoint chlorination AOP experiments at dieerent chlorine
+to-nitrogen molar ratios.
+The composition of the synthetic RO permeate was mainly based on Mangalgiri et al.
+(2019) and Zhang et al. (2019a). Literature indicates that RO permeate in potable-reuse
+systems commonly contains carbonate (~0.5 mM), DOC (~0.2 mg/L), chloramines (28.2
+42.3 uM NH2Cl and 9.2-14.1 uM NHCl2), chloride, and inorganic nitrogen species that
+scavenge radicals, such as NO3-. The study therefore added these components to 2 mM
+phosphate-bueered deionized water at pH 5.6 to prepare synthetic RO permeate. Literature
+reports a k•OH of 2.1-2.5x10^4 m (mg-C/L)^-1 s^-1 for DOC in RO permeate, so a mixture
+of 77% acetone and 23% methanol on a molar-carbon basis was used to represent the
+DOC contribution. The resulting synthetic RO permeate had k•OH of approximately
+2.1x10^4 (mg-C/L)^-1 s^-1.
+
+
+Individual solutions were prepared according to the composition in Table 3-12. To 5 L of DI
+water, the prepared sodium bicarbonate solution, hydrochloric acid, nitric acid, DOC
+solution, phosphate bueer, 35.21 uM NH2Cl, and 10.56 uM NHCl2 were added in
+sequence. The pH of the 5 L mixture was finally adjusted to 5.6 using 5% phosphoric acid.
+Table 3-12. Synthetic RO permeate parameters.
+Parameter | Value
+Phosphate bueer (mM) | 2
+Sodium bicarbonate (mM) | 0.5
+Hydrochloric acid (mM) | 0.17
+Nitric acid (mg/L-N) | 1
+DOC | 23% methanol + 77% acetone
+NHCl2 (uM) | 1.3-2.0
+NH2Cl (uM) | 2.0-3.0
+pH | 5.6
+3.3.4 UV AOP Experiments Using Synthetic RO Permeate
+To investigate the eeects of UVB306 nm under dieerent chlorine-to-nitrogen molar ratios,
+background chloramine concentrations, and experimental conditions (90-second dark
+reaction before irradiation, reduced lamp wattage, and changed reactor reflective-surface
+material) on pollutant degradation, synthetic RO permeate at pH 5.6 was prepared.
+Experimental procedure:
+1. Warm up the UV lamp for 30 minutes.
+2. Add 0.5 uM nitrobenzene, benzoic acid, CBZ, and caeeine, and 0.2 uM 1,4-dioxane and
+DEET, to 850 mL of synthetic RO permeate and mix thoroughly.
+
+
+3. With the lamp oe, pump the solution through the annular stainless-steel reactor at 2400
+mL/min.
+4. Add 53.52, 90.13, 126.75, or 163.37 uM HOCl to the beaker outside the reactor,
+approximately corresponding to Cl2/N molar = 1.63, 2.17, 2.72, and 3.26. Immediately after
+adding HOCl, switch on the lamp and start the timer.
+5. Collect samples at specified times and store them in 20 mL vials containing ascorbic
+acid at 1.1 times the total chlorine concentration.
+6. Analyze total chlorine during the experiment and pollutant concentrations after the
+experiment.
+3.3.5 NDMA Degradation Method
+To compare NDMA formation and degradation rates under UVC254 nm and UVB306 nm,
+synthetic RO permeate at pH 5.6 and Cl2/N molar = 2.72 was used. According to Szczuka
+et al. (2020), quenching agents such as ascorbic acid, sodium thiosulfate, and sodium
+sulfite react with Cl-DMA and therefore are unsuitable for Cl-DMA analysis. After
+repeatedly confirming that chloramines do not react with Cl-DMA over a short period,
+glycine was used to quench the HOCl reaction.
+Experimental procedure:
+1. Warm up the UV lamp for 30 minutes.
+2. Add 1 uM Cl-DMA to 850 mL of synthetic RO permeate and mix thoroughly.
+3. With the lamp oe, pump the solution through the annular stainless-steel reactor at 2400
+mL/min.
+4. Add 126.75 uM HOCl to the external beaker (Cl2/N molar = 2.72), immediately switch on
+the lamp, and start the timer.
+5. Collect samples at specified times and store them in vials containing ascorbic acid or
+glycine at 1.1 times the Cl-DMA concentration.
+6. Analyze Cl-DMA by HPLC-UV during the experiment.
+
+
+After the experiment, NDMA concentration was analyzed after concentration and
+purification pretreatment.
+Analysis procedure:
+1. Add 30 uL of 10 mg/L N-nitrosodimethylamine-d6 to 15 mL of sample as the NDMA
+internal standard.
+2. Add 4 mL dichloromethane (DCM) and shake rapidly for 2 minutes, then allow the
+phases to separate for 2 minutes for liquid-liquid extraction.
+3. Transfer the lower DCM layer with a glass dropper to a screw-cap tube containing
+approximately 1 g Na2SO4 to remove residual water.
+4. Transfer the upper organic solvent from the tube to another clean tube and purge with
+nitrogen, concentrating it to approximately 500 mL.
+5. Transfer the concentrated solution to a small vial and analyze NDMA by GC-MS.
+============================================================
+CHAPTER 4. RESULTS AND DISCUSSION
+============================================================
+4.1 Photon Flux Results for the Annular Reactor
+The lamps used in the study were: (1) 8 W, 254 nm; (2) 4 W, 306 nm; (3) 6 W, 306 nm; and (4)
+8 W, 306 nm. Photon-flux experiments were first performed to determine the photon energy
+emitted per unit time in the stainless-steel annular reactor.
+Photon flux was determined by measuring the molar absorptivity of Fe(1,10-phen)3^2+ at
+510 nm and calculating its complex concentration using epsilon510 nm = 11,100 M^-1
+cm^-1. Plotting complex concentration against time gives a linear relationship. The slope of
+concentration versus time was used to calculate photons emitted per second. Multiplying
+the photon emission rate by the energy contained in one mole of Einstein photons at the
+
+
+specified wavelength gives the photon flux, expressed as photon energy emitted per unit
+time (J/s) (Equations 4.1-4.2).
+Photon energy emitted (J/s) = (Slope x V / QY) x U (4.1)
+where V is solution volume (L); QY is quantum yield. According to Goldstein and Rabani
+(2008), QY = 1.40 for UVC254 nm and 1.25 for UVB306 nm.
+U(lambda) = (hc/lambda) x 6.02 x 10^23 x 10^3
+= (6.626x10^-34 x 2.998x10^8 / lambda) x 6.02x10^23 x 10^3 (4.2)
+where U is the energy contained in one mole of Einstein photons at the specified
+wavelength (mJ/mole Einsteins); h is Planck's constant (6.626x10^-34 m2 kg/s); and c is the
+speed of light (2.998x10^8 m/s).
+The ferrioxalate method was used to measure photon flux from UVC254 nm and UVB306
+nm lamps of dieerent wattages. The calculated photon energies emitted per unit time are
+summarized in Table 4-1 and compared with manufacturer information (Figures 4-1 and 4
+2).
+Table 4-1. Calculated photon flux for UVC254 nm and UVB306 nm.
+8W UVC254 4W UVB306 6W UVB306 8W UVB306
+No. of photons emitted (E/s) 3.15x10^-6 7.68x10^-7 2.48x10^-6 4.16x10^-6
+Photon energy emitted (J/s) 1.71 0.45 0.97 1.63
+Manufacturer value (J/s) 1.80 0.50 1.00 1.60
+Figure 4-1. Philips TUV 8W G8T5 lamp information.
+
+
+Source: PChome product listing.
+Figure 4-2. SANKYO DENKI UVB G4T5E lamp information.
+Source: SANKYO DENKI UV-B lamp technical document.
+4.2 Degradation of Micropollutants by Breakpoint Chlorination without Irradiation in
+Phosphate Bueer
+4.2.1 Control Experiments under HOCl, NH4+, and Irradiation Conditions
+The study first examined pollutant degradation in phosphate bueer after adding HOCl,
+NH4+, or irradiation. As shown in Figure 4-3, pollutant concentrations did not change
+significantly under these conditions.
+Figure 4-3. Experimental control groups. In 10 mM, pH 7 phosphate bueer, the six
+pollutants were tested under: (a) no irradiation, no HOCl, 50 uM NH4Cl; (b) no irradiation,
+75 uM HOCl, no NH4Cl; and (c) 8 W UVB306 nm, no HOCl, 50 uM NH4Cl. Error bars
+represent the range of duplicate measurements.
+4.2.2 Breakpoint Chlorination Degradation of Pollutants in 10 mM, pH 5.8 Phosphate Bueer
+Literature indicates that small amounts of radicals are still produced during breakpoint
+chlorination in the dark. Therefore, before studying UV/breakpoint chlorination, dark
+breakpoint chlorination experiments were conducted with nitrobenzene and 1,4-dioxane to
+ensure that the pollutants would not be extensively removed during breakpoint chlorination
+itself.
+The reaction of 0.5 uM nitrobenzene and 0.2 uM 1,4-dioxane in 10 mM, pH 5.8 phosphate
+bueer was observed over 15 minutes. Figure 4-4 shows that at Cl2/N molar = 2, pollutant
+concentrations changed more noticeably than at the other ratios, but after 3-5 minutes the
+
+
+concentrations changed little. These results confirm that radicals produced by dark
+breakpoint chlorination degraded only about 5% of the pollutants.
+Figure 4-4. Dark breakpoint chlorination degradation results for (a) nitrobenzene and (b)
+1,4-dioxane in 10 mM, pH 5.8 phosphate bueer. Conditions: 0.5 uM each of benzoic acid,
+nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET; [HOCl] = 100, 125,
+and 150 uM; [NH4Cl] = 50 uM. Error bars represent the range of duplicate measurements.
+4.3 Comparison of UV/Breakpoint Chlorination and UV/H2O2 for Degradation of Model
+Pollutants in Phosphate Bueer
+UV/H2O2 is a mature AOP commonly used in water treatment plants for controlling organic
+pollutants in drinking-water sources and RO units in water reuse (Kwon et al., 2020).
+However, H2O2 has low photon-utilization eeiciency and may remain in the treated
+eeluent, increasing disinfection costs.
+The initial hypothesis of this study was to use a laboratory-scale stainless-steel reactor to
+conduct UVC254 nm/breakpoint chlorination and UVB306 nm/breakpoint chlorination
+pollutant-degradation experiments, using 8 W UVC254 nm with 3 mg/L H2O2 as the
+comparison baseline to determine whether UV/breakpoint chlorination could increase AOP
+eeiciency.
+In kinetic studies, ln([C]/[C]0) = -kobs x t is commonly used to describe first-order reactant
+concentration changes. When ln([C]/[C]0) varies linearly with time, the slope is -kobs,
+where kobs is a pseudo-first-order degradation rate constant with units of s^-1 or min^-1. It
+can be used to compare pollutant degradation. Because lamps of dieerent wattages
+produce dieerent photon fluxes during the same irradiation time, direct comparison by
+time is not appropriate. Therefore, experimental results were plotted as ln([C]/[C]0) versus
+photon energy emitted per unit time (J/s).
+4.3.1 Comparison of UVB306 nm/Breakpoint Chlorination under Weakly Acidic and Neutral
+Conditions
+
+
+Previous studies indicate that when pH changes from weakly acidic to neutral,
+intermediates formed by oxidant or free-chlorine decomposition can increase radical
+scavenging and lower pollutant-removal eeiciency in UV/breakpoint chlorination AOPs
+(Chuang et al., 2017; Zhang et al., 2019b). Therefore, phosphate bueers at pH 5.8 and pH 7
+were used to investigate the eeect of pH on pollutant degradation during breakpoint
+chlorination under irradiation.
+Experiments were first conducted using 8 W UVB306 nm with Cl2/N molar = 2 to degrade
+nitrobenzene and 1,4-dioxane at dieerent pH values, and the results were compared with 8
+W UVC254 nm and 3 mg/L H2O2. For nitrobenzene, kobs at pH 5.8 and pH 7 under 8 W
+UVB306 nm/breakpoint chlorination were 0.0019 and 0.0028 J^-1, respectively. For 1,4
+dioxane, kobs values were 0.0013 and 0.0025 J^-1, respectively.
+Under weakly acidic conditions (pH 5.8), pollutant degradation removal was more than
+32% greater than under neutral conditions (pH 7) for both nitrobenzene and 1,4-dioxane,
+consistent with the literature. In addition, under weakly acidic conditions, 8 W UVB306
+nm/breakpoint chlorination produced pollutant-removal performance about 1.2 times that
+of 8 W UVC254 nm/H2O2. This indicates feasibility of UVB306 nm/breakpoint chlorination
+in a weakly acidic environment.
+Figure 4-5. Comparison of degradation of (a) nitrobenzene and (b) 1,4-dioxane at pH 5.8
+and pH 7, with Cl2/N molar = 2, and with 3 mg/L H2O2, under 8 W UVB306 nm and 8 W
+UVC254 nm irradiation. Conditions: 0.5 uM each of benzoic acid, nitrobenzene, CBZ, and
+caeeine; 0.2 uM each of 1,4-dioxane and DEET; [HOCl] = 100 uM; [NH4Cl] = 50 uM. Error
+bars represent the range of duplicate measurements.
+4.3.2 Comparison of UVB306 nm/Breakpoint Chlorination at Dieerent Chlorine Dosages
+under Weakly Acidic Conditions
+After examining pH eeects, experiments were conducted in weakly acidic pH 5.8
+phosphate bueer to investigate how dieerent Cl2/N molar ratios aeect pollutant
+degradation. An 8 W UVB306 nm source was used with Cl2/N molar ratios of 2, 2.5, and 3
+
+
+to degrade benzoic acid, nitrobenzene, caeeine, carbamazepine (CBZ), 1,4-dioxane, and
+N,N-diethyl-m-toluamide (DEET), and kobs values were compared.
+Figure 4-6 shows the results. When photon energy emitted per unit time was plotted
+against ln([C]/[C]0), benzoic acid, nitrobenzene, and 1,4-dioxane all showed clearly poorer
+degradation at Cl2/N molar = 2 than at 2.5 or 3. All six pollutants had larger kobs values at
+Cl2/N molar = 3.
+At Cl2/N molar = 3, the kobs values for benzoic acid, nitrobenzene, CBZ, caeeine, 1,4
+dioxane, and DEET were 9.2x10^-3, 6.6x10^-3, 9.4x10^-3, 1.4x10^-2, 4.4x10^-3, and
+7.7x10^-3 J^-1, respectively. Nitrobenzene, 1,4-dioxane, and DEET had relatively smaller
+kobs values and therefore poorer removal. A possible reason is that these three pollutants
+have lower reactivity with the •ClO and •Cl2- radicals generated during breakpoint
+chlorination. This interpretation is supported by the reported rate constants for reactions of
+the pollutants with •OH, •Cl, •ClO, and •Cl2-.
+In weakly acidic bueer, comparison of 8 W UVB306 nm/breakpoint chlorination at dieerent
+chlorine-to-nitrogen ratios with 8 W UVC254 nm/H2O2 showed that although H2O2 can
+generate large amounts of •OH and all six pollutants are highly reactive toward •OH,
+increasing Cl2/N molar from 2 to 2.5 or 3 substantially improved pollutant degradation and
+could exceed removal by 8 W UVC254 nm/H2O2.
+Figure 4-6. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET in 10 mM, pH 5.8 phosphate bueer after 8 W
+UVB306 nm irradiation at dieerent Cl2/N molar ratios. Conditions: 0.5 uM each of benzoic
+acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET; [HOCl] = 100,
+125, and 150 uM; [NH4Cl] = 50 uM. Error bars represent the range of duplicate
+measurements.
+4.4 Comparison of Dieerent AOPs for Removal of Model Micropollutants from Synthetic RO
+Permeate
+
+
+Experiments in phosphate bueer showed that weakly acidic conditions and increased
+chlorine dosage helped degrade model micropollutants. The next experiments therefore
+investigated the eeects of dieerent chlorine dosages and UV wavelengths on six model
+micropollutants in laboratory-synthesized RO permeate.
+4.4.1 Breakpoint Curve of Synthetic RO Permeate
+According to Mangalgiri et al. (2019) and Zhang et al. (2019a), RO permeate contains
+carbonate (~0.5 mM), DOC (~0.2 mg/L), chloramines (28.2-42.3 uM NH2Cl and 9.2-14.1 uM
+NHCl2), chloride, and inorganic nitrogen species such as NO3- that scavenge radicals.
+In this study, the ammonia nitrogen and chlorine sources in synthetic RO permeate were
+NH2Cl and NHCl2. NH2Cl was prepared by slowly adding 5 mL of 40 mM HOCl to 5 mL of
+48 mM NH4Cl and mixing thoroughly (Schreiber and Mitch, 2005). NHCl2 was prepared by
+diluting the NH2Cl solution to 3.5 mM and adjusting the pH to 3.7-3.8 with 5% phosphoric
+acid, maintaining that pH for about 10 minutes, and then placing the solution in an ice bath
+at 4 C for one hour (Chuang et al., 2023).
+When 35.21 uM NH2Cl and 10.56 uM NHCl2 were selected as the background chloramine
+concentrations, the corresponding total nitrogen and total chlorine concentrations
+contributed by these species were calculated to be 67.6 uM and 56.3 uM. Because total
+nitrogen divided by total chlorine gives a Cl2/N molar ratio of 0.83, additional NH4Cl would
+be required to make Cl2/N molar approach 0 or 0.5 (Figure 4-7).
+Because the composition of synthetic RO permeate is complex, the breakpoint position
+may dieer from the theoretical Cl2/N molar = 1.5 reported by Metcalf et al. (2007). To
+determine the breakpoint of the synthetic RO permeate, dieerent amounts of HOCl were
+added and total chlorine was measured at dieerent Cl2/N molar ratios. Figure 4-7 shows
+that the breakpoint occurred at Cl2/N molar = 2-2.25. Subsequent experiments therefore
+used Cl2/N molar ratios of 1.63, 2.17, 2.72, and 3.26 to investigate pollutant degradation by
+UVC254 nm and UVB306 nm AOPs.
+
+
+Figure 4-7. Breakpoint chlorination curve for synthetic RO permeate measured after 30
+minutes of reaction at dieerent Cl2/N molar ratios. Background chloramine
+concentrations: 35.21 uM NH2Cl and 10.56 uM NHCl2; these contribute 67.6 uM total
+nitrogen and 56.3 uM total chlorine; Cl2/N molar = 0.83. Additional NH4Cl is needed to
+reach Cl2/N molar = 0 or 0.5. Error bars represent the range of duplicate measurements.
+4.4.2 Total Chlorine Changes and Pollutant Degradation under 8 W UVC254 nm/Breakpoint
+Chlorination
+To investigate whether the short-term changes in chloramine concentrations during
+UV/breakpoint chlorination could be eeectively utilized with an appropriate light source to
+improve pollutant degradation, 8 W UVC254 nm was used with dieerent chlorine dosages
+to treat synthetic RO permeate containing the six model micropollutants.
+First, total chlorine concentrations in the system were measured under dieerent chlorine
+dosages during treatment with 8 W UVC254 nm. As shown in Figure 4-8, there was no
+obvious dieerence in total chlorine degradation among the dieerent chlorine dosages.
+However, the pollutant degradation results in Figure 4-9 showed that the energy
+normalized degradation rates (energy-normalized kobs) were faster at Cl2/N molar = 3.26.
+This was mainly because the chloramine species in the synthetic RO water and the added
+HOCl could generate more radicals under UV irradiation. The greater radical production
+reduced the time and energy required for pollutant degradation and produced better
+removal.
+Figure 4-8. Total chlorine concentration changes in synthetic RO permeate after irradiation
+with 8 W UVC254 nm at Cl2/N molar ratios of 1.63, 2.17, 2.72, and 3.26. Conditions: 0.5 uM
+each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and
+DEET; [HOCl] = 53.52, 90.13, 126.75, and 163.37 uM. Error bars represent the range of
+duplicate measurements.
+Figure 4-9. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET in synthetic RO permeate after irradiation
+with 8 W UVC254 nm at dieerent Cl2/N molar ratios. Conditions: 0.5 uM each of benzoic
+
+
+acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET; [HOCl] =
+53.52, 90.13, 126.75, and 163.37 uM. Error bars represent the range of duplicate
+measurements.
+4.4.3 Total Chlorine Changes and Pollutant Degradation under 8 W UVB306 nm/Breakpoint
+Chlorination
+Next, to investigate the feasibility of using UVB306 nm with dieerent chlorine-to-nitrogen
+molar ratios for pollutant degradation, an 8 W UVB306 nm source, the same wattage as the
+UVC254 nm source described above, was used for subsequent AOP experiments.
+The changes in total chlorine concentration were examined at dieerent chlorine dosages
+(Figure 4-10). The largest change occurred at Cl2/N molar = 2.72, followed by Cl2/N molar =
+3.26. The pollutant degradation results showed the same trend (Figure 4-11).
+For example, for 1,4-dioxane, the kobs values at Cl2/N molar ratios of 1.63, 2.17, 2.72, and
+3.26 were 1.0x10^-3, 2.6x10^-3, 4.3x10^-3, and 3.8x10^-2 J^-1, respectively. Based on
+kobs, increasing the chlorine dosage to Cl2/N molar = 2.72 improved 1,4-dioxane
+degradation. At this chlorine-to-nitrogen ratio, 1,4-dioxane removal was about 35% higher
+than that obtained with 8 W UVC254 nm/H2O2 (kobs = 2.8x10^-2 J^-1). During breakpoint
+chlorination, HOCl and chloramine species generate radicals such as •OH, •Cl, •ClO,
+and •Cl2- under UV irradiation. Changes in species concentrations over time also aeect
+radical production. In particular, adding HOCl beyond the breakpoint substantially
+increased the eeiciency of the 8 W UVB306 nm/breakpoint chlorination AOP.
+Figure 4-10. Total chlorine concentration changes in synthetic RO permeate after irradiation
+with 8 W UVB306 nm at Cl2/N molar ratios of 1.63, 2.17, 2.72, and 3.26. Conditions: 0.5 uM
+each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and
+DEET; [HOCl] = 53.52, 90.13, 126.75, and 163.37 uM. Error bars represent the range of
+duplicate measurements.
+
+
+Figure 4-11. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET in synthetic RO permeate after irradiation
+with 8 W UVB306 nm at dieerent Cl2/N molar ratios. Conditions: 0.5 uM each of benzoic
+acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET; [HOCl] =
+53.52, 90.13, 126.75, and 163.37 uM. Error bars represent the range of duplicate
+measurements.
+4.4.4 Comparison of Pollutant Degradation by UVC254 nm/H2O2 and UV/Breakpoint
+Chlorination
+After conducting pollutant degradation experiments with 8 W UVC254 nm and 8 W UVB306
+nm at dieerent chlorine dosages, the results at Cl2/N molar = 2.72, above the breakpoint,
+were compared further with UVC254 nm/H2O2. The oxidant concentration changes in
+Figure 4-12 and pollutant degradation results in Figure 4-13 show that both UVC254
+nm/breakpoint chlorination and UVB306 nm/breakpoint chlorination improved pollutant
+degradation by 1.6-2.7 times compared with conventional UVC254 nm/H2O2. This result
+highlights the advantages and potential future applicability of UV/breakpoint chlorination.
+However, a direct comparison of 8 W UVC254 nm/breakpoint chlorination and 8 W UVB306
+nm/breakpoint chlorination showed that the UVC254 nm/breakpoint system had 20%-50%
+higher changes in total chlorine concentration and higher degradation rates for benzoic
+acid, nitrobenzene, 1,4-dioxane, and DEET. A possible reason is that, under 254 nm and
+306 nm irradiation, changes in species concentrations over time cause the species to
+absorb the specific light source dieerently, generating dieerent types and concentrations of
+radicals and therefore dieerent pollutant degradation rates. The subsequent experiments
+therefore sought to improve photon utilization by dichloramine through optimization of the
+experimental conditions, thereby generating higher radical concentrations and increasing
+their reaction with pollutants.
+Figure 4-12. Changes in oxidant concentrations in synthetic RO permeate during treatment
+with 8 W UVC254 nm/H2O2, 8 W UVC254 nm/breakpoint chlorination, and 8 W UVB306
+nm/breakpoint chlorination at Cl2/N molar = 2.72. Conditions: 0.5 uM each of benzoic
+acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET; [H2O2] = 3
+mg/L; [HOCl] = 126.75 uM. Error bars represent the range of duplicate measurements.
+
+
+Figure 4-13. Comparison of degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine,
+(d) carbamazepine, (e) 1,4-dioxane, and (f) DEET in synthetic RO permeate after treatment
+with 8 W UVC254 nm/H2O2 and UV/breakpoint chlorination at Cl2/N molar = 2.72.
+Conditions: 0.5 uM each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of
+1,4-dioxane and DEET; [H2O2] = 3 mg/L; [HOCl] = 126.75 uM. Error bars represent the range
+of duplicate measurements.
+4.5 Eeect of Dieerent Chloramine Concentrations on AOP Treatment Performance
+The synthetic RO permeate used in the previous experiments contained 35.21 uM NH2Cl
+and 10.56 uM NHCl2. However, Zhang et al. (2019b) reported that the background
+chloramine concentrations in the RO permeate of a California water reuse facility were
+28.2-42.3 uM NH2Cl and 9.2-14.1 uM NHCl2. This study therefore further investigated the
+eeect of dieerent background chloramine concentrations in RO permeate on AOP
+treatment performance.
+The chloramine concentrations in the synthetic RO permeate were increased to 49.30 uM
+NH2Cl and 14.58 uM NHCl2, 1.4 times the initial NH2Cl and NHCl2 concentrations.
+Figures 4-14 and 4-15 show that the kobs values for the total chlorine concentration change
+and for the six model micropollutants were nearly identical with and without the increased
+chloramine concentration. Thus, at the same Cl2/N molar ratio, increasing the background
+chloramine concentration of synthetic RO permeate did not significantly aeect pollutant
+degradation.
+Figure 4-14. Total chlorine concentration changes after irradiation with 8 W UVB306 nm at
+Cl2/N molar = 2.72 in synthetic RO permeate containing either [NH2Cl] = 35.21 uM and
+[NHCl2] = 10.56 uM or [NH2Cl] = 49.30 uM and [NHCl2] = 14.58 uM. Conditions: 0.5 uM
+each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and
+DEET; [HOCl] = 126.75 uM. Error bars represent the range of duplicate measurements.
+Figure 4-15. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET at Cl2/N molar = 2.72 after 8 W UVB306 nm
+
+
+irradiation in synthetic RO permeate containing either [NH2Cl] = 35.21 uM and [NHCl2] =
+10.56 uM or [NH2Cl] = 49.30 uM and [NHCl2] = 14.58 uM. Conditions: 0.5 uM each of
+benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET;
+[HOCl] = 126.75 uM. Error bars represent the range of duplicate measurements.
+4.6 Optimization of UVB306 nm/Breakpoint Chlorination AOP Operating Conditions
+The initial comparison of dieerent wavelengths and chlorine dosages showed that both
+wavelength and whether the light energy could be eeectively utilized by chloramine species
+aeected pollutant degradation. The following experiments therefore modified the
+conditions for UVB306 nm/breakpoint chlorination at the optimal chlorine dosage
+identified in the pollutant degradation experiments, Cl2/N molar = 2.72: (1) a 90-second
+dark reaction after chlorination before irradiation; (2) reducing the energy supplied per unit
+time by the UVB306 nm lamp; and (3) changing the reactor reflective surface material.
+These experiments were used to investigate optimal operating conditions for UVB306
+nm/breakpoint chlorination AOP.
+4.6.1 Eeect of a 90-Second Dark Reaction after Chlorination on Pollutant Degradation
+Using the mathematical model developed by Jafvert and Valentine (1992) in Kintecus, the
+study previously simulated synthetic RO permeate at pH 5.8 containing 35.21 uM NH2Cl
+and 10.56 uM NHCl2 with 126.75 uM HOCl. During the dark reaction after chlorination,
+HOCl and NH2Cl rapidly decreased and a large amount of NHCl2 formed. Based on this
+model, the average concentrations of HOCl, OCl-, NH2Cl, NHCl2, and NCl3 at 10, 30, 60,
+and 90 seconds of breakpoint chlorination were multiplied by their molar absorptivity
+coeeicients at dieerent wavelengths to obtain the results in Figure 4-16.
+The simulation in Figure 4-16 shows that from 10 to 90 seconds, at 290-300 nm the
+absorbance of HOCl gradually decreased while the absorbance of NHCl2 increased
+markedly. NHCl2 had its highest absorbance at 90 seconds. Therefore, the experiment
+selected a 90-second dark reaction after chlorine addition followed by irradiation as a
+potential UVB306 nm/breakpoint chlorination AOP operating condition.
+
+
+Figure 4-16. Kintecus simulation of the average concentrations of HOCl, OCl-, NH2Cl,
+NHCl2, and NCl3 and the resulting absorbance obtained by multiplying their
+concentrations by their molar absorptivity coeeicients from 230 to 400 nm at (a) 10 s, (b) 30
+s, (c) 60 s, and (d) 90 s of breakpoint chlorination. Conditions: pH 5.6; [NH2Cl] = 35.21 uM;
+[NHCl2] = 10.56 uM; [HOCl] = 126.75 uM.
+The central question was whether the concentrations of HOCl and NHCl2 in the breakpoint
+chlorination system, which change with reaction time, aeected the eeiciency of UV AOP
+pollutant degradation. Based on the simulation, synthetic RO permeate was prepared with
+126.75 uM HOCl (Cl2/N molar = 2.72), allowed to react in the dark for 90 seconds, and then
+irradiated with 8 W UVB306 nm.
+However, Figure 4-17 shows that performing a 90-second breakpoint chlorination reaction
+before irradiation did not support the original hypothesis. Instead, degradation of the six
+model micropollutants was 17%-34% lower than with direct UVB306 nm/breakpoint
+chlorination. A possible reason is that HOCl can directly generate •OH and •Cl after
+irradiation. Although the 90-second breakpoint reaction creates a higher NHCl2
+concentration, NHCl2 requires a longer irradiation period to generate radicals. Therefore,
+the concentrations of both HOCl and NHCl2 that can generate radicals need to be
+considered simultaneously. Performing the 90-second breakpoint chlorination reaction
+before irradiation was therefore not an eeective method for improving UVB306
+nm/breakpoint chlorination AOP treatment performance.
+Figure 4-17. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET after a 90-second dark reaction in synthetic
+RO permeate at Cl2/N molar = 2.72 followed by irradiation with 8 W UVB306 nm.
+Conditions: 0.5 uM each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of
+1,4-dioxane and DEET; [NH2Cl] = 35.21 uM; [NHCl2] = 10.56 uM; [HOCl] = 126.75 uM. Error
+bars represent the range of duplicate measurements.
+4.6.2 Eeect of Reducing Lamp Energy Supplied per Unit Time on Pollutant Degradation
+
+
+Considering the changes in the concentrations of the dieerent species during breakpoint
+chlorination, the species in the system compete for absorption of light energy. Once the UV
+source is turned on, oxidant concentrations change significantly compared with the dark
+condition. This experiment therefore further investigated whether reducing the light energy
+supplied per unit time could create a higher concentration of dichloramine in the system.
+Experiments were conducted with 4 W, 6 W, and 8 W UVB306 nm sources in synthetic RO
+permeate at Cl2/N molar = 2.72. Figure 4-18 shows that reducing the lamp power from 8 W
+to 4 W increased the standardized kobs for total chlorine concentration change from
+2.7x10^-3 J^-1 to 3.9x10^-3 J^-1, indicating that lower lamp power increased the change in
+total chlorine concentration in the system. The pollutant degradation results in Figure 4-19
+similarly showed that reducing the lamp power from 8 W to 4 W increased the energy
+normalized degradation rates for nitrobenzene and 1,4-dioxane by 18% and 13%,
+respectively.
+This result was consistent with the original hypothesis and indicates that reducing the light
+energy supplied per unit time can create more NHCl2 in the system. When dichloramine
+absorbs 306 nm light, it can greatly increase its absorbance and generate more radicals
+(•Cl), thereby increasing the ability of the UV AOP to degrade pollutants in water. If
+excessively high light intensity is supplied immediately after HOCl addition, HOCl may
+absorb the light and directly generate •OH, which may reduce the concentration of
+dichloramine produced and may also reduce the ability of dichloramine to absorb light
+energy.
+Figure 4-18. Total chlorine concentration changes after irradiation of synthetic RO
+permeate at Cl2/N molar = 2.72 with 4 W, 6 W, and 8 W UVB306 nm sources. Conditions:
+0.5 uM each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane
+and DEET; [HOCl] = 126.75 uM. Error bars represent the range of duplicate measurements.
+Figure 4-19. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET in synthetic RO permeate at Cl2/N molar =
+2.72 after irradiation with 4 W, 6 W, and 8 W UVB306 nm sources. Conditions: 0.5 uM each
+of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET;
+[HOCl] = 126.75 uM. Error bars represent the range of duplicate measurements.
+
+
+4.6.3 Eeect of Changing Reactor Reflective Surface Material on Pollutant Degradation
+The reactor used in this study had a stainless steel reflective surface. According to the
+literature (Kim et al., 2004), stainless steel has a light reflectance of 20%-30%. Haefner et
+al. (2017) reported that Teflon (polytetrafluoroethylene, PTFE) has excellent light
+reflectance of 90%-100%. Because reflective surface material may aeect the amount of
+light reaching the water per unit time and therefore aeect dichloramine photon utilization,
+the study tested UV/breakpoint chlorination using reactors with three reflective surface
+materials: glass, stainless steel, and Teflon. Figure 4-20 shows the reactor dimensions and
+the dieerent reflective materials. For the Teflon reactor, a 0.5 mm thick Teflon sheet was
+attached to the inside of a glass reactor (Figures 4-20b and 4-21).
+Teflon is composed of repeating tetrafluoroethylene monomers. The highly electronegative
+fluorine atoms produce strong molecular bonding, reducing surface defects and
+absorption and increasing light reflectance. Using Teflon in lamps or reflector panels can
+improve photon utilization eeiciency and reduce energy consumption. Glass, with a light
+reflectance of 4%-8%, is transparent, strong, chemically resistant, and easy to clean and is
+widely used in buildings, household products, electronic products, and transportation.
+However, because its surface is relatively rough and its refractive index is high, its ability to
+reflect light is relatively poor.
+Figure 4-20. (a) Reactor dimensions, (b) Teflon reactor, and (c) glass reactor schematic.
+Figure 4-21. Information on the Polytetrafluoroethylene (PTFE) film. Source:
+https://www.sigmaaldrich.com/TW/en/product/aldrich/gf73473701
+In photochemical reactions, the eeective path length of light can be determined by
+measuring the rate of H2O2 photodegradation in order to examine the distribution of light
+energy in a reactor. Eeective path length dieers from the physical straight-line distance
+because it incorporates the combined eeects of multiple reflections, scattering, and
+absorption of light in the medium. In systems with highly scattering or highly reflective
+media, repeated scattering or reflection increases the eeective path length.
+
+
+Following the experimental method used by Garoma and Gurol (2005) to measure eeective
+path length, 0.05 mM H2O2 and 1 mM tert-butyl hydroperoxide were added to 700 mL of 1
+mM, pH 7 phosphate bueer, with tert-butyl hydroperoxide used as a scavenger for hydroxyl
+radicals (•OH). The prepared solution was placed in stainless steel and Teflon reactors and
+irradiated with 8 W UVC254 nm or 8 W UVB306 nm. Samples were collected over time and
+H2O2 concentrations were measured. Plotting ln([H2O2]/[H2O2]0) against time gave the
+first-order reaction rate constant kobs.
+Figure 4-22 shows the path-length experiment results for stainless steel and Teflon reactors
+under 8 W UVC254 nm and 8 W UVB306 nm irradiation. Under 8 W UVC254 nm, the Teflon
+reactor had an H2O2 degradation kobs of 7.01x10^-2 min^-1 compared with 1.48x10^-2
+min^-1 for the stainless steel reactor, an increase of about 78.9%. Under 8 W UVB306 nm,
+the Teflon reactor kobs was 2.9x10^-3 min^-1 compared with 6.0x10^-4 min^-1 for
+stainless steel, an increase of about 79.3%. These results demonstrate that Teflon can
+increase the eeective optical path length and light reflectance and provide a basis for the
+subsequent experiments examining reflective surface materials.
+Figure 4-22. Relationship between H2O2 concentration and irradiation time in 700 mL, 1
+mM, pH 7 phosphate bueer containing 1 mM tert-butyl hydroperoxide and 0.05 mM H2O2
+under (a) 8 W UVC254 nm and (b) 8 W UVB306 nm irradiation. Error bars represent the
+range of duplicate measurements.
+Based on the previous experiments on irradiation after breakpoint chlorination and
+reduction of the energy supplied per unit time, the best UVB306 nm/breakpoint
+chlorination AOP operating condition was 4 W UVB306 nm with Cl2/N molar = 2.72, with
+irradiation started immediately after chlorine addition. The present experiment therefore
+investigated whether changing the reactor reflective surface material and increasing
+reflectance could improve UV AOP pollutant degradation.
+Figure 4-23 shows total chlorine concentration changes for glass, stainless steel, and
+Teflon reflective surfaces. The standardized kobs values were 3.6x10^-3 J^-1, 4.5x10^-3 J^
+1, and 8.3x10^-3 J^-1 for glass, stainless steel, and Teflon, respectively. The results show
+that using a Teflon reactor markedly increased the change in total chlorine concentration.
+
+
+Further analysis of pollutant degradation (Figure 4-24) showed that the Teflon reactor
+required only about 200-250 J of light energy to degrade approximately 98% of the
+pollutants. Compared with the stainless steel reactor, degradation rates for benzoic acid,
+nitrobenzene, caeeine, carbamazepine, 1,4-dioxane, and DEET increased by 50.6%, 56.5%,
+34.0%, 34.2%, 53.9%, and 53.3%, respectively. Thus, using the highly reflective Teflon
+surface can eeectively reduce photon-energy loss in the system while increasing
+dichloramine photon utilization per unit time.
+Figure 4-23. Total chlorine concentration changes after irradiation of synthetic RO
+permeate at Cl2/N molar = 2.72 with a 4 W UVB306 nm source using glass, stainless steel,
+and Teflon reactor reflective surfaces. Conditions: 0.5 uM each of benzoic acid,
+nitrobenzene, CBZ, and caeeine; 0.2 uM each of 1,4-dioxane and DEET; [HOCl] = 126.75
+uM. Error bars represent the range of duplicate measurements.
+Figure 4-24. Degradation of (a) benzoic acid, (b) nitrobenzene, (c) caeeine, (d)
+carbamazepine, (e) 1,4-dioxane, and (f) DEET in synthetic RO permeate at Cl2/N molar =
+2.72 after irradiation with 4 W UVB306 nm using dieerent reactor reflective surfaces.
+Conditions: 0.5 uM each of benzoic acid, nitrobenzene, CBZ, and caeeine; 0.2 uM each of
+1,4-dioxane and DEET; [HOCl] = 126.75 uM. Error bars represent the range of duplicate
+measurements.
+4.6.4 Comparison of Optimized UVB306 nm/Breakpoint Chlorination AOP and UV/H2O2
+AOP
+The main objective was to identify chlorine dosage and operating conditions that create a
+higher concentration of dichloramine in synthetic RO permeate, so that UVB irradiation can
+interact with dichloramine to generate more radicals that react with and remove pollutants.
+However, when dichloramine favors radical-generation pathways, it may reduce the
+likelihood of forming trichloramine and the disinfection byproduct NDMA.
+The experiments identified the following optimal conditions for UVB306 nm/breakpoint
+chlorination AOP: a 4 W UVB306 nm source in a Teflon reactor, Cl2/N molar = 2.72, with
+irradiation started immediately after chlorine addition. Table 4-2 summarizes the energy
+
+
+normalized degradation rates for the three AOPs tested. Comparing 4 W UVB306 nm at
+Cl2/N molar = 2.72 in a PTFE reactor with 8 W UVC254 nm/H2O2 in a stainless steel
+reactor, the kobs values for benzoic acid, nitrobenzene, caeeine, carbamazepine, 1,4
+dioxane, and DEET increased by 66.4%, 73.0%, 82.7%, 68.0%, 72.5%, and 67.0%,
+respectively. Comparing the optimized 4 W UVB306 nm + Cl2/N molar = 2.72 PTFE
+condition with 8 W UVC254 nm + Cl2/N molar = 2.72 in stainless steel, the corresponding
+kobs values increased by 25.1%, 27.0%, 56.5%, 65.6%, 29.4%, and 47.6%, respectively.
+Table 4-2. Energy-normalized pollutant degradation rates for dieerent AOPs.
+Pollutant | 8 W UVC254 nm/H2O2 with stainless steel | 8 W UVC254 nm + Cl2/N molar =
+2.72 with stainless steel | 4 W UVB306 nm + Cl2/N molar = 2.72 with PTFE
+Benzoic acid | 0.0079 | 0.0176 | 0.0235
+Nitrobenzene | 0.0031 | 0.0084 | 0.0115
+Caeeine | 0.0060 | 0.0151 | 0.0347
+Carbamazepine | 0.0117 | 0.0126 | 0.0366
+1,4-dioxane | 0.0028 | 0.0072 | 0.0102
+DEET | 0.0075 | 0.0119 | 0.0227
+Units: J^-1.
+The comparison indicates that optimized UVB306 nm/breakpoint chlorination AOP
+improved advanced oxidation removal eeiciency. It therefore has potential for future
+application of wastewater reuse for potable water. To increase the feasibility of full-scale
+implementation, future work should further investigate whether optimized UVB306
+nm/breakpoint chlorination generates more disinfection byproducts or causes greater
+toxicity.
+4.7 Eeect of UV/Breakpoint Chlorination on NDMA in Synthetic RO Permeate
+
+
+According to Szczuka et al. (2020) and Kwon et al. (2020), NDMA can be generated during
+advanced oxidation treatment of RO permeate in water-reuse systems. However, NDMA
+can be rapidly photolyzed at 254 nm (Soltermann et al., 2013). Because this study focuses
+on 306 nm irradiation, additional experiments were conducted to investigate NDMA
+formation and degradation under UVC254 nm and UVB306 nm irradiation.
+Synthetic RO permeate was spiked with 1 uM Cl-DMA as a reaction precursor. Irradiation
+experiments were conducted at Cl2/N molar = 2.72 in an 8 W UVC254 nm stainless steel
+reactor, a 4 W UVB306 nm stainless steel reactor, and a 4 W UVB306 nm Teflon reactor.
+Figure 4-25a shows that regardless of the light source, when approximately 140 J of energy
+had been supplied, Cl-DMA had mostly reacted with other species in the water to form
+NDMA or had been photolyzed.
+The NDMA concentration results in Figure 4-26 show several observations. First, the NDMA
+concentration generated by the 8 W UVC254 nm source was about half that generated by
+the 4 W UVB306 nm source, and approximately 300 J of energy was sueicient to completely
+photolyze NDMA. Second, the 4 W UVB306 nm stainless steel reactor took the longest to
+reach the maximum NDMA formation concentration. NDMA photolysis in this reactor
+required approximately 300 J more energy than in the 8 W UVC254 nm stainless steel
+reactor and approximately 600 J more than in the 4 W UVB306 nm Teflon reactor,
+corresponding to 1-2 times more energy. Third, although the NDMA photolysis rate in the 4
+W UVB306 nm Teflon reactor was lower than in the 8 W UVC254 nm stainless steel reactor,
+the excellent reflectance of Teflon made both NDMA formation and photolysis
+approximately twice as fast as in the 4 W UVB306 nm stainless steel reactor. Fourth, with
+the 8 W UVC254 nm/H2O2 comparison condition, NDMA was photolyzed immediately as it
+was formed, so NDMA was not detected in the analysis.
+According to Kwon et al. (2020), California water-reuse regulations require NDMA
+concentrations in the eeluent after advanced oxidation treatment to be below 10 ng/L and
+require at least 0.5 log removal of 1,4-dioxane, corresponding to approximately 68%
+removal. Considering both NDMA and 1,4-dioxane concentrations, the 4 W UVB306 nm
+Teflon reactor required 300 J more light energy than the 8 W UVC254 nm stainless steel
+reactor. This result can provide a reference for future studies analyzing other disinfection
+byproducts and toxicity in treated water.
+
+
+Figure 4-25. Changes in (a) Cl-DMA and (b) NDMA concentrations with irradiation energy in
+synthetic RO permeate containing 1 uM Cl-DMA as a reaction precursor at Cl2/N molar =
+2.72. Conditions: 8 W UVC254 nm and 4 W UVB306 nm sources; stainless steel and Teflon
+reactor reflective surfaces; [HOCl] = 126.75 uM; [H2O2] = 3 mg/L. Error bars represent the
+range of duplicate measurements.
+CHAPTER 5. CONCLUSIONS AND RECOMMENDATIONS
+5.1 Conclusions
+This study investigated the eeects of UVB306 nm/breakpoint chlorination AOP on pollutant
+degradation and tested optimal operating conditions. The following conclusions were
+obtained:
+1. The steady-state concentration of radicals has a major eeect on pollutant removal.
+Compared with neutral conditions, weakly acidic conditions (pH 5.8) help increase radical
+stability and thereby improve pollutant removal by UV AOP.
+2. After adding dieerent HOCl concentrations to synthetic RO permeate and measuring
+total chlorine, the breakpoint occurred at Cl2/N molar = 2-2.25. Experiments with dieerent
+chlorine dosages under 8 W UVB306 nm/breakpoint chlorination showed that chlorine
+addition above the breakpoint improved pollutant removal. In particular, at Cl2/N molar =
+2.72, similar pollutant degradation rates to other chlorine-to-nitrogen ratios could be
+achieved with less energy.
+3. Increasing the background chloramine concentration in synthetic RO permeate did not
+significantly aeect pollutant degradation.
+4. Experiments investigating optimal operating conditions for UVB306 nm/breakpoint
+chlorination AOP showed that reducing the light energy supplied per unit time can create
+
+
+more dichloramine in the system. When dichloramine absorbs 306 nm light, more radicals
+(•Cl) can be generated. Using highly reflective Teflon as the reactor reflective surface also
+reduces photon-energy loss and increases dichloramine photon utilization per unit time.
+Therefore, breakpoint chlorination with 4 W UVB306 nm in a Teflon reactor can increase the
+ability of UV AOP to degrade pollutants in water.
+5. Comparison of UV/H2O2 AOP, 8 W UVC254 nm/breakpoint chlorination AOP, and
+optimized UVB306 nm/breakpoint chlorination AOP, together with the pollutant
+degradation and NDMA photolysis results, indicated that breakpoint chlorination with 4 W
+UVB306 nm in a Teflon reactor has potential for future wastewater reuse applications for
+potable water. However, application requires further consideration of whether UVB306
+nm/breakpoint chlorination AOP generates more disinfection byproducts or causes greater
+toxicity.
+5.2 Recommendations
+1. The experiments in this study involved changes in many nitrogen-containing species,
+including ammonia nitrogen, chloramine, nitrate nitrogen, and nitrite nitrogen. Total
+nitrogen (TN) is an important water-quality parameter that can be used to evaluate the
+nutrient status and degree of pollution of a water body. Future experiments are therefore
+recommended to use a TOC instrument to measure changes in TN.
+2. Future research can further investigate whether UVB306 nm/breakpoint chlorination
+AOP promotes the formation of nitrogen-containing disinfection byproducts compared
+with UVC254 nm/breakpoint chlorination AOP.
+3. During wastewater reuse treatment, oxidants inevitably react with organic and inorganic
+substances in the water and produce disinfection byproducts (DBPs). These DBPs can
+cause ecological toxicity, persistence, and bioaccumulation and may pose developmental,
+acute, and carcinogenic risks to human health. Before UVB/breakpoint chlorination AOP is
+applied at full scale, further experiments should analyze additional DBP species and
+conduct toxicity tests to determine whether more DBPs are generated or greater toxicity
+occurs.
+
+
+REFERENCES
+Aghdam, E., Xiang, Y., Ling, L. and Shang, C. 2021. New Insights into Micropollutant
+Abatement in Ammonia-Containing Water by the UV/Breakpoint Chlorination Process. ACS
+ES&T Water 1(4), 1025-1034.
+Bolton James, R. and Linden Karl, G. 2003. Standardization of Methods for Fluence (UV
+Dose) Determination in Bench-Scale UV Experiments. Journal of Environmental
+Engineering 129(3), 209-215.
+Bolton, J.R. and Stefan, M.I. 2002. Fundamental photochemical approach to the concepts
+of fluence (UV dose) and electrical energy eeiciency in photochemical degradation
+reactions. Research on Chemical Intermediates 28(7), 857-870.
+Chuang, Y.-H., Chen, S., Chinn, C.J. and Mitch, W.A. 2017. Comparing the
+UV/Monochloramine and UV/Free Chlorine Advanced Oxidation Processes (AOPs) to the
+UV/Hydrogen Peroxide AOP Under Scenarios Relevant to Potable Reuse. Environmental
+Science & Technology 51(23), 13859-13868.
+Chuang, Y.-H., Chen, T.-Y., Chou, C.-S., Chu, L.-K., Hou, C.-Y. and Szczuka, A. 2023. Critical
+Role of Trichloramine Interaction with Dichloramine for N-Nitrosamine Formation during
+Breakpoint Chlorination. Environmental Science & Technology 57(40), 15232-15242.
+Chuang, Y.-H. and Shi, H.-J. 2022. UV/chlorinated cyanurates as an emerging advanced
+oxidation process for drinking water and potable reuse treatments. Water Research 211,
+118075.
+Fang, J., Fu, Y. and Shang, C. 2014. The Roles of Reactive Species in Micropollutant
+Degradation in the UV/Free Chlorine System. Environmental Science & Technology 48(3),
+1859-1868.
+
+
+Feng, R. and Smith, D. 2007. Photolysis of aqueous free chlorine species (HOCl and OCl-)
+with 254 nm ultraviolet light. Journal of Environmental Engineering and Science 6, 277-284.
+Gao, Y.-q., Zhang, J., Li, C., Tian, F.-x. and Gao, N.-y. 2020. Comparative evaluation of
+metoprolol degradation by UV/chlorine and UV/H2O2 processes. Chemosphere 243,
+125325.
+Garoma, T. and Gurol, M.D. 2005. Modeling Aqueous Ozone/UV Process Using Oxalic Acid
+as Probe Chemical. Environmental Science & Technology 39(20), 7964-7969.
+Gerrity, D., Pecson, B., Trussell, R.S. and Trussell, R.R. 2013. Potable reuse treatment trains
+throughout the world. Journal of Water Supply: Research and Technology-Aqua 62(6), 321
+338.
+Goldstein, S. and Rabani, J. 2008. The ferrioxalate and iodide-iodate actinometers in the UV
+region. Journal of Photochemistry and Photobiology A: Chemistry 193(1), 50-55.
+Guo, K., Wu, Z., Shang, C., Yao, B., Hou, S., Yang, X., Song, W. and Fang, J. 2017. Radical
+Chemistry and Structural Relationships of PPCP Degradation by UV/Chlorine Treatment in
+Simulated Drinking Water. Environmental Science & Technology 51(18), 10431-10439.
+Haefner, J., Nee, A., Arthurs, M., Batista, E., Morton, D., Okunawo, M., Pushkin, K., Sander,
+A., Stephenson, S., Wang, Y. and Lorenzon, W. 2017. Reflectance dependence of
+polytetrafluoroethylene on thickness for xenon scintillation light. Nuclear Instruments and
+Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and
+Associated Equipment 856, 86-91.
+Jafvert, C.T. and Valentine, R.L. 1992. Reaction scheme for the chlorination of ammoniacal
+water. Environmental Science & Technology 26(3), 577-586.
+
+
+Kim, D.H., Kim, S.S., Lee, H.H., Jang, H.W., Kim, J.W., Tang, M., Liang, K.S., Sinha, S.K. and
+Noh, D.Y. 2004. Oxidation Kinetics in Iron and Stainless Steel: An in Situ X-ray Reflectivity
+Study. The Journal of Physical Chemistry B 108(52), 20213-20218.
+Kwon, M., Royce, A., Gong, Y., Ishida, K.P. and Stefan, M.I. 2020. UV/chlorine vs. UV/H2O2
+for water reuse at Orange County Water District, CA: a pilot study. Environmental Science:
+Water Research & Technology 6(9), 2416-2431.
+Lee, C., Yoon, J. and Von Gunten, U. 2007. Oxidative degradation of N
+nitrosodimethylamine by conventional ozonation and the advanced oxidation process
+ozone/hydrogen peroxide. Water Research 41(3), 581-590.
+Lei, Y., Cheng, S., Luo, N., Yang, X. and An, T. 2019. Rate Constants and Mechanisms of the
+Reactions of Cl• and Cl2•- with Trace Organic Contaminants. Environmental Science &
+Technology 53(19), 11170-11182.
+Mangalgiri, K.P., Patton, S., Wu, L., Xu, S., Ishida, K.P. and Liu, H. 2019. Optimizing Potable
+Water Reuse Systems: Chloramines or Hydrogen Peroxide for UV-Based Advanced
+Oxidation Process? Environmental Science & Technology 53(22), 13323-13331.
+McCurry, D.L., Ishida, K.P., Oelker, G.L. and Mitch, W.A. 2017. Reverse Osmosis Shifts
+Chloramine Speciation Causing Re-Formation of NDMA during Potable Reuse of
+Wastewater. Environmental Science & Technology 51(15), 8589-8596.
+Metcalf, Eddy, I., Asano, T., Burton, F., Leverenz, H., Tsuchihashi, R. and Tchobanoglous, G.
+(2007) Water Reuse: Issues, Technologies, and Applications.
+Patton, S., Li, W., Couch, K.D., Mezyk, S.P., Ishida, K.P. and Liu, H. 2017. Impact of the
+Ultraviolet Photolysis of Monochloramine on 1,4-Dioxane Removal: New Insights into
+Potable Water Reuse. Environmental Science & Technology Letters 4(1), 26-30.
+
+
+Patton, S., Romano, M., Naddeo, V., Ishida, K.P. and Liu, H. 2018. Photolysis of Mono- and
+Dichloramines in UV/Hydrogen Peroxide: Eeects on 1,4-Dioxane Removal and Relevance in
+Water Reuse. Environmental Science & Technology 52(20), 11720-11727.
+Patton, S.D., Dodd, M.C. and Liu, H. 2022. Degradation of 1,4-dioxane by reactive species
+generated during breakpoint chlorination: Proposed mechanisms and implications for
+water treatment and reuse. Journal of Hazardous Materials Letters 3, 100054.
+Pham, H.T., Wahman, D.G. and Fairey, J.L. 2021. Updated Reaction Pathway for
+Dichloramine Decomposition: Formation of Reactive Nitrogen Species and N
+Nitrosodimethylamine. Environmental Science & Technology 55(3), 1740-1749.
+Roback, S.L., Ishida, K.P., Chuang, Y.-H., Zhang, Z., Mitch, W.A. and Plumlee, M.H. 2021.
+Pilot UV-AOP Comparison of UV/Hydrogen Peroxide, UV/Free Chlorine, and
+UV/Monochloramine for the Removal of N-Nitrosodimethylamine (NDMA) and NDMA
+Precursors. ACS ES&T Water 1(2), 396-406.
+Schreiber, I.M. and Mitch, W.A. 2005. Influence of the order of reagent addition on NDMA
+formation during chloramination. Environmental Science & Technology 39(10), 3811-3818.
+Schreiber, I.M. and Mitch, W.A. 2007. Enhanced Nitrogenous Disinfection ByProduct
+Formation near the Breakpoint: Implications for Nitrification Control. Environmental
+Science & Technology 41(20), 7039-7046.
+Soltermann, F., Lee, M., Canonica, S. and von Gunten, U. 2013. Enhanced N-nitrosamine
+formation in pool water by UV irradiation of chlorinated secondary amines in the presence
+of monochloramine. Water Research 47(1), 79-90.
+
+
+Soufan, M., Deborde, M., Delmont, A. and Legube, B. 2013. Aqueous chlorination of
+carbamazepine: Kinetic study and transformation product identification. Water Research
+47(14), 5076-5087.
+Sun, P., Lee, W.-N., Zhang, R. and Huang, C.-H. 2016. Degradation of DEET and Caeeine
+under UV/Chlorine and Simulated Sunlight/Chlorine Conditions. Environmental Science &
+Technology 50(24), 13265-13273.
+Szczuka, A., Huang, N., MacDonald, J.A., Nayak, A., Zhang, Z. and Mitch, W.A. 2020. N
+Nitrosodimethylamine Formation during UV/Hydrogen Peroxide and UV/Chlorine Advanced
+Oxidation Process Treatment Following Reverse Osmosis for Potable Reuse. Environmental
+Science & Technology 54(23), 15465-15475.
+Ullrich, P.A., Xu, Z., Rhoades, A.M., Dettinger, M.D., Mount, J.F., Jones, A.D. and Vahmani, P.
+2018. California's Drought of the Future: A Midcentury Recreation of the Exceptional
+Conditions of 2012-2017. Earths Future 6(11), 1568-1587.
+Wahman, D.G. 2018. Web-Based Applications to Simulate Drinking Water Inorganic
+Chloramine Chemistry. Journal AWWA 110(11), E43-E61.
+Wang, L., Ye, C., Guo, L., Chen, C., Kong, X., Chen, Y., Shu, L., Wang, P., Yu, X. and Fang, J.
+2021. Assessment of the UV/Chlorine Process in the Disinfection of Pseudomonas
+aeruginosa: Eeiciency and Mechanism. Environmental Science & Technology 55(13), 9221
+9230.
+Wang, W.-L., Wu, Q.-Y., Huang, N., Wang, T. and Hu, H.-Y. 2016. Synergistic eeect between
+UV and chlorine (UV/chlorine) on the degradation of carbamazepine: Influence factors and
+radical species. Water Research 98, 190-198.
+
+
+Wu, Z., Fang, J., Xiang, Y., Shang, C., Li, X., Meng, F. and Yang, X. 2016. Roles of reactive
+chlorine species in trimethoprim degradation in the UV/chlorine process: Kinetics and
+transformation pathways. Water Research 104, 272-282.
+Yin, R., Blatchley, E.R., III and Shang, C. 2020. UV Photolysis of Mono- and Dichloramine
+Using UV-LEDs as Radiation Sources: Photodecay Rates and Radical Concentrations.
+Environmental Science & Technology 54(13), 8420-8429.
+Yin, R., Ling, L. and Shang, C. 2018. Wavelength-dependent chlorine photolysis and
+subsequent radical production using UV-LEDs as light sources. Water Research 142, 452
+458.
+Zhang, Z., Chuang, Y.-H., Huang, N. and Mitch, W.A. 2019a. Predicting the Contribution of
+Chloramines to Contaminant Decay during Ultraviolet/Hydrogen Peroxide Advanced
+Oxidation Process Treatment for Potable Reuse. Environmental Science & Technology
+53(8), 4416-4425.
+Zhang, Z., Chuang, Y.-H., Szczuka, A., Ishida, K.P., Roback, S., Plumlee, M.H. and Mitch,
+W.A. 2019b. Pilot-scale evaluation of oxidant speciation, 1,4-dioxane degradation and
+disinfection byproduct formation during UV/hydrogen peroxide, UV/free chlorine and
+UV/chloramines advanced oxidation process treatment for potable reuse. Water Research
+164, 114939.

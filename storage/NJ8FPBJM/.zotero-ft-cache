@@ -1,0 +1,458 @@
+Skip to main content
+Skip to article
+Brought to you by:University of Colorado Boulder Libraries
+Desalination
+Date: 15 April 2025
+Research article
+Full text access
+Get rights and content
+Pilot-scale membrane capacitive deionization for water reclamation: Commissioning, performance benchmarking, and long-term assessment
+Tsai-Hsuan Chen
+, 
+Yu-Hui Kao
+, 
+Yu-Yi Shen
+, 
+Chen-Shiuan Fan
+, Chia-Hung Hou
+Show more
+View PDF
+Download full issue
+Highlights
+•
+Decision framework was presented for development of MCDI-based reclamation process.
+•
+Trade-offs among MCDI performance aspects were assessed during benchmark procedure.
+•
+Operating protocols were recommended for implementing MCDI in DWTPs.
+•
+MCDI achieved over 80% ion removal efficiency with 77% water recovery.
+•
+Long-term system stability was maintained with periodic acid cleaning.
+Abstract
+With the continued advancement of membrane capacitive deionization (MCDI) technology, research has focused not only on exploring its practical applications but also increasingly on the development of pilot-scale implementation. This study presents the first successful development of a decision framework for the pilot-scale MCDI water reclamation process, providing a structured framework for MCDI system design and operation. This pilot-scale MCDI-based water reclamation process was demonstrated to reclaim secondary effluent from a domestic wastewater treatment plant continuously and in real time. During the benchmark procedure, a 400-s charging time and a 120-s discharging time were selected on the basis of the trade-off between MCDI performance aspects. The long-term assessment further validated the effectiveness and robustness of the optimized operating protocols. With treatment capacity of 21.1 cubic meters per day (CMD), the MCDI unit demonstrated stable ion removal efficiency exceeding 80%, low energy consumption (0.21 ± 0.07 kWh/m3), and high water recovery (77%) with an acidic cleaning frequency of 2.25 times per day. However, challenges such as organic fouling or mineral scaling have been observed, potentially impacting system longevity over time. Overall, the decision framework and operating protocols for the MCDI-based reclamation process were validated by findings from experimental investigations. The high quality of reclaimed water from secondary effluent at the domestic wastewater treatment plant (DWTP) highlights the potential of MCDI as a scalable and efficient technology for sustainable water reclamation.
+Graphical abstract
+Download: Download high-res image (230KB)
+Download: Download full-size image
+Keywords
+Pilot-scale membrane capacitive deionization; Decision framework; Municipal wastewater reclamation; Long-term assessment; Acidic cleaning
+Previous article
+Next article
+1. Introduction
+The demand for freshwater is rapidly outpacing supply, exacerbated by limited raw water allocation, water pollution, and increasing industrial activities [[1], [2], [3]]. This growing imbalance between freshwater supply and demand underscores the urgent need to develop a resilient water supply system. As a result, alternative water sources, such as desalinated seawater and reclaimed wastewater, could offer viable solutions to reduce the reliance on conventional freshwater resources [[4], [5], [6]]. However, seawater desalination presents significant challenges due to its high total dissolved solids (TDS) content, which necessitates substantial energy input for effective treatment. This energy-intensive process not only results in elevated production costs but also raises environmental concerns, such as the management of seawater brine and the increased carbon footprint associated with high energy consumption [[7], [8], [9]]. Therefore, there is a growing shift toward low-TDS wastewater reclamation, which offers a sustainable alternative for water resource management.
+Municipal wastewater has recently gained attention as an alternative water source, largely because of its low-TDS property. Various technologies have been successfully implemented worldwide to reclaim municipal wastewater as high-quality product water. Among these, membrane-based technologies are considered essential components of municipal wastewater treatment processes [[10], [11], [12]]. The primary membrane separation techniques are differentiated by their selected pore sizes, including microfiltration (MF), ultrafiltration (UF), nanofiltration (NF), and reverse osmosis (RO). MF membranes are primarily utilized for the removal of colloidal particles and suspended solids, whereas UF membranes are proficient in retaining macromolecules, bacteria, protozoa and viruses [12]. NF membranes are employed for the removal of polyvalent ions and dissolved organics [11], and RO membranes are highly effective at retaining nearly all dissolved salts and minerals [13]. For example, in Singapore, RO, combined with MF as a pretreatment step, has been used to treat municipal wastewater, producing high-grade reclaimed water suitable for industrial applications and indirect potable use [14,15]. However, a common limitation of RO is the trade-off between water permeability and salt rejection [16,17]. Therefore, alternative technologies that can achieve both high energy efficiency and high water permeability without compromising salt rejection performance are needed, making them more suitable for municipal wastewater reclamation. In recent years, capacitive deionization (CDI) has garnered attention because of its high energy efficiency and effective salt removal rates when treating low-TDS solutions.
+CDI is a promising electro-membrane separation technology that relies on the electrical storage of ions in porous or intercalation materials [18,19]. Compared with conventional CDI systems, the incorporation of ion-exchange membranes (IEMs) onto electrodes in membrane capacitive deionization (MCDI) systems reduces coion expulsion. Consequently, MCDI demonstrates elevated performance in both ion separation and energy efficiency [20,21]. Moreover, MCDI has been applied in various fields, including groundwater desalination, hard water softening, wastewater reclamation, and desalination, which showcases its versatility and effectiveness across a range of water treatment scenarios [[22], [23], [24]]. To date, only a limited number of publications have reported on pilot-scale MCDI systems, particularly in real-site deionization environments. Cañas Kurz et al. conducted a pilot-scale MCDI study for brackish groundwater desalination in Essaouira, Morocco [25]. The system achieved a salt removal efficiency of 66%, with a corresponding water recovery of 48%, while operating at a flow rate ranging between 28.0 and 31.6 L/min. Similarly, Zhu et al. conducted a pilot-scale MCDI system with a capacity of 20 CMD for brackish groundwater desalination over 1522.5 h throughout 562 days in the Northern Territory of Australia [22]. The system reduced the salt concentration to approximately 550 mg/L total dissolved solids (TDS) with a water recovery of 72% and treated groundwater with a TDS of 1002.5 mg/L. Both studies incorporated periodic acid cleaning during long-term testing, but the system performance under continuous 24/7 operation was limited. Moreover, continuous water quality monitoring is crucial in determining whether MCDI can serve as an efficient technology for reclaimed water production. Therefore, it is crucial to develop a comprehensive decision framework for MCDI process design and operational optimization to facilitate the successful transition of MCDI into industry-ready technology. A theoretical framework for MCDI desalination plant design was previously proposed, which highlights the interconnections between design parameters, operational conditions, and key performance metrics. However, when the influent and effluent concentrations are fixed at 20 mM and 13 mM, the model does not capture the variability in feedwater quality typically observed in real-world applications. Additionally, it overlooks the potential decline in system performance over extended operational periods, limiting its relevance for long-term use [26].
+In this study, a decision framework for the pilot-scale MCDI water reclamation process was successfully developed, providing a structural and functional design for the MCDI system. Following the decision framework, the MCDI-based process was demonstrated for continuous and real-time reclamation of secondary effluent from a domestic wastewater treatment plant (DWTP). By optimizing various operating parameters, in terms of different charging times, discharging times, and acidic cleaning frequencies, the MCDI-based process consistently achieved ion removal efficiencies exceeding 80%, along with high water recovery. Moreover, water quality was rigorously analyzed via indicators such as turbidity, total hardness (TH), ammonia‑nitrogen (NH3−N), total phosphorus (TP), total organic carbon (TOC), and chemical oxygen demand (COD). The anticipated results from this study will provide comprehensive operating protocols for implementing MCDI as an effective water reclamation technology in DWTPs.
+2. Materials and methods
+2.1. Setup of the MCDI unit
+The MCDI unit was composed of 12 MCDI stacks arranged in parallel, designed with a standardized configuration to ensure a consistent ion removal capacity. Each stack housed 32 electrode pairs, separated by a spacer within the 3-mm flow chamber of the MCDI stacks, ensuring the uniform distribution of the feed solution. The electrode, measuring 20 × 40 cm2 in area, was fabricated by applying activated carbon (AC, ACS20, China Steel Chemical Co., Taiwan) onto titanium current collectors. The cathode was covered by a cation exchange membrane (CEM, C11, Beijing Jie Rui Environmental Science and Technology Corporation, China), while the anion exchange membrane (AEM, A11, Beijing Jie Rui Environmental Science and Technology Co., China) was placed alongside the anode. To apply voltage, all current collectors from both the cathodes and anodes were connected to two separate terminals.
+2.2. Commissioning process for pilot-scale MCDI
+The pilot-scale MCDI system was housed within a 20-ft standard shipping container situated at the Kerya Water Resources Recycling Center, a DWTP in Hsinchu, Taiwan. The MCDI-based water reclamation process was designed to reclaim secondary effluent treated by a bioreactor at the DWTP. It mainly comprises an SF unit, a UF unit, an MCDI unit, and a UV disinfection unit, as depicted in Fig. 1. The SF and UF (ZW1500, SUEZ, France) units were designed as pretreatment processes to remove foulants and turbidity prior to the MCDI process, aiming to reduce fouling potential and prevent clogging. Following the MCDI unit, the UV (AB-12 A, Aqua Best, China) unit was employed to deter biofouling growth. The feed solution was pumped into the MCDI-based water reclamation process via a water pump (TP320PTB, Walrus Pump Co., Taiwan) equipped with flow meters (H600P, Hsin Jeng Instrument Co., Taiwan). Level meters were installed to regulate water levels, adjusting pump operation if levels dropped below the margin and preventing overflow by stopping the pump. The programmable logic controller automated the MCDI-based water reclamation process by managing all pumps, valves, power supplies, and meters. Following the construction and assembly process of the pilot-scale MCDI system, thorough site acceptance testing was conducted on every component and the entire MCDI-based water reclamation process, as shown in Fig. 2. To ensure the proper functioning of each component, this testing regimen involves procedures such as pipe flushing, leak testing, and comprehensive electrical testing, among others. All possible malfunctions were identified and resolved before conducting performance testing of the MCDI system.
+Download: Download high-res image (386KB)
+Download: Download full-size image
+
+Fig. 1. (a) Schematic diagram of pilot-scale MCDI system demonstration for water reclamation. (b) Pilot-scale MCDI system, (c) MCDI unit, and (d) MCDI stack.
+
+Download: Download high-res image (291KB)
+Download: Download full-size image
+
+Fig. 2. Decision diagram of the pilot-scale MCDI water reclamation process.
+
+2.3. Benchmarking procedure for the MCDI unit
+After the commission of the pilot-scale MCDI system, the process advanced to proof-of-performance testing, which was conducted within the benchmarking procedure and aligned with the decision framework, as illustrated in Fig. 2. The MCDI performance was analyzed through rigorous testing under constant voltage conditions. The voltages for the charging, regeneration, and discharging steps were set at 2 V, −2 V, and − 2 V, respectively. Notably, off-flow regeneration at −2 V was introduced in this study to achieve significantly improved electrode regeneration performance. The feed solution was introduced at a flow rate of 90 LPH in single-pass mode during the on-flow charging and discharging steps, except during the off-flow regeneration step, where the flow rate was set to 0 LPH. The overall treatment capacity reached at least 20 CMD.
+An ion removal efficiency target of 80% was set for the MCDI-based water reclamation process. During the goal-striving process, testing was divided into two stages: the benchmark procedure and long-term stability assessment. The benchmark procedure focused on two primary criteria: enhancing water treatment capacity and water recovery. The water treatment capacity was examined through the optimization of the charging time (350, 400, 450, and 500 s), whereas the water recovery was controlled through the modification of the discharging time (60, 90, 120, and 150 s). After benchmarking the pilot-scale MCDI performance, long-term stability assessment was conducted under optimized operating parameters over 24 weeks, with the unit maintained in continuous 24/7 operation throughout the duration. Periodic citric acid cleaning was performed to maintain 80% ion removal efficiency and minimize the membrane scaling potential.
+2.4. MCDI performance indicators
+The MCDI performance was evaluated in terms of removal efficiency (RE), salt balance (SB), desorption efficiency (DE), capacity, water recovery (WR), energy consumption (Ev), and charge efficiency (η) via the following equations:
+(1)
+𝑅𝐸⁡(%)=
+∫𝑇c
+0(𝐶i−𝐶e)d𝑇
+∫𝑡c
+0𝐶id𝑇
+×100%
+(2)
+𝑆𝐵⁡(mg)=∫𝑇
+0(𝐶i−𝐶e)×𝜑×𝑀d𝑇
+(3)
+𝐷𝐸⁡(%)=
+𝑆𝐵d
+𝑆𝐵c
+×100%
+(4)
+𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦⁡(CMD)=𝜑×𝑁×
+(𝑇c+𝑇d)
+(𝑇c+𝑇r+𝑇d)
+(5)
+𝑊𝑅⁡(%)=
+𝑇𝑐
+𝑇c+𝑇d
+×100%
+(6)
+𝐸v(kWh/m3)=
+𝑉×∫𝑡
+0𝐼d𝑇
+𝜑×(𝑇c+𝑇d)
+(7)
+𝜂⁡(%)=
+F×𝜑×∫𝑇c
+0(𝐶i−𝐶e)d𝑇
+∫𝑇
+0𝐼d𝑇
+where Ci and Ce are the influent and effluent concentrations (mM), respectively,φ is the velocity (LPH); M is the molar mass of the targeted species (mol/L); Tc, Tr, and Td are the durations of charging, regeneration, and discharging steps (s), respectively; N is the number of MCDI modules; V is the applied voltage (V); I is the current response (A); and F is the Faraday constant (96485C/mol).
+2.5. Analytical methods
+Online monitoring was carried out to collect data at various locations, including electrical conductivity (EC) measurements via an EC-200 conductivity meter and pH measurements via a pH-10C meter (both from Hotec Instruments Co., Ltd., Taiwan). To validate the long-term system performance, the measurement campaign involved continuous 24/7 monitoring spanning 24 weeks (from October 10th, 2022 to May 3rd, 2023, albeit with data collection interrupted between January 11th, 2023 to February 15th, 2023). During the intensive sampling period, twice-weekly samples were taken from several selected sampling locations for water analysis. The sampling points covered the effluents of the SF, UF, and MCDI units. The water samples were subsequently analyzed for turbidity, total organic carbon (TOC), and chemical oxygen demand (COD). Turbidity was determined via a turbidity meter (AQ3010, Thermo Fisher Scientific, USA). A TOC analyzer (TOC-L series, Shimadzu, Japan) was used to determine the total organic carbon content. The COD was measured with a spectrophotometer (DR 3900, HACH, USA) through a colorimetric method. Concurrently, inductively coupled plasma-optical emission spectroscopy (ICP–OES, 700 series, Agilent Technologies, USA) and ion chromatography (IC, ICS-1100, Thermo Fisher Scientific, USA) were employed to measure the COEXISTING ions within the water samples.
+Following 24 weeks of MCDI 24/7 operation, a field emission scanning electron microscope (FE-SEM, S-4800, Hitachi, Japan) was used to investigate the morphological changes. SEM images were taken for both the pristine and cycled electrodes, as well as for the CEM and AEM.
+3. Results and discussion
+3.1. Assessment of the water treatment capacity of the MCDI unit
+To increase the water treatment capacity while maintaining an 80% ion removal efficiency, the MCDI unit underwent testing with varying Tc (350, 400, 450, and 500 s) at 2 V. Meanwhile, Tr and Td were fixed at 120 s and 150 s at −2 V, respectively. As shown in Fig. 3 (a), the electrical conductivity (EC) decreased from 1150 to 96 μS/cm because of the electrosorption of ions during the 400-s charging period. After the off-flow regeneration step of 120 s, the ions released into the solution were flushed out during the 150-s discharging step at −2 V, resulting in the production of a brine solution. When the Tc increased from 350 to 500 s, the EC of the produced water at the end of the charging step slightly increased from 84 to 168 μS/cm, indicating gradual saturation of the electrode (Fig. 3 (b)). This observation corresponded with the increase in the concentration front from 2218 to 2690 μS/cm during the discharging step.
+Download: Download high-res image (628KB)
+Download: Download full-size image
+
+Fig. 3. Pilot-scale MCDI performance across various Tc set at 350, 400, 450, and 500 s, whereas Tr and Td at 120 s and 150 s, respectively. (a) MCDI performance under the optimal Tc of 400 s, (b) EC under various Tc, (c) time course results of EC, (d) C/C0 and RE, (e) SB and DE, (f) capacity and WR, and (g) Ev and η.
+
+Each charging time underwent 40 consecutive cycles as part of the system performance evaluation, as depicted in Fig. 3 (c). The average normalized concentrations (C/C0) of the MCDI effluent were 0.14, 0.18, 0.23, and 0.27 for Tc values of 350, 400, 450, and 500 s, respectively. These results indicated that the RE decreased from 86% to 73% (Fig. 3 (d)). The DE was confirmed by the SB for both the charging and discharging periods. As illustrated in Fig. 3 (e), although the SB of charging and discharging increased with the Tc, a decrease in DE was observed from 82% to 78%. This decrease in DE was attributed to the higher Tc, leading to elevated ion concentrations remaining in the MCDI unit [18], which is consistent with the results shown in Fig. 3 (b). As shown in Fig. 3 (f), both the capacity and WR increased with Tc, indicating a direct relationship with the MCDI operating parameters, as demonstrated by Eqs. (4), (5). Concurrently, in terms of the energy performance, the Ev for the MCDI unit remained consistent within the range of 0.30 ± 0.01 and 0.32 ± 0.03 kWh/m3, whereas the η was maintained above 77% for all Tc values (Fig. 3 (g)).
+Given these findings, the 400-s charging time was selected as the optimal duration for the follow-up testing of pilot-scale MCDI. This selection prioritized achieving a high ion removal efficiency of 82%, exceeding the 80% target for effective desalination, while maintaining a sufficient water treatment capacity of 21.3 CMD, thereby ensuring a balanced and efficient desalination performance.
+3.2. Assessment of water recovery for the MCDI unit
+Considering the critical importance of the water reclamation process in alleviating water scarcity, this study explored the water recovery performance of the MCDI unit. In general, a shorter Td duration corresponds to a higher WR under constant flow rate conditions [27,28]. Fig. 4 illustrates the impact of different Td durations (60, 90, 120, and 150 s) under −2 V on the MCDI system performance. Throughout these variations, Tc was consistently maintained at 400 s under 2 V, and Tr was held constant at 120 s under −2 V. The operating parameter details are depicted in Fig. 4(a). Nevertheless, considering the regeneration capability of the electrode, longer Td durations were necessary to ensure complete flushing of the desorbed ions from the MCDI unit. As depicted in Fig. 4(b), the EC was measured at 1690 μS/cm after a 60-s discharging period, which was 1.8 times greater than that after a 150-s discharging period (936 μS/cm). Incomplete flushing during the discharging step could result in elevated EC values within the MCDI stack, thereby affecting the unit performance in subsequent cycles of MCDI operation.
+Download: Download high-res image (651KB)
+Download: Download full-size image
+
+Fig. 4. Pilot-scale MCDI performance across various Td values set at 60, 90, 120, and 150 s, whereas Tc and Tr at 400 s and 120 s, respectively. (a) MCDI performance under the optimal Td of 120 s, (b) EC under various Td, (c) time-course results of EC, (d) C/C0 and RE, (e) SB and DE, (f) capacity and WR, and (g) Ev and η.
+
+The time-course results of EC concerning the impact of Td are presented in Fig. 4(c). As Td decreased from 150 s to 60 s, the C/C0 of the produced water increased from 0.13 to 0.29, which was consistent with the incomplete flushing of the desorbed ions from the previous cycle. This led to the RE falling below 80% when Td was less than 90 s (Fig. 4(d)). According to Fig. 4(e), the SB of the charging step remained in the range of 388 to 400 mg owing to the constant Tc. However, there was a declining trend in SB during the discharging step, decreasing from 323 mg with a Td of 150 s to 275 mg with a Td of 60 s. This trend aligns with the high EC remaining in the MCDI stack shown in Fig. 4(b), and the low DE value reflected this phenomenon. Moreover, the duration of the Td plays a critical role in determining WR during MCDI operation under constant flow rate conditions, as a shorter Td improves WR by reducing the volume of brine solution [27,28]. For example, the WR reached 87% when Td was set at 60 s with a 400-s charging period, whereas it decreased to 73% when Td was 150 s (Fig. 4(f)). With respect to the energy performance for the MCDI unit, Ev ranged from 0.29 to 0.30 kWh/m3, except for the condition under 120 s (0.27 kWh/m3), which was attributed to the relatively low influent concentration. The η was within an acceptable range of 76% to 83%, as shown in Fig. 4(g).
+Overall, a lower Td increased the WR but resulted in a lower RE. To strike a balance between the RE and WR, a Td of 120 s was chosen. This operational condition delivered a high RE of 85% while maintaining a WR of 77%, demonstrating the ability of MCDI system to effectively balance ion removal and water recovery for practical desalination applications.
+3.3. Long-term MCDI stability performance with acidic cleaning over 24 weeks
+In the context of water reclamation, ion removal efficiency is one of the most critical parameters for ensuring the long-term reliability of pilot-scale MCDI. On the basis of proof-of-performance testing conducted within the benchmarking procedure, the optimized operating MCDI conditions were selected as follows: charging at 2.0 V for 400 s, regenerating at −2 V for 120 s, and discharging at −2 V for 120 s. The pilot-scale MCDI process was operated for 24 weeks with the goal of achieving 80% ion removal efficiency. During this period, the unit was maintained in continuous 24/7 operation with treatment capacity of 21.1 CMD to assess its operational management. Moreover, according to the literature, mineral scaling and organic fouling are significant challenges in membrane-based separation processes [29,30]. To mitigate these issues, periodic cleaning with citric acid, a mild chelating agent, was applied to the MCDI unit [31]. Fig. 5(a) shows the time-course results of the MCDI unit performance. The average EC of the MCDI influent was 601 ± 41 μS/cm, with the exception of week 18, when it reached 1179 μS/cm. This sudden increase in EC is likely attributable to variations in domestic wastewater quality, which can fluctuate significantly due to the nature of decentralized source pollution. Consequently, even under optimized operating conditions with a constant flow rate of 90 LPH, the EC of the MCDI effluent fluctuated between 40 and 408 μS/cm, except during week 18, when it ranged from 480 to 888 μS/cm.
+Download: Download high-res image (647KB)
+Download: Download full-size image
+
+Fig. 5. Time-course results of long-term MCDI operation. (a) EC of influent and effluent and (b) RE and frequency of citric acid cleaning (fAC). Experimental conditions: Tc = 400 s, Tr = 120 s, and Td = 120 s.
+
+The average daily performance of RE and the frequency of citric acid cleaning (fAC) are shown in Fig. 5 (b). During the first three weeks, citric acid was administered at a frequency of 1.3 times per day. The RE gradually decreased from 91% to 77% and then decreased to 44% when the EC of the influent (701 ± 4 μS/cm) was 17% higher than the average value (601 ± 41 μS/cm). To achieve the target RE of 80%, the fAC was increased from 1.3 times per day to 1.5 times per day. However, MCDI performance deterioration was observed by RE between weeks 3 and 14. Initially, this adjustment led to a surge in RE to 93%, followed by a subsequent decline to 58% by week 14. As a result, the fAC was further increased to 2.25 times per day. Despite the drastic plunge in RE to 40% during week 18, attributed to the soaring EC of the MCDI influent, RE stabilized at approximately 66% between weeks 13 and 17. The removal efficiency (RE) gradually increased from 61% to 81% between weeks 19 and 21. It then consistently remained within the range of 81% to 86% until the end of week 24, successfully meeting the target RE of over 80% (Fig. 2). The high RE indicated a low EC of reclaimed water. Throughout weeks 21 to 24, the average ECs of the MCDI influent and effluent were 516 ± 48 μS/cm and 97 ± 17 μS/cm, respectively. Afterward, the difference in acid dosing frequency affected the RE of the MCDI unit, resulting in fluctuations in water reclamation performance.
+3.4. Evaluation of the physic-chemical parameters of the treated water
+The physic-chemical parameters were evaluated for effluents from the SF, UF, and MCDI units during both the benchmark procedure and long-term stability assessment stages. The 6 parameters included turbidity, TH, NH3-N, TP, TOC, and COD. During the benchmark procedure, the UF and MCDI units had negligible impact on turbidity, ranging from 0.00 to 0.38 NTU, when treating secondary effluent from DWTP (Fig. S1(a) and S2(a)). Notably, compared with the SF and UF units, the MCDI unit significantly removed charged species. Thus, as depicted in Fig. S1(b) and Fig. S2(b), the average TH was 158.3 ± 21.8 and 157.5 ± 23.2 mg/L as CaCO3 after the SF and UF units, respectively, but decreased to 21.2 ± 6.4 mg/L after the MCDI unit. Notably, the primary NH3-N species present was NH4+ because of the neutral pH (pH 6.6–6.8) of the effluent. Approximately 67% of the NH4+ was removed after passing through the MCDI unit (as illustrated in Fig. S1(c) and Fig. S2(c)). Similarly, among the phosphorous ions, the dominant P species were H2PO4− and HPO42− under neutral pH conditions. The average TP concentration in the MCDI effluent was 0.9 ± 0.5 mg/L, which was significantly lower than that in the UF effluent (1.7 ± 1.1 mg/L) (Fig. S1(d) and Fig. S2(d)). Conversely, the non-polar or weakly charged characteristics of organic matter resulted in low removal efficiencies [32,33]. As shown in Fig. S1(e) and Fig. S2(e), the TOC after the UF unit was 4.1 ± 0.8 mg/L and decreased to only 3.6 ± 0.9 mg/L after the MCDI unit, corresponding to a mere 12% removal efficiency. For secondary effluent, the COD/TOC ratios typically range from 2 to 3 [34,35]. Our results aligned with this trend, with a COD value of 11.5 ± 3.9 mg/L after UF and 11.1 ± 3.9 mg/L after MCDI, resulting in COD/TOC ratios of 2.8 and 3.1, respectively (Fig. S1(f) and Fig. S2(f)).
+The long-term water quality of the MCDI-based water reclamation process was assessed with an fAC of 2.25 (from Feb. 16, 2023 to May 02, 2023), as illustrated in Fig. 6. The gray dashed lines represented the water quality standards for reclaimed water. As shown in Fig. 6(a), the average turbidity of the SF effluent was 0.34 ± 0.39 NTU, with occasional surges reaching 1.27 NTU. The turbidity of the UF unit was 0.21 ± 0.09 NTU, with no significant difference observed in the MCDI effluent (0.17 ± 0.08 NTU). Thus, the removal efficiency of turbidity was predominantly influenced by the water quality of the SF effluent. The MCDI unit was primarily responsible for removing charged species, as evidenced by the reductions in TH, NH3-N, and TP. The TH levels in the SF effluent and UF effluent were 186.4 ± 21.0 and 186.3 ± 19.6 mg/L as CaCO3, respectively (Fig. 6(b)). Impressively, the MCDI unit demonstrated robust performance (32.6 ± 11.2 mg/L as CaCO3) in hardness removal, maintaining an average RE of 83 ± 5% throughout the observation period. However, as shown in Fig. 6(c) and (d), the RE of NH3-N (49 ± 25%) and TP (48 ± 15%) were not only low but also highly variable, with fluctuations largely attributed to the significant variations in influent concentrations. Moreover, the removal performance of the MCDI process is strongly influenced by the concentrations of ionic species in the influent. Given the relatively low concentrations of NH3-N and TP, the low RE was therefore expected. On the other hand, the TOC values ranged from 3.1 to 5.0 mg/L after SF, 2.9 to 4.7 mg/L after UF, and 2.4 to 4.9 mg/L after MCDI, with no significant differences observed among these three treatments (Fig. 6(e)). A similar phenomenon was observed for the COD, which ranged from 2.5 to 15.1 mg/L (Fig. 6(f)). However, an outlier value of COD (55.0 mg/L) was detected in the SF effluent on March 29. Consequently, the low RE of TOC (11 ± 9%) was evident even at a relatively high fAC of 2.25 and was comparable to the RE of COD, which averaged 13 ± 1%. These results, as shown in Fig. 6, are consistent with findings from our prior study [24].
+Download: Download high-res image (1MB)
+Download: Download full-size image
+
+Fig. 6. Long-term stability assessment of water quality for SF, UF, and MCDI effluents. (a) Turbidity, (b) TH, (c) NH3-N, (d) TP, (e) TOC, and (f) COD.
+
+To further enhance the RE of TOC and COD, integrating MCDI with additional treatment units is recommended for achieving high-quality water reclamation. For example, coupling MCDI with advanced oxidation processes, such as ozonation, could significantly improve TOC removal [36]. Similarly, incorporating biological treatments, such as a biofiltration system, could enhance COD reduction [37]. These integrated approaches would provide a more comprehensive solution for addressing non-ionic organic species (such as TOC, COD, and micropollutants) while ensuring compliance with the desired water quality standards.
+3.5. Microscopic visualization of electrodes and membranes
+Representative SEM images are presented in Fig. 7, including those of the electrodes, AEM, and CEM, both prior to and following the demonstration of the pilot-scale MCDI system. The pristine electrode, shown at amplification factors of 1 K (Fig. 7(a)) and 3 K (Fig. 7(b)), is composed primarily of AC particles interlinked with the binder. Fig. 7(c) and Fig. 7(d) depict the pristine AEM and CEM, respectively, with no evidence of organic fouling or mineral scaling on the membrane surfaces. Both the AEM and CEM maintained good integrity, featuring smooth surfaces. After the demonstration of the pilot-scale MCDI system, noticeable changes in the morphology of the electrodes and IEMs were observed. In the anode (Fig. 7(e)), the AC particles on the electrode surface were smaller than those in Fig. 7(b), resulting from friction between the AC particles and IEMs during the construction process. A similar reduction in the AC particle size was observed in the cathode, accompanied by plate-like deposits, as shown in Fig. 7(f). Additionally, despite undergoing acidic cleaning, the membrane images (Fig. 7(g) and Fig. 7(h)) indicated the formation of organic fouling and mineral scaling on the exterior surfaces of the membranes even with acidic cleaning. Owing to the differing functional groups present on the IEMs, positively charged AEMs are more prone to organic fouling, whereas negatively charged CEMs are more susceptible to mineral scaling [38,39]. Overall, achieving an operational balance is essential for optimizing system performance and longevity by maximizing ion removal efficiency while minimizing the risk of fouling and scaling.
+Download: Download high-res image (215KB)
+Download: Download full-size image
+
+Fig. 7. SEM images: pristine (a, b) electrode, (c) AEM, and (d) CEM; (e) anode, (f) cathode, (g) AEM, and (h) CEM after long-term MCDI stability assessment.
+
+4. Conclusions
+This study presents the first decision framework of the pilot-scale MCDI water reclamation process. The MCDI-based process was designed for the reclamation of secondary effluent from DWTPs that integrate SF, UF, MCDI, and UV units. During the benchmark procedure, a 400-s charging time was selected because it provided a balance between high ion removal efficiency (82%) and a water treatment capacity of 21.1 CMD. Concurrently, a discharging time of 120 s was chosen to optimize the trade-off between achieving a high removal efficiency (85%) and maintaining a water recovery rate of 77%. Hence, a long-term assessment with the system maintained in continuous 24/7 operation was conducted under optimized MCDI operation, which involved 400-s charging at 2.0 V, 120-s regeneration at −2.0 V, and 120-s discharging at −2.0 V. Periodic citric acid cleaning was applied to maintain stability and ensure consistent performance. With an fAC of 2.25 times per day, the MCDI unit consistently maintained an ion removal efficiency exceeding 80% while operating with a low Ev of 0.21 ± 0.07 kWh/m3. In terms of effluent water quality, ionic species, such as TH, were successfully removed. However, the RE of NH3-N and TP fluctuated due to the significant variations in influent concentrations. Additionally, the negligible removal performance of TOC and COD highlighted the need for integrating MCDI with supplementary treatment units. However, despite the application of acid cleaning, microscopic visualization revealed organic fouling and mineral scaling. Future research could focus on optimizing cleaning protocols to more effectively mitigate these issues, thereby enhancing system performance and prolonging its longevity over time. Overall, the decision framework for the MCDI-based reclamation process was validated by findings from experimental investigations. These results convincingly demonstrated the practical feasibility and robustness of the MCDI-based process for reclaiming secondary effluent from DWTPs following operating protocols. The high quality of reclaimed water from secondary effluent at the DWTP highlights the potential of MCDI as a scalable and efficient technology for sustainable water reclamation.
+CRediT authorship contribution statement
+Tsai-Hsuan Chen: Conceptualization, Methodology, Data curation, Investigation, Writing – original draft. Yu-Hui Kao: Methodology, Data curation. Yu-Yi Shen: Investigation, Methodology. Chen-Shiuan Fan: Conceptualization, Project administration, Writing – review & editing. Chia-Hung Hou: Conceptualization, Project administration, Supervision, Writing – review & editing, Funding acquisition.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The authors would like to thank the National Land Management Agency (109-4000-0106-0000-20100) and the National Science and Technology Council (112-2221-E-002-059-MY3, 113-2221-E-002-008, 113-2221-E-002-089-MY3) in Taiwan for their financial support.
+Appendix A. Supplementary data
+Download: Download Word document (343KB)
+
+Supplementary figures
+
+Data availability
+Data will be made available on request.
+References
+[1]
+H. Kariman, A. Shafieian, M. Khiadani
+Small scale desalination technologies: a comprehensive review
+Desalination, 116985 (2023)
+Google Scholar
+[2]
+Y. Wang, J. Zhao, Z. Zhang, J. Xu, Z.D. Gao, Y.Y. Song
+Water strider inspired floating solar evaporator with high salt-resistant ability for desalination of contaminated seawater
+J. Environ. Chem. Eng., 11 (3) (2023), Article 109800
+View PDF
+View articleView in ScopusGoogle Scholar
+[3]
+J. Lin, J. Huang, C. Prell, B.A. Bryan
+Changes in supply and demand mediate the effects of land-use change on freshwater ecosystem services flows
+Sci. Total Environ., 763 (2021), Article 143012
+View PDF
+View articleView in ScopusGoogle Scholar
+[4]
+M. Nasrollahi, A. Motevali, A. Banakar, M. Montazeri
+Comparison of environmental impact on various desalination technologies
+Desalination, 547 (2023), Article 116253
+View PDF
+View articleView in ScopusGoogle Scholar
+[5]
+J. Williams
+Desalination in the 21st century: a critical review of trends and debates
+Water Alternatives, 15 (2) (2022), pp. 193-217
+View in ScopusGoogle Scholar
+[6]
+A. Etale, K. Fielding, A.I. Schäfer, M. Siegrist
+Recycled and desalinated water: Consumers’ associations, and the influence of affect and disgust on willingness to use
+J. Environ. Manag., 261 (2020), Article 110217
+View PDF
+View articleView in ScopusGoogle Scholar
+[7]
+M.A. Al-Obaidi, R.H. Zubo, F.L. Rashid, H.J. Dakkama, R. Abd-Alhameed, I.M. Mujtaba
+Evaluation of solar energy powered seawater desalination processes: a review
+Energies, 15 (18) (2022), p. 6562
+CrossrefView in ScopusGoogle Scholar
+[8]
+P.S. Goh, Y.Y. Liang, A.F. Ismail
+Energy efficient seawater desalination: strategies and opportunities
+Energ. Technol., 9 (5) (2021), p. 2100008
+View in ScopusGoogle Scholar
+[9]
+A. Aende, J. Gardy, A. Hassanpour
+Seawater desalination: a review of forward osmosis technique, its challenges, and future prospects
+Processes, 8 (8) (2020), p. 901
+CrossrefView in ScopusGoogle Scholar
+[10]
+N.N.R. Ahmad, W.L. Ang, Y.H. Teow, A.W. Mohammad, N. Hilal
+Nanofiltration membrane processes for water recycling, reuse and product recovery within various industries: a review
+Journal of Water Process Engineering, 45 (2022), Article 102478
+View PDF
+View articleView in ScopusGoogle Scholar
+[11]
+X. Zhang, Y. Liu
+Reverse osmosis concentrate: an essential link for closing loop of municipal wastewater reclamation towards urban sustainability
+Chem. Eng. J., 421 (2021), Article 127773
+View PDF
+View articleView in ScopusGoogle Scholar
+[12]
+J. Yang, M. Monnot, L. Ercolei, P. Moulin
+Membrane-based processes used in municipal wastewater treatment for water reuse: state-of-the-art and performance analysis
+Membranes, 10 (6) (2020), p. 131
+CrossrefGoogle Scholar
+[13]
+H. Kariman, A. Shafieian, M. Khiadani
+Small scale desalination technologies: a comprehensive review
+Desalination, 116985 (2023)
+Google Scholar
+[14]
+Y. Bai, F. Shan, Y.Y. Zhu, J.Y. Xu, Y.S. Wu, X.G. Luo, B.L. Zhang
+Long-term performance and economic evaluation of full-scale MF and RO process–a case study of the changi NEWater project phase 2 in Singapore
+Water Cycle, 1 (2020), pp. 128-135
+View PDF
+View articleGoogle Scholar
+[15]
+J. Gu, H. Liu, S. Wang, M. Zhang, Y. Liu
+An innovative anaerobic MBR-reverse osmosis-ion exchange process for energy-efficient reclamation of municipal wastewater to NEWater-like product water
+J. Clean. Prod., 230 (2019), pp. 1287-1293
+View PDF
+View articleView in ScopusGoogle Scholar
+[16]
+F. Abedi, D. Emadzadeh, M.A. Dubé, B. Kruczek
+Modifying cellulose nanocrystal dispersibility to address the permeability/selectivity trade-off of thin-film nanocomposite reverse osmosis membranes
+Desalination, 538 (2022), Article 115900
+View PDF
+View articleView in ScopusGoogle Scholar
+[17]
+S. Lin, M. Elimelech
+Kinetics and energetics trade-off in reverse osmosis desalination with different configurations
+Desalination, 401 (2017), pp. 42-52
+View PDF
+View articleView in ScopusGoogle Scholar
+[18]
+J. He, T.H. Chen, K. Yang, L. Luo, C.H. Hou, J. Ma
+Stop-flow discharge operation aggravates spacer scaling in CDI treating brackish hard water
+Desalination, 552 (2023), Article 116422
+View PDF
+View articleView in ScopusGoogle Scholar
+[19]
+T.H. Chen, D.V. Cuong, Y. Jang, N.Z. Khu, E. Chung, C.H. Hou
+Cation selectivity of activated carbon and nickel hexacyanoferrate electrode materials in capacitive deionization: a comparison study
+Chemosphere, 307 (2022), Article 135613
+View PDF
+View articleView in ScopusGoogle Scholar
+[20]
+N. Köller, L. Mankertz, S. Finger, C.J. Linnartz, M. Wessling
+Towards pilot scale flow-electrode capacitive deionization
+Desalination, 572 (2024), Article 117096
+View PDF
+View articleView in ScopusGoogle Scholar
+[21]
+W.S. Yu, H.C. Liu, H.C. Lin, M. Lee, C.H. Hou
+Synergizing MBR and MCDI systems as a sustainable solution for decentralized wastewater reclamation and reuse
+Sustainable Environment Research, 34 (1) (2024), p. 12
+Google Scholar
+[22]
+Y. Zhu, C. Miller, B. Lian, Y. Wang, J. Fletcher, H. Zhou, T.D. Waite
+Brackish groundwater desalination by constant current membrane capacitive deionization (MCDI): results of a long-term field trial in Central Australia
+Water Res., 254 (2024), Article 121413
+View PDF
+View articleView in ScopusGoogle Scholar
+[23]
+T.H. Chen, K.H. Yeh, C.F. Lin, M. Lee, C.H. Hou
+Technological and economic perspectives of membrane capacitive deionization (MCDI) systems in high-tech industries: from tap water purification to wastewater reclamation for water sustainability
+Resour. Conserv. Recycl., 177 (2022), Article 106012
+View PDF
+View articleView in ScopusGoogle Scholar
+[24]
+Y.Y. Shen, S.H. Sun, S.W. Tsai, T.H. Chen, C.H. Hou
+Development of a membrane capacitive deionization stack for domestic wastewater reclamation: a pilot-scale feasibility study
+Desalination, 500 (2021), Article 114851
+View PDF
+View articleView in ScopusGoogle Scholar
+[25]
+E.E. Cañas Kurz, U. Hellriegel, A. Hdoufane, I. Benaceur, M. Anane, F. Jaiti, J. Hoinkis
+Comparison of pilot-scale capacitive deionization (MCDI) and low-pressure reverse osmosis (LPRO) for PV-powered brackish water desalination in Morocco for irrigation of Argan trees
+Membranes, 13 (7) (2023), p. 668
+CrossrefView in ScopusGoogle Scholar
+[26]
+L. Wang, S. Lin
+Theoretical framework for designing a desalination plant based on membrane capacitive deionization
+Water Res., 158 (2019), pp. 359-369
+View PDF
+View articleView in ScopusGoogle Scholar
+[27]
+P. Dorji, D.I. Kim, S. Hong, S. Phuntsho, H.K. Shon
+Pilot-scale membrane capacitive deionisation for effective bromide removal and high water recovery in seawater desalination
+Desalination, 479 (2020), Article 114309
+View PDF
+View articleView in ScopusGoogle Scholar
+[28]
+M. Qin, A. Deshmukh, R. Epsztein, S.K. Patel, O.M. Owoseni, W.S. Walker, M. Elimelech
+Comparison of energy consumption in desalination by capacitive deionization and reverse osmosis
+Desalination, 455 (2019), pp. 100-114
+View PDF
+View articleView in ScopusGoogle Scholar
+[29]
+I.M. Hsieh, A.K. Thakur, M. Malmali
+Comparative analysis of various pretreatments to mitigate fouling and scaling in membrane distillation
+Desalination, 509 (2021), Article 115046
+View PDF
+View articleView in ScopusGoogle Scholar
+[30]
+M.A.C.K. Hansima, M. Makehelwala, K.B.S.N. Jinadasa, Y. Wei, K.G.N. Nanayakkara, A.C. Herath, R. Weerasooriya
+Fouling of ion exchange membranes used in the electrodialysis reversal advanced water treatment: a review
+Chemosphere, 263 (2021), Article 127951
+View PDF
+View articleView in ScopusGoogle Scholar
+[31]
+N.A. Amin, H. Elcik, A. Alpatova, G. Gonzalez-Gil, B. Blankert, N. Farhat, N. Ghaffour
+Selected physical and chemical cleanings remove biofilm in seawater membrane distillation without causing pore wetting. Npj clean
+Water, 6 (1) (2023), p. 61
+View in ScopusGoogle Scholar
+[32]
+S. Dahiya, A. Singh, B.K. Mishra
+Capacitive deionized hybrid systems for wastewater treatment and desalination: a review on synergistic effects, mechanisms and challenges
+Chem. Eng. J., 417 (2021), Article 128129
+View PDF
+View articleView in ScopusGoogle Scholar
+[33]
+L.Y. Lee, H.Y. Ng, S.L. Ong, G. Tao, K. Kekre, B. Viswanath, H. Seah
+Integrated pretreatment with capacitive deionization for reverse osmosis reject recovery from water reclamation plant
+Water Res., 43 (18) (2009), pp. 4769-4777
+View PDF
+View articleView in ScopusGoogle Scholar
+[34]
+L. Wojnárovits, R. Homlok, K. Kovács, A. Tegze, E. Takács
+Wastewater characterization: chemical oxygen demand or total organic carbon content measurement?
+Molecules, 29 (2) (2024), p. 405
+CrossrefView in ScopusGoogle Scholar
+[35]
+D. Dubber, N.F. Gray
+Replacement of chemical oxygen demand (COD) with total organic carbon (TOC) for monitoring wastewater treatment performance to minimize disposal of toxic analytical waste
+J. Environ. Sci. Health A, 45 (12) (2010), pp. 1595-1600
+CrossrefView in ScopusGoogle Scholar
+[36]
+Z.Q. Liu, C. Huang, J.Y. Li, J. Yang, B. Qu, S.Q. Yang, X. Wu
+Activated carbon catalytic ozonation of reverse osmosis concentrate after coagulation pretreatment from coal gasification wastewater reclamation for zero liquid discharge
+J. Clean. Prod., 286 (2021), Article 124951
+View PDF
+View articleView in ScopusGoogle Scholar
+[37]
+S. Sun, K. Yang, Z. Zhang, P. Gu, H. Miao, X. Xu
+Novel iron-carbon micro-electrolysis-anoxic/oxic biofilter system for enhanced treatment of tetracycline wastewater: significant reduction of antibiotic-resistant and pathogenic bacteria
+J. Clean. Prod., 396 (2023), Article 136480
+View PDF
+View articleView in ScopusGoogle Scholar
+[38]
+J. Choi, W.S. Kim, H.K. Kim, S.C. Yang, J.H. Han, Y.C. Jeung, N.J. Jeong
+Fouling behavior of wavy-patterned pore-filling membranes in reverse electrodialysis under natural seawater and sewage effluents. Npj clean
+Water, 5 (1) (2022), p. 6
+Google Scholar
+[39]
+B. Vital, E.V. Torres, T. Sleutels, M.C. Gagliano, M. Saakes, H.V. Hamelers
+Fouling fractionation in reverse electrodialysis with natural feed waters demonstrates dual media rapid filtration as an effective pre-treatment for fresh water
+Desalination, 518 (2021), Article 115277
+View PDF
+View articleView in ScopusGoogle Scholar
+View Abstract
+Recommended articles
+Based on reading popularity
+Chapter
+Full text access
+Chapter 5 - Perfluoropolymers for gas separation membrane applications
+Yoshiyuki Okamoto, …, Tim Merkel
+Fascinating Fluoropolymers and Their Applications • 2020 • Pages 143-155
+View PDF
+Research article
+Antibacterial activity and modulatory effects of Bowdichia virgilioides ethanolic extract and its β-cyclodextrin inclusion complex against multidrug-resistant bacteria
+Eduardo dos Santos Silva, …, Irwin Rose Alencar de Menezes
+Journal of Drug Delivery Science and Technology • Volume 111 • 2025 • Article 107200
+Research article
+Feasibility study on use of cellular concrete for air convection embankment on permafrost foundations in Fairbanks, Alaska
+Hanli Wu, …, Xiong Zhang
+Transportation Geotechnics • Volume 22 • 2020 • Article 100317
+Research article
+β-Cyclodextrin functionalized polyurethane nano fibrous membranes for drug delivery
+Sagitha P, …, Sujith A
+Journal of Drug Delivery Science and Technology • Volume 65 • 2021 • Article 102759
+Research article
+Open access
+Efficacy of oral epigallocatechin-3-gallate solution administration during radiotherapy for non-small-cell lung cancer patients: A long-term observational study
+Xuena Niu, …, Ligang Xing
+Radiation Medicine and Protection • Volume 1, Issue 2 • 2020 • Pages 94-98
+View PDF
+Chapter
+Full text access
+3 - Using alternative and renewable liquid fuels to improve the environmental performance of internal combustion engines: key challenges and blending technologies
+James W.G. Turner, Felix C.P. Leach
+Alternative Fuels and Advanced Vehicle Technologies for Improved Environmental Performance • 2022 • Pages 57-92
+View PDF
+Cited by (16)
+Research article
+Modeling and prediction of desalination performance in a scaled-up membrane capacitive deionization system using machine learning and deep learning
+Liu H.-C., Hou C.-H.
+Water Research • Volume 298 • 2026 • Article 125839
+Show abstract
+Review article
+Emerging hierarchical hollow porous carbon: Preparation method, engineering strategy and performance insight
+Wu X., …, Tong G.
+Separation and Purification Technology • Volume 383 • 2026 • Article 136266
+Show abstract
+Review article
+Open access
+Electrochemical phosphorus recovery from waste
+Xu Z., …, Ni B.-J.
+Journal of Environmental Chemical Engineering • Volume 13 • 2025 • Article 117695
+Show abstract
+Review article
+Recent advances in electrode materials for typical halogen removal via capacitive deionization
+Hu S., …, Feng W.
+Desalination • Volume 601 • 2025 • Article 118608
+Show abstract
+Research article
+Open access
+Membrane Processes for Remediating Water from Sugar Production By-Product Stream
+El-Gohary-Ahmed A.E.G., …, Harasek M.
+Membranes • Volume 15 • 2025 • Article 207
+Show abstract
+Socioeconomic insights of PPP-based MSWM projects in India: evaluating community, economic, and social development outcomes
+Mishra D., Das R.
+Journal of Material Cycles and Waste Management • Volume 27 • 2025
+View all citing articles on Scopus
+© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

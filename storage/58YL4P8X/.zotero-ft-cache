@@ -1,0 +1,254 @@
+Skip to main content
+Skip to article
+Brought to you by:University of Colorado Boulder Libraries
+View PDF
+Download full issue
+World Development
+Volume 149, January 2022, 105693
+SDG interlinkage networks: Analysis, robustness, sensitivities, and hierarchies
+Author links open overlay panel
+J.H.P. Dawes
+Show more
+Share
+Cite
+https://doi-org.colorado.idm.oclc.org/10.1016/j.worlddev.2021.105693
+Get rights and content
+Under a Creative Commons license
+Open access
+Highlights
+•
+SDG interlinkages arise from policy actions and their consequences and can be represented by interaction networks.
+•
+This paper develops mathematical techniques to analyse system-level consequences of these interaction networks.
+•
+Key results include estimating node centrality and the sensitivity of system-level results to changes in the strength of individual interlinkages in the network.
+•
+The paper compares and contrasts three interlinkage networks between the SDGs derived from literature surveys and expert opinion: SDGs 1–3 are usually most reinforced, while SDGs 12–15 are most at risk.
+•
+In conclusion, these results may help to guide policy design for interventions that can strengthen outcomes across Agenda 2030.
+Abstract
+A growing literature considers the Sustainable Development Goals (SDGs) as a interlinked network, connected by co-benefits and trade-offs between pairs of SDGs. Such network descriptions naturally prompt important questions concerning the emergence and identification of system-level features.
+This paper develops mathematical techniques to address, quantitatively, the extent to which these interlinkage networks point to the likelihood of greater progress on some SDGs than on others, the sensitivity of the networks to the addition of new links (or the strengthening or weakening of existing ones), and the existence of implicit hierarchies within Agenda 2030.
+The methods we discuss are applicable to any directed network but we interpret them here in the context of three interlinkage matrices produced from expert analysis and literature reviews. We use these as three specific examples to discuss the quantitative results that reveal similarities and differences between these networks, as well as to comment on the mathematical techniques themselves. In broad terms, our findings confirm those from other sources, such as the Sustainable Development Solutions Network: for example, that globally SDGs 12–15 are most at risk.
+Perhaps of greater value is that analysis of the interlinkage networks is able to illuminate the underlying structural issues that lead to these systemic conclusions, such as the extent to which, at the whole-system level, the structure of SDG interlinkages favours some SDGs over others. The sensitivity analyses also suggest ways to quantify possible improvements to an SDG interlinkage network, since the sensitivity analyses are able to identify the modifications of the network that would best improve outcomes across the whole of Agenda 2030. This therefore indicates possibilities for informing policy-making, since the interlinkage networks themselves are implicitly descriptions of the overlaps, co-benefits and trade-offs that are anticipated to be likely to arise from a set of existing or proposed future policy actions.
+Previous
+Next
+Keywords
+Sustainable Development GoalsNetwork scienceMathematical modellingTrade-offsCo-benefitsSynergies
+Loading...
+References
+Allen et al., 2018
+C. Allen, G. Metternicht, T. Wiedmann
+Initial progress in implementing the Sustainable Development Goals (SDGs): a review of evidence from countries
+Sustainability Science, 13 (2018), pp. 1453-1467
+CrossrefView in ScopusGoogle Scholar
+Bali and Ranganathan, 2021
+R. Bali Swain, S. Ranganathan
+Modeling interlinkages between sustainable development goals using network analysis
+World Development, 138 (2021), Article 105136
+View PDF
+View articleView in ScopusGoogle Scholar
+Blanc et al., 2017
+Le Blanc, D., Freire, D.C., & Vierros, M. (2017). Mapping the linkages between oceans and other Sustainable Development Goals: A preliminary exploration. UN Department of Economic & Social Affairs, DESA Working Paper No. 149.
+Google Scholar
+Bonacich, 1972
+P. Bonacich
+Factoring and weighting approaches to clique identification
+Journal Mathematical Sociology, 2 (1972), pp. 113-120
+View in ScopusGoogle Scholar
+Bonacich, 2007
+P. Bonacich
+Some unique properties of eigenvector centrality
+Social Networks, 29 (2007), pp. 555-564
+View PDF
+View articleView in ScopusGoogle Scholar
+Brandes and Köpf, 2002
+Brandes, U. & Köpf, B. (2002). Fast and simple horizontal coordinate assignment. Lecture Notes in Computer Science, Volume 2265, 31–44. Springer.
+Google Scholar
+Breuer et al., 2019
+A. Breuer, H. Janetschek, D. Malerba
+Translating sustainable development goal (SDG) interdependencies into policy advice
+Sustainability, 11 (2019), p. 2092
+CrossrefView in ScopusGoogle Scholar
+Dawes, 2020
+J.H.P. Dawes
+Are the Sustainable Development Goals self-consistent and mutually achievable?
+Sustainable Development, 28 (2020), pp. 101-117
+CrossrefView in ScopusGoogle Scholar
+de Ruiter et al., 2005
+de Ruiter, P.C., Wolters, V., Moore, J.C., & Winemiller, K.O. (2005). Food web ecology: playing Jenga and beyond. Science 309, 68–71 (2005)
+Google Scholar
+Greenbaum et al., 2020
+A. Greenbaum, R.-C. Li, M.L. Overton
+First-order perturbation theory for eigenvalues and eigenvectors
+SIAM Review, 62 (2) (2020), pp. 463-482
+CrossrefView in ScopusGoogle Scholar
+Hoffmann, 2015
+Hoffmann, H. (2015). violin.m - Simple violin plot using MATLAB default kernel density estimation. INRES (University of Bonn), Katzenburgweg 5, 53115 Germany. Email: hhoffmann@uni-bonn.de. Retrieved from https://uk.mathworks.com/matlabcentral/fileexchange/45134-violin-plot.
+Google Scholar
+Independent Group of Scientists appointed by the Secretary-General, 2019
+Independent Group of Scientists appointed by the Secretary-General. (2019). Global Sustainable Development Report 2019: The Future is Now - Science for Achieving Sustainable Development. United Nations, New York.
+Google Scholar
+International Council for Science, ICSU), 2017
+International Council for Science (ICSU). (2017). A Guide to SDG Interactions: from Science to Implementation. Eds: D.J. Griggs, M. Nilsson, A. Stevance, D. McCollum. International Council for Science, Paris.
+Google Scholar
+International Council for Science, ICSU), 2015
+International Council for Science (ICSU), International Social Sciences Council (ISSC). (2015) Review of the Sustainable Development Goals: The Science Perspective. Paris: International Council for Science (ICSU). ISBN: 978-0-930357-97-9.
+Google Scholar
+Jacobi, 1846
+C.J.G. Jacobi
+Über ein leichtes Verfahren die in der Theorie der Säcularstörungen vorkommenden Gleichungen numerisch aufzulösen
+J. Reine und Angewandte Mathematik, 30 (1846), pp. 51-95
+View in ScopusGoogle Scholar
+Le Blanc, 2015
+D. Le Blanc
+Towards integration at last? The sustainable development goals as a network of targets
+Sustainable Development, 23 (2015), pp. 176-187
+CrossrefView in ScopusGoogle Scholar
+Lusseau and Mancini, 2019
+D. Lusseau, F. Mancini
+Income-based variation in sustainable development goal interaction networks
+Nature Sustainability, 2 (2019), pp. 242-247
+CrossrefView in ScopusGoogle Scholar
+MacKay et al., 2020
+R.S. MacKay, S. Johnson, B. Sansom
+How directed is a directed network?
+Royal Society Open Science, 7 (2020), Article 201138
+View in ScopusGoogle Scholar
+Nelson, 1976
+R.B. Nelson
+Simplified calculation of eigenvector derivatives
+AIAA Journal, 14 (9) (1976), pp. 1201-1205
+CrossrefView in ScopusGoogle Scholar
+Neubert and Caswell, 1997
+M.G. Neubert, H. Caswell
+Alternatives to resilience for measuring the responses of ecological systems to perturbations
+Ecology, 78 (3) (1997), pp. 653-665
+View in ScopusGoogle Scholar
+Newman, 2018
+M. Newman
+Networks: an introduction
+(Second edition), Oxford University Press (2018)
+Google Scholar
+Nilsson et al., 2016
+M. Nilsson, D. Griggs, M. Visbeck
+Policy: map the interactions between sustainable development goals
+Nature, 534 (2016), pp. 320-322
+CrossrefView in ScopusGoogle Scholar
+Pedercini et al., 2019
+M. Pedercini, S. Arquitt, D. Collste, H. Herren
+Harvesting synergy from sustainable development goal interactions
+PNAS, 116 (2019), pp. 23021-23028
+CrossrefGoogle Scholar
+Pham-Truffert et al., 2019
+Pham-Truffert, M., Rueff, H., & Messerli, P. (2019). Knowledge for Sustainable Development: Interactive repository of SDG interactions. CDEdatablog, Bern, Switzerland: CDE. Retrieved from https://datablog.cde.unibe.ch/index.php/2019/08/29/sdg-interactions/. Accessed on 7 September 2020.
+Google Scholar
+Pham-Truffert et al., 2020
+M. Pham-Truffert, F. Metz, M. Fischer, H. Rueff, P. Messerli
+Interactions among Sustainable Development Goals: Knowledge for identifying multipliers and virtuous cycles
+Sustainable Development, 28 (2020), pp. 1236-1250
+CrossrefView in ScopusGoogle Scholar
+Pradhan et al., 2017
+P. Pradhan, L. Costa, D. Rybski, W. Lucht, J.P. Kropp
+A systematic study of Sustainable Development Goal (SDG) interactions
+Earth’s Future, 5 (2017), pp. 1169-1179
+View in ScopusGoogle Scholar
+Pringle and Hutchinson, 2020
+R.M. Pringle, M.C. Hutchinson
+Resolving food-web structure
+Annual Review of Ecology Evolution and Systematics, 51 (2020), pp. 55-80
+CrossrefView in ScopusGoogle Scholar
+Ranganathan and Bali Swain, 2018
+S. Ranganathan, R. Bali Swain
+Sustainable development and global emission targets: a dynamical systems approach to aid evidence-based policy making
+Sustainable Development, 26 (2018), pp. 812-821
+CrossrefView in ScopusGoogle Scholar
+Ranganathan et al., 2017
+S. Ranganathan, S.C. Nicolis, R. Bali Swain, D.J.T. Sumpter
+Setting development goals using stochastic dynamical system models
+PLoS ONE, 12 (2) (2017), Article e0171560
+CrossrefView in ScopusGoogle Scholar
+Raworth, 2017
+K. Raworth
+Doughnut economics: seven ways to think like a 21st–century economist
+Random House (2017)
+Google Scholar
+Sachs et al., 2019
+Sachs, J., Schmidt–Traub, G., Kroll, C., Lafortune G., & Fuller, G. (2019). Sustainable Development Report 2019: G20 and Large Countries edition. New York: Bertelsmann Stiftung and Sustainable Development Solutions Network (SDSN).
+Google Scholar
+Sachs et al., 2020
+J. Sachs, G. Schmidt-Traub, C. Kroll, G. Lafortune, G. Fuller, F. Woelm
+The Sustainable Development Goals and COVID-19. Sustainable Development Report 2020
+Cambridge University Press, Cambridge (2020)
+Google Scholar
+Schaeffer and Willardsen, 2019
+Schaeffer, P.V., & Willardsen, K. (2019). A Note on the Tinbergen Rule. Working paper. Available from https://www.petervschaeffer.com/publications.html.
+Google Scholar
+Singh et al., 2018
+G.G. Singh, A.M. Cisneros-Montemayor, W. Swartz, W. Cheung, J.A. Guy, T. Kenny, C.J. McOwen, R. Asch, J.L. Geffert, C.C.C. Wabnitz, R. Sumaila, Q. Hanich, Y. Ota
+A rapid assessment of co-benefits and trade-offs among Sustainable Development Goals
+Marine Policy, 93 (2018), pp. 223-231
+View PDF
+View articleView in ScopusGoogle Scholar
+Spaiser et al., 2016
+V. Spaiser, S. Ranganathan, R. Bali Swain, D.J.T. Sumpter
+The sustainable development oxymoron: quantifying and modelling the incompatibility of sustainable development goals
+International Journal of Sustainable Development & World Ecology, 24 (2016), pp. 457-470
+Google Scholar
+Tinbergen, 1952
+J. Tinbergen
+On the Theory of Economic Policy
+North-Holland, New York (1952)
+Google Scholar
+United Nations, 2015
+United Nations
+Transforming our world: The 2030 Agenda for Sustainable Development A/RES/70/1
+United Nations General Assembly, New York (2015)
+Google Scholar
+van Noordwijk et al., 2018
+M. van Noordwijk, L.A. Duguma, S. Dewi, B. Leimona, D.C. Catacutan, B. Lusiana, I. Öborn, K. Hairiah, P.A. Minang
+SDG synergy between agriculture and forestry in the food, energy, water and income nexus: reinventing agroforestry?
+Current Opinion in Environmental Sustainability, 34 (2018), pp. 33-42
+View PDF
+View articleView in ScopusGoogle Scholar
+van Soest et al., 2019
+H.L. van Soest, D.P. van Vuuren, J. Hilaire, J.C. Minx, M.J.H.M. Harmsen, V. Krey, A. Popp, K. Riahi, G. Luderer
+Analysing interactions among Sustainable Development Goals with Integrated Assessment Models
+Global Transitions, 1 (2019), pp. 210-225
+View PDF
+View articleView in ScopusGoogle Scholar
+Weitz et al., 2018
+N. Weitz, H. Carlsen, M. Nilsson, K. Skånberg
+Towards systemic and contextual priority setting for implementing the 2030 Agenda
+Sustainability Science, 13 (2018), pp. 531-548
+CrossrefView in ScopusGoogle Scholar
+Cited by (82)
+Can network analysis ascertain SDGs interlinkages towards evidence-based policy planning? A systematic critical assessment
+2024, Environmental Impact Assessment Review
+Citation Excerpt :
+
+Hence, SDGs interlinkages have been examined at a global, regional, national, and subnational scales (Fig. 5). At a global scale, interlinkages from worldwide data (McGowan et al., 2019) or a specific group of countries with a few studies not reporting the geographic location with interlinkages conducted based on data from the literature (Ariesandy et al., 2020; Dawes, 2022; Le Blanc, 2015; Lim et al., 2018; Pham-Truffert et al., 2020; Requejo-Castro et al., 2020; Smith et al., 2021; Song and Jang, 2023). At the regional level, data were aggregated for various regions such as members of the Organization for Economic Co-operation and Development (OECD), central Europe, Sub Saharan Africa, South Asia, Middle East and North Africa (MENA), Latin America, East Asia and Arctic countries.
+
+Show abstract
+Bleak prospects and targeted actions for achieving the Sustainable Development Goals
+2023, Science Bulletin
+Show abstract
+Network-based risk assessment of country-level sustainable development goals
+2023, Environmental Impact Assessment Review
+Show abstract
+Promoting gender equality across the sustainable development goals
+2023, Environment, Development and Sustainability
+Spatio-temporal changes in the causal interactions among Sustainable Development Goals in China
+2023, Humanities and Social Sciences Communications
+The Trends and Content of Research Related to the Sustainable Development Goals: A Systemic Review
+2022, Applied Sciences (Switzerland)
+View all citing articles on Scopus
+© 2021 The Author(s). Published by Elsevier Ltd.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

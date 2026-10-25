@@ -1,0 +1,267 @@
+SPECIAL ISSUE ARTICLE
+The data science discovery program: A model for data science
+consulting in higher education
+C. Taylor Brown1 | Megan Mehta2 | Mahathi Ryali 2 | Xiaoran Dong 2 |
+Iliya Shadfar 2 | Jacqueline Dominquez Davalos 2 | Aaron Culich 3 | Anthony Suen 2
+1Data Science Discovery Program, Social Science Data Laboratory, School of Social Welfare, University of California, Berkeley, Berkeley, California, USA
+2Data Science Discovery Program, University of California, Berkeley, Berkeley, California, USA
+3Social Science Data Laboratory, University of California, Berkeley, Berkeley, California, USA
+Correspondence
+C. Taylor Brown, Data Science Discovery Program, Social Science Data Laboratory, School of Social Welfare, University of California, Berkeley, Berkeley, CA, USA. Email: ct.brown@berkeley.edu
+As one of the largest data science research incubator initiatives in the country, the
+University of California, Berkeley's Data Science Discovery Program serves as a case
+study for a scalable and sustainable model of data science consulting in higher educa
+tion. This case contributes to the broader literature on data science consulting in
+higher education by analysing the programme's development, institutional influences;
+staffing and structural model; and defining features, which may prove instructive to
+similar programmes at other institutions. The programme is characterised by a unique
+structure of undergraduate consultations led by graduate student mentorship and
+governance; a streamlined, multidepartmental model that facilitates scalability and
+sustainability; and diverse modes for undergraduate consulting—including one
+on-one ad-hoc data science consultations, extended data science project develop
+ment and management, peer mentorship and data science workshop instruction. This
+case demonstrates that universities may be able to initiate a low-stakes, small-scale
+data science consulting initiative and then progressively scale up the project in collab
+oration with multiple departments and organisations across campus.
+KEYWORDS
+consulting, data science, data science studies, higher education, statistical consulting
+1 | INTRODUCTION
+The case of the University of California, Berkeley's Data Science Discovery Program (DS Discovery) offers an important contribution to our under
+standing and practice of data science consulting. Primarily staffed by undergraduate students, DS Discovery offers twofold peer consulting ser
+vices to the broader UC Berkeley undergraduate community and extended consulting engagement to projects within DS Discovery. DS Discovery
+is characterised by a unique structure of undergraduate consultations led by graduate student mentorship and governance; a streamlined, multi
+departmental model that facilitates scalability and sustainability; and diverse modes for undergraduate consulting—including one-on-one ad-hoc
+data science consultations, extended data science project development and management, peer mentorship and data science workshop instruction.
+Significantly, this case demonstrates that universities may be able to initiate a low-stakes, small-scale data science consulting initiative and then
+progressively scale up the project in collaboration with multiple departments and organisations across campus. To the authors' knowledge, these
+characteristics have yet to be discussed in the literature and offer valuable contributions to our understanding of data science consulting in higher
+education broadly, as well as multidepartmental collaborations and the professional development of undergraduate and graduate students.
+DS Discovery Consulting (originally called Data Peer Consulting) started as a campus-wide data science consultation but is now part of the
+DS Discovery Program, one of the largest data science research incubator initiatives in the country. The DS Discovery Consulting simultaneously
+offers data science consulting services to undergraduate students across campus while also providing extended consulting services to each of the
+roughly 400 undergraduate students involved with an average of 100 DS Discovery projects each semester.
+Received: 16 February 2024 Accepted: 15 March 2024
+DOI: 10.1002/sta4.677
+Stat. 2024;13:e677. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 6 https://doi.org/10.1002/sta4.677
+
+
+The wider DS Discovery Program connects undergraduate and graduate students at UC Berkeley with researchers in academia, government,
+nonprofit and industry to offer students high public-impact data science research and learning opportunities. These projects range from a single
+semester to multiyear engagements, and its project partners have included the United Nations, NASA, the American Heart Association, the Bay
+Area Rapid Transit, Microsoft, IBM and more in 1000 individual projects since 2015. In addition to providing a unique learning experience for stu
+dents, DS Discovery is a professional development opportunity with potential employers. These aspects of DS Discovery draw parallels with
+student-led experiential learning programmes in other disciplines (Kaseda et al., 2022; Pomann et al., 2022).
+We see the wider contributions from the case of DS Discovery in terms of its structural scalability and sustainability. As an organisation that
+has organically developed through partnerships between multiple university departments, its structure and practice are deeply collaborative
+across campus, contributing to a wider umbrella of data science consultation and instruction. Moreover, growing out of a philosophy of peer men
+torship, DS Discovery is largely staffed and organised by highly engaged undergraduate students mentored by graduate students, further embody
+ing a culture of peer mentorship and learning. As an alternative to teaching through simulated experience (Lasser et al., 2021; Shilane et al., 2022),
+the programme teaches through direct experience (Barman et al., 2022). In turn, the programme prioritises undergraduate and graduate student
+staff's professional development alongside its consulting services. In effect, a sustainable cycle of peer mentorship has been developed where
+more experienced Discovery Consultants iteratively train a new pool of consultants to take their place when they graduate. Graduate students
+facilitate this process through the providing governance of the consulting programme while also mentoring the undergraduate Discovery
+Consultants.
+This case is in conversation with previous reflections on how to foster diversity and inclusion in data science (Geiger et al., 2019) and how to
+do data-intensive research in teams (Geiger et al., 2018; Sholler et al., 2019). DS Discovery has rapidly scaled since its inception in 2015 and con
+stantly reflects on how to promote more inclusive data science both internally and externally. We view its embedded structures of scalability, sus
+tainability and equity as pivotal to its successful growth. Like statistical consulting, DS Discovery's data science consultants face a wide array of
+research questions from students with varying degrees of experience in data science (Kirk, 1991). Discovery Consultants have a wide range
+of data science skill sets, including applied math, geospatial information systems, business economics and cognitive science, equipping the team
+with the relevant context to help develop interdisciplinary, socially responsible and effective data science solutions. Moreover, the diversity of
+Discovery Consultants extends past their technical expertise, further facilitating mentorship among students with marginalised backgrounds.
+We turn now to a brief case description of DS Discovery's development and structure and then close with a discussion of the wider implica
+tions of this case.
+2 | DEVELOPMENT AND IMPACTS OF INSTITUTIONAL CULTURE
+DS Discovery was founded in 2015 as part of the Berkeley Institute for Data Science, an interdisciplinary research hub at the University of
+California, Berkeley, that supports data science research, training and open-source software development. In 2018, DS Discovery received
+funding from the Schmidt Futures, a philanthropic initiative, which allowed the programme to continue to scale its programming and hire graduate
+fellows.
+In 2017, the Division of Data Science and the UC Berkeley Library (the Library) established a joint ‘Data Peers’ programme within the newly
+remodelled Moffitt Library. Data Peers offered in-person consultations for campus-wide data science consulting needs staffed by upper-level
+undergraduate students who were initially all volunteers. The Data Peers programme then developed in partnerships with other departments on
+campus such as the Social Science Data Laboratory (D-Lab) and Research Information Technology (Research IT). These essential partnerships have
+further developed since 2017 to a point where current Discovery Consultants are often co-located between organisations. For example, a Discov
+ery Consultant might co-consult on data science projects and co-instruct data science workshops with staff at the D-Lab and hold officer hours
+with Research IT. In 2019, DS Discovery Consulting received funding from the campus Student Technology Fund to scale its staffing of under
+graduate consultants.
+With the onset of the COVID-19 pandemic in 2020, the programme pivoted to entirely virtual consultations and instruction. It leveraged its
+existing partnership with the D-Lab to utilise D-Lab's virtual ‘front desk’ hosted on Zoom. D-Lab's front desk is structured in a way where under
+graduate students staff the ‘lobby’ of the front desk on Zoom and then direct consultees to breakout rooms to meet with consultants. D-Lab also
+manages a large staff of graduate student consultants and full-time staff to maintain the ‘front desk’.
+DS Discovery also launched its Data Science Discovery Symposium during this time, which enables students and projects to prepare poster
+presentations of their work. The Symposium serves as an opportunity for students to showcase their learning and accomplishments while net
+working with potential employers, and Discovery Consultants are often asked to consult on the development of these posters and presentations.
+In this period, the DS Discovery Program and D-Lab also launched its Graduate Discovery Fellows programme. This programme funds
+Berkeley graduate students to serve as mentors, consultants, advisors and instructors for DS Discovery. These Graduate Discovery Fellows pro
+vide mentorship to the team of undergraduate Discovery Consultants, offer consulting services and advise on programme strategy.
+2 of 6 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.677 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+The merger with the wider DS Discovery Program, collaborations with partner organisations, changes in student support needs, budgetary
+demands and the impact of COVID-19 all contributed to the unique structure of DS Discovery Consulting which combines undergraduate student
+consultants with graduate student mentors.
+In 2022, the programme began its next scaling period by formally integrating Data Peers Consulting with the Data Science Discovery
+Program, which has been operating separately but with some shared staff. Through this integration, DS Discovery's projects gained formal,
+extended technical support from Discovery Consultants. While Discovery Consultants still offer data sciences consultations for any undergradu
+ate, graduate and researcher on Berkeley's campus, they also now offer extended, embedded support to DS Discovery's projects, helping both
+the students and the research project manager.
+The DS Discovery's Consulting Services also embody the organic, collaborative culture rooted in the programme's development. As a service,
+DS Discovery's consulting aims to develop data science capabilities among undergraduates by solving technical issues while promoting student
+learning and skills development.
+3 | STAFFING AND STRUCTURAL MODEL
+The DS Discovery Program is organised between three teams—consulting, outreach and analytics—all staffed by undergraduate students, gradu
+ate students and full-time staff. The consulting team has a unique staffing model among these three teams where a team of roughly 10 undergrad
+uate students serve as Discovery Consultants and two graduate students serve as Graduate Discovery Fellows. While the two full-time
+professional staff are still involved with the consulting team, most of the administration on the consulting side of the programme is handled by
+the undergraduate ‘Team Leads’, with the Graduate Discovery Fellows providing mentorship and oversight. Figure 1 illustrates this model.
+One of the most innovative aspects of DS Discovery is its unique involvement of undergraduate students as Discovery Consultants. While Dis
+covery Consultants leverage their technical knowledge and data science domain emphasis to assist with various data science projects, they also learn
+from the exposure to those diverse projects. Unlike established professionals and graduate students, undergraduate Discovery Consultants may be in
+the process of developing a more refined outline of their future career goals and long-term professional aspirations. As such, this model helps under
+graduate staff expand their toolbelt by learning and applying technical skills within and beyond their domain emphasis, thus becoming better
+equipped to pursue compelling career opportunities. DS Discovery does offer not only external assistance to DS Discovery projects and the broader
+UC Berkeley undergraduate community but also internal guidance for consultants. One outcome of this model is that the programme has developed
+a unique sustainability by cultivating a particularly passionate team of consultants who personally benefit from their work.
+Growing out of the Data Peers programme, the DS Discovery Consultant teams are intentionally a student-led effort. Until recently, the under
+graduate Discovery Consultants self-organised their consulting efforts, where more experienced consultants were appointed as ‘Team Leads’ who
+would help manage newer consultants, lead onboarding and orientation and develop and deliver instructional material. As the programme has scaled,
+some of the Graduate Discovery Fellows have provided more strategic guidance on programme planning outside the advanced consulting work.
+However, there remains a strong culture of undergraduate initiative and self-organisation. Discovery Consultants self-delegate to complete the tasks
+with advising from the graduate fellows. When each of the roughly 100 DS Discovery projects needs to be assigned each semester, the Discovery
+Consultants organise among themselves to select their projects. Additionally, instead of assigning a particular data science workshop to a Discovery
+Consultant, they develop instructional materials themselves based on their interests, strengths and peer demand.
+The consulting team's organic, student-led organisational structure typically begins with an assessment of new consultants' current data science
+competencies through the hiring and onboarding process. Discovery Consultants are selected for their advanced skill sets, on-the-job training and
+mentorship experience. From there, every Discovery Consultant develops skills related to project management, problem-solving, customer service,
+F I G U R E 1 DS Discovery organisational structure.
+BROWN ET AL. 3 of 6
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.677 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+collaboration, technical expertise and instruction through an instructional onboarding process and close peer mentorship with more experienced Dis
+covery Consultants and Graduate Discovery Fellows. These targeted strategies and on-the-job learning stemming from navigating unforeseen techni
+cal challenges through the consultation process constitute a dynamic, active learning environment. As Discovery Consultants gain experience, they
+gradually develop specialty areas not often taught in their existing coursework. These areas include project management, workshop development
+and cloud computing. These specialty areas are chosen in combination with Discovery Consultants' interests, professional development and team
+needs. Each segment is carefully curated to address distinct aspects of data science consulting, allowing Discovery Consultants to deepen their exper
+tise in targeted domains. After gaining experience in their specialised interests, Discovery Consultants are nominated as ‘Team Leads’ who then lead
+consultations in their concentration. When new Discovery Consultants join the team, they work closely with Team Leads to develop their expertise
+in the specific concentration, positioning them to eventually become Team Leads themselves. This self-sustaining leadership model efficiently trains
+and educates new staff, allows experienced Discovery Consultants to practice onboarding and offboarding teammates and guarantees seamless tran
+sitions by positioning new Consultants to fill in Team Lead roles in the future.
+The workshop development Team Lead collaborates closely with the D-Lab and the Library to organise and conduct workshops on various
+data science topics. These workshops cover a spectrum of subjects, including data analysis with Python, text analysis and structured query lan
+guage (SQL). By engaging with college students in the Bay Area, both in-person and through virtual sessions on platforms like Zoom, Discovery
+Consultants take on leadership roles, guiding participants through the intricacies of these subjects. This not only enhances Discovery Consultants'
+teaching and communication skills but also contributes to the data science initiative of making data science education accessible to all by sharing
+valuable knowledge with the broader community.
+The cloud computing Team Lead works closely with Research IT to support students involved with group projects that leverage cloud computing
+resources such as Azure and the Savio High-Performance Cloud Computing service. Through this collaboration, Discovery Consultants not only gain
+hands-on experience with cutting-edge technologies but also actively contribute to the successful implementation of data science projects.
+Lastly, the project management Team Lead typically takes on projects with more intense management needs, which often entails managing a
+project directly. Team Leads in this area receive additional mentorship from the Graduate Discovery Fellows related to the management of teams,
+project partner relations and project planning and execution.
+4 | IMPLICATIONS FOR DATA SCIENCE CONSULTING
+UC Berkeley's Data Science Discovery Program's development and structure reveal many implications for the broader data science
+consulting community, its unique structure of undergraduate consultations led by graduate student mentorship and oversight, streamlined, multi
+departmental model that has facilitated scalability and sustainability and diversity of modes of undergraduate consulting—including one-on-one
+ad-hoc data science consultations, extended data science project development and management, peer mentorship and data science workshop
+instruction that are the most salient.
+4.1 | Undergraduate and graduate student-led
+DS Discovery's model of peer mentoring is a unique contribution to data science consulting. As an alternative to classroom-based experiential
+learning or tutoring, the programme offers hands-on, client-facing data science consulting experience for both student researchers and consul
+tants, all of whom are at the undergraduate level. Rather than relying solely on experienced professionals and graduate students, this model of
+peer mentoring fosters a culture where undergraduate students learn together, reducing some of the barriers of the client-expert relationship.
+When an undergraduate Discovery Consultant's abilities are exhausted, they turn to the Graduate Discovery Fellows for advice and potentially
+hand off the consultations with the research partner to them. In addition to assisting with technical questions, these Graduate Discovery Fellows
+also make strategic decisions on the programme. This model aims at a more sustainable and equitable approach to data science consulting.
+This is further seen in its extension through DS Discovery's internal staffing model, which integrates this collaborative, organic culture. Under
+graduate consultants and graduate administrators are progressively developed toward greater expertise and responsibility through colearning.
+They then go on to train the next generation of staff to take their place as they graduate. In turn, this model has become sustainable in the sense
+that it organically reproduces.
+4.2 | Collaborative, multidepartmental model
+The programme has iteratively developed since the mid-2010s in collaboration with UC Berkeley's Library, Research IT, D-Lab, the Berkeley Insti
+tute for Data Science and the College of Computing, Data Science and Society. The highly collaborative origin deeply influences the culture and
+4 of 6 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.677 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+structure of the programme today, evidenced by its continued collaborative relationships and cross-service with each of these partner entities.
+The programme's Discovery Consultants and Graduate Discovery Fellows now offer consulting and instructional services across these other
+departments, creating an umbrella of data science expertise across campus.
+This case demonstrates that universities may be able to initiate a low-stakes, small-scale data science consulting initiative and then progres
+sively scale up the project in collaboration with multiple departments and organisations across campus. This cross-campus collaboration may
+deepen the organisation's legitimacy, facilitate a sustainable staffing and funding model and support larger university-wide goals.
+4.3 | Diversity of modes of consultation
+Finally, DS Discovery Consulting has a unique model of a diversity of modes of consultation. Undergraduate Discovery Consultants offer as-need
+data science consulting services to UC Berkeley's entire undergraduate community and extended services to an average of 100 data science pro
+jects involving over 400 students. The range of consulting services offered through these different mediums includes technical support with
+programming languages, methods of data management and analysis, data visualisation, cloud computing and project management that extend to
+all phases of the data science process. Moreover, Discovery Consultants develop and lead instructional workshops on various topics in data sci
+ence such as programming languages and approaches to machine learning.
+This model asks a lot of its student staff. To compensate, staff are supported through a culture and structure of peer mentorship and itera
+tively cultivated expertise and responsibility. Consulting questions and administrative issues are shared among the group to reduce potential bur
+dens on any one staff member, and staff slowly deepen their expertise as they become Team Leads and take on more leadership roles.
+Consequently, the diversity of modes of consultation deepens the staff's expertise and professional competencies.
+5 | CONCLUSION
+UC Berkeley's Data Science Discovery Program offers a potentially scalable, sustainable and equitable model of data science consulting in higher
+education by initiating a low-stakes, small-scale data science consulting initiative with undergraduate and graduate students, progressively scaling
+up the project in collaboration with multiple departments and organisations across campus and delivering a diversity of modes of consulting
+including one-on-one ad-hoc data science consultations, extended data science project development and management, peer mentorship and data
+science workshop instruction. This grassroots, cross-campus collaboration model may deepen the organisation's legitimacy, facilitate a sustainable
+staffing and funding model and better support larger university-wide goals. This case contributes to the broader literature on data science consult
+ing in higher education by analysing the programme's development, institutional influences; staffing and structural model; and defining features,
+which may also prove instructive to similar programmes at other institutions.
+CONFLICT OF INTEREST STATEMENT
+The authors have no known conflict of interest to disclose.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no datasets were generated or analysed during the current study.
+ORCID
+C. Taylor Brown https://orcid.org/0000-0002-5345-7608
+REFERENCES
+Barman, A., Chen, S., Chang, A., & Allen, G. (2022). Experiential learning in data science through a novel client-facing consulting course. In 2022 IEEE frontiers in education conference (FIE) (pp. 1–9). IEEE.
+Geiger, R. S., DeMasi, O., Culich, A., Zoglauer, A., Das, D., Hoces de la Guardia, F., Ottoboni, K., Fenner, M., Varoquaux, N., Barter, R., Barnes, R., Stoudt, S., Dorton, S., & van der Walt, S. (2019). Best practices for fostering diversity and inclusion in data science. In BIDS best practices in data science series. Berkeley Institute for Data Science. https://doi.org/10.31235/osf.io/8gsjz Geiger, R. S., Sholler, D., Culich, A., Martinez, C., Hoces de la Guardia, F., Lanusse, F., Ottoboni, K., Stuart, M., Vareth, M., Varoquaux, N., Stoudt, S., & van der Walt, S. (2018). Challenges of doing data-intensive research in teams, labs, and groups. In BIDS best practices in data science series. Berkeley Institute for Data Science. 10.31235/osf.io/a7b3m Kaseda, E. T., Graupman, E. E., Vincent, S., Faith, R., Howe, M. M., Dykins, M., Beussink, C. N., Khan, A., Grotkowski, K., & Miller, S. A. (2022). Statistical consulting in the healthcare professions: A model of student-led consulting services. Stat, 11(1), e498. https://doi.org/10.1002/sta4.498 Kirk, R. E. (1991). Statistical consulting in a university: Dealing with people and other challenges. The American Statistician, 45(1), 28–34. https://doi.org/ 10.1080/00031305.1991.10475761
+BROWN ET AL. 5 of 6
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.677 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Lasser, J., Manik, D., Silbersdorff, A., Säfken, B., & Kneib, T. (2021). Introductory data science across disciplines, using python, case studies, and industry consulting projects. Teaching Statistics, 43, S190–S200. https://doi.org/10.1111/test.12243 Pomann, G. M., Boulware, L. E., Chan, C., Grambow, S. C., Hanlon, A. L., Neely, M. L., Peskoe, S. B., Samsa, G., Troy, J. D., Yang, L. Z., & Thomas, S. M. (2022). Experiential learning methods for biostatistics students: A model for embedding student interns in academic health centers. Stat, 11(1), e506. https://doi.org/10.1002/sta4.506 Shilane, D., Lorenzetti, N. L., Di Crecchio, N., & Kreutter, D. K. (2022). The virtual consulting company: Teaching statistical consulting through simulated experience. Stat, 11(1), e480. https://doi.org/10.1002/sta4.480 Sholler, D., Das, F. H., de la Guardia, C., Hoffmann, F., Lanusse, N., Varoquaux, R., Garcia, R. S., Geiger, S., McDevitt, S., & Peterson, S. S. (2019). Best practices for managing turnover in data science groups, teams, and labs. In BIDS best practices in data science series. Berkeley Institute for Data Science. https://doi.org/10.31235/osf.io/wsxru
+AUTHOR BIOGRAPHIES
+C. Taylor Brown is a Ph.D. Student with the School of Social Welfare at the University of California Berkeley and serves as the Lead Graduate
+Fellow with UC Berkeley's Data Science Discovery Program as a Data Science Fellow with UC Berkeley's Social Sciences Data Lab. Taylor's
+research examines the effects of climate change on welfare systems and the emerging potential of “ecosocial safety nets” as a means of cli
+mate change adaptation for marginalized communities. He has worked in numerous social and environmental policy areas at all levels of gov
+ernment and holds a Master of Social Work from Washington University in St. Louis.
+Megan Mehta born and raised in the Bay Area, is an undergraduate student at the University of California, Berkeley, where she is pursuing
+simultaneous degrees in Data Science (Applied Math & Modeling Concentration) and Society & Environment (Global Environmental Politics
+Concentration). As a Program Manager for the Data Discovery program, she hopes to advance interdisciplinary data science education. She is
+passionate about utilizing machine learning, data science, and inference methods in climate change research, particularly in water infrastruc
+ture/hydrology, electric grid decarbonization, and natural resource management projects. She is an author of nine related publications. (Email:
+meganmehta@berkeley.edu).
+Mahathi Ryali was born in Simi Valley, CA in 2003. She is an undergraduate student at University of California, Berkeley, studying Computer
+Science and Data Science. (Email: mahathiryalI@berkeley.edu).
+Xiaoran Dong is an undergraduate student at University of California, Berkeley. She has a double major is Statistics and Operation Research
+and Management Science.
+Iliya Shadfar was born in Tehran, Iran, in 2001. He received his B.A in Data Science & Computer Science from University of California,
+Berkeley. His present research interests include the ethical implications of artificial intelligence (AI) products. (Email: iliya.shadfar@berkeley.
+edu).
+Jacqueline Dominquez Davalos is a native of the San Fernando Valley. She is a current junior at the University of California, Berkeley,
+majoring in Data Science with an emphasis in Business and Industrial Analytics and a minor in Public Policy. Jacqueline is passionate about
+driving informed decisions using data science and public policy for social impact.
+Aaron Culich is Deputy Director at the UC Berkeley Social Sciences Data Lab (D-Lab). His areas of expertise are Research Data and
+Computing, Cyberinfrastructure, and Research Software Engineering; and he has been providing data science and academic training and con
+sulting support since 1999 at the University of Massachusetts, Amherst; Harvard University; and UC Berkeley. His career includes building
+data science and informatics pipelines for science-based startups, and he is a skilled facilitator providing training in mindfulness-based emo
+tional intelligence (EQ).
+Anthony Suen currently leads the Data Science Discovery Program at UC Berkeley. Anthony was the first staff hired for Berkeley's Data
+Science Initiative, and he has played a pivotal role in shepherding its growth into the College of Computing, Data Science, and Society. He has
+spearheaded numerous new initiatives, such as Data Science Modules and Data Scholars Programs, and has been a driving force behind the
+National Workshop on Data Science Education and the California Alliance for Data Science Education. Anthony holds a master's degree in
+International Policy from Stanford University and a Masters in Information Management and Systems from UC Berkeley. (Email:
+anthonysuen@berkeley.edu).
+How to cite this article: Brown, C. T., Mehta, M., Ryali, M., Dong, X., Shadfar, I., Dominquez Davalos, J., Culich, A., & Suen, A. (2024). The
+data science discovery program: A model for data science consulting in higher education. Stat, 13(2), e677. https://doi.org/10.1002/sta4.
+677
+6 of 6 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.677 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

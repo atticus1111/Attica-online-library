@@ -1,0 +1,811 @@
+Skip to content
+1
+/
+10
+search
+group_add
+more_horiz
+get_app
+AlAA
+ 
+90-3728
+ 
+ECLSS
+ 
+Development
+ 
+for
+ 
+Future
+
+
+Space
+ 
+Missions
+
+
+P.
+ 
+Wieland,
+ 
+NASA
+ 
+Marshall Space Flight
+ 
+C e n t e r ,
+
+
+M S F C ,
+ 
+AL
+
+
+,
+
+
+AIM
+ 
+Space Programs and Technologies
+
+
+Conference
+
+
+September
+ 
+25-28,
+ 
+1990
+ 
+/
+ 
+Huntsville,
+ 
+AL
+
+
+For
+ 
+permission
+ 
+to
+ 
+copy or republish, contact the American Institute
+ 
+of
+ 
+Aeronautics and Astronautics
+
+
+37Q
+ 
+L'Enfant
+ 
+Promenade, S.W., Washington,
+ 
+D.C.
+ 
+20024
+AIM-90-3728-CP
+
+
+ECLSS
+ 
+DEVELOPMENT
+ 
+FOR
+ 
+FUTURE
+ 
+SPACE
+ 
+MISSIONS
+
+
+v'
+
+
+I'ziul
+ 
+0.
+Wicland* and William
+ 
+R.
+ 
+Humphrics**
+
+
+NASA
+ 
+Marshall Space Flight Center
+
+
+Huntsville,
+ 
+Alabama
+
+
+AbaaLt
+
+
+T h e Environmental Control a n d Life Support
+
+
+System
+ 
+(ECLSSJ
+ 
+f o r
+ 
+Space
+ 
+Station
+ 
+Freedom
+ 
+is
+
+
+presently
+ 
+under
+ 
+development
+ 
+at
+ 
+the
+ 
+Marshall
+
+
+Space Flight Center and at the Boeing Company,
+
+
+the prime contractor.
+ 
+Three areas of concern
+ 
+for
+
+
+longer
+ 
+duration missions
+ 
+are
+ 
+recycling
+ 
+of
+ 
+mass,
+
+
+monitoring ancl conl.rolling the ECLSS, a n d
+ 
+con-
+
+
+trolling
+ 
+trace
+ 
+contaminants a n d microorganisms.
+
+
+T h e goal is t o "close the
+ 
+loop"
+ 
+for water and oxy-
+
+
+gen much more than has been done on previous
+
+
+missions. Alternative technologies for performing
+
+
+each
+ 
+0 1
+ 
+the
+ 
+ECLSS
+ 
+lunctions a r e h e h g developed
+
+
+inicl
+ 
+evaluated as parr
+ 
+of
+ 
+the selection process for
+
+
+choosing the technologies to use o n
+ 
+Freedom.
+ 
+Ex-
+
+
+tensive testing.
+ 
+of
+ 
+subsystems operating indepen-
+
+
+dently ancl inc.egrated into
+ 
+ii
+ 
+system,
+ 
+i s
+ 
+presently in
+
+
+prugress.
+ 
+Methods
+ 
+to
+ 
+automatically monitor and
+
+
+control the
+ 
+ECLSS
+ 
+are also being investigated. T h e
+
+
+instrumentation needs a r e being determined in or-
+
+
+der
+ 
+to
+ 
+focus effort where most needed. Research
+
+
+is also underway
+ 
+to
+ 
+improve methods
+ 
+of
+ 
+monitoring
+
+
+and controlling
+ 
+trace contaminants a n d microor-
+
+
+--
+ 
+ganisms.
+ 
+Freedom'.r
+ 
+ECLSS
+ 
+will
+ 
+be
+ 
+a major
+ 
+step
+
+
+I'orward in aclclressing these concerns a n d will pro-
+
+
+vide a strong foundation for the development
+ 
+of
+
+
+the ECLS systems required for future missions.
+
+
+A('S
+ 
+Air (.iintrnl
+ 
+and Supply
+
+
+ARS
+ 
+Air licvitalization Subsystems
+
+
+AKI'
+ 
+Air Iicvitalization
+ 
+'l'est
+
+
+I 3 0 s ' I '
+ 
+Haselinc
+ 
+Operatinnal
+ 
+System
+ 
+'Ikst
+
+
+('1)Ii
+ 
+('ritical
+ 
+I
+ 
+ksign Review
+
+
+('I
+I,
+ 
+Methane
+
+
+('FIX
+ 
+('(indensing Heat Exchanger
+
+
+('MS
+ 
+C'nrc
+ 
+Mndulc Simulator
+
+
+('MIF
+ 
+Ciirc Mudule Integratitin Facility
+
+
+(
+ 
+Y)z
+ 
+('arbon
+ 
+Dioxide
+
+
+I X U
+
+
+I~3~l.X
+
+
+Envirnnmcntal Cnntrnl and Life Support
+
+
+tinvirnnmental Cnntrul and Lifc
+ 
+Suppnrt
+
+
+System
+
+
+F
+ 
+End-use Equipment Facility
+
+
+EI'A
+ 
+Engincering
+ 
+'l'cst
+ 
+Article
+
+
+EVA
+ 
+Exlrzt-Vchicular Activity
+
+
+l:I)S
+ 
+Fire Ilctcctinn and Suppression
+
+
+''
+ 
+Envirnnmental ('nntrtil
+ 
+Systems Engineer
+
+
+*.:'
+ 
+1)ivision ('hiel.
+ 
+Envirunmcntal Control and
+
+
+'I'hermel Engineering Division; Member
+ 
+AlAA
+
+
+copyright
+ 
+0
+ 
+1990
+ 
+by
+ 
+the
+ 
+American Institute
+ 
+of
+ 
+Aeronautics
+
+
+and Astronautics, Inc.
+ 
+No
+ 
+copyright
+ 
+is
+ 
+asserted in the
+
+
+ment
+ 
+has
+ 
+a
+ 
+royalty-free license to exercise all rights under
+
+
+the
+ 
+copyright
+ 
+claimed herein for Governmental purposes.
+
+
+All
+ 
+other rights are reserved
+ 
+by
+ 
+the copyright owner.
+
+
+United States under Title
+ 
+17,
+ 
+US.
+ 
+Code. The
+ 
+U S .
+ 
+Govern-
+ 
+1
+
+
+Kennedy Space (-enter
+
+
+Lithium Hydrnxidc
+
+
+Metabulic Contrul 'lkst
+
+
+Manned Operational System ' k t
+
+
+Marshall Space Flight ('cntcr
+
+
+Nitrogcn
+
+
+Oxygen
+
+
+I'redevclopmcnt
+ 
+Operatinnal System
+ 
+Test
+
+
+Small Husincss
+ 
+Innovation
+ 
+Research
+
+
+Simplified Integrated
+ 
+li'st
+
+
+Trace Contaminant Contrnl Sulxystcm
+
+
+Temperature and Humidity ('ontnil
+
+
+Water Rccnvery
+ 
+'kst
+
+
+T h e Environmental Control e n d Lile Support
+
+
+System (ECLSS) for the Space Station
+ 
+Freedom
+
+
+has been in development
+ 
+at
+ 
+the
+ 
+Marshall Space
+
+
+Flight Center (MSFC) since the mid- 1980's and,
+
+
+when operational in the mid- 1 9 9 0 ' ~
+will he the
+
+
+most advanced ECLSS ever flown.
+ 
+In order
+ 
+t o
+
+
+minimize expendables a n d the amounts
+ 
+of
+ 
+water
+
+
+and gases required I'or resupply, the water and air
+
+
+will be
+ 
+recycled
+ 
+to
+ 
+an
+ 
+extent unprecedented
+ 
+in
+
+
+space flight. Trace contaminants and microorgan-
+
+
+isms are
+ 
+of
+ 
+greater concern than o n previous, short-
+
+
+e r duration, missions d u e
+ 
+to
+ 
+longer periods
+ 
+of
+ 
+expo-
+
+
+sure, a n d must be
+ 
+monitored
+ 
+a n d
+ 
+controlled
+ 
+to
+
+
+extremely
+ 
+low
+ 
+levels.
+ 
+With a design lifetime of
+ 
+30
+
+
+years,
+ 
+it
+ 
+i s
+ 
+imperative that
+ 
+F r e e d o m ' s
+ 
+ECLSS
+ 
+he
+
+
+highly reliable,
+ 
+a s
+ 
+autonomous as feasible, and easi-
+
+
+ly
+ 
+maintainahle.
+
+
+Alternative
+ 
+technologies
+ 
+for
+ 
+performing the
+
+
+ECLS functions are being evaluated a n d the tech-
+
+
+nologies most suitable for use ahoarcl
+ 
+Freedom
+ 
+are
+
+
+being
+ 
+selected
+ 
+after
+ 
+extensive
+ 
+testing,
+ 
+including
+
+
+both independent subsystem testing :ind integrated
+
+
+system testing.
+ 
+Much has been learned abuut each
+
+
+of
+ 
+the technologies evaluated, in terms
+ 
+of
+ 
+individu-
+
+
+al suhsystem perlormance and interaction with
+ 
+oth-
+
+
+e r subsystems.
+
+
+T h e knowledge gained during clevelupment
+ 
+o f
+
+
+Freedum's
+ 
+ECLSS
+ 
+will
+ 
+be valuable for future hu-
+
+
+m a n space exploration missions as well.
+ 
+As
+ 
+mis-
+
+
+sions increase in duration a n d distance from Earth,
+
+
+the requirements become even more demanding.
+
+
+T h e
+ 
+ECLSS
+ 
+of
+ 
+future missions
+ 
+will
+ 
+build
+ 
+upon
+
+
+Freedom's
+ 
+which has
+ 
+to
+ 
+deal with many of the same
+
+
+concerns.'
+ 
+2
+ 
+3

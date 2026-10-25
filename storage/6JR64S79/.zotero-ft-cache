@@ -1,0 +1,375 @@
+SPECIAL ISSUE ARTICLE
+Tell your story: Metrics of success for academic data science
+collaboration and consulting programs
+Mara Rojeski Blake 1 | Emily Griffith 2,4 | Steven J. Pierce 3 | Rachel Levy 4 |
+Micaela Parker 5 | Marianne Huebner 3,6
+1NC State University Libraries, Raleigh, North Carolina, USA
+2NC State Department of Statistics, Raleigh, North Carolina, USA
+3Center for Statistical Training and Consulting, Michigan State University, East Lansing, Michigan, USA
+4NC State Data Science Academy, Raleigh, North Carolina, USA
+5Academic Data Science Alliance, Seattle, Washington, USA
+6Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA
+Correspondence
+Mara Rojeski Blake, NC State University Libraries, Raleigh, North Carolina, USA. Email: mrblake2@ncsu.edu
+Emily Griffith, NC State Department of Statistics, Raleigh, North Carolina, USA; NC State Data Science Academy, Raleigh, North Carolina, USA. Email: eghohmei@ncsu.edu
+Funding information
+Alfred P. Sloan Foundation, Grant/Award Number: G-2022-19414
+Measuring success plays a central role in justifying and advocating for a statistical or
+data science consulting or collaboration program (SDSP) within an academic institu
+tion. We present several specific metrics to report to targeted audiences to tell the
+story for success of a robust and sustainable program. While gathering such metrics
+includes challenges, we discuss potential data sources and possible practices for
+SDSPs to inform their own approaches. Emphasizing essential metrics for reporting,
+we also share the metric gathering and reporting practices of two programs in greater
+detail. New or existing SDSPs should evaluate their local environments and tailor
+their practice to gathering, analysing and reporting success metrics accordingly. This
+approach provides a strong foundation to use success metrics to tell compelling
+stories about the SDSP and enhance program sustainability. The area of success met
+rics provides ample opportunity for future research projects that leverage qualitative
+methods and consider mechanisms for adapting to the changing landscape of data
+science.
+KEYWORDS
+data science consulting, metrics, reporting, stakeholders, statistical collaboration
+1 | INTRODUCTION
+Statistics and data science are core disciplines with methodology that can be applied to a broad array of research collaborations across many disci
+plines such as engineering, health sciences, life sciences, physical sciences and social sciences (ASA, 2018, Sharp et al., 2016). Many colleges and
+universities have organized groups, departments, programs or research institutes that provide this kind of collaborative support. The structures
+and service models can vary greatly in order to adapt to the possible structures and models that higher education institutions currently employ to
+address their respective approaches to data science (e.g., Herndon, 2021; Huebner et al., 2024). Recent national developments highlight the
+importance of data science across sectors and place increasing pressure on academic institutions to effectively engage in this landscape, which
+requires proficiency with data (Vitale et al., 2022).
+As data science is a newer term, much of the literature we review comes from statistical consulting and collaboration. A common theme
+across the literature for statistical collaboration and consulting is that success metrics can help establish the value of such activities, but these
+Received: 21 March 2024 Accepted: 19 April 2024
+DOI: 10.1002/sta4.686
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made. © 2024 The Authors. Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e686. wileyonlinelibrary.com/journal/sta4 1 of 9 https://doi.org/10.1002/sta4.686
+
+
+may be difficult to measure. Sharp et al. (2016) present a survey on the perceived value of statistical consulting, while an American Statistical
+Association Position Paper (ASA, 2018) discusses the difficulty consulting programs and individual consultants in academia face with assessment
+because this work differs from more traditional disciplinary scholarship.
+Part of this difficulty may arise from the variety of work that a program of this nature performs. Consulting topics are rarely routine, and col
+laborative statisticians and data scientists may spend a large percentage of their time educating domain experts about recent developments in sta
+tistics or various statistical pitfalls that may be an issue for a research study (Sauerbrei et al., 2014). While statistical or data science collaborations
+help domain experts answer their questions and improve statistical practice (see Vance & Pruitt, 2022), without explicit acknowledgement, includ
+ing co-authorship of publications or funding from grants, this work can be invisible to those not involved in creating the work. That invisibility is a
+problem for collaborative statisticians and data scientists because universities often assign substantial value to authorship of scholarly works
+when evaluating both individuals and programs (ASA, 2018).
+Language and terminology used to describe data science and statistical consulting and collaboration depend heavily on the program
+type and model. Many programs find value and recognition in emphasizing the collaborative nature of their work and prefer terminology
+that reflects those goals instead of those around clients or customers. Programs based in academic libraries tend to identify as a service
+with users or patrons of that service, consistent with common terminology in the field (Press, 2022). Other programs prefer to adopt termi
+nology around consultation and the provision of expert advice. In this paper, we seek to identify metrics of success that apply across these
+different programs and identities, recognizing that specific programs will and should apply the terminology most appropriate to their
+model.
+For the purposes of this paper, we use the term Statistics and Data Science Program (SDSP) to refer to any entity offering collaboration or
+consulting in the areas of data science and statistics. This covers a broad array of programming, from departments within a university library to
+a biostatistics or data science core, and many funding mechanisms, from cost recovery or fee based models to no-cost models for users. The
+SDSP may reside in many different administrative units within an institution, for example, a college, an academic department, the library or the
+office of research. SDSPs may employ different organizational, staffing and financial models, and SDSP leadership may refer to the people they
+work with as collaborators, clients or users. In this article, we address entry-level reporting and success metrics that may apply across the dif
+ferent models of SDSPs. Once good reporting practices for these metrics have been set up and as an SDSP becomes more established, more
+complex and nuanced success metrics may be collected. The aim of this paper is to provide guidance for establishing a baseline level of
+reporting in an SDSP.
+Reporting activities and success metrics are crucial for evaluating and advocating for an SDSP for many reasons. These include analysing
+use and performance, reporting to funders, advertising services or negotiating staffing levels. Tracking publications and grants is often stan
+dard in academia. However, measuring the successes of SDSPs often requires quantifying multiple dimensions of work such as collaboration
+and consulting activities, partnerships, education or staffing levels (e.g., Lee et al., 2012; Mani et al., 2021). Specific metrics are mentioned
+consistently throughout the relevant literature, such as co-authorship on publications (Carter et al., 1986; Griffith et al., 2022; Parker
+et al., 2021) and grants or other funding support (Griffith et al., 2022; Vance, 2015), but these do not address all dimensions of a
+robust SDSP.
+Appropriate metrics of success can help demonstrate value, attract partners, educate potential users and university leadership or identify
+trends or risks. They provide transparency, show credibility and can build trust with SDSP staff and stakeholders. They can be used to
+identify areas of need and to argue for promotion of personnel. Success metrics are more than just numbers. They illustrate that the SDSP delivers
+what it promises and may facilitate engagement with stakeholders. Effective demonstration of success through reporting and metrics should also
+help the SDSP work towards sustainability. As Herndon (2021) points out, all data science programs should consider the ways that they will
+ensure the longer term plans for sustaining their work. Data science as a field provides particular challenges to medium and longer term planning,
+as the field regularly shifts (Herndon, 2021).
+The choice of success metrics depends in part on the strategic plan of the university and the SDSP itself (Huebner et al., 2024; Parker
+et al., 2021). Building support and enthusiasm for the SDSP may require convincing arguments for resources that resonate with university leaders.
+While it is important to recognize that success metrics can be both quantitative or qualitative measures, the scope of this paper focuses primarily
+on quantitative metrics.
+The purpose of this paper is to describe a variety of success metrics that address multiple dimensions of collaborative statistical and data sci
+ence programs with the goal of evaluating and advocating for these programs, their personnel and other resource needs. Engaging ideas can be
+relatable based on reason, ethical appeals, motives and attitudes (logos, ethos and pathos) (Meyerson, 2015). Storytelling and qualitative metrics
+can be important aspects of obtaining support for an SDSP.
+In Section 2, we outline potential goals and considerations for reporting success metrics, including external reporting, internal reporting and
+program evaluation. In Section 3, we describe different metrics, data sources to gather such metrics, and discuss two examples. Section 4 high
+lights privacy and ethical considerations related to metrics and reporting. In Section 5, we conclude with a discussion on modern reporting ideas,
+future work and the changing landscape of data science.
+2 of 9 BLAKE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+2 | REPORTING SUCCESS METRICS
+SDSPs differ in their mission, administrative home and funding models and may engage with different partners (Huebner et al., 2024). The con
+tent of any reporting will depend on the purpose and the audience. Reporting to stakeholders may involve different sets of information about
+the SDSP and its activities, presented in varying levels of detail. For example, if an annual report is used to summarize the usage statistics for a
+college sponsor, the leadership of that college might also appreciate a comparison of the number of cases across colleges. An internal report
+prepared for leaders in the administrative home of the SDSP can be more extensive and detailed. Furthermore, a self-evaluation to determine
+programmatic successes and areas for growth can be quite lengthy and detailed. Finally, decisions about personnel retention, promotion or pro
+fessional development opportunities will rely on granular details. Well-planned and thoughtfully collected success metrics will frequently be
+able to be used in reports for multiple audiences. Retrospective collection of these details can be more difficult than aggregating them for more
+general reporting.
+A key message is that there is no single reporting template that will work for all SDSPs. As noted above, the level of detail for reporting
+success metrics depends on the preferences of the stakeholders and the types of data available. Ideally, a cycle of feedback between stake
+holders and SDSPs can inform a program's efforts to adapt, update and ensure satisfaction. With changes in administrative leaders and strate
+gic goals, this can be a continuous process. Keeping this flexibility in mind when planning what metrics to track is essential to facilitate agile
+adaptation.
+2.1 | External reporting
+External reports of SDSP activities serve multiple purposes (Table 1). Success metrics can be used for advertising by showcasing the types of
+activities the SDSP is engaged in and the reach and impact it can have for the research community of the university. The SDSP can use external
+reports for justification of the funding it receives or budget requests for future years. Reports may also be needed to negotiate or renew agree
+ments for staffing levels.
+SDSPs should consider the formats for their reporting needs. Most programs will still need to prepare traditional, document-style reports for
+a variety of their internal and external stakeholders. However, new formats may prove beneficial to consider depending on the audience and
+need. Programs might consider developing a modular slide deck to tailor for presentations to various stakeholder audiences. Other modern modal
+ities of reports include photos and video messages, which can support visual and auditory storytelling. Reports can be made interactive to high
+light different aspects of a program and include links that open to more detailed sections depending on a reader's interest. Programs can leverage
+internal expertise in data visualization, web design, videography and even animation to create engaging representations of their metrics.
+T A B L E 1 Purpose of external reports and possible content or metrics.
+Purpose Examples of content or metrics
+Summarizing SDSP organization Organizational overview; staffing levels; core values; mission; environment, relationship to other parts of the university
+Reporting usage statistics Number of cases by college affiliation; number of cases by position type (faculty, staff, students); type of cases (proposals, dissertations, funded grants); time trends (open cases, hours of service, cases in wait list, time in wait list); participants in events; type of events; duration of engagements
+Demonstrating financial successes Contracts and grants (number funded, number of proposals, success rate, dollar amount requested); partnerships to join and leverage funds, dollar amount of leveraged funding, letters of support and collaboration
+Reporting to an advisory board Usage statistics; summarized financial data; staffing; activities; ambitions; risks; student and faculty stories
+Negotiating partnership agreements Partner specific summary: usage statistics, financials; activities; staffing; testimonials
+Quick pitches for elevator speeches or as callouts for more detailed sections
+Performance highlights; leadership perspective; new activities; case studies; SDSP organization (mission, staffing); anecdotes
+Promoting services Customer experiences; employee stories; educational activities and their reach; quick pitches
+Education about SDSP Types of services; cost of services (if applicable); organizational overview; testimonials; mission
+Demonstrating educational & career successes Student employees trained/mentored; student job search support and job placements; staff awards received; staff promotions
+Scholarly and outreach products Publications; presentations; technical reports; published datasets; software
+BLAKE ET AL. 3 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+2.2 | Internal reporting
+By contrast, internal reporting (Table 2) will likely be more granular than external reporting. SDSP leadership will want to be immersed in details
+of the program. Regular evaluation, at least biannually, of the full program in the context of an SDSP's strategic goals and priorities is critical for
+maintaining alignment and focus. Internal reporting may also be part of staff evaluations and used for identifying appropriate professional devel
+opment opportunities. Additionally, internal reporting helps the SDSP review and evaluate its own achievements and successes.
+One critical goal of internal reporting is to avoid stagnation. As the fields of statistics and data science evolve, so does the use of such tech
+niques in collaborative or consulting relationships. Reviewing internal reports regularly can help SDSP leadership identify areas of growth and
+areas of stagnation early enough to address them.
+2.3 | Internal program evaluation
+An SDSP may wish to assess metrics for the purpose of internal program evaluation and improvement outside of the reporting activities described
+in the previous section. Analysis of the collected metrics can provide insight on attainment of internal goals, identify new areas to support or areas
+to consider reducing and provide direction for skill development and hiring. A program may have a goal to reach broadly across campus and
+assessment of usage by campus division or department would provide valuable insight on work towards that goal. If a program conducts a review
+for the types of support requested, they may uncover new topics of demand or changes in requests over time that could inform staffing. Con
+versely, the SDSP may find areas that were once robustly requested waning in demand. These changes can inform areas in which program mem
+bers can develop their skills or the topics can be embedded in job advertisements to stay current with the shifting needs in data science and
+statistical work. While many of these metrics intersect with the needs of internal and external reporting, the goals and approaches in assessment
+may diverge. Program evaluation can also help identify areas to highlight in reporting or areas that may warrant some program iteration before
+sharing more widely.
+3 | IDENTIFYING SUCCESS METRICS AND DATA SOURCES
+The overarching goal for any SDSP should be to collect success metrics in a way that is well organized and able to be easily analysed in the way
+that best suits the needs of the SDSP. It is important to recognize that success metrics can be both quantitative or qualitative measures. Quantita
+tive metrics can be pulled from existing university databases, captured in database systems of SDSPs or even collected via forms and surveys.
+Qualitative metrics are less likely to exist in university databases but may include testimonials of experiences by both clients and data science con
+sultants, case studies, brokering new research relationships between faculty from different units or even learning outcomes from workshops,
+among many possibilities. SDSPs have many options for how to collect and store data and metrics about the program. The related data may be
+housed in a self-hosted database system, a third-party application or in a series of spreadsheets in a shared drive. The importance of specific met
+rics differs depending on the priorities and investments of different stakeholders.
+Not all SDSPs are in the position to gather the metrics listed above. However, if such metrics would be desirable, then the SDSP can strive to
+build a robust data collection system to inform writing of reports for different stakeholders. SDSPs currently use a variety of approaches to collect
+these data, from using existing campus databases, to carefully designing their own databases, or using other data management solutions. A data
+base provides an essential foundation for collecting, storing and maintaining the data necessary for day-to-day management of an SDSP and
+reporting success metrics. Such databases may be quite small and simple for new SDSPs but may grow in size and complexity over time as the
+SDSP encounters the need for new features and reporting capabilities. The scale at which a SDSP operates may drive some of those needs.
+T A B L E 2 Purpose of internal reports and possible content or metrics.
+Purpose Examples of content or metrics
+Planning activities Seminars or workshops and types of participants; publications; case studies; outreach; professional development
+Deciding on SDSP strategies Monitor and analyse performance, including usage statistics and financial success and staffing levels; proportion of time spent on different activities (client cases, non-client SDSP activities, professional development, etc.); activities; website tracking; identifying risks
+Advertising for hiring or internal SDSP information sharing
+SDSP organization; usage statistics; benefits; success stories; visibility of categories of hires
+Preparing for annual reviews Consultant-specific summary: usage statistics, financials, activities; scholarly and outreach products
+4 of 9 BLAKE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Information extracted from the collected data or database can be used to inform reporting and advocating for the SDSP. Creating clear steps,
+processes or even scripts that automate weekly or monthly reports for the SDSP leadership are valuable both for making strategic decisions as
+well as utilizing some of the information and presenting it in reports for different audiences and different purposes. In Table 3, we suggest choices
+of data sources for specific metrics, but other systems can be developed to collect the same type of metrics.
+It is important to remember that data are only useful if they are of high quality. For any kind of user input, the ease of contributing to data
+fields is an important factor. For example, individual consultants may contribute their time records and brief case notes more accurately and
+regularly if this is a web-based system rather than weekly Excel spreadsheets. A well-thought-out intake form is highly valuable if it has suffi
+cient information about the project and future collaborator that can be filled out quickly (1–3 min). Longer or more complex intake forms dis
+courage clients from completing them and may lead to incomplete or inaccurate responses. Structured data from closed-ended, categorical
+questions is very useful for some purposes, but collecting some unstructured, open-ended text is often necessary for things like narrative pro
+ject descriptions.
+To present these ideas more clearly, we present two programs with different collection and reporting processes.
+3.1 | Example 1: collecting and aggregating data sources for reporting at North Carolina State University
+Data sources may come from numerous and varied systems that do not interact directly with each other. At North Carolina State
+University (NCSU), for example, data science consulting takes place through the Data Science Academy (DSA) and the North Carolina State Uni
+versity Libraries (Marchesoni et al., 2024). The Libraries use many systems to track user interactions across the organization. As a result, the Data
+and Visualization Services (DVS) department of the Libraries gathers usage data from the following: a service email account; personal email
+accounts from staff members; a university system for listing workshops; a Libraries reporting mechanism for reporting interactions with curricular
+classes; a chat system; a Calendly appointment booking tool; and a home-grown help desk reporting system. Users of the consultation service are
+also invited to complete an optional post-consultation feedback survey. The service email account is shared between the DVS and the DSA Con
+sulting Program and implemented as a delegated institutional Gmail account. The staff and student data science consultants responding to consul
+tation requests through the account leverage a detailed system of labelling to triage and track status, as well as gather information about the
+consultation requests. A script is used to generate a dataset from that email account that includes the information from the assigned labels that is
+analysed for program assessment and metric reporting (Marchesoni et al., 2023). The department works closely with the Head of Impact Analysis
+for the Libraries to gather all of this data from the disparate systems. The data are gathered and then joined with affiliates' campus profile infor
+mation with all identifying information removed. The data are then made available for analysis by DVS staff via a shared Google Drive as a collec
+tion of spreadsheets (Peak & Ashmore, 2023). Staff in the department then use that data to conduct internal evaluations, populate annual reports
+and fulfil other reporting needs. Summary metrics and reports without individually identifying information are shared with organizational or cam
+pus leadership. Given the emphasis on interdisciplinarity at the institution and within the NC State University Libraries, DVS routinely reports
+annual consulting usage by campus affiliate type (faculty, staff, undergraduate student, graduate student etc.); colleague affiliation; type of ques
+tion; medium of consultation; and other metrics.
+T A B L E 3 Possible data sources for report metrics.
+Data source Metrics
+Intake form or delegated email inbox or ticketing system
+Client position (faculty, staff, student, other) Type of help requested (e.g., data analysis, data management, data visualization, coding support) Type of project (e.g., grant application, thesis/dissertation, publication)
+Appointment tracking Number of cases by college Number of clients by position and college
+Quantified staff effort (if appropriate or applicable)
+Timesheets (if applicable): Number of active cases by week; hours per case; case notes Grant support (if applicable): percent FTE on large projects, number of clients, publications, proposals
+Staff satisfaction Surveys or meetings: Professional development opportunities, conferences attended, presentations given, scholarly output created
+SDSP events Workshops/seminar by type (software, methods, ethics) Number of participants by college, position (faculty, staff, students); speaker affiliations Event participants (position, college, department)
+Surveys Post workshop/seminar survey Overall feedback survey across the university User feedback after one-on-one help
+BLAKE ET AL. 5 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+3.2 | Example 2: building a data collection system at Michigan State University
+Michigan State University's (MSU) Center for Statistical Training and Consulting (CSTAT) provides a nice example of more advanced and custom
+ized reporting. CSTAT currently uses a custom-built SQL Server database and web application called CSTATAPP (Segur et al., 2023) to manage its
+consulting operations. Clients can submit service requests directly into the database after logging in via either a standard or guest MSU user
+account. The intake form collects data about the client, the project, type of help being requested, project deadline, associated grants (both pro
+posals in preparation and grants that are already funded) and expected funding source for CSTAT services. The database allows CSTAT staff to
+update the resulting case, user and grant records and link them to additional information. CSTATAPP can record case status, dates of key events
+(case submission, first contact and case closure; start and end of consultant assignments; grant deadlines, submission and decision dates; etc.),
+date-stamped case notes, time spent on the case, grant funding and more. Administrative staff can assign a case to one or more partnership agree
+ments with service type indicators that define whether, and why, the case is within or outside the scope of a given agreement and what, if any,
+usage limits apply. Features support consultants' ability to review case histories, handle their caseloads, manage their time and get follow-up pro
+mpts about upcoming deadlines. CSTAT staff have role-based access to the database: Consultants can view their own projects and built-in
+reports, while administrative users have broader access to view and edit data and can run additional built-in reports. Additional reporting capabili
+ties are supported by a custom R package (Pierce & DeCicco, 2024) that interfaces with the database and uses Quarto (https://quarto.org) scripts
+to generate more sophisticated, professionally formatted reports with information that can be used in weekly, monthly and annual reports.
+4 | PRIVACY, ETHICS AND PROFESSIONAL STANDARDS
+As they undertake this important work to demonstrate their impact, SDSPs must consider issues around ethics, user privacy and regulations in
+gathering and reporting metrics. This holds particularly true for SDSPs based in libraries where professional codes of ethics and organizational pol
+icies regulate the release of identifying information about individuals using library affiliated services. Professional associations provide directions
+to libraries in regard to privacy. For example, the American Library Association (ALA) includes privacy as a core value, stipulating in the Library Bill
+of Rights that privacy and confidentiality are a right of library users (ALA, 2006b; ALA, 2007). The Association of College and Research Libraries
+(ACRL) interprets this Bill of Rights for the higher education setting and reinforces a strong commitment to privacy, stipulating ‘The privacy of
+library users is and must be inviolable. Policies should be in place that maintain confidentiality of library borrowing records and of other informa
+tion relating to personal use of library information and services (ALA, 2006a)’. ACRL further reinforces the professional commitment to privacy in
+their guidance for assessment in academic libraries (ALA, 2017). Academic libraries commonly have local policies or statements that address the
+local requirements for user privacy, such as the NC State Libraries Privacy Statement (NC State Libraries, 2019). In this context, identifying infor
+mation should not be shared beyond the Libraries, including within other parts of the university.
+SDSPs with an administrative home in academic libraries must consider how their assessment practices adhere to the professional values of
+the field, as well as comply with local policy requirements. However, all SDSPs should carefully consider the ethical implications of their assess
+ment practices and reporting approaches in regards to success metrics. The values and practices of user privacy and confidentiality practiced in
+academic libraries can serve as a model to support all SDSPs, regardless of administrative placement within a university or institution. Adherence
+to individual privacy need not trade off with reporting the metrics that underscore the impact of the SDSP. The program can report summary sta
+tistics showcasing the depth and breadth of their work without releasing individuals' names or other identifying information.
+In addition to professional ethics, those working on success metrics should consider any Institutional Review Board (IRB) requirements for
+their metrics collection, analysis and reporting. Data collected about usage of SDSPs offerings include information about humans, which may be
+subject to IRB oversight. The IRB will typically determine that this type of work for the purposes of internal program assessment and improve
+ment is not subject to review. However, SDSPs wishing to conduct some types of studies on their own programs or to include any data derived
+from human information in scholarly output such as a presentation or publication may be considered as engaging in research and therefore would
+be subject to further review by their local IRB. SDSPs should work closely with representatives from their IRB to ensure appropriate and ethical
+treatment of any humans studied in the course of their assessment and reporting. Programs working with students in the United States may need
+to consider if the Family Educational Rights and Privacy Act (FERPA) applies to collected metrics and likewise ensure compliance with federal law
+pertaining to data about students. SDSPs are responsible for ensuring adherence to any other applicable rules and regulations.
+5 | DISCUSSION
+Regardless of the organizational model that they employ, SDSPs provide valuable expertise to their campus to improve data science and statistical
+work at the organization. Programs should collect metrics that highlight this impact in support of their reporting needs and to facilitate internal
+evaluation. This paper outlines suggested metrics categorized and clustered by purpose to include in reporting of success, as well as suggests
+6 of 9 BLAKE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+potential data sources. Gathering metrics from various sources and distilling them into meaningful measures requires careful planning and consid
+eration, but this work is essential to demonstrate the impact of the work and ensure its longer-term sustainability.
+Those working in SDSPs may naturally gravitate towards focusing more on quantitative summaries and trends. Indeed, this paper focused on
+some essential, high level and primarily quantitative metrics all SDSPs should consider for measuring their success. As programs gain proficiency
+with their basic needs for metrics and reporting it is interesting to consider other types of evaluation. For example, exploring qualitative metrics
+and mixed methods approaches can deepen and humanize some of the quantitative measures. While storytelling is not qualitative data analysis,
+case studies and examples may bring wider exposure of research successes of collaborators and showcase applications of data science, and the
+types of questions SDSP consultants helped solve. Testimonials of satisfied collaborators are appreciated and can be encouraging to stakeholders
+and future users alike. Growth areas of a SDSP may be identified by gathering input from across the university or informed by developments in
+professional organizations and societies.
+As the assessment matures for individual SDSPs and for this area of data science consulting and collaboration as a field, programs need to
+continuously update their methods of evaluation. Just as we evaluate our programs for their effectiveness and impact, we need to keep our
+assessment practices current and relevant to address evolving needs. Continued maturation opens up new and deeper areas to explore through
+effective assessment. As described above, investigation of deeper, qualitative studies on SDSP success represents an interesting area for further
+development. The authors of this paper suggest that a significant future area that warrants further research is the exploration of methods to
+assess the equity and inclusiveness of SDSPs. Leveraging qualitative approaches would likely prove essential to an effective assessment of equity
+and inclusion. There are many axes to equity and inclusion, including hiring and promotion practices and accessibility of programming. Establishing
+clear definitions and goals for equity and inclusion in and through SDSPs would be a valuable contribution to the field.
+To conclude, SDSPs should carefully consider which metrics to collect and design a plan to effectively gather and analyse those collected
+metrics. This will provide a firm foundation to deliver on internal and external reporting needs, as well as facilitate program evaluation. This paper
+provides ideas for success metrics and describes data sources and potential considerations in gathering such metrics. As SDSPs engage in this
+work, they should examine the ethical, privacy and legal implications of their work. Additionally, we hope that further development of this area of
+the field will yield new mechanisms to assess our programs beyond just success and provide ways to look at deeper nuances in the provision
+of statistical and data science consulting and collaboration.
+AUTHOR CONTRIBUTIONS
+Mara Rojeski Blake: Conceptualization; writing - original draft; writing - review and editing. Emily Griffith: Conceptualization; writing - original
+draft; writing - review and editing. Steven J. Pierce: Writing - original draft; writing - review and editing. Rachel Levy: Conceptualization; writing 
+review and editing. Micaela Parker: Conceptualization; writing - review and editing. Marianne Huebner: Writing - original draft; writing - review
+and editing.
+ACKNOWLEDGEMENTS
+This work was supported by the Alfred P. Sloan Foundation (G-2022-19414).
+CONFLICT OF INTEREST STATEMENT
+The authors have no conflicts of interest to declare.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no new data were created or analysed in this study.
+ORCID
+Mara Rojeski Blake https://orcid.org/0000-0003-2888-8024
+Emily Griffith https://orcid.org/0000-0002-9745-7722
+Steven J. Pierce https://orcid.org/0000-0002-0679-3019
+Marianne Huebner https://orcid.org/0000-0002-9694-9231
+REFERENCES
+American Library Association. (2006a). Intellectual freedom principles for academic libraries: An interpretation of the Library Bill of Rights [Position statement]. Retrieved 14 March 2024 from http://www.ala.org/acrl/publications/whitepapers/intellectual American Library Association. (2006b). Library Bill of Rights [Position statement]. Retrieved 14 March 2024 from http://www.ala.org/advocacy/ intfreedom/librarybill American Library Association. (2007). Core values [Position statement]. Retrieved 14 March 2024 from http://www.ala.org/advocacy/privacy/values American Library Association. (2017). Proficiencies for assessment in academic libraries [Position statement]. Retrieved 14 March 2024 from http://www. ala.org/acrl/standards/assessment_proficiencies
+BLAKE ET AL. 7 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+American Statistical Association. (2018). Overview of statistics as a scientific discipline and practical implications for the evaluation of faculty excellence [Position statement]. Retrieved 14 March 2024 from https://www.amstat.org/asa/files/pdfs/POL-Statistics-as-a-Scientific-Discipline.pdf Carter, R. L., Scheaffer, R. L., & Marks, R. G. (1986). The role of consulting units in statistics departments. The American Statistician, 40(4), 260–264. https:// doi.org/10.1080/00031305.1986.10475408 Griffith, E. H., Sharp, J. L., Bridges, W. C., Craig, B. A., Hanford, K. J., & Stevens, J. R. (2022). The academic collaborative statistician: Research, training and evaluation. Stat, 11(1), e483. https://doi.org/10.1002/sta4.483 Herndon, J. (2021). Designing for data science: Planning for library data services. In J. Herndon (Ed.), Data science in the library: Tools and strategies for supporting data-driven research and instruction (pp. 131–140). Facet. https://doi.org/10.29085/9781783304615.009 Huebner, M., Bond, L., Stukes, F., Herndon, J., Edwards, D. J., & Pomann, G. M. (2024). Developing partnerships for academic data science consulting and collaboration units. Stat, 13(1), e644. https://doi.org/10.1002/sta4.644 Lee, L. S., Pusek, S. N., McCormack, W. T., Helitzer, D. L., Martina, C. A., Dozier, A. M., Ahluwalia, J. S., Schwartz, L. S., McManus, L. M., Reynolds, B. D., Haynes, E. N., & Rubio, D. M. (2012). Clinical and translational scientist career success: Metrics for evaluation. Clinical and Translational Science, 5(5), 400–407. https://doi.org/10.1111/j.1752-8062.2012.00422.x Mani, N. S., Cawley, M., Henley, A., Triumph, T., & Williams, J. M. (2021). Creating a data science framework: A model for academic research libraries. Journal of Library Administration, 61(3), 281–300. https://doi.org/10.1080/01930826.2021.1883366 Marchesoni, J., Freeman, K., Ricci, S., & Tezbasaran, A. (2024). The student staffing advantage: Data science consulting service at NC State University libraries. Stat. forthcoming. Marchesoni, J., Ricci, S., Essic, J., & Freeman, K. (2023). getdatahelp_assessment_export: Email request assessment script for the DVS GetDataHelp gmail inbox. (Version 0.3) [Computer program, AppsScript JavaScript application, Google cloud hosting]. Data & Visualization Services, NC State University Libraries, North Carolina State University. Meyerson, L. J. (2015). Persuasion, presence, and patience: Important characteristics of leadership for women in statistics. In A. L. Golbeck, I. Olkin, & Y. R. Gel (Eds.), Leadership and women in statistics. CRC Press LLC.
+NC State Libraries. (2019). Privacy statement. Retrieved 14 March 2024 from https://www.lib.ncsu.edu/privacy Parker, M. S., Burgess, A. E., & Bourne, P. E. (2021). Ten simple rules for starting (and sustaining) an academic data science initiative. PLoS Computational Biology, 17(2), e1008628. https://doi.org/10.1371/journal.pcbi.1008628 Peak, M. L., & Ashmore, B. E. (2023). DVS data hub. [Google Sheets Data Set]. North Carolina State University Libraries, North Carolina State University. Pierce, S. J., & DeCicco, B. (2024). cstatreports: CSTAT reports research compendium. (Version 0.15.0) [Computer program, R package, private repository]. Center for Statistical Training and Consulting, Michigan State University. Press, M. (2022). Semantics as praxis: The challenge of naming the people who use academic libraries. The Journal of Creative Library Practice. https:// creativelibrarypractice.org/2022/03/29/semantics-as-praxis/ Sauerbrei, W., Abrahamowicz, M., Altman, D. G., le Cessie, S., Carpenter, J., & STRATOS initiative. (2014). STRengthening analytical thinking for observational studies: The STRATOS initiative. Statistics in Medicine, 33(30), 5413–5432. https://doi.org/10.1002/sim.6265 Segur, E., Pierce, S. J., Villarreal, J. T., Hull, K., & DeCicco, B. (2023). CSTATAPP: CSTAT Web Application and Operations Database. (Version 1.0.0) [SQL Server database and computer program, ASP.NET Razor application]. Center for Statistical Training and Consulting, Michigan State University. Sharp, J. L., Wrenn, J., & Gerard, P. D. (2016). Identifying the perceived value of statistical consulting in a university setting. Journal of Statistical Theory and Practice, 10, 216–225. https://doi.org/10.1080/15598608.2015.1108254 Vance, E. A. (2015). Recent developments and their implications for the future of academic statistical consulting centers. The American Statistician, 69(2), 127–137. https://doi.org/10.1080/00031305.2015.1033990 Vance, E. A., & Pruitt, T. R. (2022). Statistics and data science collaboration laboratories: Engines for development. In Promoting statistical practice and collaboration in developing countries (pp. 3–26). Chapman and Hall/CRC. https://doi.org/10.1201/9781003261148-2 Vitale, C. H., Kennedy, M. L., & Ruttenberg, J. (2022). Advancing data science, data-intensive research, and its understanding through collaboration. In Handbook of research on academic libraries as partners in data science ecosystems (pp. 1–20). IGI Global. https://doi.org/10.4018/978-1-7998-9702-6. ch002
+AUTHOR BIOGRAPHIES
+Mara Blake serves as the head of the Data and Visualization Services department in the Libraries at NC State University. The department pro
+vides expert assistance and specialized spaces to help affiliates learn how to find, use, analyse and visualize data and has operated a Data Sci
+ence Consulting program since 2018. The Data Science Consulting program leverages a mix of professional staff and graduate students to
+serve the needs of the NC State Community and collaborates closely with the Consulting Program in the Data Science Academy led by Emily
+Griffith. More information can be found on the webpage https://www.lib.ncsu.edu/staff/department/data-visualization-services for Data and
+Visualization Services. Blake was a co-investigator on the Alfred P. Sloan Foundation grant that supported this work.
+Emily Griffith is an associate professor of the practice in the Department of Statistics and the Director of Data Science Consulting in the NC
+State Data Science Academy (DSA). Griffith was a co-investigator on the Alfred P. Sloan Foundation grant that supported this work. The
+DSA's Collaborative Consulting Corps is fully integrated with the Libraries programming led by Mara Blake, working with graduate students to
+provide project-based data science support to researchers across campus. More information can be found on the webpage https://
+datascienceacademy.ncsu.edu/data-science-consulting/ for the DSA's Collaborative Consulting Corps.
+Steven J. Pierce is associate director at Michigan State University's Center for Statistical Training and Consulting. Among other duties, he
+coordinates the consulting operations by assigning cases to consultants. Expertise in applied statistics, program evaluation, data management,
+8 of 9 BLAKE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+database design and tools and practices for reproducible research have facilitated his research collaborations with partners from a wide vari
+ety of academic disciplines.
+Rachel Levy is the executive director of the Data Science Academy and professor of Mathematics at NC State. She was the principal investi
+gator on the Alfred P. Sloan Foundation grant that supported this work. Levy is a fellow of the Society for Industrial and Applied Mathematics.
+Her writing has been featured in the Princeton University Press Best Writing on Mathematics and has been recognized by the NCTM award
+for linking research and practice. In addition to writing textbooks, scientific articles and career guides, she has written and blogged for Ameri
+can Scientist and founded the internationally recognized blog Grandma got STEM. Her research focuses on mathematical modelling and data
+science education.
+Micaela Parker is the founder and executive director of the Academic Data Science Alliance (ADSA). ADSA is a professional network for aca
+demic data science leaders, practitioners and educators. Through collaborative events and community-driven resource development, ADSA
+advances data science and AI best practices in higher education. Before launching ADSA, Micaela worked for the Moore-Sloan Data Science
+Environments and was an executive director for the University of Washington's eScience Institute where she developed data science research
+and training programs. Based on her years of experience, she has authored several papers offering guidance for emerging data science initia
+tives. She was a co-investigator on the Alfred P. Sloan Foundation grant that supported this work.
+Marianne Huebner is the director of the Center of Statistical Training and Consulting (CSTAT) and a Professor of the Department of Statistics
+and Probability at Michigan State University, East Lansing, Michigan. CSTAT reports to the Office of Research and Innovation and has full
+time staff members as well as graduate students research assistants who collaborate with faculty, research staff and graduate students across
+the university and provide statistical support to external clients. CSTAT website: https://cstat.msu.edu/.
+How to cite this article: Blake, M. R., Griffith, E., Pierce, S. J., Levy, R., Parker, M., & Huebner, M. (2024). Tell your story: Metrics of
+success for academic data science collaboration and consulting programs. Stat, 13(2), e686. https://doi.org/10.1002/sta4.686
+BLAKE ET AL. 9 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.686 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

@@ -1,0 +1,2724 @@
+Ambient Loop Thermal Energy
+Network Feasibility Study
+Results & Conclusions
+Prepared for:
+City & County of Denver
+Office of Climate Action, Sustainability & Resiliency
+
+
+June 2025
+When the Climate Protection Fund was passed by Denver voters in 2021, few people voting for that initiative likely
+imagined this report as one of the products of that decision. However, alongside Denver’s Office of Climate Action,
+Sustainability, and Resiliency’s (CASR) work helping our community members purchase E-bikes, solar panels, or heat
+pumps for their homes – or the countless other direct benefit programs funded by the CPF – our teams are challenged to
+look into the future, to try and figure out what comes next and what will be needed to achieve the City’s goal to be 100%
+carbon-free.
+While projections for emissions from the Electric and Transportation sectors look promising with steady decline over the
+coming decades, the City faces a significant challenge in decarbonizing the Thermal sector, which is the energy used to
+heat buildings and homes. Many areas of the City will be able to progressively decarbonize in favor of existing and future
+electric options including cold-climate air-source heat pumps. The downtown area, as will be explained in more detail
+in the report, faces unique challenges that make this type of transition much more difficult and costly. An even more
+challenging subset of these buildings, in my opinion, are those currently being heated via Xcel’s district steam system.
+Now, it is likely that steam service of some form will continue for the next 20 years or so – transitioning away from that
+source will not be rapid. However, steam customers are already making the choice to leave the system for their own
+business purposes. We also forecast that the cost of natural gas service will increase rapidly in the years to come as
+utilities are required to propose, plan for, and implement clean heat requirements. The writing is therefore on the wall 
+current steam customers require an all-electric alternative in the near term to achieve the City’s zero-carbon goal.
+The report will go into more detail about direct electrification alternatives and the impact on the electric grid. The long
+and short, however, is that direct electrification – forgoing a district energy system in favor of each building electrifying
+it’s HVAC individually – is going to be the most disruptive and expensive option. District energy provides efficiencies and
+economies of scale that are unattainable through other means as well as leverages methods of moving energy around
+other than wires carrying more electrical current.
+An ambient loop as proposed in this report is not the only option, though we do think it’s the best one. There are other
+ways to use the district energy model to deliver heating service to buildings, however, each one has trade-offs. One of
+the primary advantages of our proposal is that we can utilize existing infrastructure to reduce not only cost but also
+disruption – to the buildings themselves but also their neighbors and the general public. For example, each of the
+alternatives requires a new pipe network to be installed below the streets of downtown – requiring the closing of streets
+and disrupting business activity and traffic. There are other trade offs as well. Qualitatively, we can compare a few
+alternatives to the ambient loop. Three potential alternatives follow:
+• All-electric Low-Temperature Hot Water (LTHW): ‘Low Temperature’ in this context is somewhat of a misnomer as
+these systems deliver water at temperatures approaching 100°C/212°F. This system would use heat pumps and/
+or electric boilers to input heat into the system. Some customers may need to modify their systems to accommodate
+slightly lower water temperature compared to steam. A new, two-pipe supply and return network would be required to
+be installed below ground.
+
+
+• Dual-Fuel/Hybrid LTHW: This option is virtually the same as the all-electric, except that a combination of air-source
+heat pump and natural gas boilers would be used for thermal inputs. During most hours of the year, the air-source
+heat pumps would deliver all of the BTUs needed into the system while the gas boilers would kick in during colder
+spells when the efficiency of the heat pumps was lost. This could require significantly less electrical infrastructure to
+support.
+• Green Steam: This option would require no change to the building systems, but could only be driven by electric
+boilers. Although not entirely necessary, if investing in this sort of system, a new distribution network should still be
+built so that more of the energy consumed by the district is delivered to the customers.
+And finally, a note on resilience. This is a topic that can mean many things to many different stakeholders. In our context,
+we need to consider the resiliency of the energy grid. The ambient loop scores the highest in this category because
+it decouples the electrical demand of the system from the outdoor air temperature. As the effects of climate change
+continue to be realized, weather is anticipated to become more extreme – both hotter in the summer as well as colder, at
+times, in the winter. In a system that relies on electricity to deliver heating or cooling at the same time as it is needed, the
+effects of the outdoor air temperature are magnified as the efficiency of the system drops, introducing additional risk of
+grid failure. An ambient loop that is fed by renewable geothermal and sewer heat recovery sources is not impacted by the
+outdoor air temperature and therefore increases the resiliency of the grid at extreme weather conditions.
+Transitioning away from the legacy systems that have reliably served our City for decades will not be easy, but it is
+achievable. Our responsibility is to study and focus on the options that accomplish the goals most cost efficiently, while
+the ultimate goal is to find solutions that are competitive in the open market. This will create an opportunity for our
+business partners and constituents to make the best decisions for themselves that also achieve our larger community
+goals.
+Thank you for taking the time to read our report. I’m looking forward to working together with partners near and far to see
+these ideas come to life. The climate crisis is solvable. Together, we are the ones to solve it.
+Appreciatively,
+Drew Halpern
+Sr. Energy Project Manager
+Mobility and Energy Transitions
+System Type CapEx OpEx Public
+Impact
+Building
+Impact Resiliency
+Ambient Loop $ $
+All-Electric LTHW $$$ $$$
+Dual-Fuel / Hybrid LTHW $$ $
+Green Steam $$$$ $$$
+
+
+Table of Contents
+Project Team 3
+Acknowledgments 4
+Executive Summary 5
+Study Background 7
+Technology Review 13
+Introduction to District Systems 17
+Evaluation of the Implementation of a District Ambient Loop in Denver 20
+District Temperature Control Strategies 24
+Thermal Load Calculations 35
+System Schematic Design 42
+Building Conversions 48
+Cost Comparison of District Scenarios vs. In-Building Electrification 54
+Energy, Carbon Emissions, and Water Reductions 58
+Potential Phased Buildout Plan 60
+Next Steps – Roadmap for Implementation 70
+Conclusion 77
+Appendices 78
+Ambient Loop Thermal Energy Feasibility Study | Page 2
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 3
+Project Team
+City and County of Denver, Office of Climate Action, Sustainability, Resiliency
+Jonathan Rogers
+Drew Halpern, MPA
+Energetics Consulting Engineers, LLC
+Elizabeth Gillmor, PE, BEMP, LC, LEED AP
+Larry Katz, CEM, CMVP, REP
+Leslie Fangman
+CMTA, Inc.
+John Goodin, PE, CxA
+Damian Smith, PE, LEED AP BD+C
+Lucy Dolinsky
+Aschermann Consulting
+Jane Aschermann, PE, LEED AP
+Enwave
+Moeen Salibe, P.Eng., CEM
+Neeraj Raghuram, P.Eng.
+Rashmi Brackenbury, CEM, CMVP, LSS Green Belt
+
+
+Acknowledgments
+The project team would like to acknowledge the support of multiple stakeholders throughout
+this study who provided invaluable information and perspectives on facility requirements,
+utility operations, wastewater management, and emerging technology. We are grateful for
+their willingness to spend their time offering critical insights and direction to help plan for
+sustainable downtown Denver energy services for the decades ahead.
+City and County of Denver
+Office of Climate Action, Sustainability, Resiliency
+Robert Padgett
+Derek Valenti
+Kimber Preece
+Allison Lenhardt
+Daniel Shea
+Community Planning and Development
+Linda Morrison
+General Services
+Tom Ochtera
+Aaron Raph
+Nancy Sterling
+Bryce Schwindt
+Chun Pencari
+Denver Library
+Nick Makowski
+Kevin Delohery
+Denver Art Museum
+Ryan Kelley
+Mark Barker
+Xcel Energy
+Joseph Schwark
+Jason Arellano
+David Podorson
+Metro Water Recovery
+Dan Freedman
+Ambient Loop Thermal Energy Feasibility Study | Page 4
+
+
+Executive Summary
+For over 140 years, downtown Denver’s growth has been enabled by affordable and reliable heating
+– and later cooling – via a district energy system that is powered by fossil fuels. This system allowed
+both building owner/operators and potential lessees to make decisions about their businesses that
+focused primarily on their people and their products or services by ensuring that keeping the heat on
+would not be a deciding factor as to whether their plans could be realized.
+Today, however, Denver faces a turning point for the downtown-area buildings. First, the existing
+steam heating district is rapidly losing its claim to affordability – rates for the service have doubled in
+the last decade, far outpacing costs for electricity and natural gas. Second, the City has committed
+to decarbonizing all the energy systems that serve its residents and businesses. This effort, by
+definition, requires transitioning the heating currently provided by steam to some form of electricity
+based heating for the downtown buildings. That transition is likely to trigger electric system upgrades,
+the scale and cost of which will vary under different scenarios. However, it has become clear that the
+worst-case scenario would likely lead to a parallel reduction in the affordability of electric service or
+compromised service reliability.
+Fortunately, the parallel district cooling system along with Metro Water Recovery’s (Metro) nearby
+Cherry Creek Wastewater Interceptor presents a unique opportunity to transform existing services to a
+sustainable, zero-carbon, and economically viable next generation district heating and cooling district.
+This study examined 14 City-owned buildings to establish the feasibility of converting the existing
+district energy networks to an ambient temperature thermal energy network.
+Two primary challenges shaped the analysis. The first challenge considered whether the conversion
+could be completed without widespread electrical system upgrades in the downtown area. To this end,
+the study establishes the heating, cooling, and simultaneous thermal loads for each of the buildings
+in the study and determines the water-source heat pump equipment needed to meet those loads
+with an ambient loop. Using the heating and cooling load profiles, the study determines that 13 of
+the 14 buildings in the study can be converted to use an ambient temperature loop without requiring
+additional electrical service upgrades in the buildings.
+The second challenge considered whether there are enough thermal resources available to
+maintain ambient loop temperature. The study lays out two models. The first model relies heavily on
+geothermal resources (57%) with the remaining thermal capacity (43%) coming from wastewater heat
+recovery and electric cooling towers or fluid coolers. The second model is more balanced, halving the
+geothermal capacity to 28.5% of the total and introducing an equivalent 28.5% of thermal capacity
+from the existing chilled water system that will remain after the implementation of the demonstration
+project. Therefore, the study also concludes that there are adequate thermal resources available.
+Ambient Loop Thermal Energy Feasibility Study | Page 5
+
+
+The study also discusses other important topics including:
+This study confirms that retrofitting existing buildings to use an ambient loop for heating and cooling
+is a cost-effective strategy as compared to other all-electric alternatives. This report’s conclusions
+represent an opportunity for Denver to deliver on its climate commitments. The technology and
+expertise are available right now, and with the backing of the City and County of Denver and
+important partners, the proposed demonstration project will be successful both in proving the
+viability of ambient loops as tools for urban decarbonization and reestablishing downtown Denver as
+a hub of innovation and enterprise.
+Denver’s history is intertwined with a pioneering spirit dating back to the founding of the city itself.
+That spirit is reflected in the legacy district systems serving downtown that have fueled our robust,
+diversified economy with affordable energy. Transitioning from fossil fuel-based district systems to
+an electrified ambient loop charts a new path towards a more vibrant and sustainable Denver.
+How much will it cost?
+The study provides a detailed assessment of first costs and ongoing utility costs for both the ambient
+loop system as described and non-networked, standalone individual building electric conversions for
+all the buildings in the study. We conclude that the ambient loop conversion, including building and
+district-side conversions can be completed at 25 to 30% of the cost of the non-district alternative,
+including currently available federal and state energy credits and rebates.
+What are the environmental benefits of completing this demonstration project?
+We estimate that overall annual energy consumption of the buildings in the study will be reduced
+56 to 63%, emissions by 52 to 59%, and water consumption by more than 93 million gallons.
+Emissions figures use the most recently available emissions intensity factor for Xcel Energy’s electric
+grid which will improve and approach 100% reduction as the grid continues to decarbonize. As
+of 2022, Xcel Energy reports that the electricity provided to the City of Denver is 42.3% Certified
+Renewable.
+Can the majority of the existing equipment, both HVAC and electrical, be reused in the buildings?
+Yes. In most cases, existing equipment can be repurposed with no or minor modifications. The
+exception to this is the steam-served humidification equipment at Denver Art Museum and Central
+Library.
+Is there a suitable location for a Central Utility Plant (CUP) to serve the ambient loop?
+Yes, the Cherokee Boiler Plant is well situated to provide this service.
+What is the most logical approach to complete the conversions?
+Towards the end of the study, we describe a five phase approach to the execution of the
+demonstration project. And we discuss actionable steps to scale the system beyond the buildings
+included in this study.
+What comes next?
+The last sections of the study describe the non-technical considerations that need to be determined
+so that the demonstration project can move towards implementation.
+Page 6
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 7
+Study Background
+The Need to Explore Alternative Heating and Cooling for Downtown Buildings
+In 2020, then-Mayor Michael Hancock updated the City’s already notable science-based targets
+for greenhouse gas emissions reductions. Based on a 2019 baseline year, Denver will aim to
+reduce carbon-emissions city-wide by 65% by 2030, and then further reduce emissions by 100%
+by 2040. To do this, significant advancements to decarbonize must be made primarily in the three
+largest sectors producing emissions: transportation (33% of all emissions), building electrical use
+(37%), and non-transportation fossil fuel combustion, primarily for heating those buildings (28%).
+The three sources account for 98% of all carbon-emissions that are tracked by the City.
+Reducing emissions from these sectors fundamentally relies on three strategies: (1) increasing
+operational efficiency within those systems, (2) utilizing zero-energy alternatives, and (3) converting
+the remaining energy loads to clean, zero-carbon sources of electricity. In the transportation sector,
+for example, reducing emissions will take many forms – increasing opportunities to carpool or take
+public transportation (increase efficiency), encouraging residents and commuters to walk or bike
+to work (zero-energy alternative), or incentivizing the adoption of electric vehicles (conversion to
+electric source). While the transportation sector is not the focus of this study, these examples can
+serve as a fitting metaphor for the strategies and challenges of decarbonizing all sectors.
+The most significant source of carbon emissions to address now and in the foreseeable future is
+heating loads in buildings. There are two primary fuel sources used for space and water heating in
+Denver buildings:
+Facilities already using electricity for space and water heating do not need to take immediate
+action to address their emissions and will benefit further as Xcel Energy continues to invest in a
+more resilient and decarbonized electric grid. These buildings should look to continue investments
+in increased energy efficiency, lowering their electric consumption and, in turn, lowering their bills
+and hastening the greening of the grid. Transitioning from direct natural gas combustion or indirect
+combustion (including downtown district steam customers) to electric based heating, however,
+poses both physical and financial challenges. Building owners must consider HVAC equipment
+changes, electrical service expansion that may also require additional or reconfigured physical
+space, building efficiency improvements, and potential utility cost increases.
+1A small portion of the natural gas customers may only use natural gas for cooking, however, this proportion is likely small.
+Hydronic HVAC Systems
+Utilize piping systems to circulate water and heat throughout a building. Hydronic chilled water systems typically operate in the 40 to 56°F range, while hydronic hot water systems in the 120 to 190°F range. Hydronic condenser water / ambient temperature loop systems are within the 50 to 85°F range.
+Natural Gas
+The majority of buildings are heated with natural gas, either through forced-air furnaces,
+boilers for hydronic systems, radiant floor heating, ductless systems, direct vent
+heaters, or district steam produced by burning natural gas. According to Xcel Energy’s
+2023 Annual Community Energy Report for the City of Denver, a little more than
+225,000 customers use natural gas for all or part of their heating needs1, out of a total
+of just over 360,000 total utility customers (approximately 62.5%).
+Electricity
+Of the remaining 135,000 homes and businesses in Denver, most use electricity as
+their primary heating source.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 8
+These conversions also have potential grid-level impacts. As more systems are converted to
+electricity, the combined peak winter electric demand to meet the heating loads will increase
+significantly and exceed the current peak summer electric demand. Xcel Energy anticipates
+transitioning from a summer-peaking to a winter-peaking electric utility by 2032.2 This scenario
+will necessitate upgrades and investments to both the local distribution network as well as the
+greater transmission network feeding electricity to the Denver area. Electric grid concerns are
+compounded when the impact of new loads such as Electric Vehicle charging are considered.
+In many cases these electric grid improvements, although potentially costly, will not be prohibitive
+across many portions of the City and may be implemented within the typical timeline of other grid
+upgrades, which will minimize the impact on electric rates. However, this does not hold true for
+the downtown area. There are two related factors that make this geographic area distinct:
+Due to the downtown area’s significant impact on the economic, social, and political health
+of the City and County of Denver, much of the electric grid in this area was developed as
+a networked system that all but eliminates the risk of outages (see Figure 1). While other
+parts of the city’s grid may have limited redundancy, every connection within the networked
+system in the downtown area is ‘triple-redundant’ – meaning that there are, effectively,
+three near-identical grids all built on top of each other with three transformers per electric
+service connection. Equally important, all other upstream components that make up the
+high voltage primary feeds need to be built in triplicate. This is also true for feeder upgrades
+from the point of service all the way back to the substations which feed that area. Any
+increase in service capacity, therefore, is likely to be much more expensive than an upgrade
+in any other part of the city. This means a much longer timeline for grid upgrades, which will
+slow Denver’s decarbonization process, and would impose a greater impact on utility rates.
+The second factor is the placement and design of the electrical vaults that house the
+transformers and primary-side protection devices. These vaults have historically been built
+as integral parts of the buildings they serve. Given that usable floor area is typically one of
+the highest priorities for building owners and developers, the size of these vaults has been
+effectively minimized to meet the electrical design parameters of the building. As in-building
+electrical demand increases as a result of electric conversion of heating (and cooling) along
+with integration of electric vehicle charging equipment, the connected demand load may
+exceed the original design, triggering an expensive and complex expansion to the existing
+vault facilities and the possible loss of usable space within the building. Further, standards
+for vault design and access have changed significantly over the decades, such that any
+vault modifications may also require vaults to be relocated and redesigned, which is likely
+to be cost prohibitive. Furthermore, utility infrastructure upgrades, including construction of
+new substations, will face similar challenges.
+Grid Resiliency Requirements
+Physical Space for Electric Service Equipment
+Primary Utility Distribution
+Includes substations that supply power at high voltage (12,470 or 13,800 volts, e.g.), to customers over lines called primary feeds. Transformers convert (step-down) high voltage and connect the lower voltage for customer end use over secondary feeds typically between 208 (residential) and 480 (commercial) volts.
+Affordable Housing
+Electrification Case Study
+An existing affordable housing project in Downtown Denver investigated the potential to convert their building to all-electric air source heat pumps during a recent
+remodel. Full electrification required such a significant upgrade of the existing transformer vault that it would have necessitated losing an entire corner of the building, which would have meant the loss of nine affordable dwelling units.
+2See Colorado Public Utilities Commission Proceeding No. 24A-0547E, Hearing Exhibit 103, Direct Testimony of Zachary D. Pollock.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 9
+Figure 1. Approximate boundaries of the downtown Denver area redundant network
+Transitioning to a new way of heating and cooling downtown buildings will require time, planning,
+and financial investment, However, avoiding electrical service upgrades and the corresponding
+feeder and vault upgrades for downtown buildings is possibly the most important factor to
+successfully realize full decarbonization of the downtown area. While other ongoing work seeks to
+determine pathways for electrification in downtown buildings currently heated directly by natural
+gas, the scope for this study is limited to the subset of downtown buildings heated via Xcel Energy’s
+district steam system. District steam buildings face an extra challenge that natural gas heated
+buildings do not: a dramatic increase in steam utility rates and operational costs over the past
+decade. These rising rates have placed an added strain on building owners’ operating budgets
+and have driven a significant number of buildings to depart the steam system purely as a business
+decision. Some of these buildings, particularly those that are cooled using in-building chillers or
+direct expansion (DX) cooling, may be able to convert to electrified heating via air-source heat
+pumps. However, for those buildings that cannot electrify their heating given their current electrical
+service constraints, the only sensible option has been to install new natural gas-fired equipment
+and infrastructure – investments that only entrench our reliance on natural gas and make
+achieving the City’s zero-carbon goal more difficult.
+Additional Drivers: Energize Denver Ordinance
+In 2021, the Denver City Council passed the Energize Denver Ordinance, with the goal of reducing
+energy use from buildings. Developed hand in hand with facility managers, building owners
+and community experts, the ordinance sets Energy Use Intensity (EUI) targets for buildings
+25,000 square feet and larger. It also sets prescriptive performance requirements for buildings
+5,000-24,999 square feet. Energize Denver compliance is determined by comparing the EUI of
+conditioned building space to an EUI target for the facility based on use type (multifamily, office,
+restaurant, etc.).
+Additional Energize Denver Performance Requirements
+Learn More
+Energy Use Intensity (EUI)
+The total annual energy use of a facility per gross floor area (sq. ft.).
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 10
+The City has previously acknowledged the difficulty for District Service customers (those on Xcel
+Energy’s district steam and/or chilled water networks) to meet EUI targets in an economically and
+technically feasible way. Current guidance from the Energize Denver team states, “Xcel Energy is
+studying how to decarbonize the downtown steam loop and make plans for its long-term future.
+CASR encourages buildings on this steam loop to delay replacing expensive equipment on this
+system until long-term plans have been made at a system level.”3
+The current compliance status and required energy reductions for the 14 buildings to meet the
+2030 target EUI limits are listed in Appendix A. The average EUI reduction from 2023 levels
+required to comply and avoid financial penalties is 31.5%. Accounting for actual building size, this
+equates to a total energy reduction of just over 34%.
+Additional Drivers: Connection to Mayor Johnston’s Goals
+Mayor Mike Johnston recently released his office’s 2025 goals, continuing his commitment to
+a Vibrant, Affordable, and Climate Resilient Denver.4 While the work reflected in this report will
+not be completed until at least the second half of this decade, this feasibility study sets new
+foundations upon which to build solutions to achieve those goals over the long-term.
+3CASR e-mail memo, 29-Jul-2024.
+4Denver’s Citywide Goals for 2025, https://www.denvergov.org/Government/Agencies-Departments-Offices/AgenciesDepartments-Offices-Directory/Mayors-Office/2025-Goals
+Vibrant
+The Vibrant goal seeks to develop comprehensive planning to drive strategic
+investments across our neighborhoods. Reimagining the downtown area district
+steam and chilled water thermal networks will place Denver at the leading edge of
+urban decarbonization, further raising the City’s national and international profile and
+encouraging like-minded businesses and investors to relocate to Denver.
+$ Affordable
+Affordable Denver speaks to developing innovative solutions to close the affordability
+gap. Finding a way to reverse the recent trend of increasing district steam costs and
+providing a realistic pathway to fully decarbonized, adaptive-reuse projects that convert
+underutilized commercial properties to multifamily and mixed-use may unlock new
+affordable housing potential in the downtown core.
+Climate Resiliency
+By focusing on Climate Resiliency, the Mayor is directing the City to prepare for a
+future with hotter summers and generally more unpredictable weather and air quality
+conditions. This study can be the model for how to reduce the strain on the electric grid
+from decarbonization efforts in a way that increases system reliability and resilience,
+The findings may also be applied to non-downtown settings - for example, increasing
+the number of homes with air-conditioning in already grid-constrained neighborhoods.
+These efforts would directly benefit resident comfort and health by preventing the need
+to keep windows open and introduce potentially harmful contaminants during extended
+wildfire seasons.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 11
+Denver is positioning itself at the forefront of innovation and investment in municipal-led, climate
+forward action. Denver would be the first American city of its size to address the underlying
+carbon footprint of its district energy systems in a substantial way. This report proposes not just
+building a new district energy system but setting an example for other cities looking to be leaders
+in decarbonization.
+Additional Drivers: State-Mandated Electric Grid Decarbonization
+The Colorado General Assembly has enacted a series of new laws in recent years to put the
+state on a path to economy-wide decarbonization by 2050. Senate Bill 19-236, enacted in 2019,
+requires investor-owned utilities, including Xcel Energy, to submit Clean Energy Plans (CEPs) that
+will achieve 80% carbon reduction in generation and transmission of electricity by 2030 based
+on a 2005 baseline, and further achieve 100% carbon reduction by 2050. Xcel Energy has made
+significant progress towards achieving these goals to date. Xcel Energy reported that more than
+44.2% of all electricity supplied to customers in Colorado in 2023 came from certified renewable
+sources. Further, Xcel Energy’s CEP Phase II was approved by the Public Utilities Commission
+(PUC) in January of 2024 to increase generation capacity with 6,100MW of clean energy
+sources and put the utility on a trajectory to deliver in excess of 80% carbon-free electricity by
+2030. Increases in electric demand beyond the capacity originally planned in Xcel Energy’s CEP
+may delay the timeline for achieving a zero-carbon electric grid in Colorado, but recent activity
+indicates Xcel Energy’s commitment to that end.
+With these overlapping challenges and goals in mind, this study sets out to answer the following
+question:
+Question:
+Is there an electric alternative to district steam that is likely to avoid widespread grid and
+vault upgrades, while also maintaining and improving grid resiliency? Is it possible to also
+reduce customer’s ongoing utility costs?
+Answer:
+The study’s findings answer in the affirmative: there is an electric alternative that meets
+these requirements and that solution is a district ambient loop system.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 12
+Figure 2. District ambient loop study timeline
+Facility Manager Roundtables June 11, December 4
+*
+District Thermal Stakeholder Status Meetings
+April 3, June 26, August 21, October 29, December 19
+*
+Project Milestones Apr May Jun July Aug Sept Oct Nov Dec Jan Feb
+Project Kickoff
+Loads & Equipment Analysis
+Conceptual District Design
+Building Conversion Phasing Analysis
+Central Utility Plant Design
+ROM Cost Estimation
+8760 O&M Model
+District Thermal Final Report
+District Ambient Loop Study Timeline
+The District ambient loop feasibility study commenced in April 2024 and was completed in
+February 2025. In addition to continuous collaboration with representatives from CASR, Metro
+Water Recovery, and Xcel Energy, multiple meetings were conducted with stakeholders from
+across the city, including the facility managers of the 14 buildings included in this study. These
+meetings informed the ultimate recommendations and structure of this report. An outline of
+various activities and timelines is included below.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 13
+Technology Review
+There are many options for building system electrification. This section describes the different
+strategies, along with the pros and cons of each.
+Electric Heating Options
+Electric space heating can be accomplished in two fundamentally different ways. Electric
+resistance heating is the most direct way and has a marginal to significant increase in thermal
+efficiency compared to natural gas heating. Just as an incandescent light bulb uses the resistivity
+of the filament to create light, the byproduct of forcing electricity through a resistor is heat
+generation. Using electric resistance heating, heat can be generated at the point of use (blowing
+air over a hot coil directly into a conditioned space), at a central point using forced air to distribute
+throughout the building or utilizing an electric boiler to heat water that is pumped to end users
+throughout a building. Each of these options has advantages depending on the use case, but they
+all operate at approximately 100% efficiency – that is, all electrical energy put into the system
+results in an equal heating energy output at the point of heat generation. In the industry, and
+throughout the rest of this report, this is described as having a Coefficient of Performance (COP)
+of 1.0.
+For comparison, the most state-of-the-art and efficient natural gas furnaces and boilers achieve
+an efficiency of 97% (COP 0.97) under optimal conditions, with the majority of actual units in
+service operating below 80% efficiency (COP 0.8). In Denver, even new equipment cannot be
+expected to operate at rated efficiency, since natural gas systems are also further affected by
+altitude, typically estimated at 3-4% reduction per 1,000 feet in altitude.
+Although 100% efficiency for electric resistance may sound ideal, especially relative to the
+diminished performance of natural gas systems at Denver’s altitude, this level of efficiency is still
+inadequate for modern HVAC systems and would not be compliant with energy codes. Take, for
+example, a theoretical 25,000- square -foot office building. Using ASHRAE Standard 90.1 Energy
+Standard for Buildings to estimate both heating loads and all other building electrical loads, the
+total peak heating load of this theoretical building is 750,000 BTU/hr which is equivalent to 220
+kW of peak electrical demand at a COP of 1.0. All other loads in a typical office building (i.e.,
+domestic water heating, lighting, computers, etc.) can be estimated at 86 kW peak electrical
+demand. Therefore, 100% efficient electric heating for this example building would increase
+the buildings’ peak demand by a factor of 3.5. When sizing electrical services and primary
+distribution equipment, the National Fire Protection Association (NFPA) Standard 70 National
+Electric Code typically requires oversizing the service by 30% over the total design load, which
+means increasing actual demand by a factor of 3.5 would require rebuilding the electrical service
+and likely many upstream components. Heating utility costs would also increase by 300-400%.
+Coefficient of Performance (COP)
+The ratio of cooling or heating energy produced to the required input energy.
+Energy Efficiency Rating (EER)
+The ratio of cooling capacity (in BTU per hour) to power input (in watts) at an outdoor air temperature of 95°F.
+Seasonal Energy Efficiency Rating (SEER)
+The average ratio of cooling capacity (in BTU per hour) to power input (in watts) over the range of outdoor temperatures during cooling season.
+The American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) Standard 90.1
+Defines HVAC
+equipment requirements and emphasizes the use of energy-efficiency, proper sizing, and advanced control strategies to optimize system performance. ASHRAE is a professional association that seeks to advance heating, ventilation, air conditioning and refrigeration systems design and construction.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 14
+To achieve better performance, higher COPs, and compliance with energy codes, heat pumps
+can be utilized to heat buildings. The value of heat pumps, and where their name comes from,
+is that these devices effectively “pump” (i.e., move) heat from one space to another – or, more
+accurately, from one volume of air or fluid to another. Heat pumps are classified primarily by
+the “source” of the heat that they pump – either air-source or water-source. Air-source heat
+pumps (ASHPs) operate like the standard air conditioner already present at many homes and
+commercial facilities, but function bi-directionally, to provide both cooling and heating. In heating
+mode, an outdoor unit draws heat from the air outside of the facility and pumps that heat into the
+building. In cooling mode, this process works in reverse, drawing heat out of the indoor spaces
+and rejecting it to the outdoor space.
+Water-source heat pumps (WSHPs) perform the same heating and cooling functions except
+rather than interacting with the outside air to extract or reject heat, they draw heat from an
+external source of water. The mechanical refrigeration process, as shown in Figure 3, is used by
+a heat pump to increase the amount of usable heat energy drawn from a source, which can be
+several times higher than the electric energy consumed. This results in heat pump COPs that are
+greater than 1.0, reducing the overall electrical demand to meet the required heating load. The
+same process is done in reverse (cooling mode) to pump heat out of a building and back to the
+water which acts as a heat sink, effectively cooling the conditioned space.
+Mechanical Refrigeration Process
+In the mechanical refrigeration process, liquid refrigerant flows through an expansion valve into the evaporator. In the evaporator, the refrigerant absorbs heat and turns into a gas. This gas is then compressed, increasing its pressure and temperature, and sent to the condenser to release heat. As the refrigerant cools in the condenser, it turns back into a liquid, and the cycle repeats.
+The heat absorbed in the evaporator can be released to the air for cooling or used indoors for heating. This refrigeration process is used in air conditioners, heat pumps, refrigerators, supermarket cases, cold storage warehouses, and more.
+Figure 3. Mechanical refrigeration cycle and components
+Nominal Outside Air Temperature (47°F)
+Denver Typical Winter Low Temperature (-25°F)
+System Type Heating
+Efficiency
+Heating Demand (kW)
+Heating Efficiency
+Heating Demand (kW)
+Natural gas furnace 0.65 0 0.65 0
+Electric resistance 1.00 220 1.00 220
+Hybrid ASHP / electric resistance 3.50 85 1.00 220
+Water source heat pump 5.00 45 5.00 45
+Table 1. Comparison of the coefficient of performance (COP) for different heating sources at nominal temperatures vs.winter temperatures
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 15
+Figure 4. Typical air source heat pump capacity vs. outdoor temperature chart
+Source: NEEP 2024, modified by PNNL
+Air Source Heat Pumps ASHPs work well in most climates if the outdoor air is within the operating
+range of the heat pump. As the outdoor air temperature drops, the capacity of the heat pump
+coil diminishes, and a supplemental heating source (such as an electric resistance coil) must be
+used to meet loads. On moderately cool days when the outdoor temperature is 50°F, ASHPs can
+operate at COPs ranging from 2.5 to 3.5, and no supplemental heat is needed. This would allow
+the 25,000 square foot typical office building cited in the previous example to reduce its peak
+heating load to 60-85 kW of electrical demand under those outdoor conditions.
+Many ASHPs built specifically for cold climates can operate at outdoor air temperatures down
+to -22°F but are typically only efficient down to the 5 to 20°F range and are not available in
+all equipment capacities or types. As the outdoor air temperature approaches the lower limit
+of a specific unit, and the capacity of the heat pump to extract more heat from the outdoor
+air diminishes (as shown in Figure 4 below), the COP decreases linearly, until the cutoff point
+where the heat pump can longer provide any heating capacity, and the supplemental heating
+element must carry the full heating load. At this point, assuming the supplemental heat source
+is an electric resistance coil, then the COP drops to 1. Regardless of the efficiencies at higher
+temperatures, ASHP-based systems that require supplemental heating sources still have the
+same electrical service and grid problems as electric resistance systems.
+For the purpose of equipment selection in project design, Denver’s heating design day temperature is 3°F, meaning, some additional efficiency above COP 1.0 will remain in the ‘design day’ scenario. However, the heating design day temperature is meant to ensure the comfort and safety of the building occupants and does not consider the impacts to the grid when the actual temperature is below the design day temperature. For grid planning, this worse-case scenario based on real historical temperature data is critical to preventing grid failure when maintaining heating and cooling functionality in buildings is most critical.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 16
+While there are many cold-climate heat pump options that can meet heating loads at very low
+outside temperatures (-22°F) without the need for supplemental heating, these equipment
+options are currently limited to relatively low heating capacities and are only available in split
+system configurations, which would be inadequate for most commercial buildings. This is of
+particular significance for larger systems, like the rooftop units (RTUs) that serve large commercial
+buildings in Downtown Denver. The heat pump RTU systems that are currently available for
+these conversions typically have a low temperature operational limit of 30°F to 40°F outside
+air temperature, meaning that the ASHP equivalent of existing natural gas fired rooftop units will
+operate on their supplemental heating sources for at least a portion of most days during Denver’s
+winter, and the heat pump coil will have limited effectiveness.
+Widespread adoption of all-electric ASHPs to effectively heat large buildings is simply not
+feasible. While many efficiencies are gained from heat pumps over most of the year, the
+electrical upgrades must be designed to accommodate the worst-case operational times, when
+the heating is provided by 100% supplemental heating. In Denver, this worst-case scenario is
+-25°F. The electric grid would have to undergo significant expansion due to winter demand from
+supplemental heating, which is very cost-inefficient and would require considerable amounts of
+land for new substations.
+WSHPs work in a similar fashion to their air-source sisters. However, the temperature of the
+source water is independent of the outdoor temperature, such that the WSHP operates at a
+much higher and more consistent COP. When kept at the optimal entering water temperature, a
+WSHP can operate at COP of 5 or better in heating with even higher COPs in cooling or hybrid (i.e.
+simultaneous heating and cooling) operating modes. The translates to a peak heating electrical
+demand of just 45 kW for the 25,000 square foot building example – regardless of the outdoor
+weather conditions. The reduction in peak electrical demand means that the capacity required
+from the electric grid is proportionally reduced to meet the heating and cooling needs of those
+buildings.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 17
+Using any sort of heat pumps for buildings currently served by district systems will introduce
+more refrigerants into the building’s environment. Here, again, the use of WSHPs over ASHPs is
+significant:
+• ASHPs rely on running refrigerant lines from the outdoor units to the indoor compressor(s).
+There is a limit to how far refrigerant lines can be run within a building, and water has no
+such limitation. This means water-source heat pumps are more feasible and more cost
+effective than air-source heat pumps for tall buildings; an important consideration in an urban
+downtown environment.
+• Water has a virtually negligible Global Warming Potential (GWP), compared to modern A2L
+refrigerants, which still have a GWP of 150-300 times that of CO2 (GWP of 1).
+• While modern refrigerants have a much lower toxicity level and flammability level than older
+refrigerants, water has neither risk.
+• Because of the toxicity and flammability of A2L refrigerants, designing for placement of
+refrigerant lines introduces additional design complexities over water lines, as referenced in
+this Denver Building Code Policy. Refrigerant lines will be much more difficult to retrofit into
+existing buildings than water lines.
+• Existing buildings that use older refrigerants with GWP higher than 700 will not be able to
+reuse those lines for heat pumps, because equipment will no longer be designed for that
+refrigerant. Existing refrigerant lines may not be reusable for modern refrigerants.
+Dual-fuel heat pumps, which utilize natural gas instead of electric resistance for the
+supplemental heating source, are an alternative option that will have less of a grid impact,
+and are easier to implement in existing buildings, since the electric service does not need
+to accommodate an electric resistance coil sized for the worst-case winter design load. This
+strategy also keeps the utility costs comparable to those of an all-gas system. However, there are
+drawbacks to this option:
+• This type of system is not currently permitted under Denver’s Energy Code in new construction
+or change-of-use applications.
+• The building cannot fully eliminate its reliance on natural gas, a compromise that inhibits
+Denver’s ability to meet its carbon reduction goals. At best, this is a stopgap measure.
+• Many buildings served by district steam may not have any or very minimal existing natural gas
+service which would need to be expanded to meet the new peak gas demand. While natural
+gas service upgrades are generally less expensive than electrical service upgrades, this still
+adds increased cost and complexity for the relatively small number of hours per year during
+the coldest weather that gas heating will be active.
+Refrigerant Line Limits
+In a high-rise building, the limits for refrigerant lines are typically determined by the maximum allowable vertical lift, usually ranging between 50 to 100 feet depending on the system size and refrigerant type, with a strong recommendation to use larger line sizes to manage pressure drops and ensure proper system performance at high elevations.
+A2L Refrigerants
+A class of refrigerants
+that are mildly flammable, have low toxicity, and have a low Global Warming Potential
+compared to many older refrigerants. Starting January 1st, 2025, the Environmental Protection Agency (EPA) will require all new air conditioning systems to use refrigerants with lower environmental impact. Most manufacturers will turn to A2L class refrigerants for modern heat pumps.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 18
+Introduction to District Systems
+Many large cities like Denver have used district systems for heating and cooling. A district system
+uses a central plant that generates steam or chilled water, which is then distributed through a
+network of underground pipes to provide heating or cooling for multiple buildings in a designated
+area, eliminating the need for individual boilers and chillers in each building. The key advantage
+to district systems is that developers, property owners, and building managers can save money
+on energy, have a more reliable system, and avoid having to operate and maintain heating and
+cooling systems in each individual building. The disadvantage is that these same building owners
+are tied to overall system operating efficiencies and costs that are largely out of their control.
+History of District Systems in Denver
+The Denver City Steam Heating Company began delivering steam to downtown Denver in
+November 1880. This makes it the oldest continuously operating commercial steam heat system
+in the world. The original system was a network of steel pipes insulated with hollowed-out logs
+throughout downtown Denver. After many modernizations and upgrades, the system is now
+operated by Xcel Energy. The Xcel Energy steam plant on Wewatta Street uses 85% efficient
+natural gas boilers to heat almost one million gallons of water per day to create steam that travels
+through underground pipes to district steam customers.
+Once steam enters a building, its pressure is reduced for distribution through riser pipes to
+radiators for space heating, or to heat exchangers for hydronic space conditioning, domestic hot
+water production, humidity control, or ice and snow melt purposes. The district steam is kept
+separate from the building-side systems in these heat exchangers. After steam passes through
+a heat exchanger, 150°F to 180°F water, or condensate, remains. This condensate can be
+repurposed for additional heating or, more commonly, mixed with city water and drained to the
+city sewer system. In discussions related to this feasibility study, Xcel Energy has estimated that
+the steam system has thermal losses of 30% in the distribution network between the steam
+plant and the customer - that is, not including the previously mentioned combustion losses
+or condensate waste. Overall system efficiency can, therefore, be no better than 60% when
+combining combustion and distribution losses and even worse in practice considering condensate
+waste. The system emits more than 67,000 metric tons of CO2 equivalent (MTCO2e) annually,
+accounting for 3.3% of all emissions in the city from natural gas.
+In 1996, Xcel Energy entered the district chilled water business, currently generating 40,000,000
+ton-hours of cooling per year via electric-powered, traditional water-cooled chillers. A dedicated
+Chilled Water Center was built in the heart of downtown Denver, disguised to look like an eight
+story office building, incorporating two ice tanks with storage capacity of 75,000 ton-hours of
+cooling. Ice is made at night when system demand and costs are low and melted during the day
+to provide cold-water service to buildings, where customer-side distribution pumps control water
+flow to air handler units (AHUs), fan coil units (FCUs), or other terminal devices for air conditioning.
+This load-shifting capability reduces electrical grid impacts by approximately 12 MW of peak
+demand. The system currently generates approximately 15,300 MTCO2e, accounting for 0.5% of
+all emissions from non-transportation-related electricity consumption in the city.
+Denver’s Historic District System
+Learn More
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 19
+Today, 110 buildings are served by Xcel Energy District Steam, and 45 customers are served
+by District Chilled Water services. The current district energy model in Denver is a dual system
+thermal energy network – that is, two completely independent systems. A major drawback of
+this model is that in the case of simultaneous heating and cooling, which is a common necessity
+in large commercial buildings, energy must be consumed to meet both loads. There is no
+opportunity to use the excess heat in one part of the buildings to heat another part of a building
+that needs it.
+How an Ambient Loop is Different from Traditional District Systems
+A district ambient loop thermal energy network (TEN) enables both heating and cooling to
+buildings using a single water source. In this single-source model, buildings utilize WSHP
+equipment to either draw heat from the ambient loop when in heating mode or reject heat to the
+loop when in cooling mode. See Figure 6 for a representative schematic of the proposed system.
+Since heating and cooling are accomplished via the same thermal source, the TEN only needs to
+supply heating or cooling capacity to meet each building’s net heating or cooling load. When a
+building is simultaneously heating and cooling, excess heat in one part of the buildings (cooling)
+goes into the building’s distribution system that connects the WSHPs to the terminal HVAC
+units. Those BTUs can then be sent to other parts of the building that need them (heating) and
+the ambient loop only needs to provide the BTUs to cover the difference between the heating
+and cooling load. In practice, this is not a pure one-for-one relationship as some of the heat
+transfer comes from the consumption of electricity in the WSHP compressor and the WSHPs will
+not be operating with identical COPs in heating and cooling. This functionality results in a TEN
+that is fundamentally more energy efficient than the combination of two independent systems,
+discussed in more detail in the next section.
+Figure 5. Existing district thermal energy services
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 20
+The ambient loop will be operated to maintain a loop temperature within a range of 50°F to 80°F
+to optimize energy efficiency of WSHPs and other HVAC equipment used in the district energy
+system. For example, during cooling season the district loop temperature will typically operate
+at the higher end of the range. Lowering the district temperature when WSHPs are primarily in
+cooling mode will decrease the lift (or work) that the WSHP incurs which correspondingly will
+improve the COP. In other words, manipulating the district temperature to decrease WSHP lift
+will improve efficiency and decrease the electrical demand at the buildings. The same is true in
+heating modes by providing ambient loop temperatures closer to the top of the range which will
+reduce in-building electrical demand. This loop temperature manipulation effectively transfers
+the electrical demand from the buildings to the district – however, the district temperature
+modulation can be decoupled from the demand for heating or cooling in the buildings. That is, the
+loop temperature can be lowered in the middle of the night to reduce building demand the next
+afternoon during cooling season, with the opposite also being true during heating season.
+Figure 6. Schematic diagram of proposed Denver district ambient loop system
+Active vs. Passive Sources
+This water temperature modulation within the ambient range can be accomplished with active
+sources such as electric boilers – which would reduce the net COP of the boiler-heat pump system
+– or by passive sources such as geothermal systems (also referred to as geo-exchange). Various
+technologies to accomplish this temperature control are discussed further in the next section.
+The consideration of active vs passive sources for water-source systems is an important one,
+because in a large-scale, multi-building, district type system, these temperature moderating
+inputs would be borne by the district itself. The more passive systems that can be incorporated,
+the more efficient the overall system will be. It also means individual buildings can reduce their
+reliance on their own active systems, reducing the costs and impacts of system implementation.
+This leads to an additional question to be answered in this study:
+Active Sources
+Active heat energy is generated using electricity or fuel.
+Passive Sources
+Passive heat energy exists in the air, water, refrigerant, or other substance capable of heat transfer in which its temperature is lowered or raised.
+Is it possible to deliver all district inputs via passive sources? If not, what strategies can
+be employed to minimize and optimize the active sources needed?
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 21
+Evaluation of the Implementation of a
+District Ambient Loop in Denver
+This study investigates a group of City-owned facilities that encompasses a range of building ages
+and occupancy types. It examines the possibility of providing widespread heating and cooling
+services to a diverse group of buildings, leveraging energy sharing and passive sources to their
+fullest extent. These 14 buildings are located at the south end of the existing Xcel Energy District
+piping network and are situated in the Civic Center neighborhood.
+District Central Utility Plant Opportunities
+The first thing that must be considered in implementation is the location of a District Central
+Utility Plant.
+The Cherokee Boiler Plant (1350 Cherokee Street) was constructed in the 1930s and served
+as the original boiler house for the Capitol Hill area steam system, fitted with three coal-fired
+boilers that were later converted to natural gas. The plant is currently decommissioned with only
+district steam piping that passes from the Elections Building to the Police Admin campus remain
+in service. We propose to reclaim and repurpose this historic building to serve as the central
+utility plant (CUP) for the ambient loop. The CUP is both the brains and brawn of the district-side
+operation. Here, the district will receive heating and cooling load information from customer
+buildings, manage ambient loop temperature and flows, and prepare for future extreme weather
+by storing excess thermal capacity to minimize overall electric demand in customer buildings
+when other demands on the electric grid is expected to be high.
+Figure 7. Interior of Cherokee Boiler Plant
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 22
+The Cherokee Street location is ideal for several reasons. The plant is located at the opposite
+end of the district chilled water piping network from the current Xcel Energy district chilled water
+plant. Starting the ambient loop conversion from Cherokee will prevent any existing chilled water
+customers from losing service prior to their conversion and enable a logical, phased approach
+to system implementation and expansion. Additionally, the existing steam distribution piping is
+connected directly to the Cherokee plant, while chilled water piping passes nearby and can be
+extended to the plant via the adjacent alley or Police Campus parking garage. Finally, repurposing
+the existing plant aligns with project goals to minimize costs while maximizing the reuse of
+existing resources. Significant abatement and demolition will be required to utilize the plant; the
+full work scope will be determined in a future design effort.
+Distributed district systems in the form of smaller satellite ‘plants’ that serve similar purposes
+to the CUP could be utilized in future phases. However, considering the location of geothermal
+resources and existing CHW plant north of Colfax Avenue at the intersection of 15th Street and
+Glenarm Place, the central plant approach makes the best use of the existing district systems and
+distribution.
+Independent TEN Design vs. Maintaining Connection to Remaining Xcel Energy Chilled Water Loop
+The primary system presented in this report is a fully independent ambient loop that will utilize
+its own piping network and heat rejection equipment. By phasing the transition of the existing
+Xcel Energy District Chilled Water piping to serve the ambient loop system, the capital costs,
+construction schedules, and impact on occupied buildings can be controlled and minimized.
+A second option presents the opportunity to supplement ambient loop heating and cooling
+capacity with the existing District Chilled Water system. By connecting the ambient loop piping to
+the existing Chilled Water supply and return lines, additional cooling capacity could be added to
+the system. This capability can be utilized during the phased construction process to rebalance
+mismatched district versus building-side loads. This could also be an integral part of the final
+ambient loop implementation to limit the amount of required heat rejection equipment. Both
+scenarios are outlined in more detail in this report’s System Schematic Design section.
+Impacts of All-Electric Conversions on Building O&M
+The introduction of customer-sited water source heat pumps will also add a level of complexity to
+building operations and require training programs from vendors and/or industry professionals.
+However, the implementation of water source heat pumps should also include deployment of
+advanced controls that provide performance data to proactively address operational issues,
+minimize service calls, and reduce annual maintenance costs over time.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 23
+Can older refrigerant lines be repurposed for air source heat pumps?
+While it is technically possible to reuse old refrigerant lines for a newer refrigerant, it’s
+generally not recommended as the old lines may contain contaminants from the previous
+refrigerant and oil, and may not be designed for the higher pressures of newer refrigerants,
+making it best practice to replace them when switching to a new system.
+5[1] “What You Can Do About the HVAC Technician Shortage,” March 9, 2023. https://www.rheem.com/air-conditioning/ articles/what-you-can-do-about-the-hvac-technician-shortage/
+The changes in operation and complexity of new district solutions are offset by eliminating
+redundant equipment required to utilize two separate district systems – steam and chilled water
+– compared to a single ambient temperature network. Buildings currently served by both District
+Steam and Chilled Water systems will replace two heat exchangers with one bank of WSHPs.
+Buildings served by only one district system will remove existing boilers or chillers. Operators of
+those buildings will see a corresponding reduction in maintenance tasks involving boiler tube
+cleaning, burner combustion testing and tuning, compressor replacements, and related repairs
+over the course of the legacy equipment’s life cycle.
+The introduction of WSHPs will impact personnel and initial direct costs but may also result in
+job growth and broader career options for maintenance workers in Denver. There is also potential
+for growth in entry-level positions due to the aging technician workforce across the country.
+In 2023, according to Jose De La Portilla, Senior Manager of Education & Training at global
+HVAC manufacturer Rheem, “The industry says we are somewhere around 65,000 technicians
+short of being fully staffed. With that shortage and knowing that the average retirement age for
+technicians is around 65, but the average age of the industry is around 52 to 55, we are going to
+be hurting in five to 10 years.”5
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 24
+Opportunity to Scale
+The energy efficiency, financial performance, and reliability of district energy systems are all
+dependent on system size and scale. As systems grow larger, the collective investment in
+infrastructure reaches critical mass and encourages additional end users and investment. A
+financially healthy ambient loop will offer reliable heating and cooling at competitive prices while
+ensuring district operators realize enough revenue to maintain and expand the system. Within this
+context, the potential to scale the ambient loop is substantial, primarily due to the concentration
+of large buildings in the downtown area and the existing District Chilled Water distribution
+infrastructure.
+While the 14 buildings in this study encompass 5.5 million square feet of occupiable space,
+the existing District Chilled Water system is currently connected to 12.5 million square feet of
+building space and could be expanded to adjacent buildings representing an additional 19 million
+square feet. In total, more than 37 million square feet of prime office, residential, municipal,
+and retail space is either already connected to or within close proximity to the existing chilled
+water piping, meaning that a significant percentage of downtown real estate could connect to the
+proposed district ambient loop with relatively minimal street-level disruption or investment in new
+piping infrastructure. Further consideration and analysis of the existing District Steam system
+will identify additional opportunities to expand the ambient loop system. Several planned large
+development projects in downtown Denver present an excellent opportunity to design specifically
+for district energy systems, which will diversify thermal loads and expand the network’s potential
+reach.
+District Chilled Water
+The District Chilled Water system was prioritized based on the findings of the December 2023 Denver District Steam and Chilled Water Systems Ambient Temperature Ground Loop Feasibility Study completed by Salas O’Brien filed as part of Xcel Energy’s Public Utility Commission Proceeding No. 22A-0382ST.
+This study concluded that while portions of the existing district steam system could be repurposed to ambient loop operation, the single pipe nature of the system limits overall capacity. The existing 24” supply and return district chilled water piping does not suffer the same limitations.
+Furthermore, this study confirms that retrofitting existing buildings to use an ambient
+loop for heating and cooling is a cost-effective strategy when compared to other all
+electric alternatives, enabling the expansion of connections to the central plant, which
+would, in turn, further increase the overall efficiency of the district system and provide
+opportunity for revenue generation for the system operator.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 25
+District Temperature Control Technologies
+An ambient loop has a distinct advantage in that passive systems can be used to maintain the
+desired loop temperature. The more passive sources that can be used, the less active systems
+need to be deployed, and the more energy efficient the district energy system can become.
+Passive Source: Geothermal Systems
+Geothermal systems reject heat to the earth during summer cooling months and draw heat during
+winter heating months via a series of geothermal wells connected together to make a “wellfield.”
+A common misconception is that geothermal wells are continuously drawing heat from below the
+earth’s surface via tectonic or hydrothermal sources. In fact, traditional building geothermal wells
+are drilled to depths between 400- and 1200-feet, where the earth’s temperature is relatively
+stable. At these depths, the temperature varies only to 4°F, with a typical average temperature of
+55° to 65°F in the Denver Basin. Once the wellfield has been put in place, the surface area can
+be developed and utilized for other purposes – whether to add a new park or build multifamily
+housing.
+Geothermal wellfields can be designed as “open-loop” or “closed-loop” systems. In open-loop
+systems, water is extracted from an aquifer via a well and passed through a surface-level heat
+exchanger. This heat exchanger transfers heat to or from the loop water as necessary. The water
+is then returned to the same aquifer by injecting it through another well. Aquifer water is not
+exposed to any contamination from the surface, as the wells are sealed and protected. These
+systems are suitable for an urban environment with limited surface area, offering a large thermal
+capacity depending on the amount of water that can be extracted. Other variations on open-loop
+systems locate the heat exchanger at the bottom of the well to minimize potential contamination
+and increase system capacity. However, based on conversations with the Colorado Department
+of Water Resources, the Denver and Arapahoe Formation aquifers closest to Downtown Denver
+present unique geological challenges and may not be suitable for an open loop system.
+Additionally, current Colorado regulations do not specifically address open loop geothermal, and
+further study is needed to establish rules and codes governing its use.
+Figure 8. Cross-section of Denver-area geologic strata
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 26
+To avoid these complications, the ambient loop geothermal system should be a closed-loop
+system that circulates water through grout-encased high-density plastic piping and uses the
+earth’s relatively constant temperature to exchange heat with the ambient loop.
+An ambient loop system would be designed to use a geothermal field to balance the temperature
+of the loop. The geothermal wellfields can then be used to bring the loop temperature back to the
+desired setpoint simply by pumping more fluid through them.
+An initial investigation of potential space for the geothermal wellfields in the South of Colfax area
+of downtown was conducted, and multiple surface level parking lots were identified that provide
+the best balance of available land and geographic proximity to the district system and central
+plant. These parking lots are predominately privately owned and would need to be purchased
+and/or rezoned to allow for installation of the geothermal wellfields.
+It is important to note that there is also physical space within Civic Center Park. While this may
+seem like a natural option to consider, Denver Parks and Recreation property is not zoned to
+allow for use as a thermal resource. Revising the enabling legislation for Denver Parks would
+require close collaboration with the Parks Department and potential input from Denver voters. For
+the purpose of this study, using Civic Center Park has been ruled out as a viable option.
+The parking lots could have a capacity ranging from 0.5 to 3 MW depending on the system layout
+and actual thermal conductivity of the ground in each specific wellfield location. For the initial
+layout, the wells have been sized to be 1200 feet deep with 20-foot center-to-center spacing.
+Each 5-inch diameter bore will have a single U-bend loop and will be capable of providing six
+tons of heating and cooling capacity. The 20-foot spacing was chosen to reduce the thermal
+creep potential over the system life. Figure 9 illustrates potential blocks in which the geothermal
+wellfields could be deployed to match the development of the ambient loop load.
+Impact of Thermal Imbalance on Geothermal HVAC Systems
+Geothermal HVAC systems need to balance the heat released into the wellfield during the summer with the heat extracted in the winter. If there’s too much of an imbalance, the wellfield experiences “thermal creep,” where the surrounding rock’s temperature changes over time, eventually making the wellfield unable to provide the necessary thermal exchange.
+For example, if a wellfield starts at 65°F, it can effectively heat or cool a loop that operates between 50-80°F. However, if the system is cooling more than heating, excess heat builds up in the rock, causing its temperature to rise. Over time, this can make it difficult for the water to return at the desired temperature range of 65-80°F.
+Figure 9. Potential locations for geothermal wellfields in South of Colfax district
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 27
+Geothermal Advantages
+Efficiency: Geothermal maximizes conservation of heat energy by rejecting and extracting heat
+from the ground. In other words, no heat is rejected to the atmosphere where it dissipates and
+cannot be reclaimed or reused.
+Lifespan: Geothermal wellfields have very long lifespans relative to traditional HVAC equipment.
+While geothermal systems have been operating reliably for the past 20 years, the anticipated
+industry lifespan is 80 years. Compare this to traditional HVAC equipment with lifespans of 15
+20 years.
+Maintenance: There is minimal maintenance required for the wellfield, with the hydronic pumps
+being the only mechanical equipment. Geothermal is classified as a passive source of heat.
+Funding: Investment in geothermal systems takes advantage of federal Inflation Reduction Act
+funding and corresponding state geothermal grants and tax incentives.
+Is Geothermal Right for Denver?
+Geothermal Challenges
+First Cost: These systems have higher first cost than boiler / cooling tower water source heat
+pump systems.
+Physical Installation: The design requires coordination and potential purchase of adjacent
+parking lots to meet the scale of the projected district loads. Based on the downtown location
+of the ambient loop, real estate values are escalated compared to the rest of the City. The
+proposed parking lots will likely be priced considering future development not as otherwise
+vacant thermal energy hubs.
+Collaboration: If parking lots are utilized for geothermal installations, collaboration is needed
+among multiple city agencies to install the geothermal wells and then redevelop the site into a
+park, multifamily housing, or another similar civic use. Underground geothermal wells will not
+prevent construction of buildings or infrastructure at ground level, but excavation and structure
+will require close coordination.
+
+
+Passive Source: Sewer Heat Recovery
+Recovering and rejecting heat to municipal sewer systems is a relatively novel approach to
+heating and cooling buildings in dense urban corridors where space for geothermal or large
+central systems may not be readily available. In fact, the largest wastewater heat recovery project
+in the United States is installed and operational at the National Western Center (NWC) just north
+of Downtown Denver. The successful operation of that system and lessons learned from its
+construction serves as a helpful example for future wastewater thermal energy projects.
+Partial Diversion System
+NWC utilizes a partial diversion system whereby wastewater is diverted to a wet well and then
+pumped through a heat exchanger that serves a campus ambient loop system. Pump speeds
+modulate to maintain consistent heat to the campus. All diverted wastewater is returned to the
+sewer main where it eventually arrives at Metro’s Robert W. Hite Treatment Facility. Approximately
+90% of the campus’ heating needs are served by energy recovered from the wastewater thermal
+recovery system.
+Pretreatment is a critical step in all diversion systems using raw wastewater. Its main purpose is
+to reduce clogging and fouling in heat exchangers. A dedicated wet well or building is required to
+house the pretreatment equipment, which has an associated maintenance expense and may be
+accompanied by unpleasant odors. In densely populated areas such as downtown Denver, odor
+control equipment would also be required for odor mitigation.
+Inline Heat Exchanger
+In contrast to diversion style systems, inline sewer heat recovery systems extract heat directly
+from a sewer pipe without diverting the flow of wastewater. This process utilizes a heat exchanger
+placed within the existing sewer line to transfer thermal energy to a separate loop designated
+for heating and cooling buildings such as an ambient loop. It operates as a closed-loop system,
+ensuring that the wastewater remains completely separate from the working fluid. While diversion
+systems are considered a passive form of heat rejection since they only utilize pumps and heat
+exchangers, the inline style system in this application will utilize heat recovery chillers and
+mechanical refrigeration. This makes it an active system, although a very efficient one.
+The benefits of the inline approach include eliminating the need for pretreatment equipment
+and wet well construction, fewer moving parts, and reduced risk of odors. In the case of the
+ambient loop, the proximity and density of the urban environment limits the footprint available
+for a diversion wet well and heat exchanger, making an inline heat exchanger the more desirable
+approach.
+Metro has provided thermal load profiles of the Cherry Creek Interceptor located under Speer
+Boulevard which shows wastewater temperatures of 59 to 74°F throughout the year. The
+proposed design will utilize heat recovery chillers in the central utility plant to produce 38°F
+process water during winter / heating operation. This greater temperature delta allowed by an
+inline system improves efficiency and reduces water flow and pump sizing relative to a partial
+diversion system. To reject heat to wastewater during summer months, the heat recovery chillers
+will send 95°F process water to the inline heat exchanger.
+Page 28
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 29
+Design Considerations
+It is important to carefully consider potential challenges associated with wastewater thermal
+energy transfer technologies. The proximity and density of adjacent businesses, residences,
+public walkways, and streets to the Cherry Creek Interceptor make constructing a diversion
+system more disruptive to the community than an inline system. Sites considered for the
+potential wet well would adversely impact residents and traffic flow during construction. It was
+also deemed impractical to pump raw wastewater over 1,000 feet from the Speer / Cheery Creek
+corridor to the proposed central plant location on Cherokee Street. This would also necessitate
+the installation of pretreatment equipment in the central plant to protect the heat exchanger
+equipment. The heat exchanger will also experience fouling, which is the formation of unwanted
+material deposits that reduce heat transfer efficiency. Pumping and pretreating wastewater would
+incur an associated operational and maintenance expense which would be precluded with an
+inline system. For these reasons, the inline system was selected over the diversion system for the
+ambient loop.
+By contrast, an inline system presents fewer challenges and has therefore been selected for the
+purposes of this study. Installing 12-inch supply and return piping underground from the Cherokee
+Street central plant to Speer Boulevard along 13th Avenue will require careful coordination with
+local residents and businesses. The quantity of underground piping can be minimized by running
+as far as possible in the Police Campus underground garage and adjacent tunnels. Potential
+routing of this piping was examined during this study. Note that further development of this
+route will be required in future design phases to verify conflicts and detail how to cross Speer
+Boulevard.
+Metro has expressed an initial willingness to own, install, operate, and maintain all wastewater
+thermal energy recovery systems installed in Metro-owned interceptors. Metro would therefore
+be responsible for associated maintenance of the inline heat exchanger thus reducing the
+maintenance concerns of the ambient loop operator. Additional planning and discussion with
+Metro will be required to determine the intergovernmental or operating agreements to set rates,
+responsibilities, and performance requirements governing the operation of the wastewater
+thermal energy recovery system.
+With these considerations in mind, inline sewer heat recovery represents a promising
+advancement in sustainable building practices. High-level pros and cons to consider are listed on
+the following page.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 30
+Sewer Heat Recovery Advantages
+Efficiency This system utilizes waste heat that will otherwise dissipate to the atmosphere.
+Lifespan: Because the wastewater system is constantly flowing, the ability of the system to
+provide or reject heat is continuously renewed over time. This is in contrast to the thermal creep
+risk of geothermal systems.
+Environmental: Installation of inline sewer heat recovery systems will help Metro meet Colorado
+Department of Public Health and Environment (CDPHE) regulations that require a reduction in
+effluent temperature to improve water quality in the South Platte River.
+Collaboration: Metro’s desire to own and operate all systems installed in wastewater
+interceptors will help with both funding and maintenance. Further discussion is needed
+between Metro and the future operator of the ambient loop system to fully determine lines of
+demarcation between systems and funding / maintenance responsibilities.
+Sewer Heat Recovery Challenges
+First Cost: The distance between the Cherry Creek Interceptor and Cherokee Street central
+plant will require additional piping which may increase relative costs. However, Metro’s
+investment in the inline heat exchanger will decrease the cost burden on the ambient loop
+project.
+Physical Installation: Installing an inline heat exchanger below Speer Boulevard and lateral
+supply and return piping below 13th Avenue may disrupt traffic flow and adjacent residents and
+businesses.
+Active Source: Fluid Coolers and Boilers
+A straightforward way to maintain ambient loop temperatures is to add cooling towers, fluid
+coolers, or electric- or natural gas-fired boilers. Each of these systems allows for heat rejection
+or heat injection to the ambient loop. Water source heat pump systems that serve individual
+buildings often utilize cooling towers and boilers in lieu of, on in tandem with, geothermal
+wellfields.
+Cooling towers are typically connected to water source heat pump systems via a separate,
+dedicated heat exchanger. This allows the open-loop cooling tower water to stay isolated from
+the building’s hydronic system, which improves maintenance and limits water treatment costs.
+The evaporative nature of cooling towers increases their efficiency, especially in the dry Colorado
+climate, but they do require substantial amounts of water.
+Fluid coolers work similarly to cooling towers in rejecting heat to the surrounding atmosphere air
+but are more self-contained and require less maintenance. There are multiple different styles of
+fluid cooler but the most common contains a coil for sensible heat transfer and does not take
+advantage of evaporative cooling. While this reduces the overall efficiency of these systems, it
+also reduces water consumption.
+
+
+Page 31
+Boilers can be utilized in the ambient loop in numerous ways. The most direct is to supplement
+heat injection to the ambient loop when other sources cannot keep up. In this way, boilers can
+improve redundancy and resiliency or can “peak-shave” during winter periods. This effectively
+reduces up-front capital costs by running more carbon-intensive gas or electric boilers for 1 to 5%
+of the year when heating loads are at their highest.
+Electric boilers will uphold the project’s decarbonization goals but will significantly impact
+electrical demand and costs. For example, 16,800 MBH electric boilers could be installed to
+cover 2% of the peak heating hours per year for the district (i.e., 175 hours per year). This would
+reduce the need for geothermal or wastewater thermal recovery elsewhere but would increase
+electrical demand at the plant by 4900 kW per year which would add at least $218,000 in
+additional electrical demand charges per year to the district operator. Natural gas boilers could be
+utilized to bridge cost or construction phasing issues but should not be considered for long-term
+applications due to their carbon emissions.
+While these fluid cooler and boiler technologies are readily available and reliable, they all sacrifice
+either efficiency or decarbonization in the name of upfront capital cost savings compared to the
+options reviewed previously.
+Fluid Coolers and Boilers Advantages
+First Cost: This strategy has a much lower capital construction costs compared to other
+options.
+Lifespan: These systems are straightfoward to design, install, and maintain which will improve
+long term operation.
+Physical Installation: These traditional systems could come online much faster than more
+distributed passive systems, with less disruption to the community.
+Fluid Coolers and Boilers Challenges
+Efficiency: The use of traditional active equipment means a much lower efficiency district
+system.
+Funding: Natural gas boilers will not meet Denver’s decarbonization goals and do not qualify for
+federal or state grants or tax incentives.
+Collaboration: Electric boilers will operate at peak electrical grid utilization periods, which
+would cause the same negative impacts to the health of the electric grid that is caused by
+electric resistance supplemental heating for ASHPs.
+Maintenance: Electrical boilers typically require frequent changes of their elements if water
+treatment is not properly maintained.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 32
+Active System: Thermal Energy Storage
+A thermal energy storage (TES) system is a technology that stores heat energy in a material,
+like water or a special phase-change material, to be used later when needed. In this way, a TES
+system essentially acts like a battery for heating or cooling, allowing the operator to capture
+excess thermal energy during peak production times and utilize it when demand is high.
+Thermal energy storage systems are typically utilized in large hydronic HVAC systems to shift
+electrical loads from peak hours during the day to off-peak hours. This reduces impact on the
+grid and can generate significant cost savings if the proper utility rate is available. Despite recent
+advances in Xcel Energy’s rate structure to allow time-of-use rates for EV car chargers and
+smaller services, load shifting rates are not currently available at the service size needed for the
+Cherokee Street plant. Note that Xcel Energy has introduced a pilot program to study time-of-use
+rates but, as of the publication of this report, it is unclear whether that pilot will be expanded to a
+generally accessible rate structure.
+Despite this limitation, a TES sizing analysis was performed as part of this study. Typically, thermal
+energy storage is implemented by storing heat in a water- or sand-based medium or by storing
+super-chilled water in a hydronic or ice tank located at or near the CUP. Tank sizing is based on
+the ton-hours that need to be shifted from peak to off-peak hours.
+Although normal ambient loop temperatures would not be optimal for thermal storage, the heat
+recovery chillers utilized with the inline sewer heat recovery system could create temperatures
+lower than 50°F or higher than 90°F that would be suitable for thermal storage. By operating
+the chillers at night, the plant could store excess heating or cooling capacity while overall grid
+demand is low or when excess renewables are available. The tanks could then discharge to the
+broader district during the day, minimizing chiller (or if utilized, electric boiler) runtime during
+peak periods.
+TES can also be utilized at individual buildings downstream of the district system. This style of
+system has not been extensively implemented due to the lack of appropriate market incentives.
+In an ambient loop system, the thermal storage media would be installed on the building side of
+the WSHPs. Multiple styles exist including parking garage-based modular tanks and brick style
+elements that can be implemented into existing building architecture.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 33
+Thermal Energy Storage Advantages
+Efficiency: TES has the potential to minimize electrical demand charges during daytime peak
+load periods.
+Lifespan: The system could be designed to enable additional run-time for chillers installed with
+sewer heat recovery system to serve the TES.
+Future Technologies
+While this study centers on geothermal and sewer heat recovery as we know it today, it is
+important to note that heat pump and heat recovery technologies are continually improving.
+Although none of us can predict future technological developments, several emerging trends
+warrant attention. These include the following:
+Geothermal
+Geothermal technology continues to improve due to emerging drilling techniques. While there
+are challenges in an urban setting, Denver’s geographic makeup makes it a viable candidate for
+many of these technologies. The geothermal systems recommended in this report are based on
+proven, reliable technology. However, emerging drilling techniques include, but are not limited to:
+• PLASMABIT®: A drilling platform that can drill to depths of up to 10 km (32,800 feet). While
+not currently proven beyond a technical feasibility study and test well, this technology could
+offer a large-scale solution as the downtown ambient loop system grows. Challenges include
+lack of installed operational systems, space to install a large drilling rig near downtown during
+initial drilling, and anticipated cost.
+• Millimeter-Wave Drilling: A system that uses gyrotron technology to drill up to 12 miles
+beneath the surface. Similar benefits and drawbacks to PLASMABIT, as described above, exist.
+• Horizontal Drilling and Hydraulic Fracturing: A process developed to extract natural gas
+from low-porosity bedrock that involves pumping water underground to expand fractures in
+rock. While this system does offer potential scale advantages to the closed-loop installations
+reviewed previously, the impact is not well studied outside of the extractive industries.
+• Anchorbit System: A system that places two collar sections behind the drill bit to push out
+and grip onto the bore shaft. This allows deeper well drilling which can reduce the surface
+area needed for the same capacity geothermal system. While the geothermal fields presented
+in this report are based on 1200-foot-deep wells, Anchorbit and other emerging technologies
+promise depths of 1500 feet and greater.
+Thermal Energy Storage Challenges
+Funding: Currently, there is no time-of-use rate currently available from Xcel Energy, limiting the
+cost savings for the installation. The Inflation Reduction Act does include provisions for energy
+tax incentives for TES.
+Physical Installation: TES requires large tanks installed at the central plant. These tanks
+will be architecturally significant, and the land cannot also be utilized for other purposes (i.e.,
+geothermal or electrical substations)
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 34
+• Darcy System: A hybrid closed and open-loop solution that utilizes groundwater to access
+orders of magnitude more thermal capacity than other technologies in limited available
+space. Refer to the previous Geothermal section for more details on regulatory and technical
+challenges with this style system in the Denver area.
+• Brightcore: Proprietary technology to drill boreholes at inclined angles, with equipment that
+can access existing buildings and areas with limited access. This style system allows for
+installation in existing subterranean parking garages or basements.
+Heat Pumps
+The future of heat pumps looks very promising as well. Ongoing research and development has
+recently focused on improving heat pump performance in colder climates, increasing efficiency,
+and developing new refrigerants with lower environmental impact. However, challenges remain for
+air-source heat pumps in places that have very cold climates.
+• Six-Pipe Water Source Heat Pumps: Continue to improve efficiencies, reliability, and
+maximum temperature ranges. Multiple manufacturers are exploring CO2 refrigerant
+based models that are capable of producing 180°F heating water temperatures. Synthetic
+refrigerants such as R-410A are not capable of producing the lift or temperature increases
+beyond 135°F. Considering that most of the existing heating hot water piping and coils in
+the 14 buildings are designed around 180°F and higher supply temperatures, each building
+will need to be evaluated and adapted to operate at 135°F heating water temperatures. If
+commercial heat pumps can produce 180°F water instead, the conversion from steam-based
+systems will be streamlined. CO2 refrigerants also perform the same work with significantly
+lower Global Warming Potential (GWP). Typical GWPs of refrigerants in commercial use range
+for 300 to 3000 times the potency of CO2.
+• Heat Pump Boilers: Are capable of producing heat water temperatures greater than 180°F or
+steam are close to market. While they are not as applicable for the ambient loop, they are a
+potential tool to help decarbonize the existing district steam system.
+Nuclear Microreactors
+Nuclear microreactors may offer a promising future for district energy by delivering the electricity
+needed to manage the loop temperature independent of the electric grid. This would shift the
+balance towards more active sources that take up significantly less space and real estate to
+host. There are currently 35 operating university research reactors (URRs) in the United States.
+While there are no commercial scale deployments to date, partnering with Colorado universities’
+research laboratories is one approach to advance this technology in Denver.
+Emerging Iron-Air and Metal-Hydrogen Batteries
+Emerging iron-air and metal-hydrogen batteries, plus advanced thermal energy storage can be
+used to optimize load management efficiency.
+An alternative solution to the inability of current synthetic refrigerant WSHPs being unable to produce higher than 140°F heating water is to provide additional WSHPs in a cascade arrangement. By piping multiple
+WSHPs in series so that each WSHP produces progressively higher output temperatures, 180°F heating water can be reliably produced with existing technology. Drawbacks include higher initial costs and higher operating costs due to the additional equipment.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 35
+Wastewater Effluent Sourced Heat Recovery Systems
+Wastewater effluent sourced heat recovery systems are being explored by Metro to reduce the
+temperature of the treated effluent of the Robert W. Hite Treatment Facility to comply with CDPHE
+regulations. Based on the existing plant flow and wastewater temperature, Metro has estimated
+that such a facility could be on the scale of 100MW or larger. How this heat could be utilized to
+serve buildings or other industrial processes is still being investigated. The only other systems of
+this scale can be found in Europe. Ultimately, capturing waste heat downstream of the treatment
+plant could greatly impact the ambient loop. The regulatory, technical, and financial implications
+of this system are not explored in this report and are being studied separately.
+Recommended Ambient Loop Technologies: Geothermal and Wastewater Thermal Energy Recovery
+Based on the stated decarbonization, financial, and operational goals determined from
+stakeholder meetings, a mix of geothermal and sewer wastewater heat recovery is recommended
+for the ambient loop. Geothermal systems are a proven, passive technology that will reduce
+operational costs and serve as a baseline heat rejection and injection source for the loop.
+Utilization of an inline wastewater heat recovery system will be an active source of heat and helps
+other city agencies achieve their regulatory goals. Of the total district load of 20MW, geothermal
+system will served 16MW while wastewater heat recovery systems will serve the remaining 4MW.
+This 4 to 1 ratio of geothermal to wastewater heat recovery is somewhat flexible, driven in part by
+the amount of land needed to be developed for geothermal that could be reduced in favor of more
+wastewater heat recovery. However, maintaining a large proportion of geothermal maximizes the
+passive sources that can be used to manage the district supply temperature, increasing efficiency
+and minimizing operational costs.
+The remainder of this report will be based on this hybrid geothermal / wastewater thermal energy
+recovery model.
+Figure 10. Recommended ambient loop technologies
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 36
+Thermal Load Calculations
+Approach and Methodology
+A district thermal energy network must meet the heating and cooling requirements of each
+building at all times throughout the year. The process to ensure a district energy system will
+meet these criteria starts by reviewing individual building requirements for heating and cooling.
+Next, the requirements of all buildings on the district system are combined to establish the total
+district-wide heating and cooling demand and the respective peak demands during a year. The
+heating and cooling demand peaks are the two worst-case operational scenarios. The peak
+demands determine both the ambient loop requirements to have enough thermal capacity to
+inject or reject heat in aggregate for all district customers as well as the electrical demand at the
+buildings to effectively use that thermal capacity.
+Capacity of the ambient loop can be defined as providing and maintaining water temperature
+and volume that allows in-building water source heat pumps to inject or reject heat from or to the
+loop while maintaining thermal comfort requirements in the building. For the initial cohort of 14
+buildings, analysis was performed to determine the amount of heat to add or reject from the loop
+during the highest heating and cooling demand peaks, respectively.
+The total energy required to operate the ambient loop is calculated by analyzing the amount of
+net heat that is sourced or sunk for each of the 8,760 operating hours of the year. The analysis
+determines heating and cooling peaks and the hours in which simultaneous heating and cooling
+require minimal active energy sources to maintain an acceptable ambient temperature range for
+the water loop.
+Following the energy model calibration standards outlined in ASHRAE Guideline 14, peak heating
+and cooling loads were derived by modeling each of the 14 buildings based on their geometry and
+historic annual energy consumption data using engineering best practices6 to simulate operation
+over a typical year. The peak loads were then used to estimate the total thermal capacity required
+for the district system.
+6 Building Energy Modeling for Owners and Managers, Appendix Table 1, Modeling Process, August 30,2013; Rocky Mountain Institute (RMI), Boulder, CO
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 37
+Modeling Platform
+The OpenStudio 2.9 interface for EnergyPlus 9.2 Hourly Building Energy Simulation Program was
+used for the building energy modeling and analysis. An envelope geometry and zoning energy
+model is first created as shown in the example in Figure 10. Geometry is typically simplified
+for modeling purposes to simulate energy transfer most accurately through all surfaces in the
+building. Windows on the same orientation and zone are often grouped together to decrease
+simulation time, which does not affect results of the model. The building was zoned for perimeter
+versus core spaces.
+The parameters below were input into each building energy model based on available mechanical
+and architectural drawings. If the existing drawings were unavailable or did not contain all the
+parameters needed, assumptions were made using engineering best practices or building site
+observations and photos were referenced.
+Building Model Parameters
+• Occupants
+• Schedules
+• Envelope construction (walls, roofs, windows)
+• HVAC systems
+• Ventilation
+• Lighting
+• Plug and process loads
+• Infiltration7
+The energy model results were calibrated using 2022 and 2023 Xcel Energy metered chilled
+water data provided for each building. The models were calibrated to be within +/- 10% of the
+metered chilled water data. The exact amount of cooling from the chilled water plant is captured
+in the billing data, therefore the data is considered highly reliable. Xcel Energy District Steam
+energy data, however, was not used for calibration for two reasons: (1) some buildings are not
+individually metered and do not have individual steam service consumption data and (2) waste
+heat in the form of unused steam condensate could not be accurately measured or estimated.
+Several iterations of modeling were executed to adjust parameters, specifically lighting, plug
+loads, and infiltration rates, to represent building operation as closely as possible.
+7 “Infiltration Modeling Guidelines for Commercial Building Energy Analysis,” Pacific Northwest National Lab, September 2009. https://www.pnnl.gov/main/publications/external/technical_reports/pnnl-18898.pdf
+Air Infiltration
+Air infiltration through a building’s envelope significantly affects its heating and cooling. Energy simulation tools can help assess this impact by estimating the air change rate based on building airtightness, often measured through pressurization tests.
+Figure 11. Webb Building geometric models
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 38
+Sizing Needs for the District
+Thermal energy loads for the district are based on actual building consumption and demand data
+for electricity, chilled water, and steam at each of the 14 buildings. In addition to studying the
+monthly bills for each utility service, the team examined interval data from January to December
+2022 that shows consumption during each of the 8,760 hours of the year.
+Steam and chilled water consumption for the Colorado Convention Center are shown in the
+following graphs (Figures 11-13). By combining the heating and cooling data and calculating a
+minimum thermal load on the building, the team established the Colorado Convention Center
+simultaneous load data shown in green in the third graph below. While the Convention Center
+is by far the largest building by square footage and energy consumption in the study, the
+methodology to determine the simultaneous heating and cooling load profiles remains the same
+across all buildings in this study. This methodology is shown below in equation form.
+Simultaneous Heating Load (Btuh)
+= Peak Winter Heating Load – Concurrent Cooling Load
+Simultaneous Cooling Load (Btuh)
+= Peak Summer Cooling Load – Concurrent Heating Load
+As described in the Opportunity to Scale section previously, periods with simultaneous heating
+and cooling loads allow buildings to “self-satisfy” and move heat from one space to another, or
+one system to another, or one building to another, without needing to add or reject heat to the
+overall system. This effectively reduces the overall size, emissions, and operating cost of the
+district.
+Ultimately, the heating and cooling data for all 14 buildings across the district were combined to
+evaluate the potential simultaneous load across the district, shown in Figure 14. During periods of
+simultaneous heating and cooling (typically during the Spring and Fall shoulder seasons, although
+some buildings have a measurable cooling load all year round) the district peak heating load is
+reduced by 13,900 kBtuh or 23% while the district peak cooling load is reduced by 14,100 kBtuh
+or 19%.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 39
+Figure 12. Colorado Convention Center annual steam consumption
+Figure 13. Colorado Convention Center annual chilled water consumption
+Colorado Convention Center Steam Load
+Steam Load
+Colorado Convention Center Cooling Load
+Cooling Load
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 40
+Figure 14. Colorado Convention Center simultaneous heating and cooling
+Figure 15. District heating, cooling, and simultaneous load comparison
+District Aggregate Heating & Cooling Profiles
+Colorado Convention Center Simultaneous Load (ton-hr)
+Simultaneous Load
+Simultaneous Load
+Heating Load Cooling Load
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 41
+The team sized WSHPs at each building based on that building’s individual heating, cooling, and
+simultaneous load profiles. To properly size the heat injection / rejection systems at the district
+level, the heating, cooling, and simultaneous loads were aggregated across all buildings to create
+a comprehensive district profile. The most straightforward district sizing strategy is to consider
+the district-wide coincident heating and cooling peaks. This analysis found that the maximum
+coincident heating load occurs on December 22 at 8:00 AM while the maximum coincident
+cooling load occurs on August 11 at 3:00 PM. This district-wide sizing considers simultaneous
+heating and cooling at the building level and across the district between buildings but does not
+consider varying occupancy schedules.
+To account for occupancy schedules, buildings with predictable, normal operating hours
+(Wellington Webb, Denver Justice Center, etc.) can be considered to also have predictable peak
+heating and cooling loads. However, event-based buildings with variable occupancy schedules
+(such as the Colorado Convention Center or Denver Art Museum) are much more dependent on
+when a max occupancy event occurs to establish the time and magnitude of a thermal peak.
+By combining the loads for buildings with predictable and variable occupancy schedules, the
+team established a district peak heating load of 16 MW and a district peak cooling load of 20
+MW.
+Peak simultaneous load refers to the coincident time when the highest amount of equal heating
+and cooling occurs. Refer to Table 1 below for individual building loads and Table 2 for a
+comparison of the different district sizing methodologies.
+1 MW ≈ 3,400 kBtu/hr
+1 MW ≈ 284 tons
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 42
+Denver District Multisource Loop – Net Building Level Load
+Buildings
+Peak Heating Load Net of Simultaneous (kBtuh)
+Date/Time of Peak Heating
+Peak Cooling Load Net of Simultaneous (kBtuh)
+Date/Time of Peak Cooling
+Peak Simultaneous (kBtuh)
+Date/Time of Peak Simultaneous
+Colorado
+Convention Center 25,162 12/22/2022
+8:00 28,551 8/11/2022
+15:00 9,202 10/18/2022
+14:00
+Wellington E.
+Webb 4,974 12/24/2022
+6:00 9,152 7/18/2022
+12:00 2,876 12/20/2022
+10:00
+Minori Yasui
+Building 913 12/22/2022
+8:00 2,268 8/11/2022
+15:00 497 10/18/2022
+14:00
+Justice Center/
+Courthouse 8,394 3/5/2022
+21:00 9,784 7/18/2022
+11:00 3,811 3/1/2022
+13:00
+Denver Crime Lab 1,384 2/3/2022
+7:00 1,817 9/8/2022
+12:00 757 12/1/2022
+11:00
+City & County Building/ McNichols
+2,750 12/22/2022
+5:00 2,719 6/13/2022
+16:00 2,052 12/28/2022
+10:00
+Police Admin/
+PDAF 1,121 2/3/2022
+4:00 1,854 8/4/2022
+10:00 990 12/21/2022
+15:00
+Permit/Elections 804 12/22/2022
+5:00 1,055 5/19/2022
+12:00 425 2/3/2022
+12:00
+Denver Public
+Library 3,676 12/22/2022
+4:00 3,353 7/19/2022
+14:00 2,248 12/28/2022
+6:00
+Art Museum 
+Hamilton 2,071 11/15/2022
+4:00 3,448 7/20/2022
+15:00 2,647 2/3/2022
+4:00
+Art Museum 
+Martin 1,084 12/22/2022
+4:00 3,841 7/25/2022
+5:00 2,877 2/3/2022
+4:00
+Building
+Summations 46,748 12/22/2022
+8:00 60,863 8/11/2022
+15:00 20,371 12/1/2022
+13:00
+District Sizing
+Buildings Heating (kBtuh) Cooling (kBtuh)
+Individual Building Aggregate Peaks 52,400 67,900
+Coincident District Peaks 46,800 60,900
+Predictable vs. Event Based Peaks 49,000 66,500
+Table 2. Building peak heating, cooling, and simultaneous loads
+Table 3. District peak heating and cooling loads
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 43
+System Schematic Design
+Based on the peak loads established in the previous section, district and building level systems
+and equipment were sized and selected. The following schematic designs consider existing
+conditions and anticipated loads but will need refinement during future design phases as
+assumptions are distilled and available technologies change.
+Building Systems
+The following tables outline the proposed sizes and capacities of the equipment required at each
+facility to replace the existing district steam and chilled water services. These include space
+heating and cooling, domestic hot water heating, snow melt systems, and space humidification.
+Space heating and cooling is predominantly provided by six-pipe water-to-water heat pumps that
+are capable of simultaneously heating and cooling the existing hot and chilled water loops in the
+buildings. Larger buildings (Colorado Convention Center, Wellington Webb, and the Denver Justice
+Center and Courthouse campus) are also provided with dedicated heat pump chillers and heat
+pump boilers. The six-pipe units in these buildings are sized to serve the expected simultaneous
+heating and cooling loads while the larger, more efficient chiller and boiler heat pumps handle the
+remaining load.
+Domestic water heating and snow melt equipment is sized to match the existing services. Certain
+buildings already have electric resistance water heating equipment which is expected to remain in
+service. Four buildings currently include humidification systems served by district steam. Because
+heat pump humidification systems are not widely available in the current market, the expectation
+is that these systems will be converted to fully electric or adiabatic technologies.
+Ambient Loop – Building Heating and Cooling Equipment
+Buildings Total Load
+(kBtuh) Equipment Size & Description
+Colorado Convention Center 30,800
+Two 1000-ton heat pump chillers Three 10,300-Mbh heat pump boilers Fifteen 40-ton modular six-pipe water-source heat pumps
+Wellington E. Webb 9,200
+Two 320-ton heat pump chillers Two 4000-Mbh heat pump boilers Four 40-ton modular six-pipe water-source heat pumps
+Minori Yasui Building 2,800 Six 40-ton modular six-pipe water-source heat pumps
+Justice Center/Courthouse 11,300
+Two 400-ton heat pump chillers; Three 3400-Mbh heat pump boilers; Four 40-ton modular six-pipe water-source heat pumps
+Denver Crime Lab 2,000 Five 40-ton modular six-pipe water-source heat pumps
+City & County Building/McNichols 4,000 Nine 40-ton modular six-pipe water-source heat pumps
+Police Admin/PDAF 2,200 Five 40-ton modular six-pipe water-source heat pumps
+Permit/Elections 1,200 Three 40-ton modular six-pipe water-source heat pumps
+Denver Public Library 4,100 Nine 40-ton modular six-pipe water-source heat pumps
+Art Museum – Hamilton 4,000 Nine 40-ton modular six-pipe water-source heat pumps
+Art Museum – Martin 4,500 Ten 40-ton modular six-pipe water-source heat pumps
+Table 4. Building heating and cooling equipment
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 44
+Ambient Loop – Building Domestic Water Heating Equipment
+Buildings Total Load
+(kBtuh) Equipment Size & Description
+Colorado Convention Center 1,250 Existing Kitchen: Two 700-Mbh water-source heat pumps
+Public Restrooms: Existing electric to remain
+Wellington E. Webb 300 Two 200-Mbh water-source heat pumps
+Minori Yasui Building - Existing water heating is electric
+Justice Center/Courthouse 3,550 Four 1000-Mbh water-source heat pumps
+Denver Crime Lab 1,500 Three 600-Mbh water-source heat pumps
+City & County Building/McNichols 1,834 Three 650-Mbh water-source heat pumps
+Police Admin/PDAF 1,000 Two 600-Mbh water-source heat pumps
+Permit/Elections 31 Recommend converting to standard electric water heating
+Denver Public Library 1,750 Three 650-Mbh water-source heat pumps
+Art Museum – Hamilton 700 Two 400-Mbh water-source heat pumps
+Art Museum – Martin 700 Two 400-Mbh water-source heat pumps
+Ambient Loop – Building Snow Melt Equipment
+Buildings Total Load
+(kBtuh) Equipment Size & Description
+Colorado Convention Center 1,080 Two 600-Mbh water-source heat pumps
+Wellington E. Webb 300 One 400-Mbh water-source heat pump
+Minori Yasui Building 0 No snow melt system installed
+Justice Center/Courthouse 0 No snow melt system installed
+Denver Crime Lab 0 No snow melt system installed
+City & County Building/McNichols 300 One 400-Mbh water-source heat pump
+Police Admin/PDAF 0 No snow melt system installed
+Permit/Elections 0 No snow melt system installed
+Denver Public Library 513 Two 300-Mbh water-source heat pumps
+Art Museum – Hamilton 0 No snow melt system installed
+Art Museum – Martin 300 One 400-Mbh water-source heat pump
+Ambient Loop – Building Humidification Equipment
+Buildings Total Load
+(lbs/hr) Equipment Size & Description
+Colorado Convention Center 0 No humidification systems installed
+Wellington E. Webb 0 No humidification systems installed
+Minori Yasui Building 0 No humidification systems installed
+Justice Center/Courthouse 0 No humidification systems installed
+Denver Crime Lab 90 Central adiabatic or electric humidification system
+City & County Building/McNichols 0 No humidification systems installed
+Police Admin/PDAF 0 No humidification systems installed
+Permit/Elections 0 No humidification systems installed
+Denver Public Library 45 Point of use adiabatic or electric humidification systems
+Art Museum – Hamilton 3,600 Central adiabatic or electric humidification system
+Art Museum – Martin 1,800 Central adiabatic or electric humidification system
+Table 5. Building domestic water heating equipment
+Table 6. Building snow melt equipment
+Table 7. Building humidification equipment
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 45
+District Systems
+To serve heat rejection and injection needs at the district level, three different technologies are
+deployed. Approximately 570 geothermal wells, each 1200 feet deep and spaced 20 feet apart,
+would be required to handle 40,950 kBtuh (12.0 MW) of heating and cooling needs. This is the
+equivalent of 684,000 linear feet of borehole and will cover the majority of the district load.
+Proposed locations of these geothermal wells are shown in Figure 16.
+Wastewater heat recovery and rejection also serves a significant portion of the district loads.
+Three 150-foot-long inline heat exchangers within the Cherry Creek Interceptor will be capable of
+supplying 13,990 kBtu (4.1 MW) of both heating and cooling. Removing heat from the wastewater
+helps Metro reduce the thermal load of the discharge in the winter months while in the
+summertime, heat can be rejected to the wastewater and transferred away from the city center. To
+maximize the temperature differential between the wastewater and process / ambient loop water,
+two 1200-ton heat pump chillers will be installed to circulate 36°F water through the wastewater
+heat exchanger. This low-temperature process water may require a glycol concentration to
+prevent freezing during winter months. To avoid circulating glycol throughout the ambient loop
+network, an additional plate / frame heat exchanger will sit between the chillers and the ambient
+loop. Alternatively, operating a higher temperature will avoid the operational concerns of glycol
+but will reduce the differential temperature of the loop. Further study is required to understand
+the efficiency implications of glycol versus non-glycol operation.
+The difference between the peak heating load and peak cooling load requires additional heat
+rejection capacity beyond the proposed geothermal and wastewater thermal solutions outlined
+above. The most straightforward solution is to utilize a portion of the existing cooling towers
+currently installed at the Colorado Convention Center. One tower containing two cells is capable
+of rejecting 16,720 kBtu (4.9 MW) of heat. While this exceeds the needs of the district, it
+utilizes existing equipment at minimal cost and allows for future expansion of the ambient loop.
+Importantly, rejecting excess heat to the atmosphere via a cooling tower or fluid
+Ambient Loop – District Technology Capacities Baseline
+System Heating Capacity Cooling Capacity
+kBtu MW Percent kBtu MW Percent
+Geothermal 40,950 12.00 74.5% 40,950 12.00 57.1%
+Wastewater Heat Recovery 13,990 4.10 25.5% 13,990 4.10 19.5%
+Cooling Tower/Fluid Cooler - - - 16,720 4.90 23.3%
+Total 54,940 16.10 100.0% 71,660 21.00 100.0%
+Table 8. District technology sizing and capacities baseline – Scenario #1 geothermal
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 46
+A diagram of the full ambient loop district is shown below in Figure 16.
+Figure 16. District ambient loop map This map indicating both existing Xcel Energy District Chilled Water piping to be reused and new piping that will need to be installed.
+Alternatively, the existing district chilled water system could be utilized to handle the excess
+cooling load and potentially reduce the number of required geothermal wells. In this scenario,
+the Convention Center cooling tower connections could be eliminated while the chilled water and
+ambient loop networks would be interlocked at the existing chilled water plant at the corner of
+Glenarm and 15th Street.
+A 42°F chilled water supply line from the plant would be fed into the ambient loop via a heat
+exchanger to supplement cooling capacity in Scenario #2. The chilled water plant side of the heat
+exchanger would be modified to receive chilled water return flow from the existing Xcel Energy
+system at 56°F. This configuration will allow the ambient loop to both reject and inject heat
+from the existing Xcel Energy chilled water system. The relatively low temperature differential
+would require a large heat exchanger but could effectively reduce the initial cost of the system
+by eliminating the need for 283 of the geothermal wells or approximately half. Operating costs
+will increase, assuming that Xcel Energy charges for the heat transferred to and from the chilled
+water district to the ambient loop.
+Metro Cherry Creek Interceptor
+Potential Geothermal Field
+Public District Building for Demonstration Project
+Chilled Water Supply
+Chilled Water Return
+Future Wastewater Interceptor/ Housing Line New Underground Piping
+Private District Building for Demonstration Project
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 47
+The system could also be configured to connect building water source heat pumps directly to the
+existing district chilled water return piping. The return system typically operates at 56°F which
+is within the condenser water operating range for expanded capacity water source heat pumps.
+When the building’s WSHPs are in cooling mode the condenser water returned to the CHW
+system will be higher than normal, increasing the differential temperature, and efficiency, of the
+existing district chilled water plant. When the building’s WSHPs are in heating mode, the return
+temperature and District Chilled Water efficiency would both decrease. Further discussion with
+Xcel Energy is required to determine if this scenario is better utilized during short-term phasing
+windows or is viable for long-term operations.
+Ambient Loop – District Technology Capacities CHW Scenario
+System Heating Capacity Cooling Capacity
+kBtu MW Percent kBtu MW Percent
+Geothermal 20,475 6.00 37.3% 20,475 6.00 28.6%
+Wastewater Heat Recovery 13,990 4.10 25.5% 13,990 4.10 19.5%
+Cooling Tower/Fluid Cooler - - - 16,720 4.90 23.3%
+CHW District Connection 20,475 6.00 37.3% 20,475 6.00 28.6%
+Total 54,940 16.10 100.0% 71,660 21.00 100.0%
+Table 9. District technology sizing and capacities – scenario #2 chilled water
+Figure 17. Water source heat pump connection to district chilled water system piping schematic
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 48
+The team also studied the potential layout of the Cherokee Street thermal energy hub to
+determine if adequate space was available for the necessary systems. A proposed schematic
+with district hydronic pumps, sewer wastewater heat recovery chillers, and the plate frame heat
+exchanger are shown in Figure 18. A full accounting of the various equipment and technologies
+deployed in the central plant can be found in the earlier section on District Technologies.
+Figure 18. Proposed layout of Cherokee Street Central Utility Plant
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 49
+Building Conversions
+Upgrading each building’s central mechanical equipment from steam and chilled water heat
+exchangers to water source heat pumps will require diligent planning, communication, design,
+and construction. Existing buildings are routinely renovated to water source heat pump-based
+mechanical systems but are typically connected directly to heat rejection equipment, not a larger
+ambient loop system. The equipment and technologies utilized in both single building and district
+applications are exactly the same, just deployed in a different way.
+Today, district service customers heat their buildings with district steam, which is typically
+converted to heating hot water and distributed throughout the building to air handling units,
+coils, radiators, and water heaters. Cooling is accomplished by similarly circulating cool water
+throughout a building which collects and ultimately expels heat to the chilled water loop. The
+guiding principles of the building-level approach for conversion to the ambient loop are:
+By holistically planning system replacements and timelines across multiple City agencies, district
+wide upgrades can be implemented with minimal disruption and minimal financial burden. By
+focusing on upgrades in the primary mechanical rooms, the majority of the mechanical and
+electrical systems remain intact and are reused for lower cost. Airside and terminal device
+upgrades will be addressed via normal capital project and maintenance budget cycles or via the
+Energize Denver initiative that identified solutions to be implemented following audits conducted
+in 2024.
+The two diagrams on the following page outline the existing heating and cooling systems serving
+the Elections Building (Figure 19) and the proposed systems once the building is converted to
+the ambient loop (Figure 20). The Elections Building is a relatively straightforward system and will
+be the first building converted to the ambient loop as discussed in the Potential Phased Buildout
+Plan section. Note that the chilled water and steam heat exchangers are replaced with water
+source heat pumps (WSHP). The new equipment still circulates chilled water for air conditioning
+and hot water for heating but prioritizes reusing heat within the building rather than rejecting it
+to the ambient loop. This improves overall thermal efficiency at the expense of increased building
+electrical consumption as discussed in the following section. The downstream pumps, building
+hydronic piping, air-handling units, and terminal devices will continue to operate as they do today.
+Utilize existing systems and equipment to the extent possible
+++
+Minimize disruption to the building occupants
+Reduce waste steam condensate heat and reuse heat generated in the building for heating
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 50
+Figure 19. Existing steam and CHW piping schematic at Elections Building
+Figure 20. Revised water source heat pump piping schematic at Elections Building
+While the piping and systems downstream of the WSHPs remain the same, the operating
+temperature of the heating hot water (HHW) loop decreases from 190°F to 135°F. The cause of
+this revision is outlined in more detail in the District Technologies section but is due to limitations
+of current refrigerant and heat pump technologies. Some buildings will effectively operate at
+135°F heating water temperatures but others will require 190°F to properly heat the spaces.
+Each building will need to be evaluated as part of the formal design process to determine the
+minimum viable heating water temperature.
+To overcome any mismatch in minimum required heating water temperature and the rated supply
+temperature delivered by the WSHP, all building heating piping and coils could be replaced
+and upsized to accommodate the lower operating temperature, but this would be a significant
+expense and should be avoided when possible. Alternatively, emerging CO2 refrigerant-based
+heat pumps can operate at higher output temperatures but are not yet commercially available.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 51
+Another strategy is represented by the three-way valve shown on the Dedicated Outside Air Unit
+(DOAS) piping in Figure 20. If the WSHP equipment can only produce 135°F heating water,
+increasing the flow of that heating water can compensate for the lower than original design
+temperature. Because chilled water piping and coils are typically larger than their corresponding
+heating water piping and coils (due to the nature of how these systems are designed), the chilled
+water piping and coils could be repurposed to serve as a heating water system when needed. The
+chilled and heating water systems will function normally during warm or mild weather. But during
+winter or cold snaps, the coil typically used for cooling will be switched over to receive hot water
+via operation of three-way valves and increase overall heating capacity. This strategy can enable
+higher heating water flows and capacities to effectively heat the building without costly piping and
+coil replacements. Further study and investigation of existing piping systems in the buildings is
+necessary during a future design phase to ensure this strategy is appropriately applied.
+Not shown in these diagrams are the domestic water heating, snow melt, and humidification
+systems that are currently served by district steam. As outlined in the previous System Schematic
+Design section, domestic water heating and snow melt systems can be adapted to water source
+heat pumps and will be served by the district ambient loop. Heat pump-based humidification
+technology is not widely available commercially, so the team recommends that humidification at
+Denver Art Museum, Denver Central Library, and Crime Lab be converted to adiabatic technology,
+replaced with electric boilers, or replaced with point-of-use electrode humidifiers depending on
+the building and use case.
+Electrical Service
+The building renovation philosophy to limit upgrades to centralized equipment extends to the
+electrical system design and potential upgrades as well. To validate that water source heat pumps
+connected to the ambient loop can be served by the existing electrical infrastructure, the team
+analyzed the existing electrical demand and spare electrical capacity for each building.
+After evaluating the existing electrical demand 15 minute interval data, the team increased
+each building’s peak electrical demand by 25% to account for annual variations or future added
+loads, per the National Electrical Code (NEC) sizing guidelines for existing buildings. The new
+water source heat pump electrical demand was then added to that adjusted total to calculate
+a projected new peak demand. In all cases, the new peak is substantially lower than the rating
+of the existing switchgear. The team expects new breakers will be added to existing panels to
+accommodate the new heat pumps in most buildings. In certain cases, new panels may be
+required where existing panels are full and new breakers will not fit. However, the physical
+switchgear and, by extension, the upstream electrical vault is not expected to require changes in
+13 of the 14 studied buildings.
+Note:
+This determination relies on an assumption that the vault transformers are rated to at least the same rating as the switchgear – which should be best-practice so that a building does not try to draw more power than the transformers can supply. However, the team could not confirm this was the case in most buildings. This assumption also cannot be extended to the primary feeders that serve the buildings and the additional load may trigger distribution system upgrades in some cases.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 52
+The largest electrical impact will be at the City and County Building (CCB), which was originally
+built in 1936 and mostly still operates on a 208V electrical service. Lower operating voltage
+means that more current – which is the limiting factor of the physical components of the
+electrical distribution equipment – is needed to deliver the same amount of power compared to
+a 480V service. The best long-term approach is to holistically overhaul the CCB electrical system
+to prepare the building for its next 100 years of operation. A separate electrical load study was
+in progress during the preparation of this report and should be consulted before CCB electrical
+upgrade decisions are made.
+Denver District Multisource Loop – Electrical Demand Analysis
+Buildings
+Peak Demand (kW)
+Voltage
+Peak Demand (Amps)
+Date/Time of Peak Demand
+Additional WSHP Demand Worst Case Heating (kW)
+Additional WSHP Demand (Amps)
+Projected New Peak (Amps)
+Existing Switchgear Size (Amps)
+Projected New Peak vs. Switchgear (%)
+Colorado Convention Center
+6,315 480 8,440 11/1/2022
+15:15 2,470 7,702 16,142 50400 32%
+Wellington E.
+Webb 1,274 480 1,702 7/19/2022
+14:15 738 2,292 3,994 7000 57%
+Minori Yasui
+Building 270 480 360 11/17/2022
+13:30 225 694 1,054 4500 23%
+Justice Center/
+Courthouse 1,604 480 2,143 2/23/2022
+10:00 906 2,809 4,952 11000 45%
+Denver Crime Lab 264 480 352 3/7/2022
+13:15 160 485 838 2500 34%
+City & County Building/ McNichols
+473 208 1,460 2/7/2022
+12:15 321 2,255 3,715 8500 44%
+Police Admin/
+PDAF 603 480 806 2/22/2022
+12:30 176 533 1,339 2400 56%
+Permit/Elections 120 480 160 8/22/2023 96 301 461 2000 23%
+Denver Public
+Library 1,036 480 1,384 7/19/2022
+10:00 329 1,021 2,405 9000 27%
+Art Museum 
+Hamilton 331 480 443 7/7/2022
+11:00 321 982 1,425 5200 27%
+Art Museum 
+Martin 386 480 516 7/7/2022
+11:00 361 1,124 1,640 6000 27%
+Table 10. Projected electrical demand increase caused by WSHP installation
+Preserving Existing Equipment
+Existing in-building equipment with useful operating life remaining should be maintained and
+serviced as normal prior to integration with the ambient loop. Retrofits and replacements
+of central plant heat exchangers and pumps should be minimized if possible but otherwise
+coordinated to preserve capital for investments in water source heat pumps and related
+upgrades. As equipment reaches end-of-life, proper planning with the ambient loop team
+must occur. In particular, air distribution heating coils should be evaluated and resized to
+accommodate 135°F water where possible. If this is not possible, the heating water temperature
+modification strategies outlined above shall be employed.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 53
+Sequences of Operations and Controls
+District-wide, central utility plant, and building- level automation systems play a critical role in
+proper operation of the ambient loop. Consider the interoperation between the following levels of
+building and district systems:
+In principle, the most straightforward controls strategy for the ambient loop district will be similar
+to a single building water source heat pump system. District distribution pumps will run constantly
+to maintain flow through the system. The district will maintain supply-side water temperatures
+between 50° and 85°F.
+When the district temperature is within that range (or “deadband”), the system will effectively be
+self-satisfying, and the district will operate at peak efficiency. When the loop temperature exceeds
+85°F because buildings predominantly need cooling and are rejecting heat to the district, district
+level heat rejection in the form of geothermal wellfield, sewer heat rejection, and/or fluid coolers
+will be enabled. When the loop temperature is below 50°F because buildings predominantly
+need heating and are removing heat from the district loop, heat will be injected from geothermal
+wellfield, sewer heat injection, and/or boiler operation.
+The majority of the building-side controls will remain in place and continue operating as expected.
+New controls will be required for the six-pipe water-to-water heat pumps that will maintain the
+building-side chilled water at 42°F and the heating hot water at 135°F, depending on the
+capabilities of the existing systems. The WSHP will transfer heat between the building-side chilled
+water loop to the heating water loop. Any excess heat will be rejected to the district or drawn from
+the district as needed.
+An alternative controls strategy could reset district temperature setpoints lower during peak
+cooling and higher during peak heating to decrease the load on each building’s central
+equipment. This approach would reduce the “lift” required for each water source heat pump
+and improve its efficiency and resiliency. Further study is required to understand the balance of
+factors between reducing electrical demand in summer versus maximizing COP during shoulder
+seasons versus increasing district operating temperatures in winter.
+Thermal comfort needs in individual spaces
+Operation of simultaneous heating and cooling by water source heat pumps at the
+building level
+District-wide temperature and flow control to satisfy multiple buildings
+Activation of diverse geothermal, sewer heat recovery, and thermal storage systems at
+the district plant
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 54
+District-wide plant controls are currently used for both Xcel Energy’s Steam and Chilled Water
+systems. The existing Chilled Water system has a dedicated fiber optic network serving Java
+Application Control Engine (JACE) controllers at both the Glenarm plant and buildings served
+by the district. These standardized controllers allow for independent operation during power
+or network outages but also communicate real-time operational data across the network to
+determine optimal operating parameters. The ambient loop will emulate this strategy and will
+systematically take over the existing fiber optic network as buildings change districts per the
+phased implementation plan.
+Commissioning and four-season optimization of the building automation system will be
+paramount. Operational anomalies must be discovered and corrected during equipment
+installation and startup so that failures do not occur during critical operations or inclement
+weather. Before buildings are fully converted to ambient loop operation, the team anticipates that
+the legacy district systems will remain connected and operational if issues are discovered during
+the acceptance or commissioning periods. This will enable complete functional testing of the
+systems in otherwise occupied buildings.
+Optimization of the district- and building-side systems is necessary to maximize efficiency
+and reliability of the ambient loop. The temperature setpoints outlined above are initial
+recommendations but future design efforts and recommissioning could determine that alternative
+control strategy and setpoints are more appropriate.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 55
+Cost Comparison of District Scenarios vs. In
+Building Electrification
+Several thermal energy scenarios were evaluated throughout the study. Rough order of magnitude
+(ROM) capital costs were prepared for three scenarios. These costs consider all in-building and
+district-level costs to construction and commission a functional system which includes:
+Not included are the costs to purchase or lease privately held parking lots for geothermal wells,
+lobbying costs, or marketing costs. The two project delivery scenarios outlined and priced are:
+Scenario A
+In-Building Systems – Assuming the district steam system reaches end of life in the next
+decade, this baseline comparison represents the most straightforward option to decarbonize
+individual buildings. This scenario examines the installation of air source heat pumps and /
+or electric boilers at each of the 14 studied buildings. It includes upgrades to electrical vaults
+and switchgear at each building to accommodate increased demand for the heat pumps and
+boilers and the additional costs that would be incurred at the grid level via upsized generation,
+substations, conductors, and feeders. The latter are estimated based on Xcel Energy’s 2025
+2029 Distribution System Plan filed in December 2024.
+Scenario B
+Ambient Loop Systems – This scenario outlines a full conversion of the 14 studied buildings
+on the existing chilled water loop to an ambient loop system. The conversion includes the
+rehabilitation of the Cherokee Street boiler plant, installation of geothermal well fields and
+sewer wastewater energy recovery systems, as well as the replacement of existing heat
+exchangers in each building to water source heat pumps.
+Heat pumps, hydronic pumps, mechanical, electrical and controls upgrades at the
+individual buildings.
+Cherokee Street central plant remediation and rehabilitation to install pumps, chillers,
+piping, heat exchangers, variable frequency drives, electrical switchgear, and all
+associated mechanical, electrical, plumbing, controls, and structural work.
+Installation of geothermal wells, headers, lateral piping, and vaults.
+Installation of wastewater inline heat exchangers and all piping from the Cherry Creek
+Interceptor on Speer Avenue to the Cherokee Street central plant. Note that Metro will
+fund equipment and installation of all systems within the envelope of the interceptor.
+Soft costs including general conditions, bonds, commissioning, engineering design,
+overhead and profit, and construction contingencies.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 56
+The table below details Rough Order of Magnitude (ROM) costs across several categories:
+1. First Cost – Buildings. Describes building level conversion costs to add heat pumps,
+update piping systems, replace steam coils, and upgrade electrical systems where needed
+(particularly for Scenario A).
+2. First Cost – District Infrastructure. Includes costs to renovate the Cherokee Street central
+plant, install wastewater heat recovery equipment and piping, and install geothermal resources
+for Scenario B. The Scenario A line item includes grid-level upgrades for generation capacity,
+substations, distribution, etc.
+3. First Cost – Total. Includes both building and district costs.
+4. Estimated Energy Tax Credit Rebate. Refers to the electivepay and energy tax credits made
+available under the Inflation Reduction Act (IRA). This column indicates the total direct pay tax
+credits that would be received from the federal government for eligible geothermal or thermal
+energy storage systems. Note that this column only shows direct pay tax rebates and does not
+include grants.
+5. First Cost – Net Energy Tax Credit Rebate. Indicates the total cost consideration inclusive of
+the anticipated tax credits.
+6. In-Building Annual Utility Cost Estimate. Shows the total cost for electric and district utilities
+for each scenario. These have been calculated based on the anticipated building and district
+loads and reflect power consumption and demand for calendar year 2022.
+Rough Order of Magnitude (ROM) Costs
+First Cost Buildings
+First Cost – District Infrastructure
+First Cost Total
+Estimated Energy Tax Credit Rebate
+First Cost – Net Energy Tax Credit Rebate
+In-Building Annual Utility Estimate
+Scenario A
+In-Building Systems All Electric
+$640M $510M $1150M $0 $1150M $11.6M
+Scenario B
+Ambient Loop Blended District
+$210
+240M $150-170M $360-410M $80-90M $280-320M $10.7M
+Table 11. Rough order of magnitude costs
+Notes
+• Costs should be considered 2025 figures; inflation is not applied. Ranges indicate soft
+costs and contingencies (i.e., location adjustment, design contingency, and general
+conditions) between 20 to 35%.
+• The “In-Building Systems - All Electric” scenario District Infrastructure cost includes
+estimated costs to upgrade the Downtown Denver “triple-redundant” electrical grid.
+These costs are based on the proposed costs presented in Xcel Energy’s “Distribution
+System Plan,” published December 16, 2024. https://www.dora.state.co.us/pls/efi/EFI. Show_Filing?p_fil=G_821326&p_session_id=
+• Operation and Maintenance costs are not included.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 57
+Scenario B costs are further broken down by anticipated construction phase which are detailed
+in the Potential Phasing Buildout Plan section. Both design and construction costs are shown for
+each phase.
+The ambient loop rough order of magnitude costs above assume that Xcel Energy’s existing
+underground District Chilled Piping will be converted to ambient loop distribution. If the existing
+Chilled Water piping cannot be repurposed in the event that the City and County of Denver or a
+third-party owns and operates the Ambient system, either new redundant piping will need to be
+installed or the piping infrastructure will need to be purchased from Xcel Energy.
+Building Cost for Conversion to Ambient Loop
+Design and construction ROM costs for each building and phase are outlined in the following
+table. This analysis was performed by examining individual buildings for constructability,
+sizing proposed equipment based on load calculations, and selectively engaging vendors and
+contractors for pricing estimates.
+Rough Order of Magnitude (ROM) Costs
+Design Construction Total
+Estimated Energy Tax Credit Rebate
+First Cost – Net Energy Tax Credit Rebate
+In-Building Annual Utility Cost Estimate
+Phase 1 $5M $53M $58M $13M $45M $0.7M
+Phase 2 $10M $110M $120M $26M $94M $2.9M
+Phase 3 $5M $62M $67M $15M $52M $1.6M
+Phase 4 $5M $54M $59M $13M $46M $1.4M
+Phase 5 $8M $96M $106M $23M $83M $4.1M
+Table 12. Rough order of magnitude costs – Scenario B by phase
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 58
+ROM Costs – Scenario B – Phased Cost Breakdown
+Design Construction Total
+Building Side $19,437,600 $223,532,400 $242,970,000
+Phase 1 $1,791,200 $20,598,800 $ 22,390,000
+Elections $378,400 $4,351,600 $4,730,000
+Crime Lab $915,200 $10,524,800 $11,440,000
+Police Admin $497,600 $5,722,400 $6,220,000
+Phase 2 $6,428,800 $73,931,200 $80,360,000
+City and County $727,200 $8,362,800 $9,090,000
+McNichols $128,000 $1,472,000 $1,600,000
+DAM - Martin $2,413,600 $27,756,400 $30,170,000
+DAM - Hamilton $2,092,000 $24,058,000 $26,150,000
+Central Library $1,068,000 $12,282,000 $13,350,000
+Phase 3 $2,438,400 $28,041,600 $30,480,000
+Detention Facility $1,711,200 $19,678,800 $21,390,000
+Courthouse $727,200 $8,362,800 $9,090,000
+Phase 4 $2,871,200 $ 33,018,800 $35,890,000
+Minori Yasui $1,110,400 $!2,769,600 $13,880,000
+Wellington Webb $1,760,800 $20,249,200 $22,010,000
+Phase 5 $5,908,000 $67,942,000 $73,850,000
+Convention Center $5,908,000 $67,942,000 $73,850,000
+Table 13. ROM Costs for each building level conversion, broken down by design and construction.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 59
+Energy, Carbon Emissions, and Water
+Reductions
+In addition to the rough order of magnitude cost estimates, the team projected energy savings,
+carbon emission reductions, and water consumption savings attained by converting to the
+ambient loop and eliminating the district steam and chilled water systems. These reductions are
+shown in Table 6 and the three corresponding graphs below.
+Greenhouse gas (GHG) emission calculations are based on estimates from Xcel Energy for current
+emissions from the existing district steam and chilled water plants. Xcel Energy’s emissions
+calculations are based on electrical consumption of the central chilled water plant and natural
+gas consumption of the central steam plant. The steam calculations are considerate of Xcel
+Energy’s stated 30% average annual distribution losses and 85% boiler efficiencies.
+The existing emissions for the studied buildings are directly proportional to the total district energy
+consumed by those buildings. Ambient loop emissions are calculated by totaling the electrical
+power consumption of the water source heat pumps, heat recovery chillers, and hydronic pumps
+serving the ambient loop in the energy and load models. That electric consumption is then
+converted to metric tons of carbon dioxide emissions via Xcel Energy’s Colorado CO2 intensity
+factor of 0.918 pounds of CO2 per kilowatt hour, most recently published in 2023. As Xcel Energy
+continues to invest in decarbonizing the electric grid – which is expected to deliver more than 80%
+carbon-free electricity by 2030 and close to 100% carbon-free electricity by 2040 – emissions
+associated with the ambient loop’s electric consumption will drop commensurately.
+The carbon emission reductions result from elimination of natural gas consumption and increased
+efficiency of the bidirectional ambient loop system above the unidirectional district steam and
+chilled water systems. Water consumption savings are realized by eliminating the constant
+make-up water feeding the steam system and the resulting condensate dumped to the city sewer
+system which includes tempering water to cool the condensate. Additionally, removing cooling
+towers from the ambient loop system eliminates cooling tower make-up water consumption that is
+currently incurred by the chilled water system.
+Energy, Emission, and Water Reduction Estimates
+System
+Current Projected
+District Steam District Chilled
+Water Natural Gas Ambient
+Loop Reduction Percent
+Change
+Annual Energy
+Consumption (ton/hr) 11,773,400 12,778,600 599,300 9,418,000 
+11,080,000
+14,044,000 15,706,000
+54.9% 61.6%
+Annual Emissions
+(Metric Tons CO2) 13,400 4,900 381 7,700 
+9,000
+9,900 11,200
+50.8% 57.9%
+Annual Water
+Consumption (gallons) 66,372,900 23,959,900 – 7,188,200 83,144,600 92.0%
+Table 14. Projected annual energy, carbon emission, and water use reductions
+Note that the two Ambient Loop columns only account for reductions within the space heating / cooling and domestic water heating functions at the 14 buildings. The ambient loop water consumption figure does not include domestic water consumption at the 14 buildings.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 60
+Note that the energy and emission reductions from the steam and chilled water plants do not
+capture all potential reductions realized by converting the studied buildings to an ambient loop.
+Metro must reduce the temperature of their effluent discharged to the South Platte River to 12°C
+during winter months (December to February) per Colorado Department of Public Health and the
+Environment (CDPHE) regulations. The proposed demonstration project will assist that effort by
+drawing 4MW of heat from the Cherry Creek Sewer Interceptor during those same winter months.
+Metro recently evaluated adding cooling towers downstream of their wastewater treatment plant
+to reject excess heat to the atmosphere. The rejection of 4MW of heat to the ambient loop will
+reduce the thermal load which Metro would be required to dissipate using a traditional cooling
+technology. To extract this heat from the sewer system, the ambient loop will require additional
+heat recovery chillers and hydronic pumps. The elimination of the electrical consumption for
+the cooling towers and addition of the chillers and pumps will result in an additional annual
+emissions reduction of 2,400 metric tons of CO2.
+Adding the wastewater emission reduction to the steam and chilled water reduction above results
+in a total ambient loop annual emissions reduction between 12,300 to 13,600 metric tons
+of CO2. As the ambient loop system expands to include additional buildings, the emissions
+reductions and impact will proportionally increase across the existing steam, chilled water, and
+wastewater systems. Xcel Energy’s continued efforts to decarbonize the electrical grid will also
+improve emission reductions for the electrified ambient loop.
+Steam
+Chilled Water
+Natural Gas
+Ambient
+30,000,000
+Proposed
+~58% Reduction
+Existing
+25,000,000
+20,000,000
+15,000,000
+10,000,000
+5,000,000
+0
+Demonstration Project Existing vs. Proposed Energy Consumption (ton/hr)
+20,000
+18,000
+Demonstration Project Existing vs. Proposed Emissions (Metric Tons CO2)
+Proposed
+Existing
+16,000
+14,000
+12,000
+10,000
+8,000
+6,000
+4,000
+2,000
+0
+CO2
+100,000,000
+90,000,000
+Demonstration Project Existing vs. Proposed Water Consumption (Gallons)
+Proposed
+Existing
+80,000,000
+70,000,000
+60,000,000
+50,000,000
+40,000,000
+30,000,000
+20,000,000
+10,000,000
+0
+Figure 21. Energy consumption reductions
+Figure 23. Water consumption reductions
+Figure 22. Carbon emission reductions
+~54% Reduction
+92% Reduction
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 61
+Potential Phased Buildout Plan
+The scale and scope of the proposed demonstration project in this feasibility study is significant.
+Successful completion of the project will require significant effort and alignment of resources
+from each organization involved. The ideal scenario involves Xcel Energy assuming the effort
+of creating the new ambient temperature TEN, Metro being responsible for the installation of
+the wastewater inline heat exchanger, and the City completing the necessary building-level
+renovations. Under this scenario each organization must organize, design, engage stakeholders,
+raise capital, get necessary approvals, and manage their respective projects. Even this ideal
+case raises questions about delineation of responsibility between parties and systems (i.e.
+underground piping from the Speer Blvd. interceptor to the Cherokee St. CUP). At the same time,
+each step along the way must be coordinated such that one portion neither lags nor leads the
+others by too much, which will require a specific oversight entity to be engaged. Most importantly,
+each step much be successfully completed so that all groups are willing to move on to the next
+step or phase of development.
+We propose a strategy that breaks the demonstration project scope down into individual phases.
+Each phase should be selected so that:
+1. Work progresses logically from the CUP back towards the Xcel Energy Chilled Water Plant.
+2. Phase durations range from three to four years each.
+3. Phases can be staggered so that a later phase can begin design when the previous phase has
+moved to construction.
+4. Each phase, once complete, can stand alone as a successful project, so that if for some
+reason one party decide that they need to stop their work after a particular phase, the projects
+completed in those phases can operate successfully as an ambient TEN without consequence
+to planned-but-not-completed projects upstream.
+5. Phases are organized to build upon early successes. Ideally, the easiest projects would be
+completed first so that the teams can learn valuable lessons and build momentum with less
+risk early in the project.
+Developing these phases is a complex balancing of engineering, geography, capital, and politics.
+Each facility was given a qualitative score based on criteria and relative weighting so that a
+ranking of projects could be used to inform the selection of the phases to meet the standards
+above.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 62
+Scoring Criteria
+The team evaluated all buildings in the study via site investigations, assessment of building
+automation trend data, interviews with operational personnel, and review of as-built documents
+and previous studies. Each building’s adaptability to an ambient loop was qualitatively scored
+and ranked on a scale of one to four according to the following criteria: improves its efficiency and
+resiliency. Additionally, reducing electrical demand in summer may ultimately be preferable to
+maximizing COP during shoulder seasons rather than increasing operating temperatures across
+the board in winter to allow extra temperature drift and redundancy.
+Category Criteria Low Score High Score
+Primary Heating Age of equipment and systems
+Newer equipment Older, less reliable, and less adaptable to ambient loop operations Operating temperature of heating hot water system
+Lower temperatures, larger coils, and more adaptable to water source heat pumps
+Higher temperatures
+Primary Cooling Age of equipment and systems
+New systems that are well maintained and in good working order
+Older, less reliable, and less adaptable to ambient loop operations Air Distribution Age of equipment and systems
+New systems that are well maintained and in good working order
+Older, less reliable, and less adaptable to ambient loop operations Hydronic Pumps Age of equipment and systems
+New systems that are well maintained and in good working order
+Older, less reliable, and less adaptable to ambient loop operations Terminal Units Age of equipment and systems
+New systems, well maintained and in good working order, and reheat coils that are sized for lower operating temperatures
+Older, less reliable, and less adaptable to ambient loop operations
+Constructability Potential space to install/ operate new water source heat pumps in existing mechanical rooms
+Mechanical spaces with adequate or abundant space
+Mechanical spaces without adequate or abundant space
+Domestic Hot Water Heating
+Source of domestic water heating – gas, electric, or steam
+Independent electric heating systems
+Gas and steam systems due to the additional cost of conversion Humidification Source of humidification where applicable
+No current humidification system Steam-based humidification systems due to the additional cost of conversion Snow Melt Source of exterior snow melt system where applicable
+No current snow melt system Steam-based snow melt systems due to the additional cost of conversion
+Electrical Systems
+Size of existing service and vault
+Newer, adequately sized systems Older, undersized, or at capacity systems Size, age, and condition of existing distribution equipment
+Newer, adequately sized systems Older, undersized, or at capacity systems
+Occupant Concerns
+Building use type and operational parameters for temperature and humidity
+Buildings with standard offices and their respective loose operating parameters
+Mission critical or tight parameters such as those at the Denver Art Museum Operating schedule of the building
+Buildings with standardized 40hrs per week operating schedules
+Buildings operating 24-hrs per day
+Ability to shift occupants and minimize disruption within the building to accommodate construction
+Ease of shifting and minimal disruption
+Shifting challenges and potential disruption
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 63
+A summary of the results of the existing building evaluation is provided in Table 14. The complete
+results are included in Appendix A.
+Phased Thermal District and Building Implementation Recommendation
+The weighted average for each building informed the proposed phased implementation plan
+outlined in the table below. Construction of the ambient loop will start at the former boiler plant
+on Cherokee Street and will generally proceed northwest towards the existing Xcel Energy chilled
+water district plant. This will allow incremental conversion of each building from the legacy chilled
+water and steam district systems to the new ambient loop district system.
+In addition to the proximity benefits of working in a smaller footprint, the Phase 1 buildings, which
+are located close to the proposed Cherokee Street ambient loop central plant, score relatively
+well according to the evaluation criteria. This suggests that these buildings will be comparatively
+straightforward to convert to ambient loop operation. By addressing these seemingly easier
+buildings first, the construction planning, phasing, and operational assumptions outlined in this
+report can be stress-tested on buildings with less variability and criticality. Lessons learned from
+the Phase 1 conversions can be applied to later phases which will minimize occupant impact.
+Conversion of the Elections Building to a WSHP based central plant that is served by either the
+existing chilled water plant or an ambient loop, can serve as a proof of concept for future phases.
+Buildings in each phase are prioritized based on the existing system criteria outlined in Table 15.
+Ambient Loop – Facility Conversion
+Building Weighted Score
+Permit/Elections 1.3
+Lindsey Flanigan Courthouse 2.1
+Police Admin Building (PAB) 2.2
+Police Administration Detention Facility (PADF) 2.3
+McNichols Building 2.4
+Denver Crime Lab 2.5
+Minori Yasui Building 2.6
+Wellington E. Webb 2.6
+Art Museum – Martin 2.8
+Colorado Convention Center 2.8
+Denver Justice Center (DJC) 2.9
+Art Museum – Hamilton 3.1
+Denver Public Library 3.2
+City and County Building (CCB) 3.7
+Table 15. Weighted average evaluation of each building’s conversion to a WSHP based system
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 64
+Phase 1
+Phase 4
+Phase 2
+Phase 5
+Phase 3
+Permit / Elections Building
+Wellington E. Webb
+City and County Building
+Colorado Convention Center
+Justice Center
+Police Admin Building / PADF
+Minori Yasui Building
+McNichols Building
+Denver Athletic Club*
+Art Museum – Hamilton
+Lindsey-Flanigan Courthouse
+Denver Crime Lab Denver Public Library
+Hyatt Place Downtown*
+Art Museum – Martin
+*Privately owned and operated
+Note that the Denver Athletic Club and Hyatt Place Downtown are both privately owned and
+operated buildings, that would need to be added to the ambient loop before the Colorado
+Convention Center. These two buildings were not evaluated in this study. Additional coordination
+with those buildings is required before Phase 5 implementation.
+Based on the building-level loads and available technologies, district systems were scaled and
+scheduled to match the phasing of the building conversions. Potential geothermal systems can
+be installed near the proposed Cherokee Street central utility plant, while the sewer thermal
+exchange system requires more infrastructure and coordination with Denver Metro Wastewater.
+Transitioning each building from the legacy district chilled water and steam systems to the
+ambient loop will require careful planning and design. According to the evaluations described
+above, each building presents unique challenges. Certain buildings have adequate space to
+install new water source heat pumps in their mechanical rooms and operate the ambient loop
+in tandem with the legacy systems during system startup and optimization. Other buildings have
+limited mechanical space and will require more creative use of existing mechanical space to limit
+occupant disruptions.
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 65
+A sample schedule outlining the phased nature of funding, design, construction, and operation
+is shown below in Table 15. This cyclical approach allows flexibility to adjust individual phase
+activities without negatively impacting future phases. It also improves financial flexibility, allowing
+for multiple phases to be funded early in the planning process or as funding becomes available.
+A simplified graphical representation of the phased district implementation follows.
+Proposed Implementation Schedule
+Year 0 1 2 3 4 5 6 7 8 9 10 11
+Engagement
+Funding $ $ $ $
+Phase 1
+Phase 2
+Phase 3
+Phase 4
+Phase 5
+$
+Feasibility Study & Engagement
+Funding Design Construction Operation
+Table 16. Proposed imeplementation schedule
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 66
+Figure 24. Phase 1 scope
+Phase 1
+Permit / Elections Building
+Buildings District Plant Implementation
+Rehabilitate / abate central plant
+Police Admin Building / PADF Install central plant pumps & piping
+Denver Crime Lab Install 90 1,200-foot deep geothermal wells
+Potential Geothermal Field
+Current Phase Public District Building for Demonstration Project
+Legend
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 67
+Figure 25. Phase 2 scope
+Phase 2
+City and County Building
+Buildings District Plant Implementation
+Install three segments of sewer wastewater heat exchanger
+McNichols Building
+Art Museum – Hamilton
+Install underground piping to Cherry Creek interceptor
+Denver Public Library
+Art Museum – Martin
+Install two 1,200-ton heat pump chillers at plant
+Potential Geothermal Field
+Current Phase Public District Building for Demonstration Project
+Previous Phase Public District Building for Demonstration Project
+Future Wastewater Interceptor/Housing Line
+Legend
+Metro Cherry Creek Interceptor
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 68
+Figure 26. Phase 3 scope
+Phase 3
+City and County Building
+Buildings District Plant Implementation
+Install three segments of sewer wastewater heat exchanger
+McNichols Building Install underground piping to Cherry Creek interceptor
+Potential Geothermal Field
+Current Phase Public District Building for Demonstration Project
+Previous Phase Public District Building for Demonstration Project
+Future Wastewater Interceptor/Housing Line
+Legend
+Metro Cherry Creek Interceptor
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 69
+Figure 27. Phase 4 scope
+Phase 4
+Wellington E. Webb
+Buildings District Plant Implementation
+Install 138 1,200-foot deep geothermal wells
+Minori Yasui Building
+Potential Geothermal Field
+Current Phase Public District Building for Demonstration Project
+Previous Phase Public District Building for Demonstration Project
+Future Wastewater Interceptor/Housing Line
+Legend
+Metro Cherry Creek Interceptor
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 70
+Figure 28. Phase 5 scope
+Phase 5
+Colorado Convention Center
+Buildings District Plant Implementation
+Install 145 1,200-foot deep geothermal wells, OR connect one Colorado Convention Center cooling tower to system, OR integrate to existing chilled water network, OR run new sewer wastewater connection, OR incorporate new technology available in 2035
+Denver Athletic Club*
+Hyatt Place Downtown*
+Potential Geothermal Field
+Current Phase Public District Building for Demonstration Project
+Current Phase Private District Building for Demonstration Project
+Previous Phase Public District Building for Demonstration Project
+Future Wastewater Interceptor/Housing Line
+Legend
+*Privately owned and operated
+Metro Cherry Creek Interceptor
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 71
+Next Steps – Roadmap for Implementation
+Although this study primarily concentrated on the 14-building study, the consulting team strongly
+believes that this system has the potential to expand and encompass not only the footprint of the
+existing steam and chilled water networks but all of downtown. With the City and County of Denver
+as the anchor customer for a new district energy system, the community can benefit not only
+from decarbonization efforts but also from potential economic advantages, similarly to the initial
+investment in district steam 140 years ago. To maintain momentum, we recommend taking the
+next steps as soon as possible.
+One of the very next steps is to determine what the intended ownership and operational
+structure will be for the ambient district TEN. Starting with the assumption that building
+owners (in this case the City) will be responsible for all building-side systems, multiple
+options exist on which party will own and operate the upstream district-level systems.
+These scenarios include, but are not limited to:
+Status Quo: Xcel Energy currently owns and operates the steam and chilled water systems.
+Under the status quo scenario, Xcel would continue to do so but change the chilled water
+loop to an ambient loop using sewer heat recovery and geothermal.
+• Xcel operates all district-side equipment and infrastructure. They reuse their pipes, they
+develop and own geothermal fields, responsible for all maintenance on the district side.
+• Xcel purchases and refurbishes the Cherokee plant and owns the CUP and the district
+equipment in the plant.
+• Metro Water Recovery installs and owns the wastewater heat exchanger. Xcel would run
+the pipe from the sewer pipe to the CUP.
+» A rate structure for Metro to sell the heat to Xcel to recoup initial investments of the
+wastewater thermal recovery system is established in a bilateral agreement between
+Metro and Xcel.
+• The City and County of Denver does all work in the demonstration project buildings
+and is responsible for maintenance of this equipment and the piping once it enters the
+building.
+Ownership and Operation
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 72
+City Ownership: The City and County of Denver develop their own district energy system.
+• Denver develops an independent district system including geothermal fields and is
+responsible for all maintenance on the district side.
+• Existing piping from Xcel’s current chilled water network could be purchased or leased
+from Xcel for the district’s piping or a new pipe network could be installed.
+• Denver could contract with a third-party operator, assign operation to an existing City
+agency, or stand up a new agency.
+• Denver refurbishes the Cherokee CUP and owns the plant and the district equipment in
+the plant.
+• Metro Water Recovery installs and owns the inline wastewater heat exchanger. The City
+and County of Denver would run the pipe from the sewer pipe to the CUP.
+» A rate structure for Metro to sell the heat to the City to recoup initial investments
+of the wastewater thermal recovery system is established in a bilateral agreement
+between Metro and City.
+• The City and County of Denver does all work in the buildings and is responsible for the
+maintenance of this equipment and the piping once it enters the building.
+Third Party Ownership: Denver partners with a new company to provide the district energy
+services.
+• The third party develops a district system, including geothermal fields, and is responsible
+for all maintenance on the district side.
+• Existing piping from Xcel’s current chilled water network could be purchased or leased
+from Xcel for the district’s piping or a new pipe network could be installed and paid for by
+the third party.
+• Metro Water Recovery installs and owns the inline wastewater heat exchanger. The third
+party would run the pipe from the sewer pipe to the CUP.
+» A rate structure for Metro to sell the heat to the third party to recoup initial
+investments of the wastewater thermal recovery system is established in a bilateral
+agreement between Metro and third party.
+• The third party would lease the Cherokee CUP or purchase land to develop a new CUP
+• The third party purchases land required to develop geothermal
+• The third party is responsible for the operation and maintenance of the system including
+staffing and billing.
+• Denver does all work in the buildings and is responsible for maintenance of this
+equipment and the piping once it enters the building.
+Negotiations between the parties should start in earnest. Each project team should work
+to gain the approval to move forward from their respective leadership and begin to develop
+a formal Memorandum of Understanding regarding the expected ownership and operation
+responsibilities, as well as the intended timing of the individual phases to ensure the
+district loop transition matches the completion of the in-building conversions.
+Ownership and Operation (Continued)
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 73
+As previously described, a project of this nature will require hundreds of millions of dollars
+to complete. Each party will have different strategies on how to raise and potentially
+recoup any dollars invested into these projects. Xcel, for example, would likely develop
+their rate structures such that they could pay off the investment and begin turning a profit
+within a set number of years. Metro may elect to charge for the delivered heat to recover
+their capital investments to subsidize ongoing operational, maintenance, and fixed asset
+replacement costs. The City, on the other hand, must raise their portion of the capital
+through an approved debt mechanism. There are two primary methods to raise significant
+capital:
+General Obligation Bonds: These are bonds approved by voters to deliver a specific set
+of projects or programs. The city is bound to complete the projects as approved. These
+bonds have a set payback over the term of the bond. The City has established teams and
+processes for these bonds. However, in requiring voter approval, there is a chance that the
+bond will not pass. General obligation bonds are also challenging for projects that have a
+long duration due to the challenge of developing an accurate cost estimate with which to
+request the bond.
+Special Purpose Bonds / Green Bonds / Social Impact Bonds: These are alternative
+bond structures that typically do not require voter approval. The City develops a network
+of private investors that agree to fund projects based on a performance-based payback
+structure. Often, investors are part of an oversight board or operating partnership to
+ensure that the desired outcomes can be achieved. This model was employed in the City’s
+Supportive Housing Social Impact Bond Initiative launched in 2016.
+Clean Energy Tax Credits: The recently expanded elective pay option expands energy
+tax credits to include geothermal and thermal energy storage systems. These federal
+tax credits are available to tax exempt entities and include bonus adders for domestic
+manufacturing, energy communities, and prevailing wages. Depending on the final
+configuration of the systems and procurement methods, between 6% to 50% of the
+geothermal wellfields and their connected systems can be funded by these credits.
+Additionally, the State of Colorado currently has both grants and tax credits available for
+geothermal installations.
+Project Financing
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 74
+A project of this scale can certainly follow the usual procurement process of the City and
+County of Denver; however, securing funding and navigating bond initiatives will consume
+valuable time. With the decarbonization of our community set for a 2040 deadline, there
+are tangible benefits to investigating a non-traditional process.
+Many government entities that undertake projects of this scale and complexity
+consider Public-Private Partnerships (P3). While P3 projects usually offer faster overall
+implementation, the procurement process can still take considerable time to set up
+and execute properly. The P3 model also brings significant financial and operational
+opportunities:
+• City and County of Denver experienced success with the National Western Center energy
+P3 process.
+• Private companies can provide substantial capital for energy projects, which may be
+difficult for Denver to secure solely through public funds.
+• By combining public policy support with private sector capabilities, energy projects can
+be developed and deployed more quickly.
+• The private sector often possesses advanced technology and project management skills
+that can be crucial for complex energy projects.
+• P3 projects can be structured to share risk between the public and private sectors,
+mitigating potential financial burdens for the government. Risk transfer can include,
+among others:
+» Construction risk (i.e., risk that the project will not be completed on time or on
+budget).
+» Usage or traffic demand risk (i.e., risk of lower-than-expected revenues from users of
+the project).
+» Operation and maintenance (O&M) risk. For example, if the public agency transfers
+O&M risk to the private sector partner, then any unexpected O&M cost increases will
+be borne by the private sector partner. In planning for and developing P3 projects, a
+risk register is often prepared in advance, with public officials choosing among three
+options for each risk:
+– Retain the risk, attempt to mitigate it and/or insure against it.
+– Transfer the risk to the private sector partner.
+– Share the risk with the private partner.
+Procurement Strategy
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 75
+• Private companies are often incentivized to develop innovative solutions and operate
+projects more efficiently to maximize returns.
+• P3s can help establish a ratable fee structure and commercial terms, ensuring that
+all parties involved have a clear understanding of the commitments and expectations.
+This collaborative approach can foster transparency and trust, which are crucial for the
+successful execution of any project. By establishing a well-defined fee structure, P3 can
+mitigate financial risks and align the incentives of all stakeholders, paving the way for a
+sustainable partnership.
+• While P3s do not provide direct funding, they can serve as a single entity for financing
+purposes. A reliable partner can assist in exploring various funding options with Denver,
+Metro, and Xcel Energy, which may include grants, tax credits, and other opportunities.
+• Engaging additional stakeholders, including private building owners, community
+organizations, and local businesses, can significantly enhance the project’s potential
+impact. By involving these parties early in the planning process, P3s can leverage a
+wealth of resources and expertise, resulting in a more comprehensive and inclusive
+strategy. This engagement can lead to innovative solutions that address the unique
+needs of the community, driving greater success and sustainability for the project.
+Additionally, fostering strong relationships with these stakeholders can help to secure
+long-term support and investment, ensuring the project’s continued growth and
+adaptability in the face of future challenges.
+The P3 model effectively establishes a new corporation with a board of directors made
+up of representatives from each of the founding organizations. In this way, the City, Xcel
+Energy, Metro, and a private company could all be party to a single procurement entity.
+Procurement Strategy (Continued)
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 76
+Effective communication with all stakeholders is crucial for project success; a poor
+communication strategy can jeopardize a project before it starts. Messaging must be
+tailored to a given audience so that communication strategies engage stakeholders,
+explain the value of the project for their organizations, and foster investment in the project.
+Careful consideration must be given to the language used in communication so that
+complex technical concepts are successfully conveyed to non-technical decision-makers
+using common terminology without making the audience feel that the information is overly
+simplified and lacking the necessary depth to show thoroughness and thoughtfulness.
+Collaborating with private industry, whether downtown clients that may connect to the
+district systems or industry firms that offer alternative financing or construction methods,
+can serve as a valuable partner for the City’s marketing and public relations team.
+A communications strategy should be designed early in the process, shortly after the
+MOU establishing ownership and operational responsibilities. This strategy should
+establish which channels – such as social or traditional media – are to be used and by
+whom, a general schedule for announcements and outreach, selections of key events
+and milestones, among other elements. For a project of this complexity, we recommend
+contracting the communications responsibilities to a firm that specializes in this sort of
+marketing and communication that has a proven track record successfully navigating large
+infrastructure projects.
+Fortunately, the City has gone through this process before, with the National Western
+Center energy project. The City and EAS Partners led a public relations effort that included
+graphics, fact sheets, and a regularly updated project website. While the public relations
+partner led the effort to work with the technical team and the City to ensure messaging
+was clear, the approvals and release of all content were through the Mayor’s Office of the
+National Western Center (NWCO) and the National Western Center Authority (NWCA). The
+National Western Center teams have since utilized those materials to update social media
+and the public-facing website.
+Collaboration and communication among all stakeholders is crucial to ensure that each
+aspect of the project progresses smoothly.
+Communications Strategy
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 77
+When communicating about complex projects, effective materials can be the difference
+between getting your message across and not. Communications should include detailed
+project overviews, visual aids such as charts and diagrams, clear timelines, regular status
+updates, stakeholder-specific information, and proactive risk management summaries,
+ensuring everyone involved has a comprehensive understanding of the project’s
+goals, progress, potential challenges, and ultimate benefits. Some keys to effective
+communication tools include:
+Consistent Messaging
+• Develop standard terms, points of emphasis, calls to action, graphics, links or QR codes,
+• Included in all communications, regardless of purpose or audience. Repetition is key.
+• Try to keep these items as simple as possible – get to the point early and often.
+Graphics, Charts, and Tables
+• Maximize the use of graphics and minimize the use of charts and tables for general
+communications. Charts and tables should be reserved for technical documentation
+meant for specialized audiences.
+Audience Awareness
+• Tailor communication materials to the technical knowledge of the audience, avoiding
+jargon when possible.
+Accessibility
+• To meet city standards, all communication materials must comply with minimum
+accessibility requirements for adaptive readers and other technologies used by
+individuals with disabilities.
+• Communications intended for the public should be written at an 8th grade reading level.
+Transparency and Open Communication
+• Regularly share project updates, including challenges and potential issues, to maintain
+trust with stakeholders.
+Feedback Loop
+• Keep in mind that communication is a two-way street. Set up systems to collect
+feedback from stakeholders for ongoing improvements in communication effectiveness.
+Once these tools are created, they should be utilized across presentations, websites,
+and social media platforms. Cohesive communications are crucial for projects of this
+magnitude that involve multiple departments, companies, and stakeholders. When
+developing these materials, sufficient time must be allocated to ensure that the necessary
+approvals and reviews can be completed successfully.
+Communications Materials
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 78
+Conclusion
+This study demonstrates a viable path forward to decarbonize downtown Denver. However, time is of
+the essence. Denver has committed to reducing greenhouse gas emissions by 65% by 2030, and by
+100% by 2040. District energy systems are neither easy nor simple to implement but Denver has never
+been afraid to take on and address difficult, and sometimes seemingly insurmountable, challenges.
+Denver has a long history of trailblazing when it comes to mitigating climate change, but our impact has
+historically been limited to our own demographic.
+The work that results from this study can go far beyond Denver, and far beyond Colorado. The lessons
+and methodology that have been created from this study and the resulting ambient loop project will
+be far-reaching and have the potential to influence many other jurisdictions with similar challenges
+and opportunities. Other cities with aging district steam and chilled water loops including New
+York City, Philadelphia, Minneapolis, Boston, Seattle, and Chicago are all grappling with the same
+decarbonization challenges that Denver is experiencing, and all have the same potential to decarbonize
+with an ambient temperature TEN.
+With the solutions provided in this study, Denver has the unique opportunity to not only solve its own
+decarbonization challenge but provide a road map for dozens of other cities to follow. We look forward
+to Denver continuing to lead the way towards a vibrant and sustainable future.
+The original steam loop established in 1880 gave the city its foundation, only four years
+after Colorado became the 38th state in the Union. Now, facing a new era, a highly
+efficient district energy system is needed to lead Denver’s energy transition and fully
+establish Denver as a global leader in the battle against climate change.
+Figure 29. Proposed district energy system
+
+
+Appendix A
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 80
+Table A-1
+Detailed Energize Denver Targets for Studied Buildings
+Building
+ID Building Gross Floor
+Area (SF)
+2023 Benchmark Site EUI (kBtu/year/SF)
+2030 Target Site EUI (kBtu/year/SF)
+% Reduction Required for 2030 Compliance (vs 2023)
+2499 Colorado Convention Center 2,200,000 74.3 43.5 41.5%
+2654 Minori Yasui Building 153,948 75.9 52.0 31.5%
+2659 Wellington E. Webb 677,832 70.7 54.8 22.5%
+3009 City & County Building 419,387 73.9 53.3 27.9%
+3010 McNichols Building 40,933 86.6 53.0 38.8%
+3013 Police Admin/Police Detention 197,588 117.6 52.3 55.5%
+3014 Denver Crime Lab 71,646 230.9 169.3 26.7%
+3016 Elections Building 79,208 67.5 51.1 24.3%
+3038 Denver Public Library 130,000 97.2 57.0 41.1%
+3039 Art Museum – Martin 540,315 192.6 138.1 28.3%
+3045 Van Cise-Simonet Detention Center 210,000 115.3 90.7 21.3%
+3046 Lindsey-Flanigan Courthouse 438,411 69.6 56.2 19.3%
+
+
+Ambient Loop Thermal Energy Feasibility Study | Page 81
+Table A-2
+Complete Ambient Loop Adaptability Scoring
+Building Primary
+Heating
+Primary Cooling
+Air
+Distribution Pumps Terminal
+Units
+Constructability
+DHW Service
+Humidifi
+cation Snow Melt Electrical Occupant
+Concerns
+Permit/
+Elections 1 1 1 2 1 1 1 0 0 1 1
+Lindsey Flanigan Courthouse
+11 1 11310022
+Police Administration Detention Facility
+11 3 13120013
+City & County
+Building 2 2 3 2 3 1 2 0 0 2 1
+McNichols
+Building 4 2 1 1 1 2 1 0 2 2 1
+Denver Crime
+Lab 2 1 1 1 1 2 2 2 0 3 2
+Minori Yasui
+Building 3 2 2 2 2 3 1 0 0 1 2
+Wellington E.
+Webb 2 2 2 2 2 2 2 0 2 3 1
+Art Museum 
+Martin 1 1 1 1 1 2 2 3 2 2 4
+Colorado Convention Center
+22 2 22420212
+Denver Justice
+Center (DJC) 1 1 1 1 1 3 3 0 0 3 4
+Art Museum 
+Hamilton 1 1 1 1 1 3 2 3 0 3 4
+Denver Public
+Library 3 3 3 4 2 1 3 2 3 2 2
+City and County
+Building (CCB)
+11 4 14330044
+
+
+Appendix B
+
+
+Appendix B. Reference List of Studies
+Colorado Public Utilities Commission Proceeding No. 24A-0547E, Xcel Energy’s “Distribution System Plan 2025-2029”, Colorado Public Utilities Commission Link Hearing Exhibit 103, Direct Testimony of Zachary D. Pollock Attachment ZDP-1, published December 16, 2024.
+Denver’s Citywide Goals for 2025, City and County of Denver Mayor's Office Link
+Colorado Public Utilities Commission Proceeding No. 22A-0382ST, Xcel Energy’s Steam Regulatory and Resource Plan, Colorado Public Utilities Commission Link Hearing Exhibit 108, Second Supplemental Direct Testimony of Joseph T. Schwark Attachment JTS-4, published December 22, 2023. Attachment JTS-5, published December 13, 2023.

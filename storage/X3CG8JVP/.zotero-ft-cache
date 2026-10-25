@@ -1,0 +1,202 @@
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+THE REGIONAL AIR POLLUTION INFORMATION AND SIMULATION (RAINS) MODEL
+Markus Amann
+International Institute for Applied Systems Analysis (IIASA), Laxenburg, Austria
+Keywords: Integrated assessment models, air pollution, optimization, RAINS model
+Contents
+1. Introduction 2. Model Description 2.1. Scenarios of Anthropogenic Activities 2.2. Emission Estimates 2.3. Emission Control Options and Costs 2.3.1. Options for Reducing SO2 Emissions and their Costs 2.3.2. Options for Reducing NOx Emissions from Stationary Sources and their Costs 2.3.3. Options for Reducing VOC Emissions from Stationary Sources and their Costs 2.3.4. Options for Reducing Emissions from Mobile Sources and their Costs 2.3.5. Options for Reducing Ammonia Emissions and their Costs 2.4. Modeling the Dispersion of Pollutants in the Atmosphere 2.4.1. The Long-range Transport of Sulfur and Nitrogen Compounds 2.4.2. Modeling Ozone Formation 2.5. Quantifying Environmental Sensitivities: The Concept of Critical Loads and Critical Levels 2.6. Optimization 2.6.1 Decision Variables 2.6.2. Auxiliary Variables 2.6.3. Outcome Variables 2.6.4. Constraints 2.6.5. Goal Function 2.6.6. Sectoral Cost Curves as Input to the Optimization 3. Analytical Support for International Negotiations 3.1 The Second Sulfur Protocol of the UN/ECE Convention on Long-range Transboundary Air Pollution 3.2. The Second NOx Protocol of the UN/ECE Convention on Long-range Transboundary Air Pollution 3.3. The Approach to Air Quality Control of the European Union 4. Example Calculations 4.1. An Optimized Scenario For Meeting Environmental Interim Targets In Europe 4.2. Scenarios with Uniform Emission Reductions Bibliography Biographical Sketch
+Summary
+Integrated assessment models, such as the RAINS model, provide a powerful tool for analyzing the full chain of emissions from their origin to their environmental effects and
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+for exploring the interaction of various pollutants contributing to a variety of environmental problems. Optimization utilities support the search for cost-effective strategies aimed at achieving given environmental targets at least cost.
+The Regional Air Pollution INformation and Simulation (RAINS) model, developed at the International Institute for Applied Systems Analysis, establishes a consistent framework for the analysis of emission reduction strategies, focusing on acidification, eutrophication, and tropospheric ozone.
+RAINS comprises modules for emission generation (with databases on current and future economic activities, energy consumption levels, fuel characteristics, and so on), for emission control options and costs, for atmospheric dispersion of pollutants, and for environmental sensitivities (i.e. databases on critical loads).
+To create a consistent and comprehensive picture of the options for simultaneously addressing the three environmental problems (acidification, eutrophication, and tropospheric ozone), the model considers emissions of sulfur dioxide (SO2), nitrogen oxides (NOx), ammonia (NH3), and volatile organic compounds (VOC).
+1. Introduction
+There is substantial concern about the environmental impacts of air pollution on the local, regional, and global scales. It has been shown that observed levels of various air pollutants can threaten human health, vegetation, and wildlife, and cause damage to materials. To limit the negative effects of air pollution, measures to reduce emissions from a variety of sources have been initiated.
+Once emitted, many air pollutants remain in the atmosphere for some time before they are finally deposited on the ground. During this time, they are transported with the air mass over long distances, often crossing national boundaries.
+As a consequence, at a given site the concentration of pollutants and their deposition on the ground is influenced by a large number of emission sources, frequently from many different countries. Thus, action to efficiently abate air pollution problems has to be coordinated internationally.
+Most of the current international agreements determine required abatement measures solely in relation to technical and economic characteristics of the sources of emissions, such as available abatement technologies, costs, historic emission levels, and so on. No relation is established to the actual environmental impact of emissions.
+For achieving overall cost-effectiveness of strategies, however, the justification of potential measures in relation to their environmental benefits must also be taken into account.
+Integrated assessment models, such as the RAINS model, provide a powerful tool for analyzing the full chain of emissions from their origin to their environmental effects and to explore the interaction of various pollutants contributing to a variety of
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+environmental problems. Optimization utilities support the search for cost-effective strategies aimed at achieving given environmental targets at least costs.
+2. Model Description
+The Regional Air Pollution INformation and Simulation (RAINS)-model developed at the International Institute for Applied Systems Analysis (IIASA, Laxenburg, Austria) establishes a consistent framework for the analysis of emission reduction strategies, focusing on acidification, eutrophication, and tropospheric ozone.
+RAINS comprises modules for emission generation (with databases on current and future economic activities, energy consumption levels, fuel characteristics, and so on), for emission control options and costs, for atmospheric dispersion of pollutants, and for environmental sensitivities (i.e. databases on critical loads).
+To create a consistent and comprehensive picture of the options for simultaneously addressing the three environmental problems (acidification, eutrophication, and tropospheric ozone), the model considers emissions of sulfur dioxide (SO2), nitrogen oxides (NOx), ammonia (NH3), and volatile organic compounds (VOC). A schematic diagram of the RAINS model is displayed in Figure 1.
+The European implementation of the RAINS model incorporates databases on energy consumption for 38 regions in Europe. Emissions of SO2, NOx, NH3, and VOC for 1990 are estimated based on information collected by the CORINAIR’90 inventory of the European Environmental Agency and on national information.
+Options and costs for controlling emissions of the various substances are represented in the model by considering the characteristic technical and economic features of the most important emission reduction options and technologies.
+Atmospheric dispersion processes over Europe for sulfur and nitrogen compounds are modeled based on results of the European EMEP model developed at the Norwegian Meteorological Institute. For tropospheric ozone, source-receptor relationships between the precursor emissions and the regional ozone concentrations are derived from the EMEP photo-oxidants model.
+The RAINS model incorporates databases on critical loads and critical levels compiled at the Coordination Center for Effects (CCE) at the National Institute for Public Health and Environmental Protection (RIVM) in The Netherlands.
+The RAINS model can be operated in the “scenario analysis” mode, i.e. following the pathways of the emissions from their sources through to their environmental impact. In this case the model provides estimates of regional costs and environmental benefits of alternative emission control strategies.
+Alternatively, a (linear programming) optimization mode is available to identify costoptimal allocations of emissions reductions to achieve specified environmental targets.
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+Figure 1. Schematic flowchart of the RAINS model framework
+2.1. Scenarios of Anthropogenic Activities
+Inputs to the RAINS model include projections of future levels of anthropogenic activities up to the year 2010.
+The model stores national energy balances for selected future years, distinguishing fuel production, conversion, and consumption for 22 fuel types in 6 economic sectors. These energy balances are complemented by additional information relevant for emission projections, such as boiler types (e.g., dry-bottom vs. wet-bottom boilers), size distribution of plants, age structures, fleet composition of the vehicle stock, and so on.
+Agricultural activities are a major source of ammonia emissions, which in turn make a contribution to the acidification problem. Next to specific measures directed at limiting the emissions from livestock farming,
+The future development of the animal stock, which is an important determinant of future ammonia emissions, is described by national livestock numbers distinguishing eight animal categories.
+The forecast of the future development of VOC emission-generating activities is linked to other information on general economic development. About half of the anthropogenic emissions of VOC originate from combustion and distribution of fossil fuels. Therefore, the information on projected levels of fuel consumption contained in the RAINS energy database is used to estimate future emissions of VOC from the relevant sources, i.e. traffic, stationary combustion, extraction and distribution of fuels. The development of the other VOC-emitting sectors is linked to projections of GDP values for various
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+industrial sectors and to population forecasts.
+2.2. Emission Estimates
+The RAINS model estimates current and future levels of SO2, NOx, VOC, and NH3 emissions based on information provided by the economic (energy/agricultural) scenario and on emission factors derived from the CORINAIR’90 emission inventory database and guidebook. Emission estimates are performed on a disaggregated level, which is determined by the available details of the energy and agricultural projections and the CORINAIR’90 emission inventory.
+Considering the intended purposes of integrated assessment, the major criteria for aggregation are:
+• Contribution to total emissions (compared to total European emissions and to emissions for a particular country). It was decided to aim for individual source categories in a share from 0.5% to 2% of total anthropogenic emissions; • Possibility to define uniform activity rates and emission factors; • Possibility to construct forecasts of future activity levels. Since the emphasis of the cost estimates is on future years, it is crucial that reasonable projections of the activity rates be constructed or derived; • Availability and applicability of similar control technologies; • Availability of relevant data. As far as possible, emission related data should be compatible with the CORINAIR’90 emission inventory.
+The sectoral disaggregation selected for the RAINS model is presented in Tables 1−4.
+RAINS Sector Primary Secondary
+New boilers
+Existing boilers, dry bottom
+Power plants and district heating plants
+Existing boilers, wet bottom
+Combustion
+Fuel production and conversion (other than power
+plants) Losses
+Domestic Residential, commercial, institutional,
+agriculture Combustion in boilers, gas turbines, and stationary engines
+Other combustion
+Industry
+Process emissions
+Non-energy use of fuels Use of fuels for non-energy purposes
+(feedstocks, lubricants, asphalt) Other emissions Other sources: air traffic LTO cycles, waste
+treatment and disposal, agriculture
+Table 1. RAINS sectors of the SO2/NOx modules for stationary sources
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+RAINS Sector Primary Secondary
+Heavy duty vehicles (trucks, buses, and other)
+Light-duty vehicles, four-stroke (cars, vans, motorcycles)
+Light-duty vehicles, two-stroke (cars, motorcycles)
+Road transport
+Gasoline evaporation
+Other mobile sources and machinery with two-stroke engines
+Off-road
+Other mobile sources and machinery with four-stroke engines
+Medium vessels
+Maritime
+activities Large vessels
+Table 2. Sectors in the RAINS module for mobile sources
+RAINS sector Primary Secondary Livestock Dairy cows
+Other cattle
+Pigs
+Laying hens
+Other poultry
+Sheep and goats
+Fur animals
+Horses
+Fertilizer use Agricultural cultures with fertilizers (except animal manure)
+Fertilizer production Production processes in inorganic chem. industry
+Other industrial Production processes—nitric acid
+Waste treatment and
+disposal Waste treatment and disposal
+Other Various activities including stationary combustion, mobile
+sources and industrial processes
+Table 3. Main activity groups distinguished in the RAINS NH3 module RAINS Sector Primary Secondary
+Dry cleaning
+Metal degreasing
+Treatment of vehicles
+Domestic solvent use (excluding paint)
+Architectural painting
+Domestic use of paints
+Solvent Use
+Manufacture of automobiles
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+Other industrial use of paints
+Products incorporating solvents
+Products not incorporating solvents Pharmaceutical industry
+Printing industry
+Application of glues, adhesives in industry
+Preservation of wood
+Other industrial use of solvents
+Inorganic chemical industry
+Production processes in organic chemistry
+Chemical Industry
+Storage and handling of chemical products
+Refineries—process
+Refineries
+Refineries—storage
+Gaseous fuels
+Fuel Extraction and Distribution Liquid fuels
+Service stations
+Gasoline
+Distribution Transport and depots
+Public power, co-generation, district heat
+Industrial combustion
+Stationary Combustion
+Commercial and residential combustion
+Stubble and other agricultural waste burning
+Cultures with and without fertilizers
+Food and drink industry
+Other industrial sources
+Miscellaneous
+Waste treatment and disposal
+Table 4. Sectors in the RAINS VOC module for stationary sources
+2.3. Emission Control Options and Costs
+Although there is a large variety of options to control emissions, an integrated assessment model focusing on the continental scale has to restrict itself to a manageable number of typical abatement options to estimate future emission control potentials and costs. Consequently, the RAINS model identifies for all emission source categories considered in the model a limited list of characteristic emission control options. For each of these measures, the model extrapolates the current operating experience to future years, taking into account the most important country—and situation-specific circumstances modifying the applicability and costs of the techniques.
+RAINS estimates the specific costs of reductions for all emission control options, taking into account investment-related and operating costs. Investments are annualized over the technical lifetime of the pollution control equipment, using a discount factor of 4%. The
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+technical performance, and investments, maintenance, and material consumption, are considered to be technology-specific and thereby, for a given technology, equal for all countries. Fuel characteristics, boiler sizes, capacity utilization, labor and material costs (and stable sizes and applicability rates of abatement options for ammonia) are important country-specific factors influencing the actual costs of emission reduction under given conditions.
+The databases on emission control costs have been constructed based on the actual operating experience of various emission control options documented by a number of national and international organizations. Country-specific information has been extracted from relevant national and international statistics.
+
+TO ACCESS ALL THE 28 PAGES OF THIS CHAPTER, Visit: http://www.eolss.net/Eolss-sampleAllChapter.aspx
+Bibliography
+Alcamo J., Shaw R. and Hordijk L., eds. (1990). The RAINS Model of Acidification. Science and Strategies in Europe. Dordrecht, The Netherlands: Kluwer Academic Publishers.
+Barret K. and Sandnes H. (1996). Transboundary Acidifying Air Pollution calculated transport and exchange across Europe, 1985–1995. Transboundary Air Pollution in Europe, ed. K. Barret and E. Berge. Oslo, Norway: Norwegian Meteorological Institute, Meteorological Sythesizing Centre—West, MSC-W Status Report 1996.
+Cofala J. and Syri S. (1998). Sulfur emissions abatement technologies and related costs for Europe in the RAINS model database, IR-98-35. Laxenburg, Austria: International Institute for Applied Systems Analysis (IIASA).
+Cofala J. and Syri S. (1998). Nitrogen oxides emissions abatement technologies and related costs for Europe in the RAINS model database, IR-98-88. Laxenburg, Austria: International Institute for Applied Systems Analysis (IIASA).
+EEA (European Environmental Agency) (1996). Joint EMEP/CORINAIR'90 Atmospheric Emission Inventory Guidebook, First Edition. Vol. 1–2. Copenhagen, Denmark.
+Gorißen N. (1992). Entwicklung der Kfz-Schadstoffemissionen—Erfordernisse und Möglichkeiten zur
+Klaassen G. (1991). Costs of Controlling Ammonia Emissions in Europe, Report SR-91-02. Laxenburg, Austria: International Institute for Applied Systems Analysis (IIASA).
+Klimont Z., Amann M. and Cofala J. (1998). Estimating Costs for Controlling Emissions of Volatile Organic Compounds (VOC) from Stationary Sources in Europe. Laxenburg, Austria: International Institute for Applied Systems Analysis (IIASA).
+Posch M., Hettelingh J.-P., de Smet P.A.M. and Downing, R.J., eds. (1997). Calculation and mapping of critical thresholds in Europe, Status Report 1997. Bilthoven, The Netherlands: Coordination Center for Effects, RIVM.
+Simpson, D. (1993). Photochemical model calculations over Europe for two extended summer periods: 1985 and 1989. Model calculations and comparison with observations. Atmos. Environ., 27A, No. 6, 921–
+
+
+UNESCO–EOLSS
+SAMPLECHAPTERS
+INTEGRATED GLOBAL MODELS OF SUSTAINABLE DEVELOPMENT – Vol. III - The Regional Air Pollution Information and Simulation (RAINS) Model - Markus Amann
+©Encyclopedia of Life Support Systems (EOLSS)
+943.
+WHO (1997). Air Quality Guidelines for Europe, Second Edition. Copenhagen, Denmark.
+Biographical Sketch
+Markus Amann obtained his Degree in Electrical Engineering at the Technical University of Vienna, Austria, in 1984, and a Ph.D. in Economics from the University of Karlsruhe, Germany, in 1991.
+He was a Research Scholar at the International Institute for Applied Systems Analysis (IIASA) from 1985–1991, and since 1991 he has been the Leader of the Transboundary Air Pollution Project.

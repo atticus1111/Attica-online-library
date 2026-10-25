@@ -1,0 +1,511 @@
+SPECIAL ISSUE ARTICLE
+What matters to graduate students? Experiences at a statistical
+consulting center from pre- to post-COVID-19 pandemic
+Marianne Huebner 1,2 | Steven J. Pierce 2 | Andrew J. Dennhardt 3 |
+Hope Akaeze 4 | Nicole Jess 5 | Wenjuan Ma 2
+1Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA
+2Center for Statistical Training and Consulting, Michigan State University, East Lansing, Michigan, USA
+3US Fish and Wildlife Service, Ventura, California, USA
+4Community Evaluation Programs, Office for Public Engagement and Scholarship, University Outreach and Engagement, Michigan State University, East Lansing, Michigan, USA
+5Department of Counseling, Educational Psychology, and Special Education, Michigan State University, East Lansing, Michigan, USA
+Correspondence
+Marianne Huebner, Department of Statistics and Probability, Michigan State University, East Lansing, MI, USA. Email: huebner@msu.edu
+The COVID-19 pandemic led to unprecedented changes in all levels of society, includ
+ing the statistical consulting field. This paper focuses on the experiences of graduate
+student consultants and clients at our statistical consulting center (SCC) that operates
+all year independent of semesters. During the lockdown period, work continued with
+out interruption and was conducted remotely, but there was a temporary reduction in
+utilization. Advice on statistical methods, help with data analysis and educational offer
+ings are the main appeals to utilize SCC services. We describe our mentoring approach
+for graduate student research assistants (RAs) and how pandemic changes affected
+RAs and clients. Based on experiences during the pandemic, we offer practical sugges
+tions for SCCs' approaches to research support, work characteristics and collabora
+tions to improve the experiences of graduate students, both as consultants and clients.
+Most collaboration meetings are now virtual by request from clients. Telecommuting
+supports flexible personal schedules and needs. Online educational offerings provide
+easier access for participants and more opportunities for a wider range of topics and
+presenters. However, mentoring sessions for RAs are best conducted in-person, and
+every effort should be made to encourage in-person interactions and collaborations
+between staff members to advance the effectiveness of post-pandemic SCCs.
+KEYWORDS
+collaboration, COVID, graduate students, hybrid, mentoring, online, pandemic, statistical consulting, telecommuting
+1 | INTRODUCTION
+The COVID-19 pandemic brought numerous changes in higher education, moving from in-person meetings to online collaborations and remote
+work (Katz, 2021). Research studies with in-person interactions were paused or discontinued or shifted to remote data collection, where possible
+(Nomali et al., 2023), and laboratory research was disrupted (Sohrabi et al., 2021). Adverse effects on student careers during this time were
+reported, for example, challenges with pursuing research at home (Sifri et al., 2022), less access to faculty or difficulties with job searches
+(Katz, 2021). Longer term consequences on research and training programmes are unclear (Sohrabi et al., 2021). While biomedical statistical con
+sulting units at medical centers may have seen an increase in demand due to COVID-related analyses (Lee et al., 2022), there was a reduction in
+the number of projects at other academic statistical consulting centers (Niu, 2023).
+Received: 16 December 2023 Accepted: 31 January 2024
+DOI: 10.1002/sta4.659
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes. © 2024 The Authors. Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e659. wileyonlinelibrary.com/journal/sta4 1 of 12 https://doi.org/10.1002/sta4.659
+
+
+Graduate students faced limited resources and heightened uncertainty navigating their programmes amidst the pandemic's disruptions.
+Statistical consulting units can provide guidance to graduate students at critical junctures of their academic journeys. However, experiences of
+graduate student consultants and clients from different research fields regarding research support, work characteristics and training in academic
+statistical consulting centers have not been studied.
+Every statistical consulting and collaboration unit (SCC) is unique (Vance, 2015). The names vary from ‘statistical consulting center’ and ‘data science
+consulting and collaboration units’ to ‘statistical lab’ among many other terms. Most SCCs are open-ended in supporting research involving data ranging
+from software support to guidance on study design and guiding or executing data analysis. Some SCCs have training components offering seminars or
+workshops. Mentoring graduate student consultants and supporting graduate student research is a key mission for many SCCs. A thriving SCC develops
+partnerships and networks across the institution, for example, with multidisciplinary teams, individual departments or colleges who seek to provide their
+members with access to statistical expertise (Huebner et al., 2023). One such partnership may be with the Graduate School to facilitate building capacity
+in statistical and computational skills of graduate students working on their theses or dissertations, to provide opportunities for graduate students to
+become expert consultants and collaborators or to support educational events, especially for responsible conduct of research in data science.
+The purpose of this paper is to describe experiences in an academic SCC related to graduate students, both as consultants and clients, to
+highlight their experiences and needs during the COVID-19 pandemic and to provide recommendations for future practices.
+This is in the case study of Michigan State University's Center for Statistical Training and Consulting and includes experiences from RAs who were
+employed before and during the COVID-19 pandemic. In our SCC, full-time staff and doctoral graduate students are available for consulting and col
+laborations year-round. Collaborations are sought by hundreds of researchers (faculty, staff and graduate students) across the university every year.
+In Section 2, we describe appeals and barriers to seeking out and utilizing statistical support by graduate students. In Section 3, we discuss
+onboarding and mentoring of new RAs pre COVID-19 and changes during the pandemic. Experiences of graduate students about research sup
+port, degree progress, work characteristics and collaborations are described in Section 4. Finally, we conclude with practical suggestions for an
+SCC to support graduate students.
+2 | ORGANIZATION AND UTILIZATION OF THE SCC
+The mission of the Center for Statistical Training and Consulting at Michigan State University is to improve quality and impact of research, to help
+scholars and their research programmes thrive and to increase scientific rigour and reproducibility. The SCC provides expertise and guidance on
+study design, statistical methods, interpretation of results, data management, conducting statistical analyses and writing reproducible reports.
+While the Department of Statistics and Probability started a statistical consulting service in the 1980s, resulting from these efforts the SCC was
+established in 2004 with an administrative home in the Office of Research and Innovation (Gilliland & Stapleton, 2013). SCC staff consists of full
+time statisticians (employed in a continuing system rather than fixed term), doctoral student RAs and administrative support staff. The services
+are usually free for individuals affiliated with sponsoring units and fee-for-service for others. The SCC partners with The Graduate School so that
+SCC statisticians can provide free support to graduate students working on their theses and dissertations to conduct appropriate statistical ana
+lyses, interpret the results correctly and help them learn about important statistical methods and tools to advance their professional development.
+Graduate students seeking statistical support for their research projects account for 35% to 40% of SCC's cases on average.
+Graduate students have access to statistical support with a set number of hours per year as well as opportunities to attend seminars or work
+shops offered by the SCC. The number of available hours to student clients differs by college. Fees apply for continued support beyond those
+hours. Some colleges sponsor the SCC with an annual fixed contribution or with a percent full-time equivalent (FTE) and thus provide free access
+to statistical services for their members. Information about SCC services is made known through communication channels in colleges, graduate
+school newsletters, SCC staff participating in resource fairs or presenting at student seminars or through the SCC website and SCC emails. A com
+munication manager to help with advertising and effective dissemination of events, opportunities and services is not available at this time.
+2.1 | Appeals and barriers to utilizing the services of the SCC
+In Fall 2021, faculty and graduate students were asked to provide feedback in an anonymous survey conducted to understand their quantitative
+needs that the SCC could help with. While this survey was given during the pandemic, the questions were not specific to this period. Results were
+reported in summary form on the SCC website and reproduced here (https://cstat.msu.edu/about). Survey questions included ‘What attracts you
+to work with [SCC] statisticians or utilize [SCC] services?’ and ‘What barriers make it harder for you to work with [SCC] statisticians or utilize
+[SCC] services?’ with a Likert scale from strongly agree to strongly disagree. The response options for the question ‘What are your statistical
+training needs?’ included topics listed on the SCC website.
+The overwhelming majority of graduate student survey respondents (Table 1) appreciate advice on statistical methods (81.1%), SCC staff help
+conducting the analysis (70.1%) and educational offerings (80.3%). Graduate students would like to see seminars or workshops on statistical
+methods (78.7%) followed by training on statistical software (58.3%) and data visualization (59.1%). The largest barrier noted by graduate student
+2 of 12 HUEBNER ET AL.
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+respondents is lack of information about the SCC (66.9%). Since not all colleges are SCC sponsors providing extended access to SCC services,
+financial constraints can be a barrier (42.5%). When expertise is not available in the SCC, every effort is made to refer to appropriate experts or
+point to relevant publications.
+2.2 | Pandemic impact on utilization of SCC services
+SCC staff members continued to work remotely following the lockdown on 12 March 2020. The number of open cases from graduate student
+research projects decreased (Figure 1). SCC's policy is to close cases when there is a long halt, and clients are invited to submit new cases when
+they are ready to restart, for more transparent consultant case load and limiting potential scope creep. Brief downturns are expected when stu
+dents graduate and leave the university at the end of Spring semester, but the decline was more pronounced in Spring 2020 compared to the
+same period in 2021. By the end of Fall 2020, the case counts had recovered and have since exceeded prior counts. This is in part due to new
+support from the Graduate School that started in May 2020 and due to new partnerships with the medical colleges that grew over time. This addi
+tional support facilitated graduate students' research during the lockdown as is illustrated by the fact that the proportion of cases from graduate
+students increased compared to all open cases even during the lockdown (Figure 2).
+3 | HELPING STUDENTS BECOME EXPERT CONSULTANTS AND COLLABORATORS
+3.1 | Onboarding and mentoring approaches of RAs
+New RAs have orientation meetings followed by on-the-job training. The orientation meetings are led by the associate director, who is the super
+visor of RAs, and are split into four core sessions totaling 6 h (Table 2). The core sessions cover the SCC's mission and core values, the RA's role,
+ethical guidelines (American Statistical Association, ASA, 2022), applicable policies and expectations (e.g., expected weekly effort, work schedules,
+T A B L E 1 Appeals and barriers to utilizing the SCC services and desired seminars or workshops for graduate students (N = 127 respondents)
+Appealsa Desired educational offeringsb Barriersa
+Educational offerings 80.3%
+Advising on statistical methods 81.1% Statistical methods 78.7% Lack of information about SCC 66.9%
+Conducting data analysis 70.1% Statistical software 58.3% Financial constraints 42.5%
+Study design 55.1% Study design 41.7% Lack of time 41.7%
+Collaborating on manuscripts 45.7% Data visualization 59.1% Expertise not available in SCC 19.7%
+Collaborating on grant proposals 40.1% Data management 45.7%
+aProportion of graduate students who answered ‘strongly agree’ or ‘agree’. bProportion of graduate students selecting this option.
+F I G U R E 1 Time series of daily open cases from graduate student clients from 2020-03-01 to 2022-03-01. Dashed vertical lines indicate the start of the fiscal year on 1 July and the calendar year on 1 January, respectively.
+HUEBNER ET AL. 3 of 12
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+consulting procedures, storing project materials, tracking time and authorship) and recommended readings about statistical consulting and com
+munication (Derr, 1999; Kenett & Thyregod, 2006; Kirk, 1991; Stoddard, 2012; Vance et al., 2022; Yu et al., 2018; Zahn & Isenberg, 1983).
+Project- and time-management tools and associated strategies are discussed since RAs are managing several projects concurrently. Graduate stu
+dents are required by the Graduate School to obtain annual training on responsible conduct of research, so RAs in the SCC have some familiarity
+with human and animal subjects' protocols, authorship, data management and collaborative research.
+Following orientation, new RAs learn on the job as ‘primary consultant’ on three to five client cases, with support from a more experienced
+‘secondary consultant’. Observing other consultants and having secondary consultants for their first projects are effective models for preparing
+RAs utilized by the SCC (Kaseda et al., 2022). The secondary consultants meet with the new RA to plan for upcoming client meetings and identify
+key methodological issues that may be relevant. In client meetings, the secondary consultants observe performance, help by asking thought
+provoking questions and offer strategic suggestions, but the new RA is encouraged to lead the meeting. Debriefing sessions following the meeting
+are used to reflect on how meetings went, provide feedback, teach communication and consulting skills and plan next steps for the project. These
+forward-looking discussions often focus on crucial research design issues, analysis options, constraints on potential solutions and relevant articles
+F I G U R E 2 Proportion of open cases from graduate student clients of all open cases from 2020-03-01 to 2022-03-01. Dashed vertical lines indicate the start of the fiscal year on 1 July and the calendar year on 1 January, respectively.
+T A B L E 2 Orientation schedule for new graduate student consultants
+Session Topics Supporting materials
+Week 1
+Core 1 SCC mission and core values SCC employee handbook
+SCC organization SCC employee handbook
+Ethics ASA ethics guidelines
+Expectations of research assistants University policies; SCC employee handbook
+Core 2 SCC project database (web application) Database demonstration Online user manual for database
+Communication tools Microsoft Teams, Zoom
+Software for reproducible research Handout on software (Git, R, RStudio, Pandoc, Quarto, and TinyTeX); resources on using Git
+Core 3 Planning and running a meeting Papers on statistical consulting
+Organizing information and notes SCC employee handbook
+Asking effective questions Papers on communication
+Project and time management
+Week 2
+On the job training starts Methods relevant to case; support by another consultant
+Informal meeting with the director
+Week 3
+Core 4 Bids and negotiating fee-for-service Instruction document; bid template files; SCC project database;
+Abbreviations: ASA, American Statistical Association; SCC, statistical consulting center.
+4 of 12 HUEBNER ET AL.
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+or methodology resources. Pairing each RA with several different colleagues over time exposes them to a variety of consulting styles and builds
+relationships within our team. Video consulting assessment has not been used on the mentoring session due to time constraints but can be useful
+tools in training consultants (Sima et al., 2020).
+As new RAs' skills and confidence grow, there is less need for secondary consultants, and they begin handling their own caseload solo, and
+their caseloads grow. Caseloads can vary considerably due to variation in both the scope of work and frequency of client contact. This is a conse
+quence of clients' varying needs, preferences, skills and schedules. Most of our RAs can handle a caseload of 10–15 simultaneous cases after
+about 9 months of employment. Mentoring continues as needed. This may take 1 to 3 months depending on the experience and aptitude of the
+RAs. RAs are encouraged to request advice or assistance, from their supervisor or other SCC members of their choice.
+The weekly staff meetings provide additional learning opportunities for new and continuing RAs. They are asked to summarize a case they
+are working on and the approach they are taking, followed by a team discussion about relevant issues, alternative methods and offering pointers
+towards resources such as methodology literature. RAs are encouraged to participate in discussions of other consultants' cases and may request a
+discussion of a particular case they have questions about. These activities help consultants hone their communication and problem-solving skills
+and expand their knowledge of applied statistics.
+3.2 | Pandemic impact on onboarding and mentoring of RAs
+Organizational changes during the COVID-19 pandemic included conducting weekly staff meetings online and mentoring and onboarding new
+staff such as graduate student RAs via videoconferencing instead of in-person meetings. The SCC needed more computing equipment for home
+offices and staff expanded their skills regarding effective use of technology.
+Our pre-pandemic process for training and mentoring RAs relied heavily on in-person contact. Physical proximity in the office facilitated many
+informal mentoring exchanges between the supervisor and the RAs, peer support and camaraderie among the RAs. During and after the COVID
+19 pandemic, most newly hired RAs were trained remotely. While the mentoring topics did not change, some approaches to disseminating specific
+skills and strategies to RAs were constrained. For example, statistical approaches are often readily taught sketching conceptual models, listing rel
+evant variables or writing equations on boards; our in-person staff meetings thrived with such tried-and-true tools. When training new SCC hires
+remotely, this teaching strategy was more difficult because digital whiteboards were unfamiliar, drawing with a mouse is often clumsier than with
+a physical pen and limited screen space makes it hard to see the whiteboard and other meeting participants at the same time. Mentoring did not
+include topics on effective videoconferencing other than providing feedback on audio quality or lighting, and SCC staff learned skills on their own
+and shared experiences.
+The vastly increased use of remote work induced by the pandemic raised some policy issues we had not dealt with before. Regarding the geo
+graphic location, we settled on allowing RAs to work remotely from other places within the state temporarily and initially made limited exceptions
+for RAs located elsewhere in the United States, since some students moved home. The latter poses a barrier partly because time zone differences
+make scheduling more difficult or results in mix-ups, and distance sometimes adds lag to network connections. Concerns about export control reg
+ulations led us to prohibit working from outside the United States. During the pandemic, university policies were developed or revised and cov
+ered rules about remote work.
+4 | SCC ENVIRONMENT AND RESEARCH SUPPORT FOR GRADUATE STUDENTS
+A collaborative and respectful environment is of utmost importance for a thriving SCC in any circumstances. Graduate students benefit not only
+from research support but also from career support. This applies both to RAs and clients. Graduate student clients learn to apply appropriate sta
+tistical methods for their research projects, discover new approaches and get support to negotiate such approaches with their advisors and com
+mittees. RAs broaden their repertoire of statistical methods, explore statistical approaches for their own research projects, build networks and
+improve communication skills. They learn to manage multiple projects and hone their organizational and note taking skills. These skills transfer
+when they prepare for job applications and interviews. Such support is independent of the COVID-19 pandemic, but collaborations and work
+characteristics changed, and new community norms emerged.
+4.1 | Research support and exploring statistical methods
+Graduate students seek statistical support from the SCC for their research projects. More than 80% of survey participants responded that advice
+on statistical methods is the main appeal of the SCC (Table 1). Clients are matched with consultants who explain options for study designs and
+statistical analysis approaches.
+HUEBNER ET AL. 5 of 12
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+RAs experience a dual role in supporting their clients' research as well as benefiting from research support for themselves provided by the
+SCC. The varied nature of research projects undertaken by their clients across different fields exposes RAs to new methods that they may not
+typically encounter in their respective academic programmes. It also requires them to dig deeper into the application of methods they learned pre
+viously. This interdisciplinary exposure is instrumental in cultivating a nuanced understanding of research methodologies and allows RAs to
+expand their methodological toolkits. Functionally, working as an SCC RA accelerates accumulation of experience with diverse research designs
+and statistical methods because of the varied caseload they support.
+The SCC fosters an environment of intellectual growth, empowering RAs with the freedom to explore and develop new areas of interest. As
+RAs expand their repertoire of statistical methodologies through their work at the SCC, they not only apply these newly acquired methods to
+enhance their own research but also disseminate knowledge by sharing their expertise with graduate student clients.
+I remember one of my clients jokingly pleaded with me to hold off my graduation till she graduated so I could help her navigate the
+issues she was having with her dissertation. According to her, she was not getting sufficient methodology guidance with her advi
+sor but her consultations with the [SCC] was helping to fill that gap.
+Graduate student clients may adopt newly learned statistical methods in their current and subsequent research projects and may introduce
+these methods in their fields of study.
+After I successfully changed my client's methodological approach, he came back a few months later with a new project. He wanted
+me to help review his R script and address reviewers' comments for the tutorial paper he wrote applying the approach in his field. I
+was impressed by how much time he had devoted to studying this method and discussing its relevance for his field of study. I pro
+vided the requested help, and the paper was later published.
+By responding to reviewers' comments on conference and journal articles, RAs learn about pitfalls in academic writing while honing their own
+research communication skills.
+It takes time to get an adequate understanding of the client's research objectives, context, study design and data. Initial meetings that include
+the graduate student and their advisor can help speed up this process. Often issues must be addressed above and beyond what the student ini
+tially identified. There may be multiple options to discuss with their comparative merits and flaws. Once a statistical analysis plan has been identi
+fied, continued help may be needed to implement such a plan. Suggesting a plan that the student cannot execute leads to frustration, anxiety and
+dissatisfaction. We suggest resources to facilitate building the student's knowledge and capacity to apply it. Advice on structuring the data
+and learning its properties in a systematic manner should accompany guidance regarding the statistical models. Such tasks may need to be com
+pleted before further meetings to inform the client and the consultant before deciding on next steps. At the same time, this process often requires
+the RA to do background reading and hone their own capacity and coaching skills. They guide the client to compose a coherent plan on how to
+solve the problem or think about ways to deal with potential obstacles. The time for robust statistical analysis and data visualization is often over
+looked as a cost in grant projects. Students have shared their concern of needing subsidization beyond the available free hours of SCCs support.
+Such financial constraints can be a substantial barrier to utilizing SCCs services (Table 1).
+4.2 | Navigating challenges with degree progress
+Graduate students feel they need to make independent progress and be prepared to defend the decisions without the benefit of informal check
+ins with their committee members to discuss ideas before proceeding. The SCC creates a safe space for exploring analysis ideas in consulting
+meetings. Explaining options for study designs and statistical analysis approaches is one of the key tasks for RAs. RAs are in a unique position to
+observe the dissertation process through the experiences of their graduate student clients, providing them with valuable foresight and knowledge
+as they work on their own degrees. RAs experience that the consulting they provide and mentoring they receive at the SCC expands their
+knowledge of statistical tools that may creatively reshape and enhance research outcomes for their dissertations and equips them to engage more
+productively with their advisors.
+Sometimes students may mention conflicts with an advisor or committee, including lack of availability to give advice or lack of awareness of
+the work the student has already completed. This hinders students from attaining their goals or makes them feel less valued or respected. Lack
+of interactions negatively impact research outcomes and timelines associated with completing essential tasks. RAs may be perceived as confi
+dants, and student clients may describe these and related challenges, especially discord concerning analytical approaches to them. RAs are
+encouraged to discuss cases to get advice and input from the team in the weekly staff meetings or from SCC supervisors, who can step in to join
+meetings with clients as needed. The SCC invited the university ombudsperson to a staff meeting to help with awareness and learn about
+resources that can then be passed along to students.
+6 of 12 HUEBNER ET AL.
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+During the pandemic, students encountered disruptions to their research projects. Constraints of the pandemic necessitated changes to
+research plans such as adjustments to timelines or data collection strategies. Some planned statistical analyses needed to be adjusted to account
+for pandemic effects. Students' research processes were further disrupted by less frequent interactions with mentors and colleagues and general
+declines in productivity. RAs found themselves in the position of assisting their clients with navigating these new barriers to their research, while
+facing similar disruptions to their own research.
+4.3 | Pandemic impact on collaborations and videoconferencing
+The abrupt shift from in-person to remote consulting during the lockdown presented substantial challenges. Not all consultants and
+clients possessed a home office environment conducive to regular virtual meetings. This led to initial delays and difficulties as individuals
+set up the necessary equipment and familiarized themselves with video conferencing tools. Unreliable internet connections occasionally
+interrupted video or audio streams, forcing meeting participants to repeat themselves, exit the meeting and reconnect or even postpone
+meetings.
+The SCC started a lending programme of laptops for RAs. The continuity and support provided by the SCC played a vital role in helping RAs
+through this period of transition, although the success of the transition to online meetings with clients varied.
+Videoconferencing with clients were not as smooth because clients were at varying levels of technological familiarity.
+Despite the initial hurdles, consultants found some positive aspects in switching to remote meetings. The transition demanded creative
+solutions to maintain the quality and effectiveness of client engagements, not only navigating the obstacles imposed by the pandemic but also
+spurring the adoption of tools and techniques that are useful for both remote and in-person meetings going forward.
+Initially, in-person meetings with my client involved walking her through how to use SPSS for her analysis using verbal descriptions
+and on-screen guidance, with the client taking notes on the process. The transition from in-person to remote sessions posed some
+challenges to this method (for instance, I could not physically point to where to click on her screen), so we had to adjust our
+approach. Using Zoom, I could request control of the client's screen, enabling real-time demonstrations while the client recorded
+the session. This adaptation proved much more efficient, allowing me to provide explanations and address questions throughout
+the process, while providing the client with a valuable reference tool for future use.
+RAs found camaraderie and support from both SCC colleagues and clients as they collectively adapted to the unique challenges of conducting
+research during the pandemic.
+After a few Zoom meetings, we established a rapport and, given we were both working on our dissertations then, we turned the
+Zoom meeting to a study room, with each person working on her own thesis. With this arrangement, she could unmute herself
+from time to time to ask for help on her work. The lockdown and use of Zoom had created a less formal connection between us
+that went beyond the [SCC]. To date, this client, now an assistant professor in a university, still joins me on Zoom from her office
+so provide each other with virtual company while working on our separate job tasks.
+The virtual consultation during and post COVID pandemic has made consulting meetings more accessible for busy advisors and allowed them
+to attend the meetings together with their student more frequently. This not only empowered the student client but also provided a professional
+development platform for the RAs. RAs can learn from the domain expertise of the advisors, which may lead to future collaborations beyond the
+SCC activities.
+The mentoring and consulting sessions not only improved my statistical skills but also opened several networking opportunities for
+me. Through my consulting sessions, I learned the expertise of the students and faculty members I worked with and found some
+that were relevant to my own dissertation work. Eventually, my own dissertation committee included a previous faculty consulting
+client, and an [SCC] alum. After I graduated, the same faculty member invited me to serve as a dissertation committee member for
+one of her graduate students who was a RA at the [SCC].
+However, explaining problems can take longer during a virtual meeting than during an in-person meeting for both clients and consultants.
+HUEBNER ET AL. 7 of 12
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+4.4 | Work characteristics and collaborations
+The SCC fosters a respectful and inclusive work environment. Our core values were developed with input from all staff members and graduate
+students. The collaborative environment enables RAs to engage in meaningful discussions about their consulting projects as well as their own
+research. These discussions are greatly enriched by the diverse academic backgrounds and perspectives of their fellow consultants. The diversity
+of client projects and associated programmes begets diversity of client-RA interactions, both in terms of scientific topics and disciplines as well as
+socioeconomic backgrounds, thus enriching the collaborative research experience and encouraging professional growth.
+Pre-pandemic video consulting was sporadic and initiated due to clients who could not easily attend meetings on campus. Such cases often
+depended on constraints related to the clients' resources, time and abilities to travel from one end of a large campus to another, where the SCC
+was housed. A few instances relied on video consulting to continue client-consultant collaborations during travel. Video consulting was not a tool
+that our team used regularly before the pandemic. Switching to screen-sharing interactions and associated lessons and materials was not seamless
+for most consultants and their clients. Interactions between staff and clients became less personable, especially when client or consultant
+participants chose to keep their videoconferencing cameras turned off. With time and practice, amidst a growing demand for consulting services,
+client-consultant pairs adapted and honed their technology skills and became more patient and understanding. There were fewer opportunities to
+informally interact with the other RAs for peer support and camaraderie between meetings.
+The switch to fully remote staff meetings was smoother for me than it was for my other job commitments during the lockdown.
+Remote staff meetings were fine at first because I thought it was just going to last for a short while, but, with time, the impersonal
+nature of this form of meeting started to tell on me.
+To help mitigate the lack of interaction, new informal, but virtual, monthly meetings between the SCC director and RAs were introduced.
+They provided opportunities to chat about client cases, their own research, personal experiences or anything else they wanted to discuss.
+Conducting meetings online involves screen sharing and using a whiteboard, but this approach was neither seamless nor natural, particularly
+compared to in-person instruction and use of a board to sketch out key concepts. Instruction through videoconferencing can make the client
+consultant experience and relationship more difficult to navigate and accurately gauge the understanding of clients in need of help and virtual
+tools often lengthened the time for both clients and consultants to explain problems, teach new skills and enhance conceptual understandings.
+Anecdotally, the increased use of videoconferencing may have positively correlated with increased numbers of clients missed, postponed or can
+celled meetings. Such occurrences seemed related to clients lacking traditional time and resource investments such as leaving home to travel to
+work and thus commuting between academic buildings to accomplish various tasks. However, the convenience of online scheduling and virtual
+instruction enabled faster project-turnaround times, recordings of instructional sessions for subsequent client and consultant review and
+enhanced learning, and the effective use of available technology improved over time as described in the following two experiences.
+The flexibility in scheduling meetings online enabled a more efficient workflow with clients. Before COVID, when my client had a
+quick question or issue that impeded their progress, they typically saved it for our next meeting or I would try to assist them via
+email, which can be challenging. It was usually impractical to arrange a short meeting the same day due to the need for the client
+to travel across campus to [SCC]. However, after transitioning to online meetings, we were often able to schedule a brief session
+within a few hours to address the issue, enabling the client to continue to make progress on their work with minimal disruptions.
+The convenience of remote work was appreciated.
+I could attend meetings with my [SCC] clients, work on my dissertation, and meet the responsibilities of my new job all without
+leaving my desk.
+Now online consulting meetings are the most popular choice. Our intake form for new projects includes an item asking about preferences for
+meeting modality. More than 50% request online meetings (a higher proportion of 70% coinciding with graduation deadlines), 6% in-person and
+the remaining do not indicate a preference. However, when an in-person meeting is offered, they invariably also choose the online option. This is
+related to the desire of clients with demanding daily work schedules to minimize their time away from labs or clinics or reduce productivity costs
+spent travelling or finding parking.
+The mentoring and consulting format at the SCC provide RAs with many career and personal development opportunities including workflow
+and project management skills. For some projects, RAs negotiate fee-for-service bids. To be successful in the bid process, RAs get instructions on
+how to categorize the work required for a case and estimate the time effort needed for each of these categories. They agree on a statement of
+work with their clients and negotiate the associated cost estimates (Peterson et al., 2022). These are important skills for future grant writing and
+preparing for careers.
+8 of 12 HUEBNER ET AL.
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+4.5 | Educational opportunities
+Seminars and workshops moved online and thus were more accessible across the university due to the convenience of attending remotely. SCC
+seminar offerings were expanded due to the overwhelming interest expressed in the survey (Table 2) and now included presentations by interna
+tionally renowned statisticians, as well as additional summer seminar series with specific themes (Reporting Guidelines, Data Ethics, Open Science,
+Data Visualization), and introducing additional topics related to responsible conduct of research (RCR). The attendance in SCC seminars doubled
+compared to pre-pandemic years, with a 58% increase in participation from the natural sciences, engineering and agriculture; a 25% increase in
+social sciences, education and communication; and 84% increase from the medical colleges. It also allowed participation of international students
+who were unable to travel or advisees of the presenters at other universities. Despite the interest in educational offerings on statistical methods
+or software (Table 2), the number of 3-h workshops was greatly reduced due to the time commitment for SCC staff in preparing materials and lack
+of interest with respect to number of participants willing or able to commit this time.
+The RCR seminars continue to be offered with topics related to Rigor and Reproducibility and Data Management in quantitative sciences.
+Before receiving credit, students are required to answer questions about the seminar content via an online survey. This is also an opportunity to
+provide feedback and request additional topics of interest. RCR seminars are especially appreciated since they give more opportunities through
+out the year in addition to what is offered by the Graduate School and due to being more in-depth about RCR practices in the quantitative sci
+ences as illustrated by some of the feedback. Students comment that this covers new information and that they find this more applicable to their
+own research than the typical topics repeated each year in RCR workshops. For example, students may not be encouraged by their research group
+or get the time and support to do a thorough data cleaning process and to understand data properties before rushing to sophisticated analyses.
+There is a lack of knowledge about implications for the interpretation of results and generalizability because of excluding data samples, overfitting,
+p hacking or ad hoc decisions during the statistical analysis process are some of the topics that are often not covered in their curriculum.
+5 | DISCUSSION AND OUTLOOK
+The COVID-19 outbreak brought many changes to the research community and the workflow of statistical consulting centers. College students
+struggled with social distancing (Hamlin & Barney, 2022) and researchers experienced more isolation during the COVID-19 pandemic
+(Katz, 2021). In a survey of chemistry departments, graduate students and postdoctoral fellows reported that the quality of collaborations
+decreased, resulting in less interactions, lack of communication and reduced collaborations (Sifri et al., 2022). A statistical consulting center where
+the main consultants are graduate students taking consulting courses during semesters reported the lowest number of cases in Fall 2021 and
+recovery to pre-pandemic levels by Spring 2022 (Niu, 2023). Our SCC is continuously staffed throughout the year by RAs and full-time staff. We
+observed a steady decrease in the number of cases by graduate students in the months following the lockdown, but the case counts had recov
+ered by the end of Fall 2020. The importance of at least some free access to statistical consulting is evidenced by the increasing proportion of
+graduate student projects in the SCCs portfolio when this was made possible due to the Graduate School's support. For the SCC's sustainability
+and growth and for high quality research outcomes, it is essential that funding sources are made available for university-specific priorities, such as
+providing statistical support and training to students and faculty across the university or support for grant proposal development (Huebner
+et al., 2023).
+New community norms for researchers emerged during the pandemic including a desire and openness for remote work and hybrid events
+(Katz, 2021; Niu, 2023). At our SCC, most meeting modalities are now requests for online meetings and remote collaborations. Telecommuting
+and hybrid staff meetings support flexible personal schedules and needs, but too much screen time can be exhausting (Trott et al., 2022).
+Irrespective of the COVID era graduate students value guidance for research and degree progress, help with achieving their career goals, and
+respectful and inclusive work environments (Sifri et al., 2022). A statistical consultant has multiple roles: expert professional, communicator, col
+laborator, leader, advocate and scholar (Zapf et al., 2019). RAs learn skills to listen carefully and to ask questions, explain statistical methods and
+their usage and empower their clients to build their capacity (Vance & Smith, 2019). Clients gain a deeper understanding of statistical methods,
+appropriately interpret the results and explain and justify their choices to their advisors and committee members. RAs in the SCC fulfil dual roles
+of supporting graduate student clients while having to deal with their own stresses regarding completion of their degree and job searches.
+Based on our experiences, we offer suggestions for SCC practices to benefit graduate student clients and consultants.
+1. Environment: a respectful and inclusive work environment is of utmost importance for a thriving SCC. It provides RAs with career and personal
+development opportunities. An SCC can be a ‘safe space’ for graduate students to explore statistical methods for their research ideas. The
+experiences directly benefit RAs by enhancing their own pursuits of producing high-quality, collaborative research. Furthermore, a quality
+scholarly environment attracts clients and new opportunities for collaboration, a lifeline for great business and strong community.
+2. Staff meetings: in-person staff meetings are highly valuable for collaborations, brainstorming sessions and social interactions, but hybrid meet
+ings should also be an occasional option. Regular discussion of potential challenges in projects, including advantages and disadvantages of
+HUEBNER ET AL. 9 of 12
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+methodological choices as well as sharing new insights and discoveries, helps RAs convey similar, relevant information to their clients. It also
+builds their capacities as future project leaders.
+3. Online meetings and remote collaborations: many graduate student clients choose this option to reduce commuting time or to be able to fit
+their busy schedules and disparate locations. It can result in a faster turnaround for answering questions, scheduling meetings and completing
+projects. The convenience of recording online meetings allows for later review and better understanding of points that may have been missed
+in a densely packed advising session. It is more feasible for advisors to attend the meetings. This empowers student clients by building
+student-advisor relationships while working towards a common goal and provides opportunities for RAs to learn from domain experts and help
+build collaborative interdisciplinary networks across the university. However, in-person meetings may be more productive to gauge under
+standing, explain multiple approaches, discuss strategies, utilize physical teaching media or progress to next steps.
+4. Mentoring RAs: sessions should be conducted in-person for a richer interactive experience and to build interpersonal relationships. In-person
+mentoring can be augmented with quick online calls for problem solving and fast turnaround. Onboarding topics include mission and core
+values for the SCC, the RA's role and expectations, ethical guidelines, statistical consulting practices, digital notetaking tools and analysis soft
+ware, and communication and management skills. Guidance for conducting effective online meetings is both needed and useful, exposing new
+staff to multiple modalities of teaching and learning. Observing other consultants through shadowing and having secondary consultants work
+on their first projects are effective approaches to help RAs become expert consultants and collaborators.
+5. Telecommuting: RAs have for more flexibility with remote work scheduling meetings, working on client projects or making progress on their
+own research. The option of using office space in the SCC can provide welcome boundaries between work and personal lives. The opportunity
+to meet with SCC peers and share ideas and get their feedback or to browse statistics books available at the SCC can provide major benefits.
+Rules about telecommuting and about the expected number of in-person office days need to be carefully assessed and clearly communicated.
+It is important for any organization to encourage in-person collaboration to foster communities of trust and engagement.
+6. Technological support: a lending programme for equipment is useful to optimize RAs set-up for videoconferencing, assures proper installation
+of approved analysis software and antivirus software and allows secured login to the SCC's server to run data analyses. Feedback on audio
+quality, lighting, presentation or background helps with a good start for building good relationships with online clients. Sharing information
+about SCC peers' software and hardware preferences can be useful for inspiring work efficiency.
+7. Educational offerings: external speakers and local experts may be engaged as presenters to offer a broader range of topics in online seminars.
+Responsible conduct of research in data management, statistical analysis and reporting are of interest to many students. In-person workshops
+can be developed for more in-depth topics to learn skills that augment a student's curriculum and allow for interactions and individual atten
+tion. Encouraging learning new skills, best practices and recent advances benefits RAs as well as the wider university community.
+In summary, this paper helps with providing a better understanding of what matters to graduate student consultants and clients at an SCC as
+it relates to research support, workplace characteristics and collaborations, and educational opportunities. The COVID-19 pandemic had an
+impact on caseload and changes in approaches to academic mentoring and collaborations. Some of the changes are quickly becoming community
+norms, such as receiving statistical support via videoconferencing or being able to attend online training and give presentations at considerable
+distances from home or office. However, onboarding and mentoring of RAs should be conducted in person, and every effort should be made to
+encourage in-person interactions. Environments play a key role in their professional development. Challenging, diverse, supportive and scholarly
+workspaces beget high-quality SCCs, staff consultants, projects, collaborations and scientific publications.
+AUTHOR CONTRIBUTIONS
+MH conceived of the study and wrote the first draft. SJP, AJD, HA, and NJ participated in the conceptualization and shared in writing, reviewing,
+and editing. WM critically reviewed and edited the final draft.
+ACKNOWLEDGEMENTS
+We are grateful to the CSTAT Team at Michigan State University, statisticians, graduate student research assistants and support staff for their
+helpful feedback. The findings and conclusions in this article are those of the authors and do not necessarily represent the views of the US Fish
+and Wildlife Service. Reference in this paper to any specific commercial product, process or service or the use of any trade, firm or corporation
+name is for the information and convenience of the public and does not constitute endorsement, recommendation or favouring by the US Fish
+and Wildlife Service.
+CONFLICT OF INTEREST STATEMENT
+The authors declare no conflict of interest.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article, as no new data were created or analysed in this study.
+10 of 12 HUEBNER ET AL.
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+ORCID
+Marianne Huebner https://orcid.org/0000-0002-9694-9231
+Steven J. Pierce https://orcid.org/0000-0002-0679-3019
+Hope Akaeze https://orcid.org/0000-0002-8877-7900
+Nicole Jess https://orcid.org/0000-0002-7102-5294
+Wenjuan Ma https://orcid.org/0000-0001-8637-0800
+REFERENCES
+American Statistical Association (ASA). (2022). Ethical guidelines for statistical practice. Ethical Guidelines for Statistical Practice. https://www.amstat.org/ your-career/ethical-guidelines-for-statistical-practice
+Derr, J. (1999). Statistical consulting: A guide to effective communication (1st ed.). Duxbury Press.
+Gilliland, D., & Stapleton, J. (2013). A history of the Department of Statistics and Probability at Michigan State University. In Strength in numbers: The rising of academic statistics departments in the U.S (pp. 155–168). Springer-Verlag.
+Hamlin, A. R., & Barney, S. T. (2022). Understanding the impact of COVID-19 on college student academic and social lives. Research in Higher Education Journal, 41. https://eric.ed.gov/?id=EJ1347876 Huebner, M., Bond, L., Stukes, F., Herndon, J., Edwards, D., & Pomann, G.-M. (2023). Developing partnerships for academic data science consulting and collaboration units. Stat, 13, e644. https://doi.org/10.1002/sta4.644 Kaseda, E. T., Graupman, E. E., Vincent, S., Faith, R., Howe, M. M., Dykins, M., Beussink, C. N., Khan, A., Grotkowski, K., & Miller, S. A. (2022). Statistical consulting in the healthcare professions: A model of student-led consulting services. Stat, 11(1), e498. https://doi.org/10.1002/sta4.498 Katz, L. (2021). The impact of COVID-19 pandemic on three data science communities. Zenodo. https://doi.org/10.5281/zenodo.5604900 Kenett, R., & Thyregod, P. (2006). Aspects of statistical consulting not taught by academia. Statistica Neerlandica, 60(3), 396–411. https://doi.org/10.1111/ j.1467-9574.2006.00327.x Kirk, R. E. (1991). Statistical consulting in a university: Dealing with people and other challenges. The American Statistician, 45(1), 28–34. https://doi.org/ 10.2307/2685235 Lee, S., Bagiella, E., Vaughan, R., Govindarajulu, U., Christos, P., Esserman, D., Zhong, H., & Kim, M. (2022). COVID-19 pandemic as a change agent in the structure and practice of statistical consulting centers. The American Statistician, 76(2), 152–158. https://doi.org/10.1080/00031305.2021.2023045 Niu, X. (2023). Learning about an academic statistical consulting center through data. Stat, 12(1), e530. https://doi.org/10.1002/sta4.530 Nomali, M., Mehrdad, N., Heidari, M. E., Ayati, A., Yadegar, A., Payab, M., Olyaeemanesh, A., & Larijani, B. (2023). Challenges and solutions in clinical research during the COVID-19 pandemic: A narrative review. Health Science Reports, 6(8), e1482. https://doi.org/10.1002/hsr2.1482 Peterson, R. A., Hochheimer, C. J., Grunwald, G. K., Johnson, R. L., Wood, C., & Sammel, M. D. (2022). Reaping what you SOW: Guidelines and strategies for writing scopes of work for statistical consulting. Stat, 11(1), e496. https://doi.org/10.1002/sta4.496 Sifri, R. J., McLoughlin, E. A., Fors, B. P., & Salehi, S. (2022). Differential impact of the COVID-19 pandemic on female graduate students and postdocs in the chemical sciences. Journal of Chemical Education, 99(10), 3461–3470. https://doi.org/10.1021/acs.jchemed.2c00412 Sima, A. P., Rodriguez, V. A., Bradbrook, K. E., DiPace, B. S., & Okhomina, V. (2020). Incorporating professional recommendations into a graduate-level statistical consulting laboratory: A case study. Journal of Clinical and Translational Science, 5(1), e62. https://doi.org/10.1017/cts.2020.527 Sohrabi, C., Mathew, G., Franchi, T., Kerwan, A., Griffin, M., Del, S. C., Mundo, J., Ali, S. A., Agha, M., & Agha, R. (2021). Impact of the coronavirus (COVID-19) pandemic on scientific research and implications for clinical academic training—A review. International Journal of Surgery (London, England), 86, 57–63. https://doi.org/10.1016/j.ijsu.2020.12.008 Stoddard, G. (2012). Statistical consulting in a university research settingjAmstat News. https://magazine.amstat.org/blog/2012/05/01/statconsulting/ Trott, M., Driscoll, R., Irlado, E., & Pardhan, S. (2022). Changes and correlates of screen time in adults and children during the COVID-19 pandemic: A systematic review and meta-analysis. EClinicalMedicine, 48, 101452. https://doi.org/10.1016/j.eclinm.2022.101452 Vance, E. A. (2015). Recent developments and their implications for the future of academic statistical consulting centers. The American Statistician, 69(2), 127–137. https://doi.org/10.1080/00031305.2015.1033990 Vance, E. A., & Smith, H. S. (2019). The ASCCR frame for learning essential collaboration skills. Journal of Statistics Education, 27(3), 265–274. https://doi. org/10.1080/10691898.2019.1687370 Vance, E. A., Trumble, I. M., Alzen, J. L., & Smith, H. S. (2022). Asking great questions. Stat, 11(1), e471. https://doi.org/10.1002/sta4.471 Yu, K., Qiu, G., Chan, K.-H., Lam, K.-B. H., Kurmi, O. P., Bennett, D. A., Yu, C., Pan, A., Lv, J., Guo, Y., Bian, Z., Yang, L., Chen, Y., Hu, F. B., Chen, Z., Li, L., & Wu, T. (2018). Association of solid fuel use with risk of cardiovascular and all-cause mortality in rural China. Jama, 319(13), 1351–1361. https://doi. org/10.1001/jama.2018.2151 Zahn, D. A., & Isenberg, D. J. (1983). Nonstatistical aspects of statistical consulting. The American Statistician, 37(4a), 297–302. https://doi.org/10.1080/ 00031305.1983.10483123 Zapf, A., Huebner, M., Rauch, G., & Kieser, M. (2019). What makes a biostatistician? Statistics in Medicine, 38(4), 695–701. https://doi.org/10.1002/sim. 7998
+AUTHOR BIOGRAPHIES
+Dr. Marianne Huebner is the director of the Center of Statistical Training and Consulting (CSTAT) and a professor of the Department of Sta
+tistics and Probability at Michigan State University, East Lansing, MI, United States. Her research interests are initial data analysis and data
+quality (https://stratosida.github.io/), health outcomes and sports medicine. Her roles as director include organizing and presenting CSTAT
+educational events and communicating with CSTAT stakeholders.
+HUEBNER ET AL. 11 of 12
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Dr. Steven J. Pierce is an associate director at Michigan State University's Center for Statistical Training and Consulting. Among other duties,
+he mentors and supervises CSTAT's graduate student research assistants and coordinates the consulting operations by assigning cases to con
+sultants. He earned his PhD in Ecological-Community Psychology from Michigan State University. Prior to that, he spent several years work
+ing at the Michigan Public Health Institute. Expertise in applied statistics, program evaluation, data management, database design, and tools
+and practices for reproducible research have facilitated his research collaborations with partners from a wide variety of academic disciplines.
+Dr. Andrew J. Dennhardt is a Fish and Wildlife Biologist working in the Listing and Recovery Division of an Ecological Services field office of
+the US Fish and Wildlife Service in Ventura, California. In this role, he reviews past and recent statuses of threatened and endangered plant
+and animal species as well as collaboratively implements conservation towards recovering such biota protected under the federal Endangered
+Species Act. With respect to research, he is interested in species distributions, individual animal movements, group demography and spatio
+temporal variation in the environment, all of which collectively shapes wildlife community and population dynamics in aquatic and terrestrial
+systems. As a PhD student at Michigan State University, he served as a statistical consultant for faculty, research staff, post-docs and under
+graduate and graduate students at the Center for Statistical Training and Consulting during 2016–2020.
+Dr. Hope Akaeze oversees the data analytics team in Community Evaluation Programs, at Michigan State University. Her team is responsible
+for the evaluation of the characteristics, quality and impacts of Michigan-s preschool and out-of-school time programs. She is currently the
+co-principal investigator for the evaluation of Michigan's Great Start Readiness Program. Her research interests include the improvement and
+application of statistical theories and methods for creative problem solving, particularly with multilevel modelling, structural equation model
+ling and cognitive diagnostic measurement models. As a PhD student at Michigan State University, she provided consultations, conducted sta
+tistical analyses and collaborated on manuscripts at the Center for Statistical Training and Consulting during 2016-2020.
+Nicole Jess is a PhD student in the Measurement and Quantitative Methods program at Michigan State University. Her methodological inter
+ests include instrument design, structural equation modelling and social network analysis. As a research assistant at CSTAT from 2015 to
+2023, she provided data management, statistical analysis and manuscript support on research and evaluation projects spanning a wide range
+of disciplines, with a focus on social science, education and public health fields.
+Dr. Wenjuan Ma received her PhD in the College of Communications Arts and Sciences at Michigan State University. In her role at the Center
+of Statistical Training and Consulting (CSTAT), she collaborates on many research projects from multiple disciplines. Her research interests are
+machine learning, agent-based modelling, structural equation modelling (SEM) and causal inference.
+How to cite this article: Huebner, M., Pierce, S. J., Dennhardt, A. J., Akaeze, H., Jess, N., & Ma, W. (2024). What matters to graduate
+students? Experiences at a statistical consulting center from pre- to post-COVID-19 pandemic. Stat, 13(1), e659. https://doi.org/10.1002/
+sta4.659
+12 of 12 HUEBNER ET AL.
+20491573, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.659 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

@@ -1,0 +1,1380 @@
+THE GEOMETRY OF MUSICAL CHORDS
+Dmitri Tymoczko, Princeton University
+Musical chords have a non-Euclidean geometry that has been exploited by
+Western composers in many different styles.
+A musical chord can be represented as a point in a geometrical space called an
+orbifold. Line segments represent mappings from the notes of one chord to those of another. Composers in a wide range of styles have exploited the non-Euclidean
+geometry of these spaces, typically by utilizing short line segments between
+structurally similar chords. Such line segments exist only when chords are nearly symmetrical under translation, reflection, or permutation. Paradigmatically
+consonant and dissonant chords possess different near-symmetries, and suggest
+different musical uses.
+Western music lies at the intersection of two seemingly independent disciplines:
+harmony and counterpoint. Harmony delimits the acceptable chords (simultaneously
+occurring notes) and chord sequences. Counterpoint (or voice leading) is the technique of
+connecting the individual notes in a series of chords so as to form simultaneous melodies.
+Chords are usually connected so that these lines (or voices) move independently (not all in
+the same direction by the same amount), efficiently (by short distances), and without voice
+crossings (along non-intersecting paths) (Fig. 1A-C). These features facilitate musical
+performance, engage explicit aesthetic norms (1-2), and enable listeners to distinguish
+multiple simultaneous melodies (3).
+How is it that Western music can satisfy harmonic and contrapuntal constraints at
+once? What determines whether two chords can be connected by efficient voice leading?
+Musicians have been investigating these questions for almost three centuries. The circle of
+fifths (Fig. S1), first published in 1728 (4), depicts efficient voice leadings among the
+twelve major scales. The Tonnetz (Fig. S2), originating with Euler in 1739, represents
+efficient voice leadings among the twenty-four major and minor triads (2, 5). Recent work
+(5–13) investigates efficient voice leading in a variety of special cases. Despite tantalizing
+hints (6–10), however, no theory has articulated general principles explaining when and
+why efficient voice leading is possible. This report provides such a theory, describing
+geometrical spaces in which points represent chords and line segments represent voice
+
+
+2
+leadings between their endpoints. These spaces show us precisely how harmony and
+counterpoint are related.
+Human pitch perception is both logarithmic and periodic: frequencies f and 2f are
+heard to be separated by a single distance (the octave) and to possess the same quality or
+chroma. To model the logarithmic aspect of pitch perception, I associate a pitch’s
+fundamental frequency f with a real number p according to the equation
+p = 69 + 12log2(f/440). (1)
+The result is a linear space (pitch space) in which octaves have size 12, semitones (the
+distance between adjacent keys on a piano) have size 1, and middle C is assigned the
+number 60. Distance in this space reflects physical distance on keyboard instruments,
+orthographical distance in Western musical notation, and musical distance as measured in
+psychological experiments (14–15).
+Musically, the chroma of a note is often more important than its octave. It is
+therefore useful to identify all pitches p and p + 12. The result is a circular quotient space
+(pitch-class space) that mathematicians call R/12Z (Fig. S3). (For a glossary of terms and
+symbols, see Table S1.) Points in this space (pitch classes) provide numerical alternatives
+to the familiar letter-names of Western music theory: C = 0, Cs/Df = 1, D = 2, D quarter
+tone sharp = 2.5, etc. Western music typically uses only a discrete lattice of points in this
+space. Here I consider the more general, continuous case. This is because the symmetrical
+chords that influence voice-leading behavior need not lie on the discrete lattice.
+The content of a collection of notes is often more important than their order.
+Chords can therefore be modeled as multisets of either pitches or pitch classes. (“Chord”
+will henceforth refer to a multiset of pitch classes unless otherwise noted.) The musical
+term “transposition” is synonymous with the mathematical term “translation” and is
+represented by addition in pitch or pitch-class space. Transpositionally related chords are
+the same up to translation: thus the C major chord, {C, E, G} or {0, 4, 7}, is
+transpositionally related to the F major chord, {F, A, C} or {5, 9, 0}, since {5, 9, 0}
+{0 + 5, 4 + 5, 7 + 5} modulo 12Z. The musical term “inversion” is synonymous with the
+
+
+3
+mathematical term “reflection,” and corresponds to subtraction from a constant value.
+Inversionally related chords are the same up to reflection: thus, the C major chord is
+inversionally related to the C minor chord {C, Ef, G}, or {0, 3, 7}, since {0, 3, 7}
+{7 – 7, 7 – 4, 7 – 0} modulo 12Z. Musically, transposition and inversion are significant
+because they preserve the character of a chord: transpositionally related chords sound
+extremely similar, inversionally related chords fairly so (Movie S1).
+A voice leading between two multisets {x1, x2, ..., xm} and {y1, y2, ..., yn} is a
+multiset of ordered pairs (xi, yj), such that every member of each multiset is in some pair. A
+trivial voice leading contains only pairs of the form (x, x). The notation (x1, x2, ..., xn)
+(y1, y2, ..., yn) identifies the voice leading that associates the corresponding items in each
+list. Thus, the voice leading (C, C, E, G) (B, D, F, G) associates C with B, C with D, E
+with F, and G with G. Music theorists have proposed numerous ways of measuring voice
+leading size. Rather than adopting one, I will require only that a measure satisfy a few
+constraints reflecting widely acknowledged features of Western music (16). These
+constraints make it possible to identify, in polynomial time, a minimal voice leading (not
+necessarily bijective) between arbitrary chords (16). Every music-theoretical measure of
+voice-leading size satisfies these constraints.
+I now describe the geometry of musical chords. An ordered sequence of n pitches
+can be represented as a point in Rn (Fig. S4). Directed line segments in this space represent
+voice leadings. A measure of voice-leading size assigns lengths to these line segments. I
+will use quotient spaces to model the way listeners abstract from octave and order
+information. To model an ordered sequence of n pitch classes, form the quotient space
+(R/12Z)n, also known as the n-torus Tn. To model unordered n-note chords of pitch
+classes, identify all points (x1, x2, ... xn) and (x (1), x (2), ... x (n)), where is any
+permutation. The result is the global-quotient orbifold Tn/Sn (17–18), the n-torus Tn
+modulo the symmetric group Sn. It contains singularities at which the local topology is not
+that of Rn.
+Figure 2 shows the orbifold T2/S2, the space of unordered pairs of pitch classes. It
+is a Möbius strip, a square whose left edge is given a half twist and identified with its right.
+The orbifold is singular at its top and bottom edges, which act like mirrors (18). Any
+
+
+4
+bijective voice leading between pairs of pitches or pairs of pitch classes can be associated
+with a path on Fig. 2 (Movie S2). Measures of voice-leading size determine these paths’
+lengths. They are the images of line segments in the parent spaces Tn and Rn, and are
+either line segments in the orbifold, or “reflected” line segments that bounce off its singular
+edges. For example, the voice leading (C, Df) (Df, C) reflects off the orbifold’s upper
+mirror boundary (Fig. 2).
+Generalizing to higher dimensions is straightforward. To construct the orbifold
+Tn/Sn, take an n-dimensional prism whose base is an (n–1)-simplex, twist the base so as to
+cyclically permute its vertices, and identify it with the opposite face (Figs. S5, S6) (16).
+The boundaries of the orbifold are singular, acting as mirrors and containing chords with
+duplicate pitch classes. Chords that divide the octave evenly lie at the center of the
+orbifold, and are surrounded by the familiar sonorities of Western tonality. Voice leadings
+parallel to the height coordinate of the prism act as transpositions. A free computer
+program written by the author allows readers to explore these spaces (19).
+In many Western styles, it is desirable to find efficient, independent voice leadings
+between transpositionally or inversionally related chords. The progressions in Fig. 1 are all
+of this type (Movie S3). A chord can participate in such progressions only if it is nearly
+symmetrical under transposition, permutation, or inversion (16). I conclude by describing
+these symmetries, explaining how they are embodied in the orbifolds’ geometry, and
+showing how they have been exploited by Western composers.
+A chord is transpositionally symmetrical (T-symmetrical) if it either divides the
+octave into equal parts or is the union of equally sized subsets that do so (20). Nearly T
+symmetrical chords are close to these T-symmetrical chords. Both types of chord can be
+linked to at least some of their transpositions by efficient bijective voice leadings. As one
+moves toward the center of the orbifold, chords become increasingly T-symmetrical, and
+can be linked to their transpositions by increasingly efficient bijective voice leading. The
+perfectly even chord at the center of the orbifold can be linked to all of its transpositions by
+the smallest possible bijective voice leading; a related result covers discrete pitch-class
+spaces (16). Efficient voice leadings between perfectly T-symmetrical chords are typically
+
+
+5
+not independent. Thus composers have reason to prefer near T-symmetry to exact T
+symmetry.
+It follows that the acoustically consonant chords of traditional Western music can
+be connected by efficient voice leading. Acoustic consonance is incompletely understood;
+however, theorists have long agreed that chords approximating a few consecutive elements
+of the harmonic series are particularly consonant, at least when played with harmonic tones
+(21). Since elements n to 2n of the harmonic series evenly divide an octave in frequency
+space, they divide the octave nearly evenly in log-frequency space. These chords are
+therefore clustered near the center of the orbifolds (Table 1), and can typically be linked by
+efficient, independent voice leadings. Traditional tonal music exploits this possibility (Fig.
+1A-C, Movie S4). This central feature of Western counterpoint is made possible by
+composers’ interest in the harmonic property of acoustic consonance.
+A chord with duplicate pitch classes is permutationally symmetrical (P
+symmetrical), since there is some nontrivial permutation of its notes that is a trivial voice
+leading. These chords lie on the singular boundaries of the orbifolds. Nearly P
+symmetrical chords, such as {E, F, Gf}, are near these chords, and contain several notes
+that are clustered close together. Efficient voice leadings permuting the clustered notes
+bounce off the nearby boundaries (Fig. 2. Movies S2 and S4). Such voice leadings can be
+efficient, independent, and non-trivial. Since trivial voice leadings are musically inert,
+composers have reason to prefer near P-symmetry to exact P-symmetry.
+Nearly P-symmetrical chords such as {B, C, Df} are considered to be extremely
+dissonant. They are well-suited to static music in which voices move by small distances
+within an unchanging harmony (Fig. 1D). Such practices are characteristic of recent atonal
+composition, particularly the music of Ligeti and Lutoslawski. From the present
+perspective, these avant-garde techniques are closely related to those of traditional tonality:
+they exploit one of three fundamental symmetries permitting efficient, independent voice
+leading between transpositionally or inversionally related chords.
+A chord is inversionally symmetrical (I-symmetrical) if it is invariant under
+reflection in pitch class space. Nearly I-symmetrical chords are near these chords, and can
+be found throughout the orbifolds (16). For example, the Fs half-diminished seventh chord
+
+
+6
+{6, 9, 0, 4} and the F dominant seventh chord {5, 9, 0, 3} are related by inversion, and are
+very close to the I-symmetrical chord {5.5, 9, 0, 3.5}. Consequently, we can find an
+efficient voice leading between them (6, 9, 0, 4) (5, 9, 0, 3) (Fig. 1C) (16). Nearly T
+symmetrical chords, such as the C major triad, and nearly P-symmetrical chords, such as
+{C, Df, Ef}, can also be nearly I-symmetrical. Consequently, I-symmetry is exploited in
+both tonal and atonal music. It plays a salient role in the nineteenth-century, particularly in
+the music of Schubert (22), Wagner (23), and Debussy (Fig. 1C).
+The preceding ideas can be extended in several directions. First, one might
+examine in detail how composers have exploited the geometry of musical chords (Movie
+S4). Second, one could generalize the geometrical approach by considering quotient
+spaces that identify transpositionally and inversionally related chords (24). Third, since
+cyclical rhythmic patterns can also be modeled as points on Tn/Sn, one could use these
+spaces to study African and other non-Western rhythms. Fourth, one could investigate how
+distances in the orbifolds relate to perceptual judgments of chord similarity. Finally,
+understanding the relation between harmony and counterpoint may suggest new techniques
+to contemporary composers.
+
+
+7
+REFERENCES
+1. C. Masson, Nouveau Traité des Règles pour la Composition de la Musique (Da Capo,
+New York, 1967).
+2. O. Hostinsk ́y, Die Lehre von den musikalischen Klängen (H. Dominicus, Prague, 1879).
+3. D. Huron, Mus. Percept. 19, 1 (2001).
+4. J. D. Heinichen, Der General-Bass in der Composition (G. Olms, New York, 1969).
+5. R. Cohn, J. Mus. Theory 41, 1 (1997).
+6. J. Roeder, thesis, Yale University (1984).
+7. E. Agmon, Musikometrica 3, 15 (1991).
+8. R. Cohn, Mus. Anal. 15, 9 (1996).
+9. C. Callender, Mus. Theory Online 10 (2004).
+10. G. Mazzola, The Topos of Music (Birkhäuser, Boston, 2002).
+11. R. Morris, Mus. Theory Spectrum 20, 175 (1998).
+12. J. Douthett, P. Steinbach, J. Mus. Theory 42, 241(1998).
+13. J. Straus, Mus. Theory Spectrum 25, 305 (2003).
+14. F. Attneave, R. Olson, Am. Psychol. 84, 147 (1971).
+15. R. Shepard, Psychol. Rev. 89, 305 (1982).
+16. Materials and methods are available as supporting material on Science Online.
+17. I. Satake, Proc. Natl. Acad. Sci. U.S.A. 42, 359 (1956).
+18. W. Thurston, The Geometry and Topology of Three Manifolds, available at http://www.msri.org/publications/books/gt3m/.
+
+
+8
+19. http://music.princeton.edu/~dmitri/ChordGeometries.html.
+20. R. Cohn, J. Mus. Theory 35, 1 (1991).
+21. W. Sethares, Tuning, Timbre, Spectrum, Scale (Springer, New York, 2005).
+22. R. Cohn, 19th-Cent. Mus. 22, 213 (1999).
+23. B. Boretz, Perspect. New Mus. 11, 146 (1972).
+24. C. Callender, I. Quinn, D. Tymoczko, paper presented to the John Clough Memorial Conference, sponsored by the University of Chicago, in Chicago, IL, July 9, 2005.
+25. Thanks to D. Biss, C. Callender, E. Camp, N. Elkies, P. Godfrey Smith, R. Hall, A. Healy, I. Quinn, N. Weiner, and M. Weisberg.
+Supporting Online Material Materials and Methods
+Figs. S1 to S12
+Table S1 Movies S1 to S4
+Soundfile S1
+References
+&
+?
+œœœœœ
+œœœœœ
+œœœœœ
+œœœœ
+œ œ bœ œ
+œœœœ
+#œ nœ œ bœ
+&
+œœ bœœ
+œœ
+#œ nœ
+#œ bœ
+# œb œ
+œœ
+#œ œ
+bœœbœœ bœœ
+œœœ
+C F C G C D7 G7 C7 F7 Fs
+Ø7 F7 As
+Ø7 Bf
+7 {B, C, Df}
+AB C D
+Fig. 1. Efficient voice leading between transpositionally and inversionally related chords. These progressions exploit three near-symmetries: transposition (A-B), inversion (C), and
+permutation (D). Sources: classical music (A), jazz (B), Wagner’s Parsifal (C), Debussy’s
+Faun (C), and contemporary atonality (D) (Soundfile S1).
+
+
+9
+01
+00
+02
+03
+04
+05
+06
+70
+80
+90
+t0
+e0
+[00]
+11
+12
+13
+14
+15
+16
+17
+81
+91
+t1
+[e1]
+e1
+e2
+e3
+e4
+e5
+6e
+7e
+8e
+9e
+te
+ee
+22
+23
+24
+25
+26
+27
+28
+92
+[t2]
+t2
+t3
+t4
+5t
+6t
+7t
+8t
+9t
+tt
+33
+34
+35
+36
+37
+38
+[39]
+93
+49
+59
+69
+79
+89
+99
+44
+45
+46
+47
+[48]
+48
+58
+68
+78
+88
+55
+56
+[57]
+57
+67
+77
+[66]
+66
+unison
+transposition
+tritone
+unison
+minor second
+minor second
+major second
+major second
+minor third
+minor third
+major third
+major third
+perfect fourth
+perfect fourth
+Fig. 2. The orbifold T2/S2. C = 0, Cs = 1, etc., with Bf = t, and B = e. The left edge is
+identified with the right. The voice leadings (C, Df) (Df, C) and (C, G) (Cs, Fs) are shown; the first reflects off the singular boundary.
+Table 1. Common sonorities in Western tonal music. The middle column lists the best equal-tempered approximation to the first n pitch classes of the harmonic series. The right
+column lists other good approximations. All divide the octave nearly evenly.
+2 notes CG CFs
+3 notes CEG CEfGf CEfG CEGs
+4 notes CEGBf CEfGfA CEfGfBf CEfGBf CEGB
+5 notes CDEGBf CDEGA CDEGB
+6 notes CDEFsGBf CDEfFGBf CDEFsGsBf
+7 notes CDEFsGABf CDEFGABf CDEfFsGABf
+
+
+SUPPORTING ONLINE MATERIAL
+TABLE OF CONTENTS
+1. Overview of the argument 1
+2. Pitch and pitch class 1 3. Comparing voice leadings 2
+4. Minimal voice leadings and voice crossings 4
+5. Derivation of the voice-leading orbifolds 7 6. Efficient voice leading and symmetry 8
+7. Maximal evenness and minimal voice leading 11
+8. A polynomial-time algorithm for finding a minimal 13 voice leading between arbitrary chords
+9. Supplementary Figures and Tables 15
+10. References 28
+1. Overview of the argument. Our goal is to model composers’ judgments about the
+relative sizes of voice leadings. One cannot assume that these judgments will be consistent with any mathematical norm or metric (§3). However, it is reasonable to
+stipulate that a theoretical model should reflect widely recognized features of Western
+music. Since musicians treat transposition and inversion as preserving musical distance, I will require that voice-leading comparisons be invariant under transposition and inversion
+of any of their individual musical voices (§2). Since Western pedagogues instruct
+composers to minimize voice-leading size while eschewing “voice crossings” (1–3), I will require that “crossed” voice leadings be no smaller than their natural, uncrossed
+alternatives (§§3–4). These minimal requirements suffice to establish a number of
+interesting results about voice leading (§§6–8). Sections 2 and 3 articulate mathematical constraints on methods of comparing
+voice leadings. Section 4 shows that these constraints formalize my two musical
+requirements. Section 5 derives the voice-leading orbifolds. Sections 6 and 7 relate the structure of a chord to its voice-leading possibilities. Section 8 introduces a further
+constraint on methods of comparing voice leadings, and uses it to derive a polynomial
+time algorithm for finding a minimal voice leading (not necessarily bijective) between arbitrary chords.
+2. Pitch and pitch class. Pitches are modeled as real numbers. The distance between two pitches p, q is the absolute value of their difference, |q – p|. Pitch classes are modeled as
+points in the quotient space R/12Z. They are sets of real numbers {p + 12k | k Z}, with
+p representing some pitch in the pitch class. We can label these sets using real numbers in the range 0 x < 12. The elements of R/12Z form a group under addition of their
+labels modulo 12Z. The distance between pitch classes a and b, written ||b – a||12Z, is the
+
+
+2
+smallest nonnegative real number x such that, if p is a pitch belonging to pitch class a,
+then either p + x or p – x belongs to pitch class b. Let (p1, p2, ..., pn) (q1, q2, ..., qn) be a voice leading between multisets of pitches,
+and let (a1, a2, ..., an) (b1, b2, ..., bn) be a voice leading between multisets of pitch
+classes. I will say that the two voice leadings are associated if the pitches pi and qi all belong to the pitch classes ai and bi, respectively. The displacement multiset of the voice
+leading (p1, p2, ..., pn) (q1, q2, ..., qn) is the multiset of distances {|qi – pi|}. Similarly, the
+displacement multiset of the voice leading (a1, a2, ..., an) (b1, b2, ..., bn) is the multiset of distances {||bi – ai||12Z}. I will require that a method of comparing voice leadings be
+invariant under transposition and inversion of its individual voices: in any voice leading,
+one can replace the voice (p, q) with (q + x, p + x) without changing the voice leading’s size. It follows that the size of a voice leading depends only on its displacement multiset.
+I will also require that the size of a displacement multiset be nondecreasing in each of its
+members: we can replace any member of a displacement multiset with a smaller number without increasing the size of the resulting voice leading (§3). This ensures that a voice
+leading between multisets of pitch classes will be the same size as the smallest associated
+voice leading between multisets of pitches.
+3. Comparing voice leadings. A method of comparing voice leadings is a relation “ ”
+over multisets of nonnegative real numbers that is reflexive, transitive, and total (a total preorder; see Table S1 for more information). The relation must satisfy what I call the
+distribution constraint:
+{x1 + c, x2, ..., xn} {x1, x2 + c, ..., xn} {x1, x2, ..., xn}, for x1 > x2, c > 0
+(NB: since multisets are unordered, the numerical subscripts do not have ordinal significance: x1 is no more “first” than x2 or xn.) The first inequality requires that the total
+preorder not consider an uneven distribution of values to be smaller than a more even
+distribution with the same total sum: if X is an n-member displacement multiset whose members sum to x, then {x, 0, ..., 0} X {x/n, x/n, ..., x/n}. Thus, x semitones of
+motion in a single voice yields at least as large a voice leading as x semitones of motion
+distributed over multiple voices. This requirement is a weakened relative of the triangle inequality (4). The distribution constraint’s second inequality requires that the size of a
+multiset be nondecreasing in each of its members: increasing the size of any number in a
+multiset never decreases that multiset’s size. If a total preorder satisfies both inequalities strictly, I will say that it strictly satisfies the distribution constraint.
+Every music-theoretical method of comparing voice leadings satisfies the
+distribution constraint.
+
+
+3
+A. Smoothness. The size of a voice leading is the sum of the objects in the
+displacement multiset (5–7). Thus {2, 2} > {3.999} > {1, 1, 1}. Smoothness is sometimes called the “taxicab norm.” It reflects aggregate
+physical distance on keyboard instruments. Smoothness satisfies the
+distribution constraint non-strictly.
+B. Lp vector norms. Smoothness is analogous to the L1 vector norm,
+though the components of vectors are ordered whereas the members of displacement multisets are not. The analogues to the Lp vector norms
+strictly satisfy the distribution constraint for finite p > 1. The Euclidean
+vector norm L2 has been used by Callender (8).
+C. Semitonal and stepwise voice leadings. According to the L vector
+norm, the size of a displacement multiset is its largest member. The musical terms “semitonal voice leading” and “stepwise voice leading”
+refer to this measure of voice-leading size. Semitonal voice leadings have
+an L norm of 1; stepwise voice leadings have an L norm less than or equal to 2. The L norm measures the largest physical distance moved by
+any single voice on a keyboard instrument. It satisfies the distribution
+constraint non-strictly.
+D. Parsimony. Parsimony is related to the lexicographic ordering. It
+generalizes a notion introduced by Richard Cohn and developed by Jack Douthett and Peter Steinbach (9–10). Given two voice leadings, and ,
+is smaller (or “more parsimonious”) than iff there exists some real
+number d such that 1) for all real numbers c > d, c appears the same number of times
+in the displacement multisets of and ; and
+2) d appears fewer times in the displacement multiset of than . Thus, according to Parsimony, {3 + } > {3, 2, 1} (in this case, d = 3 + ),
+and {4, 3, 3} > {4, 3} (here, d = 3). Parsimony strictly satisfies the
+distribution constraint.
+The first three methods of comparing voice leadings resemble familiar mathematical
+metrics. Parsimony, however, does not. This is because there is no function from multisets to real numbers, such that f(X) f(Y) if and only if X Y according to
+Parsimony. Nevertheless, Parsimony represents a musically viable way of thinking about
+voice-leading size.
+
+
+4
+4. Minimal voice leadings and voice crossings. This section connects the formalism of
+§§2–3 to the avoidance of voice crossings. I begin by demonstrating that if a method of comparing voice leadings obeys the distribution constraint, then there is a minimal
+bijective voice leading between any two chords that is crossing free. I then argue in the
+opposite direction, showing that if a method of comparing voice leadings violates the distribution constraint, some crossed voice leading will be smaller than its natural
+uncrossed alternative. I conclude with a few remarks about the relation between the
+avoidance of voice crossings and judgments about voice-leading size. Let (p1, p2, ..., pn) (q1, q2, ..., qn) be a voice leading between multisets of pitches.
+The voice leading has no voice crossings (is crossing free) if pi > pj implies qi qj for all
+i, j. I will say that it is strongly crossing free if (p1 + 12k1, p2 + 12k2, ..., pn + 12kn) (q1 + 12k1, q2 + 12k2, ..., qn + 12kn) is crossing free, for all integers ki. Thus one cannot
+introduce crossings into a strongly crossing-free voice leading simply by shifting the
+octaves in which its voices appear. A voice leading between multisets of pitch classes is crossing free if it is associated with a strongly crossing-free voice leading between
+multisets of pitches in which no voice moves by more than six semitones. Intuitively, a
+voice leading is crossing free if the notes of the source chord can be connected to those of the target along minimal-length line-segments that intersect only at their endpoints.
+The following theorem shows that one can always find a minimal voice leading
+that is crossing free. Though I state the argument using chords of pitches, it generalizes straightforwardly to chords of pitch classes.
+THEOREM 1. Let P and Q be any two n-note multisets of pitches, and let our method of comparing voice leadings be a total preorder satisfying
+the distribution constraint. Then there will exist a minimal bijective voice
+leading from P to Q that is crossing free. If the total preorder strictly satisfies the distribution constraint, then every minimal bijective voice
+leading from P to Q will be crossing free.
+Suppose (p1, p2, ..., pn) (q1, q2, ..., qn) contains a crossing, with p1 < p2 and q1 > q2
+[Fig. S7(a)]. Let (r, r) be the intersection, in R2, of the line segment (p1, p2) (q1, q2)
+with the line x = y. Since a line’s slope is constant, |r – p2| / |r – p1| = |q2 – r|/ | q1 – r|. There are three cases: either both numerators are greater than their denominators, both are
+equal to their denominators, or both are less than their denominators. In all three cases,
+the distribution constraint implies that, for any numbers di,
+{|q1 – r| + |r – p1|, |q2 – r| + |r – p2|, d1, ..., dm} {|q1 – r| + |r – p2|, |q2 – r| + |r – p1|, d1, ..., dm},
+since the multiset on the left is more uneven than that on the right. By construction
+|q1 – r| + |r – p1| = | q1 – p1| and |q2 – r| + |r – p2| = |q2 – p2|. By the triangle inequality,
+
+
+5
+|q1– p2| |q1 – r| + |r – p2| and |q2 – p1| |q2 – r| + |r – p1|. Thus, using the distribution
+constraint again, {|q1 – p1|, |q2 – p2|, d1, ..., dm} {|q1 – p2|, |q2 – p1|, d1, ..., dm} and the voice leading (p1, p2, ..., pn) (q1, q2, ..., qn) is no smaller than (p1, p2, ..., pn)
+(q2, q1, ..., qn). We do not increase the size of a voice leading when we replace the
+crossed voices (p1, q1) and (p2, q2) with the uncrossed (p1, q2) and (p2, q1). Suppose now that our total preorder strictly satisfies the distribution constraint. In
+this case, I claim that the crossed voice leading (p1, p2, ..., pn) (q1, q2, ..., qn) is strictly
+larger than the uncrossed (p1, p2, ..., pn) (q2, q1, ..., qn). This can be proved by contradiction. Suppose the two voice leadings were the same size. Since the total
+preorder strictly satisfies the distribution constraint, |r – p2| / |r – p1| = |q2 – r| / |q1 – r| = 1.
+Furthermore, |q1 – r| + |r – p2| = |q1 – p2| and |q2 – r| + |r – p1| = |q2 – p1|. Therefore, |q1 – p1| = |q1 – p2| and |q2 – p1| = |q2 – p2|. In other words, q1 and q2 are each equidistant
+from p1 and p2. This contradicts the hypothesis that the voices (p1, q1) and (p2, q2) cross.
+We conclude that if a method of comparing voice leadings strictly satisfies the distribution constraint, then removing any voice crossing will make the resulting voice
+leading strictly smaller.
+It remains to be shown that replacing (p1, q1) and (p2, q2) with (p1, q2) and (p2, q1) does not introduce additional crossings into the voice leading. Recall that p1 < p2 and
+q1 > q2. Now suppose some voice (p3, q3) crosses (p1, q2) [Fig. S7(b)]. Then either p3 < p1
+and q3 > q2, in which case (p3, q3) crosses (p2, q2); or p3 > p1 and q3 < q2, in which case (p3, q3) crosses (p1, q1). Similarly, if (p3, q3) crosses (p2, q1) it crosses either (p1, q1) or
+(p2, q2). Finally, suppose (p3, q3) crosses both (p1, q2) and (p2, q1). Then, either p3 < p1 and
+q3 > q1, or p3 > p2 and q3 < q2; in either case (p3, q3) crosses both (p1, q1) and (p2, q2). The voice (p3, q3) therefore crosses at least as many voices in the old, crossed voice leading as
+it does in the new, uncrossed one. Replacing (p1, q1) and (p2, q2) with (p1, q2) and (p2, q1)
+therefore decreases the total number of crossings in the voice leading. This establishes Theorem 1. The result immediately generalizes to chords of
+pitch classes.
+I now argue in the opposite direction, showing that violations of the distribution constraint imply that some crossed voice leading is smaller than its natural uncrossed
+alternative.
+Suppose a method of comparing voice leadings depends only on the displacement multiset and violates the distribution constraint’s first inequality. That is, some voice
+leading with displacement multiset {x1 + c, x2} is smaller than some voice leading with
+displacement multiset {x1, x2 + c}, with x1 > x2 and c > 0. It follows that the crossed voice leading (p, p + x1 – x2) (p + x1 + c, p + x1) is smaller than the uncrossed voice leading
+(p, p + x1 – x2) (p + x1, p + x1 + c) [Figure S8(a)]. Removing the crossing therefore
+increases the size of the voice leading. Additional voices do not affect the logic of the argument.
+
+
+6
+Now suppose that a method of comparing voice leadings violates the distribution
+constraint’s second inequality: some voice leading with displacement multiset {x1 + c, x2, x3} is smaller than some voice leading with displacement multiset {x1, x2, x3},
+with x3 x2 > 0 and c > 0. Consider the uncrossed voice leading
+(p + x1 + x2, p + x1 + x3 + c) (p + x1, p + x1 + c).
+Suppose we decide to add pitch p to the first chord, and to map it to some note in the second chord. As shown in Figure S8(b), the crossed alternative
+(p, p + x1 + x2, p + x1 + x3 + c) (p + x1 + c, p + x1, p + x1 + c)
+is smaller than the uncrossed (p, p + x1 + x2, p + x1 + x3 + c) (p + x1, p + x1, p + x1 + c).
+Thus we can conclude that, for multisets with three or more nonzero members, total preorders satisfying the distribution constraint are the only methods of comparing voice
+leadings that are transpositionally and inversionally invariant, and that embody the
+principle that voice crossings do not make a voice leading smaller. It remains possible that composers considered crossed voice leadings to be
+smaller than uncrossed voice leadings, yet avoided crossings for reasons unrelated to
+voice-leading size. There are two reasons to reject this hypothesis, however. First, if there were a conflict between the goal of avoiding voice crossings and the goal of
+minimizing voice-leading size, there would presumably be some evidence of this in the
+musical, theoretical, or pedagogical literature. In particular, one would not expect voiceleading preferences to be even approximately invariant under transposition of their
+individual musical voices: when voices were close together, the goal of avoiding voice
+crossings would trump the goal of minimizing voice-leading size, while when voices were farther apart minimal voice leadings could be used freely. Western music would
+therefore manifest two distinct sets of voice-leading preferences, depending on whether
+voices were close together or far apart. There is no evidence that this is so. No pedagogue or theorist has ever proposed a method of comparing voice leadings that
+favors voice crossings. Second, methods of comparing voice leadings that favor
+crossings tend to be undesirable for independent reasons: they cannot, for example, represent aggregate or maximal keyboard distance (§3)—physical quantities that
+presumably help shape composers’ intuitive judgments of voice-leading size. Violations
+of the distribution constraint are also violations of the triangle inequality (4) and hence conflict with basic geometric intuitions about distance. Finally, it is difficult to develop
+simple, robust, and musically plausible heuristics that help composers to reduce voice
+leading size when using total preorders that violate the distribution constraint. By contrast, when a method of measuring voice-leading size obeys the distribution
+constraint, then a composer can always reduce a voice leading’s size simply by removing
+
+
+7
+crossings. We therefore have good reason to require that the goal of avoiding voice
+crossings not conflict with the goal of minimizing voice-leading size.
+5. Derivation of the voice-leading orbifolds. I now turn from methods of comparing
+voice leadings to the geometry of musical chords. I begin by deriving Figure 2 in the main text. Figure S9(a) shows the 2-torus T2, representing the space of ordered pairs of
+pitch classes. To form the space of unordered pairs we need to identify all points (x, y)
+and (y, x). As can be seen from Figure S9(a), this involves folding the 2-torus along the diagonal line-segment AB. The result is a triangle with two sides identified, shown in
+Figure S9(b). This figure is a Möbius strip. To see why, cut Figure S9(b) along the line
+segment CD, creating two detached triangles. Then attach AC on one triangle to CB on the other, turning one piece of paper over so that chords on the shared edge match. The
+result is the main text’s Figure 2. Figure S4 shows how Figure 2 tiles the infinite plane
+representing ordered pairs of pitches. I now proceed more abstractly, deriving the orbifolds Tn/Sn for arbitrary n. Since
+Rn/12Zn is the n-torus Tn, we can describe Tn/Sn as the quotient of Rn by the semidirect
+product 12Zn Sn. We can construct our orbifolds by describing fundamental domains
+of 12Zn Sn in Rn, and showing how their boundary points are to be identified.
+To construct a fundamental domain of Sn in Rn, consider only those points with
+coordinates in nondecreasing order: {(x1, x2, ..., xn) | x1 x2 ... xn}. To incorporate the 12Zn action, require that xn x1 + 12, and 0 xi 12. The resulting fundamental
+domain is an n-dimensional prism whose base is an (n–1)-dimensional simplex. To see
+why, observe that the inequalities x1 x2 ... xn x1 + 12 define an (n–1)-simplex in every plane xi = c. Every point in the fundamental domain lies in exactly one of these
+simplexes and every one of these simplexes is either entirely within, or entirely outside
+of, the fundamental domain. Since addition by (d, d, ..., d) sends the simplex in the plane xi = c to the simplex in the plane xi = c + nd, the vector (1, 1, ..., 1) points in the
+direction of the “height” coordinate of the prism. Figure S6 illustrates three lower
+dimensional cases. It remains to be determined how the two simplicial faces of the prism are to be
+identified. Define the function
+O(x1, x2, ..., xn) = (x2 – 12/n, x3 – 12/n, ..., xn – 12/n, x1 + 12 – 12/n).
+O is an automorphism of the prism that cyclically permutes the vertices of the simplex in each plane xi = c. By repeatedly applying O to a chord X, we can obtain chords X,
+O(X), O2(X), ... On-1(X), all related by transposition, and with pitch classes all summing to
+the same value. In Euclidean space, O is a rotation when the prism has odd dimension, and a rotation-plus-reflection otherwise. On Figure S6(a), O reflects the square around
+the line at its center. On Figure S6(b), O rotates the prism around the central line. On
+
+
+8
+Figure S6(c), O is a rotation-plus-reflection that cyclically permutes the vertices of each
+tetrahedron. Now suppose that (x1, x2, ..., xn) lies in the xi = 0 face of the prism (the base).
+Then (x1 + 12/n, x2 + 12/n, ..., xn + 12/n) is the corresponding point on the opposite face.
+O(x1 + 12/n, x2 + 12/n, ..., xn + 12/n) = (x2, x3, ..., xn, x1 + 12) also lies on that same face. When we disregard order and octave, (x1, x2, ..., xn) and (x2, x3, ..., xn, x1 + 12) represent
+the same chord, and should be identified. Thus for any point on the base of the prism x
+and corresponding point on the opposite face y, we identify x with O(y). Figures S5 and S6 illustrate, as does a free computer program written by the author (11).
+6. Efficient voice leading, chord structure, and symmetry. This section relates the internal structure of a chord to its voice-leading capabilities. Let F be any function over
+pitch classes. I begin by showing how the internal structure of a chord A determines
+whether the chords A and F(A) can be linked by efficient bijective voice leading. I then show how a chord’s voice-leading capabilities relate to its distance from nearby
+symmetrical chords. Suppose G is an isometry of pitch class space, and SG is invariant
+under G. I first show that the size of any voice leading from A to SG sets an upper bound on the size of the minimal voice leading(s) from A to G(A). I then argue in the opposite
+direction, showing that the size of a bijective crossing-free voice leading from A to G(A)
+sets an upper bound on the size of the smallest of the voice leadings from A to any chord SG that is invariant under G. Since there is always a minimal voice leading that is
+crossing free (§4), these results show that there is a close relationship between the size of
+the minimal bijective voice leading(s) from A to G(A) and the size of the smallest of the bijective voice leadings from A to the chords SG that are invariant under G.
+In §§6–7, I write Tx(a) = a + x to refer to transposition by x semitones, and
+Ix(a) = x – a to refer to the inversion that sends 0 to x. If F1 and F2 are two functions over pitch classes, and A = {a1, a2, ..., an} is any chord, then I will say that F1 resembles F2
+(with respect to A) when F1(ai) F2(ai) for all ai. Finally, I will say that a chord A is
+invariant under if there is a trivial voice leading (a1, a2, ..., an) (a (1), a (2), ..., a (n)).
+Observation A. Let F be any function over pitch classes. Chords A and F(A) can
+be linked by efficient, bijective voice leading if and only if some permutation of A’s notes
+resembles F (with respect to A).
+Any bijective voice leading from A to F(A) can be written (a1, a2, ..., an)
+(F(a (1)), F(a (2)), ..., F(a (n))) where is some permutation. This voice leading will have
+displacement multiset {||F(a (i)) – ai||12Z}, or, equivalently, {||F(ai) – a 1(i)||12Z}. The size of this voice leading depends on the difference between the effects of the function F and
+the permutation -1. The voice leading will be small when F(ai) a 1(i), for all i, and
+will be trivial with strict equality. Thus, the internal structure of any chord A, as represented by the size of the voice
+leadings (a1, a2, ..., an) (a (1), a (2), ..., a (n)), for all permutations , determines the
+
+
+9
+functions F such that A and F(A) can be linked by efficient voice leading. For example,
+when the notes {a1, a2, ..., an} are all close together, the voice leadings (a1, a2, ..., an) (a (1), a (2), ..., a (n)) will resemble the trivial voice leading. In this case, A and F(A) can be
+linked by efficient voice leading only when F resembles the identity. By contrast, when
+the notes {a1, a2, ..., an} divide the octave nearly evenly, then there will be a voice leading (a1, a2, ..., an) (a (1), a (2), ..., a (n)) that resembles transposition by 12/n semitones. In
+this case, A and T12/n(A) can be linked by efficient voice leading.
+Observation B. Let G be an isometry of pitch class space, and let SG be invariant
+under G. The size of any voice leading from A to SG sets an upper bound on the size of
+the minimal voice leading(s) from A to G(A).
+Suppose that G is an isometry. It follows that for any voice leading from A to SG, with SG invariant under G, we can find an equally large voice leading from SG to G(A). If
+a voice leading from A to SG has displacement multiset {d1, d2, ..., dn}, then there is some
+permutation such that the minimal voice leading from A to G(A) has displacement multiset less than or equal to {d1 + d (1), d2 + d (2), ..., dn + d (n)}. The distribution
+constraint tells us that no multiset {d1 + d (1), d2 + d (2), ..., dn + d (n)} can be larger than
+{2d1, 2d2, ..., 2dn}. The size of any voice leading from A to SG thus sets an upper bound on the size of the minimal voice leading(s) from A to G(A). Note that the same reasoning
+can be used when we require that a bijective voice leading from A to A involve the
+permutation : the size of a voice leading from A to S , with S invariant under , sets an upper bound on the size of the smallest voice leading of the form (a1, a2, ..., an)
+(a (1), a (2), ..., a (n)).
+Observation C. Let G be an isometry of pitch class space. The size of a bijective
+crossing-free voice leading from A to G(A) sets an upper bound on the size of the smallest
+of the voice leadings from A to any chord SG that is invariant under G.
+Transposition and inversion are the isometries of pitch class space. When G is an inversion, the reasoning is straightforward. A bijective, crossing-free voice leading from
+A to Ix(A) maps pitch class ai to x – a (i), where is a permutation involution. Therefore,
+it also maps a (i) to x – ai. Let pitch class bi be d/2 semitones away from both ai and x – a (i). Pitch class x – bi will therefore be d/2 semitones away from both a (i) and x – ai,
+and we can label it b (i). It follows that if a bijective, crossing-free voice leading from A
+to Ix(A) has displacement multiset {d1, d2, ..., dn}, then we can find a voice leading from A to SIx = (b1, b2, ..., bn) with displacement multiset {d1/2, d2/2, ..., dn/2} (12).
+When G is a transposition, things are more complicated. In this case, we cannot
+use the size of a bijective crossing-free voice leading from A to Tx(A) to determine the size of a voice leading from A to STx, with STx invariant under Tx. Figure S10 illustrates.
+The chords {0, 3, 6, 8}, or {C, Ef, Gf, Af}, and {0, 3, 5, 8}, or {C, Ef, F, Af}, can be
+arranged as cycles of pitch classes whose elements are 2, 3, 3, and 4 semitones apart. Consequently, there is a minimal bijective voice leading between each chord and its T3
+form having displacement multiset {||2 – 3||12Z, || 3 – 3||12Z, || 3 – 3||12Z, || 4 – 3||12Z}, or
+
+
+10
+{1, 0, 0, 1}. However, one can transform {0, 3, 6, 8} into a T3-invariant chord by moving
+only one note, whereas one needs to move two notes to transform {0, 3, 5, 8} into a T3invariant chord. Many methods of comparing voice leadings therefore consider
+{0, 3, 6, 8} to have a smaller minimal bijective voice leading to the nearest T3-invariant
+chord than does {0, 3, 5, 8}. But this difference is not reflected in the size of the minimal bijective voice leadings between the two chords and their T3-forms. Thus, unlike the
+inversional case considered above, the size of a bijective crossing-free voice leading from
+A to Tx(A) does not directly determine the size of a voice leading from A to STx, where STx is invariant under Tx.
+However, the size of a bijective crossing-free voice leading from A to Tx(A) does
+set an upper bound on the size of the smallest of the bijective voice leadings from A to any STx. Let A be a chord with n notes, and let be a bijective voice leading of the form
+(a0, a1, ..., an-1) (an-1 + x, a0 + x, a1 + x, ..., an-2 + x), which combines transposition by x
+semitones with a permutation consisting of a single cycle. Furthermore, let nx 0 modulo 12Z, so that there is an STx that is invariant under Tx. The voice leading has
+displacement multiset {||(ai + x) – ai+1 (mod n)||12Z}. Write di = –(ai + x – ai+1 (mod n)), so that
+the displacement multiset is {||di||12Z}, and ai+1 (mod n) – ai = di + x. Figure S10(c) shows that there is a voice leading from A to some STx having displacement multiset
+{0, ||d0||12Z, ||dn-1||12Z, ||d0 + d1||12Z, ||dn-1 + dn-2||12Z, ||d0 + d1+ d2||12Z, ...}.
+This multiset has one zero member, two members of the form ||di ||12Z, two members of the
+form ||di + dj||12Z, two members of the form ||di + dj + dk||12Z, and so on. By the distribution constraint, this multiset will be smaller than
+{0, ||d0||12Z, ||dn-1||12Z, ||d0||12Z + ||d1||12Z, ||dn-1||12Z + ||dn-2 ||12Z, ||d0||12Z + ||d1||12Z+ ||d2||12Z, ...},
+where we have used the fact that ||a + b||12Z ||a||12Z + ||b||12Z. Now arrange the quantities
+||di||12Z in a sequence from largest to smallest, labeling the elements of this sequence c1, c2, ..., cn such that ci ci+1. By the distribution constraint,
+{0, ||d0||12Z, ||dn-1||12Z, ||d0||12Z + ||d1||12Z, ||dn-1||12Z + ||dn-2 ||12Z, ||d0||12Z + ||d1||12Z+ ||d2||12Z, ...} {0, c1, c2, c1 + c2, c3 + c4, c3 + c4 + c5, ...}.
+Return to the voice leading : A Tx(A), which has the form (a0, a1, ..., an-1) (an-1 + x, a0 + x, a1 + x, ..., an-2 + x). Label the members of its displacement multiset
+c1, c2, ..., cn such that ci ci+1. The preceding paragraph shows that we can find a voice
+leading : A STxwith a displacement multiset that is smaller than the first n elements of the sequence (0, c2, c3, c2 + c3, c4 + c5, c2 + c3 + c4, c5 + c6 + c7, ...). (The circular nature of
+pitch class space allows us to choose a0 so as to avoid any terms involving c1.) We
+
+
+11
+conclude that the size of our voice leading from A to Tx(A) sets a limit on the size of the
+smallest of the voice leadings from A to any STx. This argument has considered only simple bijective voice leadings whose
+permutational component consists of a single cycle. However, the reasoning generalizes
+to bijective voice leadings whose permutational component consists of multiple such cycles, and hence to all bijective voice leadings. (Indeed, the limit we have derived also
+applies to these voice leadings.) We can also use the argument to show that the size of a
+bijective voice leading (a1, a2, ..., an) (a (1), a (2), ..., a (n)) limits the size of the smallest of the voice leadings from A to any chord S that is invariant under .
+7. Maximal evenness and minimal voice leading. I now prove that no bijective voice leading from A to Tx(A) can be smaller than the minimal bijective voice leading from E to
+Tx(E), where E has the same cardinality as A and divides the octave evenly. Thus the
+perfectly even chord lying at the center of the voice-leading orbifold has the smallest possible minimal bijective voice leading to all of its transpositions. As one moves away
+from this chord, and toward the singular “boundary” of the orbifold, the size of the voice
+leadings between chords and their transpositions will in general tend to increase. However, for a given transposition Tx, the rate of increase of these voice leadings
+depends on the direction in which one is moving, since the size of the minimal voice
+leading from A to Tx(A) depends not just on the distance from chord A to the nearest Txinvariant chord, but also on the internal structure of the chord itself (§6).
+THEOREM 2. Let A be any multiset of cardinality n, and let our method of comparing voice leadings be a total preorder satisfying the distribution
+constraint. For all x, the minimal bijective voice leading between A and
+Tx(A) can be no smaller than the minimal bijective voice leading between E and Tx(E), where E divides pitch-class space into n equal parts.
+Since E is invariant under transposition by 12/n semitones, the crossing-free voice leadings between E and Tx(E) will have the form (e1, e2, ..., en) (e1 + c, e2 + c, ... en + c),
+where c x modulo (12/n)Z. (NB: c is congruent to x modulo (12/n)Z, not modulo 12Z.)
+Choose c so that ||c||12Z is as small as possible. The displacement multiset will have n members each equal to ||c||12Z. By the distribution constraint, this multiset is as small as
+any n-member multiset with the same or greater sum.
+Now consider any bijective voice leading between transpositionally related n-note chords (a1, a2, ..., an) (a (1) + x, a (2) + x, ..., a (n) + x). The sum of the members in the
+displacement multiset is ||a (i) + x – ai ||12Z. Since ||a||12Z + ||b||12Z ||a + b||12Z, this sum is
+greater than or equal to ||nx + (a (i) – ai)||12Z = ||nx||12Z. By construction, ||nx||12Z = ||nc||12Z, since x c modulo (12/n)Z, and ||nc||12Z = n||c||12Z, since we can always choose c such that
+
+
+12
+||c||12Z 6/n. Thus the voice leading can be no smaller than the minimal voice leading
+between E and Tx(E). I now prove a corollary that applies to collections of k equally spaced pitch
+classes. Musically, these pitch classes represent an equal-tempered chromatic scale.
+Such discrete musical universes will not always contain chords that divide the octave into n perfectly even pieces. For example, no five-note chord in twelve-tone equal
+temperament divides the octave perfectly evenly. But as Douthett and Clough have
+shown (13), equal-tempered scales will always contain a unique collection of “maximally even” chords dividing the octave as evenly as possible (14). These maximally even
+chords are the discrete analogues to the perfectly even chords we have been considering.
+In what follows, it will be convenient to relabel the pitch classes so that the equally-spaced points in our chromatic scale have integer co-ordinates. We will therefore
+temporarily abandon R/12Z in favor of R/kZ, where k is an integer.
+COROLLARY. Let A and M be integer-valued n-note submultisets of
+R/kZ, and let M be maximally even. Then, for any integer x, the minimal
+bijective voice leading between A and Tx(A) can be no smaller than the minimal bijective voice leading between M and Tx(M).
+The proof is very similar to the proof of Theorem 2. Since M is maximally even (14), we can find a (not necessarily integer-valued!) chord {e1, e2, ..., en} that divides the
+octave into n precisely even parts, such that the crossing-free voice-leadings between M
+and Tx(M) can be written
+( e1 , e2 , ..., en ) ( e1 + c , e2 + c , ... en + c ), where c x modulo (k/n)Z
+Choose c so that ||c||kZ is as small as possible. The displacement multiset will have n
+members chosen from the set {|| c ||kZ, || c ||kZ}, and summing to n||c||kZ (15). By the
+distribution constraint, this multiset is as small as any integer-valued n-note multiset with the same or greater sum. As we saw in Theorem 2, the minimal bijective voice leading
+between A and Tx(A) will have a displacement multiset summing to at least n||c||kZ. Hence
+it can be no smaller than the minimal bijective voice leading between M and Tx(M). The preceding corollary can also be applied to scales that do not divide pitch class
+space evenly. To see why, note that we can always devise a metric on pitch class space
+such that a given scale evenly divides the octave. For example, given the C major scale (C, D, E, F, G, A, B) we can define a metric according to which the distances C–D, D–E,
+E–F, F–G, G–A, A–B, and B–C all equal one [Fig. S11(a)]. Musicians use the term
+“scale step” to refer to this scale-dependent unit of distance. Two subsets of the scale are related by scalar transposition if they are related by rotation relative to this new metric
+
+
+13
+[Fig. S11(b)]. Since our scale evenly divides the octave according to the new metric, the
+preceding corollary applies. Relative to this metric, the familiar diatonic “tertian triads” {C, E, G}, {D, F, A},
+{E, G, B}, {F, A, C}, {G, B, D}, {A, C, E}, and {B, D, F} are maximally even and
+related by transposition [Fig. S11(b)]. It follows from our corollary that the minimal bijective voice leadings between these tertian triads will be as small as possible: a
+bijective voice leading between any pair of transpositionally related three-note diatonic
+subsets can be no smaller than the minimal bijective voice leading between diatonic tertian triads related by that transposition. Analogous facts hold for the tertian seventh
+chord {C, E, G, B} and its transpositions, which are also maximally even. Our corollary
+therefore generalizes a result of Agmon (16), who first noted the special voice-leading properties of diatonic tertian triads and seventh chords.
+8. A polynomial-time algorithm for finding a minimal voice leading between two chords. Given two chords A and B, how do we find a minimal voice leading between
+them? The question is nontrivial, since a minimal voice leading need not be bijective.
+For example, using any of the standard methods of comparing voice leadings, the voiceleading (0, 0, 4, 6) (10, 0, 6, 6) is smaller than any of the bijective voice leadings
+between {0, 4, 6} and {6, 10, 0} (17). Adding additional voices therefore allows us to
+decrease the size of the voice leading. The large number of non-bijective voice leadings between any two chords—roughly 2mn, where m and n are their cardinalities—means that
+an exhaustive search may be impractical, particularly in time-critical applications such as
+interactive computer music. Suppose, however, that our method of comparing voice leadings is a total
+preorder satisfying both the distribution constraint and what I will call the recursion
+constraint:
+{x1, x2, ..., xm} {y1, y2, ..., yn} implies {x1, x2, ..., xm, c} {y1, y2, ..., yn, c}
+The recursion constraint mandates a straightforward relationship between the size of a
+multiset and the size of its sub-multisets. Every music-theoretical method of comparing
+voice leadings satisfies this constraint. When a total preorder satisfies both the distribution and recursion constraints, we can use the technique of “dynamic
+programming,” common in computer science, to determine a minimal voice leading
+between arbitrary chords in polynomial time (order n2m). Define the ascending distance from pitch class a to pitch class b as the smallest
+nonnegative real number x such that, if p is a pitch belonging to pitch class a, then p + x
+belongs to pitch class b. Let(a1, a2, ..., am, am+1 = a1) order the notes of chord A based on increasing ascending distance from arbitrarily chosen a1. (Note that I repeat the first
+element a1 as the last element of the list.) Similarly for (b1, b2, ..., bn, bn+1 = b1). The
+
+
+14
+notation [a1, ..., ai] [b1, ... bj] will refer to all voice leadings from {a1, a2, ..., ai} to
+{b1, b2, ... bj} that can be written with both chords’ subscripts in nondecreasing order. Thus [a1, a2] [b1, b2, b3] refers to (a1, a1, a2) (b1, b2, b3), (a1, a1, a2, a2) (b1, b2, b3, b3),
+and so on.
+If a crossing-free voice leading contains the pair (ai, bj), with i, j > 1, then it must contain at least one of the following: (ai-1, bj), (ai, bj-1), or (ai-1, bj-1). By the recursion
+constraint, the smallest voice leading of the form [a1, ..., ai] [b1, ..., bj] will be the voice
+leading that adds the pair (ai, bj) to the smallest voice leading of the form [a1, ..., ai-1] [b1, ..., bj], [a1, ..., ai] [b1, ..., bj-1], or [a1, ..., ai-1] [b1, ..., bj-1]. Thus, once we have fixed
+the pair (a1, b1) we can recursively compute the smallest voice leading between A and B
+containing that pair. We do this by creating a matrix whose entries ei, j record the size of the minimal voice leading of the form [a1, ..., ai] [b1, ..., bj]. It is trivial to fill in the first
+row and column of the matrix. For any other entry ei, j, we simply add the voice (ai, bj) to
+the smallest of the voice leadings in the entry’s upper, left, and upper-left neighbors. Figure S12 illustrates the technique, identifying the smallest voice leading
+between the C and E major-seventh chords, {4, 7, 11, 0} and {4, 8, 11, 3}, such that the
+voice leading contains the pair (4, 4). In constructing this matrix I have used the L1 “taxicab” norm to measure voice-leading size. The voice leading in the bottom-right
+entry, (4, 4, 7, 11, 0) (3, 4, 8, 11, 11), is one of the minimal voice leadings between the
+two chords that contains (4, 4). To remove this last restriction, we would need to repeat the calculation three more times, each time cyclically permuting the order of one of the
+chords so as to fix a different initial pair. As it happens, however, the voice leading
+shown in Figure S12 is minimal. This follows from the fact that the mapping in the topleft position, (4, 4), contributes nothing to the overall size of the voice leading; we can
+therefore add it to any voice leading without increasing its L1 size.
+Figure S12 includes in each entry both the numerical size of the voice leading and the voice leading itself. With the L1 norm this is unnecessary: we need to keep track of
+the size, but not the voice leading. To determine the value of entry ei, j we can simply add
+the distance between the pair (ai, bj) to the minimum value in the entries ei-1, j, ei, j-1, and ei-1, j-1. (For the other Lp norms we can calculate the pth power of the voice
+leading size in this way, taking the pth root before output.) Having filled in the matrix, we
+can recover a minimal voice leading between the two chords by “tracing back” a path that moves from the bottom-right entry to the top left, moving only up, left, and diagonally
+up-and-left, such that the size of the voice leading decreases as much as possible with
+each step. The entries in boldface indicate the path such a traceback algorithm would take. Due to the circular structure of pitch-class space, the voice leading in the lower
+right-hand corner of the matrix counts the pair (a1, b1) = (am+1, bn+1) twice; this can easily
+be corrected prior to output. The resulting algorithm is easy to implement and suitable for time-critical applications such as interactive computer music.
+
+
+15
+G
+D
+A E
+B/Cf Fs/Gf Cs/Df
+Af Ef
+Bf
+F.
+.
+.
+.
+.. . ..
+..
+.
+C
+{5 ↔6}
+{t↔e}
+{3↔4}
+{8↔9}
+{1↔2}
+{6↔7}
+{e↔0}
+{4↔5}
+{2↔3}
+{7↔8}
+{0↔1} {9↔t}
+{024579e}
+{024679e}
+{124679e} {124689e} {134689e}
+{13468te} {13568te}
+{13568t0}
+{13578t0} {23578t0} {23579t0}
+{24579t0}
+Figure S1. The circle of fifths depicts minimal voice leadings between diatonic collections (major scales). Each diatonic collection can be transformed into its neighbors by moving one pitch class by one semitone. For example, the C major scale can be transformed into the G major scale by moving the pitch class 5 (F) to 6 (Fs). Here and elsewhere, the letters “t” and “e” refer to 10 (Bf) and 11 (B), respectively.
+
+
+16
+C
+c
+fF
+aA
+[e] [E]
+eE
+[g] [G]
+dD
+fs
+gs
+Fs
+[as]
+[cs]
+cs
+[Cs]
+Af
+Ef
+bf
+gG
+B
+ds
+b
+Bf
+[D]
+[Fs]
+[Bf]
+[Bf]
+[Bf]
+Df
+Figure S2. The Tonnetz. Nineteenth-century theorists such as Hostinsky, Oettingen, and Riemann explored a graph that is the geometric dual of the one shown here. The graph displays efficient voice leadings among the 24 familiar major and minor triads. Uppercase and lowercase letters indicate major and minor triads, respectively. Triads connected by horizontal lines share both root and fifth, and can be linked by voice leading in which one note moves by one semitone. (For example, the C major triad can be transformed into a C minor triad by changing E to Ef.) Triads connected by a NE/SW diagonal also share two notes and can be linked by single-semitone voice leading. (For example, the C major triad can be transformed into an E minor triad by changing C to B.) Triads connected by a NW/SE diagonal share two notes and can be linked by voice leading in which one note moves by two semitones. (For example, the C major triad can be transformed into an A minor triad by changing G to A.)
+1
+2
+3 4
+5
+6
+7
+8
+9
+10
+11
+0
+0.17
+2.5
+C
+Cs/Df
+D
+Ds /Ef E
+F
+Fs /Gf
+G
+Gs/Af A As/Bf
+B
+Figure S3. The quotient space R/12Z is a circle whose circumference is twelve units long. The twelve familiar pitch classes of Western equal-temperament evenly divide this circle. Since the circle is continuous, it contains a point for every conceivable pitch class. The figure shows the locations of the pitch class 0.17, which is seventeen cents (hundredths of a semitone) above pitch class C, and pitch class 2.5 (D quarter tone sharp), which is halfway between D and Ef.
+
+
+17
+(C4, C4) (D4, D4) (E4, E4) (F4, F4) (Fs4, Fs4)
+(Cs4, Cs4) (Ef4, Ef4)
+(D5, D4) (E5, E4) (F5, F4) (Fs5 Fs4)
+(Cs5, Cs4) (Ef5, Ef4)
+(D4, D5) (E4, E5) (F4, F5) (Fs4, Fs5)
+(Cs4, Cs5) (Ef4, Ef5)
+(Fs3, Fs4) (Gs3 Gs4) (Bf3, Bf4) (B3, B4) (C4, C5)
+(G3, G4) (A3, A4)
+(Gs4 Gs4) (Bf4, Bf4) (B4, B4) (C5, C5)
+(G4, G4) (A4, A4)
+(Fs4, Fs3) (Gs4 Gs3) (Bf4, Bf3) (B4, B3) (C5, C4)
+(G4, G3) (A4, A3)
+(C4, Cs4)
+(B3, Cs4)
+(D4, Ef4) (E4, F4) (F4, Fs4)
+(Cs4, D4) (Ef4, E4)
+(C5, Cs4) (D5, Ef4) (E5, F4) (F5, Fs4)
+(Cs5, D4) (Ef5, E4)
+(Cs4, C5) (Ef4, D5) (F4, E5) (Fs4, F5)
+(D4, Cs5) (E4, Ef5)
+(Cs4, C4) (Ef4, D4) (F4, E4) (Fs4, F4)
+(D4, Cs4) (E4, Ef4)
+(C4, D4) (Cs4, Ef4) (D4, E4) (Ef4, F4) (E4, Fs4) (F4, G4)
+(B4, Cs4) (C5, D4) (Cs5, Ef4) (D5, E4) (Ef5, F4) (E5, Fs4)
+(D4, C5) (Ef4, Cs5) (E4, D5) (F4, Ef5) (Fs4, E5) (G4, F5)
+(Fs4, Gs4) (G4, A4) (Gs4, As4) (A4, B4) (Bf4, C5) (B4, Cs5)
+(F4, G3) (Fs4, Gs3) (G4, A3) (Gs4, As3) (A4, B3) (Bf4, C4) (B4, Cs4)
+(B3, D4) (C4, Ef4) (Cs4, E4) (D4, F4) (Ef4, Gf4) (E4, G4)
+(B4, D4) (C5, Ef4) (Cs5, E4) (D5, F4) (Ef5, Gf4) (E5, G4)
+(D4, B4) (Ef4, C5) (E4, Cs5) (F4, D5) (Gf4, Ef5) (G4, E5)
+(D4, B3) (Ef4, C4) (E4, Cs4) (F4, D4) (Gf4, Ef4) (G4, E4)
+(F4, Af4) (Fs4, A4) (G4, Bf4) (Gs4, B4) (A4, C5) (As4, Cs5)
+(F4, Af3) (Fs4, A3) (G4, Bf3) (Gs4, B3) (A4, C4) (As4, Cs4)
+(Bf3, D4) (B3, Ds4) (C4, E4) (Df4, F4) (D4, Fs4) (Ef4, G4) (E4, Gs4)
+(B4, Ds4) (C5, E4) (Df5, F4) (D5, Fs4) (Ef5, G4) (E5, Gs4)
+(Ds4, B4) (E4, C5) (F4, Df5) (Fs4, D5) (G4, Ef5) (Gs4, E5)
+(Fs4, As4) (Af4, C5) (Bf4, D5)
+(F4, A4) (G4, B4) (A4, Cs5)
+(E4, Gs3) (Fs4, As3) (Af4, C4) (Bf4, D4)
+(F4, A3) (G4, B3) (A4, Cs4)
+(A3, Ds4) (Bf3, E4) (B3, F4) (C4, Fs4) (Df4, G4) (D4, Gs4) (Ef4, A4)
+(Bf4, E4) (B4, F4) (C5, Fs4) (Df5, G4) (D5, Gs4) (Ef5 A4)
+(E4, Bf4) (F4, B4) (Fs4, C5) (G4, Cs5) (Gs4, D5) (A4, Ds5)
+(Ef4, A3) (E4, Bf3) (F4, B3) (Fs4, C4) (G4, Cs4) (Gs4, D4) (A4, Ds4)
+(Gs3, E4) (A3, F4) (Bf3, Gf4) (B3, G4) (C4, Af4) (Cs4, A4)
+(Af3, F4) (A3, Fs4) (Bf3, G4) (B3, Gs4) (C4, A4) (Cs4, As4)
+(Af4, F4) (A4, Fs4) (Bf4, G4) (B4, Gs4) (C5, A4) (Cs5, As4)
+(D4, Bf4)
+(A4, F4) (Bf4, Gf4) (B4, G4) (C5, Af4) (Cs5, A4) (D5, Bf4)
+(Ds4, B3) (E4, C4) (F4, Df4) (Fs4, D4) (G4, Ef4) (Gs4, E4)
+(D4, Bf3)
+(A3, G4) (Bf3, Af4) (B3, A4) (Cs4, B4)
+(D4, C4) (Ef4, Cs4) (E4, D4) (F4, Ef4) (Fs4, E4) (G4, F4)
+(Cs4, B3)
+(Af3, Gf4) (C4, Bf4)
+(Af4, Gf4) (A4, G4) (Bf4, Af4) (B4, A4) (C5, Bf4) (Cs5, B4)
+(G3, F4)
+(G3, Fs4) (Af3, G4) (A3, Gs4) (Bf3, A4) (B3, As4) (C4, B4)
+(G4, Fs4) (Af4, G4) (A4, Gs4) (Bf4, A4) (B4, As4) (C5, B4)
+(Fs4, G4) (G4, Af4) (Af4, A4) (A4, Bf4) (Bf4, B4) (B4, C5)
+(Fs4, G3) (G4, Af3) (Af4, A3) (A4, Bf3) (Bf4, B3) (B4, C4)
+(A3, E4) (Bf3, F4) (B3, Fs4) (C4, G4) (Df4, Af4) (D4, A4)
+(A4, E4) (Bf4, F4) (B4, Fs4) (C5, G4) (Df5, Af4) (D5, A4)
+(Bf3, Ef4) (B3, E4) (C4, F4) (Df4, Gf4) (D4, G4) (Ef4, Af4)
+(Bf4, Ef4) (B4, E4) (C5, F4) (Df5, Gf4) (D5, G4) (Ef5, Af4)
+(Ef4, Bf4) (E4, B4) (F4, C5) (Gf4, Df5) (G4, D5) (Af4, Ef5)
+(Ef4, Bf3) (E4, B3) (F4, C4) (Gf4, Df4) (G4, D4) (Af4, Ef4)
+(E4, A4) (F4, Bf4) (Fs4, B4) (G4, C5) (Gs4, Cs5) (A4, D5)
+(E4, A3) (F4, Bf3) (Fs4, B3) (G4, C4) (Gs4, Cs4) (A4, D4)
+P
+P
+P
+P
+(a)
+(b)
+Figure S4. (a) A portion of the infinite plane representing ordered two-note chords of pitches. The four quadrants are equivalent to within octave displacement and permutation. Each is equivalent to Figure 2 in the main paper. (b) An abstract representation of the symmetries relating the four quadrants. The lower-left quadrant is related to the upper-left by a reflection that preserves their common border. This action permutes each dyad. Translation of any quadrant diagonally up and right transposes the first element of each dyad by an ascending octave. Translation of any quadrant diagonally down and right transposes the second element of each dyad by an ascending octave. These operations suffice to generate the infinite, periodic figure. The space can be described, metaphorically, as wallpaper; Figure 2 in the main paper provides the pattern, Figure S4(b) shows how the pattern is to be assembled, and Figure S4(a) shows a portion of the result. The diamond in the center of Fig. S4(a) corresponds to the 2-torus shown in Figure S9.
+
+
+18
+Figure S5. The orbifold T3/S3 is a prism whose two triangular faces are identified by way of a 120° rotation. Several familiar equal-tempered chords are depicted on the figure. Augmented triads, which divide the octave into three equal parts, are shown as dark cubes. Minor chords are light spheres and major chords are dark spheres. Lines connecting augmented, minor, and major chords indicate that they can be linked by voice leading in which a single voice moves by a single semitone. Since minor and major chords divide the octave nearly evenly, they are clustered near the center of the orbifold. Triple unisons, which contain only one pitch class, are found on the edge of the figure.
+
+
+19
+(a) (b) (c)
+CCC
+CCC
+EEE
+EEE
+GsGsGs
+CEGs
+CEGs
+GsGsGs
+transposition
+CC
+CFs CFs
+CC
+FsFs
+FsFs
+CCCC
+AAAA
+EfEfEfEf
+FsFsFsFs
+EfEfEfEf
+FsFsFsFs
+AAAA
+CCCC
+transposition
+transposition
+Figure S6. (a) The orbifold T2/S2 is a two-dimensional prism (parallelogram) whose base (a line segment) is glued to the opposite face. Before gluing, the base must be twisted so that chords on the left edge match those on the right. This twist is a reflection that can be represented as a rotation in three Euclidean dimensions. The line at the center of the figure contains chords that divide the octave evenly. (b) The orbifold T3/S3 is a three-dimensional prism whose two triangular faces are glued together. Before gluing, rotate one face by 120°, so that the chords match. The result is the bounded interior of a twisted triangular 2-torus. Augmented triads, which divide the octave into three equal parts, lie on the line at the center of the figure. Major and minor chords are close to this line, as shown in Figure S5. Rotating the prism around the central line by 120° transposes every chord by major third. (c) The orbifold T4/S4 is a four-dimensional prism whose two tetrahedral faces are glued together. The dashed lines extend into the fourth dimension. Before identifying the two faces, twist one so that the chords match. The twist is a reflection, as in the twodimensional case. Diminished seventh chords, which divide the octave into four equal pieces, lie at the center of the orbifold. Familiar four-note tonal chords lie close to this chord.
+
+
+20
+(a) (b)
+p1
+p2
+rr
+p1 < p2, q1 > q2
+q1
+q2
+p1
+p2
+q1
+q2
+Figure S7. (a) |r – p2| / |r – p1| = |q2 – r | / |q1 – r |. (b) Any line segment that crosses (p1, q2) crosses either (p1, q1) or (p2, q2).
+(a) (b)
+p
+p + x1 – x2
+{x1 + c, x2} {x1 + c, x2, x3}
+{x1, x2, x3}
+{x1, x2 + c}
+p + x1 + c
+p + x1
+p
+p + x1 + x2
+p + x1 + x3 + c p + x1 + c
+p + x1
+p
+p + x1 + x2
+p + x1 + x3 + c p + x1 + c
+p + x1
+p
+p + x1 – x2
+x1 > x2, c > 0 x3 ≥ x2 > 0, c > 0
+p + x1 + c
+p + x1
+Figure S8. For any violation of the distribution constraint, we can find a crossed voice leading that is smaller than its natural uncrossed alternative. The crossed voice leading at the bottom of each column is smaller than the uncrossed voice leading above it.
+
+
+21
+(a) (b)
+00 10 20 30 40 50 60 70 80 90 t0 e0 [00]
+01 11 21 31 41 51 61 71 81 91 t1 e1 [01]
+02 12 22
+03 13 23
+32 42 52 62 72 82 92 t2 e2 [02]
+33
+04 14 24 34
+43 53 63 73 83 93 t3 e3 [03]
+44
+05 15 25 35 45
+54 64 74 84 94 t4 e4 [04]
+55
+06 16 26 36 46 56
+65 75 85 95 t5 e5 [05]
+66
+07 17 27 37 47 57 67
+76 86 96 t6 e6 [06]
+77
+08 18 28 38 48 58 68 78
+87 97 t7 e7 [07]
+88
+09 19 29 39 49 59 69 79 89
+98 t8 e8 [08]
+99
+0t 1t 2t 3t 4t 5t 6t 7t 8t 9t
+t9 e9 [09]
+tt
+0e 1e 2e 3e 4e 5e 6e 7e 8e 9e te
+et [0t]
+ee
+[00] [10] [20] [30] [40] [50] [60] [70] [80] [90] [t0] [e0]
+[0e]
+[00]
+B
+A
+00 01 02 03 04 05 06 07 08 09 0t 0e [00]
+11 12 13 14 15 16 17 18 19 1t 1e [10]
+22 23 24 25 26 27 28 29 2t 2e [20]
+33 34 35 36 37 38 39 3t 3e [30]
+44 45 46 47 48 49 4t 4e [40]
+55 56 57 58 59 5t 5e [50]
+66 67 68 69 6t 6e [60]
+77 78 79 7t 7e [70]
+88 89 8t 8e [80]
+99 9t 9e [90]
+tt te [t0]
+ee [e0]
+[00]
+A
+D
+B
+C
+Figure S9. (a) The space of ordered two-note chords of pitch-classes is a 2-torus. To identify points (x, y) and (y, x), we need to fold the torus along the AB diagonal. The resulting figure, shown in (b), is a triangle with two of its sides identified. This is a Möbius strip. To see why, cut figure (b) along the line CD and glue AC to CB. (To make this identification in Euclidean 3-space, you will need to turn over one of the pieces of paper.) The result is a square with opposite sides identified, as in Figure 2 of the main paper.
+
+
+22
+.
+.
+.
+.
+.
+0
+3
+(a) the dominant-seventh chord {0, 3, 6, 8}
+(b) the minor-seventh chord {0, 3, 5, 8}
+(c)
+32 4
+3 6 8 [0]
+.
+.
+.
+.
+.
+0
+3 23 4
+3 5 8 [0]
+.
+.
+..
+.
+an-2 an-1
+x + dn-2 x + dn-1 x + d0 x + d1
+a2
+a0 a1
+.
+.
+.
+.
+.
+a0 – 2x
+x
+a0 + 2x
+a0 – x a0 a0 + x
+xxx
+|| d0 ||12Z
+|| dn-1 ||12Z || d0 + d1 ||12Z
+|| dn-2 + dn-1 ||12Z 0
+Figure S10. (a–b) The dominant-seventh chord {0, 3, 6, 8} and minor-seventh chord {0, 3, 5, 8} can both be arranged as cycles whose notes are 2, 3, 3, and 4 semitones apart. To transform the dominant-seventh chord into a chord that divides the octave evenly, one need only move pitch class 8 to pitch class 9. However, to transform the minor-seventh chord into a chord that divides the octave evenly, one must move at least two pitch classes. (For example, one can move 5 and 8 to 6 and 9, respectively.) Consequently, although both chords have equally small minimal voice leadings to their T3 forms, the first is closer to the nearest T3-invariant chord according to many metrics. (c) To find a bijective voice leading from any chord to a chord whose intervals are all equal to x, fix a0, move note a1 by d0 semitones, note an-1 by dn-1 semitones, note a2 by d0 + d1 semitones, and so on. Since pitchclass space is circular, the term d n/2 will not be involved in this voice leading.
+
+
+23
+(a) (b)
+1
+2
+3 4
+5
+6
+7
+8
+9
+10
+11
+0
+C
+Cs/Df
+D
+Ds /Ef E
+F
+Fs /Gf
+G
+Gs/Af A As/Bf
+B
+1
+1 1
+1
+11
+1
+C
+D
+E
+FG
+A
+B
+Figure S11. For any scale, we can define a metric such that the scale’s notes divide the octave evenly. (a) shows the C major scale, as it appears in circular pitch class space. In (b), we apply a new metric, so that the scale’s notes are equally spaced. The new unit of distance is called a “scale step.” Relative to this new metric, the C major triad {C, E, G} and the D minor triad {D, F, A} are related by rotation, which musicians call “scalar transposition.”
+4 8 11 3 4
+4 (4) (4)
+Size: 0
+(4, 4) (4, 8)
+Size: 4
+(4, 4, 4)
+(4, 8, 11)
+Size: 9
+(4, 4, 4, 4)
+(4, 8, 11, 3)
+Size: 10
+(4, 4, 4, 4, 4)
+(4, 8, 11, 3, 4)
+Size: 10
+7 (4, 7) (4, 4)
+Size: 3
+(4, 7) (4, 8)
+Size: 1
+(4, 7, 7)
+(4, 8, 11)
+Size: 5
+(4, 7, 7, 7)
+(4, 8, 11, 3)
+Size: 9
+(4, 7, 7, 7, 7)
+(4, 8, 11, 3, 4)
+Size: 12
+11 (4, 7, 11)
+(4, 4, 4)
+Size: 8
+(4, 7, 11)
+(4, 8, 8)
+Size: 4
+(4, 7, 11)
+(4, 8, 11)
+Size: 1
+(4, 7, 11, 11)
+(4, 8, 11, 3)
+Size: 5
+(4, 7, 11, 11, 11)
+(4, 8, 11, 3, 4)
+Size: 10
+0 (4, 7, 11, 0)
+(4, 4, 4, 4)
+Size: 12
+(4, 7, 11, 0)
+(4, 8, 8, 8)
+Size: 8
+(4, 7, 11, 0)
+(4, 8, 11, 11)
+Size: 2
+(4, 7, 11, 0)
+(4, 8, 11, 3)
+Size: 4
+(4, 7, 11, 0, 0)
+(4, 8, 11, 3, 4)
+Size: 8
+4 (4, 7, 11, 0, 4)
+(4, 4, 4, 4, 4)
+Size: 12
+(4, 7, 11, 0, 4)
+(4, 8, 8, 8, 8)
+Size: 12
+(4, 7, 11, 0, 4)
+(4, 8, 11, 11, 11)
+Size: 7
+(4, 7, 11, 0, 4)
+(4, 8, 11, 11, 3)
+Size: 3
+(4, 7, 11, 0, 4, 4)
+(4, 8, 11, 11, 3, 4)
+Size: 3
+Figure S12. Using dynamic programming to find a minimal voice leading between {4, 7, 0, 11} and {4, 8, 11, 3}.
+
+
+24
+SYMBOL OR TERM DEFINITION
+multiset, object,
+member,
+element
+A multiset is an unordered collection in which duplications are permitted. {0, 1, 1} is the same multiset as {1, 0, 1} but is different
+from {0, 1}. The multiset {0, 1, 1} contains three objects and has
+three members. However, it has only two elements, 0 and 1.
+{a, b, c} The multiset with members a, b, c, some of which may be identical.
+(a, b, c) An ordered list. (a, b, c) and (b, c, a) are distinct.
+i I Object i belongs to set or multiset I. group A group is a set whose elements can be combined so as to satisfy certain axioms. See a group theory textbook for details. R The real numbers.
+Rn The set of ordered n-tuples (x1, x2, ... xn) such that each xi R.
+Z The integers.
+nZ, where n R The set {nk | k Z}. Thus 12Z is the set {..., –24, –12, 0, 12, 24, ...}.
+The elements of this set form a group under addition.
+mZn, where m R and n Z The set of ordered n-tuples (x1, x2, ... xn) such that each xi mZ.
+These n-tuples form a group under vector addition.
+S
+n The symmetric group of degree n, consisting of the group of permutations of n objects.
+quotient space A quotient space is formed by identifying (or “gluing together”) points
+in another space.
+A/G, where G is some group of
+transformations acting on A
+The quotient space that identifies all points a and ga, where a A
+and g G.
+R/12Z The circular quotient space in which all real numbers x and x + 12 are identified. Points in this space are infinite sets of the form
+{..., x – 24, x – 12, x, x + 12, x + 24, ...}, where x R. These sets can
+be labeled using real numbers in the range 0 x < 12. The elements of R/12Z form a group under addition of their labels modulo 12Z.
+Tn The n-torus, or the Cartesian product of n circles. Since R/12Z is a
+circle, (R/12Z)n is an n-torus.
+topological equivalence Two spaces are topologically equivalent if one can be continuously deformed into the other.
+manifold A space that is locally topologically equivalent to Rn.
+global-quotient orbifold A global-quotient orbifold (or orbit manifold) is a quotient space M/G, where M is a manifold and G is a group acting discontinuously on M.
+Global-quotient orbifolds inherit many geometrical properties from
+their parent spaces.
+Table S1, part 1. A glossary of mathematical terms and symbols.
+
+
+25
+singularity, singular locus A point in an orbifold at which the local geometry or topology is not
+that of the corresponding point in the parent space. If M/G is a globalquotient orbifold, then its singularities are fixed points of the group G.
+The singularities of the orbifolds Tn/Sn act like mirrors.
+boundary (of the orbifolds Tn/Sn)
+The singularities of the orbifolds Tn/Sn, which enclose the nonsingular points (see Figs. 2 and S6).
+simplex, simplicial A simplex is a generalized triangle. The 1-simplex is a line segment,
+the 2-simplex is a triangle, the 3-simplex is a tetrahedron, and so forth.
+prism, height coordinate of the prism,
+base
+In this paper, the term “prism” refers to the n-dimensional region formed when an (n–1)-dimensional polyhedron (the base) is dragged
+along a line segment extending into the remaining dimension. The
+direction of the dragging is the “height coordinate” of the prism.
+||b – a||12Z The distance between two points of R/12Z, equal to the smallest
+nonnegative real number x such that, if p belongs to a, then either
+p + x or p – x belongs to the set b.
+a b modulo nZ The real numbers a and b are congruent modulo nZ: that is, there
+exists an integer k such that a = b + kn.
+a b a is approximately equal to b.
+iff If and only if.
+total preorder
+reflexive relation
+transitive relation total relation
+A total preorder is a relation “ ” over set A that is reflexive (a a, for
+all a A), transitive (a b and b c imply a c, for all a, b, c A)
+and total (either a b or b a, or both, for all a, b A). a < b means “a b but not b a.” a b means “a b and b a.”
+Note that a b does not imply that a and b are identical.
+fundamental domain A fundamental domain of the group G acting on the space S is a region R that tiles S under the action of the group: S is the union of the
+regions gR, for all g G, and any two regions gR and hR, for g h,
+intersect only at their boundaries.
+semidirect product
+Let G be a group with subgroup F and normal subgroup N. G is the
+semidirect product N F iff every element in G can be written in one
+and only one way as the product fn, with f F and n N. See a group theory textbook for details.
+involution A function F is an involution iff F(F(a)) = a.
+isometry A function F is an isometry iff the distance between F(a) and F(b) is
+equal to the distance between a and b, for all a and b.
+x and x The greatest integer x and the smallest integer x, respectively.
+Table S1, part 2. A glossary of mathematical terms and symbols.
+
+
+26
+pitch Pitch is the perceptual correlate of fundamental frequency. Pitches can be modeled as real numbers such that middle C is 60, the
+octave has size 12, and semitones have size 1.
+pitch class A set consisting of all pitches separated by an integral number of octaves. A220 and A440 both belong to the pitch class A. Pitch
+classes can be modeled as elements of the quotient space R/12Z.
+chord A multiset of either pitches or pitch classes.
+transposition, translation
+In both pitch and pitch-class space, transposition (or translation) corresponds to addition by a constant value. If a is a pitch or pitch
+class then a + x is the transposition of a by x semitones.
+Tx(A) The transposition of the chord A by x semitones.
+transpositionally related Two chords are transpositionally related if one is the transposition
+of the other.
+inversion, reflection
+In both pitch and pitch-class space, inversion (reflection) corresponds to subtraction from a constant value. If a is a pitch or
+pitch class then x – a is the inversion of a with “index number” x.
+Ix(A) The inversion that maps a to x – a. Ix maps 0 to x and vice versa.
+inversionally related Two chords are inversionally related if one is the inversion of the other.
+voice leading A voice leading between two multisets {a1, a2, ..., am} and
+{b1, b2, ..., bn} is a multiset of ordered pairs (ai, bj), such that every member of each multiset is in some pair.
+(a1, a2, ..., an) (b1, b2, ..., bn) The voice leading that contains all and only the pairs (ai, bi). Voice
+leadings do not uniquely determine the chords they connect. For example, the voice leading (0, 0, 4, 7) (11, 2, 5, 7) is both a
+bijective voice leading from {0, 0, 4, 7} to {11, 2, 5, 7} and a non
+bijective voice leading from {0, 4, 7} to {11, 2, 5, 7}.
+distance The distance between two pitches p and q is the absolute value of their difference, |q – p|. The distance between two pitch classes a
+and b, written ||b – a||12Z, is the smallest nonnegative real number x
+such that, if p is a pitch belonging to pitch class a, then either p + x or p – x belongs to pitch class b.
+ascending distance The ascending distance from pitch class a to pitch class b is the
+smallest nonnegative real number x such that, if p is a pitch belonging to pitch class a, then p + x belongs to pitch class b.
+Table S1, part 3. A glossary of musical terms and symbols.
+
+
+27
+associated voice leading (p1, p2, ..., pn) (q1, q2, ..., qn) is associated with (a1, a2, ..., an) (b1, b2, ..., bn) if pitches pi and qi all belong to the pitch classes ai and bi,
+respectively.
+displacement multiset The multiset of distances between notes in the source chord and their images in the target chord.
+distribution constraint {x1 + c, x2, ..., xn} {x1, x2 + c, ..., xn} {x1, x2, ..., xn} for x1 > x2 and
+c>0
+recursion constraint {x1, x2, ..., xm} {y1, y2, ..., yn} implies {x1, x2, ..., xm, c} {y1, y2, ..., yn, c}
+trivial voice leading A voice leading containing only pairs of the form (x, x).
+bijective voice leading A voice leading from A to B such that every member of A is mapped to exactly one member of B, and vice versa.
+independent voice leading A voice leading that cannot be written in the form (a1, a2, ..., an)
+(a1 + x, a2 + x, ..., an + x).
+parallel voice leading A voice leading that is not independent, and hence acts as a transposition.
+crossing free,
+strongly crossing free
+Intuitively, a voice leading is crossing free if the notes of the source
+chord can be connected to those of the target along minimal-length line-segments intersecting only at their endpoints. A voice leading
+between multisets of pitches (p1, p2, ..., pn) (q1, q2, ..., qn) has no voice
+crossings if pi > pj implies qi qj, for all i, j n. It is strongly crossing
+free if (p1 + 12k1, p2 + 12k2, ..., pn + 12kn) (q1 + 12k1, q2 + 12k2, ..., qn + 12kn)
+is crossing free, for all integers ki. Thus one cannot introduce crossings
+into a strongly crossing-free voice leading simply by shifting the octave in which its voices appear. A voice leading between multisets of pitch
+classes is crossing free if it is associated with a strongly crossing-free
+voice leading between multisets of pitches in which no voice moves by more than six semitones.
+voice crossing Two voices (p1, q1) and (p2, q2) cross if the voice leading (p1, p2)
+(q1, q2) is not crossing free.
+maximally even Let {e0, e1, ..., en-1} be a subset of R/kZ that divides the octave into n
+precisely even parts. {m0, m1, ..., mn-1} is “maximally even” if mi = ei .
+For any maximally even chord {m0, m1, ..., mn-1}, and any integer d, the set {mi + d (mod n) – mi} will contain either a single integer-valued point in
+R/kZ or a pair of adjacent integer-valued points in R/kZ. The n-note
+maximally even subsets of a chromatic scale are related by transposition.
+Table S1, part 4. A glossary of musical terms and symbols.
+
+
+28
+REFERENCES
+1. R. Gauldin, Harmonic Practice in Tonal Music (Norton, New York, 2004).
+2. S. Laitz, The Complete Musician (Oxford, New York, 2003).
+3. D. Huron, Music Perception 19, 1 (2001). 4. It is possible to show that the triangle inequality implies the distribution constraint, given
+a few minimal assumptions. Let P, Q, and R be points in Rn, representing ordered series of
+pitches, and let P Q be the voice leading that maps the ith component of P to the ith component of Q. Suppose our method of comparing voice leadings is a metric that assigns a
+(real-valued) size to every displacement multiset. Let D(P R) refer to the size of the
+displacement multiset associated with the voice leading P R. Suppose that D(P R) D(P Q) + D(Q R), for all P, Q, and R (the triangle inequality), and that D(P R) =
+D(P Q) + D(Q R) whenever Q lies on the line segment P R. It follows that the
+distribution constraint’s first inequality will be satisfied. 5. D. Lewin, Journal of Music Theory 42, 15 (1998).
+6. R. Cohn, Journal of Music Theory 42, 283 (1998).
+7. J. Straus, Music Theory Spectrum 25, 305 (2003). 8. C. Callender, Music Theory Online 10 (2004).
+9. R. Cohn, Journal of Music Theory 41, 1 (1997).
+10. J. Douthett, P. Steinbach, Journal of Music Theory 42, 241 (1998). 11. http://music.princeton.edu/~dmitri/ChordGeometries.html.
+12. Consequently, for all of the standard voice-leading metrics, we can always find minimal
+bijective voice leadings from A to Ix(A) and A to SIx with displacement multisets equal to {d1, d2, ..., dn} and {d1/2, d2/2, ..., dn/2}.
+13. J. Clough, J. Douthett, Journal of Music Theory 35, 93 (1991).
+14. Let {e0, e1, ..., en-1} be a subset of R/kZ that divides the octave into n precisely even parts. {m0, m1, ..., mn-1} is “maximally even” if mi = ei . For any maximally even chord
+{m0, m1, ..., mn-1}, and any integer d, the set {mi + d (mod n) – mi} will contain either a single
+integer-valued point in R/kZ or a pair of adjacent integer-valued points in R/kZ. The n-note maximally even subsets of a chromatic scale are related by transposition. In twelve-tone
+equal temperament, the maximally even chords are {0, 6}, {0, 4, 8}, {0, 3, 6, 9}, {0, 2, 4, 5, 7},
+{0, 2, 4, 6, 8, 10}, their transpositions, and the complements of these chords. 15. There is an integer d such that ei+d (mod n) + x = ei + c. So n||c||kZ = ||ei+d (mod n) + x – ei||kZ =
+|| ei+d (mod n) + x – ei ||kZ = || ei + c – ei ||kZ, where we use the fact that ||c||kZ k/2n.
+16. E. Agmon, Musikometrica 3, 15 (1991). 17. Note that voice leadings do not uniquely determine the chords they connect: the voice
+leading (0, 0, 4, 6) (10, 0, 6, 6) is both a non-bijective voice leading between {0, 4, 6} and
+{6, 10, 0} and a bijective voice leading between {0, 0, 4, 6} and {6, 6, 10, 0}.

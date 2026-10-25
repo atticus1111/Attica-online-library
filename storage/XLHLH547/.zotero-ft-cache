@@ -1,0 +1,127 @@
+
+Task Book
+Home   Contact Us      
+
+ 
+
+Menu
+Search Task Book
+(FY2004 - present)
+Maps/Metrics
+Search Task Book Archives (FY1995 - 2003)
+Search Bibliography
+(FY2004 - present)
+SPACELINE Current Awareness Lists
+Space Life & Physical Sciences Research Highlights
+PI Submission Site
+Related Links
+Biological and Physical Sciences Data (BPS Data)
+NASA Biological and Physical Sciences (BPS) Decadal Survey
+NASA Human Research Program Integrated Research Plan (IRP)
+Human Research Roadmap
+TechPort
+Space Station Research Explorer
+NASA Life Sciences Portal
+NSPIRES
+Translational Research Institute for Space Health
+NASA Space Radiation Laboratory(NSRL)
+
+ 
+
+The NASA Task Book
+Advanced Search     
+
+Back to Search Results    
+
+
+  Final Report  
+  FY 2004 Report  
+Project Title:  Optimization of the Integrated Advanced Water Recovery System Post-Processing System Reduce
+Fiscal Year: FY 2005 
+Division: Human Research 
+Research Discipline/Element:
+HRP :
+	Start Date: 02/17/2003  
+End Date: 01/28/2005  
+Task Last Updated: 01/12/2005 	Download Task Book report in PDF 
+
+Principal Investigator/Affiliation:   Finger, Barry W. M.S. / NASA Johnson Space Center - Honeywell 
+Address: 	Mail Code EC3 
+Bld 7, RM 223 
+Houston , TX 77058 	Email: barry.w.finger1@jsc.nasa.gov 
+Phone: 281-483-5235  
+Congressional District: 22 
+Web:  
+	Organization Type: NASA CENTER 
+Organization Name: NASA Johnson Space Center - Honeywell 
+Joint Agency:  
+Comments:  
+Project Information: 
+Responsible Center: NASA JSC 
+Grant Monitor:  
+Center Contact:   
+Unique ID: 2218 	Solicitation / Funding Source: NOT AVAILABLE 
+Project Type: Ground 
+Flight Program:  
+TechPort: No 	No. of Post Docs: 0 
+No. of PhD Candidates: 0 
+No. of Master's Candidates: 0 
+No. of Bachelor's Candidates: 0 	No. of PhD Degrees:  
+No. of Master's Degrees:  
+No. of Bachelor's Degrees:  
+
+Human Research Program Elements:	None
+
+Human Research Program Risks:	None
+
+Human Research Program Gaps:	None
+
+Flight Assignment/Project Notes:	NA
+
+
+
+Task Description:	A Post Processing Subsystem (PPS) was previously tested as part of the Integrated Advanced Water Processing System (IAWRS). The PPS, which processed reverse osmosis permeate and air evaporation condensate, performed final treatment of an International Space Station-equivalent wastewater stream, and produced NASA-potable water during 180 days of testing.
+
+Processes utilized by the PPS include ion exchange, photo-oxidation, photo-sterilization, microfiltration, and residual biocide addition, and a modular design allows for the replacement of all subassemblies. The subsystem’s technology readiness level is 6 (tested in a relevant environment), and follow-on testing is intended to evaluate functional improvements to the integrated subsystem. The proposed work focuses on optimizing the organic and inorganic contaminant removal subassemblies.
+
+Organic contaminants are destroyed using ultraviolet (UV) photo-oxidation. IAWRS testing demonstrated that a single 40-W, 185-nm photo-reactor was sufficient to maintain effluent organic carbon < 50 ppb, an order of magnitude less that the NASA requirement. However, sufficient data was not collected during the IAWRS test to determine the minimum acceptable size of the UV photolytic subassembly.
+
+Commercially available mixed media ion exchange (IX) resins are used for the removal of inorganic contaminants such as ammonium, and chloride. However, IAWRS test results showed that more than 30% of the IX bed capacity was consumed by the removal of bicarbonate, which has no effect on water potability.
+
+It is proposed that completion of this project will result in a 50% reduction in the power requirement and a 30% reduction in IX resin use. These improvements are expected to translate directly into reductions of the equivalent system mass of the PPS. To fulfill the objectives of the TDP, testing has been divided into three phases: • Phase I is intended to evaluate an alternative separate cation/anion (SC/A) IX configuration designed to increase bed life by reducing bicarbonate loading. In this configuration, a SAC (strong acid cation) IX resin and a vacuum MC function to extend downstream bed life by reducing bicarbonate loading on the SBA (strong base anion) IX resin. The performance and bed life of the new configuration was evaluated against the standard mixed-media IX (MIX) bed configuration. • Phase II will focus on testing the UV photolytic subassembly. Two 14-W UV photo-reactors will be tested in place of the original 40-W units at flow rates sufficient to identify organic contaminant breakthrough. ROP and AES condensate ersatz will be used as the feed streams. • Phase III will evaluate the performance of the optimized PPS and verify that the targeted reductions in IX resin and electrical power are achieved while processing ersatz solutions. The overall objective of this work is to collect sufficient data to accurately size a minimum mass, power, and volume Post Processing Subsystem (PPS). Two tasks are addressed: 1) determining the minimum power required by the UV photolytic subassembly, and 2) evaluating methods to increase IX bed life by reducing bicarbonate loading. Seven specific objectives for this work are described below. 1. Evaluate the effect that strong acid cation (Rohm & Haas UP1400) and strong base anion (Rohm & Haas UP4000) ion exchange (IX) resins have on ersatz solutions that simulate reverse osmosis permeate (ROP) and air evaporation system (AES) condensate. This project will quantify the resins’ cation and anion removal effectiveness, and compare their performance to a previously tested mixed media ion exchange (MIX) resin (Rohm & Haas UP6040). 2. Quantify the effectiveness of the separate cation and anion (SC/A) IX bed and membrane contactor (MC) configuration to remove inorganic carbon from the simulated wastewater streams. 3. Evaluate alternative processing techniques to increase anion bed life by reducing bicarbonate loading via two methods. • CO2 removal via MC vacuum desorption located upstream of a traditional mixed media IX bed. • CO2 removal via MC vacuum desorption located between separate cation and anion (SC/A) IX beds. 4. Demonstrate an increase in IX bed life. The target is a 30% increase in IX bed life as compared to the MIX configuration. 5. Determine the maximum organic loading rate on the UV photolytic subassembly. 6. Demonstrate a reduction in the UV photolytic subassembly power requirement. The target is a 50% reduction compared to previous PPS results. 7. Select the optimum configurations of the photolytic and inorganic contaminant removal subassemblies and conduct an integrated performance verification test. It is widely recognized that water represents the most significant life support consumable in terms of mass, and that recycling leads to significant reductions in resupply costs for long duration space missions, including those such as the International Space Station (ISS). The Integrated Advanced Water Processing System (IAWRS) Post Processing System (PPS) represents a mature subsystem that has been previously tested at the NASA Johnson Space Center (JSC). The processor utilizes no internal pumps or moving parts, operates at ambient temperatures and pressures, and can be operated in continuous or batch mode. Of the three subsystems that comprised the IAWRS, the PPS is considered the most mature and it is expected that the continued development and optimization of the PPS could lead to near-term applications as an upgrade to the current ISS Water Recovery System. The Research Maximization and Prioritization (Remap) task force identified ALS technology development as a top agency priority. Regeneration is essential to reduced resupply cost on long-duration space missions. The International Space Station is currently being assembled and NASA is continuing to look for innovative ways to reduce operational cost, increase reliability, and reduce crew time associated with ECLSS maintenance and operations. Development of a low power, low consumable PPS could lead to significant cost savings on the next generation ISS water recovery system or on future long-duration exploration-class missions.
+
+
+
+Research Impact/Earth Benefits:	Development of low-cost, low-power water purification technology that can be transferred to residential/commercial use.
+
+Task Progress & Bibliography Information FY2005 
+Task Progress:	Phase I testing, evaluation of the spearate cation/anion ion exchange configuration, has been completed, and the results are summarized below. The SC/A and MIX bed PPS configurations were evaluated using ersatz solutions representing ROP and AES condensate. For the SC/A configuration, total inorganic carbon (TIC) removal averaged 70 and 82% for the ROP and AES feeds, respectively. No apparent variation or degradation in TIC removal was observed over the seven month testing cycle. The SC/A configuration reduced ROP and AES anion loading on the SBA bed by 35% and 85%, respectively. Overall, the SC/A test configuration exhausted an average of 44% less SBA resin when processing ROP than the standard MIX bed configuration. For AES feed, even greater SBA savings (upwards of 77%) were observed for the SC/A configuration compared to the MIX configuration. The calculated SBA resin capacity averaged across test runs was 1.1 + 0.1 meq/ml-resin, a value that is in agreement with the manufacturer’s specification of 1.1 meq/ml for UP4000 .
+
+Average water loss due to vapor diffusion across the vacuum MC was 24.9 ml/day. Although this mass loss must be counted against the SC/A configuration, it is noted that there was no attempt to optimize (i.e. minimize) the size of the MC, which was considered to be oversized for the current application. To mitigate this water loss, future designs of this PPS configuration could include both proper scaling of MC size and recovery of water from the vacuum line.
+
+Neglecting water loss, the SC/A operating at 64 mL/min exhibited a mass savings of 28 and 53% for the ROP and AES feeds, respectively. For a typical 9:1 ROP to AES feed solution, the SC/A mass savings was improved by 30% when compared to the MIX configuration.
+
+In the final test configuration, SC/A with UV lamps, 75% of the samples tested exhibited total organic carbon (TOC) levels below the prescribed detection limit of the TOC analyzer (< 0.5 ppm). The specific power consumption calculated for two runs of SC/A-UV test stand processing AES feed at 64 mL/min were 7.8 and 5.6 W-hr/(mg TOC removed). Continued testing of the SC/A-UV configuration is planned for Phase II of the PPS TDP.
+
+Phase II, optimization of the UV photolytic subassembly, will be completed by 1/31/05. Following an analysis of the data from Phases I and II, optimum organic and inorganic contaminant removal subassembly configurations will be selected. This final phase of proposed testing will focus on evaluating the performance of the integrated PPS, and verifying that the targeted reductions in IX resin and electrical power are achieved. An approximately 30 day performance test of the SC/A configuration will be conducted using the RO and AES ersatz previously described. A second test will be performed with identical wastewater loading conditions except that the PPS IX subassembly will be in the original baseline MIX configuration. Water quality measurements for pH, TOC, TIC, conductivity, and inorganic contaminants will be taken at critical process points each day for both tests. In addition, vacuum water loss data will be colleted when operating in the SC/A configuration. The estimated completion date for Phase III testing is 5/27/05.
+
+
+
+Bibliography:	Description: (Last Updated: 09/21/2006) 
+
+Show Cumulative Bibliography
+ 
+
+
+Papers from Meeting Proceedings	Finger BW. "Optimizing the Ion Exchange Process for Purification of Spacecraft Wastewater." ASCE Earth and Space 2004 Conference, League City, TX, March 7-10, 2004.
+
+ASCE Earth and Space 2004 Conference Proceedings, pp 399-406, 2004. , Mar-2004
+
+Back to Search Results    
+  
+ Developed and operated by: NASA Research and Education Support Services
+NASA Application Owner: Diana Ly Biological & Physical Sciences Division; Baraquiel Reyna Human Research Program/Translational Research Institute for Space Health.
+Task Book Policies and Notices || Terms and Conditions || NASA Web Privacy and Important Notices || NASA Accessibility || Contact Us
+
+
+

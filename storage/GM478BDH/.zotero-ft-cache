@@ -1,0 +1,324 @@
+SPECIAL ISSUE ARTICLE
+The value of flexible funding for collaborative biostatistics
+units in universities and academic medical centres
+Emily Slade | Sarah Jane K. Robbins | Kristen J. McQuerry |
+Anthony A. Mangino
+Department of Biostatistics, University of Kentucky, Lexington, Kentucky, USA
+Correspondence
+Emily Slade, University of Kentucky, 725 Rose Street, Lexington, KY 40508, USA. Email: emily.slade@uky.edu
+Collaborative biostatistics units within universities and academic medical centres
+operate under a wide range of different funding models; common to many of these
+models is the challenge of allocating time to activities that are not linked to a specific
+research project, such as professional development, mentorship and administrative
+tasks. The purpose of this paper is to describe a proposed model for ‘flexible
+funding’, that is, funding that is not linked to a specific research project, within a col
+laborative biostatistics unit and to detail the benefits and challenges associated with
+the proposed model. We present results from a qualitative study representing the
+perspectives of collaborative biostatisticians working under the proposed flexible
+funding model. In addition to providing examples of activities undertaken as part of
+time allocated to flexible funding, the qualitative results reveal several benefits of
+flexible funding both for a collaborative biostatistician (e.g., job satisfaction and
+professional development) and for the collaborative biostatistics unit as a whole
+(e.g., retention, process improvement, and leadership).
+KEYWORDS
+collaboration, consulting, process improvement, professional development
+1 | INTRODUCTION
+Biostatistics consulting and collaboration units within universities and academic medical centres operate under a wide range of different financial
+models (Hanlon et al., 2022; Perkins et al., 2016). In some models, positions within the collaborative biostatistics unit are funded entirely through
+a single institutional-level fund that allows all researchers within the institution to collaborate with the biostatisticians in the unit. More often,
+some or all of a collaborative biostatistician's position are funded through specific research projects or through individual research units (such as a
+department). Project-based funding may consist of effort allocated to grants or through a fee-for-service model that charges investigators for
+collaboration on individual projects. The focus of this paper is on collaborative biostatistician positions that are funded through projects
+(e.g., grants and fee-for-service) or individual research units (e.g., contracts with departments or research groups). Positions funded in this manner
+are oftentimes staff positions but can also be research-based faculty positions (often with no teaching requirements and not on a tenure track).
+For the purpose of this paper, we use the term ‘collaborative biostatistician’ to refer to either a staff member or a research-based faculty member
+in a collaborative biostatistics unit at a university or academic medical centre.
+Received: 22 January 2024 Revised: 18 March 2024 Accepted: 26 March 2024
+DOI: 10.1002/sta4.679
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made. © 2024 The Author(s). Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e679. wileyonlinelibrary.com/journal/sta4 1 of 8 https://doi.org/10.1002/sta4.679
+
+
+1.1 | Funding challenges for collaborative biostatistics units
+When 100% of one's time is allocated to specific research projects or groups, several challenges arise for the collaborative biostatistician. First,
+the collaborative biostatistician does not have time allotted to tasks that they are required to complete but are not necessarily linked to a specific
+research project or group. This includes administrative tasks such as attending meetings for their own unit, department, or college; tracking their
+working time; completing performance evaluations; and institutional or professional service (if required). It also includes time that the collabora
+tive biostatistician spends on their own professional development, which is an important part of being a professional but is often neglected due to
+the lack of time available for it under this funding model (Taylor et al., 2023; Welty et al., 2013). Some collaborative biostatisticians, especially
+those at the doctoral level, may also wish to work on their own methods development or other personal research projects, but they would not
+have time to do so if 100% of their time was allocated to collaborative research projects. These issues can feel constraining to a collaborative
+biostatistician who may be incentivized to leave for a different position that affords more flexibility and autonomy with time (Welty et al., 2013).
+This funding model also creates challenges for the collaborative biostatistics unit as a whole. For example, if all of the collaborative biostatisti
+cians in the unit are entirely funded on existing grants and contracts, nobody has available time to allocate to a new grant or contract when one is
+ready to be initiated. One solution to this problem is to hire a new collaborative biostatistician; however, the time it takes to recruit, onboard, and
+train a new employee is typically long and causes delays in starting work on the new grant or contract. Time for leadership and/or process
+improvement for the collaborative biostatistics unit may also be limited under this funding model. It is not uncommon for collaborative biostatisti
+cians in formal leadership positions within the unit to have reserved time for management and leadership (Hanlon et al., 2022), but the unit may
+be hindered when others do not have reserved time to take on informal leadership and/or process improvement tasks as they arise. For example,
+an entry-level collaborative biostatistician may envision a way to change the unit's shared workflow to improve reproducibility, but implementing
+this change would take time that they do not have if 100% of their effort is allocated to specific research projects or groups.
+These challenges could be mitigated or eliminated if a portion of each collaborative biostatistician's time was covered by what we call ‘flexible
+funding’. We define ‘flexible funding’ as any funding that is not directly linked to a specific research project or allocated to work with a specific
+research group. The purpose of this paper is to describe a proposed structure for flexible funding within a collaborative biostatistics unit and to
+present results from a qualitative study focusing on the benefits and challenges associated with flexible funding from the perspective of collabora
+tive biostatisticians who are currently working under the proposed flexible funding model.
+1.2 | Proposed structure for flexible funding
+The ideal amount of flexible funding for a collaborative biostatistician position varies, but the minimum required to mitigate the aforementioned
+challenges is around 10%–20% of one's time. Lower amounts of flexible funding are typically not enough to avoid these challenges; for example,
+5% of one's time amounts to only 2 h of a 40-h work week. Assuming that 1 h would usually be needed for a unit meeting or other required
+administrative task, this would leave only 1 h for professional development, mentorship, leadership, additional administrative/service tasks or
+any other activity that the collaborative biostatistician wishes to engage in to benefit themselves or their unit. Reserving at least 10% of a
+collaborative biostatistician's time for these tasks is more reasonable. If the tasks allocated to this flexible funding include more time-consuming
+endeavours such as methods development or other side projects, intensive professional development (e.g., a semester-long course), or mentorship
+of early-career biostatisticians within the unit, reserving 20% of one's time via flexible funding would be advisable.
+In some cases, even higher amounts of flexible funding are warranted. For example, when a new collaborative biostatistician is hired, it may
+make sense to allocate 100% of their time to a flexible funding source while they are completing onboarding and training that is not directly linked
+to a specific research project or group. For a new collaborative biostatistician hired in this manner, we refer to the 10%–20% minimum level of
+flexible funding as ‘protected’ flexible funding, and the remaining 80%–90% initially allocated as ‘temporary’ flexible funding. Under this model,
+the new collaborative biostatistician's temporary flexible funding will steadily decrease over time as it is replaced with funding from grants,
+contracts, fee-for-service work, or other projects, but 10%–20% of their time, also known as 0.1–0.2 full-time equivalent (FTE), will always be
+reserved on protected flexible funding.
+This graduated flexible funding allocation strategy is beneficial to promote appropriately timed growth (i.e., hiring) for the collaborative biosta
+tistics unit. For example, a collaborative biostatistics unit may wish to begin hiring for the next new position when the most recently hired
+person's level of project-based funding grows to 0.5 FTE (i.e., 50% of their time). This strategy is illustrated in Figure 1. In Figure 1, the desired
+base level of protected flexible funding for each person in the hypothetical collaborative biostatistics unit is 0.2 FTE. In Figure 1 Scenario A,
+Persons 1 and 2 are then both ‘maxed-out’ at 0.8 FTE from project-based funds, meaning they do not have effort available to take on projects
+from new funding sources. In Scenario A, Person 3 is the most recently hired collaborative biostatistician. Since Person 3's project-based funding
+has grown to 0.5 FTE, this signals to the unit that it is time to start hiring for the next position. Note that in Scenario A, Person 3 still has 0.3 FTE
+remaining for temporary flexible funding time. This allows for the potentially lengthy process of hiring, onboarding, and training Person 4 to be
+completed before Person 4 is needed on a new project. If a new grant or contract comes in during this time, Person 3 still has some temporary
+flexible funding time that can be decreased to take on the new project (adding an additional project-based funding source). Figure 1 Scenario B
+2 of 8 SLADE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+depicts the funding status of the unit when Person 4 is initially hired. Going forward from that time, the remaining temporary flexible funding for
+Persons 3 and 4 would steadily decrease as they are added to project-based funding sources, and hiring would begin for Person 5 when Person
+4's project-based funding grows to 0.5 FTE.
+Under the model depicted in Figure 1, the total amount of flexible funding required for the collaborative biostatistics unit as a whole would
+be 0.2 FTE times the number of employees (to cover protected flexible funding) plus 0.3–1.1 total FTE (to cover temporary flexible funding)
+depending the current phase of the hiring cycle. Scenario A (Figure 1) depicts the hiring cycle at the minimum required level of temporary flexible
+funding (0.3 FTE), and Scenario B (Figure 1) depicts the hiring cycle at the maximum required level of temporary flexible funding (1.1 FTE) for the
+unit. Figure 1 represents one possible proposed model for flexible funding; the minimum amount of protected flexible funding and/or the amount
+of project-based funding that triggers hiring of the next person can be adjusted to suit the needs of a particular collaborative biostatistics unit.
+Flexible funding may be drawn from multiple sources, but primarily two in this proposed model: a consistent amount of institutional ‘buy-in’
+from the parent entity of the collaborative biostatistics unit (e.g., funds allocated from department-, centre-, or college-level budgets), or as a
+portion of funds from contracts or memoranda of understanding (MOUs) with external collaborators' units for each fiscal year. While all funds
+received from various sources may feed into a singular account for the entirety of the unit, consistent documentation is necessary to ensure
+proper allocation of funds relative to the commitments to external contracts and agreements. By maintaining a singular account for the collabora
+tive biostatistics unit—composed of static funds from the unit's parent entity (department, college, etc.) and funds from contracts or grants with
+external collaborators—the ability of biostatisticians to have continual support, even during periods of fewer projects for any one biostatistician,
+ensures the stability of the unit for the fiscal year. The nature of the agreement with the collaborating academic unit (e.g., contract, MOU)
+allows for continuity on, minimally, an annual basis, if not longer. However, such agreements may be modified as part of a continual discussion
+with leadership of collaborating units to determine the level of biostatistician support needed.
+As it pertains to the proposed flexible funding model, the collaborative biostatistics unit studied in Sections 2 and 3—the Biostatistics Consult
+ing and Interdisciplinary Research Collaboration Lab (Biostat CIRCL) at the University of Kentucky—is primarily funded by collaborative unit agree
+ments, structured as MOUs, with numerous colleges, departments, divisions, and centres across the University of Kentucky campus. As part of
+the MOU arrangement, counter to that of annual or one-time contracts, some portion of each collaborative unit's funds are allocated to CIRCL
+biostatisticians' flexible funding. Additionally, a small, consistent allocation is provided by the Biostat CIRCL's parent entities to support general
+administrative purchasing, technological infrastructure, travel funds and, as needed, flexible funding support.
+F I G U R E 1 Project-based versus flexible funding levels dictate the timing of hiring for a hypothetical collaborative biostatistics unit. The desired base level of protected flexible funding (green) for each person in the hypothetical collaborative biostatistics unit is 0.2 full-time equivalent (FTE). Both scenarios show Persons 1 and 2 ‘maxed out’ at 0.8 FTE from project-based funding (blue). Scenario A depicts the time at which it is necessary to begin hiring since the most recently hired collaborative biostatistician (Person 3) has acquired 0.5 FTE in project-based funding. Scenario B depicts the funding status when the next person (Person 4) is hired. At that time, the remaining temporary flexible funding (yellow) for Persons 3 and 4 would steadily decrease as they are added to project-based funding sources; hiring would begin for Person 5 when Person 3 is maxed out at 0.8 FTE in project-based funding and Person 4's project-based funding grows to 0.5 FTE (analogous to Scenario A).
+SLADE ET AL. 3 of 8
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Sections 2 and 3 describe a qualitative study of collaborative biostatisticians who are currently working under the proposed flexible funding
+model described above, including perspectives on the impact and benefits of the model. Section 4 addresses recommended sources of flexible
+funding and additional challenges related to the implementation of the proposed model.
+2 | METHODS
+We conducted a qualitative study via one-on-one semi-structured interviews (Creswell, 2014) to examine collaborative biostatisticians'
+experiences with the proposed flexible funding model. Eligible participants were collaborative biostatistician staff members in the Biostatistics
+Consulting and Interdisciplinary Research Collaboration Lab (Biostat CIRCL) at the University of Kentucky. This study was determined to be
+exempt from review by the University of Kentucky's Institutional Review Board (protocol #91815).
+All Biostat CIRCL staff members (n = 6) were invited to participate in the study. Consent to participate and be recorded in a one-on-one
+interview was obtained online via the University of Kentucky's Research Electronic Data Capture (REDCap) system (Harris et al., 2009). In-depth
+interviews with each participant were conducted and recorded via Zoom in November 2023. Each one-on-one interview was facilitated by a
+qualitative researcher and was between 10 and 35 min in duration. The semi-structured interviews were organized by an interview guide
+containing open-ended questions on pre-determined focus areas related to flexible funding, including the use of time allocated to flexible funding,
+team culture and dynamics, impact and benefits, and challenges and areas of improvement.
+Recorded interviews were initially transcribed automatically using Zoom. Interview transcripts were then reviewed and verified for accuracy
+by a member of the research team. Each interview was independently coded by two members of the research team using inductive analysis
+(Bingham & Witkowsky, 2022), followed by a meeting between these research team members to discuss and resolve any discrepancies. Following
+the completion of systematic coding, the coded interviews were synthesized to identify the primary themes using principles of thematic analysis
+(Braun & Clarke, 2006). We report the primary themes and key quotes from participants within each of our focus areas (use of flexible funding
+time, team culture and dynamics, impact and benefits, and challenges related to flexible funding).
+3 | RESULTS
+Six collaborative biostatistician staff members participated in the qualitative interviews. The participants were balanced by gender (three female,
+three male) and training (two PhD, three Master of Science and one Master of Public Health). Most (5/6) were early career with less than 5 years
+of experience as a collaborative biostatistician. The median time that participants had spent working in the Biostat CIRCL was approximately
+2 years. Two participants worked remotely, and four worked in on-campus positions.
+3.1 | Use of time allocated to flexible funding
+Participants reported a wide range of different activities that they have engaged in as part of their time allocated to flexible funding, represented
+by two main themes of ‘internal and operational’ activities and ‘external and engagement’ activities (Figure 2).
+Internal and operational activities included three subcategories: (1) administrative tasks, (2) professional development and (3) unit initiatives
+(Figure 2). Administrative tasks that participants mentioned included project management, such as tracking time and research outcomes from pro
+jects, as well as project reflection, which refers to individual and/or team examinations of successes and areas of improvement in past or current
+projects. It also included providing mentorship to junior-level collaborative biostatisticians or receiving mentorship from senior members of the
+unit through activities such as meeting biweekly to discuss challenges on ongoing projects, how to effectively manage one's time across many
+active projects, overall goals and career trajectory, and so forth. Mentorship was also mentioned in a more informal capacity, such as stopping into
+a colleague's office to ask questions or chat about work-related issues as needed. Participants also mentioned technology management as an
+administrative task that is accomplished through time allocated to flexible funding, which includes tasks such as adding code to GitHub or the
+unit's R repository to improve efficiency for a future project. Finally, as part of administrative tasks, participants also mentioned attending regular
+meetings for the collaborative biostatistics unit (1 h per week, required), the larger department (1 h per month, required) or the college (30 min
+every other week, not required).
+The second subcategory that emerged within the theme of internal and operational activities is professional development. Participants were
+involved in a wide range of different professional development activities tailored to their individual needs and interests. These spanned activities
+such as attending on-campus or virtual workshops and seminars, enrolling in formal courses, and self-study. A third subcategory of ‘unit initia
+tives’ also emerged within the theme of internal and operational activities. Unit initiatives are closely related to professional development, distin
+guished only by the group-based nature of unit initiatives as opposed to the individual nature of the aforementioned professional development
+4 of 8 SLADE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+activities. Within the Biostat CIRCL, unit initiatives include activities such as journal club (monthly intra-unit discussion of a manuscript of
+interest), code review (biweekly intra-unit meeting to troubleshoot and demonstrate new R or SAS code) and working groups (ad hoc meetings to
+discuss research areas of interest, such as structural equation modelling).
+Mirroring the theme of internal and operational activities, external and engagement activities also emerged as a theme for types of flexi
+ble funding activities that participants have engaged in (Figure 2). External and engagement activities included two subcategories: (1) research
+and (2) research community engagement. The research subcategory contained activities such as consulting or working on short-term projects,
+that is, those that are not linked to a long-term funding source such as a grant or contract. It also included personal research initiatives, such
+as performing one's own methods development or assisting as needed on collaborative projects led by another biostatistician in the unit.
+The second subcategory within the theme of external and engagement activities was research community engagement. Research community
+engagement included activities such as attending regional and national conferences, networking across the campus community and in
+national professional organizations, hosting workshops and seminars for the campus community, and giving invited lectures for external
+entities.
+3.2 | Team culture and dynamics
+A major theme that emerged from the interviews was the relationship between flexible funding and team culture/dynamics. Participants noted
+that flexible funding allows for activities to take place that strengthen connections between collaborative biostatisticians within the unit, rather
+than each collaborative biostatistician having time only for their own separate research projects. One participant mentioned that ‘[flexible
+funding] actually contributes to the culture of the team to turn it into what I would call a true team. It's not just a loose confederation of people
+who happen to be in the same place at the same time doing the same thing’.
+F I G U R E 2 Participant-reported activities undertaken as part of time allocated to flexible funding. Activities undertaken by participants as part of time allocated to flexible funding were categorized into two major themes of ‘internal and operational’ activities and ‘external and engagement’ activities. Each of these themes is divided into several subcategories demonstrating the variety of activities that participants engaged in as part of flexible funding.
+SLADE ET AL. 5 of 8
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Several participants spoke on how activities accomplished during time allocated to flexible funding, such as mentorship, have helped bridge
+connections between those working in-person and those working in remote positions. Referring to a working group established between one
+in-person employee and one remote employee, one participant noted, ‘Even though [name redacted] is virtual, I'm in person, we're still able to
+connect on that. And that is super helpful, particularly in that hybrid format. ... Whether we know it or not, it does promote that kind of like initia
+tive and dynamics, which is super good.’ Another participant mentioned, ‘Even though I'm not there [remote], I do still feel part of the team and
+everything. I think we have a good team dynamic where everyone's always willing to help or throw their hat in the ring for something.’ This quote
+also speaks to the value of flexible funding for unit members to help another collaborative biostatistician on a project that they are not personally
+funded on. Overall, participants noted that flexible funding led to many opportunities for team-oriented problem-solving and community building
+within the collaborative biostatistics unit.
+3.3 | Impact and benefits of flexible funding
+When asked to speak about the impact and benefits of flexible funding, participants' responses revealed themes related to professional develop
+ment, work–life balance, and productivity. With respect to professional development, one early-career participant noted, ‘Kind of thinking
+introspectively that I'm young, and so being able to build my CV like that while I'm still working ... has allowed me to grow in my position and be
+confident in my field and what I'm working on.’ Participants also mentioned that having allocated time and encouragement to take advantage of
+professional development opportunities was linked to job satisfaction and retention. As summarized by one participant, ‘We do work, but we're
+not exclusively workers. We like to grow. And so with that, the flex time allows us to grow, not just as workers, but also as professionals. Which is
+an incredible, unique aspect that we're able to grow rather than just being in a stagnant position. Which I think helps with that issue that we see
+with retention of people who just kind of get bored in these jobs.’
+Several participants also discussed how flexible funding was linked to their work–life balance and general productivity. One mentioned
+that without flexible funding ‘... I'd be working 7 days a week’. Another mentioned that ‘[flexible funding] kind of just like rejuvenates me and
+makes me happy to come to work. And then, ... the happier you are at work generally translates to the other aspects of your life’. Concerning
+productivity during the workday, multiple participants mentioned that having time to decompress when transitioning between projects (referred
+to as ‘project reflection’ in Figure 2) or being able to break up a long day of coding with an activity such as attending a seminar has made them
+more efficient overall in their project-related work.
+3.4 | Challenges related to flexible funding
+When asked about existing challenges or improvements that could be made, participants indicated that encountering problems related to how
+they engage in flexible funding activities was rare. One participant commented on the occasional inconsistency in the available time in a given
+week relative to specific project-related tasks like grant proposals or abstract submissions; another cited difficulty in deciding the optimal way to
+prioritize their flexible funding activities.
+Overall, participants shared that potential challenges were typically avoided by (1) having autonomy in decisions about what to do with their
+time allocated to flexible funding and (2) having an established culture within the unit around the value of professional development. When
+thinking about challenges that may exist for other units to implement the proposed flexible funding model, one participant explained that it might
+be challenging to ‘convince folks that it [flexible funding] is a valuable thing. I would imagine at a lot of institutions that would be a very hard sell.
+At ours, I think the value is evident, and I think that people are seeing that’.
+4 | DISCUSSION
+This paper details a proposed model for flexible funding within a collaborative biostatistics unit and highlights the benefits of implementing such a
+model. Activities undertaken during time allocated to a flexible funding source can create an enjoyable, dynamic, and cooperative work environ
+ment within a collaborative biostatistics unit. In addition to creating a sense of community through mentorship, team-oriented problem solving,
+and working together on unit initiatives, flexible funding also provides time for collaborative biostatisticians to pursue opportunities that interest
+them and promote their desired career trajectory, which can lead to increased job satisfaction and thus retention within the unit.
+The perspectives represented in the qualitative study are from staff collaborative biostatisticians who are not responsible for unit administra
+tion or leadership. As such, challenges related to implementing the proposed flexible funding model from an administrative and financial
+standpoint are somewhat underappreciated in the qualitative study results. As detailed in Figure 1, the amount of flexible funding required to
+implement the proposed model within a collaborative biostatistics unit grows with the number of biostatisticians in the unit; for this reason, the
+6 of 8 SLADE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+total amount of flexible funding needed for the unit could be quite large. Because activities performed as part of flexible funding are not linked to
+specific collaborative research projects, we recommend that institutional-level funds be used to support flexible funding time. If the collaborative
+biostatistics unit has not previously been supported by any institutional-level funding, it can be challenging to advocate for it. For leaders of col
+laborative biostatistics units who are seeking institutional-level flexible funding, it may be especially beneficial to focus their advocacy on the
+impact of flexible funding on the retention of collaborative biostatistics staff, sustainability of the hiring cycle (as demonstrated in Figure 1),
+improved productivity on projects, and increased national recognition (e.g., through activities such as networking in professional organizations).
+An additional outcome of employing a flexible funding model to support a collaborative biostatistics unit is the ability to hire and continually
+support administrative staff, such as a research project manager or unit administrative assistant. Under this funding structure, such a position
+would be financially structured similarly to those of the biostatisticians, could be maintained irrespective of any single grant or contract, and would
+not be split between several different exclusive funding sources, but rather supported by the unit.
+We also encourage unit leadership to develop a mechanism for documenting the activities undertaken as part of time allocated to flexible
+funding. While some activities are expected to be mundane (such as time spent attending regular administrative meetings), oftentimes, the activities
+undertaken as part of flexible funding time do result in impressive outcomes that can be used to advocate for a continued source of flexible funds for
+the unit (activities such as improving reproducibility in the unit's workflow or developing and presenting a new method at a national conference). If it
+is not possible to obtain flexible funding at the institutional level, we recommend that leaders of collaborative biostatistics units consider whether flex
+ible time could be incorporated into existing project-based contracts or establish retainer contracts or MOUs with collaborating academic units. While
+oftentimes difficult for grant-funded projects, it may be possible to incorporate flexible time into long-term contracts that provide funding for the col
+laborative biostatistics unit from a research group that is internal to the institution (such as an individual department), as described by Desai et al.
+(2022). For collaborative biostatistics units funded largely by these internal contracts, the benefits of flexible time may be achieved through this route.
+While the fiscal efficiency of internal, centralized biostatistics units is not novel (Parker, 2000), nor are the limitations of traditional
+fee-for-service or percent-effort models (Perkins et al., 2016), flexible funding models are far less widely used and understood, limiting the degree
+to which we can compare this model to others. However, Parker (2000) describes the value of a centralized biostatistics consulting unit supported
+by several long-term grants to provide approximately $6 of value added per dollar spent. Further, Perkins et al. (2016) describe a funding model
+structured around collaborating academic units or broad institutional support to carry many of the same benefits to biostatisticians and external
+collaborators as other long-term percent-effort arrangements. We expect that these benefits—including the financial efficiencies of internal,
+centralized biostatistics units—are entirely applicable in the proposed flexible funding model.
+In addition to providing information for leaders of collaborative biostatistics units, the results of this study may also be useful to those
+searching for jobs within collaborative biostatistics units at universities or academic medical centres. Funding models have a major impact on
+day-to-day expectations and autonomy within an academic collaborative biostatistics position, and this autonomy (or lack thereof) may greatly
+impact one's job satisfaction and ability to progress in their career. We recommend that those interviewing for an academic collaborative
+biostatistics position inquire about the funding model of their potential position and whether it offers dedicated time for administrative tasks,
+professional development, networking, and so forth.
+We acknowledge that there is not a one-size-fits-all funding model for collaborative biostatistics units in universities and academic medical
+centres. Collaborative biostatistics units vary in size, structure, workload, mission, and available funding sources, all of which could impact the
+implementation of a flexible funding model. However, the proposed flexible funding approach has the capacity to be tailored to an individual unit's
+needs and constraints while still providing the many benefits detailed in this paper. In our experience, the success of implementing a flexible
+funding model depends primarily on two factors: (1) gaining support, fiscal and otherwise, from institutional leadership and (2) developing a
+culture within the unit that empowers collaborative biostatisticians to take advantage of flexible funding time through activities that support their
+professional growth or improve the operations of the unit. Ultimately, the increase in demand for biostatistics consulting and collaboration at
+universities and academic medical centres further supports the discussion of continuous funding models for collaborative biostatisticians.
+Evaluation and reassessment of a collaborative biostatistics unit's current funding structure(s) could identify strategic focus areas to promote
+sustainable funding models while accounting for the unit's current and future organization, resources, and efforts.
+AUTHOR CONTRIBUTIONS
+Emily Slade: Conceptualization; writing – original draft. Sarah Jane K. Robbins: Data collection; analysis; writing – review and editing. Kristen J.
+McQuerry: Data collection; writing – review and editing. Anthony A. Mangino: Data collection; analysis; writing – review and editing.
+CONFLICT OF INTEREST STATEMENT
+None to report.
+DATA AVAILABILITY STATEMENT
+No quantitative data were generated for this manuscript. Qualitative data (i.e., interview recordings and transcripts) are not publicly available to
+protect the privacy of research participants.
+SLADE ET AL. 7 of 8
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+ORCID
+Emily Slade https://orcid.org/0000-0002-1654-3822
+Sarah Jane K. Robbins https://orcid.org/0000-0003-3625-5374
+Kristen J. McQuerry https://orcid.org/0000-0002-0130-4335
+Anthony A. Mangino https://orcid.org/0000-0002-2699-9989
+REFERENCES
+Bingham, A. J., & Witkowsky, P. (2022). Deductive and inductive approaches to qualitative data analysis. In C. Vanover, P. Mihas, & J. Saldaña (Eds.), Analyzing and interpreting qualitative data: After the interview (pp. 133–146). SAGE Publications.
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 77–101. https://doi.org/10.1191/ 1478088706qp063oa
+Creswell, J. W. (2014). Research design: Qualitative, quantitative, and mixed methods approaches (4th ed.). SAGE Publications.
+Desai, M., Boulos, M., Pomann, G. M., Steinberg, G. K., Longo, F. M., Leonard, M., Montine, T., Blomkalns, A. L., & Harrington, R. A. (2022). Establishing a data science unit in an academic medical center: An illustrative model. Academic Medicine, 97(1), 69–75. https://doi.org/10.1097/ACM. 0000000000004079 Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., Welty, L. J., & Pomann, G. M. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat, 11(1), e521. https://doi.org/10. 1002/sta4.521 Harris, P. A., Taylor, R., Thielke, R., Payne, J., Gonzalez, N., & Conde, J. G. (2009). Research electronic data capture (REDCap)—A metadata-driven methodology and workflow process for providing translational research informatics support. Journal of Biomedical Informatics, 42(2), 377–381. https://doi.org/ 10.1016/j.jbi.2008.08.010 Parker, R. A. (2000). Estimating the value of an internal biostatistical consulting service. Statistics in Medicine, 19(16), 2131–2145. https://doi.org/10.1002/ 1097-0258(20000830)19:16<2131::AID-SIM510>3.0.CO;2-N Perkins, S. M., Bacchetti, P., Davey, C. S., Lindsell, C. J., Mazumdar, M., Oster, R. A., Peduzzi, P. N., Rocke, D. M., Rudser, K. D., & Kim, M. (2016). Best practices for biostatistical consultation and collaboration in academic health centers. The American Statistician, 70(2), 187–194. https://doi.org/10. 1080/00031305.2015.1077727 Taylor, S. L., Podolsky, R. H., Montez-Rath, M. E., & Slade, E. (2023). Building a strong collaborative biostatistics workforce: Strategies for effective intra-unit professional development activities. Journal of Clinical and Translational Science, 7(1), e230. https://doi.org/10.1017/cts.2023.653 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. Jr., Lindsell, C. J., Macaluso, M., Mazumdar, M., Nietert, P. J., Oster, R. A., Pollock, B. H., Roberson, P. K., Ware, J. H., & Biostatistics, Epidemiology, and Research Design Key Function Committee of the Clinical and Translational Science Award Consortium. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine, 88(4), 454–460. https:// doi.org/10.1097/ACM.0b013e31828578ed
+AUTHOR BIOGRAPHIES
+Dr. Emily Slade is an assistant professor at the University of Kentucky and the founder and director of the Biostatistics Consulting and Inter
+disciplinary Research Collaboration Lab (Biostat CIRCL). Her research focuses on effective training and integration of biostatisticians on bio
+medical research teams.
+Sarah Jane K. Robbins is a biostatistician in the Biostatistics Consulting and Interdisciplinary Research Collaboration Lab (Biostat CIRCL) at
+the University of Kentucky. She is a member of several interdisciplinary research teams across the university's campus.
+Kristen J. McQuerry is an associate professor of Biostatistics and member of the Biostatistics Consulting and Interdisciplinary Research Col
+laboration Lab (Biostat CIRCL) at the University of Kentucky. Her research focuses on developing the next generation for biostatisticians
+through community outreach.
+Anthony A. Mangino is a biomedical data scientist in the Biostatistics Consulting and Interdisciplinary Research Collaboration Lab (Biostat
+CIRCL) at the University of Kentucky. He collaborates with numerous research teams across campus and studies methods for using generative
+models to improve conventional analytic frameworks.
+How to cite this article: Slade, E., Robbins, S. J. K., McQuerry, K. J., & Mangino, A. A. (2024). The value of flexible funding for collaborative
+biostatistics units in universities and academic medical centres. Stat, 13(2), e679. https://doi.org/10.1002/sta4.679
+8 of 8 SLADE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.679 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

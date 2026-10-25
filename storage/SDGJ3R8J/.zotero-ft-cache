@@ -1,0 +1,320 @@
+ORIGINAL ARTICLE
+A comparative analysis of contractual risks in statistical
+consulting
+David Shilane 1 | Nicole L. Lorenzetti 2 | David K. Kreutter 1
+1Program in Applied Analytics, School of Professional Studies, Columbia University, New York, New York, USA
+2School of Education, City College of New York, City University of New York, New York, New York, USA
+Correspondence
+David Shilane, School of Professional Studies, Columbia University, 203 Lewisohn Hall, 2970 Broadway, MC 4119, New York, NY 10027, USA. Email: david.shilane@columbia.edu
+This study enumerates and compares the risks and rewards of different forms of sta
+tistical consulting contracts. We assess three different contract models: project
+based fees, hourly fees, and retainer agreements and three different planned dura
+tions: project-based, time-based, and evergreen contracts. The requirements of time
+and effort vary considerably for many aspects of consulting work. The risks of statis
+tical consulting contracts include both the general risks of consulting projects along
+with the specialized risks of statistical investigations. We enumerate a number of
+general risks in the categories of unanticipated developments, revisions and collabo
+ration, and changing scopes of projects. Meanwhile, the specialized statistical risks
+include issues of study design, data quality, statistical investigation, and communica
+tion of statistical issues. Because of these concerns, the specialized risks of statistical
+investigations add considerably to the general risks of consulting projects. Moreover,
+these issues can be exacerbated or mitigated by the form of the consulting agree
+ment. With a greater understanding of the risks and benefits of each type of contract,
+statistical consultants and clients can negotiate more mutually beneficial contracts
+for either or both parties. Through this discussion, we hope to raise awareness of
+these issues and help to create working conditions with a greater likelihood of a suc
+cessful project for both statistical consultants and their clients.
+KEYWORDS
+contracts, contractual risks, statistical consulting
+1 | INTRODUCTION
+Statistical consulting projects can be characterized both in terms of their scientific investigations and working agreements. An independent statis
+tical consultant collaborates with a client (an individual, group, or organization) based upon a contract that enumerates the responsibilities of each
+party (Bristol et al., 2020). These contracts may take many forms, with considerable variation in the duration, method of billing, and conditions
+that compose the working agreement (Zahn & Isenberg, 1983). Once a contract is executed, its terms may be considered definite and complete
+(White, 1958). Contracts typically require good faith performance from each party to meet the terms of the contract (Barnett & Oman, 2021).
+However, mistakes in contracts may occur, with the possibility for either or both parties to not fully account for the potential circumstances that
+may arise (White, 1958). In these circumstances, it can be difficult to meet the terms of a contract with the allotted resources (Chatfield, 1995).
+Consulting contracts are common in many fields. However, statistical consulting is quite specialized. The risks and rewards of statistical con
+sulting contracts may not be fully understood by clients or consultants when forming a working agreement. The duration, financial considerations,
+and potential for unanticipated issues may differ from other kinds of consulting contracts. This investigation will provide a comparative analysis of
+the common forms of statistical consulting contracts. We will also enumerate a range of potential risks, both general and specialized, that are
+Received: 14 August 2023 Revised: 6 October 2023 Accepted: 27 October 2023
+DOI: 10.1002/sta4.639
+Stat. 2023;12:e639. wileyonlinelibrary.com/journal/sta4 © 2023 John Wiley & Sons, Ltd. 1 of 7 https://doi.org/10.1002/sta4.639
+
+
+associated with statistical consulting projects. In doing so, we seek to provide information that can benefit both statistical consultants and clients
+as they consider how to develop their working relationships and agreements.
+The research literature on statistical consulting is still developing. The existing materials focus considerably on applications and training statis
+ticians in the collaborative skills of consulting (e.g., Bristol et al., 2020; Cabrera & McDougall, 2002). By contrast, relatively little information about
+the contracting process in statistical consulting has been published. These contracts can greatly influence the resources available to the consultant
+as the investigation is developed. The terms of the contract can also impact the working relationship between the client and the consultant. A
+2006 survey of members of the Statistical Consulting Section of the American Statistical Association found that statistical consultants who
+responded to the survey spent anywhere from zero to 2 % of their time on financial aspects of statistical consulting, which encompasses contracts
+(Gullion & Berman, 2006). While this is not a considerable amount of time spent on contracts themselves, contracts are the basis of work done
+for independent consultants who are self-employed. In fact, the survey found that far more self-employed consultants worked on their contracts
+for services than did those working for contract-based, salaried consulting firms (Gullion & Berman, 2006). Meanwhile, clients may also lack
+knowledge about statistical consulting services and the capabilities of a specific consultant (Svensson, 2000). To that end, there is a need for guid
+ance on statistical contract types and selecting appropriate working agreements for the circumstances of a consulting engagement.
+The remainder of this paper is structured as follows: Section 2 discusses several common financial structures for consulting contracts.
+Section 3 compares a number of approaches to select the duration of statistical consulting contracts. Section 4 provides a discussion of the gen
+eral risks of consulting contracts for clients and consultants. Section 5 enumerates the specialized risks associated with statistical investigations
+and their associated risks for statistical consulting contracts. Section 6 concludes the paper with a discussion about the choices that clients and
+consultants can make to create more mutually beneficial working arrangements.
+2 | FINANCIAL CONSIDERATIONS OF CONSULTING CONTRACTS
+Fundamentally, a statistical consultant offers labor and expertise to a client in exchange for a defined benefit. This may be financial in nature, such
+as an honorarium or hourly fee. Benefits of other forms (e.g., co-authorship on a research publication, referrals to other potential clients, or equity
+in a corporation) may be offered by the client as a substitute for or supplement to a financial fee (Cabrera & McDougall, 2002). Here we will focus
+on wages as the primary contribution of a client to a consultant. The contract may specify that the fees will be paid to the consultant in a variety
+of forms:
+1. Project-based contracting: A defined and pre-determined benefit will be provided to the consultant in exchange for completion of the project's
+aims.
+2. Time-based contracting: The consultant receives a negotiated benefit for each unit of time (e.g., hour or day) dedicated to their work on the
+project.
+3. Retainer contracting: The consultant is paid a defined benefit for each period of time (e.g., per week or month), regardless of how much work
+is performed on the project.
+Table 1 provides sample language for each type of consulting contract. Table 2 summarizes the three types of contracts and the definition
+features of those contracts, discussed in detail in this paper. These different forms of billing all have associated benefits and risks. Project-based
+contracting provides certainty in the requirements to both the client and the consultant. When billing for the project, the consultant has a financial
+incentive to complete the project quickly, and both the client and the consultant benefit from rapid completion. The client can implement the
+insights and realize the value more quickly. Meanwhile, the consultant can earn a higher effective hourly rate relative to time-based billing if
+the project can be completed more efficiently. Importantly, the client and consultant may not have equal estimates of the required effort for the
+agreed scope of work, or equal views of the risks and rewards in this circumstance. This may allow for the consultant to benefit without a com
+mensurate downside for the client. However, the client may not necessarily agree to these terms. Furthermore, project-based billing has its own
+T A B L E 1 Contract types and sample language.
+Type Sample language
+Project-based The consultant will be paid x dollars to complete the project as defined by the scope of work. 50% of the total payment will be provided after Milestones 1–3 are complete. The remainder of the total payment will be provided after all items in the Milestones are complete.
+Time-based The consultant will be paid y dollars per hour for work performed aligned with the project as defined by the scope of work. The consultant will send invoices every 2 weeks.
+Retainer The consultant will be paid z dollars per month for work aligned with the project as defined by the scope of work. The consultant will send monthly invoices.
+2 of 7 SHILANE ET AL.
+20491573, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.639 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+risks. If the consultant underestimates the amount of work required to complete the project, then the effective hourly fee could be significantly
+reduced (Ittenbach & DeAngelis, 2012). The consultant would be responsible for the burden of additional labor without financial remuneration.
+Ethical issues may arise if either party can gain an unreasonable advantage, in wages or labor, from these terms. For both clients and consultants,
+a clear understanding of the scope of work and agreement on the terms is critical to the success of project-based contracting (Peterson
+et al., 2022).
+Time-based billing has alternative risks. A consulting project may considerably exceed or fall well below the estimated number of hours dis
+cussed in the contracting phase. In these circumstances, the client may take on far greater costs than anticipated, or the consultant may not earn
+as much as expected. Time-based billing can incentivize a consultant to spend more time on a project, especially when alternative projects are not
+readily available (Clark et al., 2019). This may not be the most efficient way to complete the statistical investigation. Billing for additional hours
+may also harm the working relationship if the client becomes concerned about the associated expenses (Clark et al., 2019). Ethical issues may also
+arise when the financial incentives for additional billing do not serve the client's interest in terms of the additional work that is developed. Time
+based billing also creates asymmetric incentives in terms of the responsibility for generating opportunities for billable work. If there is little or no
+work to be done for a period of time, the consultant loses the opportunity to earn money, while the client only incurs costs when the need for sta
+tistical consulting arises.
+Retainer fees provide certainty in costs and wages for a period of time. In this respect, consulting contracts based on retainer fees are more
+similar to a salaried job (part-time or full-time) than to project-based or time-based consulting contracts. Relative to time-based billing, a client
+who pays a retainer fee has a greater incentive to make requests and create projects for a consultant (Clark et al., 2019). Otherwise, the consul
+tant will be paid without the requirement to provide support. However, the client's requests may greatly exceed the expectations of the
+consultant in terms of the time required. Within a retainer agreement, an increasing volume of demands from the client without additional finan
+cial reward may create a burden for the consultant (Clark et al., 2019). Meanwhile, the client may be less aware of the adverse consequences that
+excessive requests may create. Many of these risks invert the corresponding concerns of project-based consulting agreements.
+Many variations of these basic fee structures are possible. Project-based billing may provide contingencies for additional payments if a maxi
+mum number of hours is exceeded. Time-based billing may include a defined minimum or maximum number of hours. Contracts based on retainer
+fees might include clauses to ensure the consultant's availability for a minimum amount of time during the contracting period. Many contracts
+may use combinations of these forms, such as paying a retainer fee for a defined period of time plus an hourly rate when additional work is
+needed. Some clients or consultants may view the agreed terms as strict requirements, with norms of careful accounting for the work performed
+and the time utilized. Other working relationships may be more flexible so long as both parties agree on the billing practices.
+3 | THE DURATION OF CONSULTING CONTRACTS
+Consulting contracts can also define the length of time allotted for the collaboration. Some possibilities include:
+1. Project-based duration: The contract lasts as long as is required to complete the project.
+2. Time-based duration: The contract defines a fixed time period in which the consulting project may be performed.
+3. Evergreen contracts: The contract creates an ongoing working relationship between the client and the consultant.
+Sample language for specifying the duration of a contract is provided in Table 3.
+While project-based contracts create certainty in the fees, both the client and the consultant face uncertainty in the length of time that will
+be required to complete the work. Time-based durations may provide clear starting and ending dates. This can be helpful for a client who might
+launch a product on a planned timeline or a consultant who may pursue other commitments after the contracted period of time (Ittenbach &
+T A B L E 2 Contract types and descriptions.
+Project-based Time-based Retainer
+Basis for contract Scope Scope and time Time
+Uncertainty for client
+Clarity of scope Amount of time required to complete scope of work
+Sufficient projects to warrant a retainer
+Uncertainty for consultant
+Amount of time required to complete the project
+Changes to scope of work Workload during retained period
+Benefits for client Chance of faster implementation of results
+Good for short-term, transactional needs
+Certainty of base costs; incentives to make requests
+Benefits for consultant
+Possibility of earning a higher effective hourly rate
+Incentive to spend time on a project Certainty of base wages
+SHILANE ET AL. 3 of 7
+20491573, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.639 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+DeAngelis, 2012). However, these limitations may impact the project in other ways. Fixed deadlines may be challenging to meet if a project is del
+ayed or the scope of the work changes during the period of development. The end of a project or time period also creates uncertainty for a con
+sultant. A planned end to the project may lead to a period of reduced utilization for the consultant if other opportunities are not available. Even if
+the current client intends to collaborate with the consultant again, there may be an unpaid gap between the two projects. By contrast, evergreen
+contracts allow clients and consultants to work together over a longer period of time without the requirement of negotiating new agreements
+(Guriev & Kvasov, 2005). This reduces the risks of gaps and creates an expectation of an ongoing working relationship. The consultant may still
+encounter gaps in between projects, but new work can be initiated with fewer procedural barriers.
+4 | GENERAL RISKS OF STATISTICAL CONSULTING CONTRACTS
+Statistical consulting shares a number of common elements with other forms of consulting. Collaborations between clients and statistical consul
+tants have a number of risks that are more general to consulting work. Some of these issues may include (A) unanticipated developments in the
+project or working relationship, (B) issues related to the degree of revision and collaboration required to complete the project in a satisfactory
+manner, and (C) issues pertaining to changing scopes as a consulting project develops. For each of these categories, we provide examples of gen
+eral consulting risks below:
+Category A: Unanticipated developments
+1. The project encounters delays due to factors outside of at least one party's control. For instance, the client's organization could face turnover,
+with departures from some of the project's contributors.
+2. Materials or information provided by the client do not match the requirements of the project or may be unreliable. This may lead to delays and
+additional work to clarify the issues at different stages of the project.
+3. The consultant may have difficulty completing some of the project's goals in a timely fashion.
+4. A missed or late payment from a client may delay further developments from the consultant.
+Category B: Revisions and collaboration
+5. The client's goals for the project were not clearly articulated at the time of the agreement.
+6. Revisions are required to address mistakes in the methods or analyses or to clarify misunderstandings about the investigation between the cli
+ent and the consultant (Svensson, 2000).
+7. New questions within the project's scope arise based upon a review of the preliminary exploration or results.
+8. Portions of the work (e.g., writing a report) require more rounds of revision than what was anticipated.
+9. Discussions may be expanded to include a wider range of participants within the client's organization (Tolulope, 2022).
+10. The client and consultant may have different expectations about the manner in which the project's results are presented or the type of mate
+rials that will be produced.
+Category C: Changing scopes of projects
+11. The client requests additional investigations or outputs that were not part of the project's original scope.
+12. The consultant offers to perform additional work that was not part of the project's original scope.
+13. There may be disagreements between the client and the consultant about whether aspects of the investigation fit within the project's original
+scope.
+T A B L E 3 Duration of contract and sample language.
+Duration Sample language
+Project-based The working relationship between the consultant and the client will begin when this contract is signed by both parties. The working relationship between the consultant and the client will end when all Milestones in the scope of work are complete and the consultant has received the total payment.
+Time-based The working relationship between the consultant and the client will begin at the later of 1 January 2024 or the date at which this contract is signed by both parties. The working relationship between the consultant and the client will end at the end of 31 December 2024.
+Evergreen The working relationship between the consultant and the client will begin when this contract is signed by both parties. Additional work may be requested and agreed to by the parties in an ongoing way, subject to the terms of billing. Either the consultant or the client may end the contract by providing 2 weeks of notice.
+4 of 7 SHILANE ET AL.
+20491573, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.639 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+14. The nature, frequency, and intensity of the working relationship between the client and the consultant may change during the course of the
+project.
+15. The client and consultant may decide to start other projects in parallel to the current one.
+For Category A, many projects arise as the initial or sole collaboration between a consultant and a client. In these circumstances, the working
+practices and professionalism of each party may not be well understood when the working agreement is formed. Delays, misunderstandings, and
+changing circumstances can all impact the ability of the consultant to begin and complete their work in a timely manner.
+For Category B, consulting projects are often developed through an iterative process of investigation and revision based on the consultant's
+developments and the client's feedback and suggestions. While some projects have highly defined aims, others are more exploratory in nature.
+The number and frequency of revisions, along with the required labor, may not be easy to estimate in advance. Clients and consultants may also
+have differing expectations about the costs and value of revisions.
+For Category C, it is common for new questions to arise during the course of a consulting project. Additional work could be suggested by
+either a client or a consultant, and some of that work may fall outside of the scope of the contract. Whether these additional issues will be
+addressed and whether that work will be compensated become matters of negotiation between the parties.
+The scope of consulting projects can change or expand as a project develops. Project-based billing and retainer fee models are vulnerable to
+changing scopes because the additional work will not be compensated. Hourly billing addresses the financial risks of changing scopes so long as
+both parties agree about the need for additional labor and resources (Ittenbach & DeAngelis, 2012).
+The financial details of a consulting contract play an important role in mitigating the numerous and varied risks associated with consulting
+projects. While there may be many issues and causes, the consequences of these risks typically materialize in terms of the required labor, the time
+to completion, compensation, and any associated stress or burdens with doing the work.
+5 | SPECIALIZED RISKS IN STATISTICAL CONSULTING
+When viewed in terms of fee structures, the risks and rewards of statistical consulting may not differ significantly from those faced by consultants
+in other domains. However, projects in statistical consulting also entail additional risks that are inherent to statistical analyses. The specific rea
+sons why a project might run over its allotted budget or a client might make seemingly unreasonable requests often stem from misunderstandings
+about the work of a statistical consultant. With this in mind, we will consider the elements of statistical investigations and their relationships to
+the risks in statistical contracts. These issues may arise in the areas of (A) study design, (B) data quality, (C) statistical investigations, or D) commu
+nication of statistical issues. Some examples include:
+Category A: Study design
+1. The client may design the study or gather data prior to seeking statistical support, which can create complexities or obstacles for statistical
+analyses.
+2. The study's design may be scientifically or statistically inadequate for addressing the key aims of the investigation.
+3. Clients and consultants may disagree on some important choices about the study's design.
+Category B: Data quality
+4. The data may not measure the key variables for the investigation (Tolulope, 2022), or these values may be measured in an inadequate manner.
+5. Messy data sets may require significant labor to investigate and address the identified issues.
+6. Exploration of the data may reveal more significant issues with data collection practices.
+Category C: Statistical investigation
+7. The investigation may require significant validation, such as sensitivity analyses, to address concerns about the results.
+8. The planned methods may prove to be inappropriate for the analysis based upon information discovered during the investigation, such as con
+cerns about censored data or crossover in treatment groups.
+9. The statistical investigation may lead to a reformulation of the original problem (Chatfield, 1995).
+Category D: Communication of statistical issues
+10. Preliminary feedback might reveal numerous avenues for additional analyses, such as calculations within subgroups of the data or entirely
+new investigations.
+SHILANE ET AL. 5 of 7
+20491573, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.639 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+11. The client may have a skeptical attitude toward statistical analyses. The client may not accept the statistical consultant's recommendations
+based on a distrust of statistical methods. Significant discussions may be necessary to address these concerns.
+12. The client may require significant support in interpreting and utilizing the results of the statistical analyses. This may require follow-up work,
+such as producing new tables or figures.
+Many of these concerns cannot be fully anticipated by either the consultant or the client before a project begins. A statistical consultant may
+not be able to review the investigation's data until a contract has been negotiated. Unexpected issues are common in messy data sets and can
+require significant time to address. Iterative development that incorporates feedback from the client can improve the quality of the investigation,
+but it also introduces variability into the amount of labor and time required to complete the project. The nature of statistical collaborations may
+also vary considerably. A statistical consultant may not adequately estimate the effort that will be required to guide the client. In practice, a statis
+tical consultant may face multiple issues that each expand upon the requirements of developing a successful investigation.
+6 | DISCUSSION
+The risk of a statistical consulting project includes both the general risks of consulting agreements along with the specialized risks of statistical
+investigations. Contracts are designed to create opportunities while mitigating the potential risks (Zahn & Isenberg, 1983). A relatively simple con
+tract may be the most straightforward way to proceed from preliminary discussions to beginning the project, but it may not necessarily serve the
+interests of either the consultant or the client. Some degree of negotiation in the contracting process can help each party reach a stronger agree
+ment. At the same time, a tense negotiation can create its own obstacles to an effective collaboration and the ultimate success of the project.
+Statistical consultants have the opportunity to develop individual approaches to collaborating with clients depending on the type and length
+of the contract. For example, time-based contracting might be suited for more short-term, transactional working relationships. Project-based bill
+ing may be helpful for short-term or medium-term needs (Cabrera & McDougall, 2002). Longer-term relationships might be better served by
+retainer-based contracts (Shippey, 2003).
+No single style of contract will address the needs of every consultant, client, or project. However, this analysis of the risks and benefits of dif
+fering forms of contracts can provide some situational guidance for statistical consultants and clients. Consultants who seek one-time, shorter
+term projects with clients might consider a project-based fee if they believe they can complete the work quickly. Proposing an hourly rate can be
+helpful for projects with less certainty in the duration. Retainer fees are beneficial for consultants who would like to work with a client for a longer
+period of time, as they allow for some of the certainty in fees of a traditional job.
+Negotiating a minimum number of hours is helpful for time-based contracts, while setting a maximum would be helpful with project-based
+billing and retainer models. A consultant might also consider charging a premium for clients with urgent requests (Bristol et al., 2020) or a history
+of delays in projects. By contrast, clients that offer regular, ongoing work might provide sufficient volume so that a consultant could charge a
+lower hourly rate while still earning a greater volume over time based on increased utilization. Evergreen contracts reduce the barriers to taking
+on additional projects, but project-based or time-based durations may help consultants or clients to ensure a definitive end to the project to pur
+sue other commitments. Combining evergreen contracts with a retainer agreement may be more appropriate for longer-term collaborations, espe
+cially among parties with more developed and mature working relationships. Likewise, working agreements that balance risks and rewards may
+also be suitable for longer term collaborations and partnerships.
+Meanwhile, statistical consultants should consider the inherent risks of statistical analyses as they negotiate contracts. Anticipating the poten
+tial for delays in projects, allotting significant time for data cleaning, and budgeting for additional rounds of revision can create more realistic esti
+mates of the time required for projects. This may also require raising awareness of these potential risks with clients in the contracting process.
+Clients may be wary of an increase in the estimated hours or fees for a project. However, consultants can mitigate these risks in several ways.
+The consulting contract may be split into phases (Tolulope, 2022), allowing for a revised estimate of the hours after some exploration of the data
+is complete. A consultant could also offer a discount on an hourly fee in exchange for a higher guaranteed number of hours of work, creating
+mutual benefits for both parties.
+Any contract is necessarily an approximation of the working relationship between separate entities. What is codified may not encompass the
+full scope of the collaboration. Consulting relationships with a client may also evolve considerably over the course of one or many projects. Work
+ing norms may informally capture the residual differences between the contractual relationship and the true nature of the collaboration. This can
+also create risks for consultants, as the expectations of what can be produced in a project or for a defined period of time might increase without
+commensurate changes in the fees. Offering favors on one project may create unreasonable expectations for ongoing work. A consultant may
+have to work additional unpaid hours to complete a project.
+By understanding the risks and rewards of different models of contracting, a statistical consultant may be able to create improved conditions
+for a working relationship with a client. Negotiating the terms of a contract can lead to collaborations that are less adversarial and more mutually
+beneficial. This will empower statisticians and clients to produce a higher quality of work. It may also create more opportunities for lasting working
+6 of 7 SHILANE ET AL.
+20491573, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.639 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+relationships, providing statisticians with greater opportunities to pursue consulting work and offering clients the benefits of utilizing statistical
+analyses in increasingly diverse and impactful applications.
+AUTHOR CONTRIBUTIONS
+David Shilane: Conceptualization; methodology; literature review; original draft; review and editing. Nicole L. Lorenzetti: Methodology; literature
+review; review and editing. David K. Kreutter: Methodology; review and editing.
+CONFLICT OF INTEREST STATEMENT
+We have no known conflict of interest to disclose.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no new data were created or analyzed in this study.
+ORCID
+David Shilane https://orcid.org/0000-0001-5528-1506
+Nicole L. Lorenzetti https://orcid.org/0000-0001-8381-1471
+David K. Kreutter https://orcid.org/0009-0008-9108-4225
+REFERENCES
+Barnett, R. E., & Oman, N. (2021). Contracts: Cases and doctrine. Wolters Kluwer. Bristol, D., Fultz, N., Greco, E., Kukuyeva, I., Maltenfort, M., Oyenira, O., Stein, S., Toledano, A., & Wolcott, M. I. (2020). A guidebook on starting a statistical consulting business: Considerations for running an independent/small statistical consulting business. Statistical Consulting Section. American Statistical Association. https://community.amstat.org/cnsl/forconsultants/inpriv/guidebook Cabrera, J., & McDougall, A. (2002). Statistical consulting. Springer. https://doi.org/10.1007/978-1-4757-3663-2 Chatfield, C. (1995). Problem solving: A statistician's guide (2nd ed.). Chapman and Hall. https://doi.org/10.1201/b15238 Clark, D., Cohn, A., & Goldsmith, M. (2019). A short guide to pricing your services as a consultant or coach. Harvard Business Review. https://hbr.org/2019/ 08/a-short-guide-to-pricing-your-services-as-a-consultant-or-coach Gullion, C. M., & Berman, N. (2006). What statistical consultants do: Report of a survey. The American Statistician, 60(2), 130–138. https://doi.org/10. 1198/000313006X107559 Guriev, S., & Kvasov, D. (2005). Contracting on time. American Economic Review, 95(5), 1369–1385. https://doi.org/10.1257/000282805775014452 Ittenbach, R. F., & DeAngelis, F. W. (2012). Percent effort vs. fee-for-service: A comparison of models for statistical collaboration. Research Management Review, 19(1), n1.
+Peterson, R. A., Hochheimer, C. J., Grunwald, G. K., Johnson, R. L., Wood, C., & Sammel, M. D. (2022). Reaping what you SOW: Guidelines and strategies for writing scopes of work for statistical consulting. Stat, 11(1), e496. https://doi.org/10.1002/sta4.496
+Shippey, K. C. (2003). A short course in international contracts: Drafting the international sales contract (2nd ed.). World Trade Press. Svensson, R. (2000). Success strategies and knowledge transfer in cross-border consulting operations. Springer. https://doi.org/10.1007/978-1-4615-4385-5 Tolulope, A. F. (2022). Data science and analytics for SMEs. Apress. https://doi.org/10.1007/978-1-4842-8670-8 White, W. R. (1958). Introduction to law, and law of contracts.
+Zahn, D. A., & Isenberg, D. J. (1983). Nonstatistical aspects of statistical consulting. The American Statistician, 37(4a), 297–302.
+AUTHOR BIOGRAPHIES
+David Shilane is a lecturer of Applied Analytics at Columbia University. He has worked as a statistical consultant in independent, corporate,
+and academic settings. His research interests include statistical education, machine learning, public health, statistical consulting, and statistical
+computing.
+Nicole L. Lorenzetti is a doctoral lecturer at the City College of New York’s School of Education. Her research focuses on cognitive biases in
+education settings and school-based experiences of students, teachers, and families at all education levels.
+David K. Kreutter is a senior lecturer of Applied Analytics at Columbia University. His research interests focus on organizational decision mak
+ing and the applications of analytics.
+How to cite this article: Shilane, D., Lorenzetti, N. L., & Kreutter, D. K. (2023). A comparative analysis of contractual risks in statistical
+consulting. Stat, 12(1), e639. https://doi.org/10.1002/sta4.639
+SHILANE ET AL. 7 of 7
+20491573, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.639 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

@@ -1,0 +1,467 @@
+Advancements in Building-to-Grid Interactions: Thermo-Electric Coupling Models of Motor-driven Devices
+Viswanathan Ganesh1 Zhanwei He1 Wangda Zuo1, 2
+1Department of Architectural Engineering, Pennsylvania State University, University Park, PA, USA
+{viswanathan.ganesh,zuh45,wangda.zuo}@psu.edu
+2National Renewable Energy Laboratory, Golden, Colorado, CO
+Abstract
+Building-to-grid (B2G) integration transforms buildings into active components of the electricity grid, enhancing dynamic energy management and optimizing usage to reduce operational costs and carbon emissions. However, existing modeling tools for building and power systems often overlook or oversimplify the interactions between power system dynamics and building dynamics. This paper introduces Modelica-based thermo-electric coupling models for motor-driven devices in buildings, such as pumps and heat pumps. The developed models assess transient oscillations and negative active power in these devices within B2G systems. We compare the proposed models with a base model from the Modelica Building Library that uses a radiator and heat pump to maintain room temperature. The simulation results demonstrate that the motor-driven models effectively capture transient oscillations in current and power when the systems are activated and deactivated. Additionally, the occurrence of negative power when systems turn off is a critical factor in enhancing B2G system stability and energy efficiency. These findings underscore the model’s ability to improve grid support, advancing energy management practices in B2G applications.
+Keywords: Thermo-Electric Coupling, Building-to-Grid (B2G), Heat Pumps, Pumps
+1 Introduction
+In modern engineering applications, the quest for energy efficiency and system reliability is of paramount importance. Systems that integrate pumps, heat pumps, and chillers are critical components in various industrial processes, HVAC (Heating, Ventilation, and Air Conditioning) systems, and renewable energy applications. These systems rely heavily on the interplay between thermal and electrical domains, where thermo-electric coupling plays a vital role in their overall performance and energy management. Thermo-electric coupling involves the interaction between thermal and electrical energy, where changes in thermal conditions can significantly impact the electrical performance of a system and vice versa (Fachini, De Castro, et al. 2022). Understanding these interactions is cru
+cial for optimizing the design, operation, and control of integrated systems. However, the transient effects caused by thermal changes in such coupled systems are not fully understood, posing challenges for engineers and researchers aiming to enhance system reliability and efficiency. The primary objective of this study is to investigate the transient effects on the electrical side due to thermal variations in systems involving pumps, heat pumps, and chillers. This research aims to develop a theoretical model that simulates these effects and to validate this model through a comparative analysis with findings from existing available established simulation models. By doing so, the study seeks to bridge the gap between theoretical predictions and practical observations, providing a more comprehensive understanding of thermo-electric coupling in transient conditions. The rest of the paper is organized as follows: Section 2 provides a literature review and related work, Section 3 describes motor-driven devices such as fans, pumps, and heat pumps. Section 4 introduces the governing equations for modeling induction motors, and Section 5 presents the motor-driven models. The case study and the simulation results are discussed in Sections 6 and 7, respectively. Finally, Section 8 concludes the paper.
+2 Literature Review
+Thermo-electric coupling, in the context of this study, refers to the process of integrating mechanical devices such as pumps, heat pumps, and chillers, which are responsible for thermal performance in buildings with electrical devices like motors. This coupling involves the interaction between the electrical and mechanical parts, where changes in thermal conditions within the mechanical components can significantly impact the electrical performance of the system, and vice versa (Fu, Huang, Vrabie, et al. 2019; Fu, Huang, Liu, et al. 2019). Understanding this interaction is crucial for optimizing the performance and energy efficiency of integrated systems used in HVAC and other industrial applications (Li et al. 2022). Pumps are devices used to move fluids (liquids or gases) by mechanical action. They play a crucial role in various applications, including water supply, air conditioning, refrigeration, and industrial processes. Pumps can be classified into different types, such as centrifugal pumps, which
+136 PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024 OCTOBER 14-16, STORRS, CT, USA 10.3384/ECP207 136 DOI
+
+
+use a rotating impeller to add velocity to the fluid, and positive displacement pumps, which move fluid by trapping a fixed amount and forcing (displacing) it into the discharge pipe (Karassik 2001). Heat pumps transfer thermal energy from a cooler space to a warmer space using mechanical energy, effectively functioning as both a heating and cooling device. They are commonly used in HVAC systems to provide space heating and cooling. The efficiency of heat pumps is significantly influenced by the thermodynamic properties of the working fluid and the design of the system components. Chillers are used to remove heat from a liquid via a vapor-compression or absorption refrigeration cycle. This cooled liquid can then be circulated through a heat exchanger to cool air or equipment. Chillers are essential in industrial cooling processes and large-scale air conditioning systems. The performance of chillers depends on factors such as refrigerant type, system design, and operational conditions. The study of transients in electrical systems, particularly those induced by thermal changes, is critical for ensuring the stability and reliability of integrated systems (Stoecker and Stoecker 1998). Transient phenomena occur due to sudden changes in system conditions, such as load variations, switching operations, or environmental factors. These transients can lead to voltage fluctuations, current surges, and potential system instability (Kundur, Balu, and Lauby 1994). One significant challenge in current research is the use of simplified models that do not fully capture the complexity of thermo-electric interactions. These models often assume steady state conditions and neglect dynamic behaviors, leading to discrepancies between theoretical predictions and real world observations. There is a lack of empirical validation for many theoretical and simulation based studies. Without experimental data to corroborate simulation results, it is difficult to assess the accuracy and reliability of the models used. The application of advanced simulation techniques, such as multi-physics modeling and co-simulation, is limited. These techniques are essential for accurately representing the interactions between thermal and electrical domains, yet their use remains under explored in existing literature.
+3 Motor-driven Devices in Buildings
+Motor-driven devices in buildings, such as fans, pumps, heat pumps, and chillers, are significant electricity consumers. The physical system diagram of a motor-driven device, such as a pump, is illustrated in Figure 1. In this setup, the induction motor acts as the primary power source, providing rotational force to the motor shaft. The motor is directly coupled with the pump, allowing the motor to drive the pump’s shaft. This system efficiently converts electrical energy into mechanical energy, which is then transformed into fluid movement. For modeling purposes, motor-driven devices can be considered as coupling models, consisting of two main components: the induction
+motor and the mechanical device.
+1. Induction Motor: Induction motors are commonly used in building applications. These motors include key sub-components such as coils, magnets, stators, and rotors. The coils and stators, connected to the VFD’s electrical circuit, generate an induced magnetic field. This magnetic field interacts with the rotor to produce electromagnetic torque, causing the rotor to spin at a constant or variable speed (Fachini, Castro, et al. 2023; Fachini, Castro, et al. 2024).
+2. Mechanical Devices: These devices convert the transferred torque into mechanical work. For instance, pumps work by converting the input mechanical energy in the fluid being pumped. In the heat pump or chiller, compressor, which is driven by motor, is transferring heat in desired directions—either for heating or cooling. as it enables the refrigerant to absorb or release heat as needed, allowing the heat pump or chiller to function efficiently.
+Pump
+Pump Shaft
+Physical
+System
+Mechanical Devices
+Induction Motor
+Coupling
+Mechanical Shaft Motor Shaft
+Coupling
+Model
+Motor Shaft
+Induction Motor
+Coupling
+Figure 1. Motor-driven Devices and Coupling Models
+Since the mechanical devices, such as pumps, heat pumps, and chillers are available in the Modelica Building Library (Wetter et al. 2014), the motor model for coupling the mechanical devices should be included. The next section illustrates the governing equations for modeling the induction motor.
+4 Induction Motor Modeling
+The physical components of an induction motor are illustrated in Figure 2. The two main components are the stator and the rotor. The stator, the stationary outer part, receives power and generates a rotating magnetic field. The stator, the stationary outer part, gets the supplied power and generates a rotating magnetic field. The rotor is the rotating part, which is located inside the stator. The magnetic field from the stator induces a current in the rotor, which in turn creates a secondary magnetic field. This secondary field
+137
+DOI 10.3384/ECP207136 OCTOBER 14-16, STORRS, CT, USA PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024
+
+
+interacts with the magnetic field of the stator, resulting in the production of electromagnetic torque.
+End Bell
+Bearing
+Shaft
+Rotor Stator End
+Bell
+Cooling Fan
+Fan Cover
+Figure 2. Physical Components of an Induction Motor
+For modeling the dynamic behaviors of the induction motor, the DQ-axis method (Gol 1993) is employed to formulate the governing equations. This approach simplifies the analysis by transforming the three-phase system into a two-axis (direct and quadrature) coordinate system, decoupling the complex interactions in the induction motor. The D and Q axis equivalent circuits of an induction motor are shown in Figures 3 and 4, respectively. The Daxis and Q-axis circuits employ similar components, arranged differently to represent their respective axes within the synchronous reference frame. These circuits share identical resistances and inductances, presenting consistent properties. The D-axis circuit includes the D-axis stator voltage (uds) and current (ids), stator resistance (Rs) and leakage inductance (Lls), induced voltage (ωψds), D-axis rotor voltage (udr), current (idr), and resistance (Rr), rotor leakage inductance (Llr) and induced voltage ((ωe − ωr)ψdr), and mutual inductance between stator and rotor (Lm).
+−
++
+udr
+idr
+Rr
+−+
+(ωe − ωr)ψqr
+−
++
+uds
+ids Rs
+−+
+ωψqs Lls
+Lm
+Llr
+Stator Circuit Rotor Circuit
+Figure 3. D-axis of the Induction Motor
+The Q-axis circuit similarly includes the Q-axis stator voltage (uqs) and current (iqs), with induced voltage (ωψqs), stator resistance (Rs) and leakage inductance (Lls), Q-axis rotor voltage (uqr), current (iqr), resistance (Rr), and leakage inductance (Llr). The primary governing equations include voltage, flux linkage, rotor speed, electromagnetic torque, and current. The following subsections provide detailed explanations of these equations.
+−
++
+uqr
+iqr
+Rr
+−+
+(ωe − ωr)ψdr
+−
++
+uqs
+iqs Rs
+−+
+ωψds Lls
+Lm
+Llr
+Stator Circuit Rotor Circuit
+Figure 4. Q-axis of the Induction Motor
+4.1 Voltage Equations in DQ-axis
+The equivalent voltage equations for the stator are expressed as follows:
+uds = Rsids + dΨds
+dt + ωΨqs, (1)
+uqs = Rsiqs + dΨqs
+dt + ωΨds, (2)
+where ω is the base electrical frequency [rad/s], Rs is the stator resistance [Ω], uds and uqs are the D and Q axis stator voltages [V], ids and iqs are the D and Q axis stator currents [A], Ψds and Ψqs are the D and Q axis stator flux linkages [Wb]. Similarly, the rotor equivalent voltage equations can be written as:
+udr = Rridr + dΨdr
+dt − (ωe − ωr)Ψqr, (3)
+uqr = Rriqr + dΨqr
+dt + (ωe − ωr)Ψdr, (4)
+where Rr is the rotor resistance [Ω], ωe and ωr are the electrical frequency and rotor angular frequency [rad/s], udr, uqr are the D and Q axis rotor voltages [V], idr, iqr are the D and Q axis rotor currents [A], Ψdr, and Ψqr are the D and Q axis rotor flux linkages [Wb].
+4.2 Flux Equations in DQ-axis
+The next step is to calculate the magnetic flux linkages of the stator and rotor, using the underlying equations:
+Ψds = idsLs + idrLm, (5)
+Ψqs = iqsLs + iqrLm, (6)
+Ψdr = idrLr + idsLm, (7)
+Ψqr = iqrLr + iqsLm, (8)
+where Ls, Lr, and Lm are the stator, rotor, and mutual inductance [H]. The Ls and Lr can be written as:
+Ls = Lls + Lm, (9)
+Lr = Llr + Lm, (10)
+where Lls and Llr are the stator and rotor leakage inductance of the machine [H].
+138 PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024 OCTOBER 14-16, STORRS, CT, USA 10.3384/ECP207136 DOI
+
+
+4.3 Rotor Speed Equation and Electromagnetic Torque
+Since induction motor is an electro-mechanical device, we can formulate the rotor speed based on the torque as
+ωr = P
+2J
+∫
+(Te − Tl) dt, (11)
+where P is the number of poles of induction motor, J is the moment of inertia [kg/m2], Te and Tl are the electromagnetic and load torque [Nm]. The details for calculating the electromagnetic torques is shown as follows:
+Te = 3
+2
+P
+2 Lm(iqsidr − idsiqr) . (12)
+4.4 Current Equations for Stator and Rotor in DQ-axis
+By substituting Equation (5) and Equation (6) into Equation (1) and Equation (2), the stator currents in DQ frames, namely ids and iqs, can be expressed:
+d
+dt ids = 1
+Ls
+[uds − idsRs − Lm
+d
+dt idr + ωeLsiqs+
+ωeLmiqr] and
+(13)
+d
+dt iqs = 1
+Ls
+[uqs − iqsRs − Lm
+d
+dt iqr − ωeLsids−
+ωeLmidr] .
+(14)
+By integrating the Equation (13) and Equation (14), the ids and iqs are expressed as:
+ids =
+∫1
+Ls
+[uds − idsRs − Lm
+d
+dt idr + ωeLsiqs+
+ωeLmiqr] dt and
+(15)
+iqs =
+∫1
+Ls
+[uqs − iqsRs − Lm
+d
+dt iqr − ωeLsids−
+ωeLmidr] dt .
+(16)
+Similarly, when the flux expressions are replaced in the voltage equations, the rotor currents idr and iqr can be written as:
+d
+dt idr = 1
+Lr
+[udr − idrRr − Lm
+d
+dt ids + ωeLriqr+
+ωeLmiqs] and
+(17)
+d
+dt iqr = 1
+Lr
+[uqr − iqrRr − Lm
+d
+dt iqs − ωeLridr−
+ωeLmids] .
+(18)
+After integration, they are described by Equations (19) and (20):
+idr =
+∫1
+Lr
+[udr − idrRr − Lm
+d
+dt ids + ωeLriqr+
+ωeLmiqs] dt and
+(19)
+iqr =
+∫1
+Lr
+[uqr − iqrRr − Lm
+d
+dt iqs − ωeLridr−
+ωeLmids] dt .
+(20)
+5 Motor-driven Models
+This paper studies two motor-driven models: the motordriven heat pump and the motor-driven pump. The induction motor model is coupled with a heat pump or pump model available in the Modelica Building Library. Specifically, the path for the heat pump model in the library is Buildings.Fluid.HeatPumps.Carnot_y, and the path for the pump model is Buildings.Fluid.Movers.SpeedControlled_y. Figure 5 presents that the motor-driven heat pump is equipped with an electrical interface to which the induction motor model connects at the electrical terminal. Additionally, the motor is mechanically coupled with the heat pump, referred to as the mechanical interface. Similarly, Figure 6 shows
+Figure 5. Motor-driven Heat Pump
+the coupling of the induction motor model with the pump model in the motor-driven pump. The motor, representing the electrical interface, connects to the electrical terminal. This connection provides detailed insights into the real-time power consumption, current, and other electrical domain information. Also, the mechanical coupling of the motor to the pump allows for a more realistic representation of the pump operation. Based on the devel
+Figure 6. Motor-driven Pump
+oped motor-driven heat pump and pump, a case study has been conducted to demonstrate how motor-driven models can reveal more detailed insight into the electrical domain information and more realistic interactions between the power system.
+139
+DOI 10.3384/ECP207136 OCTOBER 14-16, STORRS, CT, USA PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024
+
+
+6 Case Study
+In this case study, the heat pump and pump supply water to a radiator for heating, aiming to maintain a room temperature of 20 °C. A model is found in the Modelica Building Library, and the path is Buildings.Fluid.HeatPumps.Examples.ScrollWaterToWater_OneRoomRadiator.
+Radiator
+Heat
+Pump
+Pump Pump
+Ambient ...
+G=5...
+...
+Radiator
+T
+K
+Pump
+P ...
+T
+... K
+Heat Pump
+Pump
+P ...
+hyst... not2 not
+boBoR...
+and1 and
+and2 and
+boo...
+BR
+tes...
+tes...
+Source 8.0
+Sink ...
+...
+Weather Bus
+Dry Bulb Temperature
+Room
+Control Logic
+Figure 7. System Schematics and the Modelica Model
+As shown in Figure 7, This system model simulates a single room equipped with a radiator, which is heated by a 24 kW nominal capacity heat pump. The heat pump operates as follows: the source side water, entering the evaporator at a constant temperature of 10°C, is heated to a nominal condenser output temperature of 50 °C for the radiator. The return temperature from the radiator is set at 45°C. The heat pump is set to activate when the room temperature drops below 19°C and deactivate when the temperature exceeds 21°C. The on/off control for both the heat pump and pumps is achieved by the control logic, highlighted by the pink shadow on the right-hand side of Figure 7. This system model can serve as a baseline because it calculates the power consumption of the heat pump and pump based on the heat flow through the condenser and evaporator and the empirical efficiency of the heat pump. The motor-driven heat pump and pump models, depicted in Figures 5 and 6, replace the base models in the system model. Figure 8 details the implementation of these motor-driven models, highlighting the addition of electrical terminals. The following section presents simulation results that compare the performance of the base system model with the version that includes motor-driven models. This comparison specifically focuses on highlighting differences in electrical performance.
+7 Results and Discussions
+7.1 Fluid System
+The primary objective of the system model is to maintain the room temperature and Figure 9 displays simula
+...
+G=50...
+4...
+Radiator
+T
+K
+T
+K
+Heat Pump
+hyster...
+......
+not2 not
+booTo...
+B
+R
+and1 and
+and2
+and
+tesCo...
+......
+tesEv...
+......
+Source 8.0
+Sink 1...
+5...
+Source
+Se3t2P...oint
+Pump
+P
+Q
+Sensor
+m...
+Pump
+P
+Q ...
+VI Pump Monitor
+S
+VI
+Heat Pump Monitor
+S Source
+VI
+Pump Monitor
+S
+Sensor
+m...
+Weather Bus
+Dry Bulb Temperature
+Control Logic
+Room
+Figure 8. Motor-driven Model Implementation
+tion results showing that the room temperature fluctuates between approximately 291K (17.85 °C) and 295K (21.85 °C). Both models have effectively demonstrated their ability to maintain the room temperature.
+0 5 10 15 20 Time [Hour]
+291
+292
+293
+294
+295
+Temperature [K]
+Coupled Model Base Model
+Figure 9. Room Temperature
+The room temperature is maintained by the radiator. The coupled model provides an accurate simulation of room temperature changes, closely aligning with actual observed temperatures. The results for the supply temperature and the return temperature for the radiator are shown in Figure 10 and Figure 11. The radiator supply temperature ranges from about 300K (26.85°C)to 325K (51.85 °C), with the coupled model’s simulations more consistent with observed data, highlighting its capability to track supply temperature variations over time. The return temperature (Figure 11) shows variations between approximately 300K (26.85 °C) and 320K (46.85
+140 PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024 OCTOBER 14-16, STORRS, CT, USA 10.3384/ECP207136 DOI
+
+
+0 5 10 15 20 Time [Hour]
+300
+305
+310
+315
+320
+325
+Temperature [K]
+Coupled Model Base Model
+Figure 10. Radiator Supply Temperature
+0 5 10 15 20 Time [Hour]
+300
+305
+310
+315
+320
+Temperature [K]
+Coupled Model Base Model
+Figure 11. Radiator Return Temperature
+°C), with the coupled model demonstrating closer alignment with base model, capturing the dynamics of return temperature fluctuations throughout the day. Overall, the comparative analysis across these three temperature metrics demonstrates that the coupled model consistently provides accurate and reliable simulations, proving its ability to simulate temperature dynamics and heat flow effectively.
+7.2 Electrical System
+7.2.1 Heat Pump Electrical Monitoring
+The heat pump power (Figure 12) shows variations between -5 kW and 20 kW in active power, while reactive power (Figure 13) varies from -1 kVAr to 17 kVar. On the other hand, the heat pump power factor (Figure 14) shows variations between 0 - 1 and the nominal power factor during operation is 0.93, while the heat pump current (Figure 15) ranges from -10A to 70A. In the coupled model, significant transient oscillations in power and current are observed, particularly during the initial and transition phases, which are not as pronounced in the base model. These oscillations are crucial to consider as they impact the stability and performance of B2G systems. Addition
+ally, instances of negative active power are observed in both power and current data, indicating periods where the heat pump contributes power back to the grid, an important factor for energy efficiency and grid support.
+0 5 10 15 20 Time [Hour]
+5
+0
+5
+10
+15
+20
+25
+30
+Power [kW]
+Coupled Model Base Model
+18.145 18.150 18.155 18.160
+0
+20
+Figure 12. Motor-drive Heat Pump Active Power Consumption
+0 5 10 15 20 Time [Hour]
+0.0
+2.5
+5.0
+7.5
+10.0
+12.5
+15.0
+17.5
+Reactive Power [kVAr]
+Coupled Model
+Figure 13. Motor-drive Heat Pump Reactive Power Consumption
+0 5 10 15 20 Time [Hour]
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Power Factor
+Coupled Model
+Figure 14. Motor-drive Heat Pump Power Factor
+141
+DOI 10.3384/ECP207136 OCTOBER 14-16, STORRS, CT, USA PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024
+
+
+0 5 10 15 20 Time [Hour]
+20
+0
+20
+40
+60
+80
+100
+120
+Current [A]
+Coupled Model Base Model
+18.145 18.150 18.155 18.160
+0
+50
+Figure 15. Motor-drive Heat Pump Current Consumption
+7.2.2 Pumps Electrical Monitoring
+The pump power (Figure 16) ranges -1 kW and 4 kW in active power, while reactive power (Figure 17) varies from -0.5 kVAr to 3.5 kVar. On the other hand, the pump power factor (Figure 18) shows variations between 0 - 1 and the nominal power factor during operation is 0.6, while the pump current (Figure 19) ranges from -2A to 18A. The coupled model exhibits significant transient oscillations in power and current, particularly during the initial and transition phases, which are not as pronounced in the base model. Instances of negative active power are also observed in both power and current data, indicating periods where the pump contributes power back to the grid.
+0 5 10 15 20 Time [Hour]
+1
+0
+1
+2
+3
+4
+5
+6
+Power [kW]
+Coupled Model Base Model
+18.650 18.655
+0
+2
+Figure 16. Motor-drive Pump Active Power Consumption
+The coupled model is built using an adaptation of physics based equations (Le Fosse 2021) that is capable of simulating sudden variations in signal during turn on and turn off conditions. The adaptation reduces the complexity of drive system, thereby increasing the computation speed.
+The aspect of B2G interaction of HVAC equipment’s, presents both opportunities and challenges. On the pos
+0 5 10 15 20 Time [Hour]
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+Reactive Power [kVAr]
+Coupled Model
+Figure 17. Motor-drive Pump Reactive Power Consumption
+0 5 10 15 20 Time [Hour]
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Power Factor
+Coupled Model
+Figure 18. Motor-drive Pump Power Factor
+0 5 10 15 20 Time [Hour]
+0
+10
+20
+30
+40
+50
+Current [A]
+Coupled Model Base Model
+0.010 0.005 0.000 0.005 +1.87e1
+0
+10
+Figure 19. Motor-drive Pump Current Consumption
+itive side, B2G can enhance grid stability by distributing energy generation, particularly during peak demand. This reduces the load on centralized power plants and enhances overall grid resilience. However, significant challenges arise with this approach. Managing the influx of energy from numerous residential sources adds complexity to grid operations, potentially leading to instability if not properly managed. The grid must be equipped with advanced technology to
+142 PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024 OCTOBER 14-16, STORRS, CT, USA 10.3384/ECP207136 DOI
+
+
+Table 1. Comparison of Translated Model Statistics
+Metrics Base Model Coupled Model Constants 1149 1455 Free parameters 172 scalars 383 scalars Parameter depending 589 scalars 998 scalars Outputs 24 Continuous time states 12 scalars 39 scalars Time-varying variables 338 scalars 512 scalars Alias variables 746 scalars 1246 scalars Sizes of linear systems of equations [2, 2, 2, 2] [2, 2, 2, 2, 2, 4, 4, 2, 4] Sizes of nonlinear systems of equations [3, 1, 19] [3, 5, 3, 2] Sizes after manipulation of nonlinear systems [1, 1, 2] [1, 1, 1] Number of numerical Jacobians 0
+Table 2. Comparison of Computational Metrics
+Metrics Base Model Coupled Model CPU-time for integration (s) 7.92 4.69 CPU-time for one grid interval (ms) 0.0916 0.0543 CPU-time for initialization (s) 0.086 0.084 Number of result points 86554 86746 Number of grid points 86401 Number of accepted steps 18509 73064 Number of f-evaluations (dynamics) 307805 146002 Number of crossing function evaluations 102815 160670 Number of Jacobian-evaluations 1963 3839 Number of model time events 2 Number of input time events 0 Number of state events 75 171 Number of step events 0 Minimum integration stepsize 8.0e-08 1.09e-08 Maximum integration stepsize 129 440 Maximum integration order 5
+balance supply and demand in real time, increasing operational complexity. Frequent energy cycling can cause accelerated wear and tear on heat pumps, reducing their lifespan and increasing maintenance needs. Local infrastructure strain is another potential consequence. Most distribution networks are not designed for significant residential energy inputs, leading to increased stress on components like transformers. This could result in more frequent outages and necessitate costly upgrades to the local grid. In summary, while B2G integration offers promising benefits for energy management, it also introduces challenges that must be addressed through advanced technology, careful planning, and infrastructure investment to ensure long-term sustainability and efficiency.
+7.3 Computational Performance
+The computational analysis highlights the comparative performance and complexity between base model and coupled model. The translated model statistics (Ta
+ble 1) reveal that the coupled model demonstrates increased complexity with a higher number of constants, free parameters, and time-varying variables, leading to a more intricate system of equations. However, despite this increased complexity, the coupled model exhibits superior computational efficiency (Table 2), as indicated by a reduction in CPU-time for integration and grid interval processing. Specifically, the coupled model’s integration time decreased by approximately 40% compared to the base model, showcasing its enhanced performance in dynamic simulations. The analysis of computational metrics further underscores the efficiency of the coupled model, with a significantly higher number of accepted steps and crossing function evaluations, alongside a more refined control over integration step size and maximum integration limits. This detailed comparison underscores the coupled model’s capability to handle more complex dynamics while maintaining or improving computational performance, making it a valuable advancement over the base model. In the future, we plan to pursue additional enhancement of model by integration of soft starters and compare the impact of
+143
+DOI 10.3384/ECP207136 OCTOBER 14-16, STORRS, CT, USA PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024
+
+
+coupled model in terms of transients and computational performance.
+8 Conclusion
+This study explores the interactions between buildings and the power system. A case study is considered that use heat pump and radiator with on/off controller to maintain the room temperature. The comparison between the motordrive models with the baseline models has demonstrated that our motor-driven models offers a more realistic estimation of the electrical responses when the pumps and heat pump turn on and off. The coupled model is also 40% faster than the base model. This implementation of the motor-drive mechanical models will enhance our understanding of the dynamic interactions between buildings and power grids without compromise in terms of computational time. Furthermore, we intend to use our model in Building-to-Grid (B2G) activities to aid in designing and evaluating control strategies relevant to this field.
+Acknowledgement
+This research was supported by the DOE’s Office of Energy Efficiency and Renewable Energy under the Advanced Manufacturing Office, award number DEEE0009139. All opinions expressed in this paper are the author’s and do not necessarily reflect the policies and views of DOE.
+References
+Fachini, Fernando, Marcelo de Castro, et al. (2023). “OpenIMDML: Open Instance Multi-Domain Motor Library utilizing the Modelica modeling language”. In: SoftwareX 24, p. 101591. Fachini, Fernando, Marcelo de Castro, et al. (2024). “Modeling of Induction Motors and Variable Speed Drives for Multi-Domain System Simulations Using Modelica and the OpenIPSL Library”. In: Electronics 13.9, p. 1614. Fachini, Fernando, Marcelo De Castro, et al. (2022). “Multidomain power and thermo-fluid system stability modeling using modelica and openipsl”. In: 2022 IEEE Power & Energy Society General Meeting (PESGM). IEEE, pp. 1–5.
+Fu, Yangyang, Sen Huang, Yuan Liu, et al. (2019). “A multidisciplinary model to couple power system dynamics and building dynamics to enable building-to-grid integration”. In: 16th International Conference of the International Building Performance Simulation Association, Building Simulation 2019. International Building Performance Simulation Association, pp. 940–947. Fu, Yangyang, Sen Huang, Draguna Vrabie, et al. (2019). “Coupling power system dynamics and building dynamics to enable building-to-grid integration”. In: Proceedings of 13th International Modelica Conference, OTH Regensburg, Germany.
+Gol, Ozdemir (1993). “Dynamic modelling of induction machines.” PhD thesis. Karassik, Igor J (2001). Pump handbook. McGraw-Hill. Kundur, P., N.J. Balu, and M.G. Lauby (1994). Power System Stability and Control. EPRI power system engineering series. McGraw-Hill Education. ISBN: 9780070359581.
+Le Fosse, Roberta (2021). “Dynamic modeling of induction motors in developing tool for automotive applications.” PhD thesis. Politecnico di Torino. Li, Guangdi et al. (2022). “Optimal Scheduling of Thermoelectric Coupling Energy System Considering Thermal Characteristics of DHN”. In: Sustainability 14.15, p. 9764. Stoecker, Wilbert F and Wilbert F Stoecker (1998). Industrial refrigeration handbook. Vol. 10. McGraw-Hill New York. Wetter, Michael et al. (2014). “Modelica buildings library”. In: Journal of Building Performance Simulation 7.4, pp. 253270.
+144 PROCEEDINGS OF THE AMERICAN MODELICA CONFERENCE 2024 OCTOBER 14-16, STORRS, CT, USA 10.3384/ECP207136 DOI

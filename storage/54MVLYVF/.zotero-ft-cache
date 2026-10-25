@@ -1,0 +1,4193 @@
+Undergraduate Lecture Notes in Physics
+Inside Interesting Integrals
+Paul J. Nahin
+
+
+Undergraduate Lecture Notes in Physics
+For further volumes: http://www.springer.com/series/8917
+
+
+Undergraduate Lecture Notes in Physics (ULNP) publishes authoritative texts covering topics throughout pure and applied physics. Each title in the series is suitable as a basis for undergraduate instruction, typically containing practice problems, worked examples, chapter summaries, and suggestions for further reading.
+ULNP titles must provide at least one of the following:
+• An exceptionally clear and concise treatment of a standard undergraduate subject. • A solid undergraduate-level introduction to a graduate, advanced, or non-standard subject. • A novel perspective or an unusual approach to teaching a subject.
+ULNP especially encourages new, original, and idiosyncratic approaches to physics teaching at the undergraduate level.
+The purpose of ULNP is to provide intriguing, absorbing books that will continue to be the reader’s preferred reference throughout their academic career.
+Series Editors
+Neil Ashby Professor Emeritus, University of Colorado, Boulder, CO, USA
+William Brantley Professor, Furman University, Greenville, SC, USA
+Michael Fowler Professor, University of Virginia, Charlottesville, VA, USA
+Michael Inglis Professor, SUNY Suffolk County Community College, Selden, NY, USA
+Heinz Klose Professor Emeritus, Humboldt University Berlin, Germany
+Helmy Sherif Professor, University of Alberta, Edmonton, AB, Canada
+
+
+Paul J. Nahin
+Inside Interesting Integrals
+(with an introduction to contour integration)
+A Collection of Sneaky Tricks, Sly Substitutions, and Numerous Other Stupendously Clever, Awesomely Wicked, and Devilishly Seductive Maneuvers for Computing Nearly 200 Perplexing Definite Integrals From Physics, Engineering, and Mathematics (Plus 60 Challenge Problems with Complete, Detailed Solutions)
+
+
+Paul J. Nahin Electrical and Computer Engineering University of New Hampshire Durham, NH, USA
+ISSN 2192-4791 ISSN 2192-4805 (electronic) ISBN 978-1-4939-1276-6 ISBN 978-1-4939-1277-3 (eBook) DOI 10.1007/978-1-4939-1277-3 Springer New York Heidelberg Dordrecht London
+Library of Congress Control Number: 2014945223
+© Springer Science+Business Media New York 2015 This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or part of the material is concerned, specifically the rights of translation, reprinting, reuse of illustrations, recitation, broadcasting, reproduction on microfilms or in any other physical way, and transmission or information storage and retrieval, electronic adaptation, computer software, or by similar or dissimilar methodology now known or hereafter developed. Exempted from this legal reservation are brief excerpts in connection with reviews or scholarly analysis or material supplied specifically for the purpose of being entered and executed on a computer system, for exclusive use by the purchaser of the work. Duplication of this publication or parts thereof is permitted only under the provisions of the Copyright Law of the Publisher’s location, in its current version, and permission for use must always be obtained from Springer. Permissions for use may be obtained through RightsLink at the Copyright Clearance Center. Violations are liable to prosecution under the respective Copyright Law. The use of general descriptive names, registered names, trademarks, service marks, etc. in this publication does not imply, even in the absence of a specific statement, that such names are exempt from the relevant protective laws and regulations and therefore free for general use. While the advice and information in this book are believed to be true and accurate at the date of publication, neither the authors nor the editors nor the publisher can accept any legal responsibility for any errors or omissions that may be made. The publisher makes no warranty, express or implied, with respect to the material contained herein.
+Printed on acid-free paper
+Springer is part of Springer Science+Business Media (www.springer.com)
+
+
+Bernhard Riemann (1826–1866), the German mathematical genius whose integral is the subject of this book (AIP Emilio Segre` Visual Archives, T. J. J. See Collection)
+
+
+This book is dedicated to all who, when they read the following line from John le Carre ́’s 1989 Cold War spy novel The Russia House, immediately know they have encountered a most interesting character:
+“Even when he didn’t follow what he was
+looking at, he could relish a good page of
+mathematics all day long.”
+as well as to all who understand how frustrating is the lament in Anthony Zee’s book Quantum Field Theory in a Nutshell:
+“Ah, if we could only do the integral ... . But we can’t.”
+
+
+“The integral of z squared dz From one to the cube root of three All times the cosine Of three pi o’er nine Equals the natural log of the cube root of e”
+— Three classic integral jokes beloved by that curious band of people who, if given the choice between struggling with a good math problem or doing just about anything else, would think the decision to be obvious
+
+
+In support of the theoretical calculations performed in this book, numerical
+‘confirmations’ are provided by using several of the integration commands
+available in software packages developed by The MathWorks, Inc. of Natick,
+MA. Specifically, MATLA (Release 2013a), and Symbolic Math
+Toolbox 5.10, with both packages running on a Windows 7 PC. This version
+of MATLA is now several releases old, but all the commands used in this
+book work with the newer versions, and are likely to continue to work for
+subsequent versions for several years more. MATLA is the registered
+trademark of The MathWorks, Inc. The MathWorks, Inc. does not warrant
+the accuracy of the text in this book. This book’s use or discussion of
+MATLA and of the Symbolic Math Toolbox does not constitute an
+endorsement or sponsorship by The MathWorks, Inc. of a particular
+pedagogical approach or particular use of the MATLA and the Symbolic
+Math Toolbox software.
+
+
+Also by Paul J. Nahin
+Oliver Heaviside (1988, 2002) Time Machines (1993, 1999) The Science of Radio (1996, 2001) An Imaginary Tale (1998, 2007, 2010) Duelling Idiots (2000, 2002) When Least Is Best (2004, 2007) Dr. Euler’s Fabulous Formula (2006, 2011) Chases and Escapes (2007, 2012) Digital Dice (2008, 2013) Mrs. Perkins’s Electric Quilt (2009) Time Travel (1997, 2011) Number-Crunching (2011) The Logician and the Engineer (2012) Will You Be Alive Ten Years From Now? (2013) Holy Sci-Fi! (2014)
+
+
+
+
+Preface
+Engineering is like dancing; you don’t learn it in a darkened lecture hall watching slides: you learn it by getting out on the dance floor and having your toes stepped on. —Professor Jack Alford (1920–2006), cofounder of the Engineering Clinic at Harvey Mudd College, who hired the author in 1971 as an assistant professor. The same can be said for doing definite integrals.
+To really appreciate this book, one dedicated to the arcane art of calculating definite integrals, it is necessary (although perhaps it is not sufficient) that you be the sort of person who finds the following question fascinating, one right up there in a fierce battle with a hot cup of coffee and a sugar donut for first place on the list of sinful pleasures: without actually calculating x, show that if x þ 1
+x 1⁄4 1 it then follows that x7 þ 1
+x7 1⁄4 1. Okay, I know what many (but, I hope, not you) are thinking at being confronted with a question like this: of what Earthly significance could such a problem possibly have? Well, none as far as I know, but its fascination (or not) for you provides (I think) excellent psychological insight into whether or not you should spend time and/or good money on this book. If the problem leaves someone confused, puzzled, or indifferent (maybe all three) then my advice to them would be to put this book down and to look instead for a good mystery novel, the latest Lincoln biography (there seems to be a new one every year—what could possibly be left unsaid?), or perhaps a vegetarian cookbook. But, if your pen is already out and scrawled pages of calculations are beginning to pile-up on your desk, then by gosh you are just the sort of person for whom I wrote this book. (If, after valiant effort you are still stumped but nonetheless just have to see how to do it—or if your pen simply ran dry—an analysis is provided at the end of the book.) More specifically, I’ve written with three distinct types of readers in mind: (1) physics/engineering/math students in their undergraduate years; (2) professors looking for interesting lecture material; and (3) nonacademic professionals looking for a ‘good technical read.’
+xi
+
+
+There are two possible concerns associated with calculating definite integrals that we should address with no delay. First, do real mathematicians actually do that sort of thing? Isn’t mere computation the dirty business (best done out of sight, in the shadows of back-alleys so as not to irreparably damage the young minds of impressionable youths) of grease-covered engineers with leaky pens in their shirts, or of geeky physicists in rumbled pants and chalk dust on their noses? Isn’t it in the deep, clear ocean of analytical proofs and theorems where we find real mathematicians, swimming like powerful, sleek seals? As an engineer, myself, I find that attitude just a bit elitist, and so I am pleased to point to the pleasure in computation that many of the great mathematicians enjoyed, from Newton to the present day. Let me give you two examples of that. First, the reputation of the greatest English mathematician of the first half of the twentieth century, G.H. Hardy (1877–1947), partially rests on his phenomenal skill at doing definite integrals. (Hardy appears in numerous places in this book.) And second, the hero of this book (Riemann) is best known today for (besides his integral) his formulation of the greatest unsolved problem in mathematics, about which I’ll tell you lots more at the end of the book. But after his death, when his private notes on that very problem were studied, it was found that imbedded in all the deep theoretical stuff was a
+calculation of pffi2ffiffi. To 38 decimal places! The other concern I occasionally hear strikes me as just plain crazy; the complaint that there is no end to definite integrals. (This should, instead, be a cause for joy.) You can fiddle with integrands, and with upper and lower limits, in an uncountable infinity of ways,1 goes the grumbling, so what’s the point of calculating definite integrals since you can’t possibly do them all? I hope writing this concern out in words is sufficient to make clear its ludicrous nature. We can never do all possible definite integrals, so why bother doing any? Well, what’s next—you can’t possibly add together all possible pairs of the real numbers, so why bother learning to add? Like I said—that’s nuts! What makes doing the specific integrals in this book of value aren’t the specific answers we’ll obtain, but rather the tricks (excuse me, the methods) we’ll use in obtaining those answers; methods you may be able to use in evaluating the integrals you will encounter in the future in your own work. Many of the integrals I’ll show you do have important uses in mathematical physics and engineering, but others are included just because they look, at first sight, to be so damn tough that it’s a real kick to see how they simply crumble away when attacked with the right trick. From the above you’ve probably gathered that I’ve written this book in a lighthearted manner (that’s code for ‘this is not a rigorous math textbook’). I am not going to be terribly concerned, for example, with proving the uniform convergence of anything, and if you don’t know what that means don’t worry about it because I’m not going to worry about it, either. It’s not that issues of rigor aren’t
+1 You’ll see, in the next chapter, that with a suitable change of variable we can transform any integral into an integral from 0 to 1, or from 1 to 1, or from 0 to 1. So things aren’t quite so bad as I’ve made them out.
+xii Preface
+
+
+important—they are—but not for us, here. When, after grinding through a long, convoluted sequence of manipulations to arrive at what we think is the value for some definite integral, I’ll then simply unleash a wonderful MATLAB numerical integration command (quad)—short for quadrature—and we’ll calculate the value.
+If our theoretical answer says it’s pffiπffiffi 1⁄4 1:772453 . . . and quad says it’s 9.3, we’ll of course suspect that somewhere in all our calculations we just maybe fell off a cliff! If, however, quad says it is 1.77246, well then, that’s good enough for me and on we’ll go, happy with success and flushed with pleasure, to the next problem. Having said that, I would be less than honest if I don’t admit, right now, that such happiness could be delusional. Consider, for example, the following counterexample to this book’s operational philosophy. Suppose you have used a computer software package to show the following:
+ð1
+0
+cos ðxÞ sin ð4xÞ
+x dx 1⁄4 1:57079632679 . . . ,
+ð1
+0
+cos ðxÞ cos x
+2
+sin ð4xÞ
+x dx 1⁄4 1:57079632679 . . . ,
+ð1
+0
+cos ðxÞ cos x
+2 cos x
+3
+sin ð4xÞ
+x dx 1⁄4 1:57079632679 . . . ,
+and so on, all the way out to
+ð1
+0
+cos ðxÞ cos x
+2 cos x
+3 . . . cos x
+30
+sin ð4xÞ
+x dx 1⁄4 1:57079632679 . . . :
+One would have to be blind (as well as totally lacking in imagination) not to immediately suspect two things:
+the consistent value of 1:57079 . . . :is actually π
+2 , ð1Þ
+and
+ð1
+0
+Yn
+k1⁄41
+cos x
+k
+()
+sin ð4xÞ
+x dx 1⁄4 π
+2 for all n: ð2Þ
+This is exciting! But then you run the very next case, with n 1⁄4 31, and the computer returns an answer of
+ð1
+0
+cos ðxÞ cos x
+2 cos x
+3 . . . cos x
+30 cos x
+31
+sin ð4xÞ
+x dx 1⁄4 1:57079632533 . . . :
+Preface xiii
+
+
+In this book I would dismiss the deviation (notice those last three digits!) as round-off error—and I would be wrong! It’s not round-off error and, despite the highly suggestive numerical computations, the supposed identity “for all n” is simply not true. It’s ‘almost’ true, but in math ‘almost’ doesn’t cut-it.2 That’s the sort of nightmarish thing that makes mathematicians feel obligated to clearly state any assumptions they make and, if they be really pure, to show that these assumptions are valid before going forward with an analysis. I will not be so constrained here and, despite the previous example of how badly things can go wrong, I’ll assume just about anything that’s convenient at the moment (short of something really absurd, like 1 + 1 1⁄4 3), deferring the moment of truth to when we ‘check’ a theoretical result with MATLAB. A true mathematician would feel shame (perhaps even thinking that a state of moral degeneracy had been entered) if they should adopt such a cavalier attitude. I, on the other hand, will be immune to such soul-crushing doubts. Still, remain aware that we will be taking some risks. So I will admit, again, that violation of one or more of the conditions that rigorous analyses have established can lead to disaster. Additional humorous examples of this disconcerting event can be found in a paper3 by a mathematician with a sense of humor. The paper opens with this provocative line: “Browsing through an integral table on a dull Sunday afternoon [don’t you often do the very same thing?] some time ago, I came across four divergent trigonometric integrals. I wondered how those divergent integrals [with incorrect finite values] ended up in a respectable table.” A couple of sentences later the author writes “We have no intent to defame either the well-known mathematician who made the original error [the rightfully famous French genius Augustin-Louis Cauchy (1789–1857) that you’ll get to know when we get to contour integration], or the editors of the otherwise fine tables in which the integrals appear. We all make mistakes and we’re not out to point the finger at anyone . . .” And if we do fall off a cliff, well, so what? Nobody need know. We’ll just quietly gather-up our pages of faulty analysis, rip them into pieces, and toss the whole rotten mess into the fireplace. Our mathematical sins will be just between us and God (who is well known for being forgiving). Avoiding a computer is not necessarily a help, however. Here’s a specific example of what I mean by that. In a classic of its genre,4 Murray Spiegel (late professor of mathematics at Rensselaer Polytechnic Institute) asks readers to show that
+2 For an informative discussion of the fascinating mathematics behind these calculations, see Nick Lord, “An Amusing Sequence of Trigonometrical Integrals,” The Mathematical Gazette, July 2007, pp. 281–285. 3 Erik Talvila, “Some Divergent Trigonometric Integrals,” The American Mathematical Monthly, May 2001, pp. 432–436.
+4 M. R. Spiegel, Outline of Theory and Problems of Complex Variables with an Introduction to Conformal Mapping and Its Applications, Schaum 1964, p. 198 (problem 91).
+xiv Preface
+
+
+ð1
+0
+lnð1 þ xÞ
+1 þ x2 dx 1⁄4 πlnð2Þ
+2
+which equals 1.088793 . . . . One can only wonder at how many students struggled (and for how long) to do this, as the given answer is incorrect. Later in this book, in (5.1.3), we’ll do this integral correctly, but a use of quad (not available to Spiegel in 1964) quickly shows the numerical value is actually the significantly greater 1.4603 . . . . At the end of this Preface I’ll show you two examples (including Spiegel’s integral) of this helpful use of quad. Our use of quad does prompt the question of why, if we can always calculate the value of any definite integral to as many decimal digits we wish, do we even care about finding exact expressions for these integrals? This is really a philosophical issue, and I think it gets to the mysterious interconnectedness of mathematics—how seemingly unrelated concepts can turnout to actually be intimately related. The expressions we’ll find for many of the definite integrals evaluated in this book will involve such familiar numbers as ln(2) and π, and other numbers that are not so well known, like Catalan’s constant (usually written as G) after the French mathematician Euge`ne Catalan (1814–1894). The common thread that stitches these and other numbers together is that all can be written as infinite series that can, in turn, be written as definite integrals:
+lnð2Þ 1⁄4 1 1
+2þ1
+3
+1
+4þ1
+5 ... 1⁄4
+ð1
+0
+2x
+1 þ x2 dx 1⁄4 0:693147 . . .
+π
+41⁄41 1
+3þ1
+5
+1
+7þ1
+9 ... 1⁄4
+ð1
+0
+1
+1 þ x2 dx 1⁄4 0:785398 . . .
+G1⁄4 1
+12
+1
+32 þ 1
+52
+1
+72 þ 1
+92 . . . 1⁄4
+ð1
+1
+lnðxÞ
+1 þ x2 dx 1⁄4 0:9159655 . . . :
+And surely it is understanding at a far deeper level to know that the famous
+Fresnel integrals Ð 1
+0 cos(x2)dx and Ð 1
+0 sin(x2)dx are exactly equal to 1
+2
+ffiπffi
+2
+p , compared to knowing only that they are ‘pretty near’ 0.6267. In 2004 a wonderful book, very much like this one in spirit, was published by two mathematicians, and so I hope my cavalier words will appear to be appalling ones only to the most rigid of hard-core purists. That book, Irresistible Integrals (Cambridge University Press) by the late George Boras, and Victor Moll at Tulane University, is not quite as willing as this one is to return to the devil-may-care, eighteenth century mathematics of Euler’s day, but I strongly suspect the authors were often tempted. Their subtitle gave them away: Symbolics, Analysis and
+Preface xv
+
+
+Experiments [particularly notice this word!] in the Evaluation of Integrals. Being mathematicians, their technical will-power was stronger than is my puny electrical engineer’s dedication to rigor, but every now and then even they could not totally suppress their sheer pleasure at doing definite integrals. And then 3 years later, in another book coauthored by Moll, we find a statement of philosophy that exactly mirrors my own (and that of this book): “Given an interesting identity buried in a long and complicated paper on an unfamiliar subject, which would give you more confidence in its correctness: staring at the proof, or confirming computationally that it is correct to 10,000 decimal places?”5 That book and Irresistible Integrals are really fun math books to read. Irresistible Integrals is different from this one, though, in that Boras and Moll wrote for a more mathematically sophisticated audience than I have, assuming a level of knowledge equivalent to that of a junior/senior college math major. They also use Mathematica much more than I use MATLAB. I, on the other hand, have assumed far less, just what a good student would know—with one BIG exceptionafter the first year of high school AP calculus, plus just a bit of exposure to the concept of a differential equation. That big exception is contour integration, which Boras and Moll avoided in their book because “not all [math majors] (we fear, few) study complex analysis.” Now that, I have to say, caught me by surprise. For a modern undergraduate math major not to have ever had a course in complex analysis seems to me to be shocking. As an electrical engineering major, 50 years ago, I took complex analysis up through contour integration (from Stanford’s math department) at the start of my junior year using R.V. Churchill’s famous book Complex Variables and Applications. (I still have my beat-up, coffee-stained copy.) I think contour integration is just too beautiful and powerful to be left out of this book but, recognizing that my assumed reader may not have prior knowledge of complex analysis, all the integrals done in this book by contour integration are gathered together in their own chapter at the end of the book. Further, in that chapter I’ve included a ‘crash mini-course’ in the theoretical complex analysis required to understand the technique (assuming only that the reader has already encountered complex numbers and their manipulation). Irresistible Integrals contains many beautiful results, but a significant fraction of them is presented mostly as ‘sketches,’ with the derivation details (often presenting substantial challenges) left up to the reader. In this book every result is fully derived. Indeed, there are results here that are not in the Boras and Moll book, such as the famous integral first worked out in 1697 by the Swiss mathematician John Bernoulli (1667–1748), a result that so fascinated him he called it his “series mirabili” (“marvelous series”):
+5 Experimental Mathematics in Action, A. K. Peters 2007, pp. 4–5. Our calculations here with quad won’t be to 10,000 decimal places, but the idea is the same.
+xvi Preface
+
+
+ð1
+0
+xx dx 1⁄4 1 1
+22 þ 1
+33
+1
+44 þ 1
+55 . . . 1⁄4 0:78343 . . .
+or its variant
+ð1
+0
+x x dx 1⁄4 1 þ 1
+22 þ 1
+33 þ 1
+44 þ 1
+55 þ . . . 1⁄4 1:29128 . . . :
+Also derived here are the equally exotic integrals
+ð1
+0
+xx2 dx 1⁄4 1 1
+32 þ 1
+53
+1
+74 þ 1
+95 . . . 1⁄4 0:89648 . . .
+and
+ð1
+0
+x
+pffixffi
+dx 1⁄4 1 2
+3
+2
+þ2
+4
+32
+5
+4
+þ2
+6
+5
+. . . 1⁄4 0:65858 . . . :
+I don’t believe either of these last two integrals has appeared in any book before now. One famous integral that is also not in Irresistible Integrals is particularly interesting, in that it seemingly (I’ll explain this in just a bit) owed its evaluation to a mathematician at Tulane University, Professor Moll’s home institution. The then head of Tulane’s math department, Professor Herbert Buchanan (1881–1974), opened a 1936 paper6 with the following words: “In the consideration of a research problem in quantum mechanics, Professor J.C. Morris of Princeton University recently encountered the integral
+I1⁄4
+ð1
+0
+x3
+ex 1 dx:
+Since the integral does not yield to any ordinary methods of attack, Professor Morris asked the author to evaluate it [Joseph Chandler Morris (1902–1970) was a graduate of Tulane who did his PhD in physics at Princeton; later he was head of the physics department, and then a Vice-President, at Tulane].” Professor Buchanan then showed that the integral is equal to an infinite series that sums to 6.49 . . . , and just after arriving at that value he wrote “It had been found from other considerations [the details of which are not mentioned, but which I’m guessing were the results of either numerical calculations or even, perhaps, of physics experiments
+6 H. E. Buchanan, “On a Certain Integral Arising in Quantum Mechanics,” National Mathematics Magazine, April 1936, pp. 247–248. I treated this integral, in a way different from Buchanan, in my book Mrs. Perkins’s Electric Quilt, Princeton 2009, pp. 100–102, and in Chap. 5 we’ll derive it in yet a different way, as a special case of (5.3.4).
+Preface xvii
+
+
+done at Princeton by Morris] that the integral should have a value between 6.3 and
+6.9. Thus the value above [6.4939 . . . 1⁄4 π4
+15] furnishes a theoretical verification of experimental results.” So here we have an important definite integral apparently ‘discovered’ by a physicist and solved by a mathematician. In fact, as you’ll learn in Chap. 5, Buchanan was not the first to do this integral; it had been evaluated by Riemann in 1859, long before 1936. Nonetheless, this is a nice illustration of the fruitful coexistence and positive interaction of experiment and theory, and it is perfectly aligned with the approach I took while writing this book. There is one more way this book differs from Irresistible Integrals, that reflects my background as an engineer rather than as a professional mathematician. I have, all through the book, made an effort to bring into many of the discussions a variety of physical applications, from such diverse fields as radio theory and theoretical mechanics. In all such cases, however, math plays a central role. So, for example, when the topic of elliptic integrals comes up (at the end of Chap. 6), I do so in the context of a famous physics problem. The origin of that problem is due, however, not to a physicist but to a nineteenth century mathematician. Let me close this Preface on the same note that opened it. Despite all the math in it, this book has been written in the spirit of ‘let’s have fun.’ That’s the same attitude Hardy had when, in 1926, he replied to a plea for help from a young undergraduate at Trinity College, Cambridge. That year, while he was still a teenager, H.S.M. Coxeter (1907–2003) had undertaken a study of various four-dimensional shapes. His investigations had suggested to him (“by a geometrical consideration and verified graphically”) several quite spectacular definite integrals, like7
+ðπ=2
+0
+cos 1 cos ðxÞ
+1 þ 2 cos ðxÞ dx 1⁄4 5π2
+24 :
+In a letter to the Mathematical Gazette he asked if any reader of the journal could show him how to derive such an integral (we’ll calculate the above so-called Coxeter’s integral later, in the longest derivation in this book). Coxeter went on to become one of the world’s great geometers and, as he wrote decades later in the Preface to his 1968 book Twelve Geometric Essays, “I can still recall the thrill of receiving [solutions from Hardy] during my second month as a freshman at Cambridge.” Accompanying Hardy’s solutions was a note scribbled in a margin
+7 MATLAB’s quad says this integral is 2.0561677 . . . , which agrees quite nicely with 5π2
+24 1⁄4 2:0561675 . . . . The code syntax is: quad(@(x)acos(cos(x)./(1 + 2*cos(x))),0,pi/2).
+For the integral I showed you earlier, from Spiegel’s book, the quad code is (I’ve used 1e6 1⁄4 106 for the upper limit of infinity): quad(@(x)log(1 + x)./(1 + x.^2),0,1e6). Most of the integrals in this book are one-dimensional but, for those times that we will encounter higher dimensional integrals there is dblquad and triplequad, and MATLAB’s companion, the Symbolic Math Toolbox and its command int (for ‘integrate’), can do them, too. The syntax for those cases will be explained when we first encounter multidimensional integrals.
+xviii Preface
+
+
+declaring that “I tried very hard not to spend time on your integrals, but to me the challenge of a definite integral is irresistible.”8 If you share Hardy’s (and my) fascination for definite integrals, then this is a book for you. Still, despite my admiration for Hardy’s near magical talent for integrals, I don’t think he was always correct. I write that nearly blasphemous statement because, in addition to Boras and Moll, another bountiful source of integrals is A Treatise on the Integral Calculus, a massive two-volume work of nearly 1,900 pages by the English educator Joseph Edwards (1854–1931). Although now long out-of-print, both volumes are on the Web as Google scans and available for free download. In an April 1922 review in Nature that stops just short of being a sneer, Hardy made it quite clear that he did not like Edwards’ work (“Mr. Edwards’s book may serve to remind us that the early nineteenth century is not yet dead,” and “it cannot be treated as a serious contribution to analysis”). Finally admitting that there is some good in the book, even then Hardy couldn’t resist tossing a cream pie in Edwards’ face with his last sentence: “The book, in short, may be useful to a sufficiently sophisticated teacher, provided he is careful not to allow it to pass into his pupil’s hands.” Well, I disagree. I found Edwards’ Treatise to be a terrific read, a treasure chest absolutely stuffed with mathematical gems. You’ll find some of them in this book. Also included are dozens of challenge problems, with complete, detailed solutions at the back of the book if you get stuck. Enjoy!
+Durham, NH Paul J. Nahin
+8 And so we see where Boras and Moll got the title of their book. Several years ago, in my book Dr. Euler’s Fabulous Formula (Princeton 2006, 2011), I gave another example of Hardy’s fascination with definite integrals: see that book’s Section 5.7, “Hardy and Schuster, and their optical integral,” pp. 263–274. There I wrote “displaying an unevaluated definite integral to Hardy was very much like waving a red flag in front of a bull.” Later in this book I’ll show you a ‘first principles’ derivation of the optical integral (Hardy’s far more sophisticated derivation uses Fourier transforms).
+Preface xix
+
+
+
+
+Contents
+1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 1.1 The Riemann Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 1.2 An Example of Riemann Integration . . . . . . . . . . . . . . . . . . . . 5 1.3 The Lebesgue Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 1.4 ‘Interesting’ and ‘Inside’ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 1.5 Some Examples of Tricks . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 1.6 Singularities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 1.7 Dalzell’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 1.8 Where Integrals Come From . . . . . . . . . . . . . . . . . . . . . . . . . . 24 1.9 Last Words . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39 1.10 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+2 ‘Easy’ Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 2.1 Six ‘Easy’ Warm-Ups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 2.2 A New Trick . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 2.3 Two Old Tricks, Plus a New One . . . . . . . . . . . . . . . . . . . . . . 55 2.4 Another Old Trick: Euler’s Log-Sine Integral . . . . . . . . . . . . . . 64 2.5 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+3 Feynman’s Favorite Trick . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 3.1 Leibniz’s Formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 3.2 An Amazing Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83 3.3 Frullani’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84 3.4 The Flip-Side of Feynman’s Trick . . . . . . . . . . . . . . . . . . . . . . 88 3.5 Combining Two Tricks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98 3.6 Uhler’s Integral and Symbolic Integration . . . . . . . . . . . . . . . . 102 3.7 The Probability Integral Revisited . . . . . . . . . . . . . . . . . . . . . . 105 3.8 Dini’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 109 3.9 Feynman’s Favorite Trick Solves a Physics Equation . . . . . . . . 112 3.10 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+xxi
+
+
+4 Gamma and Beta Function Integrals . . . . . . . . . . . . . . . . . . . . . . . 117 4.1 Euler’s Gamma Function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117 4.2 Wallis’ Integral and the Beta Function . . . . . . . . . . . . . . . . . . . 119 4.3 Double Integration Reversal . . . . . . . . . . . . . . . . . . . . . . . . . . 130 4.4 The Gamma Function Meets Physics . . . . . . . . . . . . . . . . . . . . 141 4.5 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+5 Using Power Series to Evaluate Integrals . . . . . . . . . . . . . . . . . . . . 149 5.1 Catalan’s Constant . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 149 5.2 Power Series for the Log Function . . . . . . . . . . . . . . . . . . . . . . 153 5.3 Zeta Function Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 161 5.4 Euler’s Constant and Related Integrals . . . . . . . . . . . . . . . . . . . 167 5.5 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+6 Seven Not-So-Easy Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187 6.1 Bernoulli’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187 6.2 Ahmed’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190 6.3 Coxeter’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 194 6.4 The Hardy-Schuster Optical Integral . . . . . . . . . . . . . . . . . . . . 201 6.5 The Watson/van Peype Triple Integrals . . . . . . . . . . . . . . . . . . 206 6.6 Elliptic Integrals in a Physical Problem . . . . . . . . . . . . . . . . . . 212 6.7 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 219
+7 Using ffiffiffiffiffi1ffiffi
+p to Evaluate Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . 225 7.1 Euler’s Formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 225 7.2 The Fresnel Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 227 7.3 ζ(3) and More Log-Sine Integrals . . . . . . . . . . . . . . . . . . . . . . 231 7.4 ζ(2), At Last! . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236 7.5 The Probability Integral Again . . . . . . . . . . . . . . . . . . . . . . . . . 240 7.6 Beyond Dirichlet’s Integral . . . . . . . . . . . . . . . . . . . . . . . . . . . 241 7.7 Dirichlet Meets the Gamma Function . . . . . . . . . . . . . . . . . . . . 249 7.8 Fourier Transforms and Energy Integrals . . . . . . . . . . . . . . . . . 252 7.9 ‘Weird’ Integrals from Radio Engineering . . . . . . . . . . . . . . . . 257 7.10 Causality and Hilbert Transform Integrals . . . . . . . . . . . . . . . . 267 7.11 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 275
+8 Contour Integration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 279 8.1 Prelude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 279 8.2 Line Integrals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 280 8.3 Functions of a Complex Variable . . . . . . . . . . . . . . . . . . . . . . . 282 8.4 The Cauchy-Riemann Equations and Analytic Functions . . . . . 289 8.5 Green’s Integral Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . 292 8.6 Cauchy’s First Integral Theorem . . . . . . . . . . . . . . . . . . . . . . . 295 8.7 Cauchy’s Second Integral Theorem . . . . . . . . . . . . . . . . . . . . . 309 8.8 Singularities and the Residue Theorem . . . . . . . . . . . . . . . . . . 323 8.9 Integrals with Multi-valued Integrands . . . . . . . . . . . . . . . . . . . 331 8.10 Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 339
+xxii Contents
+
+
+9 Epilogue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343 9.1 Riemann, Prime Numbers, and the Zeta Function . . . . . . . . . . . 343 9.2 Deriving the Functional Equation for ζ(s) . . . . . . . . . . . . . . . . . 352 9.3 Challenge Questions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 365
+Solutions to the Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . 369
+Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 409
+Contents xxiii
+
+
+Chapter 1 Introduction
+1.1 The Riemann Integral
+The immediate point of this opening section is to address the question of whether you will be able to understand the technical commentary in the book. To be blunt, do you know what an integral is? You can safely skip the next few paragraphs if this proves to be old hat, but perhaps it will be a useful over-view for some. It’s far less rigorous than a pure mathematician would like, and my intent is simply to define terminology. If y 1⁄4 f(x) is some (any) ‘sufficiently well-behaved’ function (if you can draw it, then for us it is ‘sufficiently well-behaved’) then the definite integral of f(x), as x varies from x 1⁄4 a to x 1⁄4 b a, is the area (a definite number, completely determined by a, b, and f(x)) bounded by the function f(x) and the x-axis. It is, in fact, the shaded area shown in Fig. 1.1.1. That’s why you’ll often see the phrase ‘area under the curve’ in this and in other books on integrals. (We’ll deal mostly with realvalued functions in this book, but there will be, towards the end, a fair amount of discussion dealing with complex-valued functions as well). In the figure I’ve shown f(x) as crossing the x-axis at x 1⁄4 c; area above the x-axis (from x 1⁄4 a to x 1⁄4 c) is positive area, while area below the x-axis (from x 1⁄4 c to x 1⁄4 b) is negative area. We write this so-called Riemann integral—after the genius German mathematician
+Bernhard Riemann (1826–1866)—in mathematical notation as Ð b
+af(x)dx, where the elongated s (that’s what the integral sign is!) stands for summation. It is worth taking a look at how the Riemann integral is constructed, because not all functions have a Riemann integral (these are functions that are not ‘well-behaved’). I’ll show you such a function in Sect. 1.3. Riemann’s ideas date from an 1854 paper. Summation comes into play because the integral is actually the limiting value of an infinite number of terms in a sum. Here’s how that happens. To calculate the area under a curve we imagine the integration interval on the x-axis, from a to b, is divided into n sub-intervals, with the i-th sub-interval having length Δxi. That is, if the end-points of the sub-intervals are
+© Springer Science+Business Media New York 2015 P.J. Nahin, Inside Interesting Integrals, Undergraduate Lecture Notes in Physics, DOI 10.1007/978-1-4939-1277-3_1
+1
+
+
+a 1⁄4 x0 < x1 < x2 < < xi 1 < xi < < xn 1 < xn 1⁄4 b
+then
+Δxi 1⁄4 xi xi 1, 1 i n:
+If we make the sub-intervals of equal length then
+xi 1⁄4 a þ i
+n ðb aÞ
+which says
+Δxi 1⁄4 Δx 1⁄4 b a
+n:
+We imagine that, for now, n is some finite (but ‘large’) integer which means that Δx is ‘small.’ Indeed, we imagine that Δx is sufficiently small that f(x), from the beginning to the end of any given sub-interval, changes only slightly over the entire sub-interval. Let ζi be any value of x in the interval xi 1 ζi xi. Then, the area bounded by f(x) over that sub-interval is just the area of a very thin, vertical rectangle of height f(ζi) and horizontal width Δx, that is, an area of f(ζi)Δx. (The shaded vertical strip in Fig. 1.1.2.) If we add all these rectangular areas, from x 1⁄4 a to x 1⁄4 b, we will get a very good approximation to the total area under the curve from x 1⁄4 a to x 1⁄4 b, an approximation that gets better and better as we let n ! 1 and so Δx ! 0 (the individual rectangular areas become thinner and thinner). That is, the value of the integral, I, is given by
+I 1⁄4 limn!1
+Xn
+i1⁄41 fðζiÞΔx 1⁄4
+ðb
+a
+fðxÞ dx
+where the summation symbol has become the integral symbol and Δx has become the differential dx. We call f(x) the integrand of the integral, with a and b the lower and upper integration limits, respectively.
+Fig. 1.1.1 The Riemann
+definite integral Ð b
+a f(x)dx
+2 1 Introduction
+
+
+If a and b are both finite ( 1 < a < b < 1), it is worth noting that we can
+always write the definite integral Ð b
+af(x) dx as a definite integral Ð 1
+0 g(t) dt. That is, we can normalize the integration interval. Simply make the change of variable t1⁄4x a
+b x. If a and b are not both finite, there is always still some change of variable
+that normalizes the integration interval. For example, suppose we have Ð 11f(x) dx.
+Write this as Ð 0 1f(x)dx + Ð 1
+0 f(x) dx and make the change of variable t 1⁄4 x in
+the first integral. Notice, too, that the integral Ð 1
+0 can always be rewritten in the
+form Ð 1
+0 by writing Ð 1
+0 1⁄4Ð 1
+0+Ð 1
+1 , and then changing variable in the last integral to y 1⁄4 1
+x which changes the limits to 0 and 1 on that integral, too. Now, having noted this, for the rest of this book I’ll not bother with normalization. We can write
+I1⁄4
+ðb
+a
+fðxÞ dx 1⁄4
+ðb
+a
+fðuÞ du
+since the symbol we use to label the horizontal axis is x only because of tradition. Labeling it u makes no difference in the numerical value of I. We call the integration variable the dummy variable of integration. Suppose that we use u as the dummy variable, and replace the upper limit on the integral with the variable x and the lower limit with minus infinity. Now we no longer have a definite integral with a specific numerical value, but rather a function of x. That is,
+FðxÞ 1⁄4
+ðx
+1
+fðuÞ du
+and our original definite integral is given by
+Fig. 1.1.2 Approximating the ‘area under the curve’
+1.1 The Riemann Integral 3
+
+
+I 1⁄4 FðbÞ FðaÞ 1⁄4
+ðb
+a
+fðuÞ du:
+What’s the relationship between F(x) and f(x)? Well, recall that from the definition of a derivative we have
+dF
+dx 1⁄4 limΔx!0
+Fðx þ ΔxÞ FðxÞ
+Δx 1⁄4 limΔx!0
+ðxþΔx
+1
+fðuÞ du
+ðx
+1
+fðuÞ du
+Δx
+1⁄4 limΔx!0
+ð xþΔx
+x
+fðuÞ du
+Δx 1⁄4 fðxÞΔx
+Δx 1⁄4 fðxÞ,
+where the last line follows because f(x) is essentially a constant over an integration interval of length Δx. Integration and differentiation are each the inverse operation of the other. Since the derivative of any constant C is zero, we write the so-called indefinite integral (an integral with no upper and lower limits) as
+FðxÞ þ C 1⁄4
+ð
+fðxÞdx:
+So, one way to do integrals is to simply find an F(x) that, when differentiated, gives the integrand f(x). This is called ‘look it up in a table’ and it is a great way to do integrals when you have a table that has the entry you need.
+What do you do when there is no such entry available? Well, that is when matters become ‘interesting’! You’ll have to either get a more extensive table of F(x) $ f(x) pairs, or work out F(x) for yourself. Or, perhaps, you’ll grudgingly have to accept the fact that maybe, for the particular f(x) you have, there simply is no F(x). Amazingly, though, it can happen in that last case that while there is no F(x) there may still be a computable expression to the definite integral for specific values
+of the integration limits. For example, there is no F(x) for fðxÞ 1⁄4 e x2 , and all we can write for the indefinite integral is the admission
+ð
+e x2 dx 1⁄4 ?
+and yet (as will be shown later in this book), we can still write the definite integral
+ð1
+0
+e x2 dx 1⁄4 1
+2
+pffiπffiffi:
+This is about as close to a miracle as you’ll get in mathematics.
+4 1 Introduction
+
+
+Drawing by arrangement with Sidney Harris, ScienceCartoonsPlus.com
+1.2 An Example of Riemann Integration
+Here’s a pretty little calculation that nicely demonstrates the area interpretation of the Riemann integral. Consider the collection of all points (x, y) that, together, are the points in that region R of the x,y-plane where jxj + jyj < 1, where 1 < x < 1. What’s the area of R? Solving for y gives
+jyj < 1 jxj
+which is a condensed version of the double inequality
+1⁄21 jxj 1⁄4 y2 < y < 1 jxj 1⁄4 y1:
+Let’s consider the cases of x > 0 and x < 0 separately.
+Case 1: if x > 0 then jxj 1⁄4 x and the double inequality becomes
+ð1 xÞ 1⁄4 y2 < y < 1 x 1⁄4 y1
+and the area for the x > 0 portion of R is
+1.2 An Example of Riemann Integration 5
+
+
+ð1
+0
+y1 y2
+ð Þ dx 1⁄4
+ð1
+0
+ð1 xÞ þ ð1 xÞ
+f g dx 1⁄4
+ð1
+0
+ð2 2xÞ dx
+1⁄4 2x x2
+ð Þ1
+0 1⁄4 2 1 1⁄4 1:
+Case 2: if x < 0 then jxj 1⁄4 x and the double inequality becomes
+ð1 þ xÞ 1⁄4 y2 < y < 1 þ x 1⁄4 y1
+and the area for the x < 0 portion of R is
+ð0
+1
+y1 y2
+ð Þ dx 1⁄4
+ð0
+1
+ð1 þ xÞ þ ð1 þ xÞ
+f g dx 1⁄4
+ð0
+1
+ð2 þ 2xÞ dx
+1⁄4 2x þ x2
+ð Þ0
+1 1⁄4 2 1 1⁄4 1:
+So, the total area of R is 2. Notice that we did the entire calculation without any concern about the shape of R. So, what does R look like? If we knew that, then maybe the area would be obvious (it will be!). For x > 0 we have
+jyj < 1 jxj
+which says that one edge of R is
+yaðxÞ 1⁄4 1 x, x > 0
+and another edge of R is
+ybðxÞ 1⁄4 ð1 xÞ 1⁄4 1 þ x, x > 0:
+For x < 0 we have
+jxj þ y < 1
+or, as jxj 1⁄4 x for x < 0,
+jyj < 1 þ x:
+Thus, a third edge of R is
+ycðxÞ 1⁄4 1 þ x, x < 0
+and a fourth edge of R is
+6 1 Introduction
+
+
+ydðxÞ 1⁄4 ð1 þ xÞ 1⁄4 1 x, x < 0:
+Figure 1.2.1 shows these four edges plotted, and we see that R is a rotated
+(through 45 ) square centered on the origin, with a side length of pffi2ffiffi. That is, it has an area of 2, just as we calculated with the Riemann integral.
+1.3 The Lebesgue Integral
+Now, in the interest of honesty for the engineers reading this (and to avoid scornful denunciation by the mathematicians reading this!), I must take a time-out here and tell you that the Riemann integral (and its area interpretation) is not the end of the line when it comes to integration. In 1902 the French mathematician Henri Lebesgue (1875–1941) extended the Riemann integral to be able to handle integrand functions that, in no obvious way, bound an area. There are such functions; probably the most famous is the one cooked-up in 1829 by the German mathematician Lejeune Dirichlet (1805–1859):
+Try drawing a sketch of φ(x)—and I’ll bet you can’t! In any interval of finite length there are an infinity of rationals and irrationals, each, and Dirichlet’s function is a very busy one, jumping wildly back-and-forth an infinity of times between 0 and 1 like an over-caffeinated frog on a sugar-high. (That the rationals
+Fig. 1.2.1 The shaded, rotated square is R
+1.3 The Lebesgue Integral 7
+
+
+are a countable infinity and the irrationals are an uncountable infinity are two famous results in mathematics, both due to the Russian-born German mathematician Georg Cantor (1845–1918).) And if you can’t even draw it, how can you talk of Dirichlet’s function as ‘bounding an area’? You can’t, and Dirichlet’s function is an example of a function that isn’t integrable in the Riemann sense. You might suspect that it is the infinite number of discontinuous jumps within a finite interval that makes φ(x) non-Riemann integrable, but in fact it possible to have a similarly wildly discontinuous function that remains Riemann integrable. Indeed, in 1854 Riemann himself created such a function. Define [x] as the integer nearest to x. For example, [9.8] 1⁄4 10 and [ 10.9] 1⁄4 11. If x is exactly between two integers, then [x] is defined to be zero; [3.5] 1⁄4 0. Riemann’s infinitely discontinuous function is then
+rðxÞ 1⁄4 X1
+k1⁄41
+kx 1⁄2kx
+k2 :
+In Fig. 1.3.1 I’ve plotted an approximation (using the first eight terms of the sum) to r(x) over the interval 0–1. That figure will, I think, just start to give you a sense of just how crazy-wild r(x) is; it has an infinite number of discontinuities in the interval 0–1, and yet Riemann showed that r(x) is still integrable in the Riemann sense even while φ(x) is not.1
+Fig. 1.3.1 Riemann’s weird function
+1 For more on r(x), see E. Hairer and G. Wanner, Analysis by Its History, Springer 1996, p. 232, and William Dunham, The Calculus Gallery, Princeton 2005, pp. 108–112.
+8 1 Introduction
+
+
+But Dirichlet’s function is integrable in the Lebesgue sense. Rather than sub-dividing the integration interval into sub-intervals as in the Riemann integral, the Lebesgue integral divides the integration interval into sets of points. Lebesgue’s central intellectual contribution was the introduction of the concept of the measure of a set. For the Riemann sub-interval, its measure was simply its length. The Riemann integral is thus just a special case of the Lebesgue integral, as a sub-interval is just one particular way to define a set of points; but there are other ways, too. When the Riemann integral exists, so does the Lebesgue integral, but the converse is not true. When both integrals exist they are equal. To see how this works, let’s calculate the Lebesgue integral of φ(x) over the interval 0–1. In this interval, focus first on all the rational values of x that have the particular integer n in the denominator of the fraction m
+n (by definition, this is the form of a rational number). Given the n we’ve chosen, we see that m can vary from 0 to n, that is, there are n + 1 such rational values (points) along the x-axis from 0 to 1. Now, imagine each of these points embedded in an interval of length ε
+n3,
+where ε is an arbitrarily small (but non-zero) positive number. That means we can imagine as tiny an interval as we wish, as long as it has a non-zero length. The total length of all the n + 1 intervals is then
+ðn þ 1Þ ε
+n3 1⁄4 ε
+n2 þ ε
+n3 :
+Remember, this is for a particular n. Now, sum over all possible n, that is, let n run from 1 to infinity. There will, of course, be a lot of repetition: for example, n 1⁄4 2 and m 1⁄4 1, and n 1⁄4 26 and m 1⁄4 13, define the same point. So, the total length of all the intervals that cover all the rational numbers from 0 to 1 is at most
+ε X1
+n1⁄41
+1
+n2 þ X1
+n1⁄41
+1
+n3 :
+As is well-known, both sums have a finite value (the first is, of course, Euler’s
+famous result of π2
+6 which will be derived in Chap. 7, and the second sum is obviously even smaller). The point is that the total sum in the braces has some finite value S, and so the total length of all the intervals that cover all the rational numbers from 0 to 1 is at most εS, and we can make this as small as we wish by just picking ever smaller values for ε. Lebesgue says the measure of the set of all the rationals from 0 to 1 is zero and so, in the Lebesgue sense, we have
+ð1
+0
+φðxÞ dx 1⁄4 0:
+Now, with all that said, I’ll simultaneously admit to the beauty of the Lebesgue integral as well as admit to the ‘scandalous’ fact that in this book I’m not going to
+1.3 The Lebesgue Integral 9
+
+
+worry about it! In 1926 the President of the Mathematical Association (England) sternly stated “To be a serious mathematician and not to use the Lebesgue integral is to adopt the attitude of the old man in a country village who refuses to travel in a train.”2 On the other hand, the American electrical engineer and computer scientist Richard Hamming (1915–1998) somewhat cavalierly rebutted that when he declared (in a 1997 address3 to mathematicians!)
+. . . for more than 40 years I have claimed that if whether an airplane would fly or not depended on whether some function that arose in its design was Lebesgue but not Riemann integrable, then I would not fly in it. Would you? Does Nature recognize the difference? I doubt it! You may, of course, choose as you please in this matter, but I have noticed that year by year the Lebesgue integration, and indeed all of measure theory, seems to be playing a smaller and smaller role in other fields of mathematics, and none at all in fields that merely use mathematics [my emphasis].
+I think Hamming has the stronger position, and all the integrals you’ll see from now on in this book are to be understood as Riemann integrals. For mathematicians who might be tempted to dismiss Hamming’s words with ‘Well, what else would you expect from an engineer!,’ let me point out that the year before Hamming’s talk a mathematician had said essentially the same thing in a paper that Hamming had surely read. After admitting that the Lebesgue integral “has become the ‘official’ integral in mathematical research,” Robert Bartle (1927–2003) then stated “the time has come to discard the Lebesgue integral as the primary integral [Bartle’s emphasis].”4
+1.4 ‘Interesting’ and ‘Inside’
+So, what’s an interesting integral, and what does it mean to talk of being ‘inside’ it? I suppose the honest answer about the ‘interesting’ part is sort of along the lines of Supreme Court Associate Justice Potter Stewart’s famous 1964 comment on the question of “what is pornography?” He admitted it was hard to define “but I know it when I see it.” It’s exactly the same with an interesting integral! In 1957, in the summer between my junior and senior years in high school, I bought a copy of the second edition of George B. Thomas’ famous textbook Calculus and Analytic Geometry for a summer school class at the local junior college. I still remember the thrill I felt when, flipping through the pages for the first
+2 Comment made after the presentation by E. C. Francis of his paper “Modern Theories of Integration,” The Mathematical Gazette, March 1926, pp. 72–77.
+3 In Hamming’s paper “Mathematics On a Distant Planet,” The American Mathematical Monthly, August-September 1998, pp. 640–650. 4 See Bartle’s award-winning paper “Return to the Riemann Integral,” The American Mathematical Monthly, October 1996, pp. 625–632. He was professor of mathematics at the University of Illinois for many years, and then at Eastern Michigan University.
+10 1 Introduction
+
+
+time, I happened across (on p. 369) the following (Thomas says it’s from the “lifting theory” of aerodynamics):
+ð1
+1
+ffiffiffiffiffiffiffiffiffiffiffi
+1þx 1x
+r
+dx 1⁄4 π:
+Why did I, a kid not yet seventeen who had only recently still been building model airplanes from balsa wood kits and leaky tubes of glue, find that ‘interesting’? I didn’t know then—and I’m not really sure I do even now—except that it just looks ‘mysterious and exotic.’ Now some may snicker at reading that, but I don’t care—by god, to me that aerodynamic integral still looks mysterious and exotic! It’s a line of writing as wonderful as anything you’ll find in Hemingway or Dostoevsky and, unlike with even the greatest fiction, it’s a line that nobody could just make-up. What, after all, does all that strange (to me, then) stuff on the left-hand-side of the equal sign have to do with π? I of course knew even in those long-ago days that π was intimately connected to circles, but I didn’t see any circles on the left. Interesting! This sort of emotional reaction isn’t limited to just amateur mathematicians; professionals can be swept-up by the same euphoria. In 1935, for example, at the end of his presidential address to the London Mathematical Society, the English mathematician G. N. Watson (1886–1965) mentioned this astonishing definite integral:
+ð1
+0
+e 3πx2 sinhðπxÞ
+sinhð3πxÞ dx 1⁄4 1
+e2π=3pffi3ffiffi X1
+n1⁄40
+e 2nðnþ1Þπ
+1þe π
+ð Þ2 1 þ e 3π
+ð Þ2 . . . 1 þ e ð2nþ1Þπ
+ð Þ2:
+Of it he declared that it gave him “a thrill which is indistinguishable from the thrill which I feel when I enter the Sagrestia Nuova of the Capelle Medicee and see before me the austere beauty of the four statues representing Day, Night, Evening, and Dawn which Michelangelo has set over the tombs of Guiliano de’ Medici and Lorenzo de’ Medici.” Wow. Alright, now what does being ‘inside’ an integral mean? I’ll try to answer that by example. Suppose I tell you that
+ð1
+0
+lnð1 þ xÞ
+1 þ x2 dx 1⁄4 π
+8 lnð2Þ:
+You’d probably just shrug your shoulders and say (or at least think it if too polite to actually say it) “Okay. Where did you get that from, a good table of integrals? Which one did you use? I’ll look it up, too.” And so you could, but could you derive the result? That’s what I mean by getting ‘inside’ an integral. It’s the art of starting with the integral on the left side of the equal sign and somehow getting to a computable expression on the right side. (We’ll do this integral later in the book—see (2.2.4).)
+1.4 ‘Interesting’ and ‘Inside’ 11
+
+
+I use the word art with intent. There is no theory to doing definite integrals. Each new integral is a brand new challenge and each new challenge almost always demands a new trick or, at least, a new twist or two to a previous trick. That’s right, a trick. Some people might recoil in horror at that, but a real analyst simply smiles with anticipation at the promise of a righteous struggle. And even if the integral wins for the moment, leaving the analyst exhausted and with a pounding headache, the analyst knows that there is always tomorrow in which to try again.
+1.5 Some Examples of Tricks
+Now, just so you know what I’m talking about when I use the word trick, here’s the first example of a trick in this book (the rest of this book is, essentially, just one new trick after the next!). What goes on the right-hand side of
+ð1
+1
+cos ðxÞ
+eð1=xÞ þ 1 dx 1⁄4 ?
+This integral almost surely looks pretty scary to nearly everybody at first sight; trying to find an F(x) that, when differentiated gives the integrand, certainly doesn’t seem very promising. But in fact the definite integral can be done by a first-year calculus student if that student sees the trick! Play around with this for a while as I work my way towards the stunning revelation of the answer, and see if you can beat me to it. Consider the more general integral
+ð1
+1
+cos ðxÞ
+dðxÞ þ 1 dx
+where d(x) is just about any function of x that you wish. (For the original integral, d(x) 1⁄4 e(1/x).) I’ll impose a restriction on d(x) in just a bit, but not right now. If we then write
+gðxÞ 1⁄4 cos ðxÞ
+dðxÞ þ 1
+then we arrive (of course!) at the integral
+ð1
+1
+gðxÞ dx:
+No matter what g(x) is, we can always write it as the sum of an even function ge(x) and an odd function go(x). That is,
+12 1 Introduction
+
+
+gðxÞ 1⁄4 geðxÞ þ goðxÞ:
+How do we know we can do this? Because we can actually write down what ge(x) and go(x) are. By the definitions of even and odd we have
+gð xÞ 1⁄4 geð xÞ þ goð xÞ 1⁄4 geðxÞ goðxÞ
+and so it is simple algebra to arrive at
+geðxÞ 1⁄4 gðxÞ þ gð xÞ
+2
+and
+goðxÞ 1⁄4 gðxÞ gð xÞ
+2:
+Now,
+ð1
+1
+gðxÞ dx 1⁄4
+ð1
+1
+geðxÞ dx þ
+ð1
+1
+goðxÞ dx 1⁄4
+ð1
+1
+geðxÞ dx
+because by the ‘symmetry’ of an odd function around x 1⁄4 0 we have (think ‘area under the curve’)
+ð1
+1
+goðxÞ dx 1⁄4 0:
+From our original integral, we have
+gðxÞ 1⁄4 cos ðxÞ
+dðxÞ þ 1
+and so
+geðxÞ 1⁄4 1
+2
+cos ðxÞ
+dðxÞ þ 1 þ cos ð xÞ
+dð xÞ þ 1
+or, because cos( x) 1⁄4 cos(x), that is, because the cosine is an even function,
+geðxÞ 1⁄4 cos ðxÞ
+2
+1
+dðxÞ þ 1 þ 1
+dð xÞ þ 1 1⁄4 cos ðxÞ
+2
+dð xÞ þ 1 þ dðxÞ þ 1 dðxÞdð xÞ þ dðxÞ þ dð xÞ þ 1
+1.5 Some Examples of Tricks 13
+
+
+or,
+geðxÞ 1⁄4 cos ðxÞ
+2
+2 þ dð xÞ þ dðxÞ
+dðxÞdð xÞ þ dðxÞ þ dð xÞ þ 1 :
+Okay, suppose we now put a restriction on d(x). Suppose d(x)d( x) 1⁄4 1. This is the case, you’ll notice, for the d(x) in our original integral (1⁄4 e(1/x)) because
+dðxÞdð xÞ 1⁄4 eð1=xÞeð 1=xÞ 1⁄4 e0 1⁄4 1:
+Well, then, you should now see that the numerator and the denominator of all that stuff in the brackets on the right-hand-side of the last expression for ge(x) are equal! That is, everything in the brackets reduces to 1 and so
+geðxÞ 1⁄4 cos ðxÞ
+2
+and our scary integral has vanished like a balloon pricked with a pin:
+ð1
+1
+cos ðxÞ
+eð1=xÞ þ 1 dx 1⁄4
+ð1
+1
+cos ðxÞ
+2 dx 1⁄4 1
+2
+ð1
+1
+cos ðxÞ dx 1⁄4 1
+2 sin ðxÞ
+f g1
+1
+1⁄4 sin ð1Þ sin ð 1Þ
+2 1⁄4 sin ð1Þ 1⁄4 0:8414709 . . . : 5
+Now that’s a trick! MATLAB’s quad agrees, computing a value of 0.8414623. The code syntax is: quad(@(x)cos(x)./(exp(1./x) + 1), 1,1). This was a fairly sophisticated trick, but sometimes even pretty low-level approaches can achieve ‘tricky’ successes. For example, what is the value of
+ð1
+0
+lnðxÞ
+1 þ x2 dx 1⁄4 ?
+Let’s start with the obvious Ð 1
+0 1⁄4Ð 1
+0+Ð 1
+1 . In the first integral on the right, make
+the change of variable t 1⁄4 1/x (and so dx 1⁄4 dt/t2). Then,
+5 Writing sin(1) means, of course, the sine of 1 radian 1⁄4 180
+π 1⁄4 57:3 (not of 1 degree).
+14 1 Introduction
+
+
+ð1
+0
+lnðxÞ
+1 þ x2 dx 1⁄4
+ð1
+1
+ln 1
+t
+1þ 1
+t2
+1
+t2dt 1⁄4
+ð1
+1
+ln 1
+t
+t2 þ 1 dt 1⁄4
+ð1
+1
+ln 1
+t
+t2 þ 1 dt
+1⁄4
+ð1
+1
+lnðtÞ
+t2 þ 1 dt:
+That is, recognizing that t and x are just dummy variables of integration, we have
+Ð1
+01⁄4 Ð 1
+1 . And so we immediately have our result (first derived by Euler):
+ð1:5:1Þ
+This is, in fact, a special case of the more general integral
+ð1
+0
+lnðxÞ
+b2 þ x2 dx:
+See if you can calculate this integral (your answer should, of course, reduce to zero when b 1⁄4 1); if you have trouble with it we’ll evaluate this integral in the next chapter—in (2.1.3)—where you’ll see that knowing the special case helps (a lot!) in doing the general case. For a third example of a trick, let me show you one that illustrates just how clever the early students of the calculus could be in teasing-out the value of a definite integral. This trick dates back to 1719, when the Italian mathematician
+Giulio Fagnano (1682–1766) calculated
+ð1
+0
+dx
+1 þ x2. Today, of course, a first-year
+calculus freshman would recognize the indefinite integral to be tan 1(x), and so the answer is tan 1ð1Þ tan 1ð0Þ 1⁄4 π
+2. But Fagnano’s clever trick does not require
+knowledge of the indefinite integral,6 but only how to differentiate. Here’s how Fagnano did it. Imagine a circle with radius r, centered on the origin of the xy-plane. The arc-length L along the circumference of that circle that is subtended by a central angle of θ is L 1⁄4 rθ. Now, suppose that r 1⁄4 1. Then L 1⁄4 θ and so, with t as a dummy variable of integration,
+6 I am assuming that when you see
+ð1
+a2 þ x2 dx you immediately recognize it as 1
+a tan 1 x
+a. This is one of the few ‘fundamental’ indefinite integrals I’m going to assume you’ve seen
+previously from a first course of calculus. Others are:
+ð1
+x dx 1⁄4 lnðxÞ, Ð ex dx 1⁄4 ex,
+ð
+xn dx 1⁄4 xnþ1
+n þ 1 ðn 61⁄4 1Þ,
+ð ffiffiffiffidffiffixffiffiffiffiffiffiffiffiffi
+a2 x2
+p 1⁄4 sin 1ðxÞ, and Ð ln(x)dx 1⁄4 x ln(x) x.
+1.5 Some Examples of Tricks 15
+
+
+L1⁄4θ1⁄4
+ðθ
+0
+dt:
+Fagnano then played around with this very simple integrand (indeed, how could it possibly be any simpler!?) to make it more complicated! Specifically,
+L1⁄4
+ðθ
+0
+1 cos 2ðtÞ
+1 cos 2ðtÞ
+dt 1⁄4
+ðθ
+0
+1 cos 2ðtÞ cos 2ðtÞþ sin 2ðtÞ cos 2ðtÞ
+dt 1⁄4
+ðθ
+0
+1 cos 2ðtÞ
+1 þ tan 2ðtÞ dt:
+Next, change variable to x 1⁄4 tan(t), which says
+dx 1⁄4 dt
+cos 2ðtÞ :
+Thus,
+L1⁄4
+ð tan ðθÞ
+0
+dx
+1 þ x2:
+Suppose θ 1⁄4 π
+2. Then tan ðθÞ 1⁄4 tan π
+2 1⁄4 1, and of course L is one-fourth the
+circle’s circumference and so equals π
+2 because π
+2 is one-fourth of 2π, the circumference of a unit radius circle. Thus, instantly,
+π
+21⁄4
+ð1
+0
+dx
+1 þ x2:
+By the same reasoning, we instantly have
+π
+41⁄4
+ð1
+0
+dx
+1 þ x2,
+and
+π
+31⁄4
+ðpffi3ffi
+0
+dx
+1 þ x2,
+and
+π
+61⁄4
+ð pffi3ffi=3
+0
+dx
+1 þ x2:
+Pretty clever.
+16 1 Introduction
+
+
+1.6 Singularities
+Tricks are neat, and the discovery of each new one is like the thrill you get when digging through a box of raisins (think ‘routine’ integration methods, good for you, yeah, but still sorta boring) and every now and then coming across a chocolatecovered peanut (think ‘fantastic new trick’). But—one does have to be ever alert for pitfalls that, we hope, quad will be our last-ditch defense against. Here’s an example of what I’m getting at, in which that most common of operations—blindly plugging into a standard integration formula—can lead to disaster.
+Suppose we have the integral I 1⁄4
+ð1
+1
+dx
+x2. The integrand fðxÞ 1⁄4 1
+x
+2 is never
+negative because it’s the square of a real value (from 1 to 1). Thus, we know immediately, from the area interpretation of the Riemann integral, that I > 0. However, from differential calculus we also know that
+d dx
+1
+x1⁄4 1
+x2
+and so, upon integrating, we have
+I1⁄4 1
+x
+1
+1
+1⁄41
+1
+1
+1 1⁄4 1 1 1⁄4 2:
+That’s right, minus 2, which is certainly less than zero. What’s going on with this? The problem is that f(x) blows-up at x 1⁄4 0, right in the middle of the integration interval. The integral is called improper, and x 1⁄4 0 is called a singularity. You have to be ever alert for singularities when you are doing integrals; always, stay away from singularities. Singularities are the black holes of integrals; don’t ‘fall into’ one (don’t integrate across a singularity). You’ll find, when we get to contour integration, this will be very important to keep in mind. Here’s how to do that for our integral. We’ll write I as follows, where ε is an arbitrarily small, positive quantity:
+I1⁄4
+ð1
+1
+dx
+x2 1⁄4 lεi!m0
+ðε
+1
+dx
+x2 þ lεi!m0
+ð1
+ε
+dx
+x2 :
+Then,
+I 1⁄4 lεi!m0
+1 x
+0
+@
+1
+A
+ε
+1
+þ lεi!m0
+1 x
+0
+@
+1
+A
+1
+ε
+1⁄4 lεi!m0
+1 ε
+0
+@
+1
+A1 1
+0
+@
+1
+A
+2
+4
+3
+5 þ lεi!m0
+1 1
+0
+@
+1
+A1
+ε
+0
+@
+1
+A
+2
+4
+3
+5
+1⁄4 lεi!m0
+1
+ε 1 1þ1
+ε
+0
+@
+1
+A 1⁄4 lεi!m0
+2 ε
+0
+@
+1
+A 2 1⁄4 þ1:
+1.6 Singularities 17
+
+
+The integral is (as we expected) positive—in fact, it’s infinitely positive! It certainly is not negative. Notice, too, that our first (incorrect) result of 2 is now understandable—it’s right there in the correct answer, along with the infinite contribution from the singularity that we originally missed.
+Now, to see if you’ve really grasped the problem with the above integral, consider this integral, one made famous in mathematical physics by the Nobel prize-winning physicist Richard Feynman (1918–1988): if a and b are real-valued, arbitrary constants, then
+ð1:6:1Þ
+Do you see the issue here? If a and b have opposite algebraic signs then the righthand side of the above formula is negative. But on the left-hand-side, the integrand is always something squared, no matter what a and b may be, and so the integrand is never negative. We appear to have a conflict. What’s going with this? Hint: ask yourself if the integrand has a singularity and, if so, where is it located?7 (See Challenge Problem 3 at the end of this chapter.) Before leaving the subject of singularities, I should tell you that there are other infinity concerns besides the blowing-up of the integrand that can occur when doing
+integrals. What do we mean, for example, when we write Ð 11f(x) dx ? The area interpretation of the Riemann integral can fail us in this case, even when f(x) is a ‘nice’ function. For example, how much area is under the curve f(x) 1⁄4 sin(x), 1 < x < 1 ? Since sin(x) is an odd function it seems we should be able to argue that there is always a piece of negative area that cancels every piece of positive area, and so we’d like to write
+ð1
+1
+sin ðxÞdx 1⁄4 0:
+But what then about the area under the curve f(x) 1⁄4 cos(x), 1 < x < 1 ? Now we have an even function (it’s just a shifted sine function!) but we can still apparently make the negative/positive area cancellation argument, and so is it true that
+ð1
+1
+cos ðxÞdx 1⁄4 2
+ð1
+0
+cos ðxÞdx 1⁄4 0?
+That is, is it true that
+7 This integral appeared in Feynman’s famous paper “Space-Time Approach to Quantum Electrodynamics,” Physical Review, September 15, 1949, pp. 769–789. Some historical discussion of the integral is in my book Number–Crunching, Princeton 2011, pp. xx–xxi.
+18 1 Introduction
+
+
+ð1
+0
+cos ðxÞdx 1⁄4 0?
+The answer is no, neither Ð 11 sin(x)dx or Ð 11 cos(x)dx exist. We can, however, write what mathematicians call the Cauchy Principal Value of the integral:
+ð1
+1
+fðxÞ dx 1⁄4 limR!1
+ðR
+R
+fðxÞ dx,
+an integral that is zero if f(x) is odd. This approach, using a symmetrical limiting
+operation, means that the Cauchy Principal Value for Ð 11 sin(x)dx does exist (it is zero), even though the integral does not. If, however, we have an f(x) integrand such that limx ! 1f(x) 1⁄4 0 ‘fast
+enough’—that means faster than 1
+x for example, sin ðxÞ
+x —then we don’t have these conceptual difficulties. But even this isn’t enough to fully capture all the subtle problems that can come with infinity. That’s because an integrand like f(x) 1⁄4 cos(x2), which doesn’t go to zero as x ! 1, does have a definite integral over 1 < x < 1 (you’ll recall this integral—called a Fresnel integral—from the Preface). That’s because cos(x2) oscillates faster and faster between 1 as x increases in both directions, and so the positive and negative areas above and below the x-axis individually go to zero faster and faster and so contribute less and less to the total area under the curve (an area which is finite). Our little trick of ‘sneaking-up’ on a singularity can be quite powerful. Consider, for example, the interesting integral
+ð1
+0
+dx
+x3 1:
+When x is between 0 and 1 the integrand is negative, while when x is greater than 1 the integrand is positive. There is obviously a singularity at x 1⁄4 1, with the integrand blowing-up to minus-infinity as x approaches 1 from values less than 1, and blowing-up to plus-infinity as x approaches 1 from values greater than 1. Is it possible, we might wonder, for these two infinite explosions (with opposite signs) to perhaps cancel each other? In fact they do, and to convince you of that I’ll use the ‘sneak’ trick to write our integral as
+ð1 ε
+0
+dx
+x3 1 þ
+ð1
+1þε
+dx x3 1
+and then explore what happens as ε ! 0. In the spirit of this book I’ll first use quad to experimentally study what happens as ε ! 0. In the following table I’ve listed the result of running the following MATLAB command for various, ever smaller, values of ε (stored in the vector e(i)): quad(@(x)1./(x.^3-1),0,1-ei)) + quad(@(x)1./(x.^3-1),1 + ei),1000)
+1.6 Singularities 19
+
+
+ε ð1 ε
+0
+dx
+x3 1 þ
+ð1
+1þε
+dx x3 1 0.1 0.53785 0.01 0.59793 0.001 0.60393 0.0001 0.60453 0.00001 0.60459 0.000001 0.60459 0.0000001 0.60459
+So, from this numerical work it would appear that
+ð1
+0
+dx
+x3 1 1⁄4 0:60459:
+Well, what could this curious number be? As it turns out we can answer this question, exactly, because it proves possible to actually find the indefinite integral! That’s because we can write the integrand as the partial fraction expansion
+1
+x3 1 1⁄4 1
+3ðx 1Þ
+2x þ 1 6ðx2 þ x þ 1Þ
+1
+2ðx2 þ x þ 1Þ
+or, completing the square in the denominator of the last term,
+1
+x3 1 1⁄4 1
+3ðx 1Þ
+2x þ 1 6ðx2 þ x þ 1Þ
+1
+2 xþ1
+2
+2þ3
+4
+h i:
+Each of the individual terms on the right is easily integrated, giving
+ð dx
+x3 1 1⁄4 1
+3 lnðx 1Þ 1
+6 ln x2 þ x þ 1 p1ffi3ffiffi tan 1 2xpþffi3ffiffi 1
+0
+@
+1
+A
+1⁄41
+6 2lnðx 1Þ ln x2 þ x þ 1 p1ffi3ffiffi tan 1 2xpþffi3ffiffi 1
+0
+@
+1
+A
+1⁄41
+6 ln ðx 1Þ2
+x2 þ x þ 1
+8<
+:
+9=
+;
+p1ffi3ffiffi tan 1 2xpffi3ffiþffi 1
+0
+@
+1
+A
+1⁄41
+6 ln x2 2x þ 1
+x2 þ x þ 1
+8<
+:
+9=
+;
+p1ffi3ffiffi tan 1 2xpþffi3ffiffi 1
+0
+@
+1
+A:
+The argument of the log function is well-behaved for all x in the integration interval except at x 1⁄4 1 where we get log(0), and so let’s again use the sneak trick,
+20 1 Introduction
+
+
+but this time analytically. That is, we’ll integrate from 0 to 1 ε and add it to the integral from 1 + ε to 1. Then we’ll let ε ! 0. So, noticing that the log function vanishes at both x 1⁄4 0 and at x 1⁄4 1 (each give log(1)), we have
+ð1
+0
+dx
+x3 1 1⁄4 limε!0
+1
+6 ln ð1 εÞ2 2ð1 εÞ þ 1
+ð1 εÞ2 þ ð1 εÞ þ 1
+8<
+:
+9=
+;
+p1ffi3ffiffi tan 1 2ð1 εÞ þ 1
+pffi3ffiffi
+8<
+:
+9=
+;
+2
+4
+þp1ffi3ffiffi tan 1 p1ffi3ffiffi
+!#
+þ limε!0
+p1ffi3ffiffi tan 1ð1Þ 1
+6 ln ð1 þ εÞ2 2ð1 þ εÞ þ 1
+ð1 þ εÞ2 þ ð1 þ εÞ þ 1
+8<
+:
+9=
+;
+2
+4
+0
+@
+þp1ffi3ffiffi tan 1 2ð1 þ εÞ þ 1
+pffi3ffiffi
+8<
+:
+9=
+;
+#
+:
+The log terms expand as
+1
+6 ln 1 2ε þ ε2 2 þ 2ε þ 1
+1 2ε þ ε2 þ 1 ε þ 1
+8<
+:
+9=
+;
+1
+6 ln 1 þ 2ε þ ε2 2 2ε þ 1
+1 þ 2ε þ ε2 þ 1 þ ε þ 1
+8<
+:
+9=
+;
+1⁄41
+6 ln ε2
+ε2 3ε þ 3
+8<
+:
+9=
+;
+1
+6 ln ε2
+ε2 þ 3ε þ 3
+8<
+:
+9=
+;1⁄41
+6 ln ε2 þ 3ε þ 3
+ε2 3ε þ 3
+8<
+:
+9=
+;:
+As ε ! 0 this last log term obviously vanishes. The tan 1 terms expand as
+p1ffi3ffiffi tan 1 2 2ε þ 1
+pffi3ffiffi
+8<
+:
+9=
+; þ p1ffi3ffiffi tan 1 p1ffi3ffiffi
+!
+p1ffi3ffiffi tan 1ð1Þ
+þp1ffi3ffiffi tan 1 2 þ 2ε þ 1
+pffi3ffiffi
+8<
+:
+9=
+; 1⁄4 p1ffi3ffiffi tan 1 3 pffi23ffiffiε
+8<
+:
+9=
+; þ p1ffi3ffiffi tan 1 p1ffi3ffiffi
+!
+p1ffi3ffiffi π
+2
+0
+@
+1
+A þ p1ffi3ffiffi tan 1 3 þpffi3ffi2ffi ε
+8<
+:
+9=
+;
+or, as ε ! 0, this reduces to
+1.6 Singularities 21
+
+
+p1ffi3ffiffi tan 1 3pffi3ffiffi
+8<
+:
+9=
+; þ p1ffi3ffiffi tan 1 p1ffi3ffiffi
+!
+p1ffi3ffiffi π
+2
+0
+@
+1
+A þ p1ffi3ffiffi tan 1 3pffi3ffiffi
+8<
+:
+9=
+;
+1⁄4 p1ffi3ffiffi tan 1 p1ffi3ffiffi
+!
+p1ffi3ffiffi π
+2
+0
+@
+1
+A 1⁄4 p1ffi3ffiffi tan 1 p1ffi3ffiffi
+! π 2
+3
+5 1⁄4 p1ffi3ffiffi π
+6
+π 2
+2
+4
+3
+5
+2
+4
+1⁄4π
+3pffi3ffiffi 1⁄4 πpffi3ffiffi
+9:
+So, at last,
+ð1:6:2Þ
+which is, indeed, the curious 0.60459.
+1.7 Dalzell’s Integral
+The rest of this book is simply a lot more tricks, some even more spectacular than the one I showed you in Sect. 1.5. But why, some may ask, should we study tricks? After all, with modern computer software even seemingly impossible integrals can be done far faster than a human can work. Please understand that I’m not talking about numerical integrators, like MATLAB’s quad (although far less rapidly, mathematicians could do that sort of thing centuries ago!). I’m talking about symbolic integrators like, for example, the on-line (available for free) Mathematica symbolic integrator software that needs only a fraction of a second to evaluate the indefinite aerodynamic integral from earlier in this Introduction (Sect. 1.4):
+ð ffiffiffiffiffiffiffiffiffiffiffi
+1þx 1x
+r
+dx 1⁄4 ffiffiffiffiffiffiffiffiffiffiffiffiffi
+1 x2
+p þ 2 sin 1
+ffiffiffiffiffiffiffiffiffiffiffi
+xþ1 2
+r!
+:
+You can verify that this is indeed correct by simply differentiating the righthand-side and observing the integrand on the left-hand-side appear. And when the lower and upper limits of 1 and +1, respectively, are plugged-in, we get π, just as Professor Thomas wrote in his book. Now, I’d be the first to admit that there is a lot of merit to using automatic, computer integrators. If I had to do a tough integral as part of a job for which I was
+22 1 Introduction
+
+
+getting paid, the first thing I would do is go to Wolfram (although, I should tell you,
+Wolfram fails on the indefinite
+ð cos ðxÞ
+dðxÞ þ 1 dx that we solved for a definite case with
+our little even/odd trick—fails, almost surely, since there is no indefinite integral). That admission ignores the fun of doing definite integrals, however, the same sort of fun that so many people enjoy when they do Sudoku puzzles. Battling Sudoku puzzles or integrals is a combat of wits with an ‘adversary’ (the rules of math) that tolerates zero cheating. If you succeed at either, it ain’t luck—it’s skill. Now, just to show you I’m serious when I say doing definite integrals can be fun, consider
+I1⁄4
+ð1
+0
+x4ð1 xÞ4
+1 þ x2 dx,
+which first appeared (in 1944) on the pages of the Journal of the London Mathematical Society. What’s so ‘fun’ about this, you ask? Well, look at what we get when I is evaluated. Multiplying out the numerator, and then doing the long division of the result by the denominator, we get
+I1⁄4
+ð1
+0
+x6 4x5 þ 5x4 4x2 þ 4 4
+1 þ x2 dx,
+integrations that are all easily done to give
+I1⁄4
+ð1
+0
+x4ð1 xÞ4
+1 þ x2 dx 1⁄4 x7
+7
+2x6
+3 þ x5 4x3
+3 þ 4x 4 tan 1ðxÞ
+0
+@
+1
+A
+1
+0
+1⁄41
+7
+2
+3þ1 4
+3 þ 4 π:
+That is,
+ð1:7:1Þ
+Since the integrand is never negative, we know that I > 0 and so we have the sudden (and, I think, totally unexpected) result that 22
+7 > π. That is, the classic schoolboy approximation to π is an overestimate, a fact that is not so easy to otherwise establish. Our calculations actually give us more information than just 22
+7 > π ; we can
+also get an idea of just how good an approximation 22
+7 is to π. That’s because if we replace the denominator of the integrand with 1 we’ll clearly get a bigger value for
+1.7 Dalzell’s Integral 23
+
+
+the integral, while if we replace the denominator with 2 we’ll get a smaller value for the integral. That is,
+ð1
+0
+x4ð1 xÞ4
+2 dx <
+ð1
+0
+x4ð1 xÞ4
+1 þ x2 dx 1⁄4 22
+7 π<
+ð1
+0
+x4ð1 xÞ4 dx
+or, multiplying out, integrating, and plugging-in the limits,
+1 2
+1 5
+2
+3þ6
+7
+1
+2þ1
+91⁄4 1
+1, 260 < 22
+7 π< 1
+5
+2
+3þ6
+7
+1
+2þ1
+9 1⁄41
+630
+or, multiplying through by 1 (which reverses the sense of the inequalities),
+1
+630 < π 22
+7< 1
+1, 260
+or, at last,
+22 7
+1
+630 < π < 22
+7
+1
+1, 260 :
+To five decimal places, this says 3.14127 < π < 3.14206, which nicely and fairly tightly bounds π (1⁄43.14159 . . .). Now who would deny that this sort of thing is fun?! The author of the 1944 paper that first published this gem was D. P. Dalzell, a curious fellow who is mostly a ghost in the history of mathematics. All of the modern references to Dalzell’s integral make no mention of the man, himself, even though he wrote a number of high quality mathematical papers and had an excellent reputation among mathematicians. Dalzell didn’t help his cause by his habit of always using his initials. In fact, he was Donald Percy Dalzell (1898–1988), who graduated in 1921 from St. John’s College, Cambridge, in mathematics and mechanical sciences. He received an MA degree in 1926, and his career was not as a mathematician but rather as a chartered engineer (a term used in England for a masters level professional engineer). He worked for a number of years for the Standard Telephones and Cables Company in London, and had two patents on electrical communication cables. The only known photograph of him is the one on the MacTutor math web-site (taken at the 1930 Edinburgh Mathematical Society Colloquium at St. Andrews).
+1.8 Where Integrals Come From
+Just about all of the discussions in this book are in the form of ‘here’s an integral, how can we evaluate it?’ Mathematicians, of course, can simply ‘make-up’ integrals off the tops of their heads, but engineers and physicists generally encounter
+24 1 Introduction
+
+
+integrals resulting from the analysis of a physical problem. I thought, therefore, that I should include examples of that sort of origin of integrals, too, in addition to the pure imagination of mathematicians. Still, with each of the first two examples in this section I have made an effort to keep the interest of mathematicians, too, by selecting physical problems, each giving birth to an integral, that are mathematical problems at heart; both of these examples come from probability. For a third example of where interesting integrals ‘come from,’ I’ve selected a problem that I first came across while reading Irresistible Integrals, a book I mentioned in the Preface. I think it nicely illustrates how mathematicians can need motivation, too (just like physicists), for some of the ‘weird’ integrals they conjure-up! So, to start, here is what I call ‘The Circle in a Circle’ problem. Imagine a circle (let’s call it C1) that has radius a. We then chose at random,8 and independently, three points from the interior of that circle. These three points, if non-collinear, uniquely determine another circle, C2. C2 may or may not be totally contained within C1. What is the probability that C2 lies totally inside C1?9 To answer this, imagine that after picking the three points we’ve drawn C2 as shown in Fig. 1.8.1. There I’ve shown C2 as totally inside C1, but that’s just because I arbitrarily decided to do it that way instead of showing the alternative. Without any loss of generality, we can further imagine that the horizontal axis passes through the center of C2 (as shown) because we can always rotate the figure to make that so. The center of C2 is taken to be distance r from the center of C1, and the radius of C2 is taken to be x. Next, imagine a thin, circular band of width Δx is drawn that encloses the circumference of C2. The area of this band is, to a first approximation that gets better and better as Δx ! 0, given by 2πx Δx. The probability a point selected at random from the interior of C1 is from this band is, therefore, the ratio of the area of the band to the area of C2 (see note 8 again):
+2πx Δx
+πa2 1⁄4 2
+a2 x Δx:
+(I’ll comment further on this claim, in just a bit.) Since the three points that determine C2 all fall inside the band (by definition!), and they are independently selected, then the probability of that event is
+8 ‘At random’ has the following meaning. If we look at any tiny patch of area dA in the interior of C1, a patch of any shape, then the probability a point is selected from that area patch is dA divided by the area of C1. We say that each of the three points is selected uniformly from the interior of C1. 9 I think it almost intuitively obvious that the probability is scale-invariant (the same for any value of a), but just in case it isn’t obvious for you I’ll carry the radius of C1 along explicitly. At the end of our analysis you’ll see that the scale-setting parameter a has disappeared, proving my claim.
+1.8 Where Integrals Come From 25
+
+
+2
+a2 x Δx
+3
+1⁄48
+a6 x3fΔxg2Δx 1⁄4 8
+a6 x3ΔA Δx
+where ΔA 1⁄4 {Δx}2 is the differential area in rectangular coordinates. (I’ll elaborate on this claim, in just a bit.) I’ll write ΔA and Δx as dA and dx, respectively, from now on. Obviously if x 1⁄4 0 (that is, if C2 is a degenerate circle that is actually a point) we see that C2 is necessarily inside C1. In fact, as x increases from 0, it can get as large as a r before C2 penetrates C1. So, the probability the C2 circle, centered on a particular line (the horizontal axis), is totally within C1 is
+8 dA a6
+ða r
+0
+x3dx 1⁄4 8 dA
+a6
+x4
+4
+ar
+0 1⁄4 2 dA
+a6 ða rÞ4:
+Fig. 1.8.1 A ‘Circle Inside A Circle’
+26 1 Introduction
+
+
+In general, of course, the center of C2 could fall anywhere inside C1, with any value of r from 0 to a occurring, and so we need to integrate the above differential probability (differential because of the dA) over the entire interior of C1. This is most easily done by writing dA in polar coordinates, as r dr dθ, and so the probability we are after is
+ð 2π
+0
+ða
+0
+2
+a6 ða rÞ4r dr dθ 1⁄4 2
+a6
+ð2π
+0
+ða
+0
+ða rÞ4r dr
+8<
+:
+9=
+;dθ 1⁄4 4π
+a6
+ða
+0
+ða rÞ4r dr,
+since the θ-integral is obviously just 2π (there is no θ-dependency in the integrand). The remaining r-integral is easily done by making the change of variable u 1⁄4 a r (and so du 1⁄4 dr). So,
+ða
+0
+ða rÞ4r dr 1⁄4
+ð0
+a
+u4ða uÞð duÞ 1⁄4
+ða
+0
+u4ða uÞdu 1⁄4 a
+ða
+0
+u4du
+ða
+0
+u5du
+1⁄4 a u5
+5
+8<
+:
+9=
+;
+a
+0
+u6
+6
+8<
+:
+9=
+;
+a
+0
+1⁄4 a6
+5
+a6
+6 1⁄4 a6
+30 :
+Thus, the probability that C2 lies totally inside C1 is
+4π a6
+a6
+30 1⁄4 4π
+30 1⁄4 2π
+15 1⁄4 0:418879 . . . :
+Notice that the radius of C1, a, has cancelled away, which supports my earlier claim that the probability is scale-invariant. Well, all this is fine as it stands, BUT—how do we really know that one of our admittedly casual manipulations along the way didn’t have a hidden flaw in it?10 (Like the claim, for example, that {Δx}2 is the differential area in rectangular coordinates, in which I’ve replaced the Δy in the usual dA 1⁄4 ΔxΔy with another Δx. Or, what about the claim a randomly selected point from the interior of C1 is in the Δx band around C2, as that assumes C2 is totally inside C1?) The integral we evaluated was not a technically difficult one to do, but how do we know we arrived at the correct integral? This is a question, often confronting the engineering analyst, which might not be of great concern to a pure mathematician who is simply looking for an ‘interesting integral.’
+10 The analysis I’ve just taken you through is the one given on pp. 817–818 of Edwards’ book that I mentioned in the Preface. The result of 2π
+15 is the answer derived by Edwards.
+1.8 Where Integrals Come From 27
+
+
+When we ‘check’ integrals that are just given to us, we’ll use quad or int, but when we are faced with this new type of question we need to do something different. What we’ll do still uses a computer, but now we’ll simulate the physical process of drawing a circle C2 using points chosen randomly from the interior of a given circle, C1. That is, our computer will ‘draw’ many such random C2 circles and literally count the fraction of them that are totally inside C1. The computer code that accomplishes this will be developed by an analysis that is distinct, separate, and independent of the mathematical arguments used to arrive at the integral in our theoretical result. So, here’s how to create what physicists call a Monte Carlo simulation of the problem, a technique that in the pre-computer days of the 1920s Edwards could only have imagined in a science fiction fantasy. Given three points that are not collinear, p1, p2, and p3, where p1 1⁄4 (x1, y1), p2 1⁄4 (x2, y2), and p3 1⁄4 (x3, y3), we form two chords: chord a as p1p2 and chord b as p2p3, with centers as x1þx2
+2 ; y1þy2
+2 and x2þx3
+2 ; y2þy3
+2 , respectively. The equations of these two chords are
+ya 1⁄4 ma x x1
+ð Þ þ y1
+and
+yb 1⁄4 mb x x2
+ð Þ þ y2
+where ma and mb are the slopes of chord a and chord b, respectively. In fact,
+ma 1⁄4 y2 y1
+x2 x1
+and
+mb 1⁄4 y3 y2
+x3 x2
+:
+The center of C2 is the intersection point of the perpendicular bisectors of the two chords (dashed lines in Fig. 1.8.1). The slope of a line perpendicular to a line with slope m is the negative reciprocal of m, and so the equations of the perpendicular bisectors are
+yA 1⁄4 1
+ma
+x x1 þ x2
+2 þ y1 þ y2
+2
+and
+yB 1⁄4 1
+mb
+x x2 þ x3
+2 þ y2 þ y3
+2:
+28 1 Introduction
+
+
+The intersection point of the bisectors (the center of C2) is such that yA 1⁄4 yB and so, solving for the x-ordinate of the center, we have
+xc 1⁄4 mamb y1 y3
+ð Þ þ mb x1 þ x2
+ð Þ ma x2 þ x3
+ðÞ 2 mb ma
+ðÞ :
+The value of yc, the y-ordinate of the center, is found by substituting xc into either of the yA, yB equations. Finally, the distance of the center of C2 from the
+center of C1 is ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+xc2 þ yc2
+p . The radius of C2 is the distance between the center of C2 and any one of the three points p1, p2, p3. As long as the sum of these two distances is no more than 1, C2 is inside C1. Otherwise, C2 penetrates C1. The MATLAB code circles.m performs all of this grubby number-crunching, over and over, a total of one million times, keeping track of how many of those times C2 is inside C1. Running circles.m numerous times produced estimates11 for the probability C2 is inside C1 ranging over the interval 0.39992 to 0.400972. Comparing this interval with the theoretical result we computed earlier, 0.418879, leaves one (me, anyway) with a feeling of concern. A million samples is a lot of samples, and yet we have a disagreement between theory and ‘experiment’ of about 5 %. That’s not an insignificant difference. In addition, you’ll notice that the code’s interval of estimates does not include the theoretical result while, in general, multiple Monte Carlo computer simulations will nearly always bound a theoretical result, sometimes overestimating and other times underestimating the theoretical value. It is difficult to look at the simulation results and not to come away with the feeling that the actual probability C2 is inside C1 is exactly 0.4. That is, 2
+51⁄4 2
+15=3 rather than 2π
+15 1⁄4 2
+15=π. But that’s simply speculation on my part.
+Why the lack of better agreement between theory and experiment? I don’t know. Perhaps there is a subtle error in the theoretical analysis. Or perhaps I made an error in the code. But it doesn’t matter, for this book. My only point with this example is to show you how a theoretical analysis (involving an integral) and a computer can work together. Something is not quite right here, but I’m going to leave it to some enterprising reader to dig it out. If that reader is you, send your work to me and I’ll feature it in the second edition of this book!
+11 This interval of estimates is a result of the code’s use of a random number generator (with the rand command)—every time we run the code we get a new estimate that is (slightly) different from the estimates produced by previous runs.
+1.8 Where Integrals Come From 29
+
+
+circles.m
+For a second example of where integrals come from, let’s go back to June 1827, when the Scottish botanist Robert Brown (1773–1858) observed (through a one-lens microscope, that is, a magnifying glass, with a magnification in excess of 300) the chaotic motion of tiny grains of plant pollen suspended in water drops. This motion had earlier been noticed in passing by others, but Brown took the time to publish what he saw in a September 1828 paper in the Philosophical Magazine, and thereby initiated a search for what was going on. The German-born
+30 1 Introduction
+
+
+physicist Albert Einstein (1879–1955), in a series of papers published between 1905 and 1908, applied statistical mechanics to show that what is now called Brownian motion is the result of the random bombardment of the particles by the molecules of the suspension medium. Indeed, Brownian motion is viewed as strong macroscopic experimental evidence for the reality of molecules (and so of atoms, too). Figure 1.8.2 shows four typical paths of particles executing Brownian motion in two dimensions,12 and they are pretty erratic. In fact, in the early 1920s the American mathematician Norbert Wiener (1894–1964) made a deep analysis of the mathematics of Brownian motion (Einstein explained the physics), studying in particular what happens in the limit of a particle being continuously hit by molecules (that is, successive hits are separated by vanishingly small time intervals).
+Fig. 1.8.2 Typical paths of two-dimensional Brownian motion (each 1,000 steps)
+12 Imagine that we have defined the maximum absolute value of a step, which will be our unit distance. Then, in one dimension (call it x) the particle moves, after each molecular hit, a distance randomly selected from the interval 1 to +1. In a second, perpendicular direction (call it y) the particle moves, after each molecular hit, a distance randomly selected from the interval 1 to +1. Figure 1.8.2 shows the combined result of these two independent motions for four particles, each for 1,000 hits (the four curves are MATLAB simulations).
+1.8 Where Integrals Come From 31
+
+
+In that limit, Brownian motion becomes what mathematicians somewhat forbiddingly call a Wiener stochastic random process. Each realization of such a process is called a ‘Wiener random walk,’ and they are continuous curves that are so kinky they fail, at almost every point, to have a derivative (that is, to have a direction)! Now, suppose at time t 1⁄4 0 we put a particle at the origin of a plane and then watch it execute a one-dimensional Wiener walk on the x-axis. Where will it be at some later time t > 0? Certainly it will always be on the x-axis, but where? Since the walk is random, the best we can do is give the probability the particle will be somewhere, and this was one of the first things Einstein calculated in 1905. To be specific, let’s write W(x, t) as the probability the particle will be somewhere in the interval (x, x + Δx) at time t. (The W is, of course, in honor of Wiener.) Let’s assume this probability is, for very short intervals, linear in Δx (i.e., double the length the of the interval and so double the probability the particle is there), and so
+Wðx; tÞ 1⁄4 fðx; tÞΔx
+where f(x, t) is called the probability density function of the Wiener walk (a density because we multiply it by the interval length Δx to get the probability). Einstein showed, through ingenious physical arguments (which we can ignore here), that f(x, t) is the solution to the second-order partial differential equation
+∂f
+∂t 1⁄4 D ∂2f
+∂x2
+where D is a constant. (D is determined by a number of physical constants, like the mass of the particle and the temperature, and Einstein derived a formula for D, but for us it is sufficient to just write D.) This differential equation is, in fact, a famous one in mathematical physics, called the heat or diffusion equation, and so D is called the diffusion constant. In the usual appearance of this equation, the function being solved for is the temperature in a solid as a function of location and time, but Einstein showed that the probability density function for the Wiener walk satisfies the very same equation. Amazing! The solution for f(x, t) is
+fðx; tÞ 1⁄4 e x2=4Dt
+2 ffiffiffiffiffiffiffiffi
+πDt
+p,
+which is easily verified by direct substitution, although it can be formally derived using nothing but simple combinatorial (that is, purely mathematical) arguments.13 Since the particle has to be somewhere (I do hope that is obvious!) it must be true
+13 If you are curious about the details of such a derivation, you can find them in my book Mrs. Perkins’s Electric Quilt, Princeton University Press 2009, pp. 263–267.
+32 1 Introduction
+
+
+that if we integrate the probability density over the entire x-axis we have to get a probability of 1. That is,
+ð1
+1
+fðx; tÞdx 1⁄4 1
+for all t 0.14 From elementary probability theory we know the average value of x, at any time t, is
+< x >1⁄4
+ð1
+1
+x fðx; tÞdx 1⁄4 0:
+This is mathematically so because f(x, t) is even and so the integrand is an odd function of x, and it is physically so because a one-dimensional Wiener walk is equally likely to move in either direction at every instant in time. And yet, as Fig. 1.8.2 clearly illustrates, a two-dimensional Wiener walk does tend to slowly migrate away in absolute distance from the origin at t increases. A measure of this drift is the average squared value of x (because then the individual horizontal (and vertical) movements of the particle that have opposite signs don’t tend to cancel each other). So, like Einstein, let’s calculate
+< x2 >1⁄4
+ð1
+1
+x2 fðx; tÞdx 1⁄4 1
+2 ffiffiffiffiffiffiffiffi
+πDt
+p
+ð1
+1
+x2 e x2=4Dtdx
+or, since the integrand is an even function of x,
+< x2 >1⁄4 ffiffi1ffiffiffiffiffiffi
+πDt
+p
+ð1
+0
+x2 e x2=4Dtdx:
+Making the obvious change of variable u 1⁄4 x2
+4Dt, we have
+du
+dx 1⁄4 2x
+4Dt 1⁄4 x
+2Dt
+and so
+dx 1⁄4 2Dt
+x du:
+Or, since x 1⁄4 2 ffiffiDffiffitffi
+p pffiuffiffi, we have
+14 For a proof of this, see Mrs. Perkins’s, pp. 282–283.
+1.8 Where Integrals Come From 33
+
+
+dx 1⁄4 2Dt
+2 ffiffiDffiffitffi
+p dpuffiuffiffi 1⁄4 ffiffiDffiffitffi
+p pduffiuffiffi :
+Thus,
+< x2 >1⁄4 ffiffi1ffiffiffiffiffiffi
+πDt
+p
+ð1
+0
+4Dt u e u ffiffiDffiffitffi
+p dpuffiuffiffi 1⁄4 Dtp4ffiπffiffi
+ð1
+0
+pffiuffiffi e u du:
+At this point we actually have Einstein’s basic result that < x2 > varies linearly with t because, whatever the value of the integral, we know it is simply a number. For us in this book, however, the calculation of the integral (which has appeared in a natural way in a physical problem) is the challenge. In Chap. 4 we’ll do this calculation—see (4.2.8)—and find that the integral’s value is 1
+2
+pffiπffiffi. So (and just as Einstein wrote), < x2 > 1⁄4 2Dt. For my third example of where integrals come from, this time from pure mathematics, just imagine someone has just dropped this on your desk: show that
+ð1
+1
+fxg 1
+2
+x dx 1⁄4 1 þ ln ffi2ffiffiffiπffi
+p 1⁄4 0:08106 . . . ,
+where {x} denotes the fractional part of x (for example, {5.619} 1⁄4 0.619 and {7} 1⁄4 0). Holy cow!, I can just hear most readers exclaim, how do you prove something like that? The authors of Irresistible Integrals outline a derivation (see their pp. 92–93) but skip over a very big step, with just a tiny hint at how to proceed. At least as interesting as the derivation, itself, is that the integral was not simply ‘made-up out of the blue,’ but is actually the result of a preliminary analysis. Before getting into the derivation details, it is useful to get a ‘physical feel’ for the integral. In Fig. 1.8.3 the integrand is plotted over the interval 1 x 20. You can see from that plot that the integrand starts off with a negative area over the interval 1 x 1.5, which is then partially cancelled with positive area from 1.5 x 2, followed by a negative area from 2 x 2.5, which is then almost cancelled by positive area from 2.5 x 3, and so on. These alternating area cancellations are never quite total, but as x ! 1 the area cancellations do become ever closer to total, which physically explains why the integral exists (doesn’t blowup). Since the negative areas are always slightly bigger in magnitude than the positive ones, the final slightly negative value for the integral does make sense. We can numerically check these observations with quad, over the integration interval in Fig. 1.8.3. Thus, quad(@(x)(x-floor(x)-0.5)./x,1,20) 1⁄4 0.0769. . ., where floor(x) computes the largest integer less than x. That is, floor(x) rounds x down and so x – floor(x) 1⁄4 {x}. This is in pretty good agreement with the Irresistible Integrals theoretical result.
+34 1 Introduction
+
+
+We start with a famous result in mathematics, Stirling’s asymptotic formula for n!:
+n! ffi2ffiffiffiπffi
+p nnþ1
+2 e n,
+named after the Scottish mathematician James Stirling (1692–1770)—although it is known that the French mathematician Abraham de Moivre (1667–1754) knew an equivalent form at the same time (or even earlier)—who published it in 1730. Factorials get very large, very fast (my hand calculator first fails at 70!), and Stirling’s formula is quite useful in computing n! for large n. It is called asymptotic because, while the absolute error in the right-hand side in evaluating the left-hand side blows-up as n ! 1 the relative error goes to zero as n ! 1 (that’s why ~ is used instead of 1⁄4). That is,
+limn!1
+n!
+ffiffiffiffiffiffi
+2π
+p nnþ1
+2e n1⁄41
+or, alternatively,
+limn!1
+n!
+nnþ1
+2 e n 1⁄4 ffi2ffiffiffiπffi
+p:
+Tuck this away in your memory because we’ll use it at the end of our derivation of the above integral. So, here we go.
+Fig. 1.8.3 The Irresistible Integrals integrand
+1.8 Where Integrals Come From 35
+
+
+We start by writing
+ln{n !} 1⁄4 ln{n(n 1)(n 2) . . . (3)(2)(1)} 1⁄4 ln(n) + ln(n 1) + . . . + ln(2) + ln(1)
+or, since ln(1) 1⁄4 0,
+lnfn!g 1⁄4 Xn
+k1⁄42 lnðkÞ:
+Next, first notice that since
+ðk
+1
+dx
+x 1⁄4 lnðxÞ
+f gk
+1 1⁄4 lnðkÞ
+then
+lnfn!g 1⁄4 X n
+k1⁄42
+ðk
+1
+dx
+x,
+and then further notice that
+ðk
+1
+dx
+x 1⁄4 Xk 1
+j1⁄41
+ðjþ1
+j
+dx
+x:
+Thus,
+ln n!
+f g 1⁄4 Xn
+k1⁄42
+Xk 1
+j1⁄41
+ð jþ1
+j
+dx
+x:
+So far, so good. It is at this point, however, that the authors of Irresistible Integrals write that the next thing to do is “exchange the order of the two sums,” and then they immediately write
+lnfn!g 1⁄4
+ðn
+1
+n bxc
+x dx
+where the notation bxc means the integer part of x (for example, b5.619c 1⁄4 5). Clearly,
+x 1⁄4 bxc þ fxg:
+This ‘exchange’ step may look mysterious to you (it did to me, at first!), but here’s how to see it. Write down the terms of the inner sum for each value of k as that index goes from 2 to n (the outer sum):
+36 1 Introduction
+
+
+k1⁄42:
+ð2
+1
+k1⁄43:
+ð2
+1
+þ
+ð3
+2
+k1⁄44:
+ð2
+1
+þ
+ð3
+2
+þ
+ð4
+3
+...........................
+k1⁄4n:
+ð2
+1
+þ
+ð3
+2
+þ
+ð4
+3
+þþ
+ðn
+n1
+:
+As written, the double summation adds all these integrals horizontally, across row by row. Exchanging the order of the sums simply means to add all the integrals vertically, down column by column. You get the same answer, either way! Thus,
+lnfn!g 1⁄4 ðn 1Þ
+ð2
+1
+dx
+x þ ðn 2Þ
+ð3
+2
+dx
+x þ ðn 3Þ
+ð4
+3
+dx
+xþ þ
+ðn
+n1
+dx x
+1⁄4
+ð2
+1
+ðn 1Þ
+x dx þ
+ð3
+2
+ðn 2Þ
+x dx þ
+ð4
+3
+ðn 3Þ
+x dx þ þ
+ðn
+n1
+1
+x dx:
+The general form of the terms in the last summation is, with 1 j n 1,
+ðjþ1
+j
+ðn jÞ
+x dx 1⁄4
+ð jþ1
+j
+n bxc
+x dx
+because, for the integration interval j x < j + 1, we have by definition that bxc 1⁄4 j. Thus,
+lnfn!g 1⁄4
+ðn
+1
+n bxc
+x dx
+as claimed in Irresistible Integrals. Now, since
+bxc 1⁄4 x fxg
+then
+n bxc 1⁄4 n x fxg
+1⁄2 1⁄4 n x þ fxg:
+So,
+1.8 Where Integrals Come From 37
+
+
+lnfn!g 1⁄4
+ðn
+1
+n x þ fxg
+x dx 1⁄4
+ðn
+1
+n
+x dx
+ðn
+1
+dx þ
+ðn
+1
+fxg
+x dx
+1⁄4 n lnðnÞ ðn 1Þ þ
+ðn
+1
+fxg
+x dx 1⁄4 n lnðnÞ n þ 1 þ 1
+2 lnðnÞ þ
+ðn
+1
+fxg 1
+2
+x dx
+1⁄4 nþ1
+2
+0
+@
+1
+AlnðnÞ n þ 1 þ
+ðn
+1
+fxg 1
+2
+x dx
+1⁄4 ln nnþ 1
+2 þ ln e n
+ð Þþ1þ
+ðn
+1
+fxg 1
+2
+x dx
+1⁄4 ln nnþ 1
+2 e n þ ln e1þ
+ðn
+1
+fxg 1
+2
+x dx
+!
+1⁄4 ln nnþ 1
+2
+e ne
+1þ
+ðn
+1
+fxg 1
+2
+x dx
+0
+@
+1
+A:
+So,
+n! 1⁄4 nnþ1
+2 e ne
+1þ
+ðn
+1
+fxg 1
+2
+x dx
+or,
+e
+1þ
+ðn
+1
+fxg 1
+2
+x dx
+1⁄4 n!
+nnþ1
+2e n
+or, if we now let n ! 1 and recall Stirling’s formula, we have
+e
+1þ
+ð1
+1
+fxg 1
+2
+x dx
+1⁄4 ffi2ffiffiffiπffi
+p:
+Thus,
+1þ
+ð1
+1
+fxg 1
+2
+x dx 1⁄4 ln ffi2ffiffiffiπffi
+p
+and so, just as Irresistible Integrals claimed,
+38 1 Introduction
+
+
+ð1:8:1Þ
+To really be sure you’ve understood the derivation of (1.8.1), try your hand at the second challenge problem of Chap. 5 (when you get there).
+1.9 Last Words
+In a rightfully famous (and very funny) collection of autobiographical essays, physicist Richard Feynman writes15
+I had learned to do integrals by various methods shown in a book that my high school teacher Mr. Bader had given me. . . . it was for a junior or senior course in college. It had Fourier series, Bessel functions, determinants, elliptic functions—all kinds of wonderful stuff that I didn’t know anything about. That book also showed how to differentiate parameters under the integral sign—it’s a certain operation. It turns out that’s not taught very much in the universities; they don’t emphasize it. But I caught on how to use that method, and I used that one damn tool again and again. So, because I was self-taught using that book, I had peculiar methods of doing integrals. The result was, when guys at MIT or Princeton had trouble doing a certain integral, it was because they couldn’t do it with the standard methods they had learned in school. If it was contour integration, they would have found it; if it was a simple series expansion, they would have found it. Then I come along and try differentiating under the integral sign, and often it worked. So I got a great reputation for doing integrals, only because my box of tools was different from everybody else’s, and they had tried all their tools on it before giving the problem to me.
+Feynman was writing of his experiences in the late 1930s, long before Wolfram’s on-line symbolic integrator was even just a science fiction fantasy, much less actually available. And so while he was clearly having fun doing integrals, there was also a real pay-off to his knowing a ‘trick’ that others didn’t know. Later in the same book he writes16 of an encounter he had with another analyst who was stumped by an integral that had appeared in his work during the atom bomb project in the Second World War:
+When one of the guys was explaining [his] problem, I said, ‘Why don’t you do it by differentiating under the integral sign?’ In half an hour he had it solved, and they’d been working on it for three weeks. So, I did something, using my ‘different box of tools.’
+Later in this book I’ll show you numerous examples of Feynman’s favorite trick of ‘differentiating under the integral sign’ (which can be traced all the way back to
+15 In the essay titled “A Different Box of Tools,” in Surely You’re Joking, Mr. Feynman!, W. W. Norton 1985, pp. 84–87. 16 In the essay “Los Alamos from Below” in Surely You’re Joking, Mr. Feynman!, pp. 107–136.
+1.9 Last Words 39
+
+
+Leibniz in the late seventeenth century), although it seems the final form of it that we use today is really a post-Leibniz development. We’ll also use other tricks involving the more familiar operations of change of variable (as we did in the ‘circle in a circle’ integral in the previous section), power series, and integrationby-parts. And, as I promised in the Preface, we’ll explore contour integration, too. In fact, why wait? Let’s get started right now.
+1.10 Challenge Problems
+Before moving on to the next chapter, however, here are four challenge problems for your amusement.
+(C1.1): Use the ‘sneaking up on a singularity’ trick to evaluate
+ð8
+0
+dx
+x 2:
+This is an improper integral because of the singularity in the integration interval at x 1⁄4 2, but it does have a value. Repeat for the integral
+ð3
+0
+dx
+ðx 1Þ2=3
+and show that, despite the singularity at x 1⁄4 1, this integral also has a value. Notice that unlike in the first integral, the integrand is always positive (there is no cancellation between negative and positive areas). Nevertheless, the integral still has a value.
+(C1.2): Show that
+ð1
+1
+ffiffiffidffiffiffixffiffiffiffiffiffiffi
+x3 1
+p
+exists because there is a finite upper-bound on its value. In particular, show that the integral17 is less than 4.
+17 For a discussion of how this integral appears in a physics problem, see my book Mrs. Perkins’s Electric Quilt, Princeton 2009, pp. 2–3 (and also p. 4, for how to attack the challenge questionbut try on your own before looking there or at the solutions).
+40 1 Introduction
+
+
+(C1.3): What is the answer to the Feynman integral puzzle in (1.6.1)? Start by deriving (1.6.1) and think about just how arbitrary the constants a and b really are.
+(C1.4): For c any positive constant, start by confirming that the integral
+ð1
+0
+e cx
+x dx
+is transformed by the change of variable y 1⁄4 cx into the integral
+ð1
+0
+ey
+y dy:
+Now if this is so then with a and b any two positive constants it would seem we could argue that
+I1⁄4
+ð1
+0
+e ax e bx
+x dx 1⁄4
+ð1
+0
+e ax
+x dx
+ð1
+0
+e bx
+x dx 1⁄4
+ð1
+0
+ey
+y dy
+ð1
+0
+ey
+y dy
+1⁄4 0:
+But, as we’ll see in Chapter 3, in (3.3.3),
+I1⁄4
+ð1
+0
+e ax e bx
+x dx 1⁄4 ln b
+a
+which is zero only for the special case of a 1⁄4 b. So, there’s the puzzle—what’s wrong with the first argument that claims I is zero for any positive a and b?
+(C1.5): Here’s one more example of an integral that appears in a real-world situation, and of how MATLAB makes short work of it. Mercator’s integral, named after the inventor—Gerardus Mercator (1512–1594), born in what is today Belgium—of the famous Mercator map that renders the spherical surface of the
+Earth on a planar map, is
+ðθ2
+θ1
+dθ
+cos ðθÞ. It appears as a ‘distortion’ or ‘warping’ factor
+in the construction of a ‘flat map’ (θ1 and θ2 are the latitude extremes of the map). Mercator (who was a cartographer and not a mathematician) encountered this distortion in 1569, long before analytical integration techniques were developed, and he was forced to deal with it by other means (wouldn’t he have loved MATLAB!). Today, of course, he would just use a table of integrals. What is the value of Mercator’s integral if θ1 1⁄4 0 and θ2 1⁄4 π
+3 (60 )? MATLAB computes quad (@(x)1./cos(x),0,pi/3) 1⁄4 1.3169579. . .. (If you have a table of integrals handy, then
+you should find that the theoretical answer is ln 2 þ pffi3ffiffi 1⁄4 1:31695789 . . ..)
+1.10 Challenge Problems 41
+
+
+Chapter 2 ‘Easy’ Integrals
+2.1 Six ‘Easy’ Warm-Ups
+You should always be alert, when confronted by a definite integral, for the happy possibility that although the integral might look ‘interesting’ (that is, hard!) just maybe it will still yield to a direct, frontal attack. The first six integrals in this chapter are in that category. If a and b are positive constants, calculate:
+ð1
+1
+1
+ðx þ aÞ ffiffiffiffiffiffiffiffiffiffiffi
+x1
+ð2:1:aÞ p dx
+and
+ð1
+0
+ln 1 þ a2
+ð2:1:bÞ x2 dx
+and
+ð1
+0
+lnðxÞ
+ð2:1:cÞ x2 þ b2 dx
+and
+ð1
+0
+1
+ð2:1:dÞ 1 þ eax dx:
+© Springer Science+Business Media New York 2015 P.J. Nahin, Inside Interesting Integrals, Undergraduate Lecture Notes in Physics, DOI 10.1007/978-1-4939-1277-3_2
+43
+
+
+Finally, calculate
+ð1
+pffi2ffi
+1
+ð2:1:eÞ x þ xpffi2ffi dx
+and
+ð1
+1
+dx
+ð2:1:fÞ coshðxÞ:
+For (2.1.a) make the change of variable x–1 1⁄4 t2 and so
+dx
+dt 1⁄4 2t
+or
+dx 1⁄4 2t dt 1⁄4 2 ffiffiffiffiffiffiffiffiffiffiffi
+x1
+p dt:
+Since
+x 1⁄4 1 þ t2
+then we have
+ð1
+1
+1
+ðx þ aÞ ffiffiffiffiffiffiffiffiffiffiffi
+x1
+p dx 1⁄4
+ð1
+0
+2 ffiffiffiffiffiffiffiffiffiffiffi
+x1
+p dt
+ð1 þ t2 þ aÞ ffiffiffiffiffiffiffiffiffiffiffi
+x1
+p 1⁄42
+ð1
+0
+dt
+ða þ 1Þ þ t2:
+We immediately recognize this last integral as being of the form
+ð dt
+c2 þ t2 1⁄4 1
+c tan 1 t
+c
+and so
+ð1
+1
+1
+ðx þ aÞ ffiffiffiffiffiffiffiffiffiffiffi
+x1
+p dx 1⁄4 2 ffiffiffi1ffiffiffiffiffiffiffiffi
+aþ1
+p tan 1 ffiffiffitffiffiffiffiffiffiffiffi
+aþ1
+p
+!
+8<
+:
+9=
+;
+1
+0
+1⁄4 ffiffiffi2ffiffiffiffiffiffiffiffi
+aþ1
+p tan 1ð1Þ 1⁄4 ffiffiffi2ffiffiffiffiffiffiffiffi
+aþ1
+pπ
+2
+!
+44 2 ‘Easy’ Integrals
+
+
+which gives us
+ð2:1:1Þ
+As a check, for a 1⁄4 99 we have the value of the integral equal to π
+10 1⁄4 0:31415 . . ., while quad says quad(@(x)1./((x+99).*sqrt(x-1)),1,1e5) 1⁄4 0.30784. . .. Notice that the upper limit of infinity has been replaced with the finite (but ‘large’) number 105. For (2.1.b) integration-by-parts will do the job. That is, we’ll use
+ð1
+0
+u dv 1⁄4 ðuvÞ 1
+0
+ð1
+0
+v du,
+where
+u 1⁄4 ln 1 þ a2
+x2
+and dv 1⁄4 dx. Then, v 1⁄4 x and
+du 1⁄4 2a2
+x
+1
+x2 þ a2 dx:
+So,
+ð1
+0
+ln 1 þ a2
+x2
+0
+@
+1
+A dx 1⁄4 x ln 1 þ a2
+x2
+0
+@
+1
+A
+8<
+:
+9=
+;
+1
+0
+ð1
+0
+x 2a2
+x
+0
+@
+1
+A1
+x2 þ a2
+0
+@
+1
+A dx
+1⁄4 2a2
+ð1
+0
+dx
+x2 þ a2 1⁄4 2a2 1
+a tan 1 x
+a
+0
+@
+1
+A
+8<
+:
+9=
+;
+1
+0
+1⁄4 2a tan 1ð1Þ
+and thus1
+1 In this derivation we’ve assumed limx!0x ln 1 þ a2
+x2 1⁄4 limx!1x ln 1 þ a2
+x2 1⁄4 0. To see
+that these two assumptions are correct, recall the power series expansion for the log function when p 0: ln(1 + p) 1⁄4 p 1
+2 p2 þ 1
+3 p3 . So, with p 1⁄4 a2
+x2 (which ! 0 as x ! 1), we have
+x ln 1 þ a2
+x2 1⁄4 x a2
+x2
+1 2
+a2 x2
+2þ1
+3
+a2 x2
+3 1⁄4 a2
+x
+1 2
+a4
+x3 þ which ! 0 as x ! 1. On the
+other hand, as x ! 0 we have x ln 1 þ a2
+x2 x ln a2
+x2 1⁄4 x lnða2Þ x lnðx2Þ 1⁄4 x lnða2Þ 2x ln
+ðxÞ and both of these terms go to zero as x goes to zero (the first term is obvious, and in the second term x vanishes faster than ln(x) blows-up).
+2.1 Six ‘Easy’ Warm-Ups 45
+
+
+ð2:1:2Þ
+As a check, for a 1⁄4 10 we have the value of the integral equal to 31.415926. . ., while quad says quad(@(x)log(1+(100./x.^2)),0,1000) 1⁄4 31.31593. . .. For (2.1.c) let x 1⁄4 1
+t and so dx 1⁄4 1
+t2 dt. Our integral then becomes
+I1⁄4
+ð1
+0
+lnðxÞ
+x2 þ b2 dx 1⁄4
+ð0
+1
+ln 1
+t 1
+t2 þ b2
+1
+t2 dt 1⁄4
+ð0
+1
+ln 1
+t
+1 þ b2t2 dt
+1⁄4
+ð1
+0
+lnðtÞ
+1 þ b2t2 dt:
+Let s 1⁄4 bt (and so dt 1⁄4 1
+b ds). Then,
+I1⁄4
+ð1
+0
+lnðtÞ
+b2t2 þ 1 dt 1⁄4
+ð1
+0
+ln s
+b
+s2 þ 1
+1
+b ds
+1⁄41
+b
+ð1
+0
+lnðsÞ
+s2 þ 1 ds þ
+ð1
+0
+lnðbÞ
+s2 þ 1 ds
+or, as the first integral in the brackets is zero—we showed this in (1.5.1)—then we have
+I 1⁄4 lnðbÞ
+b
+ð1
+0
+1
+s2 þ 1 ds 1⁄4 lnðbÞ
+b tan 1ðsÞ 1
+0
+and thus
+ð2:1:3Þ
+Notice that this reduces to zero (as it should) when b 1⁄4 1. For b 1⁄4 2 our formula says the integral is equal to π
+4 lnð2Þ 1⁄4 0:544396 . . . and MATLAB agrees: quad(@ (x)log(x)./(4+x.^2),0,10000) 1⁄4 0.543365. . .. For (2.1.d) a simple substitution is all we need. Letting u 1⁄4 eax (and so du
+dx 1⁄4 aeax
+and thus dx 1⁄4 du
+aeax 1⁄4 du
+a u) we have
+46 2 ‘Easy’ Integrals
+
+
+ð1
+0
+1
+1 þ eax dx 1⁄4
+ð1
+1
+1 1þu
+du
+au 1⁄41
+a
+ð1
+1
+du
+uð1 þ uÞ 1⁄4 1
+a
+ð1
+1
+1 u
+1
+1 þ u du
+1⁄41
+a lnðuÞ lnð1 þ uÞ
+f g1
+1 1⁄41
+a ln u
+1þu
+1
+1
+1⁄41
+a ln 1
+2:
+or,
+ð2:1:4Þ
+For a 1⁄4 π, for example, the integral’s value is 0.220635 . . ., and in agreement we have quad(@(x)1./(1+exp(pi*x)),0,1000) 1⁄4 0.220635 . . .. For (2.1.e), consider the indefinite integral
+ð dx
+x þ xm 1⁄4
+ð xm
+x1 m þ 1 dx:
+Notice that
+d
+dx ln x1 m þ 1 1⁄4 ð1 mÞx1 m 1
+x1 m þ 1 1⁄4 ð1 mÞx m
+x1 m þ 1
+and so
+ð dx
+x þ xm 1⁄4 1
+1 m ln x1 m þ 1 þ C
+where C is an arbitrary constant of integration. Thus, with m 1⁄4 pffi2ffiffi, we have
+ð1
+pffi2ffi
+dx
+x þ xpffi2ffi 1⁄4 1
+1 pffi2ffiffi ln x1 pffi2ffi
+þ1
+n o1
+pffi2ffi
+or, because 1 pffi2ffiffi < 0 and so limx!1x1 pffi2ffi
+1⁄4 0, a bit of elementary complex number arithmetic gives us our answer:
+ð2:1:5Þ
+The expression on the right is 1.5063322. . ., while quad says the value of the integral is quad(@(x)1./(x+x.^sqrt(2)),sqrt(2),1e5) 1⁄4 1.48592. . .. For (2.1.f) let t 1⁄4 ex and so dt
+dx 1⁄4 ex or dx 1⁄4 dt
+ex 1⁄4 dt
+t.
+2.1 Six ‘Easy’ Warm-Ups 47
+
+
+Then,
+ð1
+1
+dx
+coshðxÞ 1⁄4
+ð1
+1
+dx ex þ e x 2
+1⁄42
+ð1
+1
+dx
+ex þ e x 1⁄4 2
+ð1
+0
+1
+tþ1
+t
+dt t
+1⁄42
+ð1
+0
+1
+t2 þ 1 dt 1⁄4 2 tan 1ðtÞ 1
+0 1⁄42 π
+2
+and so
+ð2:1:6Þ
+MATLAB agrees, as quad(@(x)1./cosh(x),-20,20) 1⁄4 3.1415929. . ..
+2.2 A New Trick
+The next four examples illustrate an often powerful trick for calculating definite integrals, that of ‘flipping’ the integration variable’s ‘direction.’ That is, if x goes from 0 to π, try changing to y 1⁄4 π x. This may seem almost trivial, but it often works! With this idea in mind, let’s calculate
+ðπ=2
+0
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+sin ðxÞ
+p
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+sin ðxÞ
+p þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+cos ðxÞ
+ð2:2:aÞ p dx
+and
+ðπ
+0
+x sin ðxÞ
+ð2:2:bÞ 1 þ cos 2ðxÞ dx
+and
+ð π=2
+0
+sin 2ðxÞ
+ð2:2:cÞ sin ðxÞ þ cos ðxÞ dx
+and
+ð1
+0
+lnðx þ 1Þ
+ð2:2:dÞ x2 þ 1 dx:
+48 2 ‘Easy’ Integrals
+
+
+For (2.2.a), make the substitution x 1⁄4 π
+2 y. Then, dx 1⁄4 dy and
+I1⁄4
+ð0
+π=2
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi sin π
+2y
+q
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi sin π
+2y
+q þ
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi cos π
+2y
+q ð dyÞ 1⁄4
+ðπ=2
+0
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+cos ðyÞ
+p
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+cos ðyÞ
+p þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+sin ðyÞ
+p dy:
+Adding this expression to the original I (and changing the dummy variable of integration variable y back to x) gives
+2I 1⁄4
+ð π=2
+0
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+sin ðxÞ
+p þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+cos ðxÞ
+p
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+sin ðxÞ
+p þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+cos ðxÞ
+p dx 1⁄4
+ðπ=2
+0
+dx 1⁄4 π
+2,
+and so
+ð2:2:1Þ
+This says the integral is equal to 0.785398. . ., and quad agrees: quad(@(x)sqrt (sin(x))./(sqrt(sin(x))+sqrt(cos(x))),0,pi/2 )1⁄4 0.785398 . . .. In (2.2.b) make the substitution y 1⁄4 π – x (and so dx 1⁄4 dy). Then,
+I1⁄4
+ð0
+π
+ðπ yÞ sin ðπ yÞ
+1 þ cos 2ðπ yÞ ð dyÞ
+1⁄4
+ðπ
+0
+ðπ yÞ sin ðπÞ cos ðyÞ cos ðπÞ sin ðyÞ
+fg
+1 þ cos ðπÞ cos ðyÞ þ sin ðπÞ sin ðyÞ
+f g2 dy
+or,
+I1⁄4
+ðπ
+0
+ðπ yÞ sin ðyÞ
+1 þ cos 2ðyÞ dy 1⁄4 π
+ðπ
+0
+sin ðyÞ
+1 þ cos 2ðyÞ dy
+ðπ
+0
+y sin ðyÞ
+1 þ cos 2ðyÞ dy:
+That is,
+I1⁄4π
+ðπ
+0
+sin ðxÞ
+1 þ cos 2ðxÞ dx I
+or,
+I1⁄4π
+2
+ðπ
+0
+sin ðxÞ
+1 þ cos 2ðxÞ dx:
+2.2 A New Trick 49
+
+
+Now, let u 1⁄4 cos(x) and so du
+dx 1⁄4 sin ðxÞ (that is, dx 1⁄4 du/sin(x)). Thus,
+I1⁄4π
+2
+ð1
+1
+sin ðxÞ 1 þ u2
+du
+sin ðxÞ 1⁄4 π
+2
+ð1
+1
+du
+1 þ u2 1⁄4 π
+2
+ð1
+1
+du
+1 þ u2 1⁄4 π
+2 tan 1ðuÞ 1
+1
+1⁄4π
+2 tan 1ð1Þ tan 1ð 1Þ 1⁄4 π
+2
+π
+4þπ
+4
+2
+4
+3
+5 1⁄4 π2
+4:
+So,
+ð2:2:2Þ
+This is equal to 2.4674 . . ., and quad agrees as quad(@(x)(x.*sin(x))./(1+(cos(x). ^2)),0,pi) 1⁄4 2.4674 . . .. For (2.2.c), make the substitution x 1⁄4 π
+2 y. Then, dx 1⁄4 dy and
+I1⁄4
+ð0
+π=2
+sin 2 π
+2y sin π
+2 y þ cos π
+2 y ð dyÞ:
+Since
+sin π
+2 y 1⁄4 sin π
+2 cos ðyÞ cos π
+2 sin ðyÞ 1⁄4 cos ðyÞ
+and
+cos π
+2 y 1⁄4 cos π
+2 cos ðyÞ þ sin π
+2 sin ðyÞ 1⁄4 sin ðyÞ,
+we have
+I1⁄4
+ð π=2
+0
+cos 2ðyÞ
+cos ðyÞ þ sin ðyÞ dy
+and so, changing the dummy variable of integration back to x,
+2I 1⁄4
+πð=2
+0
+sin 2ðxÞ þ cos 2ðxÞ
+cos ðxÞ þ sin ðxÞ dx 1⁄4
+πð=2
+0
+1
+cos ðxÞ þ sin ðxÞ dx:
+50 2 ‘Easy’ Integrals
+
+
+Now, change variable to
+z 1⁄4 tan x
+2:
+Then we have
+dz
+dx 1⁄4
+1
+2 cos 2 x
+2 þ1
+2 sin 2 x
+2
+cos 2 x
+2
+1⁄4
+1 2
+cos 2 x
+2
+1⁄4
+1 2 1
+1þ tan 2 x
+ð2Þ
+1⁄41
+2 1 þ tan 2 x
+2
+hi
+or,
+dz
+dx 1⁄4 1 þ z2
+2
+and so
+dx 1⁄4 2
+1 þ z2 dz:
+From the double-angle formulas from trigonometry we can write
+sin ðxÞ 1⁄4 2 sin x
+2 cos x
+2 1⁄4 2 sin x
+2
+cos x
+2
+cos 2 x
+2
+and so
+sin ðxÞ 1⁄4 2 tan x
+2
+1
+1 þ tan 2 x
+2
+1⁄4 2z
+1 þ z2 ,
+as well as
+cos ðxÞ 1⁄4 cos 2 x
+2 sin 2 x
+2 1⁄4 cos 2 x
+2 1 sin 2 x
+2
+cos 2 x
+2
+"#
+1⁄41
+1 þ tan 2 x
+2
+1
+tan 2 x
+ð2Þ
+1þ tan 2 x
+ð2Þ
+1
+1þ tan 2 x
+ð2Þ
+2
+64
+3
+75 1⁄4 1
+1 þ tan 2 x
+2
+1 tan 2 x
+2
+hi
+1⁄4 1 z2
+1 þ z2 :
+2.2 A New Trick 51
+
+
+Thus,
+2I 1⁄4
+ð1
+0
+1
+2z
+1 þ z2 þ 1 z2
+1 þ z2
+2
+1 þ z2 dz 1⁄4 2
+ð1
+0
+dz
+1 þ 2z z2 1⁄4 2
+ð1
+0
+dz 2 1⁄2z2 2z þ 1
+1⁄42
+ð1
+0
+dz
+2 ðz 1Þ2:
+Next, writing the integrand as a partial fraction expansion we have
+2I 1⁄4 2
+2pffi2ffiffi
+ð1
+0
+1
+pffi2ffiffi ðz 1Þ þ 1
+pffi2ffiffi þ ðz 1Þ
+8<
+:
+9=
+; dz 1⁄4 2
+2pffi2ffiffi
+ð1
+0
+1
+1 þ pffi2ffiffi z þ 1
+1 þ pffi2ffiffi þ z
+8<
+:
+9=
+; dz
+1⁄42
+2pffi2ffiffi
+ð1
+0
+dz
+z þ pffi2ffiffi 1
+ð1
+0
+dz
+z 1 pffi2ffiffi
+2
+4
+3
+5:
+Letting u 1⁄4 z þ pffi2ffiffi 1 in the first integral in the brackets gives us
+ð1
+0
+dz
+z þ pffi2ffiffi 1 1⁄4
+ðpffi2ffi
+pffi2ffi 1
+du
+u 1⁄4 lnðuÞ
+pffi2ffi
+pffi2ffi 1 1⁄4 ln
+pffi2ffiffi
+pffi2ffiffi 1 :
+Letting u 1⁄4 z 1 pffi2ffiffi in the second integral in the brackets gives us
+ð1
+0
+dz
+z 1 pffi2ffiffi 1⁄4
+ð pffi2ffi
+1 pffi2ffi
+du
+u 1⁄4 lnðuÞ
+pffi2ffi
+1 pffi2ffi 1⁄4 ln
+pffi2ffiffi
+1 þ pffi2ffiffi :
+Thus,
+2I 1⁄4 2
+2pffi2ffiffi ln
+pffi2ffiffi
+pffi2ffiffi 1
+0
+@
+1
+A ln
+pffi2ffiffi
+1 þ pffi2ffiffi
+0
+@
+1
+A
+2
+4
+3
+51⁄4 2
+2pffi2ffiffi ln
+pffi2ffiffi
+pffi2ffiffi 1
+1 þ pffi2ffiffi
+pffi2ffiffi
+0
+@
+1
+A
+1⁄4 p1ffi2ffiffi ln 1 þ pffi2ffiffi
+pffi2ffiffi 1
+0
+@
+1
+A 1⁄4 p1ffi2ffiffi ln 1 þ pffi2ffiffi
+pffi2ffiffi 1
+pffi2ffiffi þ 1
+pffi2ffiffi þ 1
+0
+@
+1
+A
+1⁄4 p1ffi2ffiffi ln
+pffi2ffiffi þ 1 þ 2 þ pffi2ffiffi
+21
+0
+@
+1
+A 1⁄4 p1ffi2ffiffi ln 3 þ 2pffi2ffiffi
+or,
+ð2:2:3Þ
+52 2 ‘Easy’ Integrals
+
+
+The value of the integral is 0.623225. . ., and MATLAB agrees as quad(@(x) sin (x).^2./(sin(x)+cos(x)),0,pi/2) 1⁄4 0.623225 . . .. In (2.2.d) let
+x 1⁄4 tan ðθÞ 1⁄4 sin ðθÞ
+cos ðθÞ
+and so
+dx
+dθ 1⁄4 cos 2ðθÞ þ sin 2ðθÞ
+cos 2ðθÞ 1⁄4 1 þ tan 2ðθÞ
+and thus we have dx 1⁄4 {1 + tan2(θ)} dθ and so our integral is
+I1⁄4
+ð1
+0
+lnðx þ 1Þ
+x2 þ 1 dx 1⁄4
+ðπ=4
+0
+ln tan ðθÞ þ 1
+fg
+1 þ tan 2ðθÞ 1 þ tan 2ðθÞ dθ
+1⁄4
+ð π=4
+0
+ln tan ðθÞ þ 1
+f gdθ:
+Now, make the change of variable that ‘flips’ the direction of integration, that is, u1⁄4π
+4 θ (and so du 1⁄4 dθ). Then,
+I1⁄4
+ð0
+π=4
+ln tan π
+4 u þ1
+no
+ð duÞ 1⁄4
+ðπ=4
+0
+ln tan π
+4 u þ1
+no
+du
+or, changing back to θ as the dummy variable of integration,
+I1⁄4
+ðπ=4
+0
+ln tan π
+4 θ þ1
+no
+dθ:
+Next, recall the identity
+tan ðα βÞ 1⁄4 tan ðαÞ tan ðβÞ
+1 þ tan ðαÞ tan ðβÞ :
+With α 1⁄4 π
+4 and β 1⁄4 θ we have
+tan π
+4 θ 1⁄4 tan π
+4 tan ðθÞ
+1 þ tan π
+4 tan ðθÞ 1⁄4 1 tan ðθÞ
+1 þ tan ðθÞ
+2.2 A New Trick 53
+
+
+and so
+I1⁄4
+ðπ=4
+0
+ln 1 tan ðθÞ
+1 þ tan ðθÞ þ 1 dθ 1⁄4
+ðπ=4
+0
+ln 2
+1 þ tan ðθÞ dθ
+1⁄4
+ðπ=4
+0
+lnf2gdθ
+ð π=4
+0
+ln 1 þ tan ðθÞ
+f gdθ:
+But the last integral is I, and so
+I1⁄4π
+4 lnð2Þ I
+or, at last (and using x as the dummy variable of integration),
+ð2:2:4Þ
+This integral is often called Serret’s integral, after the French mathematician Joseph Serret (1819–1885) who did it in 1844. Our result says the two above integrals are both equal to 0.27219826 . . . and quad agrees, as quad(@(x)log(tan (x)+1),0,pi/4) 1⁄4 0.27219826 . . . and quad(@(x)log(x+1)./(x.^2+1),0,1) 1⁄4 0. 27219823. . .. If we make the change of variable x 1⁄4 t
+a we can generalize this result as follows. Since dx 1⁄4 1
+a dt, then
+π
+8 lnð2Þ 1⁄4
+ð1
+0
+lnðx þ 1Þ
+x2 þ 1 dx 1⁄4
+ða
+0
+ln t
+aþ1
+t a
+2þ1
+1
+a dt 1⁄4 a
+ða
+0
+lnðt þ aÞ lnðaÞ
+t2 þ a2 dt
+1⁄4a
+ða
+0
+lnðt þ aÞ
+t2 þ a2 dt lnðaÞ 1
+a tan 1 t
+a
+2
+4
+3
+5
+a
+0
+8<
+:
+9=
+;
+1⁄4a
+ða
+0
+lnðt þ aÞ
+t2 þ a2 dt 1
+a lnðaÞ tan 1ð1Þ
+8<
+:
+9=
+;
+1⁄4a
+ða
+0
+lnðt þ aÞ
+t2 þ a2 dt π
+4a lnðaÞ
+8<
+:
+9=
+;1⁄4a
+ða
+0
+lnðt þ aÞ
+t2 þ a2 dt π
+4 lnðaÞ:
+Thus,
+ða
+0
+lnðt þ aÞ
+t2 þ a2 dt 1⁄4 π
+8a lnð2Þ þ π
+4a lnðaÞ 1⁄4 π
+8a lnð2Þ þ 2π
+8a lnðaÞ
+54 2 ‘Easy’ Integrals
+
+
+or, finally, changing the dummy variable of integration back to x,
+ð2:2:5Þ
+2.3 Two Old Tricks, Plus a New One
+The following integral, with arbitrarily many and different quadratic factors in the denominator of the integrand, may at first glance look impossibly difficult:
+ð1
+0
+dx x2 þ a2
+1 x2 þ a2
+2 x2 þ a2
+3 . . . x2 þ a2n
+, with all of the ai 61⁄4 0 and
+different.
+Not so, as I’ll now show you. Let’s start by writing the integrand in partial fraction form (look back at how we got (2.2.3)), as
+1 x2 þ a2
+1 x2 þ a2
+2 x2 þ a2
+3 . . . x2 þ a2n
+1⁄4 c1
+x2 þ a2
+1
+þ c2
+x2 þ a2
+2
+þ c3
+x2 þ a2
+3
+þ þ cn
+x2 þ a2n
+where the c’s are all constants.2 Fix your attention on any one of the terms on the right, say the k-th one. Then, multiplying through by x2 + a2
+k, we have
+x2 þ a2
+k
+x2 þ a2
+1 x2 þ a2
+2 x2 þ a2
+3 . . . x2 þ a2
+k . . . x2 þ a2n
+1⁄4 c1 x2 þ a2
+k
+x2 þ a2
+1
+þ c2 x2 þ a2
+k
+x2 þ a2
+2
+þ . . . þ ck þ . . . þ cn x2 þ a2
+k
+x2 þ a2n
+:
+Thus, cancelling the x2 + a2
+k factor in the numerator and denominator on the left
+in the above expression, and setting x to the particular value of i ak where i 1⁄4 ffiffiffiffiffi1ffiffi
+p,
+we have3
+2 Writing the partial fraction expansion this way is where the assumption that all the ai are different comes into play. If any of the ai appears multiple times, then the correct partial fraction expansion of the integrand is not as I’ve written it.
+3 There are two points to be clear on at this point. First, since we are working with an identity it must be true for all values of x, and I’ve just picked a particularly convenient one. Second, if the use of an imaginary x bothers you, just remember the philosophical spirit of this book—anything (well, almost anything) goes, and we’ll check our result when we get to the end!
+2.3 Two Old Tricks, Plus a New One 55
+
+
+1 a2
+k þ a2
+1 a2
+k þ a2
+2 a2
+k þ a2
+3 . . . a2
+k þ a2n
+1⁄41
+Yn
+j1⁄41, j61⁄4k a2
+j a2
+k
+1⁄4 ck
+where only the ck term survives on the right since all the other terms in the partial fraction expansion end-up with a zero in their numerator. So, our original partial fraction expansion is just
+1 x2 þ a2
+1 x2 þ a2
+2 x2 þ a2
+3 . . . x2 þ a2n
+1⁄4 Xn
+k1⁄41
+ck
+x2 þ a2
+k
+and thus
+ð1
+0
+dx x2 þ a2
+1 x2 þ a2
+2 x2 þ a2
+3 . . . x2 þ a2n
+1⁄4 n X
+k1⁄41
+ck
+ð1
+0
+dx x2 þ a2
+k
+1⁄4 Xn
+k1⁄41 ck
+1
+ak
+tan 1 x
+ak
+1
+0
+1⁄4 Xn
+k1⁄41
+ck
+ak
+π 2
+or, at last, with all the ai 61⁄4 0,
+ð2:3:1Þ
+For example, suppose a2
+1 1⁄4 1, a2
+2 1⁄4 4, and a2
+3 1⁄4 9. Then, a1 1⁄4 1, a2 1⁄4 2, and a3 1⁄4 3. This gives the values of the c’s as
+c1 1⁄4 1
+ð4 1Þð9 1Þ 1⁄4 1
+24 , c2 1⁄4 1
+ð1 4Þð9 4Þ 1⁄4 1
+15 , c3 1⁄4 1
+ð1 9Þð4 9Þ 1⁄4 1
+40 :
+Then the value of the integral is
+π 2
+1 24
+1
+1
+15
+2þ
+1 40
+31⁄4π
+2
+1 24
+1
+30 þ 1
+120 1⁄4 π
+2
+2
+120 1⁄4 π
+120 1⁄4 0:0261799 . . .
+and quad agrees, as quad(@(x)1./((x.^2+1).*(x.^2+4).*(x.^2+9)),0,100) 1⁄4 0.02617989 . . .. Here’s another example of the use of a partial fraction expansion to evaluate an integral. Here I’ll do
+ð1
+0
+dx x4 þ 2x2coshð2αÞ þ 1
+56 2 ‘Easy’ Integrals
+
+
+where α is an arbitrary constant. Writing the hyperbolic cosine in the denominator of the integrand out in exponential form, we have
+x4 þ 2x2coshð2αÞ þ 1 1⁄4 x4 þ 2x2 e2α þ e 2α
+2 þ 1 1⁄4 x4 þ x2e2α þ x2e 2α þ 1
+1⁄4 x2 þ e2α
+ð Þ x2 þ e 2α
+ð Þ:
+So, we can write the integrand in the following partial fraction form (with A and B as constants):
+1
+x4 þ 2x2coshð2αÞ þ 1 1⁄4 A
+x2 þ e2α
+ð Þþ B
+x2 þ e 2α
+ð Þ:
+That is,
+ðA þ BÞx2 þ Ae 2α þ Be2α 1⁄4 1
+which, since there is no x2 term on the right, immediately tells us that A 1⁄4 B. Thus,
+Be 2α þ Be2α 1⁄4 1
+and so the constant B is given by
+B1⁄4 1
+e2α e 2α :
+Therefore,
+ð1
+0
+dx
+x4 þ 2x2coshð2αÞ þ 1 1⁄4 1
+e2α e 2α
+ð1
+0
+dx x2 þ e 2α
+ð1
+0
+dx x2 þ e2α
+2
+4
+3
+5
+1⁄41
+e2α e 2α
+1
+e α tan 1 x
+eα
+1
+eα tan 1 x
+eα
+2
+4
+3
+5
+1
+0
+1⁄41
+e2α e 2α eα π
+2 e απ
+2
+2
+4
+3
+51⁄4 π
+2
+eα e α
+e2α e 2α
+1⁄4π
+2
+eα e α
+eα þ e α
+ð Þ eα e α
+ð Þ1⁄4 π
+2
+1
+eα þ e α
+ðÞ
+1⁄4π
+2
+1 2
+eα þ e α
+ðÞ 2
+2.3 Two Old Tricks, Plus a New One 57
+
+
+or, finally,
+ð2:3:2Þ
+For α 1⁄4 1, for example, this integral equals 0.5089806 . . . and quad agrees, as quad(@(x)1./(x.^4+2*cosh(2)*x.^2+1),0,1000) 1⁄4 0.5089809 . . .. Back in Chap. 1 (Sect. 1.5) I showed you how the ‘evenness’ or ‘oddness’ of an integrand (if one of those two properties is present) can be of great help in transforming a ‘hard’ integral into an ‘easy’ one. As a more sophisticated example of this than was the example in Chap. 1, let’s calculate the value of
+ð1
+0
+dx x4 þ 2x2 cos ð2αÞ þ 1
+where, as before, α is an arbitrary constant. This may superficially look a lot like the integral we just finished but, as you’ll soon see, there is a really big difference in how we’ll do this new one. We start by making the change of variable y 1⁄4 1
+x (and so dy
+dx 1⁄4 1
+x2 or dx 1⁄4 x2
+dy 1⁄4 1
+y2 dy). Then,
+I1⁄4
+ð1
+0
+dx x4 þ 2x2 cos ð2αÞ þ 1
+1⁄4
+ð0
+1
+1
+y2 dy
+1
+y4 þ 2 1
+y2 cos ð2αÞ þ 1 1⁄4
+ð1
+0
+y2 dy
+y4 þ 2y2 cos ð2αÞ þ 1:
+If we then add our two versions of the integral (the left-most and the right-most integrals in the previous line, remembering that x and y are just dummy variables of integration) we have
+2I 1⁄4
+ð1
+0
+1 þ x2
+ð Þ dx
+x4 þ 2x2 cos ð2αÞ þ 1
+or,
+I1⁄41
+2
+ð1
+0
+1 þ x2
+ð Þ dx
+x4 þ 2x2 cos ð2αÞ þ 1:
+And since the integrand is even, we can write
+I1⁄41
+4
+ð1
+1
+1 þ x2
+ð Þ dx
+x4 þ 2x2 cos ð2αÞ þ 1:
+58 2 ‘Easy’ Integrals
+
+
+Because cos(2α) 1⁄4 1 2 sin2(α) you can show by direct multiplication that
+x4 þ 2x2 cos ð2αÞ þ 1 1⁄4 x2 2x sin ðαÞ þ 1 x2 þ 2x sin ðαÞ þ 1
+and so
+I1⁄41
+4
+ð1
+1
+1 þ x2
+ð Þ dx
+1⁄2x2 2x sin ðαÞ þ 1 1⁄2x2 þ 2x sin ðαÞ þ 1 :
+Now, since the integrand is even, then if we include in the numerator of the integrand an odd function like 2x sin(α) we do not change the value of the integral, and so
+I1⁄41
+4
+ð1
+1
+1⁄2x2 2x sin ðαÞ þ 1 dx 1⁄2x2 2x sin ðαÞ þ 1 1⁄2x2 þ 2x sin ðαÞ þ 1
+or
+I1⁄41
+4
+ð1
+1
+dx
+x2 þ 2x sin ðαÞ þ 1:
+Or, since sin2(α) + cos2(α) 1⁄4 1 then
+I1⁄41
+4
+ð1
+1
+dx
+x2 þ 2x sin ðαÞ þ sin 2ðαÞ þ cos 2ðαÞ 1⁄4 1
+4
+ð1
+1
+dx
+1⁄2x þ sin ðαÞ 2 þ cos 2ðαÞ:
+Let u 1⁄4 x + sin(α) (and so du 1⁄4 dx), and then
+I1⁄41
+4
+ð1
+1
+du
+u2 þ cos 2ðαÞ 1⁄4 1
+4
+1
+cos ðαÞ tan 1 u
+cos ðαÞ
+1
+1
+1⁄41
+4 cos ðαÞ tan 1f1g tan 1 1
+fg
+and so, at last,
+ð2:3:3Þ
+Special, interesting cases occur for some obvious values of α. Specifically, for α1⁄4π
+4 we have
+ð2:3:4Þ
+2.3 Two Old Tricks, Plus a New One 59
+
+
+These two integrals are therefore equal to 1.11072 . . . and MATLAB agrees, as quad(@(x)1./(x.^4+1),0,1000) 1⁄4 1.11072 . . . and quad(@(x)(x.^2)./(x.^4 +1),0,10000) 1⁄4 1.11062. . .. For α 1⁄4 30 (that is, α 1⁄4 π
+6) we have
+ð2:3:5Þ
+This is equal to 0.906899 . . ., and again MATLAB agrees as quad(@(x)1./(x.^4 +x.^2+1),0,1000) 1⁄4 0.9068993 . . .. For α 1⁄4 60 (that is, α 1⁄4 π
+3) we have
+ð2:3:6Þ
+This is equal to 1.570796 . . ., and indeed quad(@(x)1./(x.^4-x.^2+1),0,1000) 1⁄4 1.570796 . . .. And finally, for α 1⁄4 0 we have
+ð2:3:7Þ
+This is equal to 0.785398 . . ., and quad(@(x)1./(x.^4+2*x.^2+1),0,1000) 1⁄4 0.785398 . . .. Here’s a new trick, one using a difference equation to evaluate a class of definite integrals indexed on an integer-valued variable. Specifically,
+InðαÞ 1⁄4
+ðπ
+0
+cos ðnθÞ cos ðnαÞ
+cos ðθÞ cos ðαÞ dθ
+where α is a constant and n is a non-negative integer (n 1⁄4 0, 1, 2, 3, . . .). The first two integrals are easy to do by inspection: I0(α) 1⁄4 0 and I1(α) 1⁄4 π. For n > 1, however, things get more difficult. What I’ll do next is perfectly understandable as we go through the analysis step-by-step, but I have no idea what motivated the person who first did this. The mystery of mathematical genius! If you recall the trigonometric identity
+cos ðn þ 1Þθ
+f g þ cos ðn 1Þθ
+f g 1⁄4 2 cos ðθÞ cos ðnθÞ
+then perhaps you’d think of taking a look at the quantity In + 1(α) + In 1(α) to see if it is related in some ‘nice’ way to In(α). So, imagining that we have been so inspired, let’s take a look at the quantity Q 1⁄4 AIn + 1(α) + BIn(α) + CIn 1(α), where A, B, and C are constants, to see what we get.
+60 2 ‘Easy’ Integrals
+
+
+Thus,
+Q1⁄4
+ð
+π
+0
+A cos ðn þ 1Þθ
+f g cos ðn þ 1Þα
+fg
+1⁄2 þ B1⁄2 cos ðnθÞ cos ðnαÞ
+þ C cos ðn 1Þθ
+f g cos ðn 1Þα
+fg
+1⁄2
+cos ðθÞ cos ðαÞ dθ:
+Suppose we now set A 1⁄4 C 1⁄4 1 and B 1⁄4 2 cos(α). Then,
+Q1⁄4
+ð
+π
+0
+cos ðn þ 1Þθ
+f g þ cos ðn 1Þθ
+1⁄2 f g 2 cos ðαÞ cos ðnθÞ
+cos ðn þ 1Þα
+f g þ cos ðn 1Þα
+1⁄2 f g 2 cos ðαÞ cos ðnαÞ cos ðθÞ cos ðαÞ
+dθ:
+From our trig identity the second term in the numerator vanishes and the first term reduces to
+Q1⁄4
+ðπ
+0
+2 cos ðθÞ cos ðnθÞ 2 cos ðαÞ cos ðnθÞ
+cos ðθÞ cos ðαÞ dθ 1⁄4
+ðπ
+0
+2 cos ðnθÞ1⁄2 cos ðθÞ cos ðαÞ
+cos ðθÞ cos ðαÞ dθ
+1⁄42
+ðπ
+0
+cos ðnθÞdθ 1⁄4 2 sin ðnθÞ
+n
+π
+0
+1⁄4 0, n 1⁄4 1, 2, . . .
+That is, we have the following second-order, linear difference equation:
+Inþ1ðαÞ 2 cos ðαÞInðαÞ þ In 1ðαÞ 1⁄4 0, n 1⁄4 1, 2, 3, . . . ,
+with the conditions I0(α) 1⁄4 0 and I1(α) 1⁄4 π. It is well-known that such a so-called recursive equation has solutions of the form In 1⁄4 Cesn where C and s are constants. So,
+Cesðnþ1Þ 2 cos ðαÞCesn þ Cesðn 1Þ 1⁄4 0
+or, cancelling the common factor of Cesn,
+es 2 cos ðαÞ þ e s 1⁄4 0
+or,
+e2s 2 cos ðαÞes þ 1 1⁄4 0:
+This is a quadratic in es, and so
+es 1⁄4 2 cos ðαÞ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+4 cos 2ðαÞ 4
+p
+2 1⁄4 2 cos ðαÞ 2i ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+1 cos 2ðαÞ
+p
+2
+1⁄4 cos ðαÞ i sin ðαÞ,
+2.3 Two Old Tricks, Plus a New One 61
+
+
+where i 1⁄4 ffiffiffiffiffi1ffiffi
+p . Now, from Euler’s fabulous formula we have es 1⁄4 e iα and thus s 1⁄4 iα. This means that the general solution for In(α) is
+InðαÞ 1⁄4 C1einα þ C2e inα:
+Since I0(α) 1⁄4 0 then C1 + C2 1⁄4 0 or, C2 1⁄4 C1. Also, as I1(α) 1⁄4 π we have
+C1eiα C1e iα 1⁄4 π 1⁄4 C1i2 sin ðαÞ
+which says that
+C1 1⁄4 π
+i2 sin ðαÞ and C2 1⁄4 π
+i2 sin ðαÞ :
+Thus,
+InðαÞ 1⁄4 π
+2 sin ðαÞ
+einα e inα
+i 1⁄4π
+2 sin ðαÞ
+i2 sin ðnαÞ i
+or, at last, using x as the dummy variable of integration,
+ð2:3:8Þ
+For example, if n 1⁄4 6 and α 1⁄4 π
+11 this result says our integral is equal to π sin 6 π
+ð 11Þ sin π
+ð11Þ which is equal to 11.03747399. . ., and quad agrees because quad(@(x)(cos(6*x)cos(6*pi/11))./(cos(x)-cos(pi/11)),0,pi) 1⁄4 11.03747399. . .. Here’s a final, quick example of recursion used to solve an entire class of integrals:
+In 1⁄4
+ð1
+0
+x2ne x2 dx, n 1⁄4 0, 1, 2, 3, . . . :
+We start by observing that
+d
+dx x2n 1e x2 1⁄4 ð2n 1Þx2n 2e x2 2x2ne x2 , n 1:
+So, integrating both sides,
+ð1
+0
+d
+dx x2n 1e x2 dx 1⁄4 ð2n 1Þ
+ð1
+0
+x2n 2e x2 dx 2
+ð1
+0
+x2ne x2 dx:
+The right-most integral is In, and the middle integral is In 1. So,
+62 2 ‘Easy’ Integrals
+
+
+ð1
+0
+d
+dx x2n 1e x2 dx 1⁄4 ð2n 1ÞIn 1 2In:
+Now, notice that the remaining integral (on the left-hand-side) is simply the integral of a derivative and so is very easy to do! In fact,
+ð1
+0
+d
+dx x2n 1e x2 dx 1⁄4 x2n 1e x2 1
+0 1⁄40
+since x2n 1e x2 1⁄4 0 at x 1⁄4 0 and as x ! 1. So, we immediately have the recurrence
+In 1⁄4 2n 1
+2 In 1 1⁄4 2nð2n 1Þ
+4n In 1:
+For the first few values n we have:
+I1 1⁄4 2
+ð4Þð1Þ I0,
+I2 1⁄4 ð4Þð3Þ
+ð4Þð2Þ I1 1⁄4 ð4Þð3Þð2Þ
+ð4Þð2Þð4Þð1Þ I0,
+I3 1⁄4 ð6Þð5Þ
+ð4Þð3Þ I2 1⁄4 ð6Þð5Þð4Þð3Þð2Þ
+ð4Þð3Þð4Þð2Þð4Þð1Þ I0,
+and by now you should see the pattern:
+In 1⁄4 ð2nÞ!
+4nn! I0:
+This is a nice result, but of course the next question is obvious: what is I0? In fact,
+I0 1⁄4
+ð1
+0
+e x2 dx 1⁄4 1
+2
+pffiπffiffi,
+which we have not shown (yet). In the next chapter, as result (3.1.4), I will show you (using a new trick) that
+ð1
+1
+e x2=2dx 1⁄4 ffi2ffiffiffiπffi
+p:
+If you make the change of variable y 1⁄4 xpffi2ffiffi (and remember that Ð 11f(x)
+dx 1⁄4 2 Ð 1
+0 f(x)dx if f(x) is even) then the value of I0 immediately follows. Thus,
+2.3 Two Old Tricks, Plus a New One 63
+
+
+ð2:3:9Þ
+If n 1⁄4 5 this says the integral is equal to 26.171388. . ., while quad(@(x)(x.^10). *exp(-(x.^2)),0,10) 1⁄4 26.1713896 . . ..
+2.4 Another Old Trick: Euler’s Log-Sine Integral
+In 1769 Euler computed (for a 1⁄4 1) the value of (where a 0)
+I1⁄4
+ðπ=2
+0
+ln a sin ðxÞ
+f gdx,
+which is equal to
+ðπ=2
+0
+ln a cos ðxÞ
+f gdx:
+The two integrals are equal because the integrands take-on the same values over the integration interval (sin(x) and cos(x) are mirror-images of each other over that interval). For many years it was commonly claimed in textbooks that these are quite difficult integrals to do, best tackled with the powerful techniques of contour integration. As you’ll see with the following analysis, however, that is simply not the case. So, to start we notice that
+I1⁄41
+2
+ðπ=2
+0
+ln a sin ðxÞ
+f g þ ln a cos ðxÞ
+fg
+1⁄2 dx 1⁄4 1
+2
+ðπ=2
+0
+ln a2 sin ðxÞ cos ðxÞ dx:
+Since sin(2x) 1⁄4 2sin(x)cos(x), we have sin ðxÞ cos ðxÞ 1⁄4 1
+2 sin ð2xÞ and therefore
+I1⁄41
+2
+ðπ=2
+0
+ln a1
+2 a sin ð2xÞ dx 1⁄4 1
+2
+ðπ=2
+0
+lnðaÞ þ ln 1
+2 þ ln a sin ð2xÞ
+f g dx
+1⁄4π
+4 lnðaÞ π
+4 lnð2Þ þ 1
+2
+πð=2
+0
+ln a sin ð2xÞ
+f gdx
+64 2 ‘Easy’ Integrals
+
+
+In the last integral, let t 1⁄4 2x (and so dx 1⁄4 1
+2 dt ). Thus,
+1 2
+ðπ=2
+0
+ln a sin ð2xÞ
+f gdx 1⁄4 1
+2
+ðπ
+0
+ln a sin ðtÞ
+f g1
+2 dt 1⁄4 1
+2I
+where the last equality follows because (think of how sin(t) varies over the interval 0 to π)
+ðπ=2
+0
+ln a sin ðtÞ
+f gdt 1⁄4 1
+2
+ðπ
+0
+ln a sin ðtÞ
+f gdt:
+So,
+I1⁄4π
+4 lnðaÞ π
+4 lnð2Þ þ 1
+2I 1⁄4 π
+4 ln a
+2 þ1
+2I
+or,
+1
+2I 1⁄4 π
+4 ln a
+2
+and so, at last, for a 0,
+ð2:4:1Þ
+Special cases of interest are a 1⁄4 1 (Euler’s integral) for which both integrals equal π
+2 lnð2Þ 1⁄4 1:088793 . . . and a 1⁄4 2 for which both integrals are equal to zero. We can check both of these cases with quad; quad(@(x)log(sin(x)),0,pi/2) 1⁄4 1.0888035 . . . and quad(@(x)log(cos(x)),0,pi/2) 1⁄4 1.0888043 . . ., while quad (@(x)log(2*sin(x)),0,pi/2) 1⁄4 1.0459 x 10 5 and quad(@(x)log(2*cos(x)),0,pi/2) 1⁄4 1.1340 x 10 5. We’ll see Euler’s log-sine integral again, in Chap. 7. With the result for a 1⁄4 1, we can now calculate the interesting integral
+ð π=2
+0
+ln sin ðxÞ
+x dx:
+2.4 Another Old Trick: Euler’s Log-Sine Integral 65
+
+
+That’s because this integral is
+ðπ=2
+0
+ln sin ðxÞ
+f gdx
+ð
+π 2
+0
+lnfxgdx 1⁄4 π
+2 lnð2Þ 1⁄2x lnðxÞ x π=2
+0
+1⁄4π
+2 lnð2Þ π
+2 ln π
+2
+π 2
+2
+4
+3
+5
+1⁄4π
+2 lnð2Þ π
+2 lnðπÞ π
+2 lnð2Þ π
+2
+2
+4
+3
+5
+1⁄4π
+2 lnð2Þ π
+2 lnðπÞ þ π
+2 lnð2Þ þ π
+2
+1⁄4π
+2 lnðπÞ þ π
+2
+and so
+ð2:4:2Þ
+Our result says this integral is equal to 0.22734. . . and quad agrees, as quad(@ (x)log(sin(x)./x),0,pi/2) 1⁄4 0.22734 . . .. With a simple change of variable in Euler’s log-sine integral we can get yet another pretty result. Since sin2(θ) 1⁄4 1 cos2(θ) then
+sin 2ðθÞ
+cos 2ðθÞ 1⁄4 tan 2ðθÞ 1⁄4 1
+cos 2ðθÞ 1
+and so
+tan 2ðθÞ þ 1 1⁄4 1
+cos 2ðθÞ
+which says
+ln 1
+cos 2ðθÞ 1⁄4 ln cos 2ðθÞ 1⁄4 2ln cos ðθÞ
+f g 1⁄4 ln tan 2ðθÞ þ 1 :
+That is,
+ln cos ðθÞ
+f g1⁄4 1
+2 ln tan 2ðθÞ þ 1 :
+66 2 ‘Easy’ Integrals
+
+
+So, in the integral
+ðπ=2
+0
+ln cos ðxÞ
+f g dx
+replace the dummy variable of integration x with θ and write
+ðπ=2
+0
+ln cos ðθÞ
+f g dθ 1⁄4
+ðπ=2
+0
+1
+2 ln tan 2ðθÞ þ 1 dθ 1⁄4 π
+2 lnð2Þ
+or,
+ð π=2
+0
+ln tan 2ðθÞ þ 1 dθ 1⁄4 πlnð2Þ:
+Now, change variable to x 1⁄4 tan(θ). Then
+dx
+dθ 1⁄4 1
+cos 2ðθÞ
+and thus
+dθ 1⁄4 cos 2ðθÞdx 1⁄4 1
+tan 2ðθÞ þ 1 dx 1⁄4 1
+x2 þ 1 dx:
+So, since x 1⁄4 0 when θ 1⁄4 0 and x 1⁄4 1 when θ 1⁄4 π
+2, we have
+ð2:4:3Þ
+That is, this integral is equal to 2.177586 . . ., and quad agrees, as quad(@(x) log(x.^2+1)./(x.^2+1),0,1e6) 1⁄4 2.1775581. . .. To end this discussion, here’s a little
+calculation for you to play around with: writing
+ð1
+0
+lnðx2 þ 1Þ
+x2 þ 1 dx as Ð 1
+0 +Ð1
+1 , make
+the change of variable u 1⁄4 1
+x in the last integral and show that this leads to
+ð2:4:4Þ
+This is equal to 1.088793. . ., and MATLAB agrees because quad(@(x) log(x+(1./x))./(x.^2+1),0,1) 1⁄4 1.088799. . ..
+2.4 Another Old Trick: Euler’s Log-Sine Integral 67
+
+
+The substitution u 1⁄4 1
+x is a trick well-worth keeping in mind. Here’s another use of it to derive a result that almost surely would be much more difficult to get otherwise. Consider the integral
+ð1
+0
+lnðxa þ 1Þ
+x2 bx þ 1 dx,
+where a 61⁄4 0 and b are constants. If we let u 1⁄4 1
+x (and so dx 1⁄4 1
+u2 du), we have
+ð1
+0
+lnðxa þ 1Þ
+x2 bx þ 1 dx 1⁄4
+ð0
+1
+ln 1
+ua þ 1
+1
+u2 b1
+uþ1
+1
+u2 du 1⁄4
+ð1
+0
+ln 1 þ ua
+ua
+1 bu þ u2 du
+1⁄4
+ð1
+0
+ln 1 þ ua
+ðÞ
+1 bu þ u2 du a
+ð1
+0
+lnðuÞ
+1 bu þ u2 du:
+That is,
+ð1
+0
+lnðxa þ 1Þ
+x2 bx þ 1 dx 1⁄4
+ð1
+0
+ln 1 þ xa
+ðÞ
+1 bx þ x2 dx a
+ð1
+0
+lnðxÞ
+1 bx þ x2 dx
+and so we immediately have
+ð2:4:5Þ
+Notice that the case of b 1⁄4 0 in (2.4.5) reduces this result to (1.5.1),
+ð1
+0
+lnðxÞ
+1 þ x2 dx 1⁄4 0,
+what we also get when we set b 1⁄4 1 in (2.1.3). The value of b can’t be just anything, however, and you’ll be asked more on this point in the challenge problem section. To end the chapter, let me remind you of a simple technique that you encountered way back in high school algebra—‘completing the square.’ This is a ‘trick’ that is well-worth keeping in mind when faced with an integral with a quadratic polynomial in the denominator of the integrand (but see also Challenge Problem 2 for its use in a cubic denominator, and look back at the final integration of Sect. 1.6, too). As another example, let’s calculate
+ð1
+0
+1x
+1 þ x þ x2 dx:
+68 2 ‘Easy’ Integrals
+
+
+We’ll start by rewriting the denominator of the integrand by completing the square:
+x2 þ x þ 1 1⁄4 x2 þ x þ 1
+4þ 1 1
+4 1⁄4 xþ1
+2
+2
+þ3
+4:
+Thus,
+ð1
+0
+1x
+1 þ x þ x2 dx 1⁄4
+ð1
+0
+dx
+xþ1
+2
+2þ3
+4
+ð1
+0
+x
+xþ1
+2
+2 þ3
+4
+dx:
+Now, change variable to
+u1⁄4xþ1
+2
+(and so dx 1⁄4 du). Then, our integral becomes
+ð
+3 2
+1 2
+du
+u2 þ 3
+4
+ð
+3 2
+1 2
+u1
+2
+u2 þ 3
+4
+du 1⁄4 3
+2
+ð
+3 2
+1 2
+du
+u2 þ 3
+4
+ð
+3 2
+1 2
+u
+u2 þ 3
+4
+du:
+The first integral on the right is
+ð3
+2
+1 2
+du
+u2 þ pffi3ffi
+2
+2 1⁄4 p2ffi3ffiffi tan 1 pffi3ffiuffi=2
+3=2
+1=2
+1⁄4 p2ffi3ffiffi tan 1 2puffi3ffiffi
+3=2
+1=2
+1⁄4 p2ffi3ffiffi tan 1 p3ffi3ffiffi tan 1 p1ffi3ffiffi
+1⁄4 p2ffi3ffiffi tan 1 pffi3ffiffi tan 1 p1ffi3ffiffi 1⁄4 p2ffi3ffiffi π
+3
+π 6
+2
+4
+3
+51⁄4 π
+3pffi3ffiffi :
+So,
+ð1
+0
+1x
+1 þ x þ x2 dx 1⁄4 π
+2pffi3ffiffi
+ð
+3 2
+1 2
+u
+u2 þ 3
+4
+du:
+In the integral on the right, change variable to
+t 1⁄4 u2 þ 3
+4:
+2.4 Another Old Trick: Euler’s Log-Sine Integral 69
+
+
+Then, dt 1⁄4 2u du and
+ð
+3 2
+1 2
+u
+u2 þ 3
+4
+du 1⁄4
+ð3
+1
+u t
+dt
+2u 1⁄4 1
+2
+ð3
+1
+dt
+t 1⁄41
+2 lnðtÞ 3
+11⁄41
+2 lnð3Þ:
+So, ð1
+0
+1x
+1 þ x þ x2 dx 1⁄4 π
+2pffi3ffiffi 1
+2 lnð3Þ
+or,
+ð2:4:6Þ
+which equals 0.35759 . . ., and MATLAB agrees because quad(@(x)(1-x)./(1+x+x. ^2),0,1) 1⁄4 0.357593. . ..
+2.5 Challenge Problems
+That was all pretty straightforward, but here are some problems that will, I think, give your brain a really good workout. And yet, like nearly everything else in this book, if you see the trick they will unfold for you like a butterfly at rest.
+(C2.1): According to Edwards’ A Treatise on the Integral Calculus (see the end of the Preface), the following question appeared on an 1886 exam at the University of Cambridge: show that
+ð4
+0
+lnðxÞ
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+4x x2
+p dx 1⁄4 0:
+Edwards included no solution and, given that it took me about 5 h spread over 3 days to do it (in my quiet office, under no pressure), my awe for the expected math level of some of the undergraduate students at nineteenth century Cambridge is unbounded. See if you can do it faster than I did (and if not, my solution is at the end of the book). A quick numerical check by MATLAB should convince you that the given answer is correct: quad(@(x)log(x)./sqrt(4*x-x.^2),0,4) 1⁄4 0.0000066.
+(C2.2): Calculate the value of
+ð1
+0
+dx
+x3 þ 1. Hint: first confirm the validity of the partial
+fraction expansion 1
+x3þ1 1⁄4 1
+3
+1 xþ1
+x2 x2 xþ1
+hi
+and so
+ð1
+0
+dx
+x3 þ 1 1⁄4 1
+3
+ð1
+0
+dx xþ1 1 3
+ð1
+0
+x2
+x2 x þ 1 dx. The first integral on the right will yield to an obvious change
+70 2 ‘Easy’ Integrals
+
+
+of variable, and the second integral on the right will yield to another change of variable, one just as obvious if you first complete the square in the denominator of the integrand. Your theoretical answer should have the numerical value 0.8356488. . ..
+(C2.3): Here’s a pretty little recursive problem for you to work through. Suppose you know the value of
+ð1
+0
+dx
+x4 þ 1:
+This integral is not particularly difficult to do—we did it in (2.3.4)—with a value of π
+2pffi2ffi. The point here is that with this knowledge you then also immediately know
+the values of
+ð1
+0
+dx
+ðx4 þ 1Þm
+for all integer m > 1 (and not just for m 1⁄4 1). Show this is so by deriving the recursion
+ð1
+0
+dx
+ðx4 þ 1Þmþ1 1⁄4 4m 1
+4m
+ð1
+0
+dx
+ðx4 þ 1Þm:
+For example,
+ð1
+0
+dx
+ðx4 þ 1Þ3 1⁄4 ð4Þð2Þ 1
+ð4Þð2Þ
+ð1
+0
+dx
+ðx4 þ 1Þ2 1⁄4 7
+8
+ð1
+0
+dx
+ðx4 þ 1Þ2
+and
+ð1
+0
+dx
+ðx4 þ 1Þ2 1⁄4 ð4Þð1Þ 1
+ð4Þð1Þ
+ð1
+0
+dx
+x4 þ 1 1⁄4 3
+4
+ð1
+0
+dx
+x4 þ 1 :
+Thus,
+ð1
+0
+dx
+ðx4 þ 1Þ3 1⁄4 7
+8
+3 4
+ð1
+0
+dx
+x4 þ 1 1⁄4 21
+32
+π
+2pffi2ffiffi 1⁄4 21π
+64pffi2ffiffi 1⁄4 0:72891 . . . :
+MATLAB agrees, as quad(@(x)1./((x.^4+1).^3),0,1000) 1⁄4 0.72891. . ..
+Hint: Start with
+ð1
+0
+dx
+ðx4 þ 1Þm and integrate by parts.
+(C2.4): For what values of b does the integral in (2.4.5) make sense? Hint: think about where any singularities in the integrand are located.
+(C2.5): Show that
+ð1
+0
+lnð1 þ xÞ
+xpffixffiffi dx 1⁄4 2π. Hint: integrate by parts.
+2.5 Challenge Problems 71
+
+
+Chapter 3 Feynman’s Favorite Trick
+3.1 Leibniz’s Formula
+The starting point for Feynman’s trick of ‘differentiating under the integral sign,’ mentioned at the end of Chap. 1, is Leibniz’s formula. If we have the integral
+IðαÞ 1⁄4
+ð bðαÞ
+aðαÞ
+fðx; αÞ dx
+where α is the so-called parameter of the integral (not the dummy variable of integration which is, of course, x), then we wish to calculate the derivative of I with respect to α. We do that in just the way you’d expect, from the very definition of the derivative:
+dI
+dα 1⁄4 limΔα!0
+Iðα þ ΔαÞ IðαÞ
+Δα :
+Now, since the integration limits depend (in general) on α, then a Δα will cause a Δa and a Δb and so we have to write
+Iðα þ ΔαÞ IðαÞ 1⁄4
+ðbþΔb
+aþΔa
+fðx, α þ ΔαÞ dx
+ðb
+a
+fðx; αÞ dx
+1⁄4
+ða
+aþΔa
+þ
+ðb
+a
+þ
+ðbþΔb
+b
+fðx, α þ ΔαÞ dx
+ðb
+a
+fðx; αÞ dx
+1⁄4
+ðb
+a
+fðx, α þ ΔαÞ fðx; αÞ
+f gdx þ
+ðbþΔb
+b
+fðx, α þ ΔαÞ dx
+ð aþΔa
+a
+fðx, α þ ΔαÞ dx:
+© Springer Science+Business Media New York 2015 P.J. Nahin, Inside Interesting Integrals, Undergraduate Lecture Notes in Physics, DOI 10.1007/978-1-4939-1277-3_3
+73
+
+
+As Δα ! 0 we have Δa ! 0 and Δb ! 0, too, and so
+limΔα!0 Iðα þ ΔαÞ IðαÞ
+fg
+1⁄4 limΔα!0
+ðb
+a
+fðx, α þ ΔαÞ fðx; αÞ
+f gdx þ fðb; αÞΔb fða; αÞΔa
+where the last two terms follow because as Δa ! 0 and Δb ! 0 the value of x over the entire integration interval remains practically unchanged at x 1⁄4 a or at x 1⁄4 b, respectively. Thus,
+dI
+dα 1⁄4 limΔα!0
+Iðα þ ΔαÞ IðαÞ
+Δα 1⁄4 limΔα!0
+1 Δα
+ðb
+a
+fðx, α þ ΔαÞ fðx; αÞ
+f gdx
+þlimΔα!0fðb; αÞ Δb
+Δα limΔα!0fða; αÞ Δa
+Δα
+or, taking the 1
+Δα inside the integral (the Riemann integral itself is defined as a limit, so what we are doing is reversing the order of two limiting operations, something a pure mathematician would want to justify but, as usual in this book, we won’t worry about it!),
+ð3:1:1Þ
+This is the full-blown Leibniz formula for how to differentiate an integral, including the case where the integrand and the limits are functions of the parameter α. If the limits are not functions of the parameter (such as when the limits are constants) then the last two terms vanish and we simply (partially) differentiate the integrand under the integral sign with respect to the parameter α (not x). Here’s a quick example of the power of Leibniz’s formula. We’ve used, numerous times, the elementary result
+ð1
+0
+1
+x2 þ a2 dx 1⁄4 1
+a tan 1 x
+a
+1
+0 1⁄4π
+2a :
+Treating a as a parameter, differentiation then immediately gives us the new result that
+ð1
+0
+2a
+x2 þ a2
+ð Þ2 dx 1⁄4 2π
+4a2
+or,
+74 3 Feynman’s Favorite Trick
+
+
+ð3:1:2Þ
+One could, of course, not stop here but continue to differentiate this new result again (and then again and again), each time producing a new result. For example, another differentiation gives
+ð3:1:3Þ
+For a 1⁄4 1 this is 0.58904. . . and quad(@(x)1./((x.^2 + 1).^3),0,100) 1⁄4 0.58904. . .. A more sophisticated example of the formula’s use is the evaluation of
+ð1
+1
+e
+x2
+2 dx:
+This is the famous probability integral,1 so-called because it appears in the theory of random quantities described by Gaussian (bell-shaped) probability density functions (about which you need know nothing for this book). Because this integral has an even integrand, we can instead study
+ð1
+0
+e
+x2
+2 dx
+and then simply double the result. To introduce a parameter (t) with which we can differentiate with respect to, let’s define the function
+gðtÞ 1⁄4
+ðt
+0
+e
+x2
+2 dx
+2
+,
+and so what we are after is
+1 The probability integral is most commonly evaluated in textbooks with the trick of converting it to a
+double integral in polar coordinates (see, for example, my books An Imaginary Tale: the story of ffiffiffiffiffi1ffiffi
+p,
+Princeton 2012, pp. 177–178, and Mrs. Perkins’s Electric Quilt, Princeton 2009, pp. 282–283), and the use of Leibniz’s formula that I’m going to show you here is uncommon. It is such an important integral that at the end of this chapter we will return to it with some additional analyses.
+3.1 Leibniz’s Formula 75
+
+
+ð1
+1
+e
+x2
+2 dx 1⁄4 2 ffiffiffiffiffiffiffiffiffiffiffi
+gð1Þ
+p:
+Note, carefully, that the parameter t and the dummy variable of integration x, are independent quantities.
+Differentiating g(t) using Leibniz’s formula (notice that the upper limit on the integral is a function of the parameter t, but the integrand and the lower limit are not), we get
+dg
+dt 1⁄4 2
+ðt
+0
+e
+x2
+2 dx e t2
+2
+no
+1⁄42
+ðt
+0
+e
+t2 þx2
+ðÞ
+2 dx:
+Next, change variable to y 1⁄4 x
+t (so that as x varies from 0 to t, y will vary from 0 to 1). That is, x 1⁄4 yt and so dx 1⁄4 t dy and we have
+dg
+dt 1⁄4
+ð1
+0
+2te
+t2þy2 t2
+ðÞ
+2 dy 1⁄4
+ð1
+0
+2te
+1þy2
+ð Þt2
+2 dy:
+Now, notice that the integrand can be written as a (partial) derivative as follows:
+2te
+1þy2
+ð Þt2
+2 1⁄4∂
+∂t
+2e
+1þy2
+ð Þt2
+2
+1 þ y2
+8<
+:
+9=
+;:
+That is,2
+dg
+dt 1⁄4
+ð1
+0
+∂ ∂t
+2e
+1þy2
+ð Þt2
+2
+1 þ y2
+8<
+:
+9=
+; dy 1⁄4 2 d
+dt
+ð1
+0
+e
+1þy2
+ð Þt2
+2
+1 þ y2 dy:
+And so, integrating,
+gðtÞ 1⁄4 2
+ð1
+0
+e
+1þy2
+ð Þt2
+2
+1 þ y2 dy þ C
+where C is the constant of integration. We can find C as follows. Let t 1⁄4 0. Then
+2 The reason we write a partial derivative inside the integral and a total derivative outside the integral is that the integrand is a function of two variables (t and y) while the integral itself is a function only of t (we’ve ‘integrated out’ the y dependency).
+76 3 Feynman’s Favorite Trick
+
+
+gð0Þ 1⁄4
+ð0
+0
+e
+x2
+2 dx
+2
+1⁄40
+and, as t ! 0,
+ð1
+0
+e
+1þy2
+ð Þt2
+2
+1 þ y2 dy !
+ð1
+0
+1
+1 þ y2 dy 1⁄4 tan 1ðyÞ 1
+01⁄4π
+4:
+Thus, 0 1⁄4 2 π
+4 þ C and so C 1⁄4 π
+2 and therefore
+gðtÞ 1⁄4 π
+22
+ð1
+0
+e
+1þy2
+ð Þt2
+2
+1 þ y2 dy:
+Now, let t ! 1. The integrand clearly vanishes over the entire interval of integration and we have gð1Þ 1⁄4 π
+2. That is,
+ð3:1:4Þ
+ffi2ffiffiffiπffi
+p 1⁄4 2.506628 . . ., and quad agrees: quad(@(x)exp(-(x.^2)/2),-1000,1000) 1⁄4
+2.506628 . . . We can use differentiation under the integral sign, again, to generalize this result in the evaluation of
+IðtÞ 1⁄4
+ð1
+0
+cos ðtxÞe x2
+2 dx:
+From our last result, we know that Ið0Þ 1⁄4 ffiπffi
+2
+p . Then, differentiating with respect to t,
+dIðtÞ
+dt 1⁄4
+ð1
+0
+x sin ðtxÞe x2
+2 dx:
+We can do this integral by-parts; let u 1⁄4 sin(tx) and dv 1⁄4 xe x2
+2 dx. Then,
+du 1⁄4 t cos(tx)dx and v 1⁄4 e x2
+2 . Thus,
+3.1 Leibniz’s Formula 77
+
+
+dIðtÞ
+dt 1⁄4 sin ðtxÞe x2
+2
+n o1
+0
+ð1
+0
+t cos ðtxÞe x2
+2 dx:
+The first term on the right vanishes at both the upper and lower limits, and so we have the elementary first-order differential equation
+dIðtÞ
+dt 1⁄4 t
+ð1
+0
+cos ðtxÞe x2
+2 dx 1⁄4 t IðtÞ:
+Rewriting, this is
+dIðtÞ
+IðtÞ 1⁄4 t dt
+and this is easily integrated to give
+ln IðtÞ
+f g 1⁄4 t2
+2 þC
+where, as usual, C is a constant of integration. Since Ið0Þ 1⁄4 ffiπffi
+2
+p , we have C 1⁄4 ln ffiπffi
+2
+p and so
+ln IðtÞ
+f g ln
+ffiπffiffi
+2
+r
+1⁄4 ln IðtÞ
+ffi2ffiffi
+π
+r!
+1⁄4 t2
+2
+or, at last,
+ð3:1:5Þ
+For t 1⁄4 1, for example, our result says the integral is equal to ffiffiπffiffi
+2e
+p 1⁄4 0.760173 . . . and quad(@(x)cos(x).*exp(-(x.^2)/2),0,1000) 1⁄4 0.760171 . . .. From this last result, if we return to the original limits of 1 to 1 we can write
+ð1
+1
+e
+x2
+2 cos ðtxÞ dx 1⁄4 2
+ffiπffiffi
+2
+r
+e
+t2
+2 1⁄4 ffiffiffiffiffiffi
+2π
+p e t2
+2:
+Then, if we write
+78 3 Feynman’s Favorite Trick

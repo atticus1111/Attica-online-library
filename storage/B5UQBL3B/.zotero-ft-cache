@@ -1,0 +1,940 @@
+Skip to main content
+Skip to article
+View PDF
+Download full book
+Plastic Waste and Recycling
+Environmental Impact, Societal Issues, Prevention, and Solutions
+2020, Pages 223-249
+Chapter 9 - Microplastics: from origin to impacts
+Author links open overlay panel
+Natalie A. Welden 1
+,
+Amy Lusher 2
+Show more
+Share
+Cite
+https://doi-org.colorado.idm.oclc.org/10.1016/B978-0-12-817880-5.00009-8
+Get rights and content
+Full text access
+Abstract
+Microplastic (MP) pollution has rapidly become one of the most prominent global environmental issues. While there is debate as to whether the issue warrants the level of research, media, and funding currently centered upon it, the prevalence of MPs throughout the environment cannot be underestimated. Studies have demonstrated the movement of MPs into even the remotest habitats and have revealed their varied impacts, ranging from the transport of harmful microbes to changes in feeding behavior, tissue structure, and reproductive output. Despite this knowledge, there are still many challenges to the quantification, monitoring, and impacts of MP pollution.
+Previous
+Next
+Keywords
+EcotoxicologyIngestionMarine debrisPolymersTransport
+Contents
+9.1
+Understanding microplastic pollution 223
+9.2
+Classifying microplastics 224
+9.3
+Origin of plastics 226
+9.3.1
+How much microplastic is produced? 227
+9.4
+Where and how have microplastics been observed? 227
+9.4.1
+Air 228
+9.4.2
+Terrestrial 229
+9.4.3
+Lakes 231
+9.4.4
+Rivers 231
+9.4.5
+Marine 232
+9.5
+Interactions between microplastics and biota 234
+9.5.1
+Ingestion by invertebrates 234
+9.5.2
+Ingestion by vertebrates 235
+9.5.3
+Inhalation 237
+9.5.4
+The effect of biota on the transport and settlement 237
+9.6
+The impacts of interaction between microplastic and biota 237
+9.6.1
+Nutrition 238
+9.6.2
+Histology 239
+9.6.3
+Behavior 240
+9.6.4
+Reproduction effects 241
+9.6.5
+Transfer of contaminants 241
+9.7
+Human interactions and impacts 242
+9.8
+Conclusions 242
+References 243
+9.1. Understanding microplastic pollution
+Despite occasional reports of small plastics in the environment from as early as the 1960s [1], it is only in the past 10 years that the scale and pervasiveness of microplastic (MP) pollution has become apparent. Increasing awareness has resulted in almost exponential growth in the number of studies assessing the spread and impacts of MP in the marine environment, and the focus on freshwater and terrestrial habitats is similarly increasing. However, despite the rapid expansion of the field, numerous questions still remain regarding the classification, monitoring, and effect of MPs in the environment. The state of our knowledge might be described as broad but lacking in depth.
+9.2. Classifying microplastics
+Over the past decade, there have been a number of attempts to formally define the broad category of pollutants identified as “microplastic,” a term previously employed without consistency within or between research fields. More confusingly still, many researchers also employ the term “mesoplastics” to encompass particles that fall at the top end of the MP size range (Fig. 9.1). The classification and categorization of MPs has been variable depending on discipline, resulting in the emergence of common terminology and definitions; however, remaining ambiguity has created some misconceptions by individuals even one step removed from the research (i.e., regulators, media) and may subsequently affect the development of public understanding, meaningful policy, and effective mitigation methods. A framework for plastic definitions was recently suggested by a group of international scientists [2], considering biological impacts and endpoints and other important cross-discipline topics, suggesting that size is not the most important descriptive factor.
+Download: Download full-size image
+
+Figure 9.1. Mesoplastics on Huk beach, Oslo, Norway.
+
+Photo: Amy Lusher.
+Addressing the problem of standard definitions is critical in enabling comparisons between datasets; examples of inconsistently represented items include cellophane, rubbers, paint particles, and fibers. Polymer chemists believe that rubber, some fibers, and paint particles are not plastic, whereas cellophane, other regenerated cellulose, and semisymmetric materials are included by researchers if the presence of natural fibers can be discounted [3]. This suggests that size should be considered later in the definition of particles. First, we must categorize the physiochemical properties, and size, shape, color, and origin become characterization criteria [2].
+This ongoing debate aside, size is currently the most commonly used criterion to define plastics, and size classes are normally recorded as nano-, micro-, macroplastics. Particle size is of ecological relevance because size determines the interaction with biota and environmental fate. The size range of particles referred to as “microplastics” has no clear scientific justification and is often contended. The most frequently used upper limit is 5 mm, as proposed by NOAA [4], partially informed by the availability of small particles for ingestion by marine biota. Initially, no clear lower boundary was proposed, with researchers indicating only the lower limit of the sampling method or processing apparatus, such as sampling net meshes and sieves. For example, manta nets have a number of sampling mesh sizes, commonly 300 μm, and more recently 200, 150, and 50 μm [[5], [6], [7]]. A further issue is when classifying MPs in the number of dimensions measured. The 5 mm boundary refers to the longest axis, and normally a maximum of two dimensions are measured: length and width. However, the dimensions of particles are important and may greatly influence particle fate following ingestion.
+The lack of a defined smallest size, measurements which only focus on the largest dimension, and variation between the sampling methods applied results in large variation in the number of MPs recorded, sometimes spanning two or even three orders of magnitude. A 5 mm particle is very different to a 500 μm particle, which is different still to a 50 μm particle. For instance, 5 mm and 500 μm particles may easily pass through digestive tracts and be egested without causing harm, whereas 50 μm are small enough to cross cell boundaries.
+One potential alternative is to use conventional units of measurement, such as the SI scale. Therefore, this would mean nanoplastics (1–1000 nm), MPs (1–1000 μm), milliplastics (1–10 mm), centiplastics (1–10 cm), and deciplastics (1–10 dm). Unfortunately, this terminology conflicts with some of the adopted terminology. For example, in the nanomaterials field, nanoplastics are typically considered as 100 nm. As a result, compromise and clear subcategorization are needed [2].
+9.3. Origin of plastics
+In addition to size, MPs may be classified by their source, a measure clearly important when examining regulatory approaches to limiting plastic pollution. However, determining the origin of many MPs can be unmanageable, and this should only be applied when the origin of the plastic can be reliably determined [2].
+Broadly, primary MPs refer to those particles that have been intentionally produced within the MP size range, whereas secondary MPs are formed through fragmentation in the environment or breakdown during use. Those particles intentionally manufactured to be small include preproduction pellets, the feedstock for a large proportion of the plastics industry. Around 350 million tonnes of raw plastics are produced each year [8], and these are transported to manufacturers who melt them down to be converted into individual products or components. Pellets may be lost to the environment during the production, packing, transport, and during use.
+Other sources of primary MPs are plastic granules used for a range of functions including cosmetic exfoliation, cleaning products, and sandblasting media. In some applications, particularly domestic usage, the MP particles are discarded immediately following use. In the case of cosmetic microbeads, these products are generally released into wastewater systems. Studies of wastewater treatment works in Southern California have shown a significant contribution of microbeads believed to originate from toothpaste [9]. Recognition of the potential damage caused by cosmetic microbeads has lead to international efforts to minimize their use, including bans in numerous countries.
+Secondary MPs originate from a range of diverse sources, both terrestrial and aquatic. There are two distinct phases of secondary production in MP, in-use fragmentation and postuse fragmentation. In-use fragmentation may be typified by tire wear, the formation of microfibres during clothes washing, and the wear of fishing gear [10,11]. Additionally, in-use plastics may be degraded through the action of organisms, such as the production of MPs by boring isopods and polychetes as they produce their burrows in polystyrene (PS) floats [12,13].
+Postuse fragmentation may be categorized by the breakdown of lost and discarded plastics. Macroplastic debris may enter the environment via a range of processes, including mismanagement of domestic and industrial wastes, wastewater systems, aeolian transport (being blown by the wind), and direct littering. Exposure to wind, wave action, and UV rays cause large plastic items to become brittle, reducing the durability of plastics and leading to fragmentation into increasingly small pieces. Plastics and MPs may also be further degraded following ingestion. For example, MPs ingested by Krill, Euphausia superba, were seen to reduce in size from >30 to 1 μm [14]. This degradation will continue in the environment, only slowing when exposure to the degradative elements, such as light reduction in the deep sea, and burial in sediment.
+9.3.1. How much microplastic is produced?
+MP pollution is predominantly a consequence of the proliferation of plastics within industrial and consumer goods, as well as the subsequent mishandling of plastic wastes. The most comprehensive estimates suggest that there could be between 5 and 51 × 1012 (5–51 trillion) particles in the marine environment (Table 9.1) [15]. Examples of these estimations are presented in the table below; the variation observed is predominantly due to inconsistencies between methods.
+
+Table 9.1. Estimates of floating microplastic debris.
+
+Location	Estimate	Limitations	References
+Global ocean surface	5–51 trillion particles equal to between 93,000 and 236,000 tonnes	Scarcity of data in most of the world ocean	Van Sebille et al. [15]
+Atlantic, Pacific, Indian oceans	7000–35,000 tonnes of floating plastic	0.20–100 mm in size	Cozar et al. [16]
+Global ocean surface	66,140 tonnes	0.33–200 mm in size	Eriksen et al. [17]
+9.4. Where and how have microplastics been observed?
+As with the large plastic litter discussed in the previous chapter, MPs have numerous properties that maximize their distribution on land and at sea. Due to their buoyancy and durability, plastic may be transported for long distances on water and air currents. As a result of this extensive transport, MPs have now been observed in all global environments.
+9.4.1. Air
+In addition to the numerous low-density polymers, many plastics are constructed with a high surface-area-to-volume ratio, which enables them to be carried on air currents. Windblown plastic transport may include large plastics such as bags in the wind, or the millions of unseen MPs that drift on the slightest breeze. However, the study of airborne MPs is in its infancy, and little is currently known about their concentration and sources. Many airborne MPs are assumed to originate from textiles [18], the degradation which produces fibrous particles that have been observed in atmospheric fallouts, as well as in indoor and outdoor environments [19,20].
+Total atmospheric fallout (TAF) was investigated at both an urban and suburban site within Paris during a 16–12 month monitoring project. Results indicated that fibrous materials accounted for the vast majority of material collected and fragments (<100 mm) were rare. TAF fluxes were higher at the urban sites, and authors suggested that this was probably linked to the density of the urban population [20]. This research was expanded to investigate settled dust as well as indoor and outdoor air. The concentrations in indoor environments ranged from 1.0 to 60 fibers per cubic meter, and outdoor concentrations were significantly lower, ranging between 0.3 and 1.5 fibers per cubic meter. In addition, the deposition rate fibers ranged between 1586 and 11,130 fibers per square meter per day in the indoor environment [19].
+Recent investigations in Iran have focused on the presence and distribution of MP and microrubbers (MRs) in street and suspended dusts from urban locations in Bushehr City [21], Tehran [22], and Asaluyeh [23]. Fibrous MPs (2 –100 mm) were found in concentrations of one particle per cubic meter in suspended dust collected daily over an 8-day period in Asaluyeh, whereas an average of 900 MPs and 250 MRs were counted in 15 g samples of street dust, which was dominated by spherical and film-like particles [23]. Similar values were reported for MPs and MRs in Bushehr with values ranging from 210 to 1658 (MP) and 44 to 782 (MR) items per 10 g of dust [21] and 88 to 605 MPs per 30 g of dust in Tehran [22]. When estimated per day, concentrations of nonfibrous MPs and fibers ranged from 175 to 313 particles per square meter per day in atmospheric fallout in Dongguan city, China [24].
+9.4.2. Terrestrial
+The presence of plastics in terrestrial ecosystems is, as in air, comparatively understudied, although it is recognized that most marine MP pollution is of terrestrial origin. There are discrepancies between the number of studies in the terrestrial environment versus that in coastal and marine systems. This may be caused by the complexity of distribution patterns and pathways on land as well as the identification of marine systems as an endpoint for plastic pollution. Plastics and MPs on land are also often harder to detect due to the masking from vegetation and soils [25]. Furthermore, there is a significant geographical bias, 67% of studies on terrestrial plastics were from developed countries [26]; data are still lacking in areas that have some of the largest rivers, and further studies are required to validate predicted values of MP input [27].
+Sewage sludge has been identified as a point source for the release of MPs on land. Wastewater treatment systems receive a range of MP particles, from particles from cosmetics to those generated during industrial processes. Up to 99% of MPs may be removed by treatment that would otherwise have been transported to aquatic habitats. There are several processing steps at wastewater treatment plants that serve to aggregate and retain MPs. Grit chambers may remove 35%–59% of MPs, which may equate to about 7.78 × 106 particles a day [9,28,29]. Subsequently, grease skimmers may remove a proportion of denser MPs, although the removal rate at this stage is around 6% [9,30]. Analysis of further filtration methods has indicated that reductions in MP load may reach between 40% and 99.9% [30,31]. High-density MP particles may be separated from wastewater by settling in clarifiers that remove settle material, for example, 61%–82% of MPs were in separate plants with clarifiers [28,30]. Despite the percentage of particles removed, a release of 0.25 MP per liter may still account for over 23,812 million MPs per year [30], resulting in significant increases in particles downstream of outfall sites [32].
+The large proportion of MPs removed during wastewater treatment may be retained in sewage sludge. Depending on the treatment process applied at wastewater treatment plants and during subsequent treatment, the number of particles in sludge has been seen to vary [33]. Following treatment, a large proportion of sludge becomes biosolids, transferred to terrestrial ecosystems through land application and also landfilling. This presents a further problem; in repurposing sludge, MPs are directly released to the terrestrial environment. Further research into the consequences of sludge application and terrestrial transfer and fate of MPs are urgently required [34].
+In addition to the release of MPs in sewage and wastewater, sources of MPs on land include watersheds and riverine transport, industrial outlets, littering, and dumping [27], and despite their accessibility, MPs have now been found in remote and unexpected regions of the terrestrial environment. Recent studies have reviewed the transport dynamics, fluxes, and movement of MPs between terrestrial, freshwater, and marine systems, all of which have concluded that current understanding of presence, distribution, transport, and extent of ecological impact is still very limited [34,35]. Although understudied, landfills, urban areas, and agricultural locations may be among the most plastic contaminated environments on land [34,36]. Once present in soil, MPs could alter physical and chemical properties of the soil [37] and may be ingested by fauna [38], resulting in consequences to biota and associated ecological processes [39].
+The abundance of MPs in agricultural systems has been estimated to be very abundant, especially when treated wastewater and biosolids are used in agriculture for irrigation and as a fertilizer. Estimated of 63,000–430,000 tonnes of MPs may enter agroecosystems annually in Europe compared to 44,000–300,000 tonnes in North America annually [40]. Based on the numbers of particles identified in sewage sludge and the details of sewage sludge application in Norway, a similar calculation was carried out. It was estimated that approximately 446 billion MP particles are spread on agricultural soils, 27 billion MP particles are added to green areas, and 112 billion MP particles are sent to soil producers per year, equating to over 584 billion MPs being released into the environment via sewage sludge application each year in Norway [41]. Further still, the presence of particles in terrestrial ecosystems may facilitate the transport of organic contaminants in soil [42]. If MPs persist and accumulate in soils, there may be significant direct impacts on agriculture and the functioning and biodiversity of terrestrial ecosystems [43]. Therefore, it is highly important to identify accumulation and temporal trends, in the same way as the marine and coastal environments [44,45].
+9.4.3. Lakes
+As lakes are transitory features in the aquatic environment, they can act as reservoirs for MP particles and also sinks, especially in areas with limited water movement [46]. Some of the first studies of MPs in the freshwater systems were of abundances of particles found in the Great Lakes, with surface water concentrations of 43,000 particles per square kilometer [47], which are similar in concentrations to those found in Lake Geneva, Europe (48,146 fragments per square kilometer) [48]. Lakes can represent catchment-scale sinks for MPs, and it appears that urbanization, industrial activities, and wastewater input influence the composition and quantity of MPs. For example, in the United Kingdom, sampling of a semiurban pond indicated synthetic microfibre concentrations between 5 and 80 fibers per kilogram of sediment [49] Sediments of lakes can be dated, and in areas with high sedimentation rates, it may be possible to track the onset of pollution in such regions. One very recent example is the radionuclide dated sediment cores from Hampstead Pond, North Londonm which provided historical accumulation of MPs in an urban lake environment with high-scale resolution [35].
+9.4.4. Rivers
+River systems are considered one of the primary routes by which plastics and MPs enter the marine environment, with MPs typically carried downstream into estuarine environments with periodic stranding and refloatation events. However, these sites are highly susceptible to MP pollution due to their proximity to urban and industrial sources and may demonstrate notable levels of MP in their own right. This is particularly apparent in studies of the sediments and water column of urban rivers and their wider catchments. In the United Kingdom, observations of sediments in the River Thames revealed an average of between 12.1 and 22.3 synthetic microfibres per 100 g, and a larger study of 14 river catchments in North West England revealed that microfibres make up an average of just 9% of recovered MPs before flood events and 3% after flood events. In urban areas, MPs could reach up to 517,000 particles per m2 [50,51].
+In wider Europe, surveys of the Austrian Danube revealed mean plastic abundance of 316.8 plastic items per 1000 cubic meters, indicating a plastic output into the Black Sea of 4.2 tonnes per day [52]. Samples taken in the Rhone, Aubonne, Venoge, and Vuache`reindicated a significant difference between sites; the mean for all rivers indicated the passage of 790 MP items (170 mg) per hour, or 6,920,400 MPs (0.0014892 tonnes) per year [53]. Along the River Rhine, MP concentrations have been seen to reach 892,777 particles per square kilometer in urban areas [54]. Significantly lower levels of MP were observed in plankton net and manta trawls of the River Seine, which revealed MP concentration in the water column of 3–108 particles per m3 [55].
+Measurements of plastic debris in Los Angeles River, San Gabriel River, and Coyote Creek revealed a maximum number of MPs of 12,932 pieces per cubic meter [56]. Also in America, analysis of the North Shore Channel revealed mean MP concentrations of up to 17.93 MPs per cubic meter. These values were an order of magnitude above those upstream of a WWTP [57]. Sampling in Chesapeake Bay revealed a positive correlation between population density and MP concentration [58]. In Quebec City, MP concentrations in the Saint Lawrence River varied by up to four orders of magnitude [59].
+9.4.5. Marine
+The marine environment represents the main repository for MP pollution, with minor exports back to the terrestrial environment in the form of buried beach debris, sediment extraction, and the capture of marine species for human consumption (caveat on fish processing plant). The marine environment is s highly complex three-dimensional system, and the transport and aggregation are affected by numerous processes including global thermohaline circulation, gyres, wind-driven currents, and tidal patterns [60].
+A study of MPs in the Yangtze River Estuary revealed MP densities between 4137.3 ± 2461.5 and 0.167 ± 0.138 particles per cubic meter, respectively, in the estuarine and the sea samples [61]. A similar study in the three estuaries across China revealed high levels of variation between sites, with a maximum density of 1245.8 particles per cubic meter [62]. The level of MP contamination was seen to be much lower than those upstream of the Three Gorges Dam, which was seen to reach between 3407.7 × 103 and 13,617.5 × 103 items per square kilometer [62].
+Outside of estuarine environments, our coasts appear highly susceptible to MP pollution. As in studies of large plastic debris, beaches are commonly surveyed for MP due to the limited resources necessary to sample these habitats; however, the manner in which MPs are monitored is highly variable, with plastics recorded by number or weight and by weight of sediment, volume of sediment, or area of beach. For example, the concentrations of MPs on the Baltic Coast are measured as MPs per kilogram (0–7 MP per kg) [63]. Conversely, contamination in beach sediments of the Gulf of Mexico was recorded as a function of the beach area (up to 117 pieces per square meter) [64]. Variation in MP abundance has been linked to the scale of local sources including industry, fishing, and tourism [63].
+MPs are also regularly observed in seawater, with current estimates placing the mass of suspended plastic at between 93 and 236 × 103 tonnes [15]. As with sampling in the beach sediments, the methods used to quantify MP pollution in seawater are highly variable employing underway sampling, plankton tows, and manta trawls; again, this results in inconsistent reporting between studies. Despite these discrepancies, a number of factors have been identified, which influence the distribution and aggregation of MPs. As with MP debris, horizontal distribution of plastics is the result of wind, local currents and eddies, and global circulation patterns [60].
+Vertical distribution in the water column is the result of environmental influences including turbulent mixing, wave action, wind action, and vessel movements. Models highlighted discuss the importance of size and turbulent mixing. Smaller particles tend to be found deeper in the water column [65,66]. In addition, the action of marine organism may alter the density of the MPs causing it to sink, by fouling, inclusion into marine snow [67], or active transport between consumption and excretion [68]. Both abiotic and biotic drivers of vertical variation are expected to vary with the seasons [69].
+Biofouled and dense MPs may be settled in benthic environments. Deepwater sediments are relatively inaccessible, requiring highly specialized equipment and extensive boat time, resulting in relative few available samples. Using deep sea cores, MPs have been recorded from depths as great as 3500 m in the Mediterranean [70]. In the arctic, samples have been taken at over 5500 m [71]. In addition to the sediments, plastics have been recorded from water and animals sampled from over 2000 m in the Rockall Trough [72].
+9.5. Interactions between microplastics and biota
+As noted in the previous chapter, organisms in all environments routinely interact with plastics; the same is true for MPs. Ingestion has been observed in numerous species of varied size and feeding mode; although entanglement is less likely, however, small plastics may adhere to the surfaces of organisms. MP adherence is currently an underexplored, but the phenomenon has been observed on bivalve molluscs [73], crustaceans [74,75] oligochaetes, and polychetes [75], as well as algae, such as Fucus vesiculosus [76]. Adherence to algae and typical prey species may result in the ingestion of MP by grazing herbivores including Littorina [76].
+9.5.1. Ingestion by invertebrates
+MPs are available for ingestion by a larger range of species than that discussed in the previous chapter on large plastic debris. While many of the organisms seen to ingest macroplastics have also been seen to ingest MPs, numerous additional species are affected by MP alone. While MP ingestion has been observed in terrestrial species such as the earthworm Lumbricus terrestris [77], the aquatic environment remains the dominant source of information regarding the mechanisms and effects of MP ingestion.
+Due to their small size and suspension within the water column, MP is regularly taken in by a range of invertebrates. Within this diverse group are filters, detritivores, scavengers, deposit feeders, and predators, which are exposed to MPs through a range of routes. Subsequent studies have revealed that feeding type and development drive the ingestion of MPs by freshwater invertebrates [78]. A prime example of the effect of feeding mode is the threat of suspended MPs to filtering organisms. Farmed blue mussels, Mytilus edulis, and Pacific oysters, Crassostrea gigas, have been seen to contain MPs [79], as have farmed and wild manila clams, Venerupis philippinarum [12]. Nonmolluskan filterers have also shown MP uptake, with laboratory trials of wild-gathered scleractinian corals revealing the uptake of polypropylene MP shavings [80].
+Free swimming and planktonic filterers are also subject to MP uptake. Planktonic organisms have been seen to consume plastic in the laboratory, with the uptake of microspheres observed in calanoid copepods, tunicates, euphausids, and juvenile bivalves and crabs [81]. Similarly, the larvae of Pacific oysters, C. gigas, have also been seen to ingest plastics. Larvae at 3, 10, and 24 days postfertilization were exposed to MPs between 0.07 and 20.3 μm, indicating that all ages of larvae ingested plastics up to 7.3 μm in size, with only the oldest larvae able to ingest the 20.3 μm category [82]. In the northeast Pacific, MP uptake has been observed in calanoid copepods and euphausids, with euphausids more frequently seen to contain plastic [83]. Sessile filterers attached to mobile substrate may mimic the expose experiences by mobile organisms, with gooseneck barnacles, Lepas spp., attached to floating debris seen to contain MP litter. In the 385 recovered individuals, 129 (33%) contained MP, with 1 individual containing 30 particles [84].
+A number of factors may influence MP uptake by filtering organisms, for example, position in the water column. Coastal invertebrate assemblages typical of the Baltic Sea were exposed to MP in a mesocosm trial. Filtering bivalves, Macoma baltica and M. edulis, gammarid, mysid, Monoporeia shrimps, and Marenzelleria worms were all seen to ingest 10 μm PS microspheres; however, filtering bivalves and free-swimming crustaceans were seen to ingest the greatest quantities [85]. Similarly, observation of MP uptake by planktotrophic pluteus larvae of Paracentrotus lividus and the filter-feeding sessile juveniles of Ciona robusta revealed variable uptake rates between species [86]. Additionally, distance from sources of MP will have a marked effect on uptake, with previous observation revealing a decline in the proportion microfibres observed with an increasing distance from land [83].
+Detritivores are at risk of MP uptake as a result of sediment contamination, burrowing lugworms, Arenicola marina, taken from the coastlines of France, Belgium, and Holland revealed MP contamination in every individual [87]. Similarly, the sandhopper, Talitrus saltator, has been seen to take in MP in the laboratory, with a gut residence time of over 110 h [88]. Larger crustaceans such as the langoustine, Nephrops norvegicus, have also been seen to ingest MP, with populations in close proximity to urbanized areas showing elevated levels of contamination and larger individual plastic aggregations [89].
+9.5.2. Ingestion by vertebrates
+A much larger range of fish species have been seen to ingest MPs than are recorded as ingesting large, macroplastic debris. MP-contaminated fish have been observed throughout the world's oceans, with uptake recorded in both benthic and pelagic species. One of the first studies of MPs in the marine environment was undertaken in the English Channel, where observations of pelagic and demersal species revealed MP uptake in 36.5% of species, with no clear difference in MPs uptake between benthic and pelagic species, but obvious variation in the number of MPs per individuals in each group [3]. Small plastic items may affect fish at all stages of their life history. Samples of fish larvae were collected from 3 sites in the English Channel, and of the 349 larvae from 23 species, 2.9% had ingested MP (66% of which were blue fibers) [90].
+Across wider Europe, Hake, Merluccius merluccius, small-spotted catshark, Scyliorhinus canicula, and red mullet, Mullus barbatus, sampled from the Spanish Atlantic and Mediterranean coasts. Of the fish sampled, 15.3% of dogfish, 18.8% of red mullets and 16.7% of hakes contained plastics, with the most particles per individual observed in red mullet sampled near Barcelona [91]. Also in the Mediterranean, bogue (Boops boops) has been seen to take in high levels of MPs, with 68% of individuals seen to contain MP (average 3.75 items per fish) [92].
+Observations of uptake have also been made around the Americas. In the Brazos River Basin, Central Texas, examination of bluegill sunfish (Lepomis macrochirus) and longear sunfish (Lepomis megalotis) indicated that 45% of fish sampled had ingested MP and that the level of debris injected was linked to proximity to urbanized areas [93]. In the Gulf of Mexico, examination of the gastrointestinal tract revealed MP in 8% of freshwater fishes and 10% of marine fishes; again, the abundance of MP was higher in urbanized areas [94]. Further south, of 69 species sampled from tropical estuaries in Brazil, only 24 species were seen to contain MP [95].
+While MP uptake in fish has been widely observed, the route of uptake (with food or direct from the water) is relatively understudied. It may be that fish are able to distinguish between plastics and food in some cases. Goldfish, Carassius auratus, exposed to ethylene vinyl acetate fibers, PS fragments, and PA pellets for 6 weeks appeared able to distinguish between fragments and pellets in food, but readily ingested fibers [96].
+The consumption of MP contaminated prey may also result in MP consumption. Many of these observations have occurred in a laboratory setting. Observation of mesozooplankton preexposed to microspheres and fed to mysid shrimps indicated the transfer of MP to Mysis relicta [85], and MP fed mussels, M. edulis, fed to shore crabs, Carcinus maenas, indicate the transfer from one species to the other [97]. In a more natural setting, wild-caught fish (a subsample of which were observed to contain plastic) were fed to seals in a rehabilitation center. Subsequent analysis of seal scat revealed the presence of plastics [98]. In the wild, trophic transfer of MP has been observed between sand ells and plaice. Whole sand eels found in the stomachs of plaice were examined for to presence of MP, revealing a route of transfer [99].
+9.5.3. Inhalation
+MPs may also adhere and be taken up through the permeable gill membrane. While less studied, Watts et al. [74] observed the uptake of MP in the shore crab, C. maenas. By fitting crabs with masks and subsequently examining individual gills, it was possible to observe the uptake of fluorescently labeled 9–10 μm microspheres into the gills.
+9.5.4. The effect of biota on the transport and settlement
+The interaction between MPs and biota may also directly affect MP distribution. Consumption of plastics results in the binding of potentially buoyant plastics in fecal pellets and promotes the movement of MPs out of surface waters. Following their consumption by zooplankton, 20.6 μm MPs are seen to be contained within pellets. The introduction of plastics into fecal pellets reduces the sinking rate of pellets but increased that of plastics [100]. MPs have also been seen to be incorporated into the feces of isopods [101], ascidians, echinoderms, portunid crabs, and puffer fish [102].
+In addition to consumption and excretion, aggregates of phytoplankton may also serve to increase the sinking rate of MPs. Individual and combined aggregates of the diatom Chaetoceros neogracile, the cryptophyte Rhodomonas salina, were all seen to incorporate MPs, increasing the sinking rates of plastics by up to an order of magnitude [103].
+In terrestrial ecosystems, MPs may also be redistributed by earthworms. Laboratory observations have reported increased downward transport of MP in soils as a result of the action of worms [104]. Area observations of springtails, Collembola, have also indicated the potential for horizontal transport of both fibers and irregular particles [105].
+9.6. The impacts of interaction between microplastic and biota
+While plastic polymers are predominantly inert, a number of apparent effects have been observed as a result of interactions with organisms. These impacts have predominantly been recorded in animals; however, exposure to MP polyvinyl chloride (PVC) has also been seen to negatively affect the density of Skeletonema costatum, as well as reducing chlorophyll content [106]. In animal subjects, these observed effects of MP interaction may be driven by direct ingestion or by consuming contaminated prey. For example, PVC MPs fed to the mussel, Perna perna, resulted in observations of MPs in the feces of its predators, the puffer fish, Spheoeroides greeyleyi, and the portunid crab, Callinectes ornatus [102]. In a similar experiment, Asian clams, Corbicula fluminea, were fed polyethylene terephthalate (PET), polyethylene, PVC, or PS, some treated with polychlorinated biphenyls (PCBs). Clams from each group were then fed to white sturgeon, Acipenser transmontanus, resulting in a range of observed impacts that will be discussed below [107].
+In extreme circumstances, these interactions may result in mortality. The impacts of PS MPs at up to 40% of the sediment by weight were examined in 28-day assays. MPs were not seen to significantly influence mortality in Gammarus pulex (A), Asellus aquaticus (B), Sphaerium corneum (C), Hyalella azteca (D), Tubifex spp.; however, increasing concentrations appeared to reduce growth in G. pulex [108].
+9.6.1. Nutrition
+The impacts of MP ingestion and retention have been seen to be highly variable, both within and between species. Experimental design is highly inconsistent, with little standardization in the shapes, polymers, and concentrations used. Equally, the methods used to deliver MP to the organisms studied vary in relation to feeding mode.
+As may be determined from the previous sections, marine organisms are by far the most studied in relation to these affects; however, ingestion of MP by the earthworm L. terrestris was only seen to result in increased mortality after long-term exposure to MP concentrations of over 27% of total litter [77].
+Similarly, Eisenia foetida displayed inhibited growth and increased mortality only at higher concentrations of MP (>1% of soil) [109] and decreased growth rates in Eisenia andrei [110]. Analysis of the transfer of metals from MPs to earthworms has also indicated that MPs may exhibit greater desorption of zinc than soils [111]. In collembolans, exposure to MPs resulted in decreased growth and reproductive capacity and gut microbiota; however, there was no significant effect on mortality [112].
+The picture of MP impacts in aquatic organisms is also complex. Laboratory studies of the marine isopod, Idotea emarginata, has indicated that I. emarginata are able to readily egest consumed microspheres and displayed no effect on growth or mortality [101]. Similarly, N. norvegicus fed PCB-loaded microspheres over a 3 week period demonstrated no reduction in state [113]. However, in an 8-month study of MP nutritional fiber uptake in Langoustine, MPs ingestion was seen to result in effects that mirrored those of starvation, although was not as pronounced. Individuals fed plastic demonstrated reduced lipid storage, blood protein, and growth [114]. In smaller crustaceans, ingestion of PS microspheres by copepods, Calanus heligolandicus, resulted in much reduced intake of algal cell and a reduced carbon budget; however, no significant difference in respiration was observed [81].
+As observed in terrestrial worms, MP concentration is also of high importance when measuring potential effects on aquatic organisms. Larval molluscs, Crepidula onyx, displayed reduced growth and earlier settlement only when exposed to MP concentrations over 70% that of algal concentrations [115]. Similarly, larval sea urchins, Tripneustes gratilla, exposed to the highest concentrations of microspheres had the smallest body widths [116]. Chronic exposure of the marine worm, A. marina, to PVC (5% by weight) resulted in a reduction in energy reserves, whereas those exposed at 1% did not [117]. In a similar experiment, A. marina exposed to PS MPs showed increased weight loss, correlated with MP concentration [118].
+The potential effect of MP uptake on nutritional state is much less studied in vertebrates. Jacopever, Sebastes schlegelii, kept in water containing PS beads for 14 days demonstrated reduced growth and energy reserves [119]. Similarly, ingestion of ethylene vinyl acetate fibers, PS fragments, and polyamide (PA) pellets by Goldfish, C. auratus, over for 6 weeks resulted in lower average body weights and general condition [96].
+9.6.2. Histology
+Exposure to MPs has been seen to result in a number of tissue-level responses. In blue mussels, M. edulis, exposure to polyethylene MPs revealed transport to the digestive gland and lysosomal system resulting in inflammation and granulocytomas [120]. Similarly, histological changes were seen in the digestive glands of Asian clams, C. fluminea, fed PET, polyethylene, PVC, or PS [107]. In terrestrial invertebrates, signs of gut inflammation were observed in the earthworm E. andrei when exposed to MPs [110].
+A greater number of studies have been carried out in relation to the effects of MPs on the histology of fish than other potential impacts. Exposure to PA, polyethylene, polypropylene, PVC, and PS particles between 0.1 and 5.0 μm in size resulted in damage to the intestines of Danio rerio, observed as cracking of the villi and splitting of the enterocytes. However, in the same experiment, no damage to the gill, liver, or kidneys was noted [121]. In a similar experiment, the presence of PS beads resulted in cilia defects, in D. rerio [122]. In another study of D. rerio, exposure to 0.5 and 50 μm PS microbeads resulted in the presence of increased mucus in the gut and alteration of the gut microbiota [123]. In a study of the effects of the transfer of 18 contaminants to D. rerio by LDPE particles resulted in the development of granular structures and vacuolization of the liver [124].
+In addition to existing studies of D. rerio, the African catfish, Clarias gariepinus, exposure to phenanthrene loaded LDPE powder measuring less the 60 μm, resulted in changes to the gills including epithelial lifting, hyperplasia, and necrosis of the connective tissue; however, this was not apparent with exposed to virgin LDPE alone [125]. Observations of the distal intestines of European sea bass, Dicentrarchus labrax, fed PVC revealed hyperplasia, detachment of the mucosal epithelium, and beheaded villi, with the severity of the effects related to the exposure durations [126]. Similarly, silver barb Barbodes gonionotus fry exposed to PVC fragments shows thickening of the intestinal mucosa with increasing PVC concentration [127], and jacopever exposed to PS MPs indicated hyperanaemia of the liver and changes to intestinal morphology [119].
+9.6.3. Behavior
+In addition to affecting the uptake of food and the structures of the gastrointestinal tract, MP ingestion has been seen to have a number of effects on the behavior of organisms. Predominantly, the effects outlined relate to foraging and feeding capacity. For example, sturgeon fed MP contaminated clams showed reduced feeding behavior with the reduction varying in relation to the polymer used [107]. Jacopever, S. schlegelii, exposed to PS microbeads at 1 × 106 microspheres per liter for 14 days was slower, traveled less distance, took longer to consume food, and spent less time foraging than fish not exposed to plastics [119]. In a similar experiment, sheepshead minnow, Cyprinodon variegatus, exposed to PS of spherical or irregular shapes demonstrated reduced travel distances and speeds, with irregular particles appearing to have the greatest impact [128].
+9.6.4. Reproduction effects
+An observed secondary effect of MP ingestion is that of reduced reproductive capacity and alteration larval health. For example, fish fed plastic-contaminated clams have demonstrated reduce vitellogenin, the precursor to egg protein [129], and Pacific oysters exposed to MPs have demonstrated reduced oocyte size and number, as well as larval yield and development [130]. Observations of the effect of PS microspheres on egg production, egg diameter, and hatching success in Calanus heligolandicus revealed reductions in the size and hatching success after 6 days [131]. Similarly, exposure to PA, polyethylene, polypropylene, PVC, and PS particles at 5 mg/m2 resulted in decreased embryo number and brood size in Caenorhabditis elegans [121].
+9.6.5. Transfer of contaminants
+In addition to the direct effects of MP ingestion, plastics may transfer a range of potentially damaging additives and adsorbed contaminants. The degree to which transfer between plastics and biota occurs appears to vary between plastic, chemical, and target organism. PCBs are compounds used to improve the flexibility of plastics. Ingestion of PCB-loaded PS and polyethylene microspheres by N. norvegicus leads to no significant increases in the PCB concentration of tail tissue after 3 weeks [113]. However, in a study of PCB-loaded PS, A. marina was seen to contain significantly higher levels of PCB's when compared to contaminated sediments alone [118].
+Pyrene is a polyaromatic hydrocarbon (PAH) known to cause with a range of known toxicological effects in both humans and animals. Previous observations have demonstrated that ingestion of polyethylene and PS MPs pretreated with pyrene resulted in transfer to Mytilus galloprovincialis [129]. However, in a similar study, observations of the effect of PS microbeads on the uptake of fluoranthene (another PAH) in Mytilus spp revealed negligible influences on the level of uptake [132], and the uptake of benzo(a)pyrene by M. galloprovincialis in the presence of LDPE was seen to be less than expose to benzo(a)pyrene alone [133].
+In fish, MP has been seen to result in the transfer of benzo[a]pyrene transfer to the gill arches of D. rerio; however, this change was lower than that of exposure to BaP alone [134]. However, in a study of the effects of the transfer of 18 co-contaminants to D. rerio by LDPE particles between 125 and 250 μm resulted in a greater effect of sorbed chemicals and MP than chemicals alone [124]. Observations in fish have also indicated the increased uptake of metals. The presence of PS beads lead to higher levels of cadmium in the liver, guts, and gill tissues of zebrafish, D. rerio, than exposure to cadmium alone [122].
+9.7. Human interactions and impacts
+The prevalence of MPs throughout the environment and in numerous seafood species has resulted in numerous concerns regarding the potential of plastics to affect human health. Numerous observations of plastics have been made in shellfish and fish sourced from fish markets and supermarkets. MP uptake from seafood has been estimated at up to 11,000 pieces per person per year [117]. However, MPs have also been observed in beer, honey, dust, salt, bottled water, and ambient air, and as a result, it was unsurprising when a preliminary study revealed the first evidence of MP in human stool.
+The potential negative impacts as a result of this exposure appear to be minimal; however, the evidence is limited. Known impacts of MPs on the human body currently rely on incidental reports, such as incidence of flocker's lung in workers exposed to high levels of nylon flock or observations of the fragmentation of plastic implants. The level of exposure required to produce a negative effect appears to be many times that to which we are exposed in ambient durst or our food.
+9.8. Conclusions
+MP pollution is prevalent throughout the environment. As our use of plastics continues to rise, the potential MP sources will rise accordingly. Observations of MP contamination in highly impacted areas may be indicative of remote environments in the near future, and impacts assessments that currently use elevated plastic concentrations may be useful predictive tools. In light of our growing dependence on plastic, numerous suggestions have been made to enable us to reduce our plastic footprint. Many of these have been criticized for their focus on products or plastics with a limited applicability, as the overall impact on plastic use will be minimal. However, by removing easily replaced plastics, we may establish more conscious, less consumptive behaviors that lead to long-lasting reductions. Unfortunately, while reducing personal consumption may be achievable, the effects of global population rise may counteract any gains made during this process.
+References
+[1]
+P.G. Ryan
+A brief history of marine litter research
+Marine anthropogenic litter, Springer, Cham (2015), pp. 1-25
+CrossrefGoogle Scholar
+[2]
+N. Hartmann, et al.
+Are we speaking the same language? Recommendations for a definition and categorization framework for plastic debris
+Environ Sci Technol, 53 (3) (2019), pp. 1039-1047
+CrossrefView in ScopusGoogle Scholar
+[3]
+A.L. Lusher, M. McHugh, R.C. Thompson
+Occurrence of microplastics in the gastrointestinal tract of pelagic and demersal fish from the English Channel
+Mar Pollut Bull, 67 (1) (2013), pp. 94-99
+View PDF
+View articleView in ScopusGoogle Scholar
+[4]
+C. Arthur, J.E. Baker, H.A. Bamford
+Proceedings of the international research workshop on the occurrence, effects, and fate of microplastic marine debris, September 9–11, 2008
+University of Washington Tacoma, Tacoma (WA), USA (2009)
+Google Scholar
+[5]
+GESAMP
+P.J. Kershaw, A. Turra, F. Galgani (Eds.), Guidelines or the monitoring and assessment of plastic litter and microplastics in the ocean, IMO/FAO/UNESCO-IOC/UNIDO/WMO/IAEA/UN/UNEP/UNDP/ISA Joint Group of Experts on the Scientific Aspects of Marine Environmental Protection (2019), p. 130
+Google Scholar
+[6]
+J.-H. Kang, et al.
+Marine neustonic microplastics around the southeastern coast of Korea
+Mar Pollut Bull, 96 (1–2) (2015), pp. 304-312
+View PDF
+View articleCrossrefView in ScopusGoogle Scholar
+[7]
+E. Martí, et al.
+Low abundance of plastic fragments in the surface waters of the Red Sea
+Front Mar Sci, 4 (2017), p. 333
+View in ScopusGoogle Scholar
+[8]
+P. Europe
+Plastics - the Facts 2018: an analysis of European plastics production, demand and waste data, A.o.P. Manufacturers (2018)
+Google Scholar
+[9]
+S.A. Carr, J. Liu, A.G. Tesoro
+Transport and fate of microplastic particles in wastewater treatment plants
+Water Res, 91 (2016), pp. 174-182
+View PDF
+View articleView in ScopusGoogle Scholar
+[10]
+B.M.C. Almroth, et al.
+Quantifying shedding of synthetic fibers from textiles; a source of microplastics released into the environment
+Environ Sci Pollut Control Ser, 25 (2) (2018), pp. 1191-1199
+Google Scholar
+[11]
+N.A. Welden, P.R. Cowie
+Degradation of common polymer ropes in a sublittoral marine environment
+Mar Pollut Bull, 118 (1–2) (2017), pp. 248-253
+View PDF
+View articleView in ScopusGoogle Scholar
+[12]
+K. Davidson, S.E. Dudas
+Microplastic ingestion by wild and cultured Manila clams (Venerupis philippinarum) from Baynes Sound, British Columbia
+Arch Environ Contam Toxicol, 71 (2) (2016), pp. 147-156
+CrossrefView in ScopusGoogle Scholar
+[13]
+M. Jang, et al.
+Formation of microplastics by polychaetes (Marphysa sanguinea) inhabiting expanded polystyrene marine debris
+Mar Pollut Bull, 131 (2018), pp. 365-369
+View PDF
+View articleView in ScopusGoogle Scholar
+[14]
+A.L. Dawson, et al.
+Turning microplastics into nanoplastics through digestive fragmentation by Antarctic krill
+Nat Commun, 9 (1) (2018), p. 1001
+View in ScopusGoogle Scholar
+[15]
+E. Van Sebille, et al.
+A global inventory of small floating plastic debris
+Environ Res Lett, 10 (12) (2015), p. 124006
+CrossrefView in ScopusGoogle Scholar
+[16]
+A. Cózar, et al.
+Plastic debris in the open ocean
+Proc Natl Acad Sci USA, 111 (28) (2014), pp. 10239-10244
+CrossrefView in ScopusGoogle Scholar
+[17]
+M. Eriksen, et al.
+Plastic pollution in the world's oceans: more than 5 trillion plastic pieces weighing over 250,000 tons afloat at sea
+PLoS One, 9 (12) (2014)
+e111913
+Google Scholar
+[18]
+I.E. Napper, R.C. Thompson
+Release of synthetic microplastic plastic fibres from domestic washing machines: effects of fabric type and washing conditions
+Mar Pollut Bull, 112 (1–2) (2016), pp. 39-45
+View PDF
+View articleView in ScopusGoogle Scholar
+[19]
+R. Dris, et al.
+A first overview of textile fibers, including microplastics, in indoor and outdoor environments
+Environ Pollut, 221 (2017), pp. 453-458
+View PDF
+View articleView in ScopusGoogle Scholar
+[20]
+R. Dris, et al.
+Synthetic fibers in atmospheric fallout: a source of microplastics in the environment?
+Mar Pollut Bull, 104 (1–2) (2016), pp. 290-293
+View PDF
+View articleView in ScopusGoogle Scholar
+[21]
+S. Abbasi, et al.
+Investigation of microrubbers, microplastics and heavy metals in street dust: a study in Bushehr city, Iran
+Environ Earth Sci, 76 (23) (2017), p. 798
+View in ScopusGoogle Scholar
+[22]
+S. Dehghani, F. Moore, R. Akhbarizadeh
+Microplastic pollution in deposited urban dust, Tehran metropolis, Iran
+Environ Sci Pollut Control Ser, 24 (25) (2017), pp. 20360-20371
+CrossrefView in ScopusGoogle Scholar
+[23]
+S. Abbasi, et al.
+Distribution and potential health impacts of microplastics and microrubbers in air and street dusts from Asaluyeh County, Iran
+Environ Pollut, 244 (2019), pp. 153-164
+View PDF
+View articleView in ScopusGoogle Scholar
+[24]
+L. Cai, et al.
+Characteristic of microplastics in the atmospheric fallout from Dongguan city, China: preliminary research and first evidence
+Environ Sci Pollut Control Ser, 24 (32) (2017), pp. 24928-24935
+CrossrefView in ScopusGoogle Scholar
+[25]
+A. Malizia, A.C. Monmany-Garzia
+Terrestrial ecologists should stop ignoring plastic pollution in the Anthropocene time
+Sci Total Environ, 668 (2019), pp. 1025-1029
+View PDF
+View articleView in ScopusGoogle Scholar
+[26]
+M.C. Blettler, et al.
+Freshwater plastic pollution: recognizing research biases and identifying knowledge gaps
+Water Res, 143 (2018), pp. 416-424
+View PDF
+View articleView in ScopusGoogle Scholar
+[27]
+J.R. Jambeck, et al.
+Plastic waste inputs from land into the ocean
+Science, 347 (6223) (2015), pp. 768-771
+CrossrefGoogle Scholar
+[28]
+M.R. Michielssen, et al.
+Fate of microplastics and other small anthropogenic litter (SAL) in wastewater treatment plants depends on unit processes employed
+Environ Sci, 2 (6) (2016), pp. 1064-1073
+View in ScopusGoogle Scholar
+[29]
+L. Yang, et al.
+Removal of microplastics in municipal sewage from China's largest water reclamation plant
+Water Res, 155 (2019), pp. 175-181
+View PDF
+View articleView in ScopusGoogle Scholar
+[30]
+F. Murphy, et al.
+Wastewater treatment works (WwTW) as a source of microplastics in the aquatic environment
+Environ Sci Technol, 50 (11) (2016), pp. 5800-5808
+CrossrefView in ScopusGoogle Scholar
+[31]
+J. Talvitie, et al.
+Solutions to microplastic pollution–Removal of microplastics from wastewater effluent with advanced wastewater treatment technologies
+Water Res, 123 (2017), pp. 401-407
+View PDF
+View articleView in ScopusGoogle Scholar
+[32]
+S. Estahbanati, N.L. Fahrenfeld
+Influence of wastewater treatment plant discharges on microplastic concentrations in surface water
+Chemosphere, 162 (2016), pp. 277-284
+View PDF
+View articleView in ScopusGoogle Scholar
+[33]
+A.M. Mahon, et al.
+Microplastics in sewage sludge: effects of treatment
+Environ Sci Technol, 51 (2) (2017), pp. 810-818
+CrossrefView in ScopusGoogle Scholar
+[34]
+R.R. Hurley, L. Nizzetto
+Fate and occurrence of micro (nano) plastics in soils: knowledge gaps and possible risks
+Curr Opin Environ Sci Health, 1 (2018), pp. 6-11
+View PDF
+View articleView in ScopusGoogle Scholar
+[35]
+S. Turner, et al.
+A temporal sediment record of microplastics in an urban lake, London, UK
+J Paleolimnol (2019), pp. 1-14
+CrossrefView in ScopusGoogle Scholar
+[36]
+E.-L. Ng, et al.
+An overview of microplastic and nanoplastic pollution in agroecosystems
+Sci Total Environ, 627 (2018), pp. 1377-1388
+View PDF
+View articleView in ScopusGoogle Scholar
+[37]
+A.A. de Souza Machado, et al.
+Impacts of microplastics on the soil biophysical environment
+Environ Sci Technol, 52 (17) (2018), pp. 9656-9665
+CrossrefView in ScopusGoogle Scholar
+[38]
+D. He, et al.
+Microplastics in soils: analytical methods, pollution characteristics and ecological risks
+Trac Trends Anal Chem, 109 (2018), pp. 163-172
+View PDF
+View articleView in ScopusGoogle Scholar
+[39]
+M.C. Rillig, et al.
+Evolutionary implications of microplastics for soil biota
+Environ Chem, 16 (1) (2019), pp. 3-7
+CrossrefView in ScopusGoogle Scholar
+[40]
+L. Nizzetto, et al.
+A theoretical assessment of microplastic transport in river catchments and their retention by soils and river sediments
+Environ Sci, 18 (8) (2016), pp. 1050-1059
+View in ScopusGoogle Scholar
+[41]
+L. Amy, R.H. Lusher, C. Vogelsang, L. Nizzetto, M. Olsen
+Mapping microplastics in sludge
+NIVA, Oslo, Norway (2017)
+Google Scholar
+[42]
+T. Hüffer, et al.
+Polyethylene microplastics influence the transport of organic contaminants in soil
+Sci Total Environ, 657 (2019), pp. 242-247
+View PDF
+View articleView in ScopusGoogle Scholar
+[43]
+M.C. Rillig
+Microplastic in terrestrial ecosystems and the soil?
+ACS Publications (2012)
+Google Scholar
+[44]
+J. Martin, et al.
+The deposition and accumulation of microplastics in marine sediments and bottom water from the Irish Continental Shelf
+Sci Rep, 7 (1) (2017), p. 10772
+View in ScopusGoogle Scholar
+[45]
+Y. Matsuguma, et al.
+Microplastics in sediment cores from Asia and Africa as indicators of temporal trends in plastic pollution
+Arch Environ Contam Toxicol, 73 (2) (2017), pp. 230-239
+CrossrefView in ScopusGoogle Scholar
+[46]
+C.M. Free, et al.
+High-levels of microplastic pollution in a large, remote, mountain lake
+Mar Pollut Bull, 85 (1) (2014), pp. 156-163
+View PDF
+View articleView in ScopusGoogle Scholar
+[47]
+M. Eriksen, et al.
+Microplastic pollution in the surface waters of the Laurentian great lakes
+Mar Pollut Bull, 77 (1–2) (2013), pp. 177-182
+View PDF
+View articleView in ScopusGoogle Scholar
+[48]
+D. Alencastro
+Pollution due to plastics and microplastics in Lake Geneva and in the Mediterranean sea
+Arch Sci, 65 (2012), pp. 157-164
+Google Scholar
+[49]
+R. Vaughan, S.D. Turner, N.L. Rose
+Microplastics in the sediments of a UK urban lake
+Environ Pollut, 229 (2017), pp. 10-18
+View PDF
+View articleView in ScopusGoogle Scholar
+[50]
+R. Hurley, J. Woodward, J.J. Rothwell
+Microplastic contamination of river beds significantly reduced by catchment-wide flooding
+Nat Geosci, 11 (4) (2018), p. 251
+CrossrefView in ScopusGoogle Scholar
+[51]
+A.A. Horton, et al.
+Large microplastic particles in sediments of tributaries of the River Thames, UK–Abundance, sources and methods for effective quantification
+Mar Pollut Bull, 114 (1) (2017), pp. 218-226
+View PDF
+View articleView in ScopusGoogle Scholar
+[52]
+A. Lechner, et al.
+The Danube so colourful: a potpourri of plastic litter outnumbers fish larvae in Europe's second largest river
+Environ Pollut, 188 (2014), pp. 177-181
+View PDF
+View articleView in ScopusGoogle Scholar
+[53]
+F. Faure, et al.
+Plastic pollution in Swiss surface waters: nature and concentrations, interaction with pollutants
+Environ Chem, 12 (5) (2015), pp. 582-591
+View in ScopusGoogle Scholar
+[54]
+T. Mani, et al.
+Microplastics profile along the Rhine river
+Sci Rep, 5 (2015), p. 17988
+View in ScopusGoogle Scholar
+[55]
+R. Dris, et al.
+Microplastic contamination in an urban area: a case study in Greater Paris
+Environ Chem, 12 (5) (2015), pp. 592-599
+Google Scholar
+[56]
+C.J. Moore, G. Lattin, A. Zellers
+Quantity and type of plastic debris flowing from two urban rivers to coastal waters and beaches of Southern California
+Revi Gestão Costeira Integr (J Integr Coast Zone Manag), 11 (1) (2011)
+Google Scholar
+[57]
+A. McCormick, et al.
+Microplastic is an abundant and distinct microbial habitat in an urban river
+Environ Sci Technol, 48 (20) (2014), pp. 11863-11871
+CrossrefView in ScopusGoogle Scholar
+[58]
+L.T. Yonkos, et al.
+Microplastics in four estuarine rivers in the Chesapeake Bay, USA
+Environ Sci Technol, 48 (24) (2014), pp. 14195-14202
+CrossrefView in ScopusGoogle Scholar
+[59]
+R.A. Castañeda, et al.
+Microplastic pollution in St. Lawrence river sediments
+Can J Fish Aquat Sci, 71 (12) (2014), pp. 1767-1771
+CrossrefView in ScopusGoogle Scholar
+[60]
+N.A. Welden, A.L. Lusher
+Impacts of changing ocean circulation on the distribution of marine microplastic litter
+Integr Environ Assess Manag, 13 (3) (2017), pp. 483-487
+CrossrefView in ScopusGoogle Scholar
+[61]
+S. Zhao, et al.
+Suspended microplastics in the surface water of the Yangtze Estuary System, China: first observations on occurrence, distribution
+Mar Pollut Bull, 86 (1–2) (2014), pp. 562-568
+View PDF
+View articleView in ScopusGoogle Scholar
+[62]
+K. Zhang, et al.
+Accumulation of floating microplastics behind the three Gorges Dam
+Environ Pollut, 204 (2015), pp. 117-123
+View PDF
+View articleView in ScopusGoogle Scholar
+[63]
+A. Stolte, et al.
+Microplastic concentrations in beach sediments along the German Baltic coast
+Mar Pollut Bull, 99 (1–2) (2015), pp. 216-229
+View PDF
+View articleView in ScopusGoogle Scholar
+[64]
+C.C. Wessel, et al.
+Abundance and characteristics of microplastics in beach sediments: insights into microplastic accumulation in northern Gulf of Mexico estuaries
+Mar Pollut Bull, 109 (1) (2016), pp. 178-183
+View PDF
+View articleView in ScopusGoogle Scholar
+[65]
+K. Enders, et al.
+Abundance, size and polymer composition of marine microplastics ≥10 μm in the Atlantic Ocean and their modelled vertical distribution
+Mar Pollut Bull, 100 (1) (2015), pp. 70-81
+View PDF
+View articleView in ScopusGoogle Scholar
+[66]
+J. Reisser, et al.
+Marine plastic pollution in waters around Australia: characteristics, concentrations, and pathways
+PLoS One, 8 (11) (2013), p. e80466
+CrossrefView in ScopusGoogle Scholar
+[67]
+A. Porter, et al.
+Role of marine snows in microplastic fate and bioavailability
+Environ Sci Technol, 52 (12) (2018), pp. 7111-7119
+CrossrefView in ScopusGoogle Scholar
+[68]
+A.L. Lusher, et al.
+Microplastic interactions with North Atlantic mesopelagic fish
+ICES J Mar Sci, 73 (4) (2015), pp. 1214-1225
+Google Scholar
+[69]
+A. Ballent, et al.
+Modelled transport of benthic marine microplastic pollution in the Nazaré Canyon
+Biogeosciences, 10 (12) (2013), pp. 7957-7970
+CrossrefView in ScopusGoogle Scholar
+[70]
+L.C. Woodall, et al.
+The deep sea is a major sink for microplastic debris
+R Soc Open Sci, 1 (4) (2014), p. 140317
+CrossrefGoogle Scholar
+[71]
+M. Bergmann, et al.
+High quantities of microplastic in Arctic deep-sea sediments from the HAUSGARTEN observatory
+Environ Sci Technol, 51 (19) (2017), pp. 11000-11010
+CrossrefView in ScopusGoogle Scholar
+[72]
+W. Courtene-Jones, et al.
+Microplastic pollution identified in deep-sea water and ingested by benthic invertebrates in the Rockall Trough, North Atlantic Ocean
+Environ Pollut, 231 (2017), pp. 271-280
+View PDF
+View articleView in ScopusGoogle Scholar
+[73]
+P. Kolandhasamy, et al.
+Adherence of microplastics to soft tissue of mussels: a novel way to uptake microplastics beyond ingestion
+Sci Total Environ, 610 (2018), pp. 635-640
+View PDF
+View articleView in ScopusGoogle Scholar
+[74]
+A.J. Watts, et al.
+Uptake and retention of microplastics by the shore crab Carcinus maenas
+Environ Sci Technol, 48 (15) (2014), pp. 8823-8830
+CrossrefView in ScopusGoogle Scholar
+[75]
+R. Barnich
+Microplastic adhering to marine invertebrates-first observations and discussion of potential effects
+(2018)
+Google Scholar
+[76]
+L. Gutow, et al.
+Experimental evaluation of seaweeds as a vector for microplastics into marine food webs
+Environ Sci Technol, 50 (2) (2015), pp. 915-923
+Google Scholar
+[77]
+E. Huerta Lwanga, et al.
+Microplastics in the terrestrial ecosystem: implications for Lumbricus terrestris (Oligochaeta, Lumbricidae)
+Environ Sci Technol, 50 (5) (2016), pp. 2685-2691
+CrossrefView in ScopusGoogle Scholar
+[78]
+C. Scherer, et al.
+Feeding type and development drive the ingestion of microplastics by freshwater invertebrates
+Sci Rep, 7 (1) (2017), p. 17006
+View in ScopusGoogle Scholar
+[79]
+L. Van Cauwenberghe, C.R. Janssen
+Microplastics in bivalves cultured for human consumption
+Environ Pollut, 193 (2014), pp. 65-70
+View PDF
+View articleView in ScopusGoogle Scholar
+[80]
+N. Hall, et al.
+Microplastic ingestion by scleractinian corals
+Mar Biol, 162 (3) (2015), pp. 725-732
+CrossrefView in ScopusGoogle Scholar
+[81]
+M. Cole, et al.
+Microplastic ingestion by zooplankton
+Environ Sci Technol, 47 (12) (2013), pp. 6646-6655
+CrossrefView in ScopusGoogle Scholar
+[82]
+M. Cole, T.S. Galloway
+Ingestion of nanoplastics and microplastics by Pacific oyster larvae
+Environ Sci Technol, 49 (24) (2015), pp. 14625-14632
+CrossrefView in ScopusGoogle Scholar
+[83]
+J.-P.W. Desforges, M. Galbraith, P.S. Ross
+Ingestion of microplastics by zooplankton in the Northeast Pacific Ocean
+Arch Environ Contam Toxicol, 69 (3) (2015), pp. 320-330
+CrossrefView in ScopusGoogle Scholar
+[84]
+M.C. Goldstein, D.S. Goodwin
+Gooseneck barnacles (Lepas spp.) ingest microplastic debris in the North Pacific Subtropical Gyre
+PeerJ, 1 (2013), p. e184
+CrossrefView in ScopusGoogle Scholar
+[85]
+O. Setälä, J. Norkko, M. Lehtiniemi
+Feeding type affects microplastic ingestion in a coastal invertebrate community
+Mar Pollut Bull, 102 (1) (2016), pp. 95-101
+View PDF
+View articleView in ScopusGoogle Scholar
+[86]
+S. Messinetti, et al.
+Effects of polystyrene microplastics on early stages of two marine invertebrates with different feeding strategies
+Environ Pollut, 237 (2018), pp. 1080-1087
+View PDF
+View articleView in ScopusGoogle Scholar
+[87]
+L. Van Cauwenberghe, et al.
+Microplastics are taken up by mussels (Mytilus edulis) and lugworms (Arenicola marina) living in natural habitats
+Environ Pollut, 199 (2015), pp. 10-17
+View PDF
+View articleView in ScopusGoogle Scholar
+[88]
+A. Ugolini, et al.
+Microplastic debris in sandhoppers
+Estuar Coast Shelf Sci, 129 (2013), pp. 19-22
+View PDF
+View articleView in ScopusGoogle Scholar
+[89]
+N.A. Welden, P.R. Cowie
+Environment and gut morphology influence microplastic retention in langoustine, Nephrops norvegicus
+Environ Pollut, 214 (2016), pp. 859-865
+View PDF
+View articleView in ScopusGoogle Scholar
+[90]
+M. Steer, et al.
+Microplastic ingestion in fish larvae in the western English Channel
+Environ Pollut, 226 (2017), pp. 250-259
+View PDF
+View articleView in ScopusGoogle Scholar
+[91]
+J. Bellas, et al.
+Ingestion of microplastics by demersal fish from the Spanish Atlantic and Mediterranean coasts
+Mar Pollut Bull, 109 (1) (2016), pp. 55-60
+View PDF
+View articleView in ScopusGoogle Scholar
+[92]
+M. Nadal, C. Alomar, S. Deudero
+High levels of microplastic ingestion by the semipelagic fish bogue Boops boops (L.) around the Balearic Islands
+Environ Pollut, 214 (2016), pp. 517-523
+View PDF
+View articleView in ScopusGoogle Scholar
+[93]
+C.A. Peters, S.P. Bratton
+Urbanization is a major influence on microplastic ingestion by sunfish in the Brazos River Basin, Central Texas, USA
+Environ Pollut, 210 (2016), pp. 380-387
+View PDF
+View articleView in ScopusGoogle Scholar
+[94]
+M.B. Phillips, T.H. Bonner
+Occurrence and amount of microplastic ingested by fishes in watersheds of the Gulf of Mexico
+Mar Pollut Bull, 100 (1) (2015), pp. 264-269
+View PDF
+View articleView in ScopusGoogle Scholar
+[95]
+A.L. Vendel, et al.
+Widespread microplastic ingestion by fish assemblages in tropical estuaries subjected to anthropogenic pressures
+Mar Pollut Bull, 117 (1–2) (2017), pp. 448-455
+View PDF
+View articleView in ScopusGoogle Scholar
+[96]
+K. Jabeen, et al.
+Effects of virgin microplastics on goldfish (Carassius auratus)
+Chemosphere, 213 (2018), pp. 323-332
+View PDF
+View articleView in ScopusGoogle Scholar
+[97]
+P. Farrell, K. Nelson
+Trophic level transfer of microplastic: Mytilus edulis (L.) to Carcinus maenas (L.)
+Environ Pollut, 177 (2013), pp. 1-3
+View PDF
+View articleView in ScopusGoogle Scholar
+[98]
+S.E. Nelms, et al.
+Investigating microplastic trophic transfer in marine top predators
+Environ Pollut, 238 (2018), pp. 999-1007
+View PDF
+View articleGoogle Scholar
+[99]
+N.A. Welden, B. Abylkhani, L.M. Howarth
+The effects of trophic transfer and environmental factors on microplastic uptake by plaice, Pleuronectes plastessa, and spider crab, Maja squinado
+Environ Pollut, 239 (2018), pp. 351-358
+View PDF
+View articleView in ScopusGoogle Scholar
+[100]
+M. Cole, et al.
+Microplastics alter the properties and sinking rates of zooplankton faecal pellets
+Environ Sci Technol, 50 (6) (2016), pp. 3239-3246
+CrossrefView in ScopusGoogle Scholar
+[101]
+J. Hämer, et al.
+Fate of microplastics in the marine isopod Idotea emarginata
+Environ Sci Technol, 48 (22) (2014), pp. 13451-13458
+CrossrefView in ScopusGoogle Scholar
+[102]
+M.F.M. Santana, F.T. Moreira, A. Turra
+Trophic transference of microplastics under a low exposure scenario: insights on the likelihood of particle cascading along marine food-webs
+Mar Pollut Bull, 121 (1) (2017), pp. 154-159
+View PDF
+View articleView in ScopusGoogle Scholar
+[103]
+M. Long, et al.
+Interactions between microplastics and phytoplankton aggregates: impact on their respective fates
+Mar Chem, 175 (2015), pp. 39-46
+View PDF
+View articleView in ScopusGoogle Scholar
+[104]
+M.C. Rillig, L. Ziersch, S. Hempel
+Microplastic transport in soil by earthworms
+Sci Rep, 7 (1) (2017), p. 1362
+View in ScopusGoogle Scholar
+[105]
+S. Maaß, et al.
+Transport of microplastics by two collembolan species
+Environ Pollut, 225 (2017), pp. 456-459
+View PDF
+View articleView in ScopusGoogle Scholar
+[106]
+C. Zhang, et al.
+Toxic effects of microplastic on marine microalgae Skeletonema costatum: interactions between microplastic and algae
+Environ Pollut, 220 (2017), pp. 1282-1288
+View PDF
+View articleView in ScopusGoogle Scholar
+[107]
+C.M. Rochman, et al.
+Direct and indirect effects of different types of microplastics on freshwater prey (Corbicula fluminea) and their predator (Acipenser transmontanus)
+PLoS One, 12 (11) (2017), p. e0187664
+CrossrefView in ScopusGoogle Scholar
+[108]
+P.E. Redondo-Hasselerharm, et al.
+Microplastic effect thresholds for freshwater benthic macroinvertebrates
+Environ Sci Technol, 52 (4) (2018), pp. 2278-2286
+CrossrefView in ScopusGoogle Scholar
+[109]
+D. Cao, et al.
+Effects of polystyrene microplastics on the fitness of earthworms in an agricultural soil
+IOP conference series: earth and environmental science, IOP Publishing (2017)
+Google Scholar
+[110]
+A. Rodriguez-Seijo, et al.
+Histopathological and molecular effects of microplastics in Eisenia andrei Bouché
+Environ Pollut, 220 (2017), pp. 495-503
+View PDF
+View articleView in ScopusGoogle Scholar
+[111]
+M.E. Hodson, et al.
+Plastic bag derived-microplastics as a vector for metal exposure in terrestrial invertebrates
+Environ Sci Technol, 51 (8) (2017), pp. 4714-4721
+CrossrefView in ScopusGoogle Scholar
+[112]
+D. Zhu, et al.
+Exposure of soil collembolans to microplastics perturbs their gut microbiota and alters their isotopic composition
+Soil Biol Biochem, 116 (2018), pp. 302-310
+View PDF
+View articleView in ScopusGoogle Scholar
+[113]
+L.I. Devriese, et al.
+Bioaccumulation of PCBs from microplastics in Norway lobster (Nephrops norvegicus): an experimental study
+Chemosphere, 186 (2017), pp. 10-16
+View PDF
+View articleView in ScopusGoogle Scholar
+[114]
+N.A. Welden, P.R. Cowie
+Long-term microplastic retention causes reduced body condition in the langoustine, Nephrops norvegicus
+Environ Pollut, 218 (2016), pp. 895-900
+View PDF
+View articleView in ScopusGoogle Scholar
+[115]
+H.K.A. Lo, K.Y.K. Chan
+Negative effects of microplastic exposure on growth and development of Crepidula onyx
+Environ Pollut, 233 (2018), pp. 588-595
+View PDF
+View articleView in ScopusGoogle Scholar
+[116]
+K.L. Kaposi, et al.
+Ingestion of microplastic has limited impact on a marine larva
+Environ Sci Technol, 48 (3) (2014), pp. 1638-1645
+CrossrefView in ScopusGoogle Scholar
+[117]
+S.L. Wright, F.J. Kelly
+Plastic and human health: a micro issue?
+Environ Sci Technol, 51 (12) (2017), pp. 6634-6647
+CrossrefView in ScopusGoogle Scholar
+[118]
+E. Besseling, et al.
+Effects of microplastic on fitness and PCB bioaccumulation by the Lugworm Arenicola marina (L.)
+Environ Sci Technol, 47 (2013), pp. 593-600
+CrossrefView in ScopusGoogle Scholar
+[119]
+L. Yin, et al.
+Polystyrene microplastics alter the behavior, energy reserve and nutritional composition of marine jacopever (Sebastes schlegelii)
+J Hazard Mater, 360 (2018), pp. 97-105
+View PDF
+View articleView in ScopusGoogle Scholar
+[120]
+N. Von Moos, P. Burkhardt-Holm, A. Köhler
+Uptake and effects of microplastics on cells and tissue of the blue mussel Mytilus edulis L. after an experimental exposure
+Environ Sci Technol, 46 (20) (2012), pp. 11327-11335
+CrossrefView in ScopusGoogle Scholar
+[121]
+L. Lei, et al.
+Microplastic particles cause intestinal damage and other adverse effects in zebrafish Danio rerio and nematode Caenorhabditis elegans
+Sci Total Environ, 619 (2018), pp. 1-8
+View PDF
+View articleView in ScopusGoogle Scholar
+[122]
+K. Lu, et al.
+Influence of microplastics on the accumulation and chronic toxic effects of cadmium in zebrafish (Danio rerio)
+Chemosphere, 202 (2018), pp. 514-520
+View PDF
+View articleView in ScopusGoogle Scholar
+[123]
+Y. Jin, et al.
+Polystyrene microplastics induce microbiota dysbiosis and inflammation in the gut of adult zebrafish
+Environ Pollut, 235 (2018), pp. 322-329
+View PDF
+View articleView in ScopusGoogle Scholar
+[124]
+S. Rainieri, et al.
+Combined effects of microplastics and chemical contaminants on the organ toxicity of zebrafish (Danio rerio)
+Environ Res, 162 (2018), pp. 135-143
+View PDF
+View articleView in ScopusGoogle Scholar
+[125]
+A. Karami, et al.
+Microplastic and mesoplastic contamination in canned sardines and sprats
+Sci Total Environ, 612 (2018), pp. 1380-1386
+View PDF
+View articleView in ScopusGoogle Scholar
+[126]
+C. Pedà, et al.
+Intestinal alterations in European sea bass Dicentrarchus labrax (Linnaeus, 1758) exposed to microplastics: preliminary results
+Environ Pollut, 212 (2016), pp. 251-256
+View PDF
+View articleView in ScopusGoogle Scholar
+[127]
+N. Romano, et al.
+Effects of pristine polyvinyl chloride fragments on whole body histology and protease activity in silver barb Barbodes gonionotus fry
+Environ Pollut, 237 (2018), pp. 1106-1111
+View PDF
+View articleView in ScopusGoogle Scholar
+[128]
+J.S. Choi, et al.
+Toxicological effects of irregularly shaped and spherical microplastics in a marine teleost, the sheepshead minnow (Cyprinodon variegatus)
+Mar Pollut Bull, 129 (1) (2018), pp. 231-240
+View PDF
+View articleView in ScopusGoogle Scholar
+[129]
+C.G. Avio, et al.
+Pollutants bioavailability and toxicological risk from microplastics to marine mussels
+Environ Pollut, 198 (2015), pp. 211-222
+View PDF
+View articleView in ScopusGoogle Scholar
+[130]
+R. Sussarellu, et al.
+Oyster reproduction is affected by exposure to polystyrene microplastics
+Proc Natl Acad Sci USA, 113 (9) (2016), pp. 2430-2435
+CrossrefView in ScopusGoogle Scholar
+[131]
+M. Cole, et al.
+Isolation of microplastics in biota-rich seawater samples and marine organisms
+Sci Rep, 4 (2014), p. 4528
+View in ScopusGoogle Scholar
+[132]
+I. Paul-Pont, et al.
+Exposure of marine mussels Mytilus spp. to polystyrene microplastics: toxicity and influence on fluoranthene bioaccumulation
+Environ Pollut, 216 (2016), pp. 724-737
+View PDF
+View articleView in ScopusGoogle Scholar
+[133]
+L. Pittura, et al.
+Microplastics as vehicles of environmental PAHs to marine organisms: combined chemical and physical hazards to the Mediterranean mussels, Mytilus galloprovincialis
+Front Mar Sci, 5 (2018), p. 103
+View in ScopusGoogle Scholar
+[134]
+A. Batel, et al.
+Microplastic accumulation patterns and transfer of benzo[a]pyrene to adult zebrafish (Danio rerio) gills and zebrafish embryos
+Environ Pollut, 235 (2018), pp. 918-930
+View PDF
+View articleView in ScopusGoogle Scholar
+Cited by (45)
+Microplastics in human samples: Recent advances, hot-spots, and analytical challenges
+2023, Trac Trends in Analytical Chemistry
+Show abstract
+Recent approaches and advanced wastewater treatment technologies for mitigating emerging microplastics contamination – A critical review
+2023, Science of the Total Environment
+Citation Excerpt :
+
+Microplastic particles have also been classified according to their type, which included beads, foams, pellets, fibers and fragments (Dodson et al., 2020; Qi et al., 2020; Saborowski et al., 2019). Polymers used to manufacture microplastics include polystyrene, polyvinyl chloride, polyethylene, polyether sulfone, low-density polyethylene, high-density polyethylene, polyethylene terephthalate, polypropylene, cellulose acetate, polyamide, polyacrylates, and polyester (Welden, 2019; Welden and Lusher, 2020; Wong et al., 2020). Higher concentrations of microplastics were commonly discharged from WWTPs due to fishing related operations and laundries.
+
+Show abstract
+Microplastics in agricultural soils, wastewater effluents and sewage sludge in Mauritius
+2021, Science of the Total Environment
+Show abstract
+Airborne Microplastics in Indoor and Outdoor Environments of a Developing Country in South Asia: Abundance, Distribution, Morphology, and Possible Sources
+2022, Environmental Science and Technology
+Biodegradation of Biodegradable Polymers in Mesophilic Aerobic Environments
+2022, International Journal of Molecular Sciences
+Behavior of Microplastics in Inland Waters: Aggregation, Settlement, and Transport
+2021, Bulletin of Environmental Contamination and Toxicology
+View all citing articles on Scopus
+View Abstract
+Copyright © 2020 Elsevier Inc. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

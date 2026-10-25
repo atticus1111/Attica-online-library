@@ -1,0 +1,351 @@
+SPECIAL ISSUE ARTICLE
+Considerations in developing a financial model for an academic
+statistical consulting centre
+Christy Brown1 | Yanming Di 2 | Stacey Slone 3
+1Department of Education and Human Development, Clemson University, Clemson, South Carolina, USA
+2Department of Statistics, Oregon State University, Corvallis, Oregon, USA
+3Dr. Bing Zhang Department of Statistics, University of Kentucky, Lexington, Kentucky, USA
+Correspondence
+Christy Brown, Department of Education and Human Development, Clemson University, Clemson, South Carolina, USA. Email: cjb2@clemson.edu
+Funding information
+Alfred P. Sloan Foundation, Grant/Award Number: G-2022-19414
+In operating an academic statistical consulting centre, it is essential to develop a
+strategy for covering the anticipated costs incurred, such as personnel, facilities,
+third-party data, professional development and marketing, and for handling the reve
+nues generated from sources such as university commitments, extramural grants,
+fees for service, internal memorandums of understanding and consulting courses. As
+such, this article describes each of these costs and revenue sources in turn, discusses
+how they vary over phases of a project and life cycles of a centre, provides a review
+of both historical and modern perspectives in the literature and includes illustrative
+examples of financial models from three different institutions. These points of con
+sideration are meant to inform consulting groups who are interested in becoming
+either more or less centrally structured.
+KEYWORDS
+centre revenue, consulting costs, financial model, statistical consulting
+1 | INTRODUCTION
+One of the most pertinent matters in establishing a statistical consulting centre within an academic department at an institution of higher educa
+tion is developing a financial model, that is, a plan for handling any costs that are incurred and revenues that are generated. In fact, institutions
+surveyed for a study by Sharp et al. (2016) ranked lack of funding as the primary reason their institution did not have a consulting centre. For the
+most fortunate, a centre can be funded by so-called ‘hard money’; that is, the centre will have a commitment for indefinite institutional funding.
+This is becoming more common, for example, when university libraries establish centres offering data science and/or data management services.
+For other centres that are funded either in part or solely by ‘soft money’, that is, by extramural funding sources, developing a financial model can
+often involve intricate negotiations between administration and affiliated faculty. Thus, this article will focus on centres funded at least in part by
+soft money. The aim is to provide an overview of considerations for the financial model of modern consulting groups within academic depart
+ments throughout different phases in their life cycles. Such an overview is meant to aid statisticians and data scientists interested in either creat
+ing or further refining existing consulting infrastructure at their institution; this overview could also aid consulting groups with an established
+infrastructure who are undergoing a (perhaps unanticipated) change in their funding model.
+Even within centres funded primarily by soft money, numerous different financial models exist. Some consulting centres represent formal
+established units, whereas others are not as formal and instead consist of a few faculty members providing statistical support to researchers
+across their institution. There is also the consideration of whether the goal of the centre is to be revenue generating (such that excess revenue
+can fund other departmental initiatives) or revenue neutral (i.e., the centre generates enough revenue to cover all of the costs it incurs). Thus, not
+all of what is discussed in this article will be applicable to everyone seeking to establish a statistical consulting centre within an academic depart
+ment or to tweak their existing financial model, but what is discussed should provide some good points to consider. Note that throughout this
+Received: 26 January 2024 Revised: 21 March 2024 Accepted: 18 April 2024
+DOI: 10.1002/sta4.688
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. © 2024 The Authors. Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e688. wileyonlinelibrary.com/journal/sta4 1 of 8 https://doi.org/10.1002/sta4.688
+
+
+article, we use the term ‘consulting centre’ to broadly describe the infrastructure for groups of statisticians and data scientists offering collabora
+tive services within a university setting. We acknowledge that labelling a structure a ‘centre’ comes with specific implications in many academic
+settings, but here, we use the term in a very general sense.
+To provide an idea of the variety of different models that exist, and in the spirit of reflexivity, each of the authors will in turn describe the
+financial model for their academic statistical consulting centre. We have arranged these descriptions so that they begin with the most formally
+structured centre (University of Kentucky), followed by a semi-structured approach (Clemson University) and ending with the least formally struc
+tured group (Oregon State University). Following this discussion, we will summarize considerations previously outlined in the statistical consulting
+literature, including both historical and modern perspectives, before explicitly delineating potential costs and revenue sources for academic statis
+tical consulting centres, and will conclude with a discussion of points that are of particular relevance at different phases in the life cycle of a
+centre.
+1.1 | University of Kentucky Department of Statistics model
+Author Stacey Slone is a collaborative statistician in the Dr. Bing Zhang Department of Statistics at the University of Kentucky and serves as the
+Director of Operations for the Data Analytics Core of the Predictive Analytics and Data Science (PADS) Hub. The PADS Hub began approximately
+15 years ago as the Applied Statistics Lab (ASL) with a focus on providing statistical support across the university. In 2022, the ASL was
+reorganized and renamed to the PADS Hub. The PADS Hub now has three components: Data Analytics Core, Training Core and Methodology
+Core. The leadership of the PADS Hub consists of a tenured faculty director assisted by the directors of the Data Analytics Core and the Training
+Core, and it is currently staffed by graduate students and technical staff in the department. Graduate assistants work 20 h per week for their sti
+pend and tuition remission. Other faculty members occasionally assist with projects and that effort is considered part of their service workload.
+Project requests range from (1) advice on dissertation and thesis analysis, (2) full data analysis, interpretation and manuscript preparation, (3) sam
+ple size justification and statistical analysis plans for grant and pilot applications and (4) trainings and guest lectures. Co-authorship is expected
+when the provided analysis contributes to the manuscript.
+The PADS Hub is not a fee-for-service organization. Instead, colleges, departments and even divisions partner with the PADS Hub to provide
+graduate student full-time equivalent (FTE) funding. Current funding levels range from 0.25 FTE to 3 FTEs. Faculty, staff and students from these
+partners have access to the PADS Hub services. In addition, university-affiliated members from non-partners are allowed a 30-min consultation
+free of charge as a trial tool for new partners. Previously, extramural funding provided some percent effort for a director and administrative sup
+port, which was not ideal. Currently, alternative sustainable infrastructures are being explored to guarantee ongoing dedicated effort and support
+for the PADS Hub. The largest benefit of the partnership model is the long-term collaborations that have been built across colleges at the univer
+sity and providing access to statistical support for groups with otherwise limited access to such resources. PADS Hub faculty and staff are largely
+funded by grants that have spawned from PADS Hub projects and collaborations.
+1.2 | Clemson University College of Education model
+Author Christy Brown is a clinical associate professor in the Department of Education and Human Development (EHD) at Clemson University and
+the founding director of the EHD Quantitative Clinic. The typical teaching load for faculty with a clinical appointment at Clemson is four courses
+each semester, and the primary support that is provided for the EHD Quantitative Clinic is in the form of two course releases each semester for
+the director and annual funding for one graduate assistant (GA). Other affiliated faculty members will also provide statistical support for various
+projects and receive credit for this as part of their service workload. The IT and administrative needs are handled by staff already in place at the
+department and college level. The statistical support provided is focused on researchers within the College of Education, as a university-funded
+centre exists within the School of Mathematical and Statistical Sciences to service the university community at large.
+The EHD Quantitative Clinic will accommodate requests for statistical advice from any researcher within the College of Education free of
+charge. If faculty request assistance running statistical analyses on collected data, then co-authorship is expected on any resulting publications,
+with the assistance provided including drafting methods and results sections of manuscripts, creating publication-quality tables and figures, and
+support throughout the revision process. The EHD Quantitative Clinic will also assist with methodological and evaluation aspects of grant pro
+posals. There are established billing rates that can be used for grants needing routine analyses that could be carried out primarily by graduate stu
+dents, with these funds returning as professional development money typically spent on travel and equipment. For grants requiring more involved
+data analyses, consultants will be included as key grant personnel with a minimum request of 5% effort.
+One of the benefits of this semi-structured model is that there is no obligation to provide assistance for every consulting request. At
+peak times when staff are at capacity, requests can be referred to the university-funded consulting centre, which does have some obligation
+to assist all university affiliates who seek its services. In return, the EHD Quantitative Clinic often takes on referrals for projects involving
+2 of 8 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+latent variable modelling within the social sciences, as that is an area of specialization of our staff, such that these two consulting units oper
+ate in a complementary (and not competitive) fashion. Another benefit of this semi-structured model is that goals are set and success evalu
+ated at a more localized level, that is within the department and college rather than an office at a higher level within the university
+structure. For the EHD Quantitative Clinic, this allows for a more specialized focus on (1) helping educational researchers to have the sound
+study designs and quality statistical analyses needed to obtain higher impact publications than they would be able to without assistance,
+(2) strengthening the methodological components of educational research proposals for extramural funding to make them more competitive
+and (3) providing methodological support to graduate students conducting quantitative dissertation studies within the field of education. One
+of the drawbacks of this approach is that future support (in the form of course releases and departmental-funded GAs) is based on past pro
+ductivity, which is not always aligned with current demand, and relies heavily on the quality of partnerships with content-area experts. Addi
+tionally, departmental GA support may be reduced when teaching needs increase, such as when faculty leave unexpectedly or there is an
+increase in course demand. However, GAs funded through grant activity can fill in some of these gaps, but again, securing funding can rely
+heavily on the quality of partnerships with the content-area experts.
+1.3 | Oregon State University Department of Statistics model
+Author Yanming Di is an associate professor in the Department of Statistics at Oregon State University, where he currently coordinates consulting
+efforts among departmental faculty. There is no formal statistics consulting centre at the university, rather consulting services are provided by
+individual faculty members. Some faculty members have consulting and collaborative research included as part of their job descriptions; the Col
+lege of Agricultural Sciences subsidizes part of their salary, enabling them to offer free consulting to faculty members in this College (up to a spec
+ified amount of work). For consulting requests from other colleges, a fee is charged, and at times, such requests may have to be declined due to
+lack of time or interest. However, at their discretion, some faculty may opt to waive the fee in exchange for opportunities for joint publication
+and grant opportunities. Additionally, some consulting and collaborative work is supported through joint research grants.
+A consulting practicum course is offered to graduate students in the Department of Statistics each quarter. In this course, the graduate stu
+dents, supervised by two course instructors, provide free consulting services to other graduate students on campus who need help with statistical
+analyses. Additionally, drop-in office hours are also available free of charge to graduate students, with costs covered by graduate research assis
+tant (GRA) support.
+The advantages of this informal structure include not needing extra administrative staff or incurring overhead costs. However, this arrange
+ment requires individual faculty members to handle all logistics, including billing, on their own. Recruiting graduate students is challenging because
+GRAs for graduate students are typically provided on a term-by-term basis, and many small projects cannot afford full or even half GRA support.
+While it is technically possible to offer graduate students additional compensation on top of their graduate teaching assistantship or GRA support,
+numerous restrictions apply, and there is no guarantee that a student with the appropriate background will be available when needed. Moreover,
+it is impractical to hire temporary technical staff or research associates for individual projects. This model has worked satisfactorily for on-campus
+clients with research grants. However, the total capacity is limited by the number of faculty members with consulting duties. We will be under
+equipped if we aim to expand our reach to include industrial or government clients.
+2 | LITERATURE REVIEW
+Financial models have been frequently discussed within the body of literature on academic statistical consulting centres. Below, we provide a
+review of some of these discussions, beginning with a historical perspective and moving into a more modern perspective.
+2.1 | Historical perspectives
+Early discussions of academic statistical consulting centres focused on units housed within statistics departments. Gibbons and Freund (1980)
+reviewed four different organizational structures and concluded that the ideal model for ensuring quality research consisted of an independently
+funded consulting centre housed within a statistics department. Carter et al. (1986) suggested that consulting units with academic objectives
+(e.g., teaching and statistical research) should be administered through statistics departments and be staffed by statistics faculty with support per
+sonnel (e.g., master's degree-level statisticians, data managers and graduate students) to alleviate faculty from routine tasks associated with con
+sulting projects. They emphasized that the funding formula should consider faculty time for research, professional development, and
+departmental service as overhead. They noted that adequate and stable funding was critical to the success of an academic statistical consulting
+centre and suggested that funding should be obtained from various sources including grant agencies, individual departments, and high-level
+BROWN ET AL. 3 of 8
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+administrative offices. Similarly, Bancroft (1971) suggested that statistical consulting services provided to grant and contract holders should be
+paid for by these funding sources, but that some minimum permanent budget be in place to provide stability in staffing. Bancroft also argued that
+a minimum budget should be provided by the office of the president of the university, with the director of the consulting centre reporting to an
+administrator within the president's office, such as the vice president for research. In contrast, Boen (1982) detailed how they had established
+an entirely self-supporting statistical consulting centre within their university's biometry unit through a fee-for-service model, which they noted
+statistics departments within liberal arts colleges may have been hesitant to implement at the time, not wanting to view academic consulting as a
+business venture.
+2.2 | Modern perspectives
+Moving into the 1990s, Vance (2015) noted that a reduction for agricultural funding at many land-grant universities during this time attributed to
+a decline in funding for statistical consulting centres at these institutions. Sharp et al. (2016) posited that this decline in funding sent a message
+to these consultants that their collaborative work was not valued by their peers and administrators. Soon after (from 2006 to 2012), the NIH Clin
+ical and Translational Science Award (CTSA) programme funded 60 biostatistics consulting centres at medical research universities (National Cen
+ter for Advancing Translational Sciences, 2024). Thus, this time period was marked by a move away from consulting services being concentrated
+within statistics departments and towards more specialized centres housed within an array of academic departments. The growth of data science
+as its own academic subject has furthered this move, with many data consulting centres housed within libraries and computer science depart
+ments, to name a few. As Parker et al. (2021) note, the different foci of consulting groups, particularly with respect to data science, can affect the
+experience and skills needed for the centre's personnel, which in turn impacts the funding plan.
+As the home departments for consulting centres have expanded, so too have the funding sources for these centres. In their review of the
+financial models for consulting centres at four different universities, Johnson et al. (2008) discussed a myriad of sources, including partial salary
+support through research grants, annual fee structures from collaborating academic units, fees for services provided (from both university and
+non-university partners), co-authorship on collaborative publications, graduate student training through required coursework and core support
+from either granting agencies (such as the NIH CTSA) or the institution. In today's climate, the question of a fee-for-service or institutional sup
+port model is an essential element when establishing an academic consulting centre, with advantages and disadvantages to each approach nicely
+detailed by Ittenbach and DeAngelis (2012). Indeed, the apparent norm is for funding models to include a diversity of funding sources (LeBlanc
+et al., 2022). As many authors have pointed out, a critical component in securing institutional support is effectively demonstrating the impact of
+the centre, such that effective evaluation and reporting becomes linked with funding (e.g., Hanlon et al., 2022; Niu, 2023; Perkins et al., 2016;
+Vance, 2015).
+3 | COSTS AND REVENUE SOURCES
+As illustrated by the discussion thus far, an academic statistical consulting centre is a complex operation with diverse costs and revenue sources.
+Effective management of these costs and revenue sources is critical for the centre's sustainability and success. By understanding and optimizing
+these facets, the centre can not only sustain its operations but also invest in growth and development, fulfilling its role in the world of research
+and data analysis.
+3.1 | Costs associated with an academic statistical consulting centre
+Similar to any business, academic statistical consulting centres have diverse and multifaceted operating costs that encompass various aspects,
+including personnel and technological requirements. Below, we outline some of the most common costs associated with statistical consulting cen
+tres. However, it is important to note that depending on the centre's structure, not all of these costs may be applicable, and there may be other
+costs not mentioned.
+Personnel is the foundation of a consulting centre, playing a vital role in its operations. The centre relies on a dedicated team which can con
+sist of a mix of faculty (often both tenured/tenure-track and non-tenure track faculty), staff statisticians (possibly masters or bachelors level), stu
+dents and administrative and IT support staff. These personnel expenses constitute a substantial portion of the centre's overall budget. Personnel
+expenditure includes salaries, benefits and dedicated training time to ensure the staff's expertise and proficiency in providing exceptional consult
+ing services. Faculty members may contribute their time through FTEs, while students' costs may also include tuition and fees. Another important
+personnel consideration is whether the centre includes support for a director position to do much of the planning, organizing, marketing and
+annual reporting, as well as management of the costs and revenue sources discussed here. Having a primary point of contact for the centre who
+4 of 8 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+possesses a terminal degree in statistics, or a related field, is vital for enabling the effective management of the centre and should be one of the
+first points of consideration by consulting groups wanting to become more formally structured.
+Facilities and infrastructure represent another significant expenditure. This includes the physical space required for the centre's operations, as
+well as the technology, such as software and hardware, that is essential for data analysis. The IT infrastructure and the personnel needed to main
+tain a robust, secure, and efficient service delivery are integral components contributing to the centre's costs.
+The centre can also incur costs related to the acquisition, access and maintenance of third-party data. This includes purchasing data from
+external vendors and maintaining data storage and management systems. Safeguarding client data and ensuring secure data storage systems are
+essential responsibilities of a statistical consulting centre. This may require investments in data encryption, cybersecurity measures and data
+backup systems. The associated costs of data storage and security should be carefully considered to protect both the centre and its clients.
+Professional development represents a recurrent cost for a statistical consulting centre, encompassing the expenditure for training staff in
+contemporary statistical techniques and methodologies. This cost extends to sponsoring travel to conferences, workshops and professional
+events, providing opportunities for staff to engage with broader statistical communities and to stay abreast of cutting-edge trends and develop
+ments. Moreover, the centre may incur publication fees associated with disseminating their research papers or articles in professional journals or
+platforms. These expenses, although substantial, are instrumental in maintaining the centre's reputation for technical excellence, enabling it to
+offer superior consulting services.
+Marketing efforts to promote the centre's services, attract clients and maintain a competitive edge also represent a cost. Marketing strategies
+can be wide-ranging, from digital advertising to hosting workshops, seminars and training sessions. These in-person events not only serve as pro
+motional opportunities but also provide substantial benefits to the research community, reinforcing the centre's commitment to knowledge dis
+semination and skill development. Thus, while marketing incurs costs, it is integral to the centre's growth and its ongoing engagement with its
+client base and the broader research community.
+In academic statistical consulting centres, effective financial management involves also balancing fixed costs, like salaries and facility
+expenses, with variable costs that fluctuate based on project demands. A crucial strategy is to consider charging overhead or ‘profit’ on projects
+to cover essential but often non-billable expenses such as staff training, administrative duties, and periods of downtime. This approach not only
+sustains the centre's financial stability and gracefully handles different phases of projects but also supports a well-trained, consistent workforce,
+ensuring the centre's ongoing functionality and success.
+3.2 | Revenue sources
+Revenue for academic statistical consulting centres is often multifaceted, incorporating various channels. Institutional departments frequently
+cover a portion of the staff salaries at the centre. It is common for both the department housing the centre and the client departments to contrib
+ute towards this financial support. This form of hard money offers a steady stream of revenue, though it may be accompanied by specific service
+obligations or expectations for the benefitting faculty. Additional financial support can be sought from university-level funds, such as commit
+ments from an office of research and/or sponsored programmes. This source of funding typically comes in the form of internal grants or
+budget allocations, which may be directed towards various operational aspects of the centre, including personnel, research activities or infrastruc
+tural development. Often, such divisions are willing to make an initial investment in a centre with the agreement that over time the centre will
+become financially self-sustaining. Integrating these funds into the centre's financial framework can bolster its financial stability and facilitate its
+ability to deliver top-tier statistical consultation services.
+Extramural grants represent a substantial potential revenue stream for offsetting some of the costs incurred by an academic statistical con
+sulting centre. Consulting centres may apply for grants from various organizations, following guidelines such as those given by Nick and O'Brien
+(2010). These grants are often considered soft money, as they are not guaranteed and may vary from year to year. Some funding agencies have
+initiatives for supporting the development of an academic statistical consulting centre, such as the aforementioned NIH CTSA programme. Most
+often, however, grant support for an academic statistical consulting centre comes in the form of the centre's personnel being included as co
+investigators on the grant to cover the cost of their consulting time through summer salary or course buyouts, and to fund graduate students to
+support the services provided by the centre. However, relying too heavily on extramural funding can be to a centre's detriment, due to the
+unknowns associated with this revenue source, such as whether and when potential funding will be secured.
+Another potential revenue source is to charge clients a fee for the consulting services provided. These fees can have different structures,
+including flat-rate or tier-based pricing, depending on the level of service. In some cases, fee-for-service centres provide an initial consultation for
+free or at a discounted rate to attract new clients. However, consideration must be given to the fact that this cost may prohibit some members of
+the university from seeking these consulting services, thus potentially limiting the research mission of the institution.
+Moreover, partnerships with libraries or other university entities can be a viable revenue source, ideally with the partnership funds being dis
+tributed to the centre. Such partnerships, often documented through Memorandums of Understanding, or MOUs for short, may also provide
+access to additional resources and clientele.
+BROWN ET AL. 5 of 8
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+An academic statistical consulting centre may also generate revenue through consulting courses, such as offering short courses for a fee to
+students, faculty or industry professionals. This serves as an excellent avenue for revenue generation while simultaneously promoting the centre's
+expertise and capabilities. Many statistics departments offer consulting classes which serve the dual purpose of training statistics graduate stu
+dents and providing free consulting services to the university community.
+Finally, industry support is another viable avenue for consideration. This support can manifest as direct funding, strategic partnerships or
+commissioned projects. This support often fosters a mutually beneficial relationship, where the centre provides statistical consulting services to
+the industry partner in exchange for funding.
+4 | CONSIDERATIONS AT DIFFERENT PROJECT PHASES AND CENTRE LIFE CYCLES
+Many of the costs and revenues outlined above will become particularly relevant not only at different timepoints in the life cycle of a centre, such
+as startup, maturity and sustained operation, but also within different phases of a particular project. In the following section, we highlight the time
+points at which certain considerations come to the forefront of an academic statistical consulting centre's operations.
+4.1 | Phases of projects
+The needs of a centre's clientele will vary between, and within, consulting projects, ranging from experimental and statistical design assistance, to
+advice for the collection of data, to final statistical analysis and interpretation of results and to abstract and manuscript preparation. As such, the
+person-hours required for each project will vary, and establishing guidelines for covering the costs in light of this fluctuation will be helpful for
+both the centre and future collaborators.
+Additionally, whether or not collaborators are charged for pre-award effort should be decided in advance. Many investigators will not have
+funds to pay for pre-award statistical effort, which may then limit utilization of the centre for grant submissions. However, the trade-off for free
+pre-award effort can be garnered by including a percent effort for the centre's statistical staff that would be distributed post-award. If the pro
+posal includes a plan for centre support in the data collection process, then an estimate of the effort required for this data collection should be
+included in the grant budget in addition to the person-hours.
+4.2 | Life cycle of the centre
+During the inaugural phases of centre development, a point-person to advocate for the centre is paramount. Many times this person will step into
+the director role as development proceeds. In less-structured centres, the director role may be filled by a department member who coordinates
+project assignment to a member of the department. Initial investment from either the department, college or university-level offices is generally
+required. As discussed above, many initial funding agreements will have a fixed deadline such that centre leadership must devote effort to plan
+ning and implementing a path towards a self-supporting model during this inaugural period. Hence, building and maintaining an academic statisti
+cal consulting centre's clientele and potential partners may be the most strategic aspect of creating and then managing a centre. Utilizing existing
+advertising channels within the academic institution as well as networking with departments and colleges that are heavily research-based allows
+maximum exposure for recruiting clientele with less person-hours and less monetary cost. Successful techniques include volunteering to speak
+during departmental meetings to share the benefits that collaboration with the centre can bring; collecting testimonials or references from initial
+clients to build the brand and reputation of the collaboration unit; and simple email blasts to associate deans charged with overseeing research
+activities within the colleges and university.
+As the centre matures, the focus will necessarily shift from development to sustainability and capacity management. University, college
+and/or departmental leadership support is crucial to the sustainability of a centre, and changes in leadership can create a need to share the suc
+cess metrics and benefits of the centre anew to create buy-in from changing leadership. With this in mind, consider leveraging associate deans as
+advocates, especially if the centre is interdepartmental or interdisciplinary (Parker et al., 2021). The metrics used to highlight the successes of a
+consulting centre vary between institutions and may be nuanced for a particular institution. Possible metrics include external funding dollars
+received, number of peer-reviewed manuscripts published, the breadth of collaborating investigators and partnerships, the sustenance of current
+partnerships and recruitment of new or expanded partnerships. However, the intangible benefits of academic statistical consulting centres should
+not be overlooked and include real-world experience for undergraduate and graduate students which can increase the students' marketability
+post-graduation. Through their work with the centre, students learn to conduct consultation sessions with investigators from all disciplines, to
+explain statistical concepts to those without experience in the field of statistics and manage projects and timelines. Other intangible benefits are
+more R01 and other mature grant mechanisms being funded, as opposed to smaller grants, and the acceptance of manuscripts in higher impact
+6 of 8 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+journals than could be achieved without the benefit of a collaborating statistician. To demonstrate these impacts, consider collecting testimonials
+from students and collaborators and sharing these merits with leadership.
+Additionally, centre leadership should routinely monitor project capacity and hiring needs balanced with current budget allocations. The
+reliability of capacity, revenue and expense prediction is directly related to the quality of the centre's record keeping (Ittenbach &
+DeAngelis, 2012). In fact, accurate record keeping is essential for sustainability. Traditionally, even in times of declining university budgets, as
+long as research funding is sustained, universities support high-performing statistical consulting centres. In addition, funding must be adequate
+to support a director and provide administrative support to administer the centre, document its impacts and communicate them effectively to
+various internal and external stakeholders (Vance, 2015). While the percent effort required for the director and other centre leadership and
+administrative support will depend on the size and activity level of the centre, the mechanism for funding should be considered. For example,
+centres could require a 25:75 split where 25% of an FTE or project cost is allotted to cover the operational costs of the centre while 75%
+covers the salary and benefits of the centre employee or student. Such arrangements may differ based on whether the partner is in industry,
+academia or government.
+5 | DISCUSSION
+By comprehensively understanding the various aspects of a financial model, statistical consulting centres can develop sustainable budgets and
+other supports, price their services appropriately and deliver high-quality statistical expertise to their clients. To this end, this article detailed the
+financial models of academic statistical consulting centres at three different institutions, reviewed both historical and modern perspectives on
+funding considerations, outlined a robust set of potential costs and revenues of a centre and discussed points of particular importance at different
+phases of a project and points in the life cycle of a centre. This overview is intended to provide statistical consulting groups interested in becom
+ing either more or less formally structured with some important points of consideration.
+AUTHOR CONTRIBUTIONS
+Christy Brown: Conceptualization (equal); writing—original draft (lead); writing—review and editing (equal). Yanming Di: Conceptualization (equal);
+writing —original draft (supporting); writing—review and editing (equal). Stacey Slone: Conceptualization (equal); writing—original draft
+(supporting); writing—review and editing (equal).
+ACKNOWLEDGEMENTS
+This work was supported by the Alfred P. Sloan Foundation (G-2022-19414).
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no new data were created or analysed in this study.
+ORCID
+Christy Brown https://orcid.org/0000-0002-3297-0488
+Stacey Slone https://orcid.org/0000-0002-4355-7672
+REFERENCES
+Bancroft, T. A. (1971). On establishing a university-wide statistical consulting and cooperative research service. The American Statistician, 25(5), 21–24. https://doi.org/10.1080/00031305.1971.10477298 Boen, J. R. (1982). A self-supporting university statistical consulting center. The American Statistician, 36(4), 321–325. https://doi.org/10.2307/2683078 Carter, R. L., Scheaffer, R. L., & Marks, R. G. (1986). The role of consulting units in statistics departments. The American Statistician, 40(4), 260–264. https:// doi.org/10.1080/00031305.1986.10475408 Gibbons, J. D., & Freund, R. J. (1980). Organizations for statistical consulting at colleges and universities. The American Statistician, 34(3), 140–145. https:// doi.org/10.2307/2684717 Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., Welty, L. J., & Pomann, G.-M. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat, 11(1), e521. https://doi.org/10. 1002/sta4.521 Ittenbach, R. F., & DeAngelis, F. W. (2012). Percent effort vs. fee-for-service: A comparison of models for statistical collaboration. Research Management Review, 19(1), 1–18.
+Johnson, H. D., Boslaugh, S., Clayton, M., Holloman, C., & Young, L. J. (2008). Compensation for statistical consulting services: Approaches used at four U.S. universities. Chance, 21(2), 31–35. https://doi.org/10.1080/09332480.2008.10722899 LeBlanc, M., Rueegg, C. S., Bekiroglu, N., Esterhuizen, T. M., Fagerland, M. W., Falk, R. S., Frøslie, K. F., Graf, E., Heinze, G., Held, U., Holst, R., Lange, T., Mazumdar, M., Myrberg, I. H., Posch, M., Sergeant, J. C., Vach, W., Vance, E. A., Weedon-Fekjær, H., & Zucknick, M. (2022). Statistical advising: Professional development opportunities for the biostatistician. Statistics in Medicine, 41, 847–859. https://doi.org/10.1002/sim.9290
+BROWN ET AL. 7 of 8
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+National Center for Advancing Translational Sciences. (2024). Clinical and translational science awards (CTSA) program. U.S. Department of Health and Human Services, National Institutes of Health. https://ncats.nih.gov/research/research-activities/ctsa Nick, T. G., & O'Brien, R. (2010). Developing grant proposals: Guidelines for statisticians collaborating under limited resources. Chance, 23(4), 39–40. Niu, X. (2023). Learning about an academic statistical consulting center through data. Stat, 12(1), e530. https://doi.org/10.1002/sta4.530 Parker, M. S., Burgess, A. E., & Bourne, P. E. (2021). Ten simple rules for starting (and sustaining) an academic data science initiative. PLoS Computational Biology, 17(2), e1008628. https://doi.org/10.1371/journal.pcbi.1008628 Perkins, S. M., Bacchetti, P., Davey, C. S., Lindsell, C. J., Mazumdar, M., Oster, R. A., Peduzzi, P. N., Rocke, D. M., Rudser, K. D., & Kim, M. (2016). Best practices for biostatistical consultation and collaboration in academic health centers. The American Statistician, 70(2), 187–194. https://doi.org/10.1080/ 00031305.2015.1077727 Sharp, J. L., Wrenn, J., & Gerard, P. D. (2016). Identifying the perceived value of statistical consulting in a university setting. Journal of Statistical Theory and Practice, 10(1), 216–225. https://doi.org/10.1080/15598608.2015.1108254 Vance, E. A. (2015). Recent developments and their implications for the future of academic statistical consulting centers. The American Statistician, 69(2), 127–137. https://doi.org/10.1080/00031305.2015.1033990
+AUTHOR BIOGRAPHIES
+Dr. Christy Brown is a clinical associate professor of quantitative methodology in the Department of Education and Human Development
+(EHD) at Clemson University. She teaches doctoral-level courses in statistics for educational contexts and provides statistical support to edu
+cational researchers throughout the College of Education through her role as the founding director of the EHD Quantitative Clinic. She holds
+a PhD in Quantitative Methods in Educational Psychology, an MS in Statistics and a BSEd in Mathematics Education, all from the University
+of Georgia.
+Dr. Yanming Di is an associate professor in the Department of Statistics at Oregon State University, where he coordinates consulting efforts
+among departmental faculty. He holds a PhD in Statistics from the University of Washington and an MS in Statistics from Arizona State
+University, as well as MS and BS degrees in Mathematics from Tsinghua University in Beijing, China.
+Stacey Slone, MS, is a collaborative statistician in the Dr. Bing Zhang Department of Statistics at the University of Kentucky and serves as the
+Director of Operations for the Data Analytics Core of the Predictive Analytics and Data Science (PADS) Hub. She holds an MS in Statistics
+from the University of Kentucky and a BA in Mathematics from West Virginia University.
+How to cite this article: Brown, C., Di, Y., & Slone, S. (2024). Considerations in developing a financial model for an academic statistical
+consulting centre. Stat, 13(2), e688. https://doi.org/10.1002/sta4.688
+8 of 8 BROWN ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.688 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

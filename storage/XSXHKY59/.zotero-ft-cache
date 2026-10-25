@@ -1,0 +1,252 @@
+NREL is a national laboratory of the U.S. Department of Energy Office of Energy Efficiency & Renewable Energy Operated by the Alliance for Sustainable Energy, LLC
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Contract No. DE-AC36-08GO28308
+Technical Report
+NREL/TP-5700-86678 July 2023
+Cost and Performance Analysis for Five Existing Geothermal Heat Pump-Based District Energy Systems in the United States
+Hyunjun Oh and Koenraad Beckers
+National Renewable Energy Laboratory
+
+
+NREL is a national laboratory of the U.S. Department of Energy Office of Energy Efficiency & Renewable Energy Operated by the Alliance for Sustainable Energy, LLC
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+Contract No. DE-AC36-08GO28308
+National Renewable Energy Laboratory 15013 Denver West Parkway Golden, CO 80401 303-275-3000 • www.nrel.gov
+Technical Report
+NREL/TP-5700-86678 July 2023
+Cost and Performance Analysis for Five Existing Geothermal Heat Pump-Based District Energy Systems in the United States
+Hyunjun Oh and Koenraad Beckers
+National Renewable Energy Laboratory
+Suggested Citation
+Oh, Hyunjun, and Koenraad Beckers. 2023. Cost and Performance Analysis for Five Existing Geothermal Heat Pump-Based District Energy Systems in the United States. Golden, CO: National
+Renewable Energy Laboratory. NREL/TP-5700-86678. https://www.nrel.gov/docs/fy23osti/86678.pdf.
+
+
+NOTICE
+This work was authored by the National Renewable Energy Laboratory, operated by Alliance for Sustainable Energy, LLC, for the U.S. Department of Energy (DOE) under Contract No. DE-AC36-08GO28308. Funding provided by the U.S. Department of Energy Office of Energy Efficiency and Renewable Energy Geothermal Technologies Office. The views expressed herein do not necessarily represent the views of the DOE or the U.S. Government.
+This report is available at no cost from the National Renewable Energy Laboratory (NREL) at www.nrel.gov/publications.
+U.S. Department of Energy (DOE) reports produced after 1991 and a growing number of pre-1991 documents are available free via www.OSTI.gov.
+Cover Photos by Dennis Schroeder: (clockwise, left to right) NREL 51934, NREL 45897, NREL 42160, NREL 45891, NREL 48097, NREL 46526.
+NREL prints on paper that contains recycled content.
+
+
+iii
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Acknowledgments
+The authors acknowledge the helpful support of Kent Marsh, Keegan Pfeiffer, and Cary Smith from Colorado Mesa University, Cody Powell and Malcolm Drane from Miami University, and Larry Leliefeld, Derek Heins, and Jon Biederman from West Union. The authors also appreciate Kent Marsh and Keegan Pfeiffer at Colorado Mesa University for hosting the geothermal facility group tour.
+
+
+iv
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+List of Acronyms
+BSU Ball State University CMU Colorado Mesa University COP coefficient of performance GHP geothermal heat pump GHX geothermal heat exchanger GPM gallons per minute HDPE high-density polyethylene HP horsepower O&M operation and maintenance SDR standard dimension ratio
+
+
+v
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Executive Summary
+District energy systems supplied by geothermal heat pumps (GHPs) have been deployed across the United States for both heating and cooling end uses. To better understand their performance and potential, the geothermal research team at the National Renewable Energy Laboratory analyzed cost and performance of five existing GHP-based district energy systems in the United States. The five systems selected are Ball State University in Indiana, Colorado Mesa University in Colorado, Miami University in Ohio, West Union in Iowa, and Whisper Valley in Texas. The necessary data, including district size, operation period, GHP performance, and costs, were collected through literature review and interviews. The survey results indicated the five systems studied consist of geothermal borehole field(s) and ground loop(s) connected to a central loop. The GHPs were in central plants at Ball State University and Miami University, whereas the central loops at Colorado Mesa University, West Union, and Whisper Valley were connected through service lines to individual heat pumps in each building. Overall, we find no significant difference in reported system performance and cost between centralized and decentralized systems. Our analysis also indicates the systems have been operating reliably and costeffectively, with minimal operation of backup systems, and have contributed to a reduction in carbon emissions.
+
+
+vi
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Table of Contents
+Executive Summary .................................................................................................................................... v Introduction ................................................................................................................................................. 1 1 Ball State University (Conventional System—Centralized Energy Stations)................................. 6 2 Colorado Mesa University (5th Generation—Decentralized GHPs).................................................. 7 3 Miami University (Conventional System—Central Energy Plants).................................................. 9 4 West Union (5th Generation—Decentralized GHPs) ........................................................................ 10 5 Whisper Valley (5th Generation—Decentralized GHPs) .................................................................. 11 Conclusion................................................................................................................................................. 12 References................................................................................................................................................. 13
+
+
+vii
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+List of Figures
+Figure 1. District heating and cooling system: (a) district heating networks from 1st to 5th generations (Zeh et al. 2021) and (b) circular representation of 5th generation heating and cooling system (Boesten et al. 2019) ................................................................................................................ 2 Figure 2. Locations of five existing GHP-based energy systems in the United States ................................. 3 Figure 3. Central geothermal pump station at CMU’s Wubben Science Hall: (a) central remote monitoring system, (b) three circulation pumps, and (c) heat pump .......................................................... 8
+List of Tables
+Table 1. Summary of Specification, Performance, and Cost for Five GHP-Based District Energy Systems .................................................................................................................................... 4
+
+
+1
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Introduction
+A district geothermal energy system supplies thermal energy to a group of buildings through a central/community distribution network. In the 1890s, Boise Water Works Company constructed the first U.S. geothermal district heating system, supplying hot water from two wells to over 200 buildings in Boise, Idaho (Hanson 1985). Since then, the district geothermal energy technology has evolved over several generations for both heating and cooling end uses (e.g., geothermal heat pumps) (Figure 1a). Geothermal heat pump (GHP)-based district energy systems can be classified as 3rd, 4th, or 5th generation depending on the system type and temperature level (Figure 1a). In conventional GHP-based district heating and cooling systems (e.g., 3rd and 4th generations), the district-scale geothermal resource/infrastructure, such as borehole fields, is connected to central GHPs to supply heating or cooling to buildings. By comparison, a 5th generation district energy system (Figure 1b) often consists of decentralized GHPs in each building connected to bi-directional distribution networks operating at near-ground temperatures (Boesten et al. 2019; Revesz et al. 2020; Lund et al. 2021; Zeh et al. 2021).
+(a)
+
+
+2
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+(b)
+Figure 1. District heating and cooling system: (a) district heating networks from 1st to 5th generations (Zeh et al. 2021) and (b) circular representation of 5th generation heating and cooling system (Boesten et al. 2019)
+Hughes (2022) described the 17 GHP-based district heating and cooling systems that currently exist in the United States, including 13 systems located on college campuses. In our study, we collected system performance and cost data for five existing GHP-based district energy systems. The five systems were selected based on data availability (i.e., publications) and include three universities and two communities—Ball State University, Colorado Mesa University, Miami University, West Union in Iowa, and Whisper Valley in Texas (Figure 2). The collected information includes:
+• General information: operation period, district size, number of buildings connected to the district heating and cooling system, number of boreholes, and system issues encountered • GHP specification: number, capacity, and coefficient of performance (COP) • Cost: construction, operation and maintenance.
+
+
+3
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Figure 2. Locations of five existing GHP-based energy systems in the United States
+Map from Google Maps
+In addition to the literature review, we reviewed news articles and websites of the universities and communities for additional data and reached out to the operators through email for any missing information. In particular, geothermal researchers at the National Renewable Energy Laboratory visited Colorado Mesa University to learn more about their GHP-based district energy system. Table 1 summarizes the data that we collected for five existing GHP-based district energy systems in the United States.
+
+
+4
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Table 1. Summary of Specification, Performance, and Cost for Five GHP-Based District Energy Systems
+General Specifications Geothermal Heat Pump Specification Cost
+Operation period (starting month/year)
+District size
+Number of boreholes / ground loops
+Number of connected buildings
+Number Capacity
+Coefficient of performance
+Construction
+Operation & maintenance ($/year)
+Ball State
+University Jan/2012 731 acres
+(3 km2)
+3600 boreholes at 400' (121.9 m) depth with 1 in ushape (15' distance)
+47
+4 heat recovery chillers of 2500-ton
+Heating: 2.4 MW (678 ton)
+Cooling: 10,000 ton
+Avg. effective COP: 3.74±0.2
+Groundcoupled heat recovery chiller: 4.28±0.2
+Conversion cost: $82.9m, Installed cost: $17.3m,
+GHP: $3,452/ton,
+GHX: $18.7/ft ($61.4/m)
+$1,815,816
+Colorado Mesa University
+2008 110 acres
+(0.45 km2)
+471 boreholes at 300' (91.4 m) or 500' (152.4 m) depth with 2'' pipe, 8 loop fields
+16 buildings on 27.55 acres (0.1 km2)
+952
+Heating: 2728 tons
+Cooling: 3113 tons
+Min = 3.1
+Max = 6.1
+Total system cost: $20.2m
+Total loop fields: $6.4m
+New system: $3,284/ton
+New loop field: $30/ft ($98.4/m)
+Electricity: $1,436,034 Gas: $161,296
+Miami University
+Apr/2014 (Phase 1)
+May/2017 (Phase 2)
+Total:
+25 acres (0.1 km2)
+Gross area
+Phase 1: 6.61 acres (0.03 km2)
+Phase 2: 5.65 acres (0.02 km2)
+690 boreholes at 300' (91.4 m) depth with 1.25'' pipe, 53 ground loops
+10
+Four 250ton screw heat pump chillers;
+Two 350ton screw heat pump chillers
+Heating: 1833 tons
+Cooling: 2300 tons
+5.18 (FY22) including a 700-ton magnetic centrifugal chiller during the cooling season
+Phase 1: $16m Phase 2: $16m
+System: $2,419/ton
+Distribution pipe:
+$19.1/ft ($62.7/m)
+
+
+
+5
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Table 1 Continued. Summary of Specification, Performance, and Cost for Five GHP-Based District Energy Systems
+General Question Geothermal Heat Pump Specification Cost
+Operation Period (Starting Month/Year)
+District Size
+Number of Boreholes / ground loops
+Number of connected buildings
+Number Capacity
+Coefficient of Performance
+Construction
+Operation & Maintenance ($/year)
+West
+Union July/2013 1728 acres
+(7 km2)
+132 boreholes at 300' (91.4 m) depth with 8'' HDPE SDR 11 ubends (2'' to 6'' for service lines)
+11 buildings,
+58 remain for future
+Each end user has own heat pump(s) plus 2 circulation pumps
+2
+circulation pumps: total 274 tons
+The community loop COP:
+9.7 (winter)
+13.7 (summer)
+$10.2 million ($7.5m in outside sources + $2.7m city investment)
+$23,920 (O&M cost);
+Monthly fee of flat $15 plus $14 per ton of heating and cooling used in the shared system
+Whisper
+Valley 2016
+2,062 acres
+(8.3 km2)
+237 boreholes at 350' (106.7 m) depth
+Phase 1: 237
+Phase 2: 267
+Phases 3 & 4:
+373
+Heat pump for each house (237) plus one 250ton cooling tower
+-- 
+Fixed monthly geothermal service fee: $60
+
+
+6
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+1 Ball State University (Conventional SystemCentralized Energy Stations)
+Ball State University (BSU) is a public university in Muncie, Indiana, approximately 55 miles (88.5 km) northeast of Indianapolis. The BSU main campus includes 47 major buildings on 731 acres (3 km2) of land area. Historically, a central steam plant with four coal-fired and three natural gas-fired steam boilers supplied heating to buildings, and the cooling demand was supplied by five conventional centrifugal chillers. In 2009, BSU began replacing the existing boilers and chillers in two phases with district geothermal heating and cooling systems operated by heat recovery chillers that can simultaneously produce 42°F (5.6°C) chilled water and hot water up to 150°F (65.6°C) (Im et al. 2016). The conversion cost was $82.9 million. In Phase 1, two geothermal borehole fields were constructed, one consisting of 1,230 boreholes and one with 573 boreholes. An additional 1,800 boreholes were drilled in a third field during Phase 2. Depth and spacing of the boreholes were 400 ft (122 m) and 15 ft (4.6 m), respectively. A high-density polyethylene (HDPE) U-shape loop that has a diameter of 1 inch (2.54 cm) was installed in the boreholes and grouted with a mixture of sand, bentonite, and water. The installation cost was $17.3 million. The normalized costs of GHPs and heat exchangers were $3,452/ton and $18.7/ft ($61.4/m), respectively. Annual operation and maintenance costs were $1.8 million with cost savings of 30% compared to a baseline scenario, which is a conventional water-cooled chiller and natural gas-fired boiler system (Im et al. 2016).
+Four 2,500-ton heat recovery chillers were connected to the three geothermal borehole fields with one 1,000-ton fluid cooler, four 1,000-ton cooling towers, two centrifugal chillers, and three sets of circulation pumps connected to two central loops for hot water and chilled water. Heating capacity is 2.4 MW (678.5 tons of refrigeration), and cooling capacity is 10,000 tons. The average system effective COP was 3.74 ± 0.2, and the effective COP of the ground-coupled heat recovery chiller was 4.28 ± 0.2 (Im et al. 2016). Im et al. (2016) also reported (1) heat rejection is 4.5 times larger than the heat extraction as 78% of the heating outputs were recovered during simultaneous heating and cooling operation of the chiller; (2) 40% of steam production at the central steam plant was reduced after GHP system, (3) carbon emission reduction was 19% of the baseline, (4) net cost savings were about $764,200 (30% of the baseline), and (5) current configuration and control of the chillers resulted in overproduction of hot or chilled water, resulting in excessive chiller energy use and unexpectedly high ground loop temperatures.
+
+
+7
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+2 Colorado Mesa University (5th GenerationDecentralized GHPs)
+Colorado Mesa University (CMU) is a public university in Grand Junction, Colorado. Since 2007, a geo-exchange system has been developed and is continually being expanded at the CMU main campus for heating and cooling in 16 buildings spread out across approximately 110 acres (0.45 km2). Total construction cost for the current geo-exchange system was $20.2 million, and the system and loop field costs were $3,284/ton and $30/ft ($98.4/m), respectively. Currently, there are eight borehole fields, including 471 boreholes with 2-in (5.1-cm) HDPE pipe at up to 500 ft (152.4 m) depth. These fields are connected to the central loop, which is 2.5 miles (4 km) long and consists of 18-in (45.7-cm) HDPE pipe at operating temperature between 50°F (10°C) and 85°F (29.4°C). Total construction cost for the central loop was $6.4 million. A total of 952 GHPs in the 16 buildings were connected to the central geo-exchange loop using 8-inch (20.3cm) HDPE pipes. Heating and cooling capacities are 2,728 tons and 3,113 tons, respectively. The COP ranges approximately from 3.1 to 6.1. Even though cooling towers and boilers are connected to the central loop to maintain the desired operating temperature (e.g., chilling the loop using cooling tower to stay under 85°F (29.4°C) in summer), there has been no fuel-fired furnace/boiler operation for heating end use in the 16 buildings since 2012.
+Figure 3 shows one of the central pump stations at Wubben Science Hall at CMU, including remote central monitoring system, circulation pumps, and a ceiling-mounted GHP for the specific building. The monitoring system continuously monitors and controls the heating and cooling demand and supply, including space temperature, active setpoint, discharge air temperature, heat/cool mode status, and occupancy (Figure 3(a)). For example, two or three (of three total) circulation pumps are operated depending on the demand (Figure 3(b)). Annual operating costs for electricity and gas are $1.4 million and $161k, respectively. Waste heat is used for many applications, including swimming pools. Lessons from the system operation are to (1) have mechanical engineers and installation contractors who are familiar with water-source heat pumps, (2) consider pre-constructions for access and serviceability, and (3) establish construction and installation standards.
+
+
+8
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+(a)
+(b) (c)
+Figure 3. Central geothermal pump station at CMU’s Wubben Science Hall: (a) central remote monitoring system, (b) three circulation pumps, and (c) heat pump
+Schematic courtesy of CMU; photos by the NREL project team
+
+
+9
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+3 Miami University (Conventional System—Central Energy Plants)
+Miami University is a public research university in Oxford, Ohio, approximately 35 miles (56.3 km) North of Cincinnati. The main Miami University campus encompasses 2,138 acres (8.7 km2) with 188 buildings. Since 2012, a geothermal energy plant has been developed on the western campus in two phases. The construction cost in Phase 1 was $16 million, including (1) $10 million allocated to the geothermal building and associated chillers, equipment, and well installation, and (2) $6 million allocated to site infrastructure for newly supported buildings. Phase 2 comprised site distribution piping and mechanical system conversions of five buildings, with a $16 million project budget. The system and distribution pipe costs were approximately $2,419.4/ton and $19.1/ft ($62.7/m), respectively. The construction was completed in 2016. The plant provides heating and cooling to 10 buildings spread out across about 25 acres (0.1 km2) with gross area of 12.3 acres (0.05 km2). From 2008 to 2019, carbon emissions, energy use, and expenditures were considerably reduced with the district geothermal energy system: (1) 45% carbon emissions reduction, (2) 39% total energy use reduction even with 25% increase in the total gross square footage of the campus, and (3) 64.8% energy cost saving. An additional geothermal plant is planned with a new borehole field in 2025. With the additional geothermal energy system, 74% fossil fuel usage reduction and 43% water savings are projected.
+The current energy plant includes four 250-ton screw heat recovery chillers and two 350-ton screw heat recovery chillers, as well as one 700-ton magnetic bearing cooling-only chiller and two 4,000-MBH hot water boilers. Shale and limestone bedrock is encountered within the energy building footprint between depths of about 30.5 (9.3 m) and 35 feet (10.7 m) below the existing grade (Daita and Viswanathan 2011). The six heat recovery chillers were connected to 53 ground loops and a 690-borehole field at 300 ft (91.4 m) depth. The ground loops were installed in shallow subsurface trenches and a pond. Miami University has placed ponds on the western campus to manage rain and groundwater and support the heat exchangers. HDPE pipe that has a diameter of 1.25 in (3.2 cm) was configured as a single U-tube in the boreholes. The COP of the system, including the 700-ton magnetic bearing centrifugal chiller supplementarily operated during the cooling season, was 5.18 in FY22. Specifically, ranges of the COP for heating mode, cooling mode, and simultaneous mode were 3.5–4.5, 5.0–6.0, and 5.5–6.5, respectively, and the COP for free cooling mode ranged from 10 to 15 (pond loop spring and fall, approximately 200 hours). System issues encountered during the operation include wellfield leaks, GHP controls, proprietary support (24/7/365 support issue), and failed deep temperature sensors.
+
+
+10
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+4 West Union (5th Generation—Decentralized GHPs)
+West Union is a small city in Iowa with a total land area of 1,780 acres (7.2 km2) and a population of 2,490 at the time of 2020 Census. In 2012, the Green Streetscapes Project was completed in West Union to replace existing streets with porous paving, bioswales, a civic plaza, sidewalks, street lighting, and a district geothermal energy system. The project budget was $10.2 million including outside sources ($7.5 million) and city investment ($2.7 million). Six vertical boreholes were connected to form a zone, and multiple zones were connected to create a geothermal field. For the geothermal borehole field, a total of 132 boreholes were constructed at 300-ft (91.4-m) depth in the Fayette County Courthouse lawn and nearby city park and parking lots. The borehole field was connected to the community loop (8-in pipe) field located below the streets of the town square.
+Two circulation pumps were connected to the borehole field for redundancy protection and programmed in variable frequency drive controls to switch every week. The system flow rates are monitored as 295 GPM (1,116 L/min) out to the field and 265 GPM (1,003 L/min) returning. The pumps are operating at 22% to 25% speed to maintain system demand. Delta T (i.e., the temperature difference between entering and exiting fluid temperatures) is approximately 4.5°F (2.5°C) during winter and summer seasons. The system’s COPs were 9.7 and 13.7 during winter and summer seasons, respectively. Currently, 11 buildings are connected to the community loop using service lines of 2-in (5.1-cm) to 6-in (15.2-cm) HDPE pipes depending on the energy load. Fifty-eight stubs (e.g., buildings and empty lots) remain unconnected from the district geothermal system for future uses. An additional pump house was also built in Lions Park for future use. Each of the 11 buildings has several GHPs depending on the space volume and the GHP performance. Each end user is responsible for their own equipment (e.g., GHP, chiller) inside the building and distributing the heat and cooling inside the building. The end users pay one-time connection inspection fee of $250 and monthly fee of a flat $15 plus $14 per ton of heating and cooling used in the shared system. The expenses for system operation were $25,168 in 2022 and more than 50% of the cost was related to service contract and then electricity, insurance, sales tax, etc. Projected expenses in 2023 are $22,671.
+
+
+11
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+5 Whisper Valley (5th Generation—Decentralized GHPs)
+Whisper Valley is a residential development in Travis County near Austin, Texas, combining a community-wide geothermal energy grid with solar photovoltaics and battery storage. In 2016, Phase 1 was completed with 237 homes. An additional 237 and 373 homes are also planned in future phases for a total land area of 2,062 acres (8.3 km2). During the early stage of construction, a community geothermal grid of more than 5 miles (8 km) was installed with road and utility constructions across the development. Although two ancillary cooling towers (connected to the community energy grid) were originally planned to additionally supply the high cooling demand in Texas during summer season, only one of the two planned towers was installed in Phase 1 because the combined thermal performance of the boreholes had exceeded the original projections. Each of the 237 homes has a GHP connected to a vertical borehole at 350 ft (106.7 m) depth with a cross-linked polyethylene double U-bend pipe. Each borehole is connected to the community grid. Each household pays a fixed monthly geothermal service fee of $60. Wolfson and Mapel (2020) explains that the community geothermal grid system provides resiliency for individual borehole failures and diversifies the individual peak thermal demands across the community such that an individual home’s geothermal capacity does not need to be sized to the home’s peak load. The monitoring and control system, coupled with ancillary cooling towers, enables the entire system to share and optimize thermal energy.
+
+
+12
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+Conclusion
+This study analyzed cost and performance of five existing GHP-based district energy systems. The five systems included Ball State University, Colorado Mesa University, Miami University, the city of West Union, and a residential development in Whisper Valley. The five systems consisted of GHPs and/or heat recovery chillers, as well as conventional heating and cooling systems for supplying peak demand, connected to large-scale borehole fields (including several hundred boreholes) and horizontal loops connected to central loop(s). Ball State University and Miami University systems include central heat recovery chillers in the energy plant connected to central loops and borehole fields, while the Colorado Mesa University, West Union, and Whisper Valley systems consist of decentralized GHPs in each building and/or house connected to the central/community loop (connected to borehole fields and horizontal loops).
+In comparing the three universities (i.e., the two universities with centralized energy plant vs. one university with decentralized GHPs), we found no significant difference in reported performance and cost, showing COP of 4.7 and construction cost of $3,050/ton on average. In general, the five district energy systems have operated reliably, with minimal operation of backup systems at Colorado Mesa University, West Union, and Whisper Valley. The performance analysis result on the heat recovery chiller at Ball State University also indicated the system even overproduced chilled or hot water. These imply that the district energy systems may often be conservatively designed, resulting in excessive energy consumption to operate the system and unnecessary ground loop usage, as well as high capital expenditures (e.g., backup system cost).
+A takeaway is that the system optimization—with accurately analyzed demand, supply potential, and regional geothermal resource (e.g., ground temperature at the desired depth)—is important, especially for large systems. Another lesson learned is to have a systematic operation and maintenance team who has experiences and expertise with GHP and geothermal heat exchangers.
+
+
+13
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+References
+Boesten, Stef, Wilfried Ivens, Stefan C. Dekker, and Herman Eijdems. 2019. “5th generation district heating and cooling systems as a solution for renewable urban thermal energy supply.” Advances in Geosciences, 49: 129–136. https://doi.org/10.5194/adgeo-49-129-2019.
+Daita, Bobby and Rajan Viswanathan. 2011. “Western Campus Infrastructure.” Proposed Energy Building and Utility Tunnels, Geotechnical Engineering Report, N1115206, Terracon Consultants, Inc., Cincinnati, OH.
+Hanson, Phillip J. 1985. “Boise geothermal district heating system.” Technical Report, DOE/ET/27053-6, ON: DE86007622, Boise Geothermal, Boise, ID. https://doi.org/10.2172/6227793.
+Hughes, Hannah J. 2022. “Geothermal Heat Pump-Based District Heating and Cooling Throughout the United States.” Geothermal Resources Council Transactions, Vol. 46, Reno, NV.
+Im, Piljae, Xiaobing Liu, and Hugh Henderson. 2016. “Final Report: Case Study for ARRAFunded Ground-Source Heat Pump Demonstration at Ball State University.” Technical Report, ORNL/TM-2016/644, Oak Ridge National Laboratory, Oak Ridge, TN. https://doi.org/10.2172/1337858.
+Lund, Henrik, Poul Alberg Østergaard, Tore Bach Nielsen, Sven Werner, Jan Eric Thorsen, O. Oddgeir Gudmundsson, Ahmad Arabkoohsar, and Brian Vad Mathiesen. 2021. “Perspectives on fourth and fifth generation district heating.” Energy, 227, 120520. https://doi.org/10.1016/j.energy.2021.120520.
+Revesz, Akos, Phil Jones, Chris Dunham, Gareth Davies, Catarina Marques, Rodrigo Matabuena, Jim Scott, and Graeme Maidment. 2020. “Developing novel 5th generation district energy networks.” Energy, 201, 117389. https://doi.org/10.1016/j.energy.2020.117389.
+Wolfson, Greg and Michelle Mapel. 2020. “The importance of nanogrids in low-carbon residential communities.” Technical Article, Whisper Valley, Available from: https://www.whispervalleyaustin.com/the-importance-of-nanogrids-in-low-carbon-residentialcommunities/.
+Zeh, Robin, Björn Ohlsen, David Philipp, David Bertermann, Tim Kotz, Nikola Jocic, and Volker Stockinger. 2021. “Large-scale geothermal collector systems for 5th generation district heating and cooling networks.” Sustainability, 13, 6035. https://doi.org/10.3390/su13116035.

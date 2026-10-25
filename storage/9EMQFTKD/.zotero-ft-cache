@@ -1,0 +1,288 @@
+SPECIAL ISSUE ARTICLE
+Biostatistics deserts and scholarly productivity among US
+medical schools
+Terrie Vasilopoulos PhD 1 | Dmitry Tumin PhD 2
+1Department of Anesthesiology and Department of Orthopaedic Surgery and Sports Medicine, University of Florida College of Medicine, Gainesville, Florida, USA
+2Department of Pediatrics and Department of Academic Affairs, Brody School of Medicine at East Carolina University, Greenville, North Carolina, USA
+Correspondence
+Terrie Vasilopoulos, Department of Anesthesiology and Department of Orthopaedic Surgery and Sports Medicine, University of Florida College of Medicine, Gainesville, FL, USA. Email: tvasilopoulos@anest.ufl.edu
+The teaching and practice of biostatistics are essential to medical education, but
+access to biostatistical expertise is limited at many medical schools. Medical schools
+in rural and historically underserved areas may be doubly disadvantaged in accessing
+biostatistics expertise by their lack of financial resources and a lack of local
+programmes training future generations of biostatisticians. Using public data on US
+medical schools and biostatistics PhD programmes, we identified medical schools
+operating in ‘biostatistics deserts’ (institutions without an affiliated or colocated PhD
+programme in biostatistics) and correlated each medical school's location in a biosta
+tistics desert with scholarly productivity, operationalized as the annual number of
+scholarly publications. Among 126 MD-granting medical schools in our analysis, 46%
+were located in a biostatistics desert and had a median of 590 publications/year,
+compared to 993 for medical schools with a colocated PhD programme and 1,369
+with an affiliated programme. On multivariable analysis, the presence of a Biostatis
+tics, Epidemiology, and Research Design (BERD) programme, but not affiliation or
+colocation with a biostatistics PhD program, was associated with higher scholarly
+productivity. Structured biostatistics services, such as BERD programmes, may repre
+sent the best opportunity for medical schools to leverage the local biostatistics work
+force to support scholarly publication.
+1 | INTRODUCTION
+With the increasing methodological complexity of biomedical research, the teaching and practice of biostatistics have become essential to the
+educational and research missions of medical schools and academic medical centres (AMCs) (Welty et al., 2013). However, medical trainees fre
+quently cite insufficient access to biostatistics expertise: in 2022, almost 3 in 10 graduating physicians described their preclinical training in biosta
+tistics and epidemiology as fair or poor (Association of American Medical Colleges, 2022a), and surveys of resident physicians revealed that
+approximately half consider a lack of biostatistics knowledge or the absence of biostatistical support as barriers to participating in scholarly activ
+ity (Abramson et al., 2018; Mansi et al., 2019). The shortage of biostatisticians is a fundamental cause of limited biostatistics support for medical
+trainees, and this shortage begins with the biostatistician training pipeline. For example, in 2021, only 222 doctoral degrees in biostatistics were
+awarded in the United States (American Statistical Association, n.d.-b), as compared to 28,337 MD and DO degrees (Kaiser Family Foundation, n.
+d.). While some medical schools have sought to address this shortage by leveraging the expertise of master's-level biostatisticians and PhDs in
+related fields (Desai et al., 2022; McKinney et al., 2019), the rarity of biostatistics PhDs relative to physicians is emblematic of a nationwide imbal
+ance between biostatistician supply and demand.
+The nationwide shortage of biostatisticians is exacerbated by inequality among medical schools in access to biostatistics resources. In 2010
+2013, a quarter of US medical schools had four or fewer biostatistics faculty, and a quarter of ‘small’ schools (those with <700 faculty) had just a
+single biostatistician faculty member (Zhang & Chen, 2015). While some medical schools and AMCs benefit from in-house biostatistics cores
+funded by the National Institutes of Health (NIH) (Hanlon et al., 2022), such cores are absent at many medical schools due to the highly unequal
+Received: 4 March 2024 Revised: 2 April 2024 Accepted: 26 April 2024
+DOI: 10.1002/sta4.693
+Stat. 2024;13:e693. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 9 https://doi.org/10.1002/sta4.693
+
+
+distribution of NIH funding across institutions. Medical schools in rural and historically underserved areas may be doubly disadvantaged in
+accessing biostatistics expertise because of their lack of financial resources (e.g., NIH and other funding for biostatistics cores) and a lack of local
+programmes training future generations of biostatisticians. We refer to the latter disadvantage as the phenomenon of ‘biostatistics deserts’,
+mirroring the concept of ‘food deserts’ that describes areas lacking in retailers of nutritious foods (Testa et al., 2021).
+Medical schools operating in a biostatistics desert may encounter several barriers to teaching and research involving biostatistical methods.
+First, these schools may encounter difficulty recruiting biostatistics faculty and staff due to the absence of a local talent pool. Second, any biostat
+isticians who are recruited are at risk of isolation, which could lead to lower productivity, career dissatisfaction, and departure from the institution
+(Mehta et al., 2022). Third, schools in biostatistics deserts would be unable to draw upon support from biostatistics trainees (e.g., biostatistics stu
+dent interns and student-led consulting services) (Kaseda et al., 2022; Pomann et al., 2022). Altogether, these barriers may exacerbate disparities
+among US medical schools in scholarly productivity, as described in prior research (Gray et al., 2023). In this study, we aimed to define how many
+US medical schools are located in a biostatistics desert, defined by the absence of a colocated or affiliated biostatistics training program. Our sec
+ondary aim was to describe the correlation between biostatistics deserts and medical schools' research productivity, measured through the num
+ber of scholarly publications.
+2 | METHODS
+This study did not include human subjects research and did not require Institutional Review Board approval. We included US-based MD-granting
+medical schools, identified by querying the Association of American Medical Colleges, AAMC (n.d.) website. We excluded regional campuses,
+which may have had access to biostatistics support through their affiliation with the flagship campus of the same school. Following prior research
+(Gray et al., 2023; Tumin, Khanchandani, et al., 2022), we also excluded medical schools not uniquely identifiable by affiliation search in the
+Scopus database, as well as schools missing data on any other study variables (including schools not represented in the Blue Ridge Institute for
+Medical Research [BRIMR] summary of NIH funding).
+For each medical school, the primary outcome was the availability of a local biostatistics training programme. This was defined based on a
+directory of graduate programmes maintained by the American Statistical Association, ASA (n.d.-a). Our primary definition of this outcome was
+based on the availability of a PhD programme in biostatistics. In secondary analyses, we expanded this definition to include (a) PhD programmes
+in either statistics or biostatistics and (b) master's or PhD programmes in either statistics or biostatistics. For each definition, we classified medical
+schools as having (a) an affiliated training programme (housed in the same institution as the medical school); (b) a colocated training programme
+(housed in a different institution, but located in the same county as the medical school's flagship campus); or (c) neither. Medical schools with nei
+ther an affiliated nor a colocated biostatistics training programme were considered to be located in a biostatistics desert. Our secondary outcome
+was each medical school's number of scholarly publications in 2022, determined by a search of the Scopus database.
+Covariates in our analysis included each school's public or private designation, geographic region (based on US Census categories), and
+number of full-time faculty as of December 2022 (Association of American Medical Colleges, 2022b). We also controlled for total funding
+received in fiscal year 2022 from the NIH (recoded to $50 million dollar increments), as compiled by Blue Ridge Institute for Medical
+Research (BRIMR, 2023). Lastly, we controlled for the presence of Biostatistics, Epidemiology and Research Design (BERD) programmes asso
+ciated with Clinical and Translational Science Awards (CTSA) programme funding through the NIH's National Center for Advancing Transla
+tional Sciences.
+Continuous data were summarized using medians with interquartile ranges, while categorical data were summarized using counts with per
+centages. We grouped medical schools based on access to biostatistics training programmes (those with affiliated biostatistics training programs,
+those with colocated programmes and those with no local programs) to describe prevalence and geographic clustering of medical schools in bio
+statistics deserts. We compared study covariates and access to biostatistics training programmes using chi-square tests, Fisher's exact tests or
+Wilcoxon/Kruskal–Wallis tests, as appropriate. We compared the number of publications across the categories of medical school access to biosta
+tistics training programmes, as well as individual study covariates, using negative binomial regression (due to overdispersion and skewness in dis
+tribution), with associations quantified using incident rate ratios (IRRs) with 95% confidence intervals (95% CIs). Lastly, we fit a multivariable
+negative binomial regression model for the number of publications including access to biostatistics training programmes and study covariates. Col
+linearity was assessed prior to creating multivariable models. Data analysis was performed in JMP Pro 17 (SAS Institute Inc., Cary, NC), and
+P < .05 was considered statistically significant.
+3 | RESULTS
+We identified 155 medical schools on the AAMC list, of which we excluded 9 schools that could not be uniquely identified in the Scopus database
+and 20 schools that were not included in the BRIMR rankings, resulting in a sample of n = 126. Table 1 reports descriptive statistics for the
+2 of 9 VASILOPOULOS and TUMIN
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+sample. Nearly two thirds of schools were public, with the fewest schools located in the Western United States. Nearly half of schools (48%) had
+a BERD programme. Median NIH funding for schools was $68 million, and median total number of school publications in 2022 was 808.
+Nearly half (46%) of medical schools had neither an affiliated nor a colocated biostatistics PhD programme. Figure 1 depicts maps of biostatis
+tics PhD programmes affiliated or colocated with medical schools. New York had the highest concentration of medical schools with affiliated bio
+statistics PhD programmes, and half of medical schools in the Northeastern United States (52%) had an affiliated biostatistics PhD programme
+(Table 2). Conversely, most medical schools in the Southern (54%) and Western (63%) United States had neither an affiliated nor a colocated bio
+statistics PhD programme. Medical schools with an affiliated biostatistics PhD programme were larger and had more NIH funding, having nearly
+double the amount of faculty and over seven times the funding as medical schools without affiliated biostatistics PhD programmes (Table 2). Over
+half (57%) of public medical schools did not have either an affiliated or a colocated biostatistics PhD program, compared to only 27% of private
+schools. Finally, a majority of BERD programmes (65%) were at medical schools with an affiliated biostatistics PhD programme. Table S1 summa
+rizes these variables for schools with biostatistics or statistics PhD programmes and for schools with biostatistics or statistics PhD or master's
+programmes.
+In unadjusted analysis (Table 3), the presence of an affiliated biostatistics PhD programme, compared to schools with no programme, was
+associated with higher school-wide publications (IRR = 2.6, 95% CI: 1.7–3.8; Figure 2). A similar association was found for schools with colocated
+programmes (IRR = 2.2, 95% CI: 1.2–4.0; Figure 2). Presence of a BERD programme (IRR = 2.6, 95% CI: 1.7–3.8), private schools (IRR = 2.6, 95%
+CI: 1.7–3.8), location in Northeastern United States (IRR = 2.6, 95% CI: 1.7–3.8) and higher NIH funding (IRR per $50 million increase = 1.3,
+95% CI: 1.02–1.4) were all also associated with higher school-wide publications in unadjusted analyses (Figure 3). However, in adjusted analyses,
+the association between biostatistics PhD programmes and number of publications was completely attenuated. Meanwhile, the presence of BERD
+programs, US Census region and NIH funding remained significantly associated with school-wide publications in the adjusted model. We ran an
+additional analysis that did not include NIH funding as a covariate (Table S2), with presence of BERD remaining the strongest independent
+T A B L E 1 Sample description for included medical schools (n = 126)
+Measure Median [IQR] or counts (%)
+Total Faculty 1,057 [1,138]
+Type
+Public 79 (62.7%)
+Private 47 (37.3%)
+US region
+Southern 46 (36.5%)
+Northeast 33 (26.2%)
+Central 28 (22.2%)
+Western 19 (15.1%)
+NIH Total funding $68,200,000 [$189,700,000]
+BERD programme 60 (47.6%)
+Institutional publications 808 [1829]
+Biostatistics PhD programme
+Affiliated 53 (42.1%)
+Colocated 15 (11.9%)
+None 58 (46.0%)
+Biostatistics or statistics PhD programme
+Affiliated 74 (58.7%)
+Colocated 14 (11.1%)
+None 38 (30.2%)
+Biostatistics or statistics PhD or master's programme
+Affiliated 92 (73.0%)
+Colocated 15 (11.9%)
+None 19 (15.1%)
+Note: Colocatedà located in same county as an institution with a training programme. Abbreviations: BERD, Biostatistics, Epidemiology, and Research Design; IQR, interquartile range; NIH, National Institutes of Health.
+VASILOPOULOS and TUMIN 3 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+F I G U R E 1 Density (a) and location (b) maps of medical schools with affiliated and colocated biostatistics PhD programmes.
+4 of 9 VASILOPOULOS and TUMIN
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+predictor of publications. Similar results were found when analysing access to biostatistics or statistics PhD programmes and when analysing
+access to biostatistics or statistics PhD or master's programmes (Tables S3 and S4).
+4 | DISCUSSION
+This study demonstrates the existence of biostatistics deserts affecting nearly half of US-based MD-granting medical schools. Biostatistics deserts
+are associated with geographical region, medical school size, private or public affiliation and NIH funding. Medical school affiliation or colocation
+with a biostatistics PhD programme was associated with much greater school-wide publication productivity in bivariate analysis, although the
+association between affiliated biostatistics PhD programmes and publications was attenuated after accounting for the presence of a BERD pro
+gramme. This suggests that the mere presence of a biostatistics training programme is not sufficient to support biomedical research and that there
+needs to be group of biostatistical and research experts with a focus and understanding of biomedical research to best support clinical faculty
+research endeavours.
+T A B L E 2 Association between institutional characteristics and presence of an affiliated or colocated biostatistics PhD programme.
+Measure Affiliated programme (n = 53) Colocated programme (n = 15) No programme (n = 58) P value
+Total Faculty, median [IQR] 1,494 [1,313] 1,030 [1,619] 752 [845] <.001
+Type, counts (%)
+Public 31 (39.2%) 3 (3.8%) 45 (57.0%) <.001
+Private 22 (46.8%) 12 (25.5%) 13 (27.7%)
+US region .070
+Southern 18 (39.1%) 3 (6.5%) 25 (54.4%)
+Northeast 17 (51.5%) 6 (18.2%) 10 (30.3%)
+Central 11 (39.3%) 6 (21.4%) 11 (39.3%)
+Western 7 (36.8%) 0 (0%) 12 (63.2%)
+NIH Total funding, median [IQR] $138,800,000 [298,500,000] $56,300,000 [263,800,000] $18,800,000[81,200,000] <.001
+BERD programme, counts (%) 39 (65.0%) 5 (3.3%) 16 (27.6%) <.001
+Note: P values were from chi-square or Fisher's exact tests for categorical measures and Wilcoxon/Kruskal–Wallis tests for continuous measures. Abbreviations: BERD, Biostatistics, Epidemiology, and Research Design; NIH, National Institutes of Health.
+T A B L E 3 Incident rate ratios, with 95% confidence intervals for associations between presence of an affiliated or colocated biostatistics PhD programme, as well as institutional characteristics, with institutional publications.
+Biostatistics PhD programme Unadjusted IRR 95% CI Adjusted IRR
+Affiliated vs. no programme 2.6
+1.7–3.8
+1.2 0.9–1.7
+Colocated vs. no programme 2.2
+1.2–4.0
+1.3 0.8–2.0
+BERD programme (yes vs. no) 4.7 3.4–6.4
+2.0 1.4–2.8
+Type of programme (private vs. public) 2.8 1.8–4.1
+1.2 0.9–1.7
+Region (northeast US vs. other) 2.2 1.4–3.3
+1.7 1.2–2.4
+NIH funding (per $50 million increase in funding) 1.3 1.2–1.4
+1.2 1.1–1.2
+Note: Adjusted IRRs from multivariable negative binomial regression including all variables in table. Statsitically significant associations in bold. Abbreviations: BERD, Biostatistics, Epidemiology, and Research Design; CI, confidence interval; IRR, incident rate ratios; NIH, National Institutes of Health.
+VASILOPOULOS and TUMIN 5 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+The benefits of BERD programmes for academic health centres are well documented (Hanlon et al., 2022; Rahbar et al., 2017; Rubio
+et al., 2011; Welty et al., 2013). A primary function of BERD programmes is to provide support for investigator-initiated projects to produce man
+uscripts and attain NIH funding. However, a BERD programme can provide support and expertise across the entire research lifecycle, being able
+F I G U R E 2 Box plot of publications for medical schools based on affiliation with biostatistics PhD programme.
+F I G U R E 3 Box plot of publications for medical schools, stratified by affiliated (blue), collocated (orange), or no (grey) biostatistics PhD programme, based on presence of BERD programme (a), private versus public (b), and region (c) and scatterplot of publications for medical schools versus NIH funding (d). Abbreviations: BERD, Biostatistics, Epidemiology, and Research Design; NIH, National Institutes of Health.
+6 of 9 VASILOPOULOS and TUMIN
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+to guide research question creation, protocol development and review, study design and results dissemination. Moreover, a BERD programme
+can provide key education and mentoring for clinical faculty to help their professional development as researchers. The specialized expertise that
+a BERD programme can provide is a key component of success at academic health centres (Welty et al., 2013). Furthermore, specialization can
+refer to types of studies (e.g., comparative effectiveness research and clinical trials) and methodologies (e.g., predictive modelling and imaging
+data) with which a given biostatistician is more experienced. Moreover, specialization can also refer to medical specialties where a biostatistician
+maintains a long-term relationship with clinical faculty for specific areas, thus becoming familiar with specialty-specific variables and processes.
+This can support formation of investigator-focused professional relationships, as opposed to project-based relationships (Rubio et al., 2011;
+Tsevat et al., 2014; Welty et al., 2013).
+Despite the documented success of BERD programmes in providing comprehensive and effective statistical expertise, additional strategies
+for optimizing biostatistical support are needed for historically under-resourced schools (particularly schools that currently lack a BERD pro
+gramme or a significant portfolio of NIH funding) and schools located in the biostatistics deserts described in our study. In a recent survey of col
+laborative biostatistics units, 21% included no NIH-funded cores, 14% received no grant funding from the NIH and the median team included
+only three total members (Hanlon et al., 2022). Small, agile teams of biostatisticians and other research faculty or staff can maximize their impact
+on medical schools' research productivity by (a) developing a model of shared responsibilities for research mentorship and research operations,
+(b) proactively engaging clinical faculty and trainees in research to develop the local pool of investigators and (c) leveraging team members' diverse
+academic backgrounds, which may include exposure to statistical methods through training in academic disciplines not traditionally associated
+with the biostatistician role (Tumin, Baumgarten, et al., 2022; Tumin et al., 2020).
+In addition to biostatistical support, several other factors were associated with medical school publications in our study, including NIH
+funding and region. A study dating back four decades supported a strong association between publications and NIH funding (McAllister &
+Narin, 1983). More recent studies have confirmed that relationship and found that publications supported by NIH funding have a greater
+impact in terms of journal prestige and number of citations (Boyack & Jordan, 2011; Lewison & Dawson, 1998). Nonetheless, our unadjusted
+analysis indicated that a $50 million increase in annual NIH funding was correlated with a 30% increase in annual publications, equivalent to
+242 publications for the median medical school. Further work may consider how different sources of intramural or extramural funding corre
+spond to the quantity and quality of resulting publications and how these data can be used to inform budgeting for biostatistical and other
+research support based on targets for scholarly productivity. Interestingly, the aforementioned 1983 study also found an association between
+publications and medical school region, with fewer publications from Southern US-based schools (McAllister & Narin, 1983). Our study found
+similar regional differences in publication output, with the highest output from Northeastern US-based schools and lowest outputs from
+Southern and Western US-based schools, supporting the persistence of regional disparity in terms of academically productive medical
+schools.
+Our conclusions are limited by some aspects of the available data and the analytic approach. The ASA registry of graduate programmes may
+not have included all eligible training programmes in statistics and biostatistics, resulting in overestimation of the proportion of medical schools
+located in a biostatistics desert. We also did not examine affiliation or colocation of graduate programmes in other disciplines that include signifi
+cant training in biostatistical methods. Our ascertainment of publication outcomes shares the limitation of other studies using the Scopus data
+base (Gray et al., 2023), including delayed indexing of some publications and the potential for misattributing author affiliations or undercounting
+publications in non-indexed outlets. While we focused on scholarly publication as a highly visible output of biostatistical support, we were unable
+to quantify other contributions of biostatistical faculty and staff at each medical school, such as contributions to teaching, funding and career
+development of other faculty. In our multivariable analysis, it is also possible that the inclusion of BERD programme and NIH funding independent
+variables may have led to overcontrolling the model, since graduates of local biostatistics programmes may have been the biostatisticians staffing
+BERD programmes and contributing to the success of each medical school's NIH funding applications.
+Despite these limitations, our study provides a novel analysis of access to biostatistics resources across US medical schools and reveals that a
+large share of MD-granting medical schools is operating in biostatistics deserts, where the capacity to develop and grow biostatistics units may be
+limited by the lack of local graduate programmes. Our findings further suggest that structured biostatistics services, such as the BERD
+programmes, may represent the best opportunity for medical schools to leverage the local biostatistics workforce to support scholarly publication;
+however, they also point to the need for more research on how biostatistics units should best be organized at smaller, geographically isolated or
+historically under-resourced medical schools.
+AUTHOR CONTRIBUTIONS
+Terrie Vasilopoulos: Conceptualization; data analysis; writing—original draft; writing—review and editing. Dmitry Tumin: Conceptualization; data
+acquisition and management; writing—original draft; writing—review and editing.
+ACKNOWLEDGEMENTS
+We thank Catherine Gray for assistance with data collection. The authors thank Bryan Penberthy, MFA, of the University of Florida College of
+Medicine Department of Anesthesiology's Communications and Publishing office for his editorial assistance with this manuscript.
+VASILOPOULOS and TUMIN 7 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+CONFLICT OF INTEREST STATEMENT
+TV discloses her unpaid position as chair-elect of the Statistical Consulting section of the American Statistical Association. DT discloses salary sup
+port from the Kate B. Reynolds Charitable Foundation and Lilly Grant Office for unrelated research and quality improvement projects.
+DATA AVAILABILITY STATEMENT
+Source data and replication code are available from the authors upon request.
+REFERENCES
+Abramson, E. L., Naifeh, M. M., Stevenson, M. D., Mauer, E., Hammad, H. T., Gerber, L. M., & Li, S. T. (2018). Scholarly activity training during residency: Are we hitting the mark? A national assessment of pediatric residents. Academic Pediatrics, 18(5), 542–549. https://doi.org/10.1016/j.acap.2018. 02.002 American Statistical Association. (n.d.-a). Biostatistics and statistics programs and the degree options. Retrieved May 19, 2023, from https://sites.google. com/view/biostats-stats-programs American Statistical Association. (n.d.-b). Statistics and biostatistics degree data. Retrieved March 29, 2023, from https://www.amstat.org/education/ statistics-and-biostatistics-degree-data Association of American Medical Colleges. (2022a). 2022 all schools summary report. Retrieved March 29, 2023, from https://www.aamc.org/datareports/students-residents/report/graduation-questionnaire-gq Association of American Medical Colleges. (2022b). Table 2: U.S. medical school faculty by medical school and department type, 2022. Retrieved May 6, 2023, from https://www.aamc.org/media/8471/download?attachment Association of American Medical Colleges. (n.d.). AAMC medical school members. Retrieved May 6, 2023, from https://members.aamc.org/eweb/ DynamicPage.aspx?site=AAMC&webcode=AAMCOrgSearchResult&orgtype=Medical%20School Blue Ridge Institute for Medical Research (BRIMR). (2023). BRIMR rankings of NIH funding in 2022. Retrieved May 6, 2023, from https://brimr.org/brimrrankings-of-nih-funding-in-2022/ Boyack, K. W., & Jordan, P. (2011). Metrics associated with NIH funding: A high-level view. Journal of the American Medical Informatics Association, 18(4), 423–431. https://doi.org/10.1136/amiajnl-2011-000213 Desai, M., Boulos, M., Pomann, G. M., Steinberg, G. K., Longo, F. M., Leonard, M., Montine, T., Blomkalns, A. L., & Harrington, R. A. (2022). Establishing a data science unit in an academic medical center: An illustrative model. Academic Medicine, 97(1), 69–75. https://doi.org/10.1097/ACM. 0000000000004079 Gray, C., Infante Linares, J. L., Cunningham, K., & Tumin, D. (2023). Scholarly productivity of US medical schools before and during the COVID-19 pandemic. Southern Medical Journal, 16(10), 812–818. https://doi.org/10.14423/SMJ.0000000000001608 Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., Pomann, G.-M., & Welty, L. J. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat, 11(1), e521. https://doi.org/10.1002/ sta4.521 Kaiser Family Foundation. (n.d.). Total number of medical school graduates. Retrieved March 29, 2023, from https://www.kff.org/other/state-indicator/ total-medical-school-graduates/ Kaseda, E. T., Graupman, E. E., Vincent, S., Faith, R., Howe, M. M., Dykins, M., Beussink, C. N., Khan, A., Grotkowski, K., & Miller, S. A. (2022). Statistical consulting in the healthcare professions: A model of student-led consulting services. Stat, 11(1), e498. https://doi.org/10.1002/sta4.498 Lewison, G., & Dawson, G. (1998). The effect of funding on the outputs of biomedical research. Scientometrics, 41(1–2), 17–27. https://doi.org/10.1007/ BF02457963 Mansi, A., Karam, W. N., & Chaaban, M. R. (2019). Attitudes of residents and program directors towards research in otolaryngology residency. The Annals of Otology, Rhinology, and Laryngology, 128(1), 28–35. https://doi.org/10.1177/0003489418804565 McAllister, P. R., & Narin, F. (1983). Characterization of the research papers of U.S. medical schools. Journal of the American Society for Information Science, 34(2), 123–131. https://doi.org/10.1002/asi.4630340205 McKinney, C. M., Mookherjee, S., Fihn, S. D., & Gallagher, T. H. (2019). An academic research coach: An innovative approach to increasing scholarly productivity in medicine. Journal of Hospital Medicine, 14(8), 457–461. https://doi.org/10.12788/jhm.3194 Mehta, C. C., Stedman, M. R., Rao, S. R., & Podolsky, R. (2022). Advice for isolated statisticians collaborating in academic healthcare centre settings. Stat, 11(1), e492. https://doi.org/10.1002/sta4.492 Pomann, G. M., Boulware, L. E., Chan, C., Grambow, S. C., Hanlon, A. L., Neely, M. L., Peskoe, S. B., Samsa, G., Troy, J. D., Yang, L. Z., & Thomas, S. M. (2022). Experiential learning methods for biostatistics students: A model for embedding student interns in academic health centers. Stat, 11(1), e506. https://doi.org/10.1002/sta4.506 Rahbar, M. H., Dickerson, A. S., Ahn, C., Carter, R. E., Hessabi, M., Lindsell, C. J., Nietert, P. J., Oster, R. A., Pollock, B. H., & Welty, L. J. (2017). Characteristics of biostatistics, epidemiology, and research design programs in institutions with clinical and translational science awards. Academic Medicine, 92(2), 229–236. https://doi.org/10.1097/ACM.0000000000001350 Rubio, D. M., del Junco, D. J., Bhore, R., Lindsell, C. J., Oster, R. A., Wittkowski, K. M., & Biostatistics, Epidemiology, and Research Design (BERD) Key Function Committee of the Clinical and Translational Science Awards (CTSA) Consortium. (2011). Evaluation metrics for biostatistical and epidemiological collaborations. Statistics in Medicine, 30(23), 2767–2777. https://doi.org/10.1002/sim.4184 Testa, A., Jackson, D. B., Semenza, D. C., & Vaughn, M. G. (2021). Food deserts and cardiovascular health among young adults. Public Health Nutrition, 24(1), 117–124. https://doi.org/10.1017/S1368980020001536 Tsevat, J., Lindsell, C. J., Parr, W. D., Kues, J. R., Kissela, B. M., Heubi, E. C., Flessa, J. W., & Heubi, J. E. (2014). Beyond project-focused consultation to investigator-focused consultation: The CCTST Integration Committee model. Clinical and Translational Science, 7(1), 3–5. https://doi.org/10.1111/cts. 12139 Tumin, D., Baumgarten, N., Buckman, C., Kuehn, D., & Higginson, J. D. (2022). Increasing pediatricians' scholarly productivity on and off the tenure track. The Journal of Continuing Education in the Health Professions, 42(2), 148–150. https://doi.org/10.1097/CEH.0000000000000420
+8 of 9 VASILOPOULOS and TUMIN
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Tumin, D., Buckman, C., Kuehn, D., & Higginson, J. D. (2020). Blending research support and mentorship to foster scholarly activity at a resource-limited institution. Paediatrics & Child Health, 25(8), 554–555. https://doi.org/10.1093/pch/pxaa095 Tumin, D., Khanchandani, A., Sasser, G., & Buckman, C. (2022). Factors influencing US hospital and medical school participation in pediatric COVID-19 research. Hospital Pediatrics, 12(1), e8–e15. https://doi.org/10.1542/hpeds.2021-006051 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. Jr., Lindsell, C. J., Macaluso, M., & Biostatistics, Epidemiology, and Research Design Key Function Committee of the Clinical and Translational Science Award Consortium. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine, 88(4), 454–460. https://doi.org/10.1097/ACM.0b013e31828578ed Zhang, G., & Chen, J. J. (2015). Biostatistics faculty and NIH awards at U.S. medical schools. The American Statistician, 69(1), 34–40. https://doi.org/10. 1080/00031305.2014.992959
+AUTHOR BIOGRAPHIES
+Terrie Vasilopoulos is a collaborative biostatistician and an associate professor in the Departments of Anesthesiology and Orthopaedic Sur
+gery & Sports Medicine at the University of Florida College of Medicine and serves as chief of the Department of Anesthesiology's Division
+of Education Research and Scholarship. She holds a PhD in Biobehavioral Health from the Pennsylvania State University and Graduate Statis
+tician Certification from the American Statistical Association.
+Dmitry Tumin is an associate professor in Pediatrics at the Brody School of Medicine at East Carolina University and serves as the school's
+Assistant Dean of Clinical and Educational Scholarship. He holds an MA and PhD in Sociology from the Ohio State University.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this article.
+How to cite this article: Vasilopoulos, T., & Tumin, D. (2024). Biostatistics deserts and scholarly productivity among US medical schools.
+Stat, 13(2), e693. https://doi.org/10.1002/sta4.693
+VASILOPOULOS and TUMIN 9 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.693 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

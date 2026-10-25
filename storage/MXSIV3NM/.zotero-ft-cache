@@ -1,0 +1,214 @@
+Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory of Interdisciplinary Statistical Analysis, Lahore College for Women University Lahore, Pakistan (LISA-LCWU)
+Asifa Kamal, Asma Zeb, Abeera Shakeel, and Naila Amjad
+1 Introduction/Background
+Cornfield referred to statistics as “the bedfellow of sciences,” and John Tukey stated that “the great thing about statistics is that you get to play in everyone’s backyard” (Love et al., 2017). It is undeniable that statistics is a multidisciplinary field, and collaboration between statistics and various disciplines is crucial. Recognizing the strength of statistics as a collaborative science, Dr. Eric Vance, the global director of the “The Laboratory for Interdisciplinary Statistical Analysis” (LISA, 2020) network, presented his idea of establishing 20 statistics and data science collaboration laboratories in developing countries called “stats lab.” These labs would serve as engines for development within those countries and globally by sharing good practices among the network. These stat labs organize short courses and workshops to improve statistical skills and data literacy, ultimately serving as infrastructure to support local researchers, businesses, government, and NGOs. The LISA 2020 program encourages new stat labs to create a strong foundation for their operations by building on their planning guide and by adapting best practices learned from other stat labs in the network. A modern statistical collaboration laboratory should have an interdisciplinary focus, state-of-the-art infrastructure, expertise in statistical analysis, promote research collaboration, provide education in data science, and be financially sustainable. These attributes will encourage collaboration among researchers from different fields, facilitate data-intensive research, provide consulting services, promote collaboration among researchers, develop a skilled workforce, and ensure long-term viability.
+A. Kamal ( ) · A. Zeb · A. Shakeel · N. Amjad Lahore College for Women University, Lahore, Pakistan
+© The Author(s), under exclusive license to Springer Nature Switzerland AG 2023 O. O. Awe, E. A. Vance (eds.), Sustainable Statistical and Data Science Methods and Practices, STEAM-H: Science, Technology, Engineering, Agriculture, Mathematics & Health, https://doi.org/10.1007/978-3-031-41352-0_8
+123
+
+
+ 124 A. Kamal et al.
+Mission of these stat labs is three-fold. First and foremost is to prepare future generation of statisticians and data scientists as “effective interdisciplinary collaborators” who can help policy-makers in the solution of real-world problems. Collaborator, a statistician or data scientist is “someone possessing deep technical skills in the theory and methods of statistics or data science and effective collaboration skills who can move between theory and practice to work with domain experts to create solutions to research, business and policy challenges and achieve research, business and policy goals” or in other words “who can transform evidence into action” (Vance & Pruitt, 2022). Secondly, it was clarified by arguing that collaboration is not merely statistical consultancy or advice to researcher/development actor, it is the contribution of statistician/data scientist in the final outcome beyond consultancy (Love et al., 2017). These labs facilitate researchers and decision makers to make data-driven policies that have positive impact on society. Third is the capacity building for statistical skills and widen data literacy through workshops, trainings etc. Currently this is strong global network comprised of 35 labs in 10 countries in three continents (Africa, Brazil and Asia). LISA CU Boulder is center of this network and this stats lab network is sharing good practices as collaborators with each other and promoting interdisciplinary research culture through these stat-labs. One of the most esteemed institutions in Pakistan, Lahore College for Women University has an impressive enrollment of approximately 15,000 full-time students and a teaching faculty exceeding 500 members. Lahore College for Women University, established in May 1922 as an intermediate college. The university offers admission to students at the Intermediate, Graduate, Masters, and Ph.D. levels. In 1962, Lahore College for Women added Statistics as a subject and started the first class with only three students. Two years later, in 1964, the college introduced undergraduate-level classes with just eleven students. Today, over a thousand students at intermediate, undergraduate, graduate and post-graduate levels are benefiting from the Statistics Department. The department has experienced a significant increase in the number of students opting to study statistics at both intermediate, graduate and post-graduate levels due to its diverse applications in various fields. Dr. Asifa Kamal, from the Department of Statistics at Lahore College for Women University (LCWU), was selected to attend the LISA Symposium 2019 held in Kuala Lumpur, Malaysia, under the umbrella of LISA. The symposium aimed to provide training and create networks for Collaborative Statistical Laboratories, and LCWU had the opportunity to become a part of thirty partners, with Dr. Asifa Kamal becoming a member of the LISA network. The mission of LISA-LCWU Stat Lab is to produce trained statisticians capable of serving as interdisciplinary collaborators for quantitative research. Sustainable development in any area of life needs support from Statistics and Data Science that contribute potentially to expedite data-driven development (Vance & Pruitt, 2022). Immediate example in local scenario is control of COVID-19 expo
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 125
+sure in Pakistan, resulted in micro lockdown in specific areas identified as hotspot areas (on the basis of single data base system) to update test results by government and private laboratories. Data flow generated in this way, helped in the geographical clusters of COVID-19 or hotspot areas for smart lockdown (Bajwa, 2020). The role of statistics in data-driven development is not only established in the current era; there is also historical evidence of its significance. If we only talk about public health, Statistics has played a major role in many achievements. Christy ChuangStein, Vice President and Head of Statistical Research and Consulting Center at Pfizer, and a candidate for president of the American Statistical Association in her talk at SAS, presented a list of the top great public health achievements in the 20th and 21st century and the contribution of Statistics in these accomplishments. These include routine immunization of children, declines in deaths from heart disease and stroke, safer foods, tobacco as a health hazard, workplace safety, and control of infectious diseases, healthier mothers and babies, family planning, fluoridation of drinking water, motor vehicle safety and personalized medicine. Rick Wicklin, blogger concluded that these public health advancements were not possible without the collaboration of statistics (Wicklin, 2013). The teaching mode of subject of Statistics requires the active engagement of students and this approach will result in more productive and fruitful learning (Adelodun & Awe, 2013). Statistics has not only collaborated in the improvement of public health care but also in other areas like energy to entertainment recommender system (Vance & Pruitt, 2022). There is a need for teaching the subject in early education as well as including statistical consultancy course in the curriculum in higher education (Olawale, 2012). Due to the nature of this collaborative subject, well-trained staff at all levels is the need of hour (Awe & Vance, 2014). Other issue that enforces collaboration of statisticians with other domain experts is poor quality in the reporting and performance of statistical analyses in researches. It is very common and not restricted to journals with low impact factors. Poorquality statistical analysis is even observed in journals with high impact factor (Norström, 2015). For more than three decades, methodological problems have been identified and despite attempts to address them, progress has fallen short of expectations (Norström, 2015). Moreover “A meta-analysis of 100 peer-reviewed journal articles that performed secondary analysis of data from nationally representative surveys with complex sample designs found 1100 instances in which analytic errors may have occurred, and in 616 instances, these errors were likely present. Of the articles reviewed, 28% did not mention weighting data, 40% did not mention accounting for complex sample design to properly estimate variance, 59% used improper language when discussing results in the text (e.g. estimates generalized to the “sample” as opposed to the “population”), and 79% did not use proper significance testing” (Ward, 2018). It necessitates for researchers to contact statisticians or data science experts for accurate statistical analysis and its reporting.
+
+
+ 126 A. Kamal et al.
+Table 1 Performance of LISA-LCWU Pre-Sustainability Experiment
+Activity Number of events Number of participants
+Research projects in collaborations with other disciplines
+6
+Joint projects with LISA labs 4 Workshops 14 662 Grants 2 Seminars/webinars 2 + 1 134 + 2 K views Poster competition 1 53
+1.1 Laboratory of Interdisciplinary Statistical Analysis-Lahore College for Women University (LISA-LCWU)
+LISA-LCWU became transitional member on 12th February, 2020 with particular focus on the capacity building and training the future generation of women statisticians. Vision and mission of LISA-LCWU is in alignment of LISA 2020 vision and mission. LISA-LCWU was granted membership of LISA 2020 network on 20th May, 2020 and it was 15th lab in line that got full membership. Performance of LISA-LWU before sustainability experiment is given in (Table 1). LISA-LCWU got two grants for trainings and workshops ($1964 + $900) from International Statistical Institute (ISI) and World Bank (TFSCB) through LISA UCB. LISA-LCWU has organized 14 workshops and 2 seminars before sustainability experiment (Table 1). The satisfaction level reported through feedback received from the participants was much encouraging to make the LISA-LCWU sustainable. Majority reported either satisfied or very satisfied (Figs. 1 and 2). In addition, LISA-LCWU has organized one international webinar and one statistical data analysis consultancy event. It has also organized poster competition titled “Let the Data Speak” in collaboration with the Office of Research Innovations and Commercialization (ORIC), LCWU and 53 participants from LCWU presented their research work. Faculty of Statistics department, LCWU are providing their services to LISA-LCWU voluntarily as a resource person for trainings and collaborations.
+2 Big Question! Is LISA-LCWU on Sustainable Path?
+LISA-LCWU has no budgetary head or any financial support from the university. The coordinator of LISA-LCWU is working voluntarily for all activities carried under it which is an additional burden along with her regular duties. In such a scenario it cannot be claimed that LISA-LCWU is on a strong and sustainable path. The lab is in a struggling position to enter into a strong sustainable process.
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 127
+Fig. 1 Overall Level of Satisfaction Reported by Participants about Workshops (8) Organized by LISA-LCWU
+Fig. 2 Satisfaction Level on the Different Dimensions of Assessment as Reported in the Feedback of Participants for Workshops (8) Organized by LISA-LCWU
+
+
+ 128 A. Kamal et al.
+2.1 Identification of Sustainability Problem of LISA-LCWU
+Following two major challenges have been identified regarding sustainability of LISA-LCWU.
+Challenge 1: Gap Between Domain Experts and Collaborators
+LISA-LCWU has observed good participation from the university during its trainings, workshops, and other activities. However, there is a need to extend this participation beyond the boundaries of LCWU. Research students pursuing their Master’s and Ph.D. degrees and faculty members from other disciplines who are involved in research have not contacted LISA-LCWU as much as expected. Additionally, collaboration has been difficult as LISA-LCWU has not received any funded projects thus far. To overcome these challenges, there is a need to attract domain experts and build trust by showcasing the strengths and achievements.
+Challenge 2: Demotivation of Collaborators
+• Workload not Counted
+It is very difficult to convince university to generate permanent post or reduce the workload of person who is managing lab due to budgetary problems. University authorities also not agreed to account collaboration workload in the regular workload. Even some domain experts are not willing to give credit to collaborators as co-authorship. Since collaborators are faculty members of Statistics department so they are not willing to take up extra workload. Also, students of Statistics department have not enough skills to collaborate in isolation with domain expert without mentorship of faculty.
+• Monetary Benefits are not Associated with LISA Collaborators and Trainers
+Collaborators from Statistics department found it difficult to manage collaboration activities along with their regular university duties. There was not any incentive except certificate of appreciation to motivate them to participate in collaborations and trainings on regular basis and it is not enough for motivation.
+2.2 Strengths of LISA-LCWU: Pre-sustainability Experiments
+• Clear Mission and Objectives of LISA-LCWU: Heart • Faculty of Statistics department: Backbone/Head/Brain of LISA-LCWU • Students of BS and MS Statistics: Muscles of LISA-LCWU • Computer lab of Statistics department • Coordinator of LISA-LCWU, who is now also the Chairperson of Statistics department: Effective Personnel • Maintenance of Quarterly Metrics to have a record of impacts and outcomes: Skin
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 129
+2.3 Weaknesses of LISA-LCWU: Pre-sustainability Experiments
+• There is not any separate permanent position of LISA-LCWU coordinator. Coordinator is faculty member of Statistics department and her regular assignments are teaching, research and other many administrative duties being Chairperson. Before joining as chairperson, she was sole member organizing activities, maintain records, funds auditing etc. with the help of MS Statistics students. • Another weakness is related to funds that is equally important as blood for survival of human body. There is no financial support from university so activities (Workshops) in the past were conducted with the help of financial support from ISI or by charging nominal fee in the few workshops. • LISA-LCWU has no separate office where meetings with domain experts can be conducted.
+3 Methodology: Sustainability Experiments of LISA-LCWU
+Strategies to make LISA-LCWU sustainable are devised by keeping in view the local situation and seeking help from LISA 2020 network sustainability assessment document shared by global director LISA 2020 network and also reading success stories of labs in the article titled “Statistics and Data Science Collaboration Laboratories: Engines for Development” (Love et al., 2017). Multiple strategies (experiments) have been implemented to put LISA-LCWU on the sustainable path. Some were already used on limited scale and tried to extend and reinforce those on large scale. Timeline for experiment was from first January, 2022 to 30th September 2022.
+3.1 Increase Visibility
+It is the era of publicity and social networking so this strategy is given priority in the sustainability experiment to attract potential collaborators, to assist domain experts and also domain experts to bring their projects for data analysis. As Vance highlighted in his address at the 62nd World Statistics Congress of the International Statistical Institute, this is part of communication strategy and just as crucial as legs in the human body (Love et al., 2017). The following initiatives have been taken in this regard.
+Webpage
+Additionally, a great step was to generate the website page (https://www.lcwu.edu. pk/stat-lisa-lcwu.html) of LISA-LCWU on the LCWU website to enhance visibility. Five tabs are added at LISA-LCWU webpage that display LISA-LCWU, Mis
+
+
+ 130 A. Kamal et al.
+sion/Vision, E-Newsletter Links: LISA-2020, LISA-LCWU Activities and Team Members. Details of events with pictures is put under the tab LISA-LCWU activities.
+WhatsApp Groups
+LISA-LCWU was already publicizing its activities by sharing flyers in the university’s official WhatsApp group. It extended by including groups outside the university like WhatsApp groups of Islamic Society of Statistical Sciences (ISOSS), Ravians Statistics Department (GCU Lahore) alumni group and other known personnel of Statistics community in Pakistan.
+E-Newsletter
+Permission for bi-annual E-Newsletter of Statistics department has been taken from Vice Chancellor, LCWU, in which activities of LISA-LCWU will be given substantial space. Permission has been granted in the end of January, 2022 so 1st E-newsletter has been launched in August, 2022 and shared extensively within and outside the university. It may attract more domain experts by sharing success stories of LISA-LCWU and help to reduce trust deficit between domain expert and collaborators. https://www.lcwu.edu.pk/images/2022/downloads/STATISTICSENEWS LETTER.pdf
+3.2 Allocation of Necessary Infrastructure
+LISA-LCWU has been allocated a room that serves as its office. The office is equipped with a nameplate that is placed outside the room. Additionally, volunteers are instructed to spend some time in the office. This has had a positive impact on the recognition and image of LISA-LCWU. It provides a platform that makes it easier for collaborators to access the organization’s office. This accessibility to the office creates more opportunities for networking and collaboration.
+3.3 Reduce Work Burden by Sharing Workload
+To alleviate the burden of the lab coordinator and expand activities, it is imperative to involve more students and faculty members as collaborators. At first, in 2020 and 2021, the lab coordinator had to initiate collaborations by herself since no faculty member was willing to take on additional workload. However, the coordinator then began involving other members from the Statistics department, not only to share responsibilities but also to train collaborators to ensure the sustainability of the lab. For the sustainability experiment, undergraduate and graduate students were motivated and now the team has grown to include 17 members.
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 131
+3.4 Funds Generation for Self-Reliance
+Funds are needed to provide nominal payments as tokens of recognition, along with certificates, to members of the LISA-LCWU team, resource persons for workshops, and those offering data analysis consultancy. Additionally, funds are essential for organizing events, as they play a vital role, much like blood in the human body. The government and educational stakeholders ought to allocate funds to create institutes or programs for statistics education in Nigeria (Adelodun & Awe, 2013). Following sources were proposed to get monetary self-reliance.
+Token Fee for Workshops Participants
+LISA-LCWU submitted an application to charge a fee for their one-week workshop, which was proposed to be 2 USD for statistics students and 5 USD for others. However, the competent authority has not yet approved the fee charging proposal. This fee charging strategy is considered to be a significant measure that can contribute to the sustainability of LISA-LCWU.
+Applying for Grants
+Funded projects not only provide strong foundation but also can be a key for sustainability of stat labs. Projects are helpful in the capacity building by solving real life data challenges and it is the best strategy for the training the junior statisticians and students (Love et al., 2017). If projects are funded, share in funds as a compensation of time and resources to senior faculty acting as mentor, students as collaborators and future collaborators as trainee can be used as motivation (Love et al., 2017).
+Nominal Fee from Domain Experts for Collaboration on Projects
+Co-authorship is great tool as substitute of monetary benefits for data analysis consultancy and it has been adopted. Charging a nominal fee to domain expert, for data analysis consultancy has not been approved by competent authority. It may demotivate the collaborators who spend a lot of time for solution without monetary benefits. Due to non-approval of charging fee for collaboration from higher authorities of university, webpage about collaboration has not been generated.
+Data Analysis Consultancy Desk (An Alternative Strategy to Train Collaborators)
+In the absence of monetary benefits, an alternative strategy was employed to facilitate collaboration projects and train collaborators. This involved organizing a two-day activity called the “Data Analysis Consultancy Desk” within the Statistics department. Under the supervision of the faculty of the Statistics department at LCWU, graduate and undergraduate students in the Statistics program collaborated with domain experts who registered for the activity. Even though the activity was only 2 days long, all mentors (faculty members of the Statistics department) and collaborators (students pursuing Bachelor’s and Master’s degrees in Statistics) provided free data analysis advice to 38 domain experts in a professional manner.
+
+
+ 132 A. Kamal et al.
+3.5 LoI with University of Colorado Boulder and Lahore College for Women University, Lahore
+The Department of Statistics at LCWU, Pakistan, and the Department of Applied Mathematics at CU Boulder, USA, have signed a Letter of Intent (LoI), which outlines the collaboration on LISA activities. This LoI is a legal document that strengthens the sustainability of LISA-LCWU by formalizing the collaboration between the two departments. As part of this collaboration, LISA 2020 at CU Boulder will provide guidance on the sustainability of LISA-LCWU, ensuring that it remains a vibrant and impactful laboratory for interdisciplinary statistical analysis.
+4 Parameters to Quantify Success of Sustainability Experiments
+Following parameters are used to quantify the success.
+• Number of future collaborators trained • Number of trainings organized • Number of participants in free workshops • Number of participants in paid workshops • Number of grants received • Number of collaborations with other departments to organize activities. • Number of statistical consultancy projects taken. • Number of funded research projects
+5 Results of Sustainability Experiments
+After concluding the sustainability experiments, the following results were obtained.
+• Number of collaborators trained (45) • Number of trainings/workshops/seminar (9) • Number of participants in paid workshops. Only one workshop was offered with nominal fee of approximately 2 USD from students and faculty of Statistics department and 5 USD from participants from other departments for 5 days workshop (2 h per day). However, due to the non-approval of the fee charging application, subsequent workshops were not charged. The high number of participants in the workshop demonstrates that participants were willing to pay the nominal fee (46) • Number of participants free workshops (234)
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 133
+• Data Analysis Consultancy on Funded Project. (assistance as data analysis consultant on WHO project on MDRTB as co-principal investigator/Statistician) • Data consultancy projects entertained (55) • Made a part of National Institute of Health (NIH)/ China Pakistan Economic Corridor (CPEC) project in which nomination has been done as co-principal investigator from LISA-LCWU as a Statistician. Approval of project will be helpful in attracting domain experts from other institutions and gradually in getting paid projects. • Membership of IRB of Shaikh Zayed Post Graduate Medical Institute, Lahore (SZPGMI), Pakistan as statistical expert has been offered to coordinator. The role is to evaluate and give advice in sample selection and proposed data analysis techniques in medical related research projects. Many avenues of collaborations have further been under discussion.
+6 How Experiments Addressed the Challenges of Sustainability of LISA-LCWU?
+Challenge 1
+The extensive publicity strategy that was implemented played a vital role in establishing the reputation of LISA-LCWU and increasing its visibility. The improvement of the website’s content and the allocation of a furnished office with the LISA-LCWU nameplate helped to authenticate the organization’s affiliation with the university. This, in turn, helped to build trust between LISA-LCWU’s collaborators and domain experts.
+Challenge 2
+• Workload of managing LISA-LCWU has been distributed by engaging more members. It resulted in success i.e., increase in quarterly activities of LISALCWU. • Offering of monetary incentives to attract collaborators and resource person, are not done due to non-approval from competent authorities.
+7 Outcomes: Evaluation of the Success of Sustainability Experiments
+It can be observed from the table given below that the number of collaborators, workshops’ participants, number of workshops and number of projects are increased in the experiment timeline, indicating strength of sustainability of LISA-LCWU (Table 2).
+
+
+ 134 A. Kamal et al.
+Table 2 Quarterly Data Metrics of LISA-LCWU Activities
+Year Quarter
+No. of trainers/ collaborators
+Workshop participants
+No. of workshops/seminars No. of projects
+2020 2 2 47 1 0 2020 3 2 36 1 0 2020 4 0 90 3 0 2021 1 2 79 2 0 2021 2 3 37 1 7 2021 3 7 107 2 0 2021 4 12 226 6 0 2022 1 31 174 4 39 2022 2 25 52 5 6 2022 3 25 54 3 16
+Fig. 3 Future Demand of Workshops on Statistical Computing based on Feedback of Workshops Organized by LISA-LCWU
+The feedback provided by the participants requesting workshops on various software indicates the success of LISA-LCWU (Fig. 3). This feedback is in line with the findings of the survey, which showed that around 78% of respondents expressed their interest in receiving training on statistical software (Awe & Vance, 2014). The following offers have been received due to effect of publicity:
+• Coordinator is added in NIH research project as Statistical expert/collaborator. • Become a part of project on MDRTB of Sheikh Zayed Postgraduate Medical Institute (SZPGMI).
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 135
+7.1 Expected Outcomes of Experiments
+The number of workshop participants increased after effective publicity of LISALCWU. This increase in participation facilitated the opportunity for more individuals to learn valuable data analysis skills. Furthermore, the increased publicity also served as an effective tool to convince domain experts of the value LISALCWU could bring to their research. The engagement of additional collaborators allowed for the first-time to organize the statistical data analysis consultancy desk, in which data analysis problems of 38 domain experts were addressed within a limited timeframe. Additionally, LISA-LCWU was invited to set up a Statistical Data Analysis Consultancy Desk at Research-Fest 2022 organized by a medical institute, and LISA-Internees worked on 15 projects. The involvement of more collaborators also shared the workload of LISA-LCWU coordinators and expanded the activities of LISA-LCWU. This expansion provided the opportunity to train additional collaborators and make the cycle of the stat-lab sustainable. Although LISA-LCWU applied for approval to charge a fee for workshops, it has not been approved by the competent authority yet. However, the allocation of a room for an office has given LISA-LCWU independent recognition. Additionally, the signing of the Letter of Intent (LoI) between the Department of Statistics LCWU, Pakistan, and the Department of Applied Mathematics, CU Boulder, USA, strengthens the connection of LISA-LCWU with LISA, University of Colorado Boulder. This connection can be helpful for future joint ventures that support the sustainability of LISA-LCWU.
+7.2 Unexpected Outcomes of Experiments
+Non-approval of fee charging was unforeseen. When applied for approval of fee charging from university authorities, they thought it is leading towards commercialization. Response of relevant departments involved in approval was quite unexpected.
+8 Lessons Learnt from Sustainability Experiment
+The following are the key takeaways from the sustainability experiment:
+• It is important to consistently prioritize publicity by enhancing the quality of the website and updating it frequently, as well as extensively sharing E-Newsletters. • Members of LISA-LCWU should be assigned responsibilities to attend domain experts in the office.
+
+
+ 136 A. Kamal et al.
+• Capable graduate and post-graduate students from the Statistics department should be regularly recruited to assist in conducting lab activities.
+9 Post Experiment: Strengths and Weaknesses of LISA-LCWU
+Following strengths and weaknesses of LISA-LCWU have been observed after sustainability experiments.
+9.1 Strengths
+After conducting the experiment, the following three enhancements have been made to the previously described strengths of LISA-LCWU:
+• Allocation of a furnished office space with a nameplate of LISA-LCWU outside: This means that the university now has a designated office space which is equipped with necessary furniture, and a nameplate is placed outside to indicate that it is the official office of LISA-LCWU. • Engagement of more students pursuing Bachelor’s and Master’s degrees in Statistics as volunteers to provide assistance: This indicates that the lab is now involving more students from Statistics programs to work as volunteers for LISALCWU. • Substantial sharing of workload of the LISA-LCWU coordinator due to the involvement of other members: This means that other members of LISA-LCWU are now taking on more responsibilities to share the workload of the coordinator, making it easier to manage and achieve lab’s goals.
+9.2 Weaknesses
+The major obstacle that LISA-LCWU is currently facing is the shortage of financial resources. Despite having made significant strides in expanding its activities and collaborations, the lack of funds has hindered the stats lab’s ability to sustain its efforts and reach its full potential. This constraint has restricted the implementation of critical projects that require funding, which could help LISA-LCWU to expand its activities, acquire new equipment, and hire more staff. Despite this limitation, LISALCWU has been able to develop strategies to overcome this hurdle, such as applying for grants and seeking support from potential partners. By securing funding, LISALCWU can continue to expand its activities, enhance its sustainability, and offer its services to a wider range of individuals and organizations.
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 137
+10 Conclusion
+The establishment of a webpage, a proper office, an increased number of collaborators, and the signing of a LoI with CU Boulder, USA, and LCWU have placed LISA-LCWU on a sustainable path by establishing a positive reputation within the institute and by sharing the workload. However, the biggest hurdle for LISA-LCWU is the lack of funds, which is hindering its consistency in progress. Therefore, LISALCWU needs to generate funds for self-reliance to maintain its sustainable path.
+11 Future Recommendations/Strategies to Make LISA-LCWU Stronger and more Sustainable
+LISA-LCWU needs blood (financial support/ budget from university or funded projects) for its survival. Following strategies have been planned for fund generation.
+• Need assessment survey has been conducted to strengthen the case of approval for token fee charging to domain experts/researchers who want to collaborate with LISA-LCWU or to those who attend workshops/trainings organized by LISA-LCWU. Findings of these survey can provide supportive data-based evidence for the need and sustainability of LISA-LCWU to share with higher authorities of university (Appendix 1 and 2). • Internship at LISA-LCWU: Devise some strategies to engage students of Statistics department within and outside LCWU to do their internship at LISA-LCWU. • To get approval to include course on collaboration as a part of curriculum of degree in statistics at graduate and post graduate level. A course on statistical collaboration of three credit hours will be co-opted from LISA, University of Colorado Boulder, USA. Under this course, BS Statistics student should collaborate on one LISA-LCWU project and MS Statistics student should have to collaborate on two LISA-LCWU projects. These projects will be part of evaluation of these courses.
+Appendix 1
+Questionnaire on Need of Statistical Data Analysis Consultancy
+1. Name: ________________________________(Optional) 2. Department:____________________________________
+
+
+ 138 A. Kamal et al.
+3. Faculty
+• Science and Technology • Arts and Social Sciences • Islamic and Oriental Learning • Management and Administrative Sciences • Engineering and Technology • Education • Pharmaceutical and Allied Health Sciences
+4. Designation
+• Faculty • Student
+5. Monthly Income:____________________________________ 6. Type of research/thesis
+• Graduate • Post Graduate • Ph.D. • Journal Article • Research Project
+7. Title of Research? ______________________________________ 8. Have you studied Statistics course at any level?
+• Yes • No
+9. Can you do appropriate Statistical analysis for your research?
+Never Seldom Sometimes Frequently Always
+10. Have you consulted anyone for Statistical data analysis previously?
+Never Seldom Sometimes Frequently Always
+11. Do you need Statistical data analysis consultancy for research?
+Never Seldom Sometimes Frequently Always
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 139
+12. Have you attained Consultancy Services?
+• Within University • Outside University • Free-lancing/Online • No
+13. How much amount have you paid for previous consultancy services?: ___________ 14. If you need Statistical data analysis consultancy, what are you expecting?
+• Consultant perform analysis for you • Consultant teach you how to perform the analysis
+15. At which stage do you need Statistical data analysis consultancy? (You may select more than one)
+• Experimental plan, design and execution • Hypothesis formulation and specification • Analysis and interpretation and inference.
+16. Which statistical method or topic did your expected consulting inquiry relate to? (May select more than one)
+• Contingency tables/Association Testing • Non-parametric tests (e.g., Mann-Whitney U test, Wilcoxon test, Friedman ANOVA) • Correlation/partial correlation/Linear regression • Testing of Hypothesis (t-test, Analysis of variance (ANOVA with/without repeated measurements, ANCOVA, MANOVA) • Classical test theory/item analysis/reliability/MTMM • Factor analysis • Path modeling/Structural Equation Modeling (SEM) • Cluster analysis • Discriminant analysis • Data management • Other: __________________________________________
+17. Which software you like for Statistical data analysis?
+• SPSS • Minitab • Eviews • PRISM • STATA • R software • Any other: _________________
+18. How much time have you allocated for data analysis part of your research?
+• Two Weeks • One Month
+
+
+ 140 A. Kamal et al.
+• Two Months • Six Months
+19. For which problem/area you want to receive advice/consultancy?
+• Is a specific method appropriate? • Selection of the correct analysis procedure (e.g., selection of predictors in regression, coding of nominal predictors, decisions about aggregating or transforming variables) • Interpretation of results • Model specification/model selection • Testing assumptions • Dealing with violated assumptions • Handling missing values • Multiple comparisons • Model estimation issues • Specific Problem with statistical software (e.g., error message in R, installation of R packages, SPSS Syntax) • Other: _____________________________________________
+20. What competence from Statistical data analysis consultant you are expecting?
+• A good scientific (biology, physics, chemistry, agriculture) background • A general attitude and manner toward technical people.
+21. Do you want to get data analysis services on the basis of credit to consultant?
+• Cash payment • Co-authorship • Both (Cash payment and Co-Authorship)
+22. Do you want Statistical data analysis center at LCWU
+• Yes • No
+23. Do you want that Statistical data analysis center provide trainings on statistical literacy/education?
+• Yes • No
+24. Which Software you want to learn for Statistical data analysis?
+• SPSS • Minitab • Eviews • PRISM • STATA • R software • Any other
+
+
+ Strategies for the Sustainability of Stat Labs: A Case Study of Laboratory. . . 141
+Appendix 2
+Preliminary Results Based on Need Assessment Survey of Statistical Data Analysis Consultancy Center
+During the sustainability experiment, survey was conducted to assess the need of statistical data analysis consultancy center in the university premises. Data is collected from those students and faculty members who visited department to attend the event (Data Analysis Consultancy Desk) that was organized by LISA-LCWU in March, 2022 as a part of sustainability experiment. Total sample comprised of 138 respondents, including 43.5% teaching faculty members and 56.5% students. Majority of respondents (93.5%) are found in favor of having statistical data analysis consultancy center (stat lab). It has been observed that respondents enrolled in different programs wants specific forum/platform like stat labs that can facilitates them to address the different issues they face in handling the data and drawing conclusions (Fig. 4). Considerable majority of the researchers wants the consultant to teach them how to perform statistical analysis. Most popular software, domain experts mentioned to use for data analysis is SPSS. It has been also observed that respondents are willing to give due credit to collaborator in the form of co-authorship and cash payments (Fig. 4; Table 3). Respondents (18.3%) need guidance from the collaborators in the selection of appropriate statistical method according to their research objectives. Majority of researchers (24.7%) mentioned that they need help in the interpretations of results obtained after application of statistical techniques.
+Fig. 4 Findings of Different Dimensions of Need Assessment Survey for Statistical Data Analysis Centre
+
+
+ 142 A. Kamal et al.
+Table 3 Statistical Techniques, Domain Experts Mentioned to Seek Advice/Collaboration from Stat Labs
+Problems discussion techniques Responses percentages
+Is a specific method appropriate? 5.1% Selection of the correct analysis procedure 18.3% Interpretation of results 24.7% Model specification/model selection 7.2% Testing assumptions 7.7% Dealing with violated assumptions 3.4% Handling missing values 6.0% Multiple comparison 11.1% Model estimation issues 4.7% Specific problem with statistical software 11.1% Any other area 0.9%
+References
+Adelodun, O. A., & Awe, O. O. (2013). Statistics education in Nigeria: A recent survey. Journal of Education and Practice, 4(11).
+Awe, O. O., & Vance, E. A. (2014, July). Statistics education, collaborative research, and LISA 2020: A view from Nigeria. In In sustainability in statistics education. Proceedings of the Ninth International Conference on Teaching Statistics (ICOTS9) (pp. 3–4). Bajwa, A. (2020). Defying the odds: Pakistan’s coronavirus story. Health Express. https:// www.orfonline.org/expert-speak/defying-odds-pakistan-coronavirus-story/ Love, K., Vance, E. A., Harrell, F. E., Jr., Johnson, D. E., Kutner, M. H., Snee, R. D., & Zahn, D. (2017). Developing a career in the practice of statistics: The Mentor’s perspective. The American Statistician, 71(1), 38–46. https://doi.org/10.1080/00031305.2016.1255257 Norström, F. (2015). Poor quality in the reporting and use of statistical methods in public healththe case of unemployment and health. Archives of Public Health, 73(1), 1–10. https://doi.org/ 10.1186/s13690-015-0096-6 Olawale, A. O. (2012). Fostering the practice and teaching of statistical consulting among young statisticians in Africa. Journal of Education and Practice, 3(3).
+Vance, E. A., & Pruitt, T. R. (2022). Statistics and data science collaboration laboratories: Engines for development. In Promoting statistical practice and collaboration in developing countries (pp. 3–26). Chapman and Hall/CRC. Ward, B. W. (2018). Analytic errors in analysis of public health survey data are avoidable. Preventing Chronic Disease, 15. https://doi.org/10.5888/pcd15.170426
+Wicklin, R. (2013). The role of statistics in the top public health achievements of the 20th century. Retrieved from https://blogs.sas.com/content/iml/2013/04/15/top-public-healthachievements.html

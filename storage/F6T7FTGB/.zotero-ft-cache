@@ -1,0 +1,269 @@
+SPECIAL ISSUE ARTICLE
+Documenting and communicating the contributions of
+embedded statisticians: Show me the value!
+Terrie Vasilopoulos 1,2 | Amy Crisp 3 | Gerard Garvan3 | Keith Howell 1 |
+Gregory Janelle 1,4 | Cynthia Garvan 1
+1Department of Anesthesiology, College of Medicine, University of Florida, Gainesville, Florida, USA
+2Department of Orthopaedic Surgery and Sports Medicine, College of Medicine, University of Florida, Gainesville, Florida, USA
+3Center for Data Solutions, College of Medicine, University of Florida–Jacksonville, Jacksonville, Florida, USA
+4Department of Surgery, College of Medicine, University of Florida, Gainesville, Florida, USA
+Correspondence
+Terrie Vasilopoulos, Department of Anesthesiology, College of Medicine, University of Florida, Gainesville, FL, USA. Email: tvasilopoulos@anest.ufl.edu
+Academic research productivity relies upon the contribution of statisticians, who are
+typically clustered in statistics and biostatistics departments, isolated from clinical
+researchers. Most academic health centres have created consultation hubs or
+research incubators to make statisticians available for individual collaboration to sup
+port the clinical research enterprise. Additionally, some clinical departments within
+academic health centres have recognized the value in colocating statisticians within
+their clinical departments to improve availability for collaboration with physicians/
+researchers. Embedded statisticians encounter the same challenges of isolated statis
+ticians regarding professional support and networking, mentorship and clear role
+expectations. While for all collaborative statisticians, it is important to effectively
+communicate value to both collaborators and supervisors, this may be especially
+problematic for embedded statisticians in clinical departments where their supervi
+sors may not have backgrounds in research or statistics. Previous papers have
+reported valuable metrics for statisticians, particularly those associated with Biosta
+tistics, Epidemiology and Research Design Cores. There is a knowledge gap regarding
+metrics tailored to meet the needs of the embedded statistician and clinical supervi
+sors. This paper is a first step towards addressing this important need.
+In this paper, we explore (1) the critical role of collaborative statisticians and the ben
+efits and challenges of the embedded statistician model, (2) the need for additional
+metrics specific to embedded statisticians which measure value and (3) how to design
+a value report. We offer a framework for evaluation of the contributions of the
+embedded statistician with the following domains: (1) collaboration, (2) research out
+put/productivity, (3) mentoring and (4) education. Metrics that are particularly spe
+cific to embedded statisticians and that are not routinely captured include time from
+project initiation to completion/outcome, time from initial statistical consultation to
+statistical outcome completion and summary of level of contribution for manuscripts
+and presentations in addition to author order. We conclude with thoughts on future
+directions for development of metrics and reporting systems for statisticians embed
+ded in clinical departments.
+Received: 27 March 2024 Revised: 22 April 2024 Accepted: 26 April 2024
+DOI: 10.1002/sta4.691
+Stat. 2024;13:e691. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 7 https://doi.org/10.1002/sta4.691
+
+
+1 | INTRODUCTION
+Collaborative statisticians are integrated into academic research in a number of different ways. Many statistics and biostatistics departments
+within universities have found success creating a “consulting hub” that offers broad services to those requesting them. Some faculty within those
+departments also grow to be subject matter experts in other domains through long-term collaborations with outside researchers. There are also
+other collaborative statisticians who operate entirely outside of mathematical or statistical departments but who are still within the broader aca
+demic structure. Within the group of collaborative statisticians, there exist isolated statisticians (Figure 1), those outside structured statistics
+related departments or statistical consulting hubs. Isolated statisticians face many challenges in terms of professional support and networking,
+mentorship and clear role expectations (Mehta et al., 2022). It is worthwhile to note that “isolated” is a relative term. A small consulting unit with
+one master's level analyst and one Ph.D. level statistician could easily be argued to contain two isolated statisticians.
+Embedded statisticians (Figure 1) are isolated statisticians who are employed by other domain-specific departments where there is a suffi
+cient volume of research being performed to justify an in-house statistician or analyst. In academic health centres, 18% of statisticians reported
+primary appointments in clinical departments rather than biostatistics or statistics/data science departments (Hanlon et al., 2022). There are both
+advantages and disadvantages for statisticians to be embedded in a clinical department (Spratt et al., 2017). One key advantage is the close inter
+actions and long-term collaborations that can develop between embedded statisticians and clinical domain experts (Spratt et al., 2017). From
+these collaborations, embedded statisticians can find tremendous professional fulfilment, with projects related to improving patient care and clini
+cal outcomes (Spratt et al., 2017).
+However, embedded statisticians encounter the same challenges of isolated statisticians regarding professional support and networking, men
+torship and clear role expectations (Mehta et al., 2022). Moreover, embedded statisticians are burdened by the requirement to communicate their
+needs, expectations and values to supervisors who are not statisticians and sometimes are also not researchers, within the structure and policies
+of their home clinical department; departmental-specific policies and structure can have a significant influence upon embedded statisticians' suc
+cess and promotion (Spratt et al., 2017). These burdens are experienced by faculty and staff at every degree level. The metrics that have been pre
+viously proposed for collaborative statisticians often assume that the same language is being spoken between the statistician and supervisor
+(Griffith et al., 2022; Hanlon et al., 2022; Rubio et al., 2011) and may not encapsulate the activities performed by an embedded statistician. Thus,
+there is a knowledge gap regarding metrics tailored to meet the needs of the embedded statistician and clinical supervisor. In this paper, we will
+review the contributions of collaborative statistics, and embedded statisticians in particular, to the entire research enterprise; discuss perception
+of value by statisticians; outline metrics needed for embedded statisticians to communicate their value; and finally, provide examples on how
+embedded statistics can create value reports to share with their supervisors. Specifically, we will explore (1) the critical role of collaborative statis
+ticians and the benefits and challenges of the embedded statistician model, (2) the need for additional metrics specific to embedded statisticians
+which measure value and (3) how to design a value report. We will conclude with thoughts on future directions for development of metrics and
+reporting systems for statisticians embedded in clinical departments.
+F I G U R E 1 Relationships among collaborative, isolated and embedded statisticians.
+2 of 7 VASILOPOULOS ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.691 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+2 | CRITICAL ROLE OF COLLABORATIVE STATISTICIANS AND BENEFITS AND CHALLENGES OF THE EMBEDDED STATISTICIAN MODEL
+For those trained in statistics and data science, there is an appreciation for the roles that statisticians play in every step in the entire investigative
+cycle from stating the research question, to trial design, data cleaning, performing the analyses and final interpretations of the results, all of which
+benefit from a trained analyst (Wild & Pfannkuch, 1999). These diverse roles necessitate that collaborative statisticians perform activities that
+cover a broad spectrum, with these activities varying across level of need and complexity of projects (Griffith et al., 2022). In clinical departments,
+the amount of research training and experience that clinicians have can vary from fairly modest to rather extensive and can depend on the spe
+cialty. An advantage for clinical departments with embedded statisticians is being able to have statistical input early and throughout projects. This
+early and in-depth involvement in projects can improve rigour, reproducibility and data integrity. Furthermore, embedded statisticians gain in
+depth knowledge of their domain-specific field and can bridge gaps between clinical and statistical perspectives (Mehta et al., 2022). Greater con
+tent knowledge then allows embedded statisticians to not only construct more informed statistical models but also interpret results and better
+communicate findings to clinical audiences. Unfortunately, in other domains, there is the persistent idea that collaborative statisticians are simply
+data analysts and that the job begins after the data have been collected and ends when a p-value is delivered. When this is the case, how does
+one show that the large spans of time spent on tasks that seem ancillary are not only necessary but valuable?
+3 | EXISTING MODELS FOR VALUE METRICS AND DOCUMENTATION
+Previous publications have outlined guidelines and metrics to best document the work and value of collaborative statisticians (Griffith et al., 2022;
+Hanlon et al., 2022; Mazumdar et al., 2015; Rubio et al., 2011; Sharp et al., 2016; Spratt et al., 2017). A key component of these guidelines is the
+emphasis on the value of contributions by collaborative statisticians across multiple domains. While collaborative statisticians most recognizably
+contribute to the analysis and application of statistical methods, they also make substantial and impactful contributions to study design and imple
+mentation, manuscript/presentation/grant preparation, teaching and mentoring and service. Another critical component introduced in the Rubio
+et al. (2011) and Mazumdar et al. (2015) papers is the estimation of degree of involvement/effort related to activities. Rubio et al. (2011) advo
+cated for the use of an ordinal metric (small, medium and large) that relates to the hours of effort required for a project (<10, 10–50 and 50+ h,
+respectively). In the Mazumdar et al. (2015) paper, they developed a framework to assess the scientific contributions of the collaborative biostatis
+ticians, classifying contributions as minor, medium or major; their paper gives example of activities that would align with these different classifica
+tions. This type of effort appraisal will not only give better context to the contributions of embedded statisticians but would also give their clinical
+supervisors and administrators a metric to evaluate workload and effort distribution.
+4 | METRICS FOR EMBEDDED STATISTICIANS
+While many metrics for collaborative statisticians apply to embedded statisticians, statisticians embedded in clinical departments also have unique
+evaluation needs. Spratt et al. (2017) noted that the working environment in clinical departments differs from that of a statistics or biostatistics
+department in that patient care is, rightly so, the priority. Overall, the ability of embedded statisticians to contribute to scholarly activity is highly
+dependent on the schedules and priorities of their clinical collaborators, meaning that scholarly productivity for embedded statisticians can be more
+affected by opportunity than their skills as a collaborative statistician. The primacy of patient care can slow the research process and, in turn, the
+rate of publications for a collaborative statistician. Furthermore, the emphasis on writing and attaining grant funding for clinical faculty is lower,
+especially if they themselves are not on a tenure track. However, the focus on patient care also provides an opportunity for embedded statisticians
+to demonstrate their value by showing how their contributions to clinical projects have improved health outcomes and hospital processes.
+Additionally, teaching opportunities and responsibilities for statisticians embedded in clinical departments can vary and be irregular. In clinical
+departments, there is more emphasis on one-on-one interactions compared with teaching in more formal courses (Spratt et al., 2017). Likewise,
+many clinical departments do not have affiliated graduate degree programmes, with mentoring activities focusing on medical students, residents,
+fellows and other faculty (Spratt et al., 2017). If more formal teaching and graduate committee work is desired by an embedded statistician, they
+will need to seek out appointments in other departments and colleges, as well as communicate and negotiate this effort in their home clinical
+department.
+Furthermore, many metrics that are underemphasized and prioritized in other fields can be of great importance to statisticians embedded in
+clinical departments. In a survey of leaders of collaborative biostatistics units in academic health centres, Hanlon et al. (2022) found that metrics
+appraised as the most important in terms of career advancement were coinvestigator status on NIH or similar grants as well as first or second
+authored peer-reviewed publications, while middle authorship was ranked as one of the least important factors. However, collaborative statisti
+cians, especially those embedded in clinical departments, often have increased middle authorship papers, with less emphasis on first authorship.
+VASILOPOULOS ET AL. 3 of 7
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.691 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Additionally, co-authorship as a collaborative biostatistician typically still represents a substantial contribution to publications (Sharp et al., 2016).
+This is why documenting degree of effort, as mentioned above, is extremely important. Moreover, for projects with planned extensive statistical
+work or modelling, collaborative statisticians should negotiate and advocate for a higher authorship listing.
+Additionally, collaborative biostatisticians—and embedded statisticians in particular—tend not to have their own research programme in the tra
+ditional sense but instead are more likely to have a statistical “theme,” that is, a set of specialty skills and tools that they can apply to their domain
+specific fields. Due to their expertise and vital skills, embedded statisticians often are involved on many projects at once, linked not by the research
+topic but more by the specific statistical needs contributed by the statistician. Furthermore, being involved in multiple projects, and with multiple
+collaborators, should be viewed as a positive for a collaborative statistician, supporting their well-rounded abilities as well as their reputation as a
+collaborator (Griffith et al., 2022). Table 1 provides a framework to highlight which of the metrics previously discussed are most useful to embedded
+statisticians as well as suggest additional metrics to be considered, with metrics included with appreciation for both clinical department relevance
+and ease of data capture. There are four domains in the metric framework: (1) collaboration, (2) research output/productivity, (3) mentoring and
+(4) education. Metrics that are particularly specific to embedded statisticians and that are not routinely captured include time reporting for both pro
+ject initiation to completion/outcome and initial statistical consultation to statistical outcome completion. These variables will account for the often
+longer timelines needed to publish with clinical collaborators. Additionally, the authors strongly emphasize the need to report not only author order
+of manuscripts and presentation but also level/context of contribution. Level of contribution can vary widely and may include supervising trainees'
+statistical analyses, writing the majority of the methods and results sections, leading the study design plan from onset and/or being an integral
+coinvestigator on related grant funding for project. We encourage embedded statisticians to develop a list with descriptors of levels of contribution
+that occur most frequently in their collaborations so that integrating these metrics into reports can be streamlined.
+T A B L E 1 Proposed metrics for embedded statisticians.
+Domain Metrics
+Collaboration Number of projects • Effort estimation: Small, medium or large Number of unique collaborators • Classified by division/lab/area and so forth • Time from project initiation to completion/outcome (e.g., manuscript) • Time from initial collaboration to collaborative statistical outcome completion (e.g., analysis completion and results write-up)
+Research output/ productivity
+Number of manuscripts • In preparation • Submitted • Published • Journals Note authorship order (first, last, second, or middle) Summarize extent of contribution Number of presentations • Type (poster, oral, etc.) • Conference Note authorship order (first, last, second, or middle) Number of grants • Submitted • Under review • Newly awarded • Ongoing Note grant PI and own role (e.g., Co-I), funding agency and total amount
+Mentoring Number of mentees • Training level • Type of mentoring activities • Time devoted to mentoring (e.g., number of meetings per year) • Involvement in career development awards • Mentee outcomes (e.g., presentation, publications and promotions)
+Education Number of educational activities • Type (e.g., lecture, workshop, course and small group) • Affiliation (department, college, etc.) • Level of learners • Number of learners • Time/effort for activities (e.g., length of activities, assignments and grading) • Learner evaluations • Peer evaluations
+4 of 7 VASILOPOULOS ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.691 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+5 | DESIGNING A VALUE REPORT
+While defining metrics for embedded statisticians is important, it is just as important for embedded statisticians to be able to develop reports to
+best communicate theory work and value with their nonstatistician supervisors. Unfortunately, there is not a standardized way to generate
+reports to communicate one's value. These authors emphasize that embedded statisticians need to take responsibility for these reports and con
+trol their own narrative. Reports or work summaries generated by departmental administration can lack description of both the breadth and depth
+of activities performed by embedded statisticians, often focusing on small snapshots of their work (e.g., number of publications and external
+funding). There are several important factors for embedded statisticians to consider when tracking metrics to develop their report:
+1. Content: What metrics? (see above)
+2. Process: How do we document research workflow and involvement at each stage?
+3. Software: What software should we use to track metrics and easily generate reports?
+4. System: How do we organize and classify the metrics to best reflect our activities?
+It is both necessary and beneficial for embedded statisticians to meet and discuss what information is useful to their supervisors, because the
+approaches to the above will vary depending on the department as well as on the individual statistician. Figure 2 presents a sample value report for
+an embedded statistician in a clinical department that was created in consultation with the clinical departmental chair. Within the authors' clinical
+department, we are piloting the use of these reports for quarterly productivity updates, which has spurred increased communication between
+embedded statisticians and not only the department chair but also with other departmental leaders (i.e., divisions chiefs and senior administrators).
+These reports also augment existing quarterly research reports from the finance office on grant funding for faculty by highlighting information not
+captured by institutional financial reporting, particularly grants in which a faculty member is a coinvestigator or other personnel and not the principal
+investigator. Utilizing visualizations helps create easy to understand value reports that focus on maximizing communication and understanding.
+However, while it is important for embedded statisticians to generate these reports, the system needs to be streamlined with minimal time
+and effort to be maintained by the statistician. This will ensure that the reporting system is sustainable and does not contribute to burnout. Again,
+this is why close communication with supervisors is necessary to align expectations. One way to streamline report generation is to align and auto
+mate components when possible. This can include having set time periods for reporting (e.g., quarterly), utilizing existing institutional infrastruc
+ture to obtain needed information (e.g., grants offices) and taking advantage of existing features of websites to gain information (e.g., PubMed
+alerts). Furthermore, many available task and project management software programs have customizable automation to easily classify activities
+and track time spent on projects. A more advanced step would be to develop specialized, interactive tools to track and summarize metrics. An
+institutional case study (Schmidt et al., 2017) demonstrated that a web-based dashboard application for research project tracking in an epidemiol
+ogy/biostatistics department, using REDCap and R programming, reduced study intake time, increased efficiency and improved workload alloca
+tion. Similar integrations should be used to develop dashboards to track metrics and research workflows to better—and more efficiently
+summarize activities and generate value reports for embedded statisticians.
+F I G U R E 2 Sample value report. Report contains example quarterly summaries for FTE distribution by division/lab/other activities; number of unique collaborators; manuscripts (in preparation, submitted and published); grant funding (ongoing, new, under review and submitted) with classification by funding agency; and other activities including IRB studies as Co-I, conferences attended and mentees.
+VASILOPOULOS ET AL. 5 of 7
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.691 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+6 | FUTURE DIRECTIONS
+The next step for development of metrics and reporting systems for statisticians embedded in clinical departments is additional study of value
+perceptions. Thus far, to our knowledge, the population of embedded statisticians, their clinical collaborators and their clinical supervisors has not
+been studied. Recent surveys of collaborative statisticians have evaluated perceptions on value and recognition by colleagues, departments and
+institutions, with these studies comparing collaborative statisticians with and without statistician/methodologist supervisors. Sharp et al. (2016)
+conducted a survey of statistical consultants in university settings to assess perceived value. Twenty-seven respondents were within established
+consulting centres while 12 were not. Statisticians not in consulting centres did not have significant differences in rates of agreement, compared
+with those in consulting centres, in terms of being valued by the institution (50% vs. 67%), by faculty outside department (83% vs. 96%) and by
+faculty in their department (58% vs. 74%), though these observed rates were slightly lower. There were also similar agreement rates reported
+between statisticians not in a consulting centre versus those within viewing that their work contributed to promotion (58% vs. 56%) and publica
+tion requirements (67% vs 69%). In another survey focussed on collaborative biostatisticians in academic health centres, the majority (87%) of
+respondents thought that their work was valued by their collaborators (Devick et al., 2022). Encouragingly, this rate was similar for statisticians
+with (87%) and without (82%) supervisors who were methodologists (Devick et al., 2022).
+However, these studies also noted differences for statisticians not in a consulting centre or collaborative subunit or those without a method
+ology supervisor. Sharp et al. (2016) found that statisticians not in a consulting centre were more likely (83%) to report a higher consulting work
+load relative to other responsibilities compared with statisticians in a consulting centre (63%). Additionally, statisticians not in a consulting centre
+were less likely to agree that their work contributed to pay raises (42%) compared with those who were in consulting centres (93%). Devick et al.
+also reported that statisticians without a methodologist supervisor, compared with those with one, were less likely to report the ability to collabo
+rate with other statisticians or other researchers with quantitative backgrounds (33% vs. 62%) and the opportunity to collaborate specifically on
+methodological research (15% vs. 39%).
+The work of Sharp et al. and Devick et al. needs to be replicated and extended to the population of embedded statisticians, their clinical col
+laborators and their clinical supervisors. Such work would include a survey of extant metrics and reporting systems used in clinical departments
+and the value perceptions of clinical faculty and leadership. Importantly, research is needed on the economics of the embedded statistician model
+to answer questions such as cost effectiveness and contribution of embedded statisticians to physician promotion, retention and well-being.
+7 | CONCLUSION
+We have provided here the context for understanding the unique challenges of embedded statisticians within the larger academic research para
+digm and, in particular, the need for these individuals to advocate for themselves in a way that translates the full extent of their value to their
+supervisors. We have also given examples of metrics that we have found useful in our own efforts to communicate with such individuals. We
+hope this helps to guide a continued discussion on methods and practices for supporting isolated and embedded statisticians in this rapidly grow
+ing field.
+AUTHOR CONTRIBUTIONS
+Terrie Vasilopoulos: Conceptualization; writing—original draft; writing—review and editing. Amy Crisp: Conceptualization; writing—original draft;
+writing—review and editing. Gerard Garvan: Conceptualization; writing—original draft; writing—review and editing. Keith Howell: Conceptualiza
+tion; writing—original draft; writing—review and editing. Gregory Janelle: writing—original draft; writing—review and editing. Cynthia Garvan:
+Conceptualization; writing—original draft; writing—review and editing.
+ACKNOWLEDGEMENTS
+The authors thank Bryan Penberthy, MFA, of the University of Florida College of Medicine Department of Anesthesiology's Communications &
+Publishing office for his editorial assistance with this manuscript.
+CONFLICT OF INTEREST STATEMENT
+None.
+DATA AVAILABILITY STATEMENT
+This is a narrative review and no data were used.
+ORCID
+Keith Howell https://orcid.org/0009-0009-7045-6621
+6 of 7 VASILOPOULOS ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.691 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+REFERENCES
+Devick, K. L., Gunn, H. J., Price, L. L., Meinzen-Derr, J. K., Enders, F. T., Perkins, S. M., & Schulte, P. J. (2022). Collaborative biostatistics & epidemiology in academic medical centres: A survey to assess relationships with health researchers and ethical implications. Stat, 11(1), e481. https://doi.org/10.1002/ sta4.481 Griffith, E. H., Sharp, J. L., Bridges, W. C., Craig, B. A., Hanford, K. J., & Stevens, J. R. (2022). The academic collaborative statistician: Research, training and evaluation. Stat, 11(1), e483. https://doi.org/10.1002/sta4.483 Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., Welty, L. J., & Pomann, G. M. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat, 11(1), e521. https://doi.org/10. 1002/sta4.521 Mazumdar, M., Messinger, S., Finkelstein, D. M., Goldberg, J. D., Lindsell, C. J., Morton, S. C., Pollock, B. H., Rahbar, M. H., Welty, L. J., & Parker, R. A. (2015). Evaluating academic scientists collaborating in team-based research: A proposed framework. Academic Medicine: Journal of the Association of American Medical Colleges, 90(10), 1302–1308. https://doi.org/10.1097/acm.0000000000000759 Mehta, C. C., Stedman, M. R., Rao, S. R., & Podolsky, R. (2022). Advice for isolated statisticians collaborating in academic healthcare centre settings. Stat, 11(1), e492. https://doi.org/10.1002/sta4.492 Rubio, D. M., Del Junco, D. J., Bhore, R., Lindsell, C. J., Oster, R. A., Wittkowski, K. M., Welty, L. J., Li, Y. J., DeMets, D., & Biostatistics, Epidemiology, and Research Design (BERD) Key Function Committee of the Clinical and Translational Science Awards (CTSA) Consortium. (2011). Evaluation metrics for biostatistical and epidemiological collaborations. Statistics in Medicine, 30(23), 2767–2777. https://doi.org/10.1002/sim.4184 Schmidt, S., Goros, M., Parsons, H. M., Saygin, C., Wan, H. D., Shireman, P. K., & Gelfond, J. A. (2017). Improving initiation and tracking of research projects at an academic health center: A case study. Evaluation & the Health Professions, 40(3), 372–379. https://doi.org/10.1177/0163278716669793 Sharp, J. L., Wrenn, J., & Gerard, P. D. (2016). Identifying the perceived value of statistical consulting in a university setting. Journal of Statistical Theory and Practice, 10(1), 216–225. https://doi.org/10.1080/15598608.2015.1108254 Spratt, H., Fox, E. E., Shara, N., & Mazumdar, M. (2017). Strategies for success: Early-stage collaborating biostatistics faculty in an academic health center. The American Statistician, 71(3), 220–230. https://doi.org/10.1080/00031305.2016.1277157 Wild, C. J., & Pfannkuch, M. (1999). Statistical thinking in empirical enquiry. International Statistical Review, 67(3), 223–248. https://doi.org/10.1111/j. 1751-5823.1999.tb00442.x
+AUTHOR BIOGRAPHIES
+Dr. Terrie Vasilopoulos is a collaborative biostatistician and an associate professor in the Departments of Anesthesiology and Orthopaedic
+Surgery & Sports Medicine at the University of Florida College of Medicine and serves as chief of the Department of Anesthesiology's Divi
+sion of Education Research and Scholarship. She holds a PhD in Biobehavioral Health from the Pennsylvania State University and Graduate
+Statistician Certification from the American Statistical Association.
+Dr. Amy Crisp is a collaborative biostatistician and the associate director of the Center for Data Solutions at the University of Florida College
+of Medicine—Jacksonville. She holds a PhD and an MS in Biostatistics from University of Florida and an MS and a BS in Physics from Florida
+State University.hD in Biobehavioral Health from the Pennsylvania State University and Graduate Statistician Certification from the American
+Statistical Association.
+Gerard Garvan MS, is a biostatistician in the Center for Data Solutions at the University of Florida College of Medicine–Jacksonville. He holds
+an MS in Biostatistics from the University of Florida and a BS in Mathematics from the University of Florida.
+Dr. Keith Howell is an associate professor in the Department of Anesthesiology at the University of Florida College of Medicine and serves
+as chief of the Department of Anesthesiology's Division of Clinical Informatics. He earned his MD at the Medical College of Georgia in
+Augusta, completed a surgical internship at Carraway Methodist Medical Center in Birmingham, AL, and completed anesthesiology residency
+at the Virginia Commonwealth University School of Medicine.
+Dr. Gregory Janelle is a professor in the Departments of Anesthesiology and Surgery at the University of Florida College of Medicine and
+serves as interim chair of the Department of Anesthesiology. He is a recognized fellow of the American Society of Echocardiography and the
+American Society of Anesthesiologists. He earned his MD at Boston College and completed anesthesiology residency and a cardiothoracic
+anesthesiology fellowship at the University of Florida College of Medicine.
+Dr. Cynthia Garvan is a collaborative biostatistician and professor in the Department of Anesthesiology at the University of Florida College of
+Medicine and serves as co-director of the College of Medicine's Translational Research Academy for Clinical Translational Science. She holds
+a PhD in Biostatistics from the University of Florida and an MS in Mathematics from the Pennsylvania State University.
+How to cite this article: Vasilopoulos, T., Crisp, A., Garvan, G., Howell, K., Janelle, G., & Garvan, C. (2024). Documenting and
+communicating the contributions of embedded statisticians: Show me the value!. Stat, 13(2), e691. https://doi.org/10.1002/sta4.691
+VASILOPOULOS ET AL. 7 of 7
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.691 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

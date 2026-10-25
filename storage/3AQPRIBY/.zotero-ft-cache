@@ -1,0 +1,390 @@
+Vol.:(0123456789)
+13
+Environmental Modeling & Assessment (2023) 28:15–28 https://doi.org/10.1007/s10666-022-09848-z
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic
+Dominic White1 · Niven Winchester1,2
+Received: 8 March 2022 / Accepted: 13 July 2022 / Published online: 6 August 2022 © The Author(s) 2022
+Abstract
+Plastic pollution is a big source of concern around the world. Research to date has focused on the types of plastic in the environment and the processing of plastic waste. For policymakers and consumers to be informed decision makers, they need to understand the industries which use plastics and the plastic intensity of those industries. Using input–output data for the USA, we calculate the plastic intensity (the value of plastic inputs per dollar of output) of 415 non-plastic industries for 13 types of plastic. We find the most plastic intensive industries are related to clothing and fabric manufacturing. This is true for aggregate plastics as well as plastics most likely to contribute to pollution. The high plastic intensity of the clothing and fabric industries is consistent with the abundance of clothing-related microplastics found in waterways. The results indicate that policies focused on consumer-facing plastics such as plastic bags do not address key plastic pollution pathways, and can help policymakers and consumers make decisions that improve environmental outcomes.
+Keywords Input–output · Plastic · Pollution · Embodied plastic · Plastic intensity
+1 Introduction
+Plastics provide many practical uses but the treatment of plastics at the end of their product life cycle has come under much scrutiny. Plastic production for consumer-facing industries such as supermarkets has been subject to policies involving plastic bags and packaging [1]. This is due to the negative externality from the amount of plastic finding its way to the natural environment. The United Nations has recognised this issue by endorsing a resolution to end plastic pollution, with an aim to have a legally binding agreement in place by 2024 [2]. For this resolution to be effective, there should be accurate and detailed data on plastic use by industries. There has been considerable research into the production of plastics, the generation of plastic waste, the recycling of plastics and plastic usage. Several studies including Geyer et al. [3] focus on the waste management of plastics around the world. They compiled data from several sources
+on plastic resins, fibres and additives from 1950 to 2015 by sector and type of plastic. They found, of all plastics produced up to 2015, 30% are new plastics currently in use, 59% are in landfills or in the environment, 10% have been incinerated and 1% have been recycled and are currently in use. They estimate that 7% of all plastics produced have been recycled but 86% of this recycled plastic has now been disposed of in landfills and in the environment, or incinerated. Further to this, they found that packaging plastics are the shortest used plastics before they are disposed of and have contributed the most to plastic waste. To show how much of a problem plastic waste is, Jambeck et al. [4] estimated that 4.8 to 12.4 million tonnes of plastic enter the ocean every year, with that figure increasing year on year. Plastics are now so prevalent in the environment that Zalasiewicz et al. [5] and Corcoran et al. [6] argue that they provide an effective means to measure the progress and impact of humans when analysing layers of sediment around the world. Plastic pollution is increasing due to a number of factors including economic growth, the level of education, corruption and climate change [7, 8]. It is such a big problem in the Arctic that Abate et al. [9] found, using a contingent valuation method, that the average Norwegian household is willing to pay 642 USD per year to reduce plastic pollution. McNicholas and Cotton [10] have identified that plasticrelated policies need to consider the perspectives of different stakeholders related to plastic including households,
+* Dominic White dominic.white@aut.ac.nz
+1 School of Economics, Auckland University of Technology, Auckland, New Zealand
+2 Motu Economic & Public Policy Research, Wellington, New Zealand
+
+
+16 D. White, N. Winchester
+13
+industries and government agencies to be successful. Further to this, Gielen and Moriguchi [11] discuss the importance of considering product life cycles when designing environmental policies. This is particularly relevant for plastics as they become more of an issue as waste than in use. In managing waste, Cosmi et al. [12] and Chambal et al. [13] demonstrate the value of data and accurate modeling as tools to determine environmental impacts from policies and improve decision making. In a review of the literature, Almroth and Eggert [14] suggest future research areas which will help reduce marine plastic pollution. These areas include the development of plastics which are easier to manage as waste or recycle, a more thorough review of the health and environmental impacts of marine plastic pollution, an understanding of behavioural changes in relation to plastic policy and a deeper understanding of extended producer responsibility. While there has been research into the application of input–output data to measure waste [15–21], to our knowledge, no previous study has estimated the disaggregated plastic intensity of different industries in the USA. Policy makers and consumers looking to reduce plastics would make better choices with detailed information on the plastic intensity of industries. Knowing plastic intensity would enable policy makers and consumers to focus their efforts on reducing output from or incentivising new technologies in industries where plastics make up a large proportion of inputs. We determine the plastic intensity of 415 non-plastic industries in the USA for 13 different types of plastic commodities, using the Eora Global Supply Chain Database [22, 23]. We focus on the USA, as, within the Eora Database, plastic products are described in detail; and it accounts for a significant proportion of global plastic consumption. This paper has five further sections. Section 2 describes the previous literature on plastic pollution. Section 3 describes the data and methods used for our analysis. Section 4 outlines the main results from our methodology. Section 5 provides some discussion and conclusions of those results.
+2 Plastic Pollution
+While plastic is widely reported as a large contributor to pollution, there are some forms of plastic that contribute disproportionately to the problem. There has been a large body of research which details the types of plastic that end up in the natural environment. We have focused our literature review on waterways, as that is where a significant quantity of plastic pollution is found [24]. Microplastics refer to microscopic pieces of plastic which contribute to pollution in the natural environment. This plastic usually has a high level of buoyancy when it enters the ocean, and over time, its buoyancy reduces and it sinks [25]. Due to its low rate of decomposition, it is often consumed
+by ocean fauna, or it builds up in the sediment on the ocean floor. Woodall et al. [25] discuss the abundance of microplastic waste in the ocean, especially in the deep sea. By studying deep sea sediment cores, they found the most abundant microplastics in their samples to be rayon and polyester. Both of these plastics are predominantly found in clothing. Browne et al. [26] also look at microplastics in waterways and the sources of those microplastics. Similar to Woodall et al. [25], they discuss the large amount of polyester present as microplastics in the environment. They further explain that polyester ends up in waterways through the washing of clothes, when fibres are small enough to bypass filters in the sewerage system. One piece of clothing made with synthetic fibres can produce over 1900 fibres per wash. In addition to environmental impacts, there are also potential health impacts from man-made fibres. The concentration of
+these fibres indoors can be between 1 and 60 fibres/m3 and
+between 0.3 and 1.5 fibres/m3 outdoors. According to Dris et al. [27], the potential health impacts from these fibres are not fully understood and should be researched further. In 2017, 70% of all fibres produced world-wide were artificial or synthetic, meaning there is a growing source of these microplastics and air pollution every year [28]. According to a meta-analysis on plastics in marine environments by Erni-Cassola et al. [29], the most common types of plastic found in the ocean are polypropylene, polyethylene, polystyrene, polyester, polyamide and acrylic. This is backed up by an analysis from Morét-Ferguson et al. [30] who took samples in the North Atlantic Ocean to study the size, mass and distribution of plastic debris in that area. The main difference in their results was the specification of both high-density and low-density polyethylene, and the addition of polyvinyl chloride and polyethylene terephthalate. Polypropylene refers to a form of thermoplastic which is used for a variety of purposes including the packaging of products, as parts in the motor vehicle industry, and in textiles [31]. Polyethylene refers to a type of plastic found as either high-density polyethylene or low-density polyethylene. Highdensity polyethylene can be found in products such as bullet proof vests and medical devices. Low-density polyethylene can be found in products such as plastic bags, plastic wrap and other packaging plastics [32]. Polyvinyl chloride, more commonly known as PVC, comes in two common forms, as a rigid polymer and as a flexible plastic. The rigid polymer is used as pipes for construction and plumbing. The flexible plastic is commonly used as insulation on wires, and flooring for homes and hospitals [33]. Polystyrene is a thermoplastic polymer that can be found as general polystyrene which is transparent or high impact polystyrene which is opaque. It is found in packaging, household appliances, building insulation, lighting fixtures, test tubes and petri dishes [34]. Polyester is a synthetic fibre used in products such as clothing, insulation, packaging products and recording tapes [35]. Polyethylene terephthalate
+
+
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic 17
+13
+(PET) is part of the polyester family and is a clear, light and strong plastic used for drink bottles, food packaging and microwavable packaging [36]. Polyamide is a type of thermoplastic polymer used in products such as nylon, synthetic rubber and latex [37]. Acrylic refers to a range of synthetic resins commonly found in products such as plastic glass used in cooking, construction and motor vehicles [38]. We design our analysis around this research into polluting plastics. In the USA Eora Dataset, seven of the 13 plastic commodities represented contain plastics that contribute disproportionately to pollution in waterways. Our research focuses on these seven commodities.
+3 Data andMethods
+Our analysis employs the Eora Global Supply Chain Database which is comprised of a multi-region inputoutput table (MRIO) model that produces a time series
+of input–output tables for 190 countries [22, 23]. The data for the USA has more clear cut commodities related to plastic compared to other countries, so we use the USA individual country basic price input–output table for our analysis. Specifically, the 13 plastic commodities represented in the USA data are significantly more than the number included for China (two plastic-related commodities), the UK (seven), Australia (one), Germany (one), Japan (eight) and Argentina (seven). The USA data contains information on primary inputs and final demand, and imports and exports in 2015 for 428 different industries and commodities. Plastics in this data are represented as 13 individual commodities, which are listed in Table 1. Each of these plastic commodities represents multiple plastic products. As discussed in Sect. 2, some types of plastic are more likely to end up in the environment as pollution than others. To understand the industries which use these types of plastic intensively, our analysis focuses on the high
+Table 1 Plastic commodities in the USA represented in the Eora Database
+The information provided is based on descriptions from NAICS [48]. Plastic commodities with a * after their abbreviation are plastics more likely to contribute to plastic pollution
+Abbreviation Commodity name Examples
+Coated paper and plastic film* Coated and laminated paper, packaging paper and plastics film manufacturing
+Bread wrappers, waxed or laminated; coated paper for packaging; wrapping paper; and plastic film
+Plastic plate sheet Laminated plastics plate sheet (except packaging), and shape manufacturing
+Laminated plastic plate, rods and sheets
+Other plastics Other plastic product manufacturing Inflatable pool rafts, air mattresses, plastic gloves, plastic hardware, garbage containers, plastic bowls and plastic bottle caps Plastic bottles* Plastics bottle manufacturing Plastic bottles
+Polystyrene* Polystyrene foam product manufacturing Ice chests, cups, dinnerware, food containers, ice buckets, insulation and cushioning, packaging and shaped cushioning
+Plastic resin* Plastics material and resin manufacturing Acetal resins, nylon resins, polyester resins, PVC resins, PET resins and elastomers Plastic pipes Plastics pipe and pipe fitting manufacturing Plastic fittings and unions, plastic pipe and rigid plastics
+Plastic packaging materials* Plastics packaging materials and unlaminated film and sheet manufacturing
+Unlaminated plastic film, flexible packaging and packaging film
+Plastic hoses and belts Rubber and plastics hoses and belting manufacturing Conveyor belts, garden hose, fan belts, hydraulic hoses, water hoses, vacuum cleaner belts and transmission belts
+Plastic fibres and filaments* Artificial and synthetic fibres and filaments manufacturing Acetate and acrylic fibre and filaments, polyester, cigarette filters, cellophane, nylon, PET fibres and filaments, artificial yarn, spandex fibre and filaments and elastomeric fibres and filaments
+Synthetic rubber* Synthetic rubber manufacturing Acrylic rubber, latex rubber, polyethylene rubber, silicone rubber and polymethylene rubber
+Shaped plastics Unlaminated plastics profile shape manufacturing Non-rigid plastics, plastic tubes and plastic sausage casings
+Urethane Urethane and other foam product (except polystyrene) manufacturing
+Cushions, insulation, packaging, foam, carpet underlay and coolers
+
+
+18 D. White, N. Winchester
+13
+pollution plastic commodities in the Eora dataset. We identify these commodities by using the research from Erni-Cassola et al. [29], Morét-Ferguson et al. [30], and Geyer et al. [3]. These authors classify high pollution plastics as types of plastic which commonly end up in waterways, as described by Erni-Cassola et al. [29] and Morét-Ferguson et al. [30], as well as the short life cycle (mostly packaging) plastics described by Geyer et al. [3]. Using this classification, we identify seven plastic commodities from the Eora dataset which are relatively more likely to contribute to plastic pollution. These seven commodities are (1) coated paper and plastic film, (2) plastic bottles, (3) plastic packaging materials, (4) polystyrene, (5) plastic resin, (6) plastic fibres and filaments and (7) synthetic rubber. To determine the plastic intensity of each industry, both the direct and indirect uses of plastic commodities need to be calculated. Direct use of plastic occurs when an industry uses inputs of a plastic commodity (e.g. fibre, yarn and thread mills use plastic fibres and filaments as an input). Indirect use of plastic occurs when an industry uses an input that was produced, in part, using plastics (e.g. carpet and rug mills use knit fabric as an input which is produced using plastic fibres and filaments). The techniques we used to calculate direct and indirect use of plastics in this paper build on the methodologies developed for input–output analysis. The fundamental paper of Leontief and Ford [39] describes how input–output data can be used to measure environmental impacts by industries. It specifies a set of simultaneous equations which need to be solved to calculate embodied pollution in an economy. Herwich and Peters [40] provide an application of this methodology to determine embodied greenhouse gas emissions for final demand across 73 countries using the Global Trade Analysis Project (GTAP) database, an MRIO database commonly used in trade and policy analysis [41, 42]. Input–output analysis has also been applied to other economic processes. Bullard et al. [43] describe how direct and indirect energy use can be calculated using process analysis as well as input–output analysis and how the two approaches can be combined. Further to this, Heijungs and Suh [44] provide a detailed description of life cycle assessment and how it can be used with input–output analysis in a hybrid analysis. Suh et al. [45] explain how this hybrid analysis can extend the system processes included in life cycle assessment. An example of this comes from the use of input–output and hybrid analysis to research the generation of waste. Nakamura et al. [15–18] show how input–output data can be used to generate waste input–output models that describe the direct and indirect generation of waste in relation to economic activities. Lenzen and Reynolds [19] expand the research of Nakamura et al. [15–18] by constructing a waste supply-use
+table which displays multiple types of waste such as recycling and aggregate plastics simultaneously. Fry et al. [20] develop this further by designing a multi-regional waste supply-use framework for Australia which can calculate ‘waste footprints’ of industries and regions. It does this by combining a waste supply-use table based on the research by Lenzen and Reynolds [19] with Australian waste data. Finally, Pomponi et al. [21] use input–output data and life cycle assessment in a hybrid analysis to measure the potential environmental impact of a change in the design of plastic milk bottles. We extend these input–output methodologies to determine plastic intensity for industries in the USA using the Eora Dataset. Three components of the Eora USA Dataset are used in our analysis: domestic output, domestic intermediaries and aggregated imports of commodities by domestic industries. Domestic output includes data on the commodities produced by domestic industries. Domestic intermediaries include data on the domestic commodities used as inputs by domestic industries. Aggregated imports of commodities by domestic industries include, for each industry, data on the value of imported intermediate inputs (aggregated across commodities) from specific countries. For each commodity used by each sector, intermediate inputs are an aggregate of domestic and imported commodities. To determine imported plastic intensity, we set the intermediate input shares (across commodities) for imported intermediate inputs equal to the shares for domestically sourced inter
+mediate inputs.1 For example, 14.3% of the USA domestic inputs for the soft drink and ice manufacturing industry are plastic bottles. We then apply this percentage to the total value of imports used in soft drink and ice manufacturing to determine the approximate value of plastic bottles imported by this industry. As input–output data measures transactions in values, we measure plastic intensity as the dollars of plastic inputs per dollar of output. This means that plastic intensity estimates will be higher for high-value plastic commodities (e.g. plastic packaging materials and plastic fibres and filaments) and/or low-value industries (e.g. scrap and used and second-hand goods). Pomponi et al. [21] have a very effective method for converting the value of plastic milk bottles to weight and to environmental impacts. This conversion is unfortunately not possible for our research as the number of plastic commodities we examine and the aggregation of plastic types in these commodities makes it difficult to find a detailed and reliable database which we
+1 This assumption is necessary because data on imported intermediate inputs by commodity and sector is not available for the disaggregated USA input–output table that facilitates a detailed breakdown of plastic commodities.
+
+
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic 19
+13
+can use for this analysis. In the absence of detailed data on plastic volumes used by each industry for each plastic commodity (e.g. tonnes of plastic bottles used by soft drink and ice manufacturing), we use value-based plastic intensity estimates to approximate the plastic intensity of different commodities along with estimates of the overall value of plastic commodities used by each industry. The limitations of a value-based intensity measure are discussed in the conclusions. To calculate the plastic intensity using MRIO data, our approach is based on the methodology introduced in Leontief and Ford [39] and described further by Bullard et al. [43], represented by the following equation:
+whereby π and x are vectors with entries πi and xi, for each
+industry i = 1, 2, ..., N.2 Specifically, πi is the plastic intensity value of each industry; xi is a vector of the direct plastic intensity of each industry; I is an identity matrix; and A is a N × N matrix of input–output coefficients which describes the commodities, c, needed to produce a unit of output by industry i. This approach assumes the MRIO data used has single-commodity output for each industry. Lenzen and Rueda-Cantuche [46] explain how this methodology can be adapted for multi-commodity output MRIO data. We use this technique and apply it to the Eora dataset using the following equation:
+with D = VQ−1, and B = UG−1. V is a N × N matrix which describes the output Vi,c of commodity c by industry i, U is a N × N matrix which describes the direct input Uc,i of commodity c for each industry i, Q is a diagonal matrix with diagonal entries of the total value of each commodity qc produced, and G is a diagonal matrix with diagonal entries of the total value of output gi produced by each industry. This approach takes into account the proportion of each commodity produced by each industry and is calculated separately for each of the 13 plastic commodities. If desired, the methodology described by Lenzen and Rueda-Cantuche [46] can also be used to calculate the plas
+tic intensity of each commodity (πc). Total plastic intensity of each industry is calculated by adding the 13 individual plastic intensity calculations together. This analysis is also used to determine the total value of each plastic commodity used by each industry, by multiplying both sides of Eq. (2) by G.
+(1)
+π = x(I − A)−1,
+(2)
+π = x(I − DB)−1,
+4 Results
+Using the methodology described in Sect. 3, we determine the plastic intensities for the 415 non-plastic industries described in the USA Eora Dataset. To provide a high-level understanding of differences in plastic intensities, we first calculate total plastic intensity (across all plastic types) for each industry. As a dollar of one plastic type does not have the same environmental impact as a dollar of another plastic type, we also calculate the plastic intensity of each industry separately for each plastic commodity. We report results for (1) total plastic intensity (aggregated across all plastic commodities); (2) total polluting plastic intensity (aggregated across all polluting plastic commodities, see Table 1); and (3) plastic intensity for each polluting plastic. To provide additional information, for each type of polluting plastic, we also calculate the total value used as an input by each industry. The plastic intensity for each plastic commodity and industry is available in a supplementary file augmenting this paper. All industries presented in figures and tables are described in more detail in Appendix Table 2, available in another supplementary file.
+4.1 Total Plastic Intensity
+Figure 1 shows the top 20 plastic intensive industries summed across the 13 plastic commodities, described in Table 1. Of the top 20 plastic intensive industries, nine of them can be categorised as clothing and fabric manufacturing–related industries, including the two most plastic intensive industries. The industry which has the highest plastic intensity is carpet and rug mills with a plastic intensity of 0.4865 (i.e. this industry uses 0.4865 dollars of plastic inputs per dollar of output). The next most intensive industries are fibre, yarn and thread mills (0.4390); used and second-hand goods (0.4362); and scrap (0.4362). Plastic fibres and filaments account for the largest share of plastic intensity in this figure, especially in the top ten industries.
+4.2 Total Polluting Plastic Intensity
+The top 20 plastic intensive industries for aggregated polluting plastics (see Table 1) are shown in Fig. 2. Of the top 20 polluting plastic intensive industries, 11 of them can be categorised as related to clothing and fabric manufacturing, including eight of the top ten industries. The plastic commodity used most intensively by these industries is plastic fibres and filaments. The industry most intensive in polluting plastics is carpet and rug mills (0.4798); followed by fibre, yarn and thread mills (0.4341); and narrow fabric mills and schiffli machine embroidery (0.3350). The 20th most intensive sector, all other paper bag and coated and treated paper manufacturing, has a plastic intensity of 0.1182.
+2 In our work N = 428. This is the number of industries and commodities described by the USA Eora Dataset.
+
+
+20 D. White, N. Winchester
+13
+4.3 Individual Polluting Plastic Intensity and Use
+As noted in Sect. 3, comparing the plastic intensity across more than one plastic type is an issue as a dollar of one plastic commodity is not the same as a dollar of another plastic commodity.
+To address this issue, we report results for each of the seven polluting plastics individually and also calculate the total value of each polluting plastic used as an input by each industry. Figure 3 shows a scatter plot of the five most plastic bottle intensive industries and the five industries which use
+Fig. 1 Plastic intensity by industry and plastic type (20 most aggregate plastic intensive industries)
+0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5
+Curtain and linen mills
+Magnetic and optical recording media manufacturing
+Coffee and tea manufacturing
+Upholstered household furniture manufacturing
+Adhesive manufacturing
+Mattress manufacturing
+Doll, toy, and game manufacturing
+Soft drink and ice manufacturing
+Household refrigerator and home freezer manufacturing
+Small electrical appliance manufacturing
+Fabric coating mills
+Broadwoven fabric mills
+Nonwoven fabric mills
+Knit fabric mills
+All other textile product mills
+Narrow fabric mills and schiffli machine embroidery
+Scrap
+Used and secondhand goods
+Fiber, yarn, and thread mills
+Carpet and rug mills
+Coated Paper and Plastic Film Other Plastics Plastic Bottles
+Plastic Fibres and Filaments Plastic Hoses and Belts Plastic Packaging Materials
+Plastic Pipes Plastic Plate Sheet Plastic Resin
+Polystyrene Shaped Plastics Synthetic Rubber
+Urethane
+Fig. 2 Plastic intensity by industry and polluting plastic type (20 most plastic intensive industries)
+0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5
+All other paper bag and coated and treated paper...
+Paint and coating manufacturing
+Textile bag and canvas mills
+Tire manufacturing
+Apparel knitting mills
+Household refrigerator and home freezer manufacturing
+Curtain and linen mills
+Adhesive manufacturing
+Doll, toy, and game manufacturing
+Soft drink and ice manufacturing
+Fabric coating mills
+Broadwoven fabric mills
+Nonwoven fabric mills
+Knit fabric mills
+Scrap
+Used and secondhand goods
+All other textile product mills
+Narrow fabric mills and schiffli machine embroidery
+Fiber, yarn, and thread mills
+Carpet and rug mills
+Coated Paper and Plastic Film Plastic Bottles Plastic Fibres and Filaments
+Plastic Packaging Materials Plastic Resin Polystyrene
+Synthetic Rubber
+
+
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic 21
+13
+the highest value of plastic bottles as an input.3 Of these 10 industries, six are related to food and drink. The most plastic bottle intensive industry is soft drink and ice manufacturing (0.1190). There is then a relatively large drop in plastic bottle intensity, with the next highest, snack food manufacturing (0.0541), being less than half the intensity of soft drink and ice manufacturing. Having a high plastic bottle intensity does not necessarily mean an industry uses the highest value of plastic bottles as an input. However, in this case, soft drink and ice manufacturing is the most plastic bottle intensive industry and accounts for the largest value of plastic bottles as an input. The next industry on the value list, snack food manufacturing, is about one fifth of the value of soft drink and ice manufacturing. This suggests that if policy makers and consumers wanted to reduce plastic bottles used, they should initially focus on incentivising changes in the soft drink and ice manufacturing industry, along with other food and drink–related industries. Figure 4 displays the five industries that use plastic fibres and filaments most intensively and the five industries which
+use the highest value of plastic fibres and filaments as an input. Eight of the 10 industries are related to clothing and fabric manufacturing. The most plastic fibres and filaments intensive industries are carpet and rug mills (0.4285) and fibre, yarn and thread mills (0.3908). These two industries also use the most plastic fibres and filaments in production (in value terms). Therefore, to reduce the plastic fibres and filaments used, policy makers and consumers should focus on prompting changes in production techniques of industries related to clothing and fabric manufacturing, especially carpet and rug mills and fibre, yarn and thread mills. The most coated paper and plastic film intensive industries and the industries which use the highest value of coated paper and plastic film as an input are shown in Fig. 5. This figure is made up of a mixture of industries including food and drink–related industries, trade industries, printing and government services. Printing (0.0281) and photographic and photocopying equipment manufacturing (0.0389) are the two most plastic intensive industries. The printing industry also uses the highest value of coated paper and plastic film as an input. This means the printing industry is an efficient target for those seeking to reduce the amount of coated paper and plastic film used in production. However, to have a significant impact on plastic pollution, industries which use a relatively high value of coated paper and plastic film such as general state and local government services, food services and drinking
+Fig. 3 Plastic bottle intensity and value of plastic bottles used as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: soft drink and ice manufacturing (Sd & Ice Man.); snack food manufacturing (Sf Man.); toilet preparation manufacturing (T Prep. Man.); food services and drinking places (F Ser. & D Places); soap and cleaning compound manufacturing (S & CC Man.); adhesive manufacturing (Ad. Man.); seasoning and dressing manufacturing (Seas. & Dress. Man.); non-chocolate confectionery manufacturing (Nchoc. & Conf. Man.); distilleries (Distilleries); and used and second-hand goods (U & Sg Man.)
+Sd & Ice Man.
+Sf Man
+Ad. Man.
+Seas. & Dress. Man.
+T Prep. Man.
+F Ser. & D Places
+S & CC Man.
+Nchoc. & Conf. Man.
+Distilleries U & Sg Man.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+0 0.02 0.04 0.06 0.08 0.1 0.12 0.14
+Value of Plastic Input (billions USD)
+Plastic Intensity (value of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: soft drink and ice manufacturing (Sd & Ice
+Man.); snack food manufacturing (Sf Man.); toilet preparation manufacturing (T Prep. Man.); food services and drinking
+places (F Ser. & D Places); soap and cleaning compound manufacturing (S & CC Man.); adhesive manufacturing (Ad.
+Man.); seasoning and dressing manufacturing (Seas. & Dress. Man.); non-chocolate confectionery manufacturing (Nchoc. &
+Conf. Man.); distilleries (Distilleries); and used and second-hand goods (U & Sg Man.).
+3 In the case where industries were present in both top five lists, the industries chosen to make up the rest of the figure were based on the proportional difference between the fifth highest value or intensity and the next industry on the respective list. Where there was a smaller difference, that industry was chosen. This was also applied in Figs. 4, 5, 6, 7, 8, and 9.
+
+
+22 D. White, N. Winchester
+13
+places and wholesale and retail trade should also be incentivised away from using coated paper and plastic film. As shown in Fig. 6, the five most plastic packaging materials intensive industries and the five industries which
+use the highest value of plastic packaging materials as an input are related to trade, motor vehicles, government and household goods. There are no industries which have both a high plastic intensity and use a high value of plastic
+Fig. 4 Plastic fibres and filaments intensity and value of plastic fibres and filaments used as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: fibre, yarn and thread mills (F, Y & T Mills); carpet and rug mills (C & R Mills); broadwoven fabric mills (Bf Mills); light truck and utility vehicle manufacturing (Lt & Uv Man.); all other textile product mills (Other T Mills); narrow fabric mills and schiffli machine embroidery (N Mills & Sm Embroidery); knit fabric mills (Kf Mills); nonwoven fabric mills (Nf Mills); curtain and linen mills (C & L Mills); and automobile manufacturing (A Man.)
+C & R Mills
+F, Y & T Mills
+N Mills & Sm Embroidery
+Other T Mills
+Kf Mills
+Bf Mills
+Lt & Uv Man
+Nf Mills
+C & L Mills
+A Man.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45
+Value of Plastic Input (billions USD)
+Plastic Intensity (dollar of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: fibre, yarn, and thread mills (F, Y & T
+Mills); carpet and rug mills (C & R Mills); broadwoven fabric mills (Bf Mills); light truck and utility vehicle manufacturing
+(Lt & Uv Man.); all other textile product mills (Other T Mills); narrow fabric mills and schiffli machine embroidery (N Mills
+& Sm Embroidery); knit fabric mills (Kf Mills); nonwoven fabric mills (Nf Mills); curtain and linen mills (C & L Mills); and
+automobile manufacturing (A Man.).
+Fig. 5 Coated paper and plastic film intensity and value of coated paper and plastic film used as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: photographic and photocopying equipment manufacturing (P & P Equip. Man.); printing (Printing); scrap (Scrap); used and second-hand goods (U & Sg Man.); coffee and tea manufacturing (C & T Man.); non-chocolate confectionery manufacturing (Nchoc. & Conf. Man.); general state and local government services (G S & L Gov. Ser.); food services and drinking places (F Ser. & D Places); wholesale trade (W Trade); and retail trade (R Trade)
+P & P Equip. Man.
+Printing
+Scrap
+U & Sg Man.
+C & T Man.
+G S & L Gov. Ser.
+F Ser. & D Places W Trade R Trade
+Nchoc. & Conf. Man 0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+0 0.005 0.01 0.015 0.02 0.025 0.03 0.035 0.04 0.045
+Value of Plastic Input (billions USD)
+Plastic Intensity (value of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: photographic and photocopying equipment
+manufacturing (P & P Equip. Man.); printing (Printing); scrap (Scrap); used and second-hand goods (U & Sg Man.); coffee
+and tea manufacturing (C & T Man.); non-chocolate confectionery manufacturing (Nchoc. & Conf. Man.); general state and
+local government services (G S & L Gov. Ser.); food services and drinking places (F Ser. & D Places); wholesale trade (W
+Trade); and retail trade (R Trade).
+
+
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic 23
+13
+packaging materials as an input. Household refrigerator and home freezer manufacturing (0.0728) has the highest plastic intensity and motor vehicle parts manufacturing uses
+the highest value of plastic packaging materials in production. Policymakers wishing to reduce the amount of plastic packaging materials in the economy would need to target
+Fig. 6 Plastic packaging materials intensity and value of plastic packaging materials used as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: household refrigerator and home freezer manufacturing (HH Ref. & H F Man.); blind and shade manufacturing (B & S Man.); doll, toy and game manufacturing (D T & G Man.); all other paper bag and coated and treated paper manufacturing (PB & C & T Paper Man.); used and second-hand goods (U & Sg Man.); motor vehicle parts manufacturing (MV Parts Man.); general state and local government services (G S & L Gov. Ser.); light truck and utility vehicle manufacturing (Lt & Uv Man.); retail trade (R Trade); and wholesale trade (W Trade)
+HH Ref. & H F Man.
+B & S Man.
+D T & G Man.
+PB & C & T Paper Man.
+U & Sg Man.
+MV Parts Man.
+G S & L Gov. Ser.
+Lt & Uv Man.
+R Trade
+W Trade
+0
+1
+2
+3
+4
+5
+6
+0 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08
+Value of Plastic Input (billions USD)
+Plastic Intensity (value of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: household refrigerator and home freezer
+manufacturing (HH Ref. & H F Man.); blind and shade manufacturing (B & S Man.); doll, toy, and game manufacturing (D
+T & G Man.); all other paper bag and coated and treated paper manufacturing (PB & C & T Paper Man.); used and second
+hand goods (U & Sg Man.); motor vehicle parts manufacturing (MV Parts Man.); general state and local government
+services (G S & L Gov. Ser.); light truck and utility vehicle manufacturing (Lt & Uv Man.); retail trade (R Trade); and
+wholesale trade (W Trade).
+Fig. 7 Polystyrene intensity and value of polystyrene as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: used and secondhand goods (U & Sg Man.); scrap (Scrap); food services and drinking places (F Ser. & D Places); other support services (O S Ser.); footwear manufacturing (F Man.); residential permanent site single- and multi-family structures (Res. P S & M Struc.); wholesale trade (W Trade); general state and local government services (G S & L Gov. Ser.); retail trade (R Trade); and other non-residential structures (O N Struc.)
+U & Sg Man. Scrap
+F Ser. & D Places
+O S Ser. F Man.
+W Trade
+G S & L Gov. Ser. R Trade O N Struc. Res. P S & M Struc.
+0
+0.5
+1
+1.5
+2
+2.5
+3
+0 0.002 0.004 0.006 0.008 0.01 0.012 0.014 0.016 0.018 0.02
+Value of Plastic Input (billions USD)
+Plastic Intensity (value of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: used and second-hand goods (U & Sg
+Man.); scrap (Scrap); food services and drinking places (F Ser. & D Places); other support services (O S Ser.); footwear
+manufacturing (F Man.); residential permanent site single- and multi-family structures (Res. P S & M Struc.); wholesale
+trade (W Trade); general state and local government services (G S & L Gov. Ser.); retail trade (R Trade); and other non
+residential structures (O N Struc.).
+
+
+24 D. White, N. Winchester
+13
+a diverse selection of industries as our results indicate that there is not an obvious industry or group of industries to focus on. It could be an effective strategy to focus on the industries which use a relatively high value of plastic packaging materials in production, including motor vehicle parts
+manufacturing, general state and local government services, light truck and utility vehicle manufacturing and retail and wholesale trade. Reducing plastic use in these industries would likely cause the largest reduction in the volume of plastic packaging materials entering the environment.
+Fig. 8 Plastic resin intensity and value of plastic resin used as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: nonwoven fabric mills (Nf Mills); paint and coating manufacturing (P & C Man.); scrap (Scrap); used and secondhand goods (U & Sg Man.); doll, toy and game manufacturing (D T & G Man.); motor vehicle parts manufacturing (MV Parts Man.); general state and local government services (G S & L Gov. Ser.); light truck and utility vehicle manufacturing (Lt & Uv Man.); all other chemical product and preparation manufacturing (A CP & P Man.); and reconstituted wood product manufacturing (Recon. WP Man.)
+Nf Mills
+P & C Man.
+U & Sg Man. Scrap
+D T & G Man.
+MV Parts Man.
+G S & L Gov. Ser. Lt & Uv Man. A CP & P Man.
+Recon. WP Man.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+0 0.02 0.04 0.06 0.08 0.1 0.12 0.14
+V alue of Plastic Input (billions USD)
+Plastic Intensity (value of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: nonwoven fabric mills (Nf Mills); paint and
+coating manufacturing (P & C Man.); scrap (Scrap); used and second-hand goods (U & Sg Man.); doll, toy, and game
+manufacturing (D T & G Man.); motor vehicle parts manufacturing (MV Parts Man.); general state and local government
+services (G S & L Gov. Ser.); light truck and utility vehicle manufacturing (Lt & Uv Man.); all other chemical product and
+preparation manufacturing (A CP & P Man.); and reconstituted wood product manufacturing (Recon. WP Man.).
+Fig. 9 Synthetic rubber intensity and value of synthetic rubber used as an input (10 highest plastic intensive and value of plastic input industries). Note: the industry names for the abbreviations used in the figure are as follows: tire manufacturing (T Man.); other rubber product manufacturing (O RP Man.); gasket, packing and sealing device manufacturing (G, P & SD Man.); all other miscellaneous manufacturing (A O M Man.); sporting and athletic goods manufacturing (S & AG Man.); light truck and utility vehicle manufacturing (Lt & Uv Man.); automobile manufacturing (A Man.); motor vehicle parts manufacturing (MV Parts Man.); general state and local government services (G S & L Gov. Ser.); and surgical appliance and supplies manufacturing (SA & S Man.)
+T Man.
+O RP Man.
+G, P & SD Man.
+A O M Man.
+S & AG Man.
+Lt & Uv Man.
+MV Parts Man.
+G S & L Gov. Ser.
+SA & S Man. A Man.
+0
+0.5
+1
+1.5
+2
+2.5
+3
+0 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09
+Value of Plastic Input (billions USD)
+Plastic Intensity (value of plastic input per dollar of output)
+Note: the industry names for the abbreviations used in the figure are as follows: tire manufacturing (T Man.); other rubber
+product manufacturing (O RP Man.); gasket, packing, and sealing device manufacturing (G, P & SD Man.); all other
+miscellaneous manufacturing (A O M Man.); sporting and athletic goods manufacturing (S & AG Man.); light truck and
+utility vehicle manufacturing (Lt & Uv Man.); automobile manufacturing (A Man.); motor vehicle parts manufacturing (MV
+Parts Man.); general state and local government services (G S & L Gov. Ser.); and surgical appliance and supplies
+manufacturing (SA & S Man.).
+
+
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic 25
+13
+Figure 7 plots the industries which use polystyrene the most intensively and use the highest value of polystyrene as an input. It includes a mix of industries related to trade, food and drink, clothing and support services. The two most polystyrene intensive industries are scrap (0.0182) and used and second-hand goods (0.0182). The next most intensive industry is food services and drinking places (0.0053) which also uses the highest value of polystyrene in production. Scrap and used and second-hand goods both use a very low value of polystyrene in production. An efficient way of reducing polystyrene in the economy would be to initially incentivise food services and drinking places away from using direct and indirect polystyrene inputs. A longer term approach could then focus on other industries included in Fig. 7, prioritising the industries which use a higher value of polystyrene first, such as wholesale trade, and working down until the majority of industries are incentivised to use non-plastic alternatives. Figure 8 shows the five most plastic resin intensive industries and the five industries which use the highest value of plastic resin as an input. The figure includes industries related to clothing and fabric manufacturing, chemical manufacturing, motor vehicles, scrap and government services. The most plastic resin intensive industry is nonwoven fabric mills (0.1164), followed by paint and coating manufacturing (0.1085) and used and second-hand goods (0.0984). The industries which use the highest value of plastic resin in production are motor vehicle parts manufacturing, general state and local government services and light truck and utility vehicle manufacturing. Policy makers and consumers looking to reduce the pollution from plastic resin should initially focus on all other chemical product and preparation manufacturing as well as paint and coating manufacturing, as they have a relatively high plastic resin intensity and use a relatively high value of plastic resin as an input. The industries which use synthetic rubber the most intensively and use the highest value of synthetic rubber as an input are shown in Fig. 9. These industries are related to tire manufacturing, motor vehicles, plumbing, sporting goods and surgical equipment. The most synthetic rubber intensive industry and the industry which uses the highest value of synthetic rubber as an input is tire manufacturing (0.0814). Other rubber product manufacturing (0.0545) uses the second highest value of synthetic rubber and is the second most synthetic rubber intensive industry. There is then a relatively large decrease in both intensity and value of synthetic rubber used for the remaining industries. This indicates that to reduce the amount of synthetic rubber in the economy, tire manufacturing and other rubber product manufacturing would be efficient industries to incentivise away from using synthetic rubber as a direct and indirect input to production.
+5 Discussion andConclusion
+In recent years, there have been policies and actions around the world introduced to try and tackle plastic pollution. Examples of this, as described by Howard et al. [47], include Canada’s plan to remove single-use plastics by 2021 (e.g. plastic straws, plastic bags, plastic cutlery and plastic plates); Peru’s policy to ban single-use plastics at its natural and cultural protected areas; the city of San Diego’s ban on polystyrene food and drink containers; Washington D.C.’s ban on plastic straws; the approval of a reduction in singleuse plastics by the European Union parliament (e.g. plastic straws, cotton buds, plastic cutlery and food containers); and the goal of American Airlines to reduce single-use plastics in its lounges. Policies to date may have been focusing on the wrong industries due to the lack of attention given to plastic-using industries which do not directly interact with the public. To adequately address this problem, there should be an understanding of the industries which produce the most plastic and the industries which use the most plastic in production. Highly intensive, high-value share products are the obvious plastic type-industry combinations for policy makers to address. We looked at plastic use in production by determining the plastic intensity of industries in the USA using an input–output dataset. In determining these plastic intensities, we found that there is at least some use of plastics across all industries. We split our analysis into a general plastics overview and a polluting plastics investigation. Our results indicate that plastics are used intensively in clothing and fabric manufacturing–related industries. The public perception, based on plastic-related policy, is that food and drink–related industries are the most plastic intensive due to their conspicuous use of packaging plastics such as plastic bags. Food and drink–related industries are most prominent in the plastic bottles analysis. They represent 10% of the top 20 plastic intensive industries and 5% of the top 20 polluting plastic intensive industries. Food and drink–related industries are plastic intensive for some plastic commodities but they do not dominate the list of the most plastic intensive industries as might be expected. They mostly use plastic bottles, coated paper and plastic film and polystyrene intensively. According to Geyer et al. [3], Erni-Cassola et al. [29], and Morét-Ferguson et al. [30], these plastic commodities are contributors to environmental pollution, especially in the waterways. However, while their environmental impacts should not be understated, in our results, with regard to plastic intensity measured in value terms, plastic bottles, coated paper and plastic film and polystyrene are much less prevalent compared to plastic fibres and filaments.
+
+
+26 D. White, N. Winchester
+13
+Clothing and fabric manufacturing–related industries are highly plastic intensive, especially for plastic fibres and filaments. Collectively, they represent 45% of the top 20 plastic intensive industries and 55% of the top 20 polluting plastic intensive industries. Most of the clothing and fabric–related industries use a relatively large amount of plastic fibres and filaments as an input, which includes substances like polyester and nylon [48]. According to the research by Woodall et al. [25], Browne et al. [26] and Dris et al. [27], these types of plastic are a major source of microplastics in the environment and they have potential human health impacts from their presence in the air. Given these negative impacts, it is concerning that plastic fibres and filaments have the highest plastic intensity value for a single industry and were the second most intensively used plastic commodity, on average, in the dataset. Our analysis indicates that, compared to other sectors, clothing and fabric–related industries are not only plastic fibres and filaments intensive but they use a relatively high value of these microplastics in production. Policies focused on reducing plastic inputs in clothing and fabric–related industries could cause a significant reduction in these man-made fibres. The scrap industry and the used and second-hand goods industry are highly plastic intensive for a number of plastic commodities. This suggests that these industries could be relatively high users of plastics as inputs compared to their output and are potentially being overlooked when it comes to plastic-related policy. It is more likely that because scrap and used and second-hand goods are lowvalue industries, a dollar of plastic used in these industries will be a high proportion of output relative to other industries. This is why we compare plastic intensity with the value of plastic as an input for each of the polluting plastics. The novelty of this research was using a multi-commodity input–output dataset to determine plastic intensity and total plastic use by plastic commodity and industry for 13 types of plastic. Industries that use plastic intensively and use a large amount of plastic as an input represent low hanging fruit for policy makers. Some of these industries include carpet and rug mills and fibre, yarn and thread mills for plastic fibres and filaments; soft drink and ice manufacturing for plastic bottles; printing for coated paper and plastic film; food services and drinking places for polystyrene; all other chemical product and preparation manufacturing and paint and coating manufacturing for plastic resin; and tire manufacturing and other rubber product manufacturing for synthetic rubber. A notable finding is that many clothing and fabric–related industries are highly plastic intensive. These industries have received less attention from policy makers and consumers wishing to reduce plastic pollution than industries that use a large amount of consumer-facing plastics.
+Our results demonstrate the value of using input–output data to determine plastic intensity but future research could improve the calculation of embodied plastics in several ways. First, input–output datasets could display more detailed plastic commodities as well as provide a higher number of countries with plastic commodities described. Second, the development of a comprehensive auxiliary dataset for converting the value of plastic commodities into plastic volumes would assist the calculation of environmental impacts. Such data would, for different types of plastic, track plastic use in physical units (metric tonnes) as has been done for carbon dioxide emissions linked to fossil fuel use for climate policy analysis. Finally, future research would also benefit from more information on import and export flows of plastics including information on the specific plastics and countries involved.
+Supplementary Information The online version contains supplementary material available at https://doi.org/10.1007/s10666-022-09848-z.
+Acknowledgements The authors thank those who attended Auckland University of Technology’s Postgraduate Seminar series as well as the New Zealand Association of Economists Virtual PhD Workshop for their comments and feedback. Any errors are the authors’ responsibility.
+Author Contribution Both authors contributed to the study conception and design. Data cleaning and analysis were performed by DW with support from NW. The first draft of the manuscript was written by DW, and NW commented on previous versions of the manuscript. Both authors read and approved the final manuscript.
+Funding Open Access funding enabled and organized by CAUL and its Member Institutions.
+Data Availability The data analysed in this study are available as part of the Eora Global Supply Chain Database, retrieved from https://worldmrio. com/. The data is referenced as [22] and [23] in the reference list.
+Code Availability Custom code in the General Algebraic Modeling System (GAMS) was written for this study. It is available on request.
+Declarations
+Ethics Approval Not applicable.
+Consent to Participate Not applicable.
+Consent to Publish Not applicable.
+Conflict of Interest The authors declare no competing interests.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated
+
+
+The Plastic Intensity of Industries in the USA: The Devil Wears Plastic 27
+13
+otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+1. Saxton, A. (2019). NZ plastic bag ban: The exemptions and the rules explained. Stuff. Retrieved August 20, 2021, from https:// www.stuff.co.nz/national/113845919/nz-plastic-bag-ban-theexemptions-and-the-rules-explained
+2. United Nations. (2022). Nations sign up to end global scourge of plastic pollution. UN News Global perspective Human stories. Retrieved March 3, 2022, from https://news.un.org/en/story/2022/ 03/1113142 3. Geyer, R., Jambeck, J., & Law, K. L. (2017). Production, use, and fate of all plastics ever made. Science Advances, 3(7), e1700782. https://doi.org/10.1126/sciadv.1700782 4. Jambeck, J. R., Geyer, R., Wilcox, C., Siegler, T. R., Perryman, M., Andrady, A., Narayan, R., & Law, K. L. (2015). Plastic waste inputs from land into the ocean. Science, 347(6223), 768–771. https://doi.org/10.1126/science.1260352 5. Zalasiewicz, J., Waters, C. N., do Sul, J. A. I., Corcoran, P. L., Barnosky, A. D., Cearreta, A., Edgeworth, M., Gałuszkah, A., Jeandel, C., Leinfelder, R., McNeill, J. R., Steffen, W., Summerhayes, C., Wagreich, M., Williams, M., Wolfe, A. P., & Yonan, Y. (2016). The geological cycle of plastics and their use as a stratigraphic indicator of the Anthropocene. Anthropocene, 13, 4–17. https://doi.org/10. 1016/j.ancene.2016.01.002 6. Corcoran, P., Moore, C. J., & Jazvac, K. (2014). An anthropogenic marker horizon in the future rock record. GSA Today, 24(6), 4–8. https://doi.org/10.1130/GSAT-G198A.1 7. Cordier, M., Uehara, T., Baztan, J., Jorgensen, B., & Yan, H. (2021). Plastic pollution and economic growth: The influence of corruption and lack of education. Ecological Economics, 182, 106930. https://doi.org/10.1016/j.ecolecon.2020.106930 8. Zapata, O. (2021). The relationship between climate conditions and consumption of bottled water: A potential link between climate change and plastic pollution. Ecological Economics, 187, 107090. https://doi.org/10.1016/j.ecolecon.2021.107090 9. Abate, T. G., Börger, T., Aanesen, M., Falk-Andersson, J., Wyles, K. J., & Beaumont, N. (2020). Valuation of marine plastic pollution in the European Arctic: Applying an integrated choice and latent variable model to contingent valuation. Ecological Economics, 169, 106521. https://doi.org/10.1016/j.ecolecon.2019.106521 10. McNicholas, G., & Cotton, M. (2019). Stakeholder perceptions of marine plastic waste management in the United Kingdom. Ecological Economics, 163, 77–87. https://doi.org/10.1016/j. ecolecon.2019.04.022 11. Gielen, D. J., & Moriguchi, Y. (2002). Modelling of material policies. Environmental Modeling and Assessment, 7, 231–241. https://doi.org/10.1023/A:1020962804172 12. Cosmi, C., Cuomo, V., Macchiato, M., Mangiamele, L., Masi, S., & Salvia, M. (2000). Waste management modeling by MARKAL model: A case study for Basilicata Region. Environmental Modeling and Assessment, 5, 19–27. https://doi.org/ 10.1023/A:1019093107590 13. Chambal, S., Shoviak, M., & Thal, A. E. (2003). Decision analysis methodology to evaluate integrated solid waste management alternatives. Environmental Modeling and Assessment, 8, 25–34. https://doi.org/10.1023/A:1022404016435 14. Almroth, B. C., & Eggert, H. (2019). Marine Plastic Pollution: Sources, Impacts, and Policy Issues. Review of Environmental
+Economics and Policy, 13(2), 317–326. https://doi.org/10.1093/ reep/rez012 15. Nakamura, S. (1999). Input-output analysis of waste cycles. In Proceedings First International Symposium on Environmentally Conscious Design and Inverse Manufacturing (pp. 475–480). https://doi.org/10.1109/ECODIM.1999.747659 16. Nakamura, S., & Kondo, Y. (2002). Recycling, landfill consumption, and CO2 emission: Analysis by waste input-output model. Journal of Material Cycles and Waste Management, 4(1), 2–11. https://doi.org/10.1007/s10163-001-0052-0 17. Nakamura, S., & Kondo, Y. (2002). Input-output analysis of waste management. Journal of Industrial Ecology, 6(1), 39–63. https:// doi.org/10.1162/108819802320971632 18. Nakamura, S., Nakajima, K., Kondo, Y., & Nagasaka, T. (2007). The Waste Input-Output Approach to Materials Flow Analysis. Journal of Industrial Ecology, 11(4), 50–63. https://doi.org/10. 1162/jiec.2007.1290 19. Lenzen, M., & Reynolds, C. J. (2014). A supply-use approach to waste input-output analysis. Journal of Industrial Ecology, 18(2), 212–226. https://doi.org/10.1111/jiec.12105 20. Fry, J., Lenzen, M., Giurco, D., & Pauliuk, S. (2015). An Australian multi-regional waste supply-use framework. Journal of Industrial Ecology, 20(6), 1295–1305. https://doi.org/10.1111/ jiec.12376 21. Pomponi, F., Li, M., Saint, R., Lenzen, M., & D’Amico, B. (2022). Environmental benefits of material-efficient design: A hybrid life cycle assessment of a plastic milk bottle. Sustainable Production and Consumption, 30, 1044–1052. https://doi.org/10.1016/j.spc. 2022.01.028 22. Lenzen, M., Kanemoto, K., Moran, D., & Geschke, A. (2012). Mapping the structure of the world economy. Environmental Science & Technology, 46(15), 8374–8381. https://doi.org/10.1021/ es300171x 23. Lenzen, M., Moran, D., Kanemoto, K., & Geschke, A. (2013). Building Eora: A Global Multi-Regional Input-Output Database at High Country and Sector Resolution. Economic Systems Research, 25(1), 20–49. https://doi.org/10.1080/09535314.2013.769938 24. Parker, L. (2019). The world's plastic pollution crisis explained. Washington, D.C., United States: National Geographic. Retrieved September 1, 2021, from https://www.nationalgeographic.com/ environment/article/plastic-pollution 25. Woodall, L. C., Sanchez-Vidal, A., Canals, M., Paterson, G. L. J., Coppock, R., Sleight, V., Calafat, A., Rogers, A. D., Narayanaswamy, B. E., & Thompson, R.C. (2014). The deep sea is a major sink for microplastic debris. Royal Society Open Science, 1(4), 140317. https://doi.org/10.1098/rsos.140317 26. Browne, M. A., Crump, P., Niven, S. J., Teuten, E., Tonkin, A., Galloway, T., & Thompson, R. (2011). Accumulation of Microplastic on Shorelines Worldwide: Sources and Sinks. Environmental Science and Technology, 45, 9175–9179. https://doi.org/ 10.1021/es201811s 27. Dris, R., Gasperi, J., Mirande, C., Mandin, C., Guerrouache, M., Langlois, V., & Tassin, B. (2016). A first overview of textile fibers, including microplastics, in indoor and outdoor environments. Environmental Pollution, 221, 453–458. https://doi.org/10.1016/j. envpol.2016.12.013 28. The Fiber Year Consulting. (2017). The Fiber Year 2017 World Survey on Textiles & NonWovens (Issue 17). The Fiber Year Consulting. Retrieved September 10, 2021, from https://www. thefiberyear.com/fileadmin/pdf/TFY2017_TOC.pdf 29. Erni-Cassola, G., Zadjelovic, V., Gibson, M. I., & Christie-Oleza, J. A. (2019). Distribution of plastic polymer types in the marine environment: A meta-analysis. Journal of Hazardous Materials, 369, 691–698. https://doi.org/10.1016/j.jhazmat.2019.02.067 30. Morét-Ferguson, S., Law, K. L., Proskurowski, G., Murphy, E. K., Peacock, E. E., & Reddy, C. M. (2010). The size, mass, and
+
+
+28 D. White, N. Winchester
+13
+composition of plastic debris in the western North Atlantic Ocean. Marine Pollution Bulletin, 60, 1873–1878. https://doi.org/10. 1016/j.marpolbul.2010.07.020 31. Creative Mechanisms. (2016). Everything You Need To Know About Polypropylene (PP) Plastic. Retrieved September 6, 2021, from https://www.creativemechanisms.com/blog/allabout-polypropylene-pp-plastic
+32. Rogers, T. (2015). Everything You Need To Know About Polyethylene (PE). Creative Mechanisms. Retrieved September 3, 2021, from https://www.creativemechanisms.com/blog/polyethylene-pefor-prototypes-3d-printing-and-cnc 33. Creative Mechanisms. (2016). Everything You Need To Know About PVC Plastic. Retrieved September 6, 2021, from https:// www.creativemechanisms.com/blog/everything-you-need-toknow-about-pvc-plastic 34. PlasticsEurope. (2021). Polystyrene. Retrieved September 3, 2021, from https://plasticseurope.org/plastics-explained/a-large-family/ polystyrene-2/ 35. Encyclopaedia Britannica. (2009). Polyester chemical compound. Retrieved September 7, 2021, from https://www.britannica.com/ science/polyester
+36. PETRA. (2015). An Introduction to PET (polyethylene terephthalate). Retrieved September 4, 2021, from http://www.petresin.org/ news_introtoPET.asp 37. Creative Mechanisms. (2016). Everything You Need To Know About About Nylon (PA). Retrieved September 5, 2021, from https://www.creativemechanisms.com/blog/3d-printing-injectionmolding-cnc-nylon-plastic-pa 38. Encyclopaedia Britannica. (2009). Acrylic chemistry. Retrieved September 7, 2021, from https://www.britannica.com/science/ acrylic 39. Leontief, W., & Ford, D. (1970). Environmental repercussions and the economic structure: An input-output approach. The Review of Economics and Statistics, 52(3), 262–271. https://doi.org/10.2307/ 1926294 40. Hertwich, E. G., & Peters, G. P. (2009). Carbon footprint of nations: A global trade-linked analysis. Envrionmental Science
+and Technology, 43(16), 6414–6420. https://doi.org/10.1021/ es803496a 41. Aguiar, A., Chepeliev, M., Corong, E., McDougall, R., & van der Mensbrugghe, D. (2019). The GTAP Data Base: Version 10. Journal of Global Economic Analysis, 4(1), 1–27. https://doi.org/ 10.21642/JGEA.040101AF 42. Aguiar, A., Narayanan, B., & McDougall, R. (2016). An Overview of the GTAP 9 Data Base. Journal of Global Economic Analysis, 1(1), 181–208. https://doi.org/10.21642/JGEA.010103AF 43. Bullard, C. W., Penner, P. S., & Pilati, D. (1978). Net energy analysis: Handbook for combining process and input-output analysis. Resources and Energy, 1(3), 267–313. https://doi.org/10.1016/ 0165-0572(78)90008-7 44. Heijungs, R., & Suh, S. (2002). The computational structure of life cycle assessment. Kluwer Academic Publishers. 45. Suh, S., Lenzen, M., Treloar, G. J., Hondo, H., Horvath, A., Huppes, G., Jolliet, O., Klann, U., Krewitt, W., Moriguchi, Y., Munksgaard, J., & Norris, G. (2003). System boundary selection in life-cycle inventories using hybrid approaches. Environmental Science and Technology, 38(3), 657–664. https://doi.org/10.1021/ es0263745 46. Lenzen, M., & Rueda-Cantuche, J. M. (2012). A note on the use of supply-use tables in impact analyses. Statistics and Operations Research Transactions, 36(2), 139–152.
+47. Howard, B. C., Gibbens, S., Zachos, E., & Parker, L. (2019). A running list of action on plastic pollution. Washington, D.C., United States: National Geographic and National Geographic Society. Retrieved from September 10, 2021, https://www.nationalgeographic.com/ environment/article/ocean-plastic-pollution-solutions 48. NAICS. (2018). NAICS/SIC Search Results. Retrieved August 10, 2021, from https://www.naics.com/code-search
+Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

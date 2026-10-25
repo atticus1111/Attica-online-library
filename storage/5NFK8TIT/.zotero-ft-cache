@@ -1,0 +1,1663 @@
+Notes on String Topology
+Ralph L. Cohen 1 Department of Mathematics Stanford University Building 380 Stanford, CA 94305-2125 ralph@math.stanford.edu
+Alexander A. Voronov 1 School of Mathematics University of Minnesota 206 Church St. S.E. Minneapolis, MN 55455 voronov@umn.edu
+March 23, 2005
+1Partially supported by a grant from the NSF.
+
+
+ii
+
+
+Contents
+1 Intersection theory in loop spaces 3 1.1 Intersections in compact manifolds . . . . . . . . . . . . . . . . . . 4 1.2 The Chas-Sullivan loop product . . . . . . . . . . . . . . . . . . . . 6 1.3 The BV structure and the string bracket . . . . . . . . . . . . . . . 8 1.4 A stable homotopy point of view . . . . . . . . . . . . . . . . . . . 13 1.5 Relation to Hochschild cohomology . . . . . . . . . . . . . . . . . 17
+2 The cacti operad 21 2.1 PROPs and operads . . . . . . . . . . . . . . . . . . . . . . . . . . 21 2.1.1 PROP’s . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21 2.1.2 Algebras over a PROP . . . . . . . . . . . . . . . . . . . . . 22 2.1.3 Operads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 2.1.4 Algebras over an operad . . . . . . . . . . . . . . . . . . . . 24 2.1.5 Operads via generators and relations . . . . . . . . . . . . . 32 2.2 The cacti operad . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 2.3 The cacti action on the loop space . . . . . . . . . . . . . . . . . . 38 2.3.1 Action via correspondences . . . . . . . . . . . . . . . . . . 39 2.3.2 The BV structure . . . . . . . . . . . . . . . . . . . . . . . 41
+3 String topology as field theory 43 3.1 Field theories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 3.1.1 Topological Field Theories . . . . . . . . . . . . . . . . . . . 43 3.1.2 (Topological) Conformal Field Theories . . . . . . . . . . . 47 3.1.3 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47 3.1.4 Motivic TCFTs . . . . . . . . . . . . . . . . . . . . . . . . . 49 3.2 Generalized string topology operations . . . . . . . . . . . . . . . . 49 3.3 Open-closed string topology . . . . . . . . . . . . . . . . . . . . . . 57
+4 A Morse theoretic viewpoint 63 4.1 Cylindrical gradient graph flows . . . . . . . . . . . . . . . . . . . . 63 4.2 Cylindrical holomorphic curves in T ∗M . . . . . . . . . . . . . . . . 68
+iii
+
+
+5 Brane topology 75 5.1 The higher-dimensional cacti operad . . . . . . . . . . . . . . . . . 75 5.2 The cacti action on the sphere space . . . . . . . . . . . . . . . . . 77 5.3 The algebraic structure on homology . . . . . . . . . . . . . . . . . 78 5.4 Sphere spaces and Hochschild homology . . . . . . . . . . . . . . . 80 5.4.1 Brane topology and Kontsevich’s Hochschild cohomology conjecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+
+
+Introduction
+String topology is the study of algebraic and differential topological properties of spaces of paths and loops in manifolds. It was initiated by the beautiful paper of Chas and Sullivan [CS99] in which algebraic structures in both the nonequivariant and equivariant homology (and indeed chains) of the (free) loop space, LM , of a closed, oriented manifolds were uncovered. This has lead to considerable work by many authors over the past five years. The goals of this paper are twofold. First, this paper is meant to be an introduction to this new and exciting field. Second, we will attempt to give a “status report”. That is, we will describe what has been learned over the last few years, and also give our views about future directions of research. This paper is a joint account of each of the author’s lecture series given at the 2003 Summer School on String Topology and Hochschild Homology, in Almer ́ıa, Spain.
+In our view there are two basic reasons for the excitement about the development of string topology. First, it uses most of the modern techniques of algebraic topology, and relates them to several other areas of mathematics. For example, the description of the structure involved in the string topology operations uses such concepts as operads, PROPs, field theories, and Gerstenhaber and BatalinVilkovisky algebras. The fundamental role played by moduli spaces of Riemann surfaces in string topology, relates it to basic objects of study in algebraic and symplectic geometry. Techniques in low dimensional topology such as the use of graphs to study these moduli spaces are also used in an essential way. Moreover there are both formal and computational relationships between string topology and Gromov-Witten theory that are only beginning to be uncovered. GromovWitten theory is a basic tool in string theory, algebraic geometry, and symplectic geometry, and understanding its relationship to string topology is an exciting area of current and probably future research. The second reason for the attention the development of string topology has been receiving has to do with the historical significance, in both mathematics and physics, played by spaces of paths and loops in manifolds. The systematic study of the differential topology of path and loop spaces began in the 1930’s with Morse, who used his newly developed theory of “calculus of variations in the large” to prove among other things that for any Riemannian metric on the
+1
+
+
+2 CONTENTS
+n-sphere, there are an infinite number of geodesics connecting any two points. In the 1950’s, R. Bott studied Morse theory on the loop spaces of Lie groups and symmetric spaces to prove his celebrated periodicity theorem. In the 1970’s and 1980’s, the K-theoretic tools developed by Waldhausen to study diffeomorphisms of high dimensional manifolds were found to be closely related to the equivariant stable homotopy type of the free loop space. Finally, within the development of string theory in physics, the basic configuration spaces are spaces of paths and loops in a manifold. Some of the topological issues this theory has raised are the following.
+1. What mathematical structure should the appropriate notions of field and field strength have in this theory? This has been addressed by the notion of a “B-field”, or a “gerbe with connection”. These are structures on principal bundles over the loop space.
+2. How does one view elliptic operators, such as the Dirac operator, on the loop space of a manifold? The corresponding index theory has been developed in the context of elliptic cohomology theory.
+3. How does one understand geometrically and topologically, intersection theory in the infinite dimensional loop space and path space of a manifold?
+It is this last question that is the subject of string topology. The goal of these notes is to give an introduction to the exciting developments in this new theory. They are organized as follows. In Chapter 1 we review basic intersection theory, including the Thom-Pontrjagin construction, for compact manifolds. We then develop and review the results and constructions of Chas and Sullivan’s original paper. In Chapter 2 we review the concepts of operads and PROPS, discuss many examples, and study in detail the important example of the “cacti operad”, which plays a central role in string topology. In Chapter 3 we discuss field theories in general, and the field theoretic properties of string topology. Included are discussions of “fat graphs”, and how they give a model for the moduli space of Riemann surfaces, and of “open-closed” string topology, which involves spaces of paths in a manifold with prescribed boundary conditions. In Chapter 4 we discuss a Morse theoretic interpretation of string topology, incorporating the classical energy functional on the loop space, originally studied by Morse himself. In this chapter we also discuss how this perspective suggests a potentially deep relationship with the Gromov-Witten theory of the cotangent bundle. Finally in Chapter 5 we study similar structures on spaces of maps of higher dimensional spheres to manifolds.
+Acknowledgments . We are very grateful to David Chataur, Jos ́e Luis Rodr ́ıguez, and J ́erˆome Scherer for organizing and inviting us to participate in such an active and inspiring summer school.
+
+
+Chapter 1
+Intersection theory in loop
+spaces
+String topology is ultimately about the differential and algebraic topology of spaces of paths and loops in compact, oriented manifolds. The basic spaces of paths that we consider are C∞(R, M ), C∞([0, 1], M ), which we denote by P(M ), C∞(S1, M ), which we denote by LM , and Ω(M, x0) = {α ∈ LM : α(0) = x0}. By the C∞ notation we actually mean spaces of piecewise smooth maps. For example a map f : [x0, xk] → M is piecewise smooth if f is continuous and if there exists x0 < x1 < · · · < xk−1 < xk with f|(xi,xi+1) infinitely differentiable for all i. These spaces of paths are infinite dimensional smooth manifolds. See, for example [Kli82].
+The most basic algebraic topological property of closed, oriented manifolds is Poincare duality. This manifests itself in a homological intersection theory. In their seminal paper, [CS99], Chas and Sullivan showed that certain intersection constructions also exist in the chains and homology of loop spaces of closed, oriented manifolds. This endows the homology of the loop space with a rich structure that goes under the heading of “string topology”.
+In this chapter we review Chas and Sullivan’s constructions, as well as certain homotopy theoretic interpretations and generalizations found in [CJ02], [CG04]. In particular we recall from [Coh04b] the ring spectrum structure in the Atiyah dual of a closed manifold, which realizes the intersection pairing in homology, and recall from [CJ02] the existence of a related ring spectrum realizing the Chas-Sullivan intersection product (“loop product”) in the homology of a loop space. We also discuss the relationship with Hochschild cohomology proved in [CJ02], and studied further by [Mer03], [FMT02], as well as the homotopy invariance properties proved in [CKS05]. We begin by recalling some basic facts about intersection theory in finite dimensions.
+3
+
+
+4 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+1.1 Intersections in compact manifolds
+Let e : P p ⊂ M d be an embedding of closed, oriented manifolds of dimensions p and n respectively. Let k be the codimension, k = d − p. Suppose θ ∈ Hq(M d) is represented by an oriented manifold, f : Qq → M d. That is, θ = f∗([Q]), where [Q] ∈ Hq(Q) is the fundamental class. We may assume that the map f is transverse to the submanifold P ⊂ M , otherwise we perturb f within its homotopy class to achieve transversality. We then consider the “pullback” manifold
+Q ∩ P = {x ∈ Q : f (x) ∈ P ⊂ M }.
+This is a dimension q − k manifold, and the map f restricts to give a map f : Q ∩ P → P . One therefore has the induced homology class,
+e!(θ) = f∗([Q ∩ P ]) ∈ Hq−k(P ).
+More generally, on the chain level, the idea is to take a q-cycle in M , which is transverse to P in an appropriate sense, and take the intersection to produce a q − k-cycle in P . Homologically, one can make this rigorous by using Poincare duality, to define the intersection or “umkehr” map,
+e! : Hq(M ) → Hq−k(P )
+by the composition
+e! : Hq(M ) ∼= Hd−q(M ) −e∗ → Hd−q(P ) ∼= Hq−k(P )
+where the first and last isomorphisms are given by Poincare duality.
+Perhaps the most important example is the diagonal embedding,
+∆ : M → M × M.
+If we take field coefficients, the induced umkehr map is the intersection pairing
+μ = ∆! : Hp(M ) ⊗ Hq(M ) → Hp+q−d(M ).
+Since the diagonal map induces cup product in cohomology, the following diagram commutes:
+Hp(M ) ⊗ Hq(M ) μ
+−−−−→ Hp+q−d(M )
+P.D
+y
+yP.D
+H d−p × H d−q cup
+−−−−→ H2d−p−q
+In order to deal with the shift in grading, we let H∗(M ) = H∗+d(M ). So H∗(M ) is nonpositively graded.
+
+
+1.1. INTERSECTIONS IN COMPACT MANIFOLDS 5
+Proposition 1.1.1. Let k be a field, and M d an closed, oriented, connected manifold. Then H∗(M d; k) is an associative, commutative graded algebra over k, together with a map : H∗(M ; k) → k such that the composition
+H∗(M ) × H∗(M ) μ
+−−−−→ H∗(M ) −−−−→ k
+is a nonsingular bilinear form. If k = Z/2 the orientation assumption can be dropped.
+In this proposition the map : Hq(M ) → k is zero unless q = −d, in which case it is the isomorphism
+H−d(M ) = H0(M ) ∼= k.
+Such an algebraic structure, namely a commutative algebra A together with a map : A → k making the pairing 〈a, b〉 = (a · b) a nondegenerate bilinear form, is called a Frobenius algebra.
+We leave to the reader the exercise of proving the following, (see [Abr96]).
+Proposition 1.1.2. A k-vector space A is a Frobenious algebra if and only if it is an commutative algebra with unit, it is a co-algebra
+∆:A→A⊗A
+with co-unit : A → k, so that ∆ is a map of A- bimodules.
+Intersection theory can also be realized by the “Thom collapse” map. Consider again the embedding of compact manifolds, e : P ↪→ M , and extend e to a tubular neighborhood, P ⊂ ηe ⊂ M . Consider the projection map,
+τe : M → M/(M − ηe). (1.1)
+Notice that M/(M − ηe) is the one point compactification of the tubular neighbor
+hood, M/(M − ηe) ∼= ηe ∪ ∞. Furthermore, by the tubular neighborhood theorem,
+this space is homeomorphic to the Thom space P νe of the normal bundle, νe → P ,
+M/(M − ηe) ∼= ηe ∪ ∞ ∼= P νe .
+So the Thom collapse map can be viewed as a map,
+τe : M → P νe . (1.2)
+Then the homology intersection map e! is equal to the composition,
+e! : Hq(M ) (τe)∗
+−−−→ Hq(P νe ) ∼= Hq−k(P ) (1.3)
+where the last isomorphism is given by the Thom isomorphism theorem. In fact this description of the umkehr map e! shows that it can be defined in any generalized homology theory, for which there exists a Thom isomorphism for the normal bundle. This is an orientation condition. In these notes we will usually restrict our attention to ordinary homology, but intersection theories in such (co)homology theories as K-theory and cobordism theory are very important as well.
+
+
+6 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+1.2 The Chas-Sullivan loop product
+The Chas-Sullivan “loop product” in the homology of the free loop space of a closed oriented d-dimensional manifold,
+μ : Hp(LM ) ⊗ Hq(LM ) → Hp+q−d(LM ) (1.4)
+is defined as follows. Let M ap(8, M ) be the mapping space from the figure 8 (i.e the wedge of two circles) to the manifold M . As mentioned above, the maps are required to be piecewise smooth (see [CJ02]). Notice that M ap(8, M ) can be viewed as the subspace of LM ×LM consisting of those pairs of loops that agree at the basepoint 1 ∈ S1. In other words, there is a pullback square
+M ap(8, M ) e
+−−−−→ LM × LM
+ev
+y
+yev×ev
+M −−−∆−→ M × M
+(1.5)
+where ev : LM → M is the fibration given by evaluating a loop at 1 ∈ S1. In fact, it can be shown that ev is a locally trivial fiber bundle [Kli82]. The map ev : M ap(8, M ) → M evaluates the map at the crossing point of the figure 8. Since ev × ev is a fibre bundle, e : M ap(8, M ) ↪→ LM × LM can be viewed as a
+codimension d embedding, with normal bundle ev∗(ν∆) ∼= ev∗(T M ). The basic Chas-Sullivan idea, is to take a chain c ∈ Cp(LM × LM ) that is transverse to the submanifold M ap(8, M ) in an appropriate sense, and take the intersection to define a chain e!(c) ∈ Cp−d(M ap(8, M )). This will allow the definition of a map in homology, e! : H∗(LM × LM ) → H∗−d(M ap(8, M )). The striking thing about the Chas-Sullivan construction is that this umkehr map exists in the absence of Poincare duality in this infinite dimensional context.
+As was done in [CJ02], one can also use the Thom collapse approach to define the umkehr map in this setting. They observed that the existence of this pullback diagram of fiber bundles, means that there is a natural tubular neighborhood of the embedding, e : M ap(8, M ) → LM × LM , namely the inverse image of a tubular neighborhood of the diagonal embedding, ∆ : M → M × M . That is, ηe =
+(ev × ev)−1(η∆). Because ev is a locally trivial fibration, the tubular neighborhood
+ηe is homeomorphic to the total space of the normal bundle ev∗(T M ). This induces a homeomorphism of the quotient space to the Thom space,
+(LM × LM )/((LM × LM ) − ηe) ∼= (M ap(8, M ))ev∗(T M). (1.6)
+Combining this homeomorphism with the projection onto this quotient space, defines a Thom-collapse map
+τe : LM × LM → M ap(8, M )ev∗(T M). (1.7)
+
+
+1.2. THE CHAS-SULLIVAN LOOP PRODUCT 7
+For ease of notation, we refer to the Thom space of the pullback bundle, ev∗(T M ) → M ap(8, M ) as (M ap(8, M ))T M .
+Notice that if if h∗ is any generalized homology theory that supports an orientation of M (i.e the tangent bundle T M ), then one can define an umkehr map,
+e! : h∗(LM × LM ) −τe → h∗((M ap(8, M ))T M ) −∩−u→ h∗−d(M ap(8, M )) (1.8)
+where u ∈ hd((M ap(8, M ))T M ) is the Thom class given by the orientation.
+Chas and Sullivan also observed that given a map from the figure 8 to M then one obtains a loop in M by starting at the intersection point, traversing the top loop of the 8, and then traversing the bottom loop. This defines a map
+γ : M ap(8, M ) → LM.
+Thought of in a slightly different way, the pullback diagram 1.5 says that
+we can view M ap(8, M ) as the fiber product M ap(8, M ) ∼= LM ×M LM , as was done in [CJ02]. γ defines a multiplication map, which by abuse of notation we also call γ : LM ×M LM → LM . This map extends the usual multiplication in the based loop space, γ : ΩM × ΩM → ΩM . In fact if one may view ev : LM → M as a fiberwise H-space (actually an H-group), which is to say an H-group in the category of spaces over M . It is actually an A∞ space in this category, coming from the A∞ structure of the multiplication in ΩM , which is the fiber of ev : LM → M . This aspect of the theory is studied further in [Gru05]. Chas and Sullivan also observed that the multiplication γ : M ap(8, M ) → LM is homotopy commutative, and indeed there is a canonical, explicit homotopy. In the formulas that follow, we identify S1 = R/Z. Now as above, consider M ap(8, M ) as a subspace of LM × LM , and suppose (α, β) ∈ M ap(8, M ). We consider, for each t ∈ [0, 1] a loop γt(α, β), which starts at β(−t), traverses the arc between β(−t) and β(0) = α(0), then traverses the loop defined by α, and then finally traverses the arc between β(0) and β(−t). A formula for γt(α, β) is given by
+γt(α, β)(s) =
+
+
+β(2s − t), for 0 ≤ s ≤ t
+2
+α(2s − t), for t
+2 ≤ s ≤ t+1
+2
+β(2s − t), for t+1
+2 ≤ s ≤ 1.
+(1.9)
+One sees that γ0(α, β) = γ(α, β), and γ1(α, β) = γ(β, α).
+The Chas-Sullivan product in homology is defined by composing the umkehr map e! with the multiplication map γ.
+Definition 1.2.1. Define the loop product in the homology of a loop space to be the composition
+μ : H∗(LM ) ⊗ H∗(LM ) → H∗(LM × LM ) −e! → H∗−d(M ap(8, M )) −γ∗ → H∗−d(LM ).
+
+
+8 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+Recall that the umkehr map e! is defined for any generalize homology theory h∗ supporting an orientation. Now suppose that in addition, h∗ is a multiplicative
+theory. That is, the corresponding cohomology theory h∗ has a cup product, or more precisely, h∗ is represented by a ring spectrum. Then there is a loop product in h∗(LM ) as well,
+μ : h∗(LM ) ⊗ h∗(LM ) → h∗−d(LM ).
+In order to accomodate the change in grading, one defines
+H∗(LM ) = H∗+d(LM ).
+Using the naturality of the umkehr map (i.e the naturality of the Thom collapse map) as well as the homotopy commutativity of the multiplication map γ, the following is proved in [CS99].
+Theorem 1.2.1. Let M be a compact, closed, oriented manifold. Then the loop product defines a map
+μ∗ : H∗(LM ) ⊗ H∗(LM ) → H∗(LM )
+making H∗(LM ) an associative, commutative algebra. Furthermore, the evaluation map ev : LM → M defines an algebra homomorphism from the loop algebra to the intersection ring,
+ev∗ : H∗(LM ) → H∗(M ).
+As was shown in [CJ02], this structure also applies to h∗(LM ), where h∗ is any multiplicative generalized homology theory which supports an orientation of M.
+1.3 The Batalin-Vilkovisky structure and the string bracket
+One aspect of the loop space LM that hasn’t yet been exploited is the fact there is an obvious circle action
+ρ : S1 × LM −→ LM (1.10)
+defined by ρ(t, α)(s) = α(t + s). The purpose of this section is to describe those constructions of Chas and Sullivan [CS99] that exploit this action. The existence of the S1-action defines an operator
+∆ : Hq(LM ) → Hq+1(LM ) θ → ρ∗(e1 ⊗ θ)
+
+
+1.3. THE BV STRUCTURE AND THE STRING BRACKET 9
+where e1 ∈ H1(S1) = Z is the generator. Notice that if we apply this operator
+twice, then ∆2(θ) = ρ∗(e21 ⊗ θ), where the product structure in H∗(S1) is the
+Pontrjagin algebra structure, induced by the group structure of S1. But obviously e21 = 0 in this algebra, and so the operator ∆ has the property that
+∆2 = 0.
+By regrading, this operator may be viewed as a degree one operator on the loop homology algebra, ∆ : H∗(LM ) → H∗+1(LM )
+and the following was proved in [CS99].
+Theorem 1.3.1. The pair (H∗(LM ), ∆) is a Batalin-Vilkovisky (BV) algebra. That is,
+1. H∗(LM ) is a graded, commutative algebra,
+2. ∆ ◦ ∆ = 0, and
+3. The binary operator defined by the deviation from ∆ being a derivation,
+{φ, θ} = (−1)|φ|∆(φ · θ) − (−1)|φ|∆(φ) · θ − φ · ∆(θ)
+is a derivation in each variable.
+Now a formal argument given in [CS99] shows that the degree one binary operator {, } : H∗(LM ) × H∗(LM ) → H∗(LM ) described above satisfies the (graded) Jacobi identities, and so makes H∗(LM ) into a graded Lie algebra. Such a combination of being a graded, commutative algebra, as well as a Lie algebra which is a derivation in each variable, is called a Gerstenhaber algebra. So the loop homology algebra has this structure as well. Chas and Sullivan also gave another description of the bracket {φ, θ}. We give a variation of their description, which is more homotopy theoretic. Let P ⊂ S1 × LM × LM be the space
+P = {(t, α, β) : α(0) = β(t)}.
+Notice that there diffeomorphism
+h : S1 × M ap(8, M ) → P
+defined by h(t, (α, β)) = (t, α, βt) (1.11)
+where βt(s) = β(s − t).
+
+
+10 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+Notice furthermore there is a pullback square of fibrations,
+Pu
+−−−⊂−→ S1 × LM × LM
+y
+y
+M −−−∆−→ M × M
+(1.12)
+where : S1 × LM × LM → M × M is given by (t, α, β) → (α(0), β(t)). Notice that this pullback diagram has a Z/2-action induced by the diagonal action on S1 × LM × LM given by the antipodal map on S1, and the permutation action on LM × LM . The action on M × M is also the permutation action under which ∆(M ) is the fixed point set. The diffeomorphism h : S1 ×M ap(8, M ) → P is equivariant, where Z/2 acts antipodally on S1 and permutes the two components of the figure 8. Like in the previous section, the Thom collapse map may be defined in this situation and we get a map
+τu : S1 × LM × LM −→ PT M .
+Using the Thom isomorphism this defines an umkehr map,
+u! : H∗(S1 × LM × LM ) → H∗−d(P) ∼= H∗−d(S1 × M ap(8, M )).
+Because of the equivariance, this descends to gives a map on the homology of the orbits,
+u! : H∗(S1 ×Z/2 LM × LM ) → H∗−d(S1 ×Z/2 M ap(8, M )).
+This in turn defines a homomorphism
+ν∗ : H∗(LM × LM ) → H∗+1−d((S1 ×Z/2 M ap(8, M )))
+by ν∗(φ ⊗ θ) = u!(e1 ⊗ (φ ⊗ θ − (−1)(|φ|+1)(|θ|+1)θ ⊗ φ). (1.13)
+We observe that since the maps u! and ν∗ are defined in terms of the Thom collapse map τu, they can be defined in any generalized homology theory that supports an orientation of M .
+Now let G : [0, 1] × M ap(8, M ) → LM be the homotopy given by (1.9). By identifying [0, 1] with the upper semicircle of S1, G defines a map
+G : S1 ×Z/2 M ap(8, M ) → LM.
+By composing we then have an operation,
+G∗ ◦ ν∗ : H∗(LM × LM ) → H∗+1−d((S1 ×Z/2 M ap(8, M )) → H∗+1−d(LM ).
+This operation is easily seen to be a global description of the bracket operation defined in definition 4.1 of [CS99]. Corollary 5.3 of [CS99] then gives the following.
+
+
+1.3. THE BV STRUCTURE AND THE STRING BRACKET 11
+Theorem 1.3.2. (G∗ ◦ ν∗)(φ ⊗ θ) = {φ, θ}.
+Notice that from this global description, which defines the Batalin-Vilkovisky structure ultimately in terms of the Thom collapse map, we have the following generalization of theorem 1.3.1, originally proved in a somewhat different way by Cohen and Jones in [CJ02].
+Theorem 1.3.3. Let h∗ be any multiplicative generalized homology theory that supports an orientation of M . Then h∗(LM ) is a Batalin-Vilkovisky algebra.
+We now turn to the effect of the Batalin-Vilkovisky structure on the equivari
+ant homology, HS1
+∗ (LM ). Chas and Sullivan refer to this as the “string homology” of M . It is the homology of the homotopy orbit space,
+HS1
+∗ (LM ) = H∗(ES1 ×S1 LM ).
+We view this homotopy orbit space as the “space of closed strings” in M for the following reason. Consider the space of embeddings of S1 into an infinite dimensional Euclidean space, Emb(S1, R∞). This is a contractible space with an obvious free action of S1, given by reparameterization of the embeddings. Indeed this action extends to a free action of the homotopy equivalent, but much larger group of orientation preserving diffeomorphisms, Dif f +(S1). So the homotopy orbit space ES1×S1 LM
+is homotopy equivalent to the orbit space, Emb(S1, R∞)×Diff+(S1) LM which can be described on the point set level as follows:
+Emb(S1, R∞) ×Diff+(S1) LM = {(S, f )}
+where S ⊂ R∞ is a closed, oriented, connected one dimensional submanifold of R∞, and f : S → M is a continuous map. In other words, this orbit space is the space of oriented closed curves (closed strings) in M . Thus the equivariant homology, HS1
+∗ (LM ) is the homology of the space of closed strings in M .
+Now consider the principal S1 bundle,
+S1 → ES1 × LM → ES1 ×S1 LM. (1.14)
+This gives rise to the Gysin sequence in homology,
+→ · · · Hq(LM ) ι−∗ → HS1
+q (LM ) −j∗ → H S1
+q−2(LM ) −τ∗ → H S1
+q−1(LM ) −ι∗ → · · · (1.15)
+We recall that the connecting homomorphism τ : HS1
+k (LM ) → Hk+1(LM ) is
+induced by the S1 - transfer map for this principal bundle , which is defined via a Thom collapse map. This is a stable map (map of suspension spectra),
+τ : Σ∞(Σ(ES1 ×S1 X)+) → Σ∞(X+)
+
+
+12 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+which exists for any space X with an S1-action [BG75]. Here Σ∞ refers to the suspension spectrum, and Y+ is Y with a disjoint basepoint. The map τ∗ in the Gysin sequence is homomorphism induced by τ in homology. We note that Chas and Sullivan denoted the homomorphism ι∗ by E, standing for “erase”, and the homomorphism τ∗ by M , standing for “mark”. The motivation for this terminology is that one might consider the loop space LM as the space of “marked” closed strings, since the space of “markings” (i.e choices of marked point) on a closed, oriented, connected one dimensional manifold S, is homeomorphic to S1, which is homotopy equivalent to the space of parameterizations of S by a
+diffeomorphism from the circle, S1 −∼=→ S. Thus the homomorphism ι∗ = E can be viewed as erasing the marking, and the transfer homomorphism, τ∗ = M can be viewed as taking the map in homology induced by taking all possible markings on S ⊂ R∞. Since the space of markings is one dimensional, this accounts for the dimension shift in the homomorphism τ∗. Using these maps, Chas and Sullivan define an operator
+[ , ] : HS1
+q (LM ) × HS1
+r (LM ) τ∗×τ∗
+−−−−→ Hq+1(LM ) × Hr+1(LM ) (1.16)
+−◦→ Hq+r+2−d(LM ) −ι∗ → H S1
+q+r+2−d(LM ).
+where “◦” is the loop product described above. Using just the formal properties of the Batalin-Vilkovisky structure on H∗(LM ), Chas and Sullivan proved the following in [CS99].
+Theorem 1.3.4. The operator
+[ , ] : HS1
+q (LM ) × HS1
+r (LM ) −→ HS1
+q+r+2−d(LM )
+gives the string homology HS1
+∗ (LM ) the structure of a graded Lie algebra of degree (2 − d).
+We note that since the transfer map τ comes from a map of spectra, there
+is a corresponding string bracket on hS1
+∗ (LM ) = h∗(ES1 ×S1 LM ) for h∗ any multiplicative generalized homology theory that supports an orientation of M . The string bracket gives the equivariant homology a very rich structure. For example, if M is a surface, the bracket restricts to define a Lie algebra structure on the vector space generated by the path components of closed curves in a surface,
+[ , ] : HS1
+0 (LM 2) × HS1
+0 (LM 2) −→ HS1
+0 (LM 2).
+This bracket operation was originally discovered by Wolpert [Wol83] and Goldman [Gol86] and is highly nontrivial. It has been studied in more depth by Chas in [Cha01].
+
+
+1.4. A STABLE HOMOTOPY POINT OF VIEW 13
+1.4 A stable homotopy point of view
+In this section we describe a homotopy theoretic realization of the loop product due to Cohen and Jones [CJ02]. This takes the form that the Thom spectrum of a certain virtual bundle over the loop space is a ring spectrum, which in homology realizes the loop product. Recall that the definition of the loop product (1.2.1), an essential ingredient was the Thom collapse map (1.7)
+τe : LM × LM → M ap(8, M )ev∗(T M).
+The general Thom collapse map (1.2) can be modified by twisting with bundles in the following manner.
+Given e : N ↪→ M , and ζ → M vector bundle, consider embedding of total spaces,
+e∗ζ eζ
+−−↪−→−→ ζ
+y
+y
+Ne
+−−↪−→−→ M
+The tubular neighborhood of eζ is homeomorphic to total space of e∗ζ ⊕ ηe. So we get Thom collapse map
+τ : M ζ → N e∗ζ⊕ηe
+This construction can be carried out even if ζ is a virtual bundle, ζ = γ1 − γ2, where γi’s are vector bundles. We view a virtual bundle as an element of K-theory, and there is a dimension homomorphism, dim : K(M ) → Z, where dim(ζ) = dim(γ1) − dim(γ2). So the dimension is possibly negative.
+In this setting, the Thom isomorphism still holds, Hq(M ) ∼= Hq+dim ζM ζ, where again, dim ζ might be negative.
+Example.
+Let ζ → M be a vector bundle. Consider the product bundle ζ × ζ → M × M , and embedding ∆ : M ↪→ M × M . The Thom collapse is a map of spectra,
+τ : M ζ ∧ M ζ −→ M 2ζ⊕T M
+Now take ζ to be the virtual bundle, ζ = −T M . The Thom collapse is then a map
+τ : M −T M ∧ M −T M −→ M −T M (1.17)
+
+
+14 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+This defines a ring structure on M −T M which was studied in detail in [Coh04b]. We describe this structure more explicitly as follows. Let e : M → RL be an embedding, with ηe its normal bundle. Then there is
+an equivalence between the L-fold suspension of the Thom spectrum M −T M and the Thom space of the normal bundle, M ηe,
+ΣLM −T M ' M ηe .
+For > 0, let νe be the -tubular neighborhood: = {y ∈ RL : d(y, e(M )) < }. Then for sufficiently small,
+M ηe ∼= RL/(RL − νe).
+Let B (0) be the ball of radius around the origin in RL. In the 1930’s, Alexander considered the map
+(RL − νe) × M −→ RL − B (0) ' SL−1 v, x −→ v − e(x)
+This defines a map in homology,
+HL−q−1(RL − νe) ⊗ Hq(M ) −→ HL−1SL−1 ∼= Z
+or by taking the adjoint,
+Hq(M ) −→ HL−q−1(RL − νe)
+This is the famous “Alexander duality” isomorphism.
+In early 1960’s, Atiyah [Ati61] considered the same map defined on the quotient spaces,
+RL × M/((RL − νe) × M ) = M ηe ∧ M+ → RL/(RL − B (0))
+∼= SL
+v, x −→ v − e(x)
+This yields a map
+α : M ηe → M ap(M+, SL).
+On the spectrum level, α induces a map
+α : M −T M → F (M+, S),
+where F (M+, S) is the space of stable maps from M+ to the sphere spectrum S.
+As a spectrum, its kth space is given by M ap(M+, Sk). The following theorem, proved by Atiyah in [Ati61] says that this map is a homotopy equivalence.
+
+
+1.4. A STABLE HOMOTOPY POINT OF VIEW 15
+Theorem 1.4.1. For a closed manifold M , the map α : M −T M → F (M+, S), is homotopy equivalence from the Thom spectrum of −T M to the Spanier-Whitehead dual, of M+.
+The Spanier-Whitehead dual, F (M+, S) is clearly a ring spectrum. Its multiplication is dual to the diagonal map ∆ : M → M × M . Since this diagonal map is cocommutative, this says that the ring structure on F (M+, S) also has commutativity properties. In recent years, symmetric monoidal categories of spectra have been developed ([EKMM97], [HSS00]) in which the appropriate coherence issues regarding homotopy commutativity can be addressed. In [Coh04b], Cohen used the notion of symmetric spectrum developed in [HSS00] and proved the following.
+Theorem 1.4.2. α is an equivalence of commutative, symmetric ring spectra and of bimodules over F (M+, S).
+That is, the ring structure on M −T M induced by the Thom collapse map (1.17), can be rigidified to give a commutative ring structure which coincides, via the classical map of Alexander, to the commutative ring structure on F (M+, S) given by the dual of the diagonal map.
+Now as seen above, the ring map (1.17) is determined by the Thom collapse map for the pullback diagram of virtual bundles,
+−2T M ∆
+−−−−→ −T M × −T M
+y
+y
+M ↪→
+−−−∆−→ M × M.
+We now pull this diagram of virtual bundles back, using the evaluation map, ev : LM → M , to the total spaces of pullback square (1.5).
+ev∗(−2T M ) e
+−−−−→ ev∗(−T M ) × ev∗(−T M )
+y
+y
+M ap(8, M ) ↪→
+−−−e−→ LM × LM
+This defines a Thom collapse map,
+τe : LM −T M ∧ LM −T M → M ap(8, M )−T M
+which yields a product
+μ : LM −T M ∧ LM −T M τe
+−−−−→ M ap(8, M )−T M γ
+−−−−→ LM −T M .
+In [CJ02] Cohen and Jones proved the following.
+
+
+16 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+Theorem 1.4.3. For any closed manifold M , LM −T M is a ring spectrum. If M is oriented, then the Thom isomorphism in homology,
+H∗(LM −T M ) ∼= H∗+nLM ∼= H∗(LM )
+is an isomorphism of commutative graded algebras. The analogous statement holds for any multiplicative generalized homology theory h∗ that supports an orientation of M . Furthermore the evaluation map
+ev : LM −T M → M −T M
+is a map of ring spectra. Also, if one considers pullback diagram
+ΩM ↪→
+−−−−→ LM
+y
+yev0
+point −−↪−→−→ M
+then the induced Thom collapse map
+LM −T M → Σ∞(ΩM+)
+is a map of ring spectra.
+The existence of ring structures on Thom spectra of more general fiber products was examined by Klein in [Kle03].
+This theorem says that even on the stable homotopy level, the string topology structure on the loop space is compatible with both the intersection product on M , and Pontrjagin product on ΩM . This compatibility was strengthened by Cohen, Jones, and Yan in [CJY03] for calculational purposes. Namely, consider Serre spectral sequence for the fibration
+ΩM → LM ev
+−−−−→ M
+Assume M is simply connected. Then the E2 term is given by E∗,∗
+2 = H∗(M, H∗(ΩM )), and the spectral sequence converges to H∗(LM ). By applying Poincare duality, one gets a second quadrant spectral sequence
+E −s,t
+2 = Hs(M ; Ht(ΩM )) ⇒ Hn−s+t(LM ) = Ht−s(LM ).
+Notice that this E2-term is an algebra, using cup product in cohomology and the Pontrjagin product on the coefficients. It was shown in [CJY03] that this spectral sequence is multiplicative. That is, each Er∗,∗ is a graded ring, and the differentials are derivations. It converges multiplicatively to the loop product on H∗(LM ). Cohen, Jones, and Yan then used this spectral sequence to calculate the
+ring structure in H∗(LCPn) and H∗(LSm) for all n and m, and demonstrated what a rich structure this algebra detects.
+
+
+1.5. RELATION TO HOCHSCHILD COHOMOLOGY 17
+1.5 Relation to Hochschild cohomology
+In this section we describe an algebraic point of view of the string product. Namely we recall how Hochschild cohomology of the cochains of a manifold, H∗(C∗(M ), C∗(M )) was shown in [CJ02] to be isomorphic as rings to H∗(LM ). This relationship is an outgrowth of the cosimplicial model of the loop space and its relationship to Hochschild homology established by Jones in [Jon87]. We begin by recalling the basic construction. Consider the standard simplicial decomposition of the circle, S1 which has one 0-simplex and one nondegenerate 1-simplex. In a simplicial set S∗, there are face maps ∂i : Sk → Sk−1, i = 0, · · · k, and
+degeneracy maps σj : Sk → Sk+1, j = 0, · · · , k. So S∗1 is generated with respect to the degeneracies by the one zero simplex and one nondegenerate one-simplex. Using the relations satisfied by the face and degeneracy operators, it turns out that the set of k- simplices, Sk1 is a set with k + 1 elements.
+Sk1 = {k + 1}
+All the simplices are degenerate if k > 1. Now recall the coface and codegeneracy maps on the standard simplices:
+di : ∆k−1 → ∆k i = 0, · · · , k
+sj : ∆k+1 → ∆k j = 0, · · · , k.
+We then have the resulting homeomorphism of the geometric realization
+S1 ∼= ⋃
+k
+∆k × Sk1/ ∼ = ⋃
+k
+∆k × {k + 1}/ ∼
+where (sj(t), x) ∼ (t, σj (x)), (di(t), y) ∼ (t, di(y)).
+This gives an embedding of the loop space,
+f =∏
+k
+fk : LX = M ap(S1, X) = M ap(⋃
+k
+∆k × {k + 1}/ ∼, X) (1.18)
+⊂ M ap(∐
+k
+∆k × {k + 1}; X)
+=∏
+k
+M ap(∆k; Xk+1)
+The image of this embedding are those sequences of maps that commute with the coface and codegeneracy operators. The component maps fk : LX → M ap(∆k, X) can be described explicitly as follows.
+fk : ∆k × LX −→ Xk+1
+(0 ≤ t1 ≤ · · · ≤ tk ≤ 1; γ) → (γ(t1), · · · γ(tk), γ(1)).
+
+
+18 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+If we consider the homomorphism on singular cochains induced by fk, and
+then take the cap product with the canonical k-simplex in the chains of ∆k, we get a diagram, which in [Jon87] was shown to commute:
+C∗−k(LX ) f∗
+k
+←−−−− C∗(X)⊗k+1
+δ
+y
+ytotal dif f
+C∗−k+1(LX) ←−−−−
+fk∗+1
+C∗(X )⊗k
+Here the right hand vertical map is the total differential in the Hochschild chain complex. Recall that the Hochschild chain complex of a differential graded algebra, with coefficients in a bimodule C is the complex CH∗(A, C):
+−→ · · · −∂→ C ⊗ A⊗n −∂→ C ⊗ A⊗n−1 −∂→ · · ·
+where ∂ is the total differential, given by the sum of the internal differential on A⊗n ⊗ C and the Hochschild boundary operator
+b(c ⊗ a1 ⊗ · · · ⊗ an) = c · a1 ⊗ a2 ⊗ · · · ⊗ an +
+n−1
+∑
+i=1
+(−1)ic ⊗ a1 ⊗ · · · ai · ai+1 ⊗ · · · ⊗ an
++(−1)nan · c ⊗ a1 ⊗ · · · ⊗ an−1.
+In the case above, we are considering the Hochschild complex CH∗(C∗(X), C∗(X)). The following was proved by Jones in [Jon87].
+Theorem 1.5.1. For simply connected X,
+f ∗ : CH∗(C∗(X), C∗(X)) −→ C∗(LX)
+is a chain homotopy equivalence. It therefore induces an isomorphism
+f ∗ : H∗(C∗(X), C∗(X)) −∼=→ H∗(LX).
+Now the loop product lives in the homology H∗(LM ), so to get a model for this, we dualize the Hochschild complex, and we get a complex
+−→ · · · −→ Hom(C∗(X)⊗q, k) −δ→ Hom(C∗(X)⊗k+1, k) −δ→ · · ·
+which computes H∗(LX; k). But with respect to the obvious identification, Hom(C∗(X)⊗q+1, k) ∼=
+Hom(C∗(X)⊗q; C∗(X)), this complex is the Hochschild cochain complex of C∗(X) with coefficients in the bimodule C∗(X). We therefore have the following corollary.
+Corollary 1.5.2. For simply connected X, there is an isomorphism
+f∗ : H∗(LX) −=∼→ H∗(C∗(X); C∗(X)).
+
+
+1.5. RELATION TO HOCHSCHILD COHOMOLOGY 19
+Now let X = M n be a simply connected, oriented, closed manifold. Notice that the following diagram commutes:
+∆q × LM fq
+−−−−→ M q+1
+ev
+y
+ypq+1
+M −−−=−→ M
+where pq+1 is the projection onto the last factor. This implies we have a map of Thom spectra,
+fq : ∆q
++ ∧ LM −T M → M q
++ ∧ M −T M
+for each q. It was shown in [CJ02] that as a consequence of the embedding (1.18) and theorem 1.5.1, we have the following:
+Theorem 1.5.3. For M simply connected, the map f induces an isomorphism of rings,
+f∗ : H∗(LM ) ∼= H∗(LM −T M ) ∼=
+−−−−→ H∗(C∗(M ); C∗(M −T M ))
+The ring structure of the Hochschild cohomology is given by cup product, where one is using the ring spectrum structure of the Atiyah dual, M −T M to give a ring structure to the coefficients, C∗(M −T M ).
+As a consequence of the fact that the Atiyah duality map α is an equivalence of ring spectra, (theorem 1.4.2), it was shown in [Coh04b] that α induces an isomorphism,
+α∗ : H∗(C∗(M ); C∗(M −T M )) −∼=→ H∗(C∗(M ), C∗(M )).
+This then implies the following theorem [CJ02]:
+Theorem 1.5.4. The composition
+ψ : H∗(LM ) −f∗ → H∗(C∗(M ); C∗(M −T M )) −α−∗ → H∗(C∗(M ), C∗(M ))
+is an isomorphism of graded algebras.
+We end this section with a few comments and observations about recent work in this direction.
+Comments.
+1. Clearly the Hochschild cohomology, H∗(C∗(M ), C ∗ (M )) only depends on the homotopy type of M . However the definition of the loop product and Batalin-Vilkovisky structure on H∗(LM ) involves intersection theory, and
+
+
+20 CHAPTER 1. INTERSECTION THEORY IN LOOP SPACES
+as we’ve described it above, the Thom collapse maps. These constructions involve the smooth structure of M . Indeed, even the definition of the isomorphism, ψ : H∗(LM ) → H∗(C∗(M ), C ∗ (M )) given in [CJ02] involves the Thom collapse map, and therefore the smooth structure of M . Nonetheless, using the Poincare embedding theory of Klein [Kle99], Cohen, Klein, and Sullivan have recently proved that if h∗ is a multiplicative generalized homology theory supporting an orientation of M , and f : M1 → M2 is an h∗-orientation preserving homotopy equivalence of simply connected, closed manifolds, then the induced homotopy equivalence of loop spaces, Lf : LM1 → LM2 induces an isomorphism of BV-algebras, (Lf )∗ : h∗(LM1) → h∗(LM2) [CKS05].
+2. Felix, Menichi, and Thomas [FMT02] proved that the Hochschild cohomology H∗(C∗(M ), C∗(M )) is a BV algebra. It is expected that the ring isomorphism
+ψ : H∗(LM ) → H∗(C∗(M ), C∗(M ))
+preserves the BV structure. However this has not yet been proved. They also show that a kind of Koszul duality implies that there is an isomorphism of Hochschild cohomologies,
+H∗(C∗(M ), C∗(M )) ∼= H∗(C∗(ΩM ), C∗(ΩM )) (1.19)
+where the chains on the based loop space C∗(ΩM ) has the Pontrjagin algebra structure. This is significant because of the alternative description of the homology H∗(LX) in terms of Hochschild homology [Goo85]
+H∗(LX) ∼= H∗(C∗(ΩX), C∗(ΩX))
+for any X. (X need not be simply connected in this case.)
+3. The topological Hochschild cohomology of a ring spectrum R, T HH∗(R) (see [BHM93] ) is a cosimplicial spectrum which has the the structure of an algebra over the little disk operad by work of McClure and Smith. The cosimplicial model for the suspension spectrum LM −T M constructed by Cohen and Jones [CJ02] is equivalent to T HH∗(M −T M ), which by Atiyah duality (theorem (1.4.2)) is equivalent to T HH∗(F (M+, S)). It was observed originally by Dwyer and Miller, as well as Klein [Kle03] that the topological Hochschild cohomology T HH∗(Σ∞(Ω(M+)) is also homotopy equivalent to
+LM −T M . The spectrum homology of these spectra are given by
+H∗(T HH∗(F (M+, S))) ∼= H∗(C∗(M ), C∗(M )) H∗(T HH∗(Σ∞(Ω(M+)))) ∼= H∗(C∗(ΩX), C∗(ΩX))
+and so the equivalence,
+H∗(T HH∗(F (M+, S))) ' Σ∞(LM+) ' H∗(T HH∗(Σ∞(ΩM+))
+realizes, on the spectrum level, the Koszul duality isomorphism (1.19) above.
+
+
+Chapter 2
+The cacti operad
+2.1 PROPs and operads
+Operads in general are spaces of operations with certain rules on how to compose the operations. In this sense operads are directly related to Lawvere’s algebraic theories and represent true objects of universal algebra. However, operads as such appeared in topology in the works of J. P. May [May96], J. M. Boardman and R. M. Vogt [BV73] as a recognition tool for based multiple loop spaces. Stasheff [Sta63] earlier described the first example of an operad, the associahedra, which recognized based loop spaces. About the same time, Gerstenhaber [Ger68], studying the algebra of the Hochschild complex, introduced the notion of a composition algebra, which is equivalent to the notion of an operad of graded vector spaces.
+2.1.1 PROP’s
+We will start with defining the notion of a PROP (=PROducts and Permutations) and think of an operad as certain part of a PROP. However, later we will give an independent definition of an operad.
+Definition 2.1.1. A PROP is a symmetric monoidal (sometimes called tensor) category whose set of objects is identified with the set Z+ of nonnegative integers. The monoidal law on Z+ is given by addition and the associativity transformation α is equal to identity. See the founding fathers’ sources, such as, J. F. Adams’ book [Ada78] or S. Mac Lane’s paper [ML65] for more detail.
+Usually, PROP’s are enriched over another symmetric monoidal category, that is, the morphisms in the PROP are taken as objects of the other symmetric monoidal category. This gives the notions of a PROP of sets, vector spaces, complexes, topological spaces, manifolds, etc. Examples of PROP’s include the following. We will only specify the morphisms, because the objects are already given by the definition.
+21
+
+
+22 CHAPTER 2. THE CACTI OPERAD
+Example 2.1.1. The endomorphism PROP of a vector space V has the space of morphisms Mor(m, n) = Hom(V ⊗m, V ⊗n). This is a PROP of vector spaces. The composition and tensor product of morphisms are defined as the corresponding operations on linear maps.
+Example 2.1.2 (Segal [Seg88]). The Segal PROP is a PROP of infinite dimensional complex manifolds. A morphism is defined as a point in the moduli space Pm,n of isomorphism classes of complex Riemann surfaces bounding m + n labeled nonoverlapping holomorphic holes. The surfaces should be understood as compact smooth complex curves, not necessarily connected, along with m + n biholomorphic maps of the closed unit disk to the surface, thought of as holes. The biholomorphic maps are part of the data, which in particular means that choosing a different biholomorphic map for the same hole is likely to change the point in the moduli space. The more precise nonoverlapping condition is that the closed disks in the inputs do not intersect pairwise and the closed disks in the outputs do not intersect pairwise, however, an input and an output disk may have common boundary, but are still not allowed to intersect at an interior point. This technicality brings in the identity morphisms to the PROP, but does not create singular Riemann surfaces by composition. The composition of morphisms in this PROP is given by sewing the Riemann surfaces along the boundaries, using the equation zw = 1 in the holomorphic parameters coming from the standard one on the unit disk. The tensor product of morphisms is the disjoint union. This PROP plays a crucial role in Conformal Field Theory, as we will see now.
+2.1.2 Algebras over a PROP
+We need to define another important notion before we proceed.
+Definition 2.1.2. We say that a vector space V is an algebra over a PROP P , if a morphism of PROP’s from P to the endomorphism PROP of V is given. A morphism of PROP’s is a functor respecting the symmetric monoidal structures and also equal to the identity map on the objects.
+An algebra over a PROP could have been called a representation, but since algebras over operads, which are similar objects, are nothing but familiar types of algebras, it is more common to use the term “algebra.”
+Example 2.1.3. An example of an algebra over a PROP is a Conformal Field Theory (CFT), which may be defined (in the case of a vanishing central charge) as an algebra over the Segal PROP. The fact that the functor respects compositions of morphisms translates into the sewing axiom of CFT in the sense of G. Segal. Usually, one also asks for the functor to depend smoothly on the point in the moduli space Pm,n. One needs to extend the Segal PROP by a line bundle to cover the case of an arbitrary charge, see [Hua97].
+
+
+2.1. PROPS AND OPERADS 23
+Example 2.1.4 (Sullivan). Another example of an algebra over a PROP is a Lie bialgebra. There is a nice graph description of the corresponding PROP, about which we learned from Sullivan, see [MV03].
+2.1.3 Operads
+Now we are ready to deal with operads, which formalize the notion of a space of operations, as we mentioned in the introduction to Section 2.1. Informally, an operad is the part Mor(n, 1), n ≥ 0, of a PROP. Of course, given only the collection of morphisms Mor(n, 1), it is not clear how to compose them. The idea is to take the union of m elements from Mor(n, 1) and compose them with an element of Mor(m, 1). This leads to cumbersome notation and ugly axioms, compared to those of a PROP. However operads are in a sense more basic than the corresponding PROP’s; the difference is similar to the difference between Lie algebras and the universal enveloping algebras.
+Definition 2.1.3 (May [May96]). An operad O is a collection of sets (vector spaces, complexes, topological spaces, manifolds, . . . , objects of a symmetric monoidal category) O(n), n ≥ 0, with
+1. A composition law:
+γ : O(m) ⊗ O(n1) ⊗ · · · ⊗ O(nm) → O(n1 + · · · + nm).
+2. A right action of the symmetric group Σn on O(n).
+3. A unit e ∈ O(1).
+such that the following properties are satisfied:
+1. The composition is associative, i.e., the following diagram is commutative:
+
+
+O(l) ⊗ O(m1) ⊗ · · · ⊗ O(ml)
+⊗ O(n11) ⊗ · · · ⊗ O(nl,nl )
+
+
+id ⊗γl
+−−−−→ O(l) ⊗ O(n1) ⊗ · · · ⊗ O(nl)
+γ⊗id
+y
+yγ ,
+O(m) ⊗ O(n11) ⊗ · · · ⊗ O(nm,nm ) γ
+−−−−→ O(n)
+where m = ∑
+i mi, ni = ∑
+j nij , and n = ∑
+i ni.
+2. The composition is equivariant with respect to the symmetric group actions: the groups Σm, Σn1, . . . , Σnm act on the left-hand side and map naturally to Σn1+···+nm , acting on the right-hand side.
+3. The unit e satisfies natural properties with respect to the composition: γ(e; f ) = f and γ(f ; e, . . . , e) = f for each f ∈ O(k).
+
+
+24 CHAPTER 2. THE CACTI OPERAD
+The notion of a morphism of operads is introduced naturally.
+Remark 1. One can consider non-Σ operads, not assuming the action of the symmetric groups. Not requiring the existence of a unit e, we arrive at nonunital operads. Do not mix this up with operads with no O(0), algebras over which (see next section) have no unit. There are also good examples of operads having only n ≥ 2 components O(n). An equivalent definition of an operad may be given in terms of operations f ◦i g = γ(f ; id, . . . , id, g, id, . . . , id), i = 1, . . . , m, for f ∈ O(m), g ∈ O(n). Then the associativity condition translates as f ◦i (g ◦j h) = (f ◦i g) ◦i+j−1 h plus a natural symmetry condition for (f ◦i g) ◦j h, when g and h “fall into separate slots” in f , see e.g., [KSV96].
+Example 2.1.5 (The Riemann surface and the endomorphism operads). P(n) is the space of Riemann spheres with n + 1 boundary components, i.e., n inputs and 1 output. Another example is the endomorphism operad of a vector space V : End V (n) = Hom(V ⊗n, V ), the space of n-linear mappings from V to V .
+2.1.4 Algebras over an operad
+Definition 2.1.4. An algebra over an operad O (in other terminology, a representation of an operad ) is a morphism of operads O → End V , that is, a collection of maps O(n) → End V (n) for n ≥ 0
+compatible with the symmetric group action, the unit elements, and the compositions. If the operad O is an operad of vector spaces, then we would usually require the morphism O → End V to be a morphism of operads of vector spaces. Otherwise, we would think of this morphism as a morphism of operads of sets. Sometimes, we may also need a morphism to be continuous or respect differentials, or have other compatibility conditions. We will also consider a nonlinear version of the notion of an operad algebra, which may be defined in any symmetric monoidal category. For example, an O-algebra X in the category of topological spaces would be an operad morphism O(n) → Map(Xn, X) for n ≥ 0, where Map is the space of continuous maps.
+The commutative operad
+The commutative operad is the operad of k-vector spaces with the nth component Comm(n) = k for all n ≥ 0. We assume that the symmetric group acts trivially on k and the compositions are just the multiplication of elements in the ground field k. The term “commutative operad” may seem confusing to some people, but it has been in use for a while. An algebra over the commutative operad is nothing but a commutative associative algebra with a unit, as we see from Exercise 2 below. Another version of the commutative operad is Comm(n) = {point} for all n ≥ 0. This is an operad of sets. It is equivalent to the previous version in the
+
+
+2.1. PROPS AND OPERADS 25
+root
+3 51 72 6 4
+Figure 2.1: A planar binary tree
+1 23 1 2 3
+Figure 2.2: An equivalence move
+sense that an algebra over it is the same as a commutative associative unital algebra.
+Exercise 1. Show that the operad T op(n) = {the set of diffeomorphism classes of Riemann spheres with n input holes and 1 output hole} is isomorphic to the commutative operad of sets.
+Exercise 2. Prove that the structure of an algebra over the commutative operad Comm on a vector space is equivalent to the structure of a commutative associative algebra with a unit.
+The associative operad
+The associative operad Ass can be considered as a planar one-dimensional analogue of the commutative operad T op. Ass(n) is the set of equivalence classes of connected planar binary (each vertex being of valence 3) trees that have a root edge and n leaves labeled by integers 1 through n, see Figure 2.1. If n = 1, there is only one tree — it has no vertices and only one edge connecting a leaf and a root. If n = 0, the only tree is the one with no vertices and no leaves — it only has a root. Two trees are equivalent if they are related by a sequence of moves of the kind pictured on Figure 2.2, performed over pairs of two adjacent vertices of a tree. The symmetric group acts by relabeling the leaves, as usual. The composition is obtained by grafting the roots of m trees to the leaves of an m-tree, no new vertices being created at the grafting points. Note that this is similar to sewing Riemann surfaces and erasing the seam, just as we did to define operad composition in that case. By definition, grafting a 0-tree to a leaf just removes the leaf and, if this operation creates a vertex of valence 2, we should erase the vertex.
+
+
+26 CHAPTER 2. THE CACTI OPERAD
+12 21
+Figure 2.3: Skew symmetry
+1 23 2 31 3 12
++~
++0
+Figure 2.4: The Jacobi identity
+Exercise 3. Prove that the structure of an algebra over the associative operad Ass on a vector space is equivalent to the structure of an associative algebra with a unit.
+The Lie operad
+The Lie operad Lie is another variation on the theme of a tree operad. Consider the vector space spanned by the same planar binary trees as for the associative operad, except that we do not include a 0-tree, i.e., the operad has only positive components Lie(n), n ≥ 1, and there are now two kinds of equivalence relations, see Figures 2.3 and 2.4. Now that we have arithmetic operations in the equivalence relations, we consider the Lie operad as an operad of vector spaces. We also assume that the ground field is of a characteristic other than 2, because otherwise we will arrive at the wrong definition of a Lie algebra.
+Exercise 4. Prove that the structure of an algebra over the Lie operad Lie on a vector space over a field of a characteristic other than 2 is equivalent to the structure of a Lie algebra.
+Exercise 5. Describe algebraically an algebra over the operad Lie, if we modify it by including a 0-tree, whose composition with any other tree is defined as (a) zero, (b) the one for the associative operad.
+The Poisson operad
+Recall that a Poisson algebra is a vector space V (over a field of char 6= 2) with a unit element e, a dot product ab, and a bracket [a, b] defined, so that the dot
+
+
+2.1. PROPS AND OPERADS 27
+0
+az
+b
+Y(a,z)b.
+Figure 2.5: The vertex operator
+product defines the structure of a commutative associative unital algebra, the bracket defines the structure of a Lie algebra, and the bracket is a derivation of the dot product:
+[a, bc] = [a, b]c + b[a, c] for all a, b, and c ∈ V .
+Exercise 6. Define the Poisson operad, using a tree model similar to the previous examples. Show that an algebra over it is nothing but a Poisson algebra. [Hint : Use two kinds of vertices, one for the dot product and the other one for the bracket.]
+The Riemann surface operad and vertex operator algebras
+Just for a change, let us return to the operad P of Riemann surfaces, more exactly, isomorphism classes of Riemann spheres with holomorphic holes. What is an algebra over it? Since there are infinitely many nonisomorphic pairs of pants, there are infinitely many (at least) binary operations. In fact, we have an infinite dimensional family of binary operations parameterized by classes of pairs of pants. However modulo the unary operations, those which correspond to cylinders, we have only one fundamental binary operation corresponding to a fixed pair of pants. An algebra over this operad P is part a CFT data. (For those who understand, this is the tree level, central charge c = 0 part). If we consider a holomorphic algebra over this operad, that is, require that the defining mappings P(n) → End V (n), where V is a complex vector space, be holomorphic, then we get part of a chiral CFT, or an object which might have been called a vertex operator algebra (VOA) in an ideal world. This kind of object is not equivalent to what people use to call a VOA; according to Y.-Z. Huang’s Theorem, a VOA is a holomorphic algebra over a “partial pseudo-operad of Riemann spheres with rescaling,” which is a version of P, where the disks are allowed to overlap. The fundamental operation Y (a, z)b for a, b ∈ V , z ∈ C of a VOA is commonly chosen to be the one corresponding to a pair of pants which is the Riemann sphere with a standard holomorphic coordinate and three unit disks around the points 0, z, and ∞ (No doubt, these disks overlap badly, but we shrink them on the figure to look better), see Figure 2.5. The famous associativity identity
+Y (a, z − w)Y (b, −w)c = Y (Y (a, z)b, −w)c
+for vertex operator algebras comes from the natural isomorphism of the Riemann surfaces sketched on Figure 2.6.
+
+
+28 CHAPTER 2. THE CACTI OPERAD
+=
+a
+cc
+b
+a
+b
+z
+0
+00
+−w
+z−w
+0
+−w
+Figure 2.6: VOA associativity
+1
+n
+...
+2
+Figure 2.7: Framed little disks
+Another remarkable feature of the Riemann surface operad P is that an algebra over it in the category of spaces group completes to an infinite loop space, which is Tillmann’s result [Til97]. This implies, for example, that the classifying space BΓ+∞ of the stable mapping class group (which is morally the moduli space of Riemann surfaces of infinite genus) is an infinite loop space.
+The little disks operads and GBV-algebras
+Here is another construction, related to the operad P of Riemann surfaces and more relevant to string topology. We will be talking about a finite-dimensional retract of P, the framed little disks operad f D, which may be defined as follows, see Getzler [Get94] and Markl-Shnider-Stasheff [MSS02]. It is based on the collection f D = {f D(n) | n ≥ 1} of configuration spaces of n labeled nonintersecting (closed) disks in the standard (closed) unit disk D2 ain the plane R2 with the choice of marked point, thought of as framing, on the boundary of each “little” disk, see Figure 2.7. It is also convenient to choose a marked point, e.g., (1, 0), on the boundary of the “big,” unit disk, which should not be thought of as extra data, because we are talking about the standard plane R2, with fixed x and y coordinates. An identity element is the framed little disk coinciding with the big disk, together with framing. The symmetric group acts by relabeling the framed little disks, as usual. The operad composition ◦i : f D(m) × f D(n) → f D(m + n − 1) takes a given configuration of n little disks, shrinks it to match the size of the ith little disk in a given configuration of m little disks, rotates the shrunk configuration of n little disks (by a unique element of SO(2)) to match the point on the boundary
+
+
+2.1. PROPS AND OPERADS 29
+of the big disk with the point on the boundary of the ith little disk, and glues the configuration of n disks in place of the ith disk, erasing the seam afterwards. A nonframed version, which may be defined as the suboperad of f D with all the points on the boundaries of the little disks point in the direction of the positive x axis, is called the little disks operad D.
+The little disks operad (along with its higher dimensional version) was invented in topology and proved itself as a powerful tool for studying iterated (based) loop spaces, [May96, BV73]. For example, the little disks operad acts on every based double loop space Ω2X = Map∗(S2, X) in the following way. Given a con
+figuration of n little disks and n pointed maps S2 → X, which we can think of maps D2 → X sending the boundary of the standard unit disk D2 to the basepoint of X, we can define a new map D2 → X by using the given maps on the little disks (after appropriate translation and dilation) and extending them to a constant map from the complement of the little disks to X. Of course, the first thing one looks at in topology is homology, and the following description of H∗(D)-algebras by F. Cohen is very interesting.
+Theorem 2.1.1 (F. Cohen [Coh76]). An algebra over the homology little disks operad H∗(D; k) (over a field k of char k 6= 2) is equivalent to a Gerstenhaber (or simply G-) algebra, i.e., a graded vector space V with a unit element e, a dot product ab, and a bracket [a, b] defined, so that the dot product defines the structure of a graded commutative associative unital algebra, the bracket defines the structure of a graded Lie algebra on the suspension V [−1], which is the same as V but with a grading shifted by −1, and the bracket is a degree-one derivation of the dot product:
+[a, bc] = [a, b]c + (−1)|a+1||b|b[a, c] for all a, b, and c ∈ V .
+Note that if you have an algebra X over an operad O in the category of topological spaces, you may always pass to homology and obtain the structure of H∗(O)-algebra on the graded vector space H∗(X). Thus, the homology of every double loop space becomes a G-algebra. Similarly, the framed little disks operad acts on every based double loop space, but the underlying structure on homology had not been much of interest to topologists till it was discovered in various physical contexts much later under the name of a BV-algebra. A BV-algebra is a graded vector space V (over a field of char 6= 2) with the structure of a graded commutative algebra and a second-order derivation ∆, called a BV operator, of degree one and square zero. The secondorder derivation property may be defined using an old idea of Grothendieck:
+[[[∆, La], Lb], Lc] = 0 for all a, b, c ∈ V,
+where La is the operator of left multiplication by a and the commutators of operators are understood in the graded sense. Alternatively, see [Sch93, Get94], one can define the structure of a BV-algebra on a graded vector space V in the following way:
+
+
+30 CHAPTER 2. THE CACTI OPERAD
+2
+1
+Figure 2.8: The dot product
+• A “dot product” V ⊗ V → V and a bracket V ⊗ V → V [1] of degree one making on V making it a G-algebra;
+• An operator ∆ : V → V [1] of degree one, which is a differential, i.e., ∆2 = 0, a degree-one derivation of the bracket, and satisfies the property
+∆(ab) − (∆a)b − (−1)|a|a∆b = (−1)|a|−1[a, b].
+The BV-algebra structure is also known as the algebraic structure induced on homology from the structure of an algebra over the framed little disks operad f D2 on a topological space:
+Theorem 2.1.2 (Getzler [Get94]). The category of H∗(f D; k)-algebras over a field k of char 6= 2 is naturally isomorphic to the category of BV-algebras.
+In particular, the homology of a based double loop space Ω2X is naturally a BV-algebra. The proof of this theorem involves identifying the dot product and the BV operator for a given H∗(f D; k)-algebra V . This is done as follows. Look at the n = 2 part H∗(f D(2); k) → Hom(V ⊗ V, V )
+of the operad action. Note that f D(2) is path connected and take the class of a point in H0(f D(2); k), for example, as on Figure 2.8. Define the dot product on V as the resulting bilinear map V ⊗ V → V . To define the BV operator, consider the n = 1 part
+H∗(f D(1); k) → Hom(V, V )
+of the operad action. Note that f D(1) is homotopy equivalent to S1, choose an orientation on S1, for example, the counterclockwise rotation of the marked point
+on the little disk, and take the fundamental class in H1(S1; k) ∼= H1(f D(1); k). The resulting linear map V → V is the BV operator, by definition. To complete this proof, one needs to check that the topology of the framed little disks operad forces the right identities between these basic operations, as well
+
+
+2.1. PROPS AND OPERADS 31
+as to show that there are no other identities, except those coming from combining the identities in the definition of a BV-algebra. We know how to do that, but we choose not to do it in public.
+The little n-disks operad and n-fold loop spaces
+Generalizing the little disks operad of the previous section to an arbitrary dimension n ≥ 1, we get the little n-disks operad (an equivalent version of which is known as the little n-cubes operad) Dn whose kth component Dn(k) is the configuration space of k labeled “little” n-dimensional disks inside the standard unit n-disk in Rn. This operad was introduced by Boardman and Vogt [BV73] and May [May96] to recognize n-fold loop spaces ΩnX = Map∗(Sn, X) among other spaces: their recognition principle states that a path-connected topological space is weakly equivalent to an n-fold loop space, if and only if it is weakly equivalent to an algebra over the little n-disks operad. Passing to homology, F. Cohen also proved that the notion of an algebra over the homology little n-disks operad (over a field of characteristic other than two) is equivalent to the notion of an n-algebra, which for n ≥ 2 is the same as that of a G-algebra, except that the bracket must now have degree n − 1. A 1-algebra is the same as an associative algebra. There is also a framed version f Dn of the little n-disks operad. Here a frame in a little n-disk is a positively oriented orthonormal frame attached to the center of that disk. In other words, each little disk comes with an element of SO(n). The operad of the rational homology of f Dn was characterized by the following theorem of Salvatore and Wahl, which will be used in the last chapter on brane topology. For better compatibility with that chapter, we are going to quote this result for n + 1 rather than n.
+Theorem 2.1.3 (Salvatore-Wahl [SW03b]: Theorem 6.5). The category of algebras over the operad H•(f Dn+1; Q) for n ≥ 1 is isomorphic to the category of graded vector spaces V over Q with the following operations and identities. Below a, b, c ∈ V are homogeneous elements and |a| denotes the degree of a in V .
+1. A dot product a · b, or simply ab, defining the structure of a (graded ) commutative associative algebra on V .
+2. A bracket [a, b] of degree n, defining the structure of a (graded ) Lie algebra on the shifted space V [n].
+3. The bracket with an element a must be a (graded ) derivation of the dot product, i.e., [a, bc] = [a, b]c + (−1)(|a|+n)|b|b[a, c].
+4. For n odd, a collection of unary operators Bi, i = 1, . . . , (n − 1)/2, of degree 4i − 1 and ∆ of degree n, called a BV operator.
+5. For n even, a collection of unary operators Bi, i = 1, . . . , n/2, of degree 4i − 1.
+
+
+32 CHAPTER 2. THE CACTI OPERAD
+6. The unary operators Bi must square to zero: Bi2 = 0 for all i. The operators Bi must be (graded ) derivations of the commutative algebra structure on V and the Lie algebra structure on V [n].
+7. For n odd, i.e., when ∆ is defined, ∆2 = 0, ∆(ab) − ∆(a)b − (−1)|a|a∆b = (−1)|a|[a, b], and ∆[a, b] = [∆a, b] − (−1)|a|[a, ∆b].
+Remark 2. The last identity means that ∆ is a graded derivation of the bracket, while the last two equations may be interpreted as ∆ being a graded second-order derivation of the dot product.
+Idea of proof. This theorem is based on an observation that f Dn+1 is a semidirect product Dn+1 o SO(n + 1), see [MSS02]. The elements Bi (and ∆, when it is defined) are the standard generators of H•(SO(n + 1); Q), ∆ corresponding to the Euler class via the transfer map.
+2.1.5 Operads via generators and relations
+The tree operads that we looked at above, such as the associative and the Lie operads, are actually operads defined by generators and relations. Here is a way to define such operads in general. To fix notation, assume throughout this section that we work with operads O(n), n ≥ 1, of vector spaces.
+Definition 2.1.5. An ideal in an operad O is a collection I of Σn-invariant subspaces I(n) ⊂ O(n), for each n ≥ 1, such that whenever i ∈ I, its operad composition with anything else is also in I.
+The intersection of an arbitrary number of ideals in an operad is also an ideal, and one can define the ideal generated by a subset in O as the minimal ideal containing the subset.
+Definition 2.1.6. For an operad ideal I ⊂ O, the quotient operad O/I is the collection O(n)/I(n), n ≥ 1, with the structure of operad induced by that on O.
+The free operad F (S) generated by a collection S = {S(n) | n ≥ 1} of sets, is defined as follows.
+F (S)(n) = ⊕
+n-trees T
+k · S(T ),
+where the summation runs over all planar rooted trees T with n labeled leaves and
+S(T ) = Map(v(T ), S),
+the set of maps from the set v(T ) of vertices of the tree T to the collection S assigning to a vertex v with In(v) incoming edges an element of S(In(v)) (the edges are directed toward the root). In other words, an element of F (S)(n) is a linear combination of planar n-trees whose vertices are decorated with elements of S. There is a special tree with no vertices, see Figure 2.9. The component F (S)(1) contains, apart from S(1), the one-dimensional subspace spanned by this tree. The following data defines an operad structure on F (S).
+
+
+2.2. THE CACTI OPERAD 33
+1
+Figure 2.9: The operad identity
+1. The identity element is the special tree in F (S)(1) with no vertices.
+2. The symmetric group Σn acts on F (S)(n) by relabeling the inputs.
+3. The operad composition is given by grafting the roots of trees to the leaves of another tree. No new vertices are created.
+Definition 2.1.7. Now let R be a subset of F (S), i.e., a collection of subsets R(n) ⊂ F (S)(n). Let (R) be the ideal in F (S) generated by R. The quotient operad F (S)/(R) is called the operad with generators S and defining relations R.
+Example 2.1.6. The associative operad Ass is the operad generated by a point S = S(2) = {•} with a defining relation given by the associativity condition, see Section 2.1.4, expressed in terms of trees. Note that equation S = S(2) implies that S(n) = ∅ for n 6= 2.
+Example 2.1.7. The Lie operad Lie is the operad also generated by a point S = S(2) = {•} with defining relations given by the skew symmetry and the Jacobi identity, see Section 2.1.4.
+Example 2.1.8. The Poisson operad is the operad also generated by a two-point set S = S(2) = {•, ◦} with defining relations given by the commutativity and the associativity for simple trees decorated only with •’s, the skew symmetry and the Jacobi identity for simple trees decorated with ◦’s, and the Leibniz identity for binary 3-trees with mixed decorations, see Section 2.1.4.
+2.2 The cacti operad
+The construction and results in this section have been announced in [Vor01]. The BV structure arising in string topology at the level of homology comes from an action of a cacti operad C at the motivic level, quite close to the category of topological spaces. The kth component C(k) of the cacti operad C for k ≥ 1 may be described as follows. C(k) is the set of labeled by numbers 1 through k tree-like configurations of parameterized circles, called the lobes, of varying (positive) radii, along with the following data: (1) the choice of a cyclic order of components at each intersection point and (2) the choice of a marked point on the whole configuration along with the choice of one of the circles on which this point lies. The last choice is essential only when the marked point happens to be an intersection point. Here “tree-like”
+
+
+34 CHAPTER 2. THE CACTI OPERAD
+1
+2
+3
+4
+5 ...
+k
+Figure 2.10: A cactus
+means that the dual graph of this configuration, whose vertices correspond to the lobes and the intersection points thereof and whose edges reflect the obvious incidence relation, is a tree. We will refer to an element of C(k) as a cactus. A cactus defines a pinching map from the standard unit circle S1 to the cactus. The pinching map starts from the marked point in the direction of the increasing parameter on the circle on which the marked point lies and traces the whole cactus along the parameters on the circles, jumping from one lobe to the next in the cyclic order at the intersection points. This produces a map from the circle of circumference c equal to the total circumference of the cactus. To get a map from the standard unit circle, first expand (or contract) it to a circle of circumference c. The topology on the set C(k) of cacti may be introduced in the following way. There is a unique up to isotopy way to place a cactus on the plane, so that the parameters of the lobes go counterclockwise and the cyclic order of the lobes at each intersection point is also counterclockwise, see Figure 2.10. Thereby a cactus defines a metric planar graph whose vertices are the intersection points of the circles and edges are the arcs between two adjacent vertices. The word “metric” refers to the fact that the edges are provided with positive real numbers, the arclengths in the parameters of the lobes. A cactus is determined by its metric planar graph and the choice of a marked point on each of the k circles forming the cactus (called “interior boundary components” of the graph) and a global marked point on the “exterior boundary component” defined as the standard circle S1 together with the pinching map. First of all, we will define a topology on the space of metric planar graphs (and thereby on its subspace of metric planar graphs arising from cacti) and then describe the space C(k) of cacti as an (S1)k+1 fiber bundle over the subspace of metric planar graphs. Each planar graph Γ defines an open cell Re(Γ)
++ , where R+ is the interval (0, ∞) of the real line and e(Γ) is the set of edges of Γ. This open cell is attached to the union of lower dimensional cells as follows. Consider part of the boundary of
+Re(Γ)
++ in Re(Γ) given by setting some of the edge lengths to zero, except for the edges
+
+
+2.2. THE CACTI OPERAD 35
+forming simple loops, i.e., the edges which span the whole lobe less a point. An attaching map identifies the face l(e0) = 0 of the cell Re(Γ)
++ = {l(e) > 0 | e ∈ e(Γ)} with a cell Re(Γ/e0)
++ , where Γ/e0 is the planar graph obtained from Γ by contracting the edge e0 to a point. This way we build the space of metric planar graphs as a generalization of a cell complex: start with a collection of open cubes of dimension k (corresponding to the planar wedges of k circles whose starting points and the global marked point are at the basepoint of the wedge), attach a collection of open cubes of dimension k + 1 to them along some of their faces, then attach open cubes of dimension k+2 to the result, and so on. We take the topology of the union on the resulting space. This topologizes the space of metric planar graphs. The “universal graph bundle” over this space is determined by specifying the fiber over a point to be the graph (thought of as a one-dimensional CW complex) represented by this point in the space of graphs. Marking a point on a specific (interior or exterior) boundary component defines an S1-bundle over the space of graphs. Thus, C(k) becomes a product of k +1 such bundles over the corresponding subspace of metric planar graphs.
+Remark 3. This construction identifies the space C(k) of cacti as a certain subspace of the space of metric ribbon graphs of genus zero with k + 1 labeled boundary components and one point marked on each boundary component. See Chapter 3 for a discussion of general ribbon (fat) graphs.
+The operad structure on the cacti comes from the pinching map. Given two cacti and the ith lobe in the first one, the operad composition ◦i will be given by further gluing the ith lobe of the first cactus (identified with the standard circle S1 via a suitable dilation) to the second cactus along the pinching map from S1 to the second cactus.
+Theorem 2.2.1 ([Vor01]). The cacti operad C is homotopy equivalent to the framed little disks operad f D2.
+Remark 4. In principle, one can prove this theorem explicitly, as indicated in [CJ02]. For example, P. Salvatore (private communication) suggests constructing a map from the configuration space of k labeled points in the plane by placing at each point a particle, which creates a radial repulsive field of magnitude 1/r, where r is the distance from the particle, and looking at the degenerate trajectories of the superposition field. This is, in fact, dual to the construction of a ribbon graph on the Riemann sphere with k + 1 punctures using a Strebel differential and its degenerate horizontal trajectories: Salvatore’s approach uses the vertical ones.
+We will take a less constructive approach and deduce the statement from Salvatore-Wahl’s recognition principle [SW03b] for the framed little disks operad f D2, which generalizes Fiedorowicz’s recognition principle [Fie92, Fie98] for the little disks operad D2. We will use the recognition principle in the following form. Let Bk be the braid group on k strands, k ≥ 1, then the ribbon braid group RBk on
+k ribbons is a semidirect product Zk oBk determined by the permutation action of
+
+
+36 CHAPTER 2. THE CACTI OPERAD
+Bk on Zk. It is worth pointing out that the ribbon braid group RBk is a subgroup of B2k by the induced braid on the edges of the ribbons. Let PRBk denote the
+kernel of the natural epimorphism RBk → Σk. Then PRBk ∼= Zk × PBk, where PBk is the pure braid group, the kernel of the natural epimorphism Bk → Σk.
+Theorem 2.2.2 (Salvatore-Wahl [SW03b]). Let O = {O(k) | k ≥ 1} be a topological operad, satisfying the following conditions:
+1. Each quotient O(k)/Σk is K(RBk, 1), the normal subgroup PRBk ⊂ RBk corresponding to the covering O(k) → O(k)/Σk.
+2. There exists an operad morphism D1 → O from the little intervals operad D1.
+Then the operad O is homotopy equivalent to the framed little disks operad f D2.
+Remark 5. If we require in Condition 2 that a cofibrant model of the little intervals operad D1 admits a morphism to O, the two conditions become not only sufficient, but also necessary. Examples of cofibrant models of D1 include the operad of metrized planar trees with labeled leaves (a cellular operad, whose chain operad is A∞) and Boardman-Vogt’s W -resolution W D1 of D1.
+Remark 6. This recognition principle can be generalized to any non-Σ operad of groups H(k) with H(1) abelian and the operad composition and the operad unit for H(1) given by the group law and the group unit therein, respectively. This operad of groups should also be provided with an operad epimorphism H(k) → Σk. {Σ•}, {B•}, and {RB•} are examples of such operads of groups. The proof of the recognition principle is the same.
+Proof. We will only sketch a proof, following Salvatore and Wahl: the reader may collect missing details from [Fie92, Fie98, MS02, SW03b]. One first introduces the notion of a ribbon braided operad, in which the symmetric groups get replaced with the ribbon braid groups. Condition 2 amounts to a consistent choice of basepoints
+in the universal coverings O ̃(k), which gives the structure of a ribbon braided operad on O ̃. Condition 1 implies that each space O ̃(k) is contractible with a free action of RBk. Then the following diagram of homotopy equivalences of ribbon braided operads
+f ̃ D2 ← f ̃ D2 × O ̃ → O ̃,
+after taking quotients by the pure ribbon braid groups PRBk, gives homotopy equivalences of usual operads:
+f D2 ← (f ̃ D2 × O ̃)/ PRB• → O.
+
+
+2.2. THE CACTI OPERAD 37
+Figure 2.11: The basepoint in the cacti operad
+B
+A
+A
+B
+A
+B
+AB
+BA
+Figure 2.12: A path in the cacti space corresponding to a braid
+Proof of Theorem 2.2.1. As promised, we will use Salvatore-Wahl’s recognition principle, Theorem 2.2.2. To see that Σk acts freely on C(k), note that the structure map from S1 to the cactus defines an ordering on the lobes. There is an obvious homomorphism RBk → π1(C(k)/Σk) in which a ribbon braid moves in the plane the lobes of a fixed cactus, e.g., one like on Figure 2.11, keeping the marked point somewhere on the left to return it to the original position at the end of the move. Here is an example of three intermediate snapshots of the above cactus through a move, with the corresponding braid on the side, see Figure 2.12. We will prove that C(k)/Σk is K(RBk, 1) by induction on k. For k = 1 the
+space C(1)/Σ1 = C(1) is obviously homeomorphic to S1 × R+, which is K(Z, 1).
+Since RB1 ∼= Z, we get the induction base. To make the induction step, assume that the above homomorphism RBk → π1(C(k)/Σk) is bijective and consider a forgetful fibration C(k + 1) → C(k) which contracts the k+1st lobe to a point, i.e., takes a quotient of the cactus by its k+1st lobe. The marked point, if it happened to be on that lobe, will be at the resulting contraction point, assigned to the lobe that follows the one being contracted, if one moves from the marked point along the parameter of the wrapping map from S1 to the cactus. It is easy to observe that the fiber of this fibration is homotopy
+equivalent to (∨
+n S1) × S1, where the last circle is given by the angular parameter
+on the contracted circle. This fibration admits a section, for example, by placing a unit circle at the
+
+
+38 CHAPTER 2. THE CACTI OPERAD
+marked point, so that the wrapping map will trace this circle completely from its angular parameter 0 and at 2π bumps into the marked point. Therefore, the long exact homotopy sequence of this fibration splits into short exact sequences as follows:
+1 → π1
+((∨
+kS1) × S1) → π1(C(k + 1)) → π1(C(k)) → 1, 0 → 0 → πi(C(k + 1)) → πi(C(k)) → 0 for i ≥ 2,
+with the arrow π1(C(k +1)) → π1(C(k)) in the first sequence having a right inverse. By induction, C(k) is K(PRBk, 1). Then from the short exact sequences, we see that πi(C(k + 1)) = 0 for i ≥ 2. To treat the fundamental-group case, note that we have a natural morphism of group extensions:
+1 −−−−→ π1
+((∨
+k S1) × S1) −−−−→ PRBk+1 −−−−→ PRBk −−−−→ 1
+∥∥∥
+y
+y
+1 −−−−→ π1
+((∨
+k S1) × S1) −−−−→ π1(C(k + 1)) −−−−→ π1(C(k)) −−−−→ 1,
+where the first line is obtained by applying the fundamental group functor to a similar forgetful fibration f D(k + 1) → f D(k). The right vertical arrow is an isomorphism by the induction assumption, therefore, so is the middle one. Now the following morphism of extensions:
+1 −−−−→ PRBk+1 −−−−→ RBk+1 −−−−→ Σk+1 −−−−→ 1
+y
+y
+∥∥∥
+1 −−−−→ π1(C(k + 1)) −−−−→ π1(C(k + 1)/Σk+1) −−−−→ Σk+1 −−−−→ 1
+shows that the middle vertical arrow is an isomorphism. This completes the induction step and thereby verifies Condition 1. Finally, let us check Condition 2. Given a configuration of k little intervals, sketch k circles based on the little intervals as diameters. Then contract the spaces between the circles and put the marked point at the left corner of the first circle on the left, as on Figure 2.13. Amazingly enough, this defines a morphism of operads D1 → C.
+2.3 The cacti action on the loop space
+Let M be an oriented smooth manifold of dimension d. We would like to study
+continuous k-ary operations on the free loop space LM := M S1 := Map(S1, M ) of continuous loops, functorial with respect to M . By passing to singular chains or homology, these operations will induce functorial operations on the chain and homology level, respectively. We will generalize a homotopy-theoretic approach developed by R. Cohen and J. D. S. Jones [CJ02] for the loop product.
+
+
+2.3. THE CACTI ACTION ON THE LOOP SPACE 39
+Figure 2.13: Little intervals to cacti
+2.3.1 Action via correspondences
+First of all, consider the following diagram
+C(k) × (LM )k ←ρi−n− C(k)M ρout
+−−→ LM, (2.1)
+where C is the cacti operad, k ≥ 1, and C(k)M is the space of pairs (c, f ) with c ∈ C(k) being a cactus and f : c → M a continuous map of the cactus c to M . The map ρin : C(k)M → C(k) × (LM )k takes a pair (c, f ) to c ∈ C(k) and the restrictions of f to the k lobes of c. It is an embedding of codimension d(k − 1). The map ρout : C(k)M → LM composes the pinching map S1 → c with f : c → M . This diagram is, in principle, all you need to define an operad “action”, i.e., the structure of a “C(k)-algebra” on the loop space LM . It would be an honest operad action, should the arrow ρin be pointing in the opposite direction and the resulting composite map be compatible with the operad structure on C. To check this compatibility, we indeed need to find a way to invert ρin and take the composite map. The main idea is to take the motivic standpoint and treat diagram (2.1) as a single morphism going from left to right. We will consider the category Corr of correspondences. The objects of this category are just topological spaces, and a morphism between two objects X and Y is a correspondence, by which here we mean a diagram X ← X′ → Y of continuous maps for some space X′, or, equivalently, a map X′ → X × Y . One composes two correspondences X ← X′ → Y and Y ← Y ′ → Z by taking a pullback
+X′ ×Y Y ′ −−−−→ Y ′
+y
+y
+X′ −−−−→ Y
+which defines a new correspondence X ← X′ ×Y Y ′ → Z.
+Theorem 2.3.1. 1. Diagram (2.1), considered as a morphism C(k)×(LM )k → LM in Corr, defines the structure of a C-algebra on the loop space LM in Corr.
+2. This C-algebra structure on the loop space LM in Corr induces an h∗(C)algebra structure on the shifted homology h∗+d(LM ) for any multiplicative generalized homology theory h∗ which supports an orientation of M .
+
+
+40 CHAPTER 2. THE CACTI OPERAD
+Proof. 1. We just need to see that the following diagram commutes in Corr:
+C(k) × C(l) × (LM )k+l−1 ◦i×id
+−−−−→ C(k + l − 1) × (LM )k+l−1
+y
+y
+C(k) × (LM )k −−−−→ LM,
+(2.2)
+where the unmarked arrows are correspondences defined using diagram (2.1), the left vertical arrow is such a correspondence preceded by an appropriate permutation, to make sure that C(l) acts on the l components LM in LM k+l−1, starting from the ith one. To verify the commutativity of diagram (2.2), we compose the correspondences, using pullbacks, and see that both compositions (the lower left one and the upper right one) are equal to the following correspondence:
+C(k) × C(l) × (LM )k+l−1 ← C(k) ◦i C(l)M → LM,
+where C(k) ◦i C(l)M := {(C1, C2, f ) | C1 ∈ C(k), C2 ∈ C(l), and f : C1 ◦i C2 → M is continuous} and the maps are obvious.
+2. Verifying the statement at the homology level is a little subtler, as not any correspondence induces a morphism on homology. Suppose we have a corre
+spondence X ←e− X′ −γ→ Y between smooth (infinite dimensional) manifolds, so that e is a regular embedding of codimension p. (One can say that such a correspondence is of degree −p.) A regular embedding X ↪→ X′ is, locally in X′ at X, the product of a neighborhood in X with a Euclidean space of codimension p. This condition assures that the tubular neighborhood theorem applies. Then we can apply the Thom collapse construction to e and get a composition
+h∗(X ) −e! → h∗−p(X ′) −γ∗ → h∗−p(Y ).
+Note that the inclusions C(k) ◦i C(l)M ↪→ C(k) × C(l)M × LM k−1 ↪→ C(k) ×
+C(l) × (LM )k+l−1 participating in the lower left path on diagram (2.2) are regular embeddings of codimensions d(k − 1) and d(l − 1), respectively, because they are pullbacks of regular (finite-dimensional) embeddings along fiber bundles, while the composite inclusion, which also shows up in the upper right path on (2.2), is a regular embedding of codimension d(k + l − 2). Because of the functoriality of the homology with respect to Thom collapse maps and the naturality of Thom collapse maps on pullback diagrams with regular embeddings on two parallel sides, we conclude that diagram (2.2) induces a commutative diagram in homology. This checks that h∗+d(LM ) is an algebra over the operad h∗(C).
+
+
+2.3. THE CACTI ACTION ON THE LOOP SPACE 41
+2.3.2 The BV structure
+String topology originated from Chas and Sullivan’s construction of a BV structure on the shifted homology of a loop space in a compact, oriented manifold. A BValgebra is nothing but another algebraic structure, see Section 2.1.4. However, its constant appearance within different contexts of mathematical physics makes it worth a little attention. Combining Theorems 2.2.1 and 2.3.1 with Theorem 2.1.2 and checking what the basic operations (the dot product and the BV operator) really are, as in the discussion of the proof of Theorem 2.1.2, we conclude with the following result.
+Corollary 2.3.2. For an oriented d-manifold M and a field k of characteristic 6= 2, the space H∗+d(LM ; k) = H∗(LM ; k)[d] has the natural structure of a BValgebra. This structure coincides with the one constructed by Chas and Sullivan.
+
+
+42 CHAPTER 2. THE CACTI OPERAD
+
+
+Chapter 3
+Field theoretic properties of
+string topology
+3.1 Field theories
+3.1.1 Topological Field Theories
+The first axiomatic definition of Topological (Quantum) Field Theories was due to Atiyah [Ati88] and based on the work of Witten and Segal. An n-dimensional Topological Field Theory (TFT ) comprises the following data.1
+1. An assignment: {a closed oriented (n − 1)-dimensional manifold X, considered up to diffeomorphism} 7→ {a complex vector space V (X)}, a state space, interpreted as the space of functions (or other linearizations of a space, such as differential forms, (singular) cochains, or chains) on a space of fields associated to X. In the case of the so-called sigma-model, most relevant to string topology, the space of fields is the loop space LX.
+2. An assignment: {an n-dimensional oriented cobordism Y , considered up to diffeomorphism, bounded by two (n − 1)-manifolds X1 and X2} 7→ {a linear operator ΨY : V (X1) → V (X2)}. One usually thinks of X1 as the input and X2 as the output of cobordism Y .
+These data need to satisfy the following axioms:
+V (X1
+∐ X2) −∼→ V (X1) ⊗ V (X2)
+and ΨY must be compatible with the tensor products and composition of cobordisms.
+1One usually puts in more data, so what we are describing is a geometric background of a TFT.
+43
+
+
+44 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+Remark 7. The categories of cobordisms and vector spaces are tensor (more precisely, symmetric monoidal) categories and an n-dimensional TFT is nothing but a tensor functor between them.
+Remark 8. For n = 2, a closed oriented one-dimensional manifold X is diffeo
+morphic to a disjoint union ∐ S1 of finitely many circles S1, interpreted as closed strings. In this case, the category of cobordisms is a PROP, see Section 2.1, and a TFT is a morphism from the PROP of compact oriented surfaces with boundary to End V , the endomorphism PROP of the vector space V . The PROP End V may be identified with the tensor subcategory of the category of vector spaces generated by V .
+Theorem 3.1.1 (Folklore). A 2-dimensional TFT is equivalent to a complex Frobenius algebra A, which is a finite-dimensional commutative associative algebra A with a unit and a nonsingular trace θ : A → C, i.e., a linear map defining a nonsingular bilinear product A ⊗ A → C via θ(ab).
+Remark 9. This is a folk theorem, whose proof was passed on since the early nineties by word of mouth by many folks, at least including Dijkgraaf, Segal, and Witten, and was written down in the mathematical literature by Abrams [Abr96] and Segal [Seg99].
+Outline of Proof. Let V be the state space of a TFT. We would like to construct the structure of a Frobenius algebra on V . Consider the oriented surfaces and the corresponding operators, which we denote ab, 〈a, b〉, etc., as on Figure 3.1. We claim that these operators define the structure of a Frobenius algebra on V . Indeed, the multiplication is commutative, because if we interchange labels at the legs of a pair of pants we will get a homeomorphic oriented surface. Therefore, the corresponding operator a ⊗ b 7→ ba will be equal to ab. Similarly, the associativity (ab)c = a(bc) of multiplication is based on the fact that the two surfaces on Figure 3.2 are homeomorphic: The property ae = ea = a of the unit element comes from the diffeomorphism on Figure 3.3. Thus, we see that V is a commutative associative unital algebra. Now, the diffeomorphism on Figure 3.4 proves the identity 〈a, b〉 = tr(ab), which, along with the associativity, implies 〈ab, c〉 = 〈a, bc〉. The fact that the inner product 〈 , 〉 is nondegenerate follows from the diffeomorphism on Figure 3.5, which implies that the composite mapping
+V id ⊗ψ
+−−−→ V ⊗ V ⊗ V 〈,〉⊗id
+−−−−→ V,
+v 7−→ ∑n
+i=1 v ⊗ ui ⊗ vi 7−→ ∑n
+i=1〈v, ui〉vi
+is equal to id : V → V . It takes a little linear-algebra exercise to see that this implies that the symmetric bilinear form is nondegenerate. This also implies that dim V < ∞, because the vi’s, i = 1, . . . , n, must span V . This completes the construction of the structure of a finite-dimensional Frobenius algebra on the state space V of a TFT.
+
+
+3.1. FIELD THEORIES 45
+Figure 3.1: Basic operations corresponding to surfaces
+7−→ V ⊗ V → V, a ⊗ b 7→ ab
+7−→ V ⊗ V → k, a ⊗ b 7→ 〈a, b〉
+7−→ k → V ⊗ V, 1 7→ ψ
+7−→ id : V → V
+7−→ tr : V → k
+7−→ k → V, 1 7→ e
+Figure 3.2: Associativity
+1
+2
+3
+∼=
+1
+2
+3
+
+
+46 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+Figure 3.3: The unit axiom
+∼=
+Figure 3.4: The trace
+∼=
+Conversely, if we have a finite-dimensional Frobenius algebra V , we can define the structure of a TFT on the vector space V by (1) cutting a surface down into pairs of pants, cylinders, and caps; (2) defining the operators corresponding to those basic objects using the multiplication (or its linear dual), the identity map, and the unit element e ∈ V (or the dual of the map k → V , 1 7→ e, as the trace functional), respectively; and (3) using the sewing axiom. The fact that the composite operator is independent of the way we cut down the surface follows from Figure 3.2 and the associativity of multiplication.
+Example 3.1.1 (The Toy Model, Dijkgraaf and Witten [DW90]). Let G
+be a finite group. Assign to any closed one-manifold X = ∐ S1 the space V (X) of C-valued functions on the isomorphism classes of principal G-bundles over X. The set of these isomorphism classes may be identified with Hom(π1(X), G)/G, the set of conjugacy classes of homomorphisms π1(X) → G. To an oriented surface Y with no inputs, assign the operator ΨY : C → V (∂Y ) defined by the equation
+ΨY (P ) := ∑
+Q:Q|∂Y =P
+1
+|Aut Q|
+as a function on the set of principal G bundles P over ∂Y . In this case, A = V (S1)
+becomes the center of the group algebra C[G] with Frobenius’ trace θ(∑
+g λgg) =
+λe/|G|, where e ∈ G is the unit element. Note that the same construction yields an n-dimensional TFT for any n ≥ 1.
+Figure 3.5: Nondegeneracy
+∼=
+
+
+3.1. FIELD THEORIES 47
+3.1.2 (Topological) Conformal Field Theories
+Let us concentrate on the case n = 2 and, instead of the very small PROP of oriented smooth surfaces, consider the Segal PROP P of Riemann surfaces (i.e., complex curves) with holomorphic holes from Example 2.1.2. Here we will be discussing what is known as QFTs with zero central charge. Recall that in Chapter 2 we introduced the following notion.
+Definition 3.1.1. A Conformal Field Theory (CFT ) is an algebra over the PROP P.
+We would like to consider variations on this theme.
+Definition 3.1.2. A Cohomological Field Theory-I (CohFT-I ) is an algebra over the homology PROP H∗(P). The Roman numeral one in the name is to distinguish this theory from a standard Cohomological Field Theory (CohFT ), which is an algebra over the PROP H∗(M), where M is the PROP of moduli space of stable compact algebraic curves with punctures with respect to the operation of attaching curves at punctures. This latter theory is also known as quantum gravity. A Topological Conformal Field Theory (TCFT ) is an algebra over the chain PROP C∗(P) for a suitable version of chains, e.g., singular. This theory is also referred to as a string background.
+The definitions of a CFT and a TCFT are basically rewordings of those introduced by Segal [Seg04]. The definition of a CohFT is essentially a rewording of that of Kontsevich and Manin [KM94, Man99], which was perhaps motivated by Witten’s paper [Wit91]. Note that a TFT may be regarded as an algebra over the PROP H0(P). Often, one gets a TFT by integrating over the moduli space, in which case one obtains a TFT from the top homology groups of P or M.
+3.1.3 Examples
+Gromov-Witten Theory
+Gromov-Witten theory is basically what physicists know as a sigma-model. Part of the structure, essentially the genus zero part, is also known as quantum cohomology. Gromov-Witten theory starts with a complex projective manifold M and nonnegative integers g, m, and n and uses a diagram
+[Mg,m,n(M ; β)]virt
+y
+Mg,m,n
+f
+←−−−− Mg,m,n(M ; β) ev
+−−−−→ M m+n,
+in which Mg,m,n is the moduli space of stable compact complex curves of genus g with m+ n labeled punctures, the first m of them thought of as the inputs, the last
+
+
+48 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+n as the outputs. Here Mg,m,n(M ; β) is the moduli space of stable pairs (a compact complex curve C from Mg,m,n, a holomorphic map C → M taking the fundamental class of C to a given homology class β ∈ H2(M ; Z)), and [Mg,m,n(M ; β)]virt is the so-called virtual fundamental class, a certain homology class of Mg,m,n(M ; β). This is morally the fundamental class of the ideal moduli space associated to the corresponding deformation problem. In the spirit of Chapter 2, the above diagram defines a correspondence, which allows one to define a pairing
+Ω∗(M )⊗m+n ⊗ Ω∗(Mg,m,n) → C[−dvirt],
+given by ∫
+[Mg,m,n(M ;β)]virt
+ev∗(ω1 ⊗ · · · ⊗ ωm+n) ∧ f ∗(φ),
+where Ω∗ refers to the complex of differential forms, [ ] denotes the degree shift, and dvirt is the dimension of the homology class [Mg,m,n(M ; β)]virt. Passing to cohomology and using Poincar ́e duality on M , one gets a CohFT with a degree shift, see [Beh97, LT98, Man99].
+Gromov-Witten Theory: a richer version
+The following is just a variation on the theme of the previous example, closer to string topology and what physicists originally thought of as sigma-model. Instead of the holomorphic mapping moduli space Mg,m,n(M ; β), use an infinite dimensional version Pg,m,n(M ; β) of it, the moduli space of holomorphic maps from nonsingular complex compact curves with holomorphic holes. Here the holes are not considered removed from the complex curve, so that the fundamental class of the curve is defined and mapped to a homology class β of M . As in the previous example, we get a correspondence
+Pg,m,n ← Pg,m,n(M ; β) → (LM )m+n,
+which should create something resembling a TCFT via passing to semi-infinite differential forms on the free loop space LM = Map(S1, M ):
+(Ω∞/2+∗(LM ))⊗m+n ⊗ Ω∗(Pg,m,n) → C[−d]
+for some degree d. Much of this has not yet been made rigorous. In particular the theory of semi-infinite differential forms on the loop space has never yet been made precise. However this perspective supplies the motivation for much work in Gromov-Witten theory. For instance, Lalonde [Lal04] has described field theoretic properties along these lines with Floer homology replacing semi-infinite forms.
+String topology
+String topology generalizes to a TCFT in the following sense. Instead of being based on a moduli space of complex curves, it is based on a combinatorial counterpart of it, the (partial) PROP of reduced metric chord diagrams RCFp,q(g),
+
+
+3.2. GENERALIZED STRING TOPOLOGY OPERATIONS 49
+see next Section and also [CG04, Cha03]. Here partial refers to the fact that the PROP composition is only partially defined, namely, when the circumferences of the outputs and the inverse circumferences of the inputs, which one thinks of as colors, match. The correspondence realizing the string-topology TCFT at the level of correspondences is given by a diagram
+RCFm,n(g) × (LM )m ←↩ RCFm,n(g)M → (LM )n,
+where the space in the middle is the space of continuous (or continuous, piecewise smooth, depending on the version of a free loop space LM considered) maps from reduced metric chord diagrams of genus g with m inputs and n outputs to the target manifold M . Passing to homology and using the Thom collapse map, see Chapter 1, we get a string-topology version of a CohFT given by an algebra over the homology PROP H∗(RCFm,n(g)) defined by a diagram
+H∗(RCFm,n(g)) ⊗ H∗(LM )⊗m −→ H∗+χd(LM )⊗n,
+where χ is the Euler characteristic of the chord diagrams of that type and d = dim M , see also Equation (3.5).
+3.1.4 Motivic TCFTs
+The above examples suggest that one needs a more general definition of a TCFT than the one given before: the main issue being the need to use correspondences at the space level or degree shifts at the (co)homology level. Namely a motivic TCFT is a tensor functor from a category of holomorphic two-dimensional cobordisms (or a version thereof, such as the reduced metric chord diagrams) enriched over a motivic category of manifolds with values in a motivic category of manifolds. The tensor structure on the category of cobordisms is given by the disjoint union and on the category of manifolds by the Cartesian product. A motivic category of manifolds may be an appropriate category of correspondences, as treated earlier in Section 2.3. Motivic ideas in TCFT come from Kontsevich and Manin [KM94], who used a motivic axiom to axiomatize a Cohomological Field Theory in the context of Gromov-Witten theory. Defining and studying motivic TCFTs is one of the more interesting, open projects in the study of topological field theories.
+3.2 Generalized string topology operations
+Recall from Chapter 1 that the loop homology product is defined by considering the diagram
+LM ←γ− M ap(8, M ) −e→ LM × LM,
+where e : M ap(8, M ) ↪→ LM × LM is a codimension d embedding. We used the Thom collapse map to define an umkehr map in a multiplicative generalized
+
+
+50 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+homology theory that supports an orientation of M ,
+e! : h∗(LM × LM ) → h∗−d(M ap(8, M )).
+The loop product was defined to be the composition,
+μ : h∗(LM ) ⊗ h∗(LM ) → h∗(LM × LM ) −e! → h∗−d(M ap(8, M )) −γ∗ → h∗−d(LM ).
+One can think of this structure in the following way. Consider the “pair of pants” surface P , viewed as a cobordism from two circles to one circle (see Figure 3.6). We think of the two circles bounding the “legs” of the pants as incoming, and the circle bounding the “waist” as outgoing.
+Figure 3.6: The “pair of pants” surface P
+Consider the smooth mapping space, M ap(P, M ). Then there are restriction maps to the incoming and outgoing boundary circles,
+ρin : M ap(P, M ) → LM × LM, ρout : M ap(P, M ) → LM.
+Notice that the figure 8 is homotopy equivalent to the surface P , with respect to which the restriction map ρin : M ap(P, M ) → LM × LM is homotopic to the embedding e : M ap(8, M ) → LM × LM . Also, restriction to the outgoing boundary, ρout : M ap(P, M ) → LM is homotopic to γ : M ap(8, M ) → LM . So the Chas-Sullivan product can be thought of as a composition,
+μ∗ : Hp(LM ) ⊗ Hq(LM ) (ρin)!
+−−−−→ Hp+q−d(M ap(P, M )) (ρout)∗
+−−−−→ Hp+q−d(LM ).
+The role of the figure 8 can therefore be viewed as just a technical one, that allows us to define the umkehr map e! = (ρin)!. More generally, consider a surface F , viewed as a cobordism from p-circles to q-circles. See Figure 3.7 below. Again, we think of the p boundary circles as incoming, and the remaining q boundary circles as outgoing. We can consider the mapping space, M ap(F, M ), and the resulting restriction maps,
+(LM )q ρout
+←−−− M ap(F, M ) −ρi −n → (LM )p. (3.1)
+
+
+3.2. GENERALIZED STRING TOPOLOGY OPERATIONS 51
+Figure 3.7: The surface F
+In [CG04] Cohen and Godin showed how to construct an umkehr map
+(ρin)! : h∗((LM )p) → h∗+χ(F )·d(M ap(F, M ))
+where χ(F ) is the Euler characteristic of the surface F and as above, d = dim(M ). This then allows the definition of a string topology operation
+μF : h∗((LM )p) (ρin)!
+−−−−→ h∗+χ(F )·d(M ap(F, M )) (ρin)∗
+−−−−→ h∗+χ(F )·d((LM )q). (3.2)
+To construct this umkehr map, Cohen and Godin used the Chas-Sullivan idea of representing the pair of pants surface P by a figure 8, and realized the surface F by a “fat graph” (or ribbon graph). Fat graphs have been used to represent surfaces for many years, and to great success. See for example the following important works: [Har85], [Str84], [Pen87], [Kon92]. We recall the definition.
+Definition 3.2.1. A fat graph is a finite graph with the following properties:
+1. Each vertex is at least trivalent
+2. Each vertex comes equipped with a cyclic order of the half edges emanating from it.
+We observe that the cyclic order of the half edges is quite important in this structure. It allows for the graph to be “thickened” to a surface with boundary. This thickening can be thought of as assigning a “width” to the ink used in drawing a fat graph. Thus one is actually drawing a two dimensional space, and it is not hard to see that it is homeomorphic to a smooth surface. Consider the following two examples (Figure 3.8) of fat graphs which consist of the same underlying graph, but have different cyclic orderings at the top vertex. The orderings of the edges are induced by the counterclockwise orientation of the plane. Notice that Γ1 thickens to a surface of genus zero with four boundary
+
+
+52 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+Figure 3.8: Thickenings of two fat graphs
+components. Γ2 thickens to a surface of genus 1 with two boundary components. Of course these surfaces are homotopy equivalent, since they are each homotopy equivalent to the same underlying graph. But their diffeomorphism types are different, and that is encoded by the cyclic ordering of the vertices.
+These examples make it clear that we need to study the combinatorics of fat graphs more carefully. For this purpose, for a fat graph Γ, let E(Γ) be the
+set of edges, and let E ̃(Γ) be the set of oriented edges. E ̃(Γ) is a 2-fold cover of
+E(G). It has an involution E → E ̄ which represents changing the orientation. The
+cyclic orderings at the vertices determines a partition of E ̃(Γ) in the following way. Consider the example illustrated in Figure 3.9.
+As above, the cyclic orderings at the vertices are determined by the counterclockwise orientation of the plane. To obtain the partition, notice that an oriented edge has well defined source and target vertices. Start with an oriented edge, and follow it to its target vertex. The next edge in the partition is the next oriented edge in the cyclic ordering at that vertex. Continue in this way until one is back at the original oriented edge. This will be the first cycle in the partition. Then continue with this process until one exhausts all the oriented edges. The resulting cycles in the partition will be called “boundary cycles” as they reflect the boundary circles of the thickened surface. In the case of Γ2 illustrated in Figure 3.9, the partition into boundary cycles is given by:
+
+
+3.2. GENERALIZED STRING TOPOLOGY OPERATIONS 53
+Figure 3.9: The fat graph Γ2
+Boundary cycles of Γ2: (A, B, C) (A ̄, D ̄ , E, B ̄, D, C ̄, E ̄).
+So one can compute combinatorially the number of boundary components in the thickened surface of a fat graph. Furthermore the graph and the surface have the same homotopy type, so one can compute the Euler characteristic of the surface directly from the graph. Then using the formula χ(F ) = 2 − 2g − n, where n is the number of boundary components, we can solve for the genus directly in terms of the graph. A metric fat graph is a connected fat graph Γ endowed with a metric so that the open edges are isometrically equivalent to open intervals in the real line. Also, if x, y ∈ Γ, then each minimal path from x to y in Γ is isometrically equivalent to a closed interval in R of length d = d(x, y). The set of metric fat graphs can be given a natural topology. The main theorem about these spaces is the following (see [Pen87], [Str84]).
+Theorem 3.2.1. For g ≥ 2, the space of metric fat graphs F atg,n of genus g
+and n boundary cycles is homotopy equivalent to the moduli space Mgn of closed Riemann surfaces of genus g with n marked points.
+Notice that on a metric fat graph Γ, the boundary cycles nearly have well defined parametrizations. For example, the boundary cycle (A, B, C) of the graph Γ2 can be represented by a map S1 → Γ2 where the circle is of circumference equal to the sum of the lengths of sides A, B, and C. The ambiguity of the parameterization is the choice of where to send the basepoint 1 ∈ S1. In her thesis [God04], Godin described the notion of a “marked” fat graph, and proved the following analogue of theorem 3.2.1.
+Theorem 3.2.2. Let F atg∗,n be the space of marked metric fat graphs of genus g and n boundary components. Then there is a homotopy equivalence
+F atg∗,n ' Mg,n
+
+
+54 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+where Mg,n is the moduli space of Riemann surfaces of genus g having n parameterized boundary components.
+In [CG04] the umkehr map ρin : h∗((LM )p) → h∗+χ(F )·d(M ap(F, M )) was constructed as follows. Let Γ be a marked fat graph representing a surface F . We will need to assume that Γ is a special kind of fat graph, which we refer to as a “Sullivan chord diagram”. See Figure 3.10.
+Figure 3.10: A Sullivan chord diagram
+Definition 3.2.2. A “Sullivan chord diagram” of type (g; p, q) is a marked fat graph representing a surface of genus g with p + q boundary components, that consists of a disjoint union of p disjoint closed circles together with the disjoint union of connected trees whose endpoints lie on the circles. The cyclic orderings of the edges at the vertices must be such that each of the p disjoint circles is a boundary cycle. These p circles are referred to as the incoming boundary cycles, and the other q boundary cycles are referred to as the outgoing boundary cycles. An ordering of these boundary cycles is also part of the data.
+In a chord diagram, the vertices and edges that lie on one of the p-distinct circles are called “circular vertices and edges”. The noncircular edges are known as “ghost edges”. As stated in the definition, the union of the ghost edges is a disjoint union of trees. Each of these trees is known as a “ghost component”. Notice that given a chord diagram c, we can construct a new fat graph S(c) by collapsing all the ghost edges. That is, each ghost component is collapsed to a point. Notice that S(c) is a fat graph that represents a surface of the same topological type as that represented by c (the genus and the number of boundary components are the same). However S(c) is not chord diagram. We shall refer to S(c) as a “reduction” of the chord diagram c. See Figure 3.11. It is not difficult to see that a Sullivan chord diagram c has the property
+that if an oriented edge E is contained in an incoming boundary cycle, then E ̄ is contained in an outgoing boundary cycle. In this setting the reduction S(c) has
+the property that E is contained in an incoming boundary cycle if and only if E ̄
+
+
+3.2. GENERALIZED STRING TOPOLOGY OPERATIONS 55
+c S(c)
+Figure 3.11: Reducing a chord diagram
+is contained in an outgoing boundary cycle. We define a reduced chord diagram to be a fat graph with this property. Let CFp,q(g) = space of metric Sullivan chord diagrams of topological type (g; p, q). This is topologized as a subspace of F atg,p+q. Let RCFp,q(g) be the corresponding space of reduced metric chord diagrams. The following facts are both due to Godin. The first is contained in [CG04], and the second is in [God04].
+Proposition 3.2.3. 1. The space CFp,q(g) is connected.
+2. The collapse map π : CFp,q(g) → RCFp,q(g) is a homotopy equivalence.
+Let c ∈ CFp,q(g), and consider the mapping space, M ap(S(c), M ). This is the space of continuous maps that are smooth on each edge. Equivalently, this is the space of continuous maps f : c → M , smooth on each edge, which is constant on each ghost edge. Notice that there is a homotopy equivalence M ap(S(c), M ) ' M ap(Fg,p+q, M ), where Fg,p+q is a surface of genus g and p + q boundary components. Markings on S(c) induce parameterizations of the incoming and outgoing boundary cycles of c, so restriction to these boundary cycles induces a diagram,
+(LM )q ρout
+←−−−− M ap(S(c), M ) ρin
+−−−−→ (LM )p,
+which is homotopic to the diagram 3.1. Recall that our goal is to define the umkehr map, (ρin)!. This was done in [CG04] as follows. Let v(c) be the collection of circular vertices of c. Let σ(c) be the collection of vertices of S(c). The projection π : c → S(c) determines a surjective set map, π∗ : v(c) → σ(c). This in turn induces a diagonal map ∆c : M σ(c) → M v(c). Let c1, · · · , cp be the incoming circles in c. The markings define parameterizations and
+therefore identify (LM )p with M ap(∐p
+i=1 ci, M ). We then have a pullback diagram
+M ap∗(c, M ) ρin
+−−↪−→−→ (LM )p
+ec
+y
+yec
+M σ(c) ↪→
+−−−−→
+∆c
+M v(c)
+(3.3)
+
+
+56 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+Here ec refers to the map that evaluates at the relevant vertices.
+The codimension of ∆c : M σ(c) ↪→ M v(c) is (v(c) − σ(c)) · d. But a straighforward exercise verifies that (v(c) − σ(c)) is equal to minus the Euler characteristic, v(c) − σ(c) = −χ(c) = −χ(Fg,p+q). So the codimension of ∆c is −χ(c) · d.
+This pullback diagram allows us to construct the Thom collapse map,
+τc : (LM )p −→ M ap∗(S(c), M )ηc ,
+where ηc is the normal bundle. So in homology we get an umkehr map,
+(ρin)! : H∗((LM )p) (τc)∗
+−−−−→ H∗(M ap∗(S(c), M )ηc )
+∩u
+−−−=∼−→ H∗+χ(c)d(M ap∗(S(c), M )).
+This in turn allows us to define the string topology operation,
+μc = (ρout)∗ ◦ (ρin)! : H∗((LM )p) → H∗+χ(c)d(M ap∗(S(c), M )) → H∗+χ(c)d((LM )q). (3.4)
+The following was proved in [CG04].
+Theorem 3.2.4. The homology operation μc only depends on the topology of the surface Fg,p+q. These operations can be defined for any generalized homology h∗ that supports an orientation of M . They respect gluing and define a “positive boundary” topological field theory. That is, there is an operation for every surface with p incoming and q outgoing boundary components so long as q > 0. Equivalently, this is a Frobenius algebra whose coalgebra structure does not have a co-unit.
+The idea behind the proof of this theorem was to show that one can construct an umkehr map if one allows the chord diagram c to vary in a continuous family. The connectedness of the space of chord diagrams, CFp,q(g) then estabishes that the operation μc is independent of c ∈ CFp,q(g). The fact that these operations respect gluing, and thereby define a field theory, uses the naturality of the Thom collapse maps. We refer the reader to [CG04] for details. We remark that in [CG04] itone-manif was observed that by allowing c to vary over CFp,q(g), one can actually construct operations,
+μ : H∗(CFp,q(g)) ⊗ H∗(LM )⊗p −→ H∗(LM )⊗q. (3.5)
+This was verified using Jakob’s bordism approach to homology theory by Chataur in [Cha03], using the language of partial PROPs. Most of the basic results about string topology described in these notes were also verified using this theory. We refer the reader to [Cha03] for details regarding this very appealing, geometric approach to string topology.
+
+
+3.3. OPEN-CLOSED STRING TOPOLOGY 57
+3.3 Open-closed string topology
+In this section we describe work of Sullivan [Sul04] on open-closed string topology. We also discuss generalizations and expansions of this theory due to Ramirez [Ram05]. Similar constructions and results were also obtained by Harrelson [Har04]. In this setting our background manifold comes equipped with a collection of submanifolds,
+B = {Di ⊂ M }.
+Such a collection is referred to as a set of “D-branes”, which in string theory supplies boundary conditions for open strings. In string topology, this is reflected by considering the path spaces
+PM (Di, Dj) = {γ : [0, 1] → M, : γ(0) ∈ Di, γ(1) ∈ Dj}.
+Following Segal’s viewpoint, [Seg01], in a theory with D-branes, one associates to a connected, oriented compact one-manifold S whose boundary components are labeled by D-branes, a vector space VS. In the case of string topology, if S is
+topologically a circle, S1, the vector space VS1 = h∗(LM ). If S is an interval with boundary points labeled by Di and Dj, then VS = h∗(PM (Di, Dj)). As is usual in field theories, to a disjoint union of such compact one-manifolds, one associates the tensor product of the vector spaces assigned to each connected component. Now to an appropriate cobordism, one needs to associate an operator between the vector spaces associated to the incoming and outgoing parts of the boundary. In the presence of D-branes these cobordisms are cobordisms of manifolds with boundary. More precisely, in a theory with D-branes, the boundary of a cobordism F is partitioned into three parts:
+1. incoming circles and intervals, written ∂in(F ),
+2. outgoing circles and intervals, written ∂out(F ),
+3. the “free part” of the boundary, written ∂f (F ), each component of which is labeled by a D-brane. Furthermore ∂f (F ) is a cobordism from the boundary of the incoming one-manifold to the boundary of the outgoing one-manifold. This cobordism respects the labeling.
+We will call such a cobordism an “open-closed cobordism” (see Figure 3.12).
+We remark that the topology of the category of open and closed strings has been evaluated by Baas, Cohen, and Ramirez in [BCR04]. This is actually a symmetric monoidal 2-category, where the objects are compact one manifolds S, whose boundary components are labeled by elements in a set of D-branes, B. The morphisms are open-closed cobordisms, and the 2-morphisms are diffeomorphisms of these cobordisms. Let SBoc denote this 2-category, and |SBoc| its geometric realiza
+tion. They used Tillmann’s work on the category of closed strings [Til97], as well as
+
+
+58 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+Figure 3.12: open-closed cobordism
+the striking theorem of Madsen and Weiss [MW02] proving Mumford’s conjecture about the stable cohomology of mapping class groups, to prove the following.
+Theorem 3.3.1. There is a homotopy equivalence of infinite loop spaces,
+Ω|SBoc| ' Ω∞ ((CP∞)−L) × ∏
+D∈B
+Q(CP+∞)
+where, as usual, X+ denotes X with a disjoint basepoint and Q(Y ) = l−i→mk ΩkΣk(Y ).
+Here Ω∞ ((CP∞)−L) is the zero space of the Thom spectrum of the virtual bundle −L, where L → CP∞ is the canonical line bundle.
+In a theory with D-branes, associated to an open-closed cobordism F there is an operator,
+ΦF : V∂in(F ) −→ V∂out(F ).
+Of course such a theory must respect gluing of open-closed cobordisms. Such a theory with D-branes has been put into the categorical language of PROPs by Ramirez [Ram05] extending notions of Segal and Moore [Seg01]. He called such a field theory a B-topological quantum field theory. In the setting of string topology, operators ΦF were defined by Sullivan [Sul04] using transversal intersections of chains. They were defined via Thom-collapse maps by Ramirez in [Ram05]. We will illustrate his definitions by the following examples. Consider the genus zero open-closed cobordism, C1, with free boundary components labeled by D-branes, D1, D2, and D3 as indicated in Figure 3.13. This cobordism defines an operation
+ΦC1 : H∗(PM (D1, D2)) ⊗ H∗(PM (D2, D3)) −→ H∗(PM (D1, D3))
+
+
+3.3. OPEN-CLOSED STRING TOPOLOGY 59
+D1
+D
+D
+2
+3
+Figure 3.13: The cobordism C1
+in the following way. Let M apB(C1, M ) denote the space of smooth maps γ : C1 → M , where the restriction of γ to a boundary interval labeled by the D-brane Di ∈ B, takes values in Di ⊂ M . Notice we have a diagram of restriction maps,
+PM (D1, D3) ρout
+←−−− M apB(C1, M ) −ρi −n → PM (D1, D2) × PM (D2, D3) (3.6)
+As in the case of closed string operations, the main idea is to construct an umkehr map
+(ρin)! : H∗(PM (D1, D2)) ⊗ H∗(PM (D2, D3)) → H∗(M apB(C1, M ))
+and then define the operation ΦC1 to be the composition,
+ΦC1 = (ρout)∗ ◦ (ρin)! : H∗(PM (D1, D2)) ⊗ H∗(PM (D2, D3)) → H∗(M apB(C1, M ))
+→ H∗(PM (D1, D3)).
+The umkehr map (ρin)! was defined by replacing the mapping space M apB(C1, M ) by the path space
+PM (D1, D2, D3) = {α : [0, 1] → M : α(0) ∈ D1, α( 1
+2 ) ∈ D2, α(1) ∈ D3}.
+We notice that there is a restriction map r : M apB(C1, M ) → PM (D1, D2, D3) which is a homotopy equivalence. Furthermore we observe that there is a pullback diagram of fibrations,
+PM (D1, D2, D3) −−−−→ PM (D1, D2) × PM (D2, D3)
+ev 21
+y
+yev1 ×ev0
+D2 −−−∆−→ D2 × D2,
+where the vertical fibrations are evaluation maps at the times given by the subscripts. As argued previously, the existence of this pullback square allows for the
+
+
+60 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+definition of a Thom collapse map,
+τ : PM (D1, D2) × PM (D2, D3) → (PM (D1, D2, D3))ν∆ = (PM (D1, D2, D3))T D2 ,
+which, in homology defines the umkehr map we are looking for. We consider one more example. Consider the open-closed cobordism C2 between an interval, whose boundary is labeled by a D-brane D, and a circle. This cobordism is pictured in Figure 3.14.
+D
+Figure 3.14: The cobordism C2
+As in the previous example, we consider the mapping space, M apB(C2, M ) consisting of maps from the surface to M , which map the free part of the boundary to D ⊂ M . Then there is a diagram of restriction maps,
+LM ρout
+←−−− M apB(C2, M ) −ρi −n → PM (D, D). (3.7)
+As before, the operation ΦC2 will be defined to be the composition,
+ΦC2 = (ρout)∗ ◦ (ρin)! : H∗(PM (D, D)) → H∗(M apB(C2, M )) → H∗(LM ).
+The umkehr map (ρin)! is defined as above, except that we now replace M apB(C2, M ) by the path space
+LD(M ) = {α ∈ LM : α(0) ∈ D}.
+Again, there is a restriction map r : M apB(C2, M ) → LD(M ) that is a homotopy equivalence. Furthermore, there is a pullback square,
+LD(M ) −−−−→ PM (D, D)
+ev0
+y
+yev0 ×ev1
+D −−−∆−→ D × D
+from which we construct a Thom collapse map, τ : PM (D, D) → (LD(M ))T D and the induced umkehr map, (ρin)! : H∗(PM (D, D)) → H∗−dim(D)(LD(M )).
+In order to construct operations ΦΣ for an arbitrary open-closed cobordism Σ as in Figure 3.12, Ramirez replaced mapping spaces M apB(Σ, M ) by homotopy equivalent spaces, M apB(Γ, M ), where Γ is an appropriate fat graph with boundary labels. Ramirez defined the appropriate concept of these graphs, which he called “B-fat graphs”, studied the moduli space of such graphs, used them to construct operations ΦΣ, and proved the following theorem [Ram05].
+
+
+3.3. OPEN-CLOSED STRING TOPOLOGY 61
+Theorem 3.3.2. Given a set of D-branes B in a manifold M and a generalized homology theory h∗ that supports orientations of M and all the submanifolds of B, then the open-closed string topology operations define a positive boundary Btopological quantum field theory.
+
+
+62 CHAPTER 3. STRING TOPOLOGY AS FIELD THEORY
+
+
+Chapter 4
+A Morse theoretic viewpoint
+In this chapter we describe a Morse theoretic approach to string topology and its relationship to the Floer theory of the cotangent bundle. We will survey work contained in [CN05], [Coh04a], [Coh05], [SW03a], [AS04], [Sch05].
+4.1 Cylindrical gradient graph flows and string topology
+As already pointed out, string topology has many of the same formal properties and structure as more geometric theories, such as Floer theory, and Gromov-Witten theory. In these theories, invariants are obtained by counting, in an appropriate sense, maps of surfaces to the manifold that satisfy the Cauchy- Riemann equations, or certain pertubations of these equations. The point of this section is to outline work in [Coh05] that shows that the string topology invariants also can be computed by counting maps of certain topological surfaces to a manifold M , that satisfy certain differential equations. The differential equations in this case are gradient flow equations of Morse functions on the loop space. In the next section we will use this point of view to describe recent work exploring relationships between string topology and Gromov-Witten theory of the cotangent bundle. The surfaces in this study come as thickenings of fat graphs, or more specifically, marked Sullivan chord diagrams as described in chapter 3. Recall from section 2 of that chapter that a reduced Sullivan chord diagram Γ of type (g; p, q) is a fat graph whose p + q boundary cycles are subdivided into p incoming, and q outgoing cycles, and because of their markings, come equipped with parameterizations, which we designate by α− for the incoming, and α+ for the outgoing boundaries:
+α− : ∐
+p
+S1 −→ Γ, α+ : ∐
+q
+S1 −→ Γ.
+63
+
+
+64 CHAPTER 4. A MORSE THEORETIC VIEWPOINT
+If we endow Γ with a metric, we can take the circles to have circumference equal to the sum of the lengths of the edges making up the boundary cycle it parameterizes, each component of α+ and α− is a local isometry. Define the surface ΣΓ to be the mapping cylinder of these parameterizations,
+ΣΓ =
+(∐
+p
+S1 × (−∞, 0]
+)
+t
+(∐
+q
+S1 × [0, +∞)
+) ⋃ Γ/ ∼ (4.1)
+where (t, 0) ∈ S1 × (−∞, 0] ∼ α−(t) ∈ Γ, and (t, 0) ∈ S1 × [0, +∞) ∼ α+(t) ∈ Γ
+Notice that the figure 8 is a fat graph representing a surface of genus g = 0 and 3 boundary components. This graph has two edges, say A and B, and has
+boundary cycles (A), (B), (A ̄, B ̄). If we let (A) and (B) be the incoming cycles
+and (A ̄, B ̄) the outgoing cycle, then the figure 8 graph becomes a chord diagram. Figure 4.1 is a picture of the surface ΣΓ, for Γ equal to the figure 8.
+Figure 4.1: ΣΓ
+We want to study maps γ : ΣΓ → M . Notice that since ΣG is made up of p+q
+half cylinders, this is equivalent to considering p-maps, γi : (−∞, 0] × S1 → M ,
+and q-maps γj : [0, +∞) × S1 → M that satisfy an intersection condition at time t = 0 determined by the combinatorics of the fat graph Γ. Equivalently, these are maps from half lines to the loop space,
+γi : (−∞, 0] → LM, i = 1, · · · , p, and γj : [0, +∞) → LM, j = 1, · · · , q
+that satisfy the appropriate intersection properties at t = 0. We will study those maps γ : ΣΓ → M so that the curves γi and γj satisfy the gradient flow lines of certain Morse functions on LM . The constructions we are about to describe are motivated by the use of moduli spaces of “gradient graph flows” that have been used to define classical cohomology operations on compact manifolds in [BC94], [Fuk93], and [CN05]. We also refer the
+
+
+4.1. CYLINDRICAL GRADIENT GRAPH FLOWS 65
+reader to [Coh04a] for a general description of this theory, well as its adaptations to string topology.
+Assume M is endowed with a Riemannian metric, and LM has the induced L2-metric. Let f : LM → R be a Morse function on the loop space, which is bounded below, and that satisfies the Palais - Smale condition. Recall that this condition states that if {ai} is a sequence of points on which the gradient tends to zero, limi→∞ ∇f (ai) = 0, then there is a subsequence that converges to a critical point. Recall that given such a function f , a gradient flow line of f is a curve γ : R → LM that satisfies the gradient flow equation:
+dγ
+dt + ∇f (γ(t)) = 0. (4.2)
+If a ∈ LM is a critical point of f , let W u(a) be the unstable manifold, and W s(a) be the stable manifold. Recall that x ∈ W u(a) if and only if there is a gradient flow γ : R → LM satisfying the initial condition, γ(0) = x, and the asymptotic condition, limt→−∞ γ(t) = a. The stable manifold W s(a) is defined similarly except the boundary condition is that limt→+∞ γ(t) = a. In the case we are considering, (f : LM → R Morse, bounded below, and satisfies the Palais-Smale condition), then W u(a) is diffeomorphic to a disk of dimension λ(a) called the index of a, and W s(a) is infinite dimensional, but has codimension equal to λ(a). When, in addition, f satisfies the Morse-Smale transversality conditions, i.e the unstable and stable manifolds intersect transversally, one can consider the moduli spaces of gradient flow lines,
+M(a, b) = W u(a) ∩ W s(b)/R
+where R acts by reparameterizing the flow lines. This is a manifold of dimension λ(a) − λ(b) − 1. In this case there is a CW complex homotopy equivalent to LM , which is built out of one cell of dimension p for every critical point a of index λ(a) = p. The cellular chain complex is referred to as the Morse complex, C∗f (LM ):
+→ · · · ∂p+1
+−−−→ Cpf (LM ) −∂p → Cf
+p−1(LM ) ∂p−1
+−−−→ · · · (4.3)
+Here Cpf (LM ) is the free abelian group generated by the critical points of index p. As usual, if M is oriented, the boundary homomorphism can be computed by the formula
+∂p(a) = ∑
+λ(b)=p−1
+na,b · b
+where na,b = #M(a, b). This number is counted with sign, which makes sense because in this case M(a, b) is a compact, oriented, zero dimensional manifold. We will let Cf∗(LM ) denote the dual cochain complex for computing H∗(LM ).
+
+
+66 CHAPTER 4. A MORSE THEORETIC VIEWPOINT
+We now discuss a plentiful supply of Morse functions on LM . Consider a potential function on M , defined to be a smooth map
+V : R/Z × M −→ R.
+We can then define the classical energy functional
+SV : LM −→ R
+γ −→
+∫1
+0
+(1
+2 | dγ
+dt |2 − V (t, γ(t))
+)
+dt. (4.4)
+For a generic choice of V , SV is a Morse function [Web02] satisfying the Palais-Smale condition. Its critical points are those γ ∈ LM satisfying the ODE
+∇t
+dγ
+dt = −∇Vt(x) (4.5)
+where ∇Vt(x) is the gradient of the function Vt(x) = V (t, x), and ∇t dγ
+dt is the
+Levi-Civita covariant derivative.
+We will now describe a metric and Morse theoretic structure on a marked chord diagram Γ. This will allow us to define the differential equations that we would like the maps ΣΓ → M to satisfy.
+Definition 4.1.1. Given a marked chord diagram Γ with p-incoming and qoutgoing boundary cycles, we define an LM -Morse structure σ on Γ to be a metric on Γ together with a labeling of each boundary cycle of Γ by a distinct Morse function f : LM → R which is bounded below, and that satisfies the Palais-Smale condition.
+Notice that we can think of such a labeling of boundary cycles, as a labeling of the boundary cylinders of the surface ΣΓ. Notice also that we can choose our Morse functions to be energy functions of the sort mentioned above, in which case the labeling can be taken to be by potential functions, V : R/Z × M → R. This leads to the following definition of the moduli space of cylindrical flows.
+Definition 4.1.2. Let Γ be a marked chord diagram as above. Let σ be a LM Morse structure on Γ. Suppose φ : ΣΓ → M is a continuous map, smooth on the
+cylinders. Let φi : S1 × (−∞, 0] → M be the restriction of φ to the ith incoming
+cylinder, i = 1, · · · , p, and φj : S1 × [0, +∞) → M be the restriction to the jth outgoing cylinder, j = 1, · · · , q. We consider the φi’s and φj’s as curves in the loop space, LM . Then the moduli space of cylindrical flows is defined to be
+MσΓ(LM ) = {φ : ΣΓ → M : dφi
+dt +∇fi(φi(t)) = 0 and dφj
+dt + ∇fj(φj (t)) = 0
+for i = 1, · · · , p and j = 1, · · · , q.}
+
+
+4.1. CYLINDRICAL GRADIENT GRAPH FLOWS 67
+Let φ ∈ MσΓ(LM ). For i = 1, · · · , p, let φi,−1 : S1 → M be the restriction of
+φi : S1 × (−∞, 0] → M to S1 × {−1}. Similarly, for j = 1, · · · , q, let φj,1 : S1 → M
+be the restriction of φj to S1 × {1}. These restrictions define the following maps.
+(LM )q ρout
+←−−− MσΓ(LM ) −ρi −n → (LM )p. (4.6)
+In [Coh05] it is shown that one can define a Thom collapse map,
+τΓ : (LM )p → (MσΓ(LM )ν
+where ν is a certain vector bundle of dimension −χ(Γ) · d. This can be thought of as a normal bundle in an appropriate sense. This allows the definition of an umkehr map (ρin)! : h∗((LM )p) → h∗+χ(Γ)·d(MσΓ(LM )) (4.7)
+for any homology theory h∗ supporting an orientation of M . One can then define an operation
+qmorse
+Γ : h∗((LM )p) (ρin)!
+−−−−→ h∗+χ(Γ)·d(MσΓ(LM )) (ρout)∗
+−−−−→ h∗+χ(Γ)·d((LM )q). (4.8)
+Consider the inclusion map, j : MσΓ(LM ) ↪→ M ap(ΣG, M ). In With respect to this map, diagram 4.6 is the restriction of diagram 3.1 described in the last chapter. Furthermore, the construction of the Thom collapse map τG and resulting umkehr map (ρin)! in [Coh05] is compatible with the corresponding Thom collapse map and umkehr map from [CG04] described in the last chapter. This then yields the following theorem, proved in [Coh05].
+Theorem 4.1.1. For any marked chord diagram Γ, the Morse theoretic operation
+qmorse
+Γ : h∗((LM )p) −→ h∗+χ(Γ)·d((LM )q)
+given in (4.8) is equal to the string topology operation
+qΓ : h∗((LM )p) −→ h∗+χ(Γ)·d((LM )q)
+defined in theorem 3.2.4.
+This Morse theoretic viewpoint of the string topology operations has another, more geometric due to Ramirez [Ram05]. It is a direct analogue of the perspective on the graph operations in [BC94]. As above, let Γ be a marked chord diagram, and σ be an LM -Morse structure on Γ. Let (f1, · · · , fp+q) be the Morse functions on LM labeling the p + q cylinders of ΣΓ. As above, the first p of these cylinders are incoming, and the remaining q are outgoing. Let ~a = (a1, · · · , ap+q) be a sequence of loops such that ai ∈ LM is a critical point of fi : LM → R. Then define
+MσΓ(LM, ~a) = {φ : ΣΓ → M that satisfy the following two conditions:
+
+
+68 CHAPTER 4. A MORSE THEORETIC VIEWPOINT
+1. dφi
+dt + ∇fi(φi(t)) = 0 for i = 1, · · · , p + q
+2. φi ∈ W u(ai) for i = 1, · · · , p, and φj ∈ W s(aj) for j = p + 1, · · · p + q.}
+Ramirez then proved that under sufficient transversality conditions described in [Ram05] then MσΓ(LM, ~a) is a smooth manifold of dimension
+dim(MσΓ(LM, ~a)) =
+∑p
+i=1
+Ind(ai) −
+p+q
+∑
+j=p+1
+Ind(aj) + χ(Γ) · d. (4.9)
+Moreover, an orientation on M induces an orientation on MσΓ(LM, ~a). Fur
+thermore compactness issues are addressed, and it is shown that if dim(MσΓ(LM, ~a) =
+0 then it is compact. This leads to the following definition. For fi one of the la
+beling Morse functions, let C∗fi (LM ) be the Morse chain complex for computing
+H∗(LM ), and let Cf∗i (LM ) be the corresponding cochain complex. Consider the
+chain
+qmorse
+Γ (LM ) = ∑
+dim(MσΓ (LM,~a))=0
+#MσΓ(LM, ~a) · [~a] (4.10)
+∈
+⊗p
+i=1
+Cf∗i (LM ) ⊗
+p+q
+⊗
+j=p+1
+C∗fj (LM )
+We remark that the (co)chain complexes Cf∗i (LM ) are generated by critical
+points, so this large tensor product of chain complexes is generated by vectors of critical points [~a]. It is shown in [Ram05] that this chain is a cycle and if one uses (arbitrary) field coefficients this defines a class
+qmorse
+Γ (LM ) ∈ (H∗(LM ))⊗p ⊗ (H∗(LM ))⊗q (4.11)
+= Hom((H∗(LM ))⊗p, (H∗(LM ))⊗q).
+Ramirez then proved that these operations are the same as those defined by (4.8), and hence by theorem 4.1.1 is equal to the string topology operation. In the case when Γ is the figure 8, this operation is the same as that defined by Abbondandolo and Schwarz [AS04] in the Morse homology of the loop space.
+4.2 Cylindrical holomorphic curves in T ∗M.
+This section is somewhat speculative. It is based on conversations with Y. Eliashberg and is motivated by the work of Salamon and Weber [SW03a]. The goal of the work described in this section can be divided into two parts.
+
+
+4.2. CYLINDRICAL HOLOMORPHIC CURVES IN T ∗M . 69
+1. In the previous section, string topology operations were defined in terms of the moduli space of cylindrical graph flows, MσΓ(LM ). Here Γ is a marked chord diagram, and σ is an LM -Morse structure on Γ (see definitions 4.1.1 and 4.1.2.) These consisted of maps γ : ΣΓ → M , that satisfy appropriate gradient flow equations on the cylinders, dictated by the structure σ. We would like to replace this moduli space by a space of maps to the cotangent bundle, φ : ΣΓ → T ∗M that satisfy appropriate Cauchy-Riemann equations when restricted to the cylinders. These equations are determined by the structure σ, and an almost complex structure on T ∗M .
+2. We would like to understand how string topology type invariants defined using these moduli spaces of “cylindrical holomorphic curves”, are related to invariants such as the Gromov-Witten invariants, which are defined using moduli spaces of holomorphic curves from a Riemann surface.
+We will just give outlines of the ideas of this program in this section. This program is described in more detail in [Coh04a].
+The fact that the cotangent bundle T ∗M has an almost complex structure comes from the existence of its canonical symplectic structure. This structure is defined as follows: Let p : T ∗M → M be the projection map. Let x ∈ M and u ∈ Tx∗M . Consider the composition
+α(x, u) : T(x,u)(T ∗(M )) −D−p→ TxM −u→ R
+where T(x,u)(T ∗(M )) is the tangent space of T ∗(M ) at (x, u), and Dp is the deriva
+tive of p. Notice that α is a one form, α ∈ Ω1(T ∗(M )), and we define
+ω = dα ∈ Ω2(T ∗(M )).
+The form ω is a nondegenerate symplectic form on T ∗(M ). Now given a Rieman
+nian metric on M , g : T M −∼=→ T ∗M , one gets a corresponding almost complex structure Jg on T ∗(M ) defined as follows.
+The Levi-Civita connection defines a splitting of the tangent bundle of the T ∗(M ),
+T (T ∗(M )) ∼= p∗(T M ) ⊕ p∗(T ∗(M )).
+With respect to this splitting, Jg : T (T ∗(M )) → T (T ∗(M )) is defined by the matrix,
+Jg =
+(0 −g−1 g0
+) .
+The induced metric on T ∗(M ) is defined by
+Gg =
+(g 0 0 g−1
+) .
+
+
+70 CHAPTER 4. A MORSE THEORETIC VIEWPOINT
+Now let Γ be a marked chord diagram, and σ an LM -Morse structure on Γ. Recall that this consists of a metric on Γ and a labeling of the boundary cycles by Morse functions fi : LM → R. We now assume that these Morse functions are of the form
+fi = SVi : LM → R
+where SVi is the energy functional given in definition 4.4 using a potential function Vi : R/Z × M → R.
+In [SW03a] Salamon and Weber showed how, given such a potential function V , one can define a Hamiltonian function on the cotangent bundle, HV : R/Z ×
+T ∗(M ) → R by the formula
+HV (t, (x, u)) = 1
+2 |u|2 + V (t, x). (4.12)
+Using this Hamiltonian, Salamon and Weber studied the perturbed symplectic action functional on the loop space of the cotangent bundle,
+AV : L(T ∗M ) → R (4.13)
+(γ, η) → A(γ, η) −
+∫1
+0
+H(t, (γ(t), η(t)))dt. (4.14)
+Here (γ, η) represents a loop in T ∗M , where γ ∈ LM and η(t) ∈ Tγ∗(t)M . The
+classical symplectic action A : L(T ∗M ) → R is defined by
+A(γ, η) =
+∫1
+0
+〈η(t), dγ
+dt (t)〉dt.
+Following Floer’s original construction, one can define a “Floer complex”, CF∗V (T ∗M ), generated by the critical points of AV , and whose boundary operator is defined by by counting gradient flow lines of AV . As shown in [SW03a], these
+are are curves (u, v) : R → L(T ∗M ), or equivalently,
+(u, v) : R × S1 → T ∗M
+that satisfy the perturbed Cauchy Riemann equations,
+∂su − ∇tv − ∇Vt(u) = 0 and ∇sv + ∂tu − v = 0. (4.15)
+We refer to these maps as holomorphic cylinders in T ∗M with respect to the almost complex structure Jg and the Hamiltonian HV . Salamon and Weber also observed that the critical points of AV are loops (γ, η), where γ ∈ LM is a critical point of the energy functional SV : LM → R,
+and η is determined by the derivative dγ
+dt via the metric, η(v) = 〈v, dγ
+dt 〉. Thus the
+critical points of AV and those of SV are in bijective correspondence. The following result is stated in a form proved by by Salamon and Weber in [SW03a], but the conclusion of the theorem was first proved by Viterbo [Vit96].
+
+
+4.2. CYLINDRICAL HOLOMORPHIC CURVES IN T ∗M . 71
+Theorem 4.2.1. The Floer chain complex CF∗V (T ∗M ) and the Morse complex
+C∗V (LM ) are chain homotopy equivalent. There is a resulting isomorphism of the Floer homology of the cotangent bundle with the homology of the loop space,
+HF∗V (T ∗M ) ∼= H∗(LM ).
+This result was also proved using somewhat different methods by Abbondandolo and Schwarz [AS04]. The Salamon-Weber argument involved scaling the metric on M , g → 1 g, which scales the almost complex structure J → J , and the metric on T ∗M ,
+G→G =
+(1g 0 0 g−1
+)
+. Notice that in this metric, the “vertical” distance in the
+cotangent space is scaled by . Salamon and Weber proved that there is an 0 > 0 so that for < 0, the set of these holomorphic cylinders defined with respect to the metric G , that connect critical points (a1, b1) and (a2, b2) where a1 and a2 have relative Morse index one with respect to the action functional SV , (or equivalently (a1, b1) and (a2, b2) have relative Conley-Zehnder index one) is in bijective correspondence with the set of gradient trajectories of the energy functional SV : LM → R defined with respect
+to the metric 1 g that connect a1 to a2. Theorem 4.2.1 is then a consequence.
+Now again consider a marked chord diagram Γ with an LM Morse structure σ whose labeling Morse functions are of the form fi = SVi for some potential Vi : R/Z × M → R. Using the Salamon-Weber idea, we replace the moduli space of
+cylindrical graph flows, MσΓ(LM ), which consists of functions γ : ΣG → M so that
+the restriction to the ith boundary cylinder is a gradient trajectories the classical energy functional SVi , by the moduli space of “cylindrical holomorphic curves” in
+the cotangent bundle T ∗(M ), M(hΓo,lσ, )(T ∗M ), which consists of continuous maps,
+φ : ΣΓ → T ∗(M )
+such that the restrictions to the cylinders,
+φi : (−∞, 0] × Sc1i → T ∗M and φj : [0, +∞) × Sc1j → T ∗M
+are holomorphic with respect to the almost complex structure J and the Hamiltonians HVi and HVj respectively. Here the circles Sc1 are round with circumference cj determined by the metric given by the structure σ.
+Like in the last section we have restriction maps (compare (4.6))
+(L(T ∗M ))q ρout
+←−−− M(hΓo,lσ, )(T ∗M ) −ρi −n → (L(T ∗M ))p. (4.16)
+ρin is defined by sending a cylindrical flow φ to ∏p
+i=1 φi,−1 : {−1} × S1 → T ∗M
+and ρout sends φ to ∏p+q
+j=p+1 φj,1 : {1} × S1 → T ∗M.
+Motivated by the umkehr maps (ρin)! : h∗((LM )p) → h∗+χ(Γ)·d(MσΓ(LM ))
+given in the last section, as well as the Salamon-Weber results, we conjecture the
+
+
+72 CHAPTER 4. A MORSE THEORETIC VIEWPOINT
+following analogue of the existence of the string topology operations, and their field theoretic properties.
+Conjecture 4.2.2. For every marked chord diagram Γ, there is an umkehr map
+(ρin)! : (H F∗(T ∗M ))⊗p → H∗+χ(Γ)·d(M(hΓo,lσ, )(T ∗M ))
+and a homomorphism
+(ρout)∗ : H∗(M(hΓo,lσ, )(T ∗M )) → (HF∗(T ∗M ))⊗q
+so that the operations
+θΓ = (ρout)∗ ◦ (ρin)! : (HF∗(T ∗M ))⊗p → (HF∗(T ∗M ))⊗q
+satisfy the following properties:
+1. The maps θ fit together to define a positive boundary, topological field theory.
+2. With respect to the Salamon-Weber isomorphism HF∗(T ∗M ) ∼= H∗(LM ) (theorem 4.2.1) the Floer theory operations θΓ equal the string topology operations qΓ studied in the last two sections.
+Remark. The existence of a field theory structure on the Floer homology of a closed symplectic manifold was established by Lalonde [Lal04]. The above conjecture should be directly related to Lalonde’s constructions.
+Now one might also take the more geometric approach to the construction of these Floer theoretic operations, analogous to Ramirez’s geometrically defined Morse theoretic constructions of string topology operations. This would involve the study of the space of cylindrical holomorphic curves in T ∗M , with boundary conditions in stable and unstable manifolds of critical points, M(hΓo,lσ, )(T ∗M, ~a).
+Smoothness and compactness properties need to be established for these moduli spaces. In particular, in a generic situation their dimensions should be given by the formula
+dim (M(hΓo,lσ, )(T ∗M, ~a)) =
+∑p
+i=1
+Ind(ai) −
+p+q
+∑
+j=p+1
+Ind(aj ) + χ(Γ) · d
+where Ind(ai) denotes the Conley-Zehnder index.
+We remark that in the case of the figure 8, this analysis has all been worked out by Abbondandolo and Schwarz [Sch05]. In this case ΣΓ is a Riemann surface structure on the pair of pants. They proved the existence of a “pair of pants” algebra structure on HF∗V (LM ) and with respect to their isomorphism,
+HF∗V (LM ) ∼= H∗(LM ) it is isomorphic to the pair of pants product on the Morse homology of LM . In view of the comment following definition 4.11 we have the following consequence.
+
+
+4.2. CYLINDRICAL HOLOMORPHIC CURVES IN T ∗M . 73
+Theorem 4.2.3. With respect to the isomorphism HF∗V (T ∗M ) ∼= H∗(LM ), the pair of pants product in the Floer homology of the cotangent bundle corresponds to the Chas-Sullivan string topology product.
+Another aspect of the relationship between the symplectic structure of the cotangent bundle and the string topology of the manifold, has to do with the relationship between the moduli space of J-holomorphic curves with cylindrical boundaries, Mg,n(T ∗M ), and moduli space of cylindrical holomorphic curves,
+M(hΓo,lσ, )(T ∗M ), where we now let Γ and σ vary over the appropriate space of
+metric graphs. We conjecture that these moduli spaces are related as a parameterized version of the relationship between the moduli space of Riemann surfaces and the space of metric fat graphs (theorem 3.2.1). Once established, this conjecture would give a direct relationship between Gromov-Witten invariants of the cotangent bundle, and the string topology of the underlying manifold. In this setting the Gromov-Witten invariants would be defined using moduli spaces of curves with cylindrical ends rather than marked points, so that the invariants would be defined in terms of the homology of the loop space (or, equivalently, the Floer homology of the cotangent bundle), rather than the homology of the manifold. We believe that there is a very deep relationship between the symplectic topology of the cotangent bundle and the string topology of the underlying manifold. There is much work yet to be done in understanding the extent of this relationship.
+
+
+74 CHAPTER 4. A MORSE THEORETIC VIEWPOINT
+
+
+Chapter 5
+Brane topology
+5.1 The higher-dimensional cacti operad
+String topology may be generalized to higher-dimensional sphere spaces SM :=
+M Sn = Map(Sn, M ) for n ≥ 1, see [SV05]. See also the paper [Cha03] by Chataur,
+in which a string (i.e., “dot”) product on the homology of sphere spaces M Sn was defined, as well as the other string topology operations for n = 3. In the paper [KS03] by Kallel and Salvatore, the string product for n = 2 and M = CP N was shown to be coming from the holomorphic mapping space Hol(CP 1, CP N ) via Segal’s homological approximation theorem of the continuous maps by holomorphic ones. The corresponding cacti operad does not admit a nice conbinatorial description available for n = 1, so that we will consider an awfully big, but neat, infinite dimensional operad, which will do the job. For n ≥ 1, the n-dimensional cacti operad is an operad of topological spaces. It may be described as a collection of topological spaces Cn(k), k ≥ 1, defined as follows. The space Cn(k) is the space of all continuous maps from the unit n-sphere Sn to the union of k labeled (by the numbers 1, . . . , k) n-spheres, called the lobes, joined at a few points, such that every two lobes intersect at most at one point and the dual graph (whose vertices are the lobes and the intersection points and whose edges connect the lobes with the adjacent intersection points) of this union is a connected tree. One can think of a point of the space Cn(k) as a pair (c, φ), where c is a join of k spheres, as above, called a cactus, see Figure 5.1, and φ : Sn → c a continuous map, called a structure map from the unit n-sphere to the cactus. The topology on Cn(k) is given as follows. The topology on the set of cacti c is induced from the following inclusion into (Sn)k(k−1): for each ordered pair (i, j), 1 ≤ i 6= j ≤ k, one takes the point on the ith lobe of a given cactus at which this lobe is attached to a lobe eventually leading to the jth lobe. The topology on the “universal cactus” U defined as the set of pairs (c, x), where c is a cactus and x is
+75
+
+
+76 CHAPTER 5. BRANE TOPOLOGY
+2 1
+3
+4
+5...
+k
+Figure 5.1: A 2d-cactus.
+a point on it, is induced from the inclusion of U into (Sn)k2 = (Sn)k(k−1) × (Sn)k, the second factor governing the position of x on c from the point of view of each lobe. The universal cactus projects naturally onto the space of cacti, the space of tree-like joins of k labeled spheres, with the “fiber” being the corresponding cactus. Finally, a basis of the topology on the set Cn(k), which may be identified with the set of continuous maps from the unit sphere Sn to the fibers of the universal cactus, is formed by finite intersections of the sets of such maps Φ : Sn → U satisfying Φ(K) ⊂ U for given compact K ⊂ Sn and open U ⊂ U. An operad structure on the collection Cn = {Cn(k) | k ≥ 1} is defined as follows. An action of the symmetric group is defined via changing the labels of the lobes. A unit element id ∈ Cn(1) is the identity map id : Sn → Sn. Operad compositions ◦i : Cn(k) × Cn(l) → Cn(k + l − 1), i = 1, . . . , k, are defined for two cacti C1 with k lobes and C2 with l lobes as follows. First, construct a new cactus by attaching C1 to C2 via a certain attaching map from the ith lobe of C1 to the cactus C2. This attaching map is nothing but the structure map f2 from the unit sphere to the cactus C2. At the level of dual graphs, we glue in the tree corresponding to C2 in place of the vertex corresponding to the ith lobe of C1 by connecting the incoming edges into this vertex in C1 with certain vertices of the tree of C2, as prescribed by the map f2. This procedure, similar to ones appearing in [CK00, KS00], results in a tree again at the level of dual graphs and gives a cactus C1 ◦i C2 := C2 ∪f2 C1 with k + l − 1 lobes. Label the lobes by inserting the labels 1, . . . , l of C2 at the ith space in the set of labels 1, . . . , k of C1 and relabeling the resulting linearly ordered set as 1, . . . , k + l − 1. Then, define a structure map for this cactus as the composition of the structure map f1 : Sn → C1 and the natural map C1 → C2 ∪f2 C1.
+This operad is a close relative of the framed little (n + 1)-disks operad f Dn+1, see Section 2.1.4. Little is known about a direct relation, except the following theorem and Remark 4 of Salvatore, which one might try to generalize to higherdimensional cacti.
+Theorem 5.1.1 (Sullivan-AV [SV05]). There exists an operad morphism
+H∗(f Dn+1; Q) → H∗(Cn; Q)
+
+
+5.2. THE CACTI ACTION ON THE SPHERE SPACE 77
+from the rational homology framed little (n + 1)-disks operad to the rational homology n-cacti operad.
+Idea of proof. One constructs maps f Dn(k) → Cn(k), k = 1, 2, 3, from the first three components of the little disks operad to the cacti operad. To do that, first construct SO(n + 1)-equivariant maps Dn+1(k) → Cn(k), k = 1, 2, 3, for the (nonframed) little disks operad Dn+1 and then extend them to f Dn+1(k) by equivariance. The point is that for the framed little disks operad, the first three components contain all the information about its homology operad: the generators and relations of H∗(f Dn+1; Q) lie in H∗(f Dn+1(k); Q) for k ≤ 3. This follows from the
+fact, noticed by Salvatore and Wahl [SW03b], that the operad H∗(f Dn+1; Q) is
+a semidirect product of the homology little disks operad H∗(Dn+1; Q) and the rational homology of the group SO(n + 1). They make an explicit computation of the rational homology H∗(f Dn+1; Q), see Theorem 2.1.3, which we will use later. The proof is completed by showing that the constructed operad maps respect the operad structures up to homotopy. This implies that there is a homology operad morphism H∗(f Dn+1; Q) → H∗(Cn; Q).
+A complete proof along these lines is quite long and ad hoc, as it involves a number of explicit constructions with three disks in the unit disk and explicit homotopies. In principle, one may give a more direct and, perhaps, shorter proof of this theorem over the rationals, by mapping the generators, explicit in Salvatore-Wahl’s theorem, of the operad H∗(f Dn+1; Q) to specific cycles in Cn and checking that the relations are satisfied by showing that the corresponding cycles are homologous in Cn explicitly. However, the proof outlined earlier seems to be more conceptual, avoids computing the homology of the cacti operad, which might make a good research problem, and hints on the possibility of an operad morphism f Dn+1 → Cn. It would also be interesting to study the relationship between the kth connected component Cn(k)0 of the cacti operad and the classifying space of the group
+of homeomorphisms (or diffeomorphisms) of Sn+1 with k + 1 disks removed. In the n = 1 case, all these spaces are known to be homotopy equivalent to the framed little disks space f D2(k + 1) and the moduli space of (k + 1)-punctured CP 1’s with a real tangent direction at each puncture.
+5.2 The cacti action on the sphere space
+Let M be an oriented manifold of dimension d. We would like to study continuous
+k-ary operations on the (free) sphere space SM := M Sn := Map(Sn, M ), functorial with respect to M . By passing to singular chains or homology, these operations will induce functorial operations on the chain and homology level, respectively. We will generalize the motivic approach described in Section 2.3 in the n = 1 case, following [SV05]. We will use the notation C := Cn throughout this section.
+
+
+78 CHAPTER 5. BRANE TOPOLOGY
+Like for n = 1, consider the following diagram
+C(k) × (SM )k ←ρi−n− C(k)M ρout
+−−→ SM (5.1)
+for each k ≥ 1, where C(k)M is the space of triples (c, φ, f ) with (c, φ) ∈ C(k) and f : c → M a continuous map from the corresponding cactus to M . The map ρin : C(k)M → C(k) × (SM )k takes a triple (c, φ, f ) to (c, φ) ∈ C(k) and the restrictions of f to the k lobes of c. It is an embedding of codimension d(k −1). The map ρout : C(k)M → SM takes (c, φ, f ) to the composition of the structure map
+φ : Sn → c with f : c → M . The above diagram defines an operad action in the category Corr of correspondences, see Section 2.3, on the sphere space SM . Then the proof of the following theorem is no different from the proof of Theorem 2.3.1 for n = 1.
+Theorem 5.2.1 ([SV05]). 1. Diagram (5.1), considered as a morphism C(k)× (SM )k → SM in Corr, defines the structure of a C-algebra on the sphere space SM in Corr.
+2. This C-algebra structure on the sphere space SM in Corr induces an h∗(C)algebra structure on the shifted homology h∗+d(SM ) for any multiplicative generalized homology theory h∗ which supports an orientation of M .
+5.3 The algebraic structure on homology
+Combining Theorems 5.1.1 and 5.2.1 we observe the following result.
+Corollary 5.3.1. The shifted rational homology H∗+d(SM ; Q) := H∗(SM ; Q)[d]
+of the sphere space SM = M Sn is an algebra over the operad H∗(f Dn+1; Q).
+Taking into account the explicit generators and relations for the operad H∗(f Dn+1; Q) given by Theorem 2.1.3, we obtain the following algebraic structure on the rational homology of the sphere space SM .
+Corollary 5.3.2. The (shifted ) rational homology H∗+d(SM ; Q) admits the algebraic structure of Theorem 2.1.3. This includes operations ·, [, ], B1, . . . , and, for n odd, ∆, satisfying the corresponding identities.
+Remark 10. The dot product, like in the n = 1 case, see [CJ02], comes from a ring spectrum structure
+(SM )−T M ∧ (SM )−T M → (SM )−T M ,
+which is constructed using the a standard pinch map Sn → Sn ∨ Sn as a point in Cn(2) and the diagram
+SM × SM ←↩ SM ×M SM → SM,
+which is a specification of (5.1) at that point of Cn(2) for k = 2.
+
+
+5.3. THE ALGEBRAIC STRUCTURE ON HOMOLOGY 79
+In reality, though, all the unary operations but ∆ in the odd n case and Bn/2 in the even n case vanish on H∗+d(SM ; Q), as we will see soon. So, perhaps, an analogue of the previous corollary with integral or finite coefficients would bring a lot more information. What we have over Q can be described using the following definition.
+Definition 5.3.1. A BVn+1-algebra over a field of zero characteristic is a graded vector space V , along with a dot product ab, a bracket [a, b], and a BV operator ∆ of degree n, if n is odd, and an operator B = Bn/2 of degree 2n − 1, if n is even, satisfying the properties (1)–(3) and (6)–(7) of Theorem 2.1.3.
+Theorem 5.3.3 ([SV05]). The shifted rational homology H∗+d(SM ; Q) of the
+sphere space SM = M Sn of an oriented manifold M of dimension d has a natural structure of a BVn+1-algebra.
+This theorem follows trivially from Corollary 5.3.2; in other words, in view of Theorem 2.1.3, any H∗(f D; Q)-algebra is a BVn+1-algebra. Moreover, one has the following vanishing result.
+Proposition 5.3.4 ([SV05]). The operators Bi, i 6= n/2, vanish on H∗+d(SM ; Q).
+Proof. These operators come from an action of the group SO(n+ 1), which is obviously homotopy equivalent to the monoid f Dn+1(1). This monoid maps naturally to Cn(1) = Map(Sn, Sn) and acts through it on the sphere space SM . This action is the k = 1 part of the action from Theorem 5.2.1. Thus, it suffices to perform the following computation of the rational homology of Map(Sn, Sn).
+Lemma 5.3.5. 1. We have an isomorphism
+H∗(Map(Sn, Sn); Q) =
+{
+Q[∆, q, q−1] for n odd, Q[B, q, q−1] for n even.
+bIn either case the right-hand side is a graded commutative algebra on one generator q of degree zero and one odd generator ∆ of degree n for n odd or one odd generator B of degree 2n − 1 for n even, localized at q = 0.
+2. Under the map SO(n + 1) → Map(Sn, Sn), the elements ∆ and Bn/2 ∈ H∗(SO(n + 1); Q) map to the above ∆ and B, while the other Bi’s map to zero.
+Idea of proof of Lemma, after Sullivan. The proof uses a method of rational homotopy theory, which finds the (commutative, minimal) DGA representing the structure group of a fiber bundle, given a DGA representing a generic base and a DGA representing the fiber. We will compute the homology of Map(S4, S4) as an example. Here we are talking about an S4-bundle over a base represented by a DGA A. The DGA of the fiber is Q[u, v] with degrees |u| = 4 and |v| = 7 and differential du = 0 and dv = u2. Then the DGA model of the total space may
+
+
+80 CHAPTER 5. BRANE TOPOLOGY
+be obtained as A[u, v] with a differential determined by du = a for some a ∈ A and dv = u2 + pu + q for some p, q ∈ A. Of course, we should have d2 = 0, so d2v = 0 yields 2ua + pa + udp + dq = 0 or 2a + dp = 0 and pa + dq = 0. If we set u′ := u − p/2, we will have du′ = 0 and dv = (u′)2 + q − p2/4. Thus, the total space DGA is now universally presented as A[u′, v] with the above differential. Note that for q′ := q − p2/4 we have dq′ = 0. Therefore, an S4-bundle is determined in rational homotopy theory by a characteristic class q′ ∈ A of degree eight and the classifying space must rationally be K(Q, 8). By transgression, the structure group must rationally be K(Q, 7) ∼Q S7. One needs some extra work to see that a homology generator of this space comes from the generator B of H7(SO(5); Q).
+5.4 Sphere spaces and Hochschild homology
+Here we will announce a result of the second author, which provides an approx
+imation of the sphere space SX = XSn via configuration spaces with labels and implies a computation of the homology of SX as the Hochschild homology of the n-algebra C∗(ΩnX), where ΩnX = Map∗(Sn, X) is the based n-fold loop space of a space X. These results directly generalize the results of Burghelea and Fiedorowicz [BF86] for loop spaces (n = 1). The first computation of the homology of SX as an n-algebra Hochschild homology was done by Po Hu [Hu04], who generalized the Chen-Getzler-Jones-Petrack-Segal method. Unfortunately, we can only speculate that our version of the n-algebra Hochschild homology is isomorphic to the one used by Po Hu.
+Theorem 5.4.1. The topological Hochschild complex (see below) of the based nfold loop space ΩnX, considered as an f Dn-algebra is homeomorphic to the space
+XSn
+0 of maps Sn → X passing through the basepoint of a space X.
+Proof. Let us first define the topological Hochschild complex; when this is done, the proof will be fairly straightforward. ¿From this point on, we need to consider a homotopy equivalent version of the framed little n-disks operad, which is the operad of labeled, framed little disks inside the standard (unit) upper hemisphere of Sn with a chosen orientation. A little disk on the sphere is understood as a ball in the standard metric on the sphere induced from the ambient Euclidean Rn+1. A frame in a little disk is a positively oriented orthonormal frame in the tangent space to the sphere at the center of the disk. The operad composition is given by shrinking the hemisphere along the great arcs towards the north pole to fit the prescribed little disk on another unit hemisphere, transporting the shrunk disk to the place of that prescribed little disk and rotating the shrunk disk to fit the frames. Here we assume that we choose a standard orthonormal frame at the north pole of the standard sphere. We will still denote the resulting operad f Dn.
+
+
+5.4. SPHERE SPACES AND HOCHSCHILD HOMOLOGY 81
+Consider a similar space f DSn = {f DSn(k) | k ≥ 1} of labeled, framed little disks on the whole unit sphere Sn. It is a (right) module over the operad f Dn via similar combination of dilations, translations, and rotations, as in the definition of the operad structure on f Dn above. Suppose a space A is an algebra over the operad O in the category of topological spaces and M an O-module. Then we can form the tensor product of M and A over O as follows:
+M ⊗O A := ∐
+k
+M (k) ×Σk Ak/ ∼,
+where ∼ denotes the equivalence relation which may be described roughly as (mo, a) ∼ (m, oa) for m ∈ M , o ∈ O, and a ∈ A. In other words, M ⊗O A is the coequalizer of the diagram M ×Σ O ×Σ ×A //
+// M ×Σ A .
+Now let A be an algebra over the operad f Dn, for example, the based n-fold loop space ΩnX of a pointed space X, and f DSn the f Dn-module of framed little disks on the sphere. Then, by definition, the topological Hochschild homology of the f Dn-algebra A is the tensor product f DSn ⊗fDn A. To prove the theorem, we thereby need to present a homeomorphism
+f DSn ⊗fDn ΩnX ∼= X Sn
+0.
+We define it by assigning to a configuration of k framed little disks on Sn and a given collection of k maps of the upper hemisphere in Sn to X (representing k points in ΩnX) to a maps from the sphere Sn to X by using the k maps on the little disks (prepended by the appropriate translations, dilations, and rotations on the sphere, as above) and extending these maps by a constant to a map Sn → X.
+This gives a point in XSn
+0.
+The inverse of this homeomorphism is given by taking, for a given map Sn → X passing through the basepoint, a point on s ∈ Sn mapping to the basepoint and thinking of its complement Sn \ {s} as one little disk on Sn, giving it any framing, which determines a map from the standard upper hemisphere to Sn \ {s} mapping the equator to s, and thus getting an element of ΩnX. This combines into a map
+XSn
+0 → f DSn(1) × ΩnX, which we map into the tensor product f DSn ⊗fDn ΩnX naturally.
+The relation between the free sphere space XSn and the “semifree” one XSn
+0
+is amazingly simple.
+Proposition 5.4.2. For a path connected space X having numerable category, in
+particular, a connected CW complex, the inclusion XSn
+0 ⊂ XSn is a homotopy equivalence.
+Proof. Consider the map p : XSn → X evaluating a map Sn → X at the north pole. One checks that it is a fibration by verifying the homotopy lifting property
+
+
+82 CHAPTER 5. BRANE TOPOLOGY
+directly. There is a similar fibration XSn
+0 → X and a commutative square
+XSn
+0 −−−−→ XSn
+y
+y
+X id
+−−−−→ X.
+It suffices to show that the map induced on the fiber is a homotopy equivalence. Indeed the map induced between the fibers over the basepoint is just the identity map.
+We can pass to singular cochains C∗ and homology H∗ and obtain the following corollary.
+Corollary 5.4.3. 1. The Hochschild chain complex C∗(n)(C∗ΩnX, C∗ΩnX) of
+the C∗f Dn-algebra C∗ΩnX is homotopy equivalent to the singular cochain
+complex C∗XSn
+0.
+2. The Hochschild homology H∗(n)(C∗ΩnX, C∗ΩnX) of the C∗f Dn-algebra C∗ΩnX
+is isomorphic to the homology H∗(XSn
+0 ; Z).
+If X is path connected and has numerable category, one can replace XSn
+0 by
+the sphere space XSn in the above.
+Here the Hochschild chain complex C∗(n)(A, A) of a C∗f Dn-algebra A is understood as C∗f DSn ⊗C∗fDn A and the Hochschild homology H∗(n)(A, A) as the homology of this complex. Motivation for this definition may be the n = 1 case, in which C∗f DS1 and C∗f D1 must be replaced by the cofibrant models C∗C(S1) and
+C∗C(D1), where C stands for the Fulton-MacPherson compactification and C∗ for cellular chains. After these changes, the tensor product becomes a configuration space with summable labels, see [BF86, Sal01], and we get the usual Hochschild complex. As we mentioned earlier, the first result of this type was obtained by Po Hu [Hu04], who used a different notion of the Hochschild homology. It will be very interesting to find a relationship between them. Hopefully, our result is a geometric incarnation of that of Po Hu.
+5.4.1 Brane topology and Kontsevich’s Hochschild cohomology conjecture
+We would like to end the discussion with the following table of analogies between algebra and topology. Since the discussion is highly speculative, we will freely confuse the notion of an n-algebra, which is an algebra over the operad H∗(Dn; Z),
+see Section 2.1.4, with that of an algebra over the chain operad C∗(Dn; Z) or the
+topological operad Dn and an n∞-algebra. Recall that a 1-algebra is the same as an associative algebra and 2-algebra is the same as a G-algebra.
+
+
+5.4. SPHERE SPACES AND HOCHSCHILD HOMOLOGY 83
+Algebra Topology a 1-algebra A a loop space ΩM is a 1-algebra H∗(A, A) is a 2-algebra by Gerstenhaber
+H∗+d(LM ) is a 2-algebra by ChasSullivan H∗+d(C∗ΩM, C∗ΩM ), a graded abelian group isomorphic to H∗+d(LM ) by Burghelea-Fiedorowicz, is a 2-algebra, via Poincar ́e duality and the fact that C∗ΩM is a 1-algebra an n-algebra A a loop space ΩnM is an n-algebra H(∗n)(A, A) is an (n + 1)-algebra by
+Kontsevich
+H∗+d(M Sn ) is an (n + 1)-algebra by Sullivan-AV
+H (n)
+∗+d(C∗ΩnM, C∗ΩnM ), a graded
+abelian group isomorphic to
+H∗+d(M Sn ) by Po Hu, is an (n + 1)algebra, via Poincar ́e duality and the fact that C∗ΩnM is an n-algebra
+It would be very interesting to find a relation of our notion of Hochschild nalgebra homology to an algebraic one, see, for example, [Kon99, Tam00, HKV01], and check if the isomorphisms in the right column of the table respected the nalgebra structures. One may think of such a statement as a topological incarnation of Kontsevich’s conjecture on Hochschild cohomology, proven in [Tam00, HKV01]: the Hochschild cochain complex of an n-algebra is naturally an (n + 1)∞-algebra.
+
+
+84 CHAPTER 5. BRANE TOPOLOGY
+
+
+Bibliography
+[Abr96] L. Abrams, Two-dimensional topological quantum field theories and Frobenius algebras, J. Knot Theory Ramifications 5 (1996), no. 5, 569–587. MR MR1414088 (97j:81292)
+[Ada78] J. F. Adams, Infinite loop spaces, Princeton University Press, Princeton, NJ, 1978.
+[AS04] A. Abbondandolo and M. Schwarz, On the Floer homology of cotangent bundles, Preprint, August 2004, math.SG/0408280.
+[Ati61] M. F. Atiyah, Thom complexes, Proc. London Math. Soc. 3 (1961), no. 11, 291–310.
+[Ati88] M. Atiyah, Topological quantum field theories, Inst. Hautes E ́tudes Sci. Publ. Math. (1988), no. 68, 175–186 (1989). MR MR1001453 (90e:57059)
+[BC94] M. Betz and R. L. Cohen, Moduli spaces of graphs and cohomology operations, Turkish Journal of Math. 18 (1994), 23–41.
+[BCR04] N. A. Baas, R. L. Cohen, and A. Ramirez, The topology of the category of open and closed strings, Preprint, November 2004, math.AT/0411080.
+[Beh97] K. Behrend, Gromov-Witten invariants in algebraic geometry, Invent. Math. 127 (1997), no. 3, 601–617, alg-geom/9601011. MR MR1431140 (98i:14015)
+[BF86] D. Burghelea and Z. Fiedorowicz, Cyclic homology and algebraic K-theory of spaces. II, Topology 25 (1986), no. 3, 303–317. MR MR842427 (88i:18009b)
+[BG75] J. C. Becker and D. Gottlieb, The transfer maps and fibre bundles, Topology 14 (1975), 1–12.
+[BHM93] M. Bokstedt, W.-C. Hsiang, and I. Madsen, The cyclotomic trace and algebraic k-theory of spaces, Invent. Math. 111 (1993), 465–540.
+85
+
+
+86 BIBLIOGRAPHY
+[BV73] J. M. Boardman and R. M. Vogt, Homotopy invariant algebraic structures on topological spaces, Lecture Notes in Math., vol. 347, SpringerVerlag, 1973.
+[CG04] R. L. Cohen and V. Godin, A polarized view of string topology, Topology, geometry and quantum field theory, London Math. Soc. Lecture Notes, vol. 308, Cambridge Univ. Press, Cambridge, 2004, math.AT/0303003, pp. 127–154.
+[Cha01] M. Chas, Combinatorial Lie bialgebras of curves on surfaces, Tech. report, SUNY at Stony Brook, May 2001, math.GT/0105178. To appear in Topology.
+[Cha03] D. Chataur, A bordism approach to string topology, Preprint, CRM, Barcelona, 2003, arXiv:math.AT/0306080.
+[CJ02] R. L. Cohen and J. D. S. Jones, A homotopy theoretic realization of string topology, Math. Ann. 324 (2002), no. 4, 773–798, math.GT/0107187. MR 1 942 249
+[CJY03] R. L. Cohen, J. D. S. Jones, and J. Yan, The loop homology algebra of spheres and projective spaces, Progr. Math., vol. 215, Birkh ̈auser, Basel, 2003, pp. 77–92.
+[CK00] A. Connes and D. Kreimer, Renormalization in quantum field theory and the Riemann-Hilbert problem. I. The Hopf algebra structure of graphs and the main theorem, Comm. Math. Phys. 210 (2000), no. 1, 249–273, hep-th/9912092. MR 2002f:81070
+[CKS05] R. L. Cohen, J. Klein, and D. Sullivan, On the homotopy invariance of string topology, In preparation, March 2005.
+[CN05] R. L. Cohen and P. Norbury, Morse field theory, In preparation, March 2005.
+[Coh76] F. R. Cohen, The homology of Cn+1-spaces, n ≥ 0, The homology of iterated loop spaces, Lecture Notes in Math., vol. 533, Springer-Verlag, 1976, pp. 207–351.
+[Coh04a] R. L. Cohen, Morse theory, graphs, and string topology, Preprint, November 2004, math.GT/0411272. To appear in Proc. SMS/NATO Adv. study inst. on Morse theoretic methods in nonlinear analysis and symplectic topology, Kluwer press (2005).
+[Coh04b] , Multiplicative properties of Atiyah duality, Homology, Homotopy, and its Applications 6 (2004), no. 1, 269–281.
+
+
+BIBLIOGRAPHY 87
+[Coh05] , String topology and Morse theory on the loop space, In preparation, March 2005.
+[CS99] M. Chas and D. Sullivan, String topology, Preprint, CUNY, November 1999, math.GT/9911159. To appear in Ann. of Math.
+[DW90] R. Dijkgraaf and E. Witten, Topological gauge theories and group cohomology, Comm. Math. Phys. 129 (1990), no. 2, 393–429. MR MR1048699 (91g:81133)
+[EKMM97] A. D. Elmendorf, I. Kriz, M. A. Mandell, and J. P. May, Rings, modules, and algebras in stable homotopy theory, Math. Surveys and Monographs, vol. 47, Amer. Math. Soc., Providence, 1997.
+[Fie92] Z. Fiedorowicz, The symmetric bar construction, Preprint, Ohio State University, 1992, http://www.math.ohio-state.edu/~fiedorow/.
+[Fie98] , Constructions of En operads, Preprint, Ohio State University, August 1998, math.AT/9808089.
+[FMT02] Y. Felix, L. Menichi, and J.-C. Thomas, Duality in Gerstenhaber algebras, Preprint, November 2002, math.AT/0211229.
+[Fuk93] K. Fukaya, Morse homotopy, a∞-category, and Floer homologies, Proc. Garc. workshop on geometry and topology (Seoul), Lecture Notes Ser., vol. 18, Seoul National Univ., 1993, pp. 1–102.
+[Ger68] M. Gerstenhaber, On the deformation of rings and algebras. III, Ann. of Math. (2) 88 (1968), 1–34. MR MR0240167 (39 #1521)
+[Get94] E. Getzler, Batalin-Vilkovisky algebras and two-dimensional topological field theories, Comm. Math. Phys. 159 (1994), no. 2, 265–285, hep-th/9212043.
+[God04] V. Godin, Ph.D. thesis, Stanford University, Stanford, CA, 2004.
+[Gol86] W. M. Goldman, Invariant functions on Lie groups and Hamiltonian flows of surface group representations, Invent. Math. 85 (1986), no. 2, 263–302.
+[Goo85] T. Goodwillie, Cyclic homology, derivations, and the free loop space, Topology 24 (1985), 187–215.
+[Gru05] K. Gruher, Ph.D. thesis, Stanford University. In preparation, March 2005.
+[Har85] J. L. Harer, Stability of the homology of the mapping class groups of orientable surfaces, Ann. of Math. 121 (1985), 215–249.
+
+
+88 BIBLIOGRAPHY
+[Har04] E. Harrelson, On the homology of open-closed string theory, Preprint, December 2004, math.AT/0412249.
+[HKV01] P. Hu, I. Kriz, and A. A. Voronov, On Kontsevich’s Hochschild cohomology conjecture, Preprint, University of Michigan, September 2001, math.AT/0309369. To appear in Compos. Math.
+[HSS00] M. Hovey, B. Shipley, and J. Smith, Symmetric spectra, J. Amer. Math. Soc. 13 (2000), 149–208.
+[Hu04] P. Hu, Higher string topology on general spaces, Preprint, Wayne State University, January 2004, math.AT/0401081.
+[Hua97] Y.-Z. Huang, Two-dimensional conformal geometry and vertex operator algebras, Birkh ̈auser Boston, Boston, MA, 1997. MR 98i:17037
+[Jon87] J. D. S. Jones, Cyclic homology and equivariant homology, Inv. Math. 87 (1987), 403–423.
+[Kle99] J. Klein, Poincare duality embeddings and fiberwise homotopy theory, Topology 38 (1999), 597–620.
+[Kle03] , Fiber products, Poincare ́ duality, and a∞-ring specta, Preprint, June 2003, math.AT/0306350.
+[Kli82] W. Klingenberg, Riemannian geometry, Math. Surveys and Monographs, vol. 47, deGruyter, 1982.
+[KM94] M. Kontsevich and Yu. I Manin, Gromov-Witten classes, quantum cohomology, and enumerative geometry, Comm. Math. Phys. 164 (1994), 525–562, hep-th/9402147.
+[Kon92] M. Kontsevich, Intersection theory on the moduli space of curves and the matrix Airy function, Comm. Math. Phys. 147 (1992), no. 1, 1–23. MR 93e:32027
+[Kon99] , Operads and motives in deformation quantization, Lett. Math. Phys. 48 (1999), 35–72.
+[KS00] M. Kontsevich and Y. Soibelman, Deformations of algebras over operads and the Deligne conjecture, Conf ́erence Mosh ́e Flato 1999, Vol. I (Dijon), Kluwer Acad. Publ., Dordrecht, 2000, math.QA/0001151, pp. 255–307. MR 1 805 894
+[KS03] S. Kallel and P. Salvatore, Rational maps and string topology, Preprint, Universit ́e Lille I, 2003, math.AT/0309038.
+
+
+BIBLIOGRAPHY 89
+[KSV96] T. Kimura, J. Stasheff, and A. A. Voronov, Homology of moduli spaces of curves and commutative homotopy algebras, The Gelfand Mathematics Seminars, 1993–1995 (I. Gelfand, J. Lepowsky, and M. M. Smirnov, eds.), Birkh ̈auser Boston, 1996, pp. 151–170.
+[Lal04] F. Lalonde, A field theory for symplectic fibrations over surfaces, Geom. Topol. 8 (2004), 1189–1226 (electronic), math.SG/0309335. MR MR2087081
+[LT98] J. Li and G. Tian, Virtual moduli cycles and Gromov-Witten invariants of algebraic varieties, J. Amer. Math. Soc. 11 (1998), no. 1, 119174. MR MR1467172 (99d:14011)
+[Man99] Y. I. Manin, Frobenius manifolds, quantum cohomology, and moduli spaces, American Mathematical Society Colloquium Publications, vol. 47, American Mathematical Society, Providence, RI, 1999. MR MR1702284 (2001g:53156)
+[May96] J. P. May, Operads, algebras and modules, Operads: Proceedings of Renaissance Conferences (J.-L. Loday, J. Stasheff, and A. A. Voronov, eds.), Amer. Math. Soc., 1996, pp. ?–?
+[Mer03] S. A. Merkulov, A de Rham model for string topology, Preprint, Stockholm University, 2003, arXiv:math.AT/0309038.
+[ML65] S. Mac Lane, Categorical algebra, Bull. Amer. Math. Soc. 71 (1965), 40–106. MR 30 #2053
+[MS02] J. E. McClure and J. H. Smith, A solution of Deligne’s Hochschild cohomology conjecture, Recent progress in homotopy theory (Baltimore, MD, 2000), Amer. Math. Soc., Providence, RI, 2002, math.QA/9910126, pp. 153–193. MR 1 890 736
+[MSS02] M. Markl, S. Shnider, and J. Stasheff, Operads in algebra, topology and physics, Mathematical Surveys and Monographs, vol. 96, American Mathematical Society, Providence, RI, 2002. MR 1 898 414
+[MV03] M. Markl and A. A. Voronov, PROPped up graph cohomology, Preprint M/03/47, IHES, Bures-sur-Yvette, France, July 2003, math.QA/0307081. Submitted to Acta Math.
+[MW02] I. Madsen and M. S. Weiss, The stable moduli space of Riemann surfaces: Mumford’s conjecture, Preprint, Aarhus University, December 2002, math.AT/0212321.
+[Pen87] R. C. Penner, The decorated Teichm ̈uller space of punctured surfaces, Comm. Math. Phys. 113 (1987), no. 2, 299–339. MR 89h:32044
+
+
+90 BIBLIOGRAPHY
+[Ram05] A. Ramirez, Ph.D. thesis, Stanford University. In preparation, March 2005.
+[Sal01] P. Salvatore, Configuration spaces with summable labels, Cohomological methods in homotopy theory (Bellaterra, 1998), Progr. Math., vol. 196, Birkh ̈auser, Basel, 2001, math.AT/9907073, pp. 375–395. MR 2002f:55039
+[Sch93] A. Schwarz, Geometry of Batalin-Vilkovisky quantization, Comm. Math. Phys. 155 (1993), no. 2, 249–260. MR MR1230027 (95f:81095)
+[Sch05] M. Schwarz, Proc. SMS/NATO Adv. study inst. on Morse theoretic methods in nonlinear analysis and symplectic topology, Kluwer Press, 2005, To appear.
+[Seg88] G. Segal, Elliptic cohomology (after Landweber-Stong, Ochanine, Witten, and others), Ast ́erisque (1988), no. 161-162, Exp. No. 695, 4, 187–201 (1989), S ́eminaire Bourbaki, Vol. 1987/88. MR MR992209 (91b:55005)
+[Seg99] , Topological field theory (‘Stanford Notes’), http://www.cgtp.duke.edu/ITP99/segal/, 1999.
+[Seg01] , Topological structures in string theory, Phil. Trans. R. Soc. Lond. A 359 (2001), 1389–1398.
+[Seg04] , The definition of conformal field theory, Topology, geometry and quantum field theory, London Math. Soc. Lecture Notes, vol. 308, Cambridge Univ. Press, Cambridge, 2004, pp. 421–577. MR MR2079383
+[Sta63] J. Stasheff, On the homotopy associativity of H-spaces, I, Trans. Amer. Math. Soc. 108 (1963), 275–292.
+[Str84] K. Strebel, Quadratic differentials, Springer-Verlag, Berlin, 1984.
+[Sul04] D. Sullivan, Open and closed string field theory interpreted in classical algebraic topology, Topology, geometry and quantum field theory, London Math. Soc. Lecture Notes, vol. 308, Cambridge Univ. Press, Cambridge, 2004, math.QA/0302332, pp. 344–357.
+[SV05] D. Sullivan and A. A. Voronov, Brane topology, Preprint, University of Minnesota, In preparation, March 2005.
+[SW03a] D. Salamon and J. Weber, Floer homology and the heat flow, Preprint, April 2003, math.SG/0304383.
+
+
+BIBLIOGRAPHY 91
+[SW03b] P. Salvatore and N. Wahl, Framed discs operads and BatalinVilkovisky algebras, Q. J. Math. 54 (2003), no. 2, 213–231, math.AT/0106242.
+[Tam00] D. E. Tamarkin, Deformation complex of a d-algebra is a (d + 1)-algebra, Preprint, Harvard University, October 2000, math.QA/0010072.
+[Til97] U. Tillmann, On the homotopy of the stable mapping class group, Invent. Math. 130 (1997), no. 2, 257–275.
+[Vit96] C. Viterbo, Functors and computations in Floer homology with applications, Part II, Preprint, 1996.
+[Vor01] A. A. Voronov, Notes on universal algebra, Preprint 26/2001, University of Warwick, December 2001, math.QA/0111009. To appear in Proc. Sympos. Pure Math.
+[Web02] J. Weber, Perturbed closed geodesics are periodic orbits: Index and transversality, Math. Zeit. 241 (2002), 45–81.
+[Wit91] E. Witten, Introduction to cohomological field theories, Internat. J. Modern Phys. A 6 (1991), no. 16, 2775–2792, Topological methods in quantum field theory (Trieste, 1990). MR MR1117747 (92h:58035)
+[Wol83] S. Wolpert, On the symplectic geometry of deformations of hyperbolic surfaces, Ann. of Math. 117 (1983), 207–234.

@@ -1,0 +1,361 @@
+SPECIAL ISSUE ARTICLE
+Accelerating resident research within quantitative
+collaboration units in academic healthcare
+Clemontina A. Davenport1 | Hui-Jie Lee 1 | Quentin Ruiz-Esparza 2 |
+Nicholas Janes 2 | Megan L. Neely 1 | Lacey Rende 1 | Gregory P. Samsa 1 |
+Kelsey Stilley 3 | Jesse D. Troy 3 | Tracy Truong 1 | Steven C. Grambow 1 |
+Gina-Maria Pomann 1
+1Department of Biostatistics and Bioinformatics, Duke University, Durham, North Carolina, USA
+2Learning Innovation and Lifetime Education, Duke University, Durham, North Carolina, USA
+3Department of Pharmacy, Duke University, Durham, North Carolina, USA
+Correspondence
+Gina-Maria Pomann, Department of Biostatistics and Bioinformatics, Duke University, Durham, NC, USA. Email: gina-maria.pomann@duke.edu
+With increased access to biomedical and electronic health records data and the
+complexity of research questions, individuals in residency programmes who aim to
+conduct research require specialized educational programmes and biostatistics
+support. Biostatistics collaboration units in academic health centres often work with
+residents to conduct data-intensive research. These units face numerous challenges
+related to providing training in statistical literacy and collaborating on resident-led
+research within very restricted timelines. Since 2019, the Duke Biostatistics,
+Epidemiology, and Research Design (BERD) Methods Core has supported over
+247 resident-led projects by developing tools and resources to address these
+challenges. This manuscript presents novel processes and training materials that
+other institutions can use to help biostatistics collaboration units effectively support
+resident training programmes. We provide a framework to support the development
+of collaborative teams, along with specialized training materials for residents who
+collaborate with these teams.
+KEYWORDS
+biostatistics collaboration, collaboration resources, collaborative process, resident training, resident-led research, team science
+1 | INTRODUCTION
+Building collaborative research teams and incorporating research training into residency programmes within academic health centres are essential
+for enhancing career opportunities and fostering innovation within evolving healthcare landscapes (Anderson, 2006; Hurst et al., 2019; Institute
+of Medicine, 2004). Engaging in research improves satisfaction with the residency experience and aids in developing future leaders in academic
+medicine (Takahashi et al., 2009). Individuals in residency programmes engaged in research as part of their training can benefit from collaborative
+research experiences and tailored learning to advance their career goals (Khalil et al., 2022; Permar et al., 2020). Academic health centres must
+provide the necessary tools and support to facilitate this (Blanchard et al., 2018; Price Rapoza et al., 2022; Welty et al., 2013).
+The authors disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: This work was supported by the National Center for Advancing Translational Sciences (NCATS) of the National Institutes of Health (NIH), through Grant Award Number UL1TR002553. Its contents are solely the responsibility of the authors and do not represent the official views of NCATS or NIH.
+Steven C. Grambow and Gina-Maria Pomann contributed equally to this work.
+Received: 30 January 2024 Revised: 4 April 2024 Accepted: 18 April 2024
+DOI: 10.1002/sta4.689
+Stat. 2024;13:e689. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 9 https://doi.org/10.1002/sta4.689
+
+
+Medical professionals need a fundamental understanding of research design and analytics, which is crucial for evidence-based medicine
+(Arias et al., 2017; Oster & Enders, 2018; Sackett et al., 1996). Key competencies include identifying the strengths and limitations of study
+designs, recognizing when to involve a quantitative expert, and appreciating reproducible research (Enders, 2011; Enders et al., 2017; Oster
+et al., 2015; Oster & Enders, 2018). However, many residents lack the statistical knowledge and confidence to interpret study results
+(Araoye et al., 2020; Best & Laskin, 2013; Bookstaver et al., 2012; Couture et al., 2020; Susarla & Redett, 2014; Windish et al., 2007). Biostatistics
+collaboration units that typically partner biostatisticians with investigators conducting research must account for these gaps in knowledge when
+developing processes to effectively collaborate with residents.
+With increased access to biomedical and electronic health records data and the complexity of research questions, residents must have access
+to biostatistics collaboration and statistical literacy training. The biostatistician in the collaboration provides expertise in choosing the study
+design, sample size, and endpoints that can answer these complex research questions, and this guidance provides training for the rest of the team
+through example. Without biostatistics collaboration and statistical literacy training, projects may lack sufficiently developed research questions,
+rigour, reproducibility and statistical analyses (Bland, 2004; Brown et al., 2018; Gunel Karadeniz et al., 2019). Despite several proposed curricula
+for statistical education (Arias et al., 2017; McLaughlin & Kang, 2017; Windish, 2011), a gap persists in covering fundamental competencies,
+particularly statistical collaboration and reproducible research (Oster et al., 2020). In addition, collaboration units must work under the time
+constraints of resident trainees, who often need to assimilate their learning to develop data-intensive research questions rapidly.
+This manuscript provides the foundational framework to address the problem of developing biostatistics collaboration teams dedicated to
+supporting resident training programmes. This work aims to support biostatistics collaboration units in overcoming two main challenges with
+resident-led research: (1) building a biostatistics team to mentor, train, and collaborate with residents on projects under time constraints and
+(2) training residents in clinical research to facilitate collaboration with the biostatistics team. We do this by reviewing the processes and
+training material developed by the Duke Biostatistics, Epidemiology, and Research Design (BERD) Methods Core, which has supported over
+247 resident-led research projects. First, we describe the collaborative team model the BERD Core uses to support resident-led research. Next,
+we provide a roadmap for the collaboration process and template documents that support collaboration between residents and biostatisticians.
+Finally, we present flexible training modules that can be used to help residents better engage with biostatisticians on data-intensive research
+projects. We aim to provide biostatistics collaboration units with tools and training materials to facilitate engagement with resident-led research
+and to train residents in clinical research and collaboration.
+2 | BIOSTATISTICS COLLABORATION TEAM TO SUPPORT FOR RESIDENTS
+The BERD Core comprises over 40 staff and faculty biostatisticians and data scientists who partner with more than 20 research groups in the
+Duke School of Medicine and Duke University Health System (Desai et al., 2022). These partnerships are with Duke clinical research units such as
+the Global Health Institute, the Center for AIDS Research and the Department of Pharmacy, Neurosurgery, Pediatrics, among others. Biostatisti
+cians in the BERD Core have partnered with residents across the School of Medicine on more than 247 data-driven research projects, resulting in
+over 77 publications since 2019. Funding for a biostatistician's effort may come from external grants, but often for resident-led research, biosta
+tistics effort is supported by internal departmental funding.
+We use the BERD Core's longest standing collaboration dedicated to supporting resident-led research as a case illustration of a successful
+biostatistics collaboration team. The collaboration with Duke University Hospital's Department of Pharmacy began in 2012 and has supported
+more than 100 resident-led projects since 2017. The Department of Pharmacy's residency programme consists of a generalized first-year
+programme, followed by an optional second year programme focusing on a pharmacy-specific specialty practice area. Residents in both years are
+required to complete a research project starting in July with the goal of dissemination by the following June. Consequently, these projects often
+need to occur simultaneously, posing a significant challenge for partnering biostatisticians. We have found that managing this workload is most
+effective when distributed across multiple biostatisticians.
+In 2022, the Department of Pharmacy requested collaboration for 18 residents. The BERD Core found it optimal to divide the work among
+five staff biostatisticians, each contributing 15%–25% effort with varying levels of expertise and experience, one faculty member at 30%–40%
+effort, as well as two student interns who worked flexibly up to 20 h a week based on project needs. This allocation was determined by annual
+assessment of the residency programme's requirements and iteratively optimizing effort allocations to align with the group's needs. Moreover, at
+the start of the residency year, the residency programme leaders coordinate with the biostatistics team to assess the timelines and complexity of
+all projects so that projects can be effectively assigned to biostatisticians. The goal is to allocate effort to ensure that each biostatistician has a
+diverse range of projects with varying complexity and deadlines. It also enhances efficiency to assign projects with similar methods or clinical
+domains to the same biostatistician.
+2 of 9 DAVENPORT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+3 | A ROADMAP FOR THE COLLABORATION PROCESS
+Once appropriate biostatistics effort is in place, it is important to establish a clear and transparent timeline for residents and biostatisticians to fol
+low. Appendix S1 presents the ‘roadmap’ that was developed to support a 12-month residency programme. This roadmap includes 11 steps that
+residents and biostatisticians take in order to reach the project goals within the established timeframe. The first step is for residents to meet with
+the biostatisticians on the team to discuss the study design for protocol development. In Step 2, biostatisticians provide documentation and a
+workshop on data collection using reproducible databases (e.g., Harris et al., 2009, 2019), which facilitates the third step, created to ensure resi
+dents know how to structure data collection in order to optimize collaboration with a biostatistician. The roadmap then specifies when data col
+lection should begin and end, provides guidance for developing a statistical analysis plan and ends with a reminder to include biostatisticians as
+co-authors. Monthly meetings between the biostatistics team and residency programme leadership helps to ensure residents adhere to project
+timelines and resolve any issues promptly.
+To help residents navigate the roadmap presented in Appendix S1, four templates were created for protocol development, data collection,
+statistical analysis plans and statistical reports. Appendix S2 provides a template that guides residents through submitting a protocol to the Duke
+Institutional Review Board. The study protocol includes data dictionaries which outline how measures will be collected and from which data
+sources. Appendix S3 provides a template data dictionary that is given to the residents who then use it to develop their database in Step 3 of the
+roadmap. Biostatisticians provide hands on support to residents as they complete these templates.
+Once the residents have identified and described the data they intend to collect, finalized their protocols, and built their databases, biostatisti
+cians will develop an agreed-upon statistical analysis plan (SAP) aligned with the research project's goals. Since biostatisticians are typically the pri
+mary author of SAPs, a template for this document was initially developed to train junior biostatisticians (Pomann et al., 2020). Appendix S4
+presents a revised template designed specifically to help pharmacy residents better understand the SAPs that biostatisticians develop. In addition
+to a SAP template, Appendix S5 provides an analytic report template that is shared with residents to provide them with a better understanding of
+how the results will be presented when the biostatistician completes the analyses.
+4 | JUST IN TIME TRAINING MATERIALS FOR RESIDENTS
+In addition to the roadmap and templates presented, the BERD Core provides residents with optional just-in-time training materials that are pub
+licly available (https://bit.ly/introtores). The BERD Core designed these training materials to fill curricular gaps in residency education. Notably,
+the educational content emphasizes the value of reproducible research and biostatistics collaboration (Oster et al., 2020). The content also
+encourages engagement by being problem-based, relevant, and applicable to clinical decision-making.
+The BERD Core collaborated with instructional designers to align the design of the materials with best practices for digital learning today.
+The online modules are intentionally brief to minimize interference with residents' demanding clinical training schedules. Also, the material allows
+for easy pairing of online content with customizable in-person workshops tailored specifically to the clinical discipline of the audience. Lastly, the
+materials are well-organized, succinct, readily available, and can be accessed in a just-in-time manner as needed. The following subsections
+describe the content and results from a study to evaluate the materials.
+4.1 | Training curriculum content and format
+The four publicly available online modules introduce fundamental concepts of clinical research. Table 1 provides detailed information about what
+each module covers on four topics: (1) Introduction to Research and Design, (2) Formulating the Research Question, (3) Null and Alternative
+Hypotheses and (4) Study Design and Data Collection. Each module ranges from 10 to 20 min in length, with the total time commitment for all
+four being approximately 1 h. This online content was designed to teach fundamental competencies in an asynchronous, standalone format,
+enabling learners to access it in a self-directed manner as needed. Residents can watch these modules at any time before, during or after their
+research projects begin. The content can also be easily paired with in-person workshops that go into more depth about specific case studies that
+residents are currently working on or are interested in learning about.
+4.2 | Training material evaluation
+A small study was conducted in 2021 to evaluate the online modules among residents, trainees and programme leaders in the Department of
+Neurosurgery and the Division of Plastic Surgery at Duke University. The Institutional Review Board deemed this study exempt, as it focused on
+the efficacy of educational or instructional strategies. We shared the link to the curriculum with leaders from the Integrated Plastic and
+DAVENPORT ET AL. 3 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Reconstructive Surgery Residency Program and the Neurosurgery Residency Program. These leaders disseminated the curriculum to 27 residents
+and select medical students in their department and encouraged them to review the materials, provide feedback via an online survey and attend
+an hour long in-person workshop with a biostatistician. The workshop illustrated the content of the online modules using two or three resident
+research projects as case examples. The feedback survey was designed to assess the utility, quality and satisfaction of the online modules.
+Participants were asked about the number of modules watched, and if all four were not viewed, the reason for not doing so. Participants were
+also asked to rate the modules' length, the information's relevancy and satisfaction with the content.
+Twenty participants responded to the survey. Of these, 14 (70%) were residents, and six (30%) were non-residents. The response rate among
+residents was 52% (14 of 27); however, we could not assess the overall survey response rate because the clinical leaders shared the curriculum
+and survey with select medical students and this activity was not tracked. Sixteen respondents (80%) reported having more than a little amount of
+prior experience conducting clinical research. Eighteen participants (90%) watched all four modules, while one (5%) watched three modules, and
+one (5%) watched no modules. The only reported reason for not watching all four modules was lack of time. Among the 18 participants who pro
+vided feedback, most (89%) said the modules were just the right length, all 18 (100%) found the content somewhat or very relevant and 14 (78%)
+were somewhat or extremely satisfied with the content (Table 2).
+5 | DISCUSSION
+Biostatistics collaboration units in academic healthcare settings need to support research training when partnering with residents. Residents can
+influence scientific progress and healthcare improvement by conducting data-intensive research in partnership with biostatisticians. Cultivating
+critical evaluation skills for published studies and establishing effective collaborations with quantitative experts is crucial for advancing evidence
+based medicine and public health. This manuscript presents resources and training materials that collaboration units can use to help residents gain
+these skills and conduct meaningful research.
+A primary challenge in supporting resident-led research within a biostatistics collaboration unit is establishing the right team with sufficient
+funding and flexible effort allocations to meet the requirements of the residency programme. While it is ideal for residents to be partnered with
+clinical or scientific mentors possessing research funding to address the quantitative collaboration needs, the number of residents aiming to do
+research will undoubtedly outnumber available funded projects for them to lead. Even if funding is in place, it can be challenging for biostatisti
+cians to allocate effort effectively. This challenge is mitigated by having multiple biostatisticians who can work together to efficiently split the
+effort.
+Another major challenge is the limited amount of time residents have for research activities. The BERD Core has addressed this challenge by
+developing a clear roadmap of the collaborative process with specific timelines for project milestones and regular check-ins with leadership to
+ensure that projects remain on target. In addition, we provide the residents with just-in-time online training modules that facilitate the collabora
+tive process by introducing them to fundamental principles and limitations in clinical research and statistical competencies at a high level, rather
+T A B L E 1 Fundamental statistical competencies that are covered in the online training modules.
+Module Topics covered Competencies addressed
+Introduction to research and design
+• Life cycle of clinical research • Research integrity, transparency and reproducibility
+• Recognize limitations in statistical competency and realize when it would be best to involve a professional statistician • Understand the reasons for performing research that is reproducible from data collection through publication of results
+Formulating the research question
+• Research question development • Considerations and limitations in data driven research questions
+• Recognize limitations in statistical competency and realize when it would be best to involve a professional statistician
+Null and alternative hypotheses
+• Definition and importance of the primary outcome • Null and alternative components of a statistical hypothesis • Types of errors
+• Recognize limitations in statistical competency and realize when it would be best to involve a professional statistician • Understand the basic principles and practical importance of hypothesis testing and type I and type II errors
+Study design and data collection
+• Observational and experimental studies • Best practices for collecting data • Sample size considerations
+• Recognize limitations in statistical competency and realize when it would be best to involve a professional statistician • Identify the strengths and limitations of study designs for addressing a clinical or translational research question • Understand the value of data quality and data management • Understand the components of sample size, power and precision
+4 of 9 DAVENPORT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+T A B L E 2 Summary of survey responses providing feedback on the online modules.
+Overall (n = 20)
+Non-resident (n = 6)
+Resident (n = 14)
+Survey duration (minutes), median [IQR] 4.2 [2.6–4.8] 4.6 [4.4–5.1] 3.6 [2.5–4.7]
+Age (years), median [IQR] 29.5 [27.8–32.2] 30 [25–47] 29.5 [28.2–31]
+Race, n (%)
+American Indian, Alaska Native, First Nations, or Indigenous 1 (5) 1 (16.7) 0 (0)
+Asian or Asian American 2 (10) 2 (33.3) 0 (0)
+Black or African American 3 (15) 1 (16.7) 2 (14.3)
+Hispanic, Latino/a/x, or Spanish origin 1 (5) 0 (0) 1 (7.1)
+White 13 (65) 2 (33.3) 11 (78.6)
+Gender, n (%)
+Man 9 (45) 1 (16.7) 8 (57.1)
+Woman 11 (55) 5 (83.3) 6 (42.9)
+Residency year, n (%)
+First year 2 (14.3) – 2 (14.3)
+Second year 3 (21.4) – 3 (21.4)
+Third year or beyond 9 (64.3) – 9 (64.3)
+How much prior experience do you have conducting clinical research?, n (%)
+A great deal 1 (5) 1 (16.7) 0 (0)
+A lot 4 (20) 2 (33.3) 2 (14.3)
+A moderate amount 11 (55) 1 (16.7) 10 (71.4)
+A little 4 (20) 2 (33.3) 2 (14.3)
+Number of videos watched, n (%)
+None 1 (5) 0 (0) 1 (7.1)
+3 1 (5) 0 (0) 1 (7.1)
+4 18 (90) 6 (100) 12 (85.7)
+How would you rate the length of the videos?, n (%)
+Just the right length 16 (88.9) 5 (83.3) 11 (91.7)
+Too long 2 (11.1) 1 (16.7) 1 (8.3)
+Missing 2 (.) 0 (.) 2 (.)
+How easy was it to follow the information in the videos?, n (%)
+Extremely easy 12 (66.7) 5 (83.3) 7 (58.3)
+Somewhat easy 4 (22.2) 0 (0) 4 (33.3)
+Neither easy nor difficult 1 (5.6) 0 (0) 1 (8.3)
+Somewhat difficult 1 (5.6) 1 (16.7) 0 (0)
+Missing 2 (.) 0 (.) 2 (.)
+How relevant was the information in the videos to you as a physician learning about clinical research?, n (%)
+Somewhat relevant 12 (66.7) 4 (66.7) 8 (66.7)
+Very relevant 6 (33.3) 2 (33.3) 4 (33.3)
+Missing 2 (.) 0 (.) 2 (.)
+How satisfied were you with the content covered in the videos?, n (%)
+Extremely satisfied 6 (33.3) 2 (33.3) 4 (33.3)
+Somewhat satisfied 8 (44.4) 3 (50) 5 (41.7)
+Neither satisfied nor dissatisfied 3 (16.7) 1 (16.7) 2 (16.7)
+Somewhat dissatisfied 1 (5.6) 0 (0) 1 (8.3)
+Missing 2 (.) 0 (.) 2 (.)
+(Continues)
+DAVENPORT ET AL. 5 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+than specific mathematical computations. More work is needed to build on these modules and determine how to best integrate this material into
+residency training programmes.
+Ultimately, our main goals are two-fold: (1) to complete resident-led research projects within challenging timeframes and (2) to train residents
+in research methods and collaboration along the way. In order to be successful, resident collaboration and training must not only be effective but
+efficient as well. This efficiency is achieved through a highly developed collaboration model and through the delivery of training materials to
+residents, who tend to be relatively inexperienced in clinical research. Our collaboration model includes multiple templates for residents, which
+assist them in visualizing what is required and provides them with ready-to-use structure to perform their work and to communicate with
+biostatisticians on the team. The educational content and delivery is intended to limit time-consuming 1–1 instruction in essential topics and to
+replace it with asynchronous self-study materials, which were specially designed with this target audience in mind. In essence, what has been
+described here is an integrated system to help meet the above goals. We continue to develop this collaboration team model and resident training
+material and have been encouraged by the results to date. We recommend this approach to other biostatistics collaboration units who are
+engaged in supporting resident-led research.
+AUTHOR CONTRIBUTIONS
+Clemontina A. Davenport was responsible for the conceptualization; manuscript outline, writing and editing; development and collation of
+resources; and development, implementation and analysis of survey and evaluation materials. Quentin Ruiz-Esparza and Nicholas Janes were
+responsible for the production of the video training materials outlined in the manuscript, provided content and critical input on resources and
+structure and were responsible for manuscript editing. Hui-Jie Lee, Megan Neely, Lacey Rende, Greg Samsa, Kelsey Stilley, Jesse Troy and Tracy
+Truong provided content and critical input on resources and structure and were responsible for manuscript editing. Steven Grambow and
+Gina-Maria Pomann were responsible for the initial conceptualization, project design, oversight and workgroup development and manuscript
+outline, writing and editing.
+ACKNOWLEDGEMENTS
+We would like to acknowledge Tara Kramling, Kim Manturuk and Heather Hans who provided significant support in developing the online training
+modules presented in this manuscript.
+CONFLICT OF INTEREST STATEMENT
+SCG reports receiving consulting fees from Gilead Sciences for serving on multiple Data Monitoring Committees. JDT reports honoraria from
+GamidaCell, Synthetic Biologics, Navitas Clinical Research and The EMMES Corporation; consulting fees from AegisCN and The Community Data
+Roundtable; royalties from SinoCell Technologies and Cryo-Cell International; and research funding from Bristol Myers Squibb and GSK. MLN
+reports research funding from AstraZeneca and Boehringer Ingelheim. Although these relationships are not perceived to represent a conflict with
+the present work, they have been included in the spirit of full disclosure. There are no other conflicts of interest to report.
+T A B L E 2 (Continued)
+Overall (n = 20)
+Non-resident (n = 6)
+Resident (n = 14)
+Would you watch more videos developed by our team?, n (%)
+No 1 (5.6) 0 (0) 1 (8.3)
+Maybe 5 (27.8) 1 (16.7) 4 (33.3)
+Yes 12 (66.7) 5 (83.3) 7 (58.3)
+Missing 2 (.) 0 (.) 2 (.)
+On a scale from 0 to 10, with 0 being would not recommend and 10 being definitely recommend, would you recommend these videos to peers interested in clinical research?, median [IQR]
+7 [5.2–8.8] 7.5 [6.2–8.8] 7 [4–8.2]
+Overall, how much did these videos increase your knowledge in clinical research?, n (%)
+A great deal 2 (15.4) 1 (16.7) 1 (14.3)
+A moderate amount 4 (30.8) 2 (33.3) 2 (28.6)
+A little 6 (46.2) 3 (50) 3 (42.9)
+Not at all 1 (7.7) 0 (0) 1 (14.3)
+Missing 7 (.) 0 (.) 7 (.)
+Abbreviation: IQR, interquartile range.
+6 of 9 DAVENPORT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+DATA AVAILABILITY STATEMENT
+The authors confirm that the data supporting the findings of this study are available within the article and upon request.
+ORCID
+Clemontina A. Davenport https://orcid.org/0000-0003-3875-7466
+Megan L. Neely https://orcid.org/0000-0002-0101-1081
+Lacey Rende https://orcid.org/0009-0005-8695-1839
+Kelsey Stilley https://orcid.org/0000-0003-4248-5838
+Steven C. Grambow https://orcid.org/0000-0001-6037-3253
+Gina-Maria Pomann https://orcid.org/0000-0002-6324-3953
+REFERENCES
+Anderson, R. W. (2006). The need for research training in orthopaedic residency education. Clinical Orthopaedics and Related Research, 449, 81–88. https://doi.org/10.1097/01.blo.0000229290.14098.2d Araoye, I., He, J. K., Gilchrist, S., Stubbs, T., McGwin, G. Jr., Ponce, B. A., & Collaborative Orthopaedic Educational Research Group. (2020). A national survey of orthopaedic residents identifies deficiencies in the understanding of medical statistics. The Journal of Bone and Joint Surgery, 102(5), e19. https://doi.org/10.2106/JBJS.19.01095 Arias, A., Peters, O. A., & Broyles, I. L. (2017). New curricular design in biostatistics to prepare residents for an evidence-based practice and lifelong learning education: A pilot approach. International Endodontic Journal, 50(10), 999–1010. https://doi.org/10.1111/iej.12714 Best, A. M., & Laskin, D. M. (2013). Oral and maxillofacial surgery residents have poor understanding of biostatistics. Journal of Oral and Maxillofacial Surgery, 71(1), 227–234. https://doi.org/10.1016/j.joms.2012.03.010 Blanchard, M., Burton, M. C., Geraci, M. W., Madaio, M. P., Marsh, J. D., Proweller, A., Rockey, D. C., Salata, R. A., Tan, W., Williams, C. S., Zaidi, M., & Todd, R. F. (2018). Best practices for physician-scientist training programs: Recommendations from the Alliance for Academic Internal Medicine. The American Journal of Medicine, 131(5), 578–584. https://doi.org/10.1016/j.amjmed.2018.01.015 Bland, J. M. (2004). Teaching statistics to medical students using problem-based learning: The Australian experience. BMC Medical Education, 4(1), 31. https://doi.org/10.1186/1472-6920-4-31 Bookstaver, P. B., Miller, A. D., Felder, T. M., Tice, D. L., Norris, L. B., & Sutton, S. S. (2012). Assessing pharmacy residents' knowledge of biostatistics and research study design. The Annals of Pharmacotherapy, 46(7–8), 991–999. https://doi.org/10.1345/aph.1Q772 Brown, A. W., Kaiser, K. A., & Allison, D. B. (2018). Issues with data and analyses: Errors, underlying themes, and potential solutions. Proceedings of the National Academy of Sciences of the United States of America, 115(11), 2563–2570. https://doi.org/10.1073/pnas.1708279115
+Couture, F., Nguyen, D. D., Bhojani, N., Lee, J. Y., & Richard, P. O. (2020). Knowledge and confidence level of Canadian urology residents toward biostatistics: A national survey. Canadian Urological Association Journal, 14(10), E514–E519. https://doi.org/10.5489/cuaj.6495 Desai, M., Boulos, M., Pomann, G. M., Steinberg, G. K., Longo, F. M., Leonard, M., Montine, T., Blomkalns, A. L., & Harrington, R. A. (2022). Establishing a data science unit in an academic medical center: An illustrative model. Academic Medicine: Journal of the Association of American Medical Colleges, 97(1), 69–75. https://doi.org/10.1097/ACM.0000000000004079 Enders, F. (2011). Evaluating mastery of biostatistics for medical researchers: Need for a new assessment tool. Clinical and Translational Science, 4(6), 448–454. https://doi.org/10.1111/j.1752-8062.2011.00323.x Enders, F. T., Lindsell, C. J., Welty, L. J., Benn, E. K. T., Perkins, S. M., Mayo, M. S., Rahbar, M. H., Kidwell, K. M., Thurston, S. W., Spratt, H., Grambow, S. C., Larson, J., Carter, R. E., Pollock, B. H., & Oster, R. A. (2017). Statistical competencies for medical research learners: What is fundamental? Journal of Clinical and Translational Science, 1(3), 146–152. https://doi.org/10.1017/cts.2016.31 Gunel Karadeniz, P., Uzabaci, E., Atis Kuyuk, S., Kaskir Kesin, F., Can, F. E., Secil, M., & Ercan, I. (2019). Statistical errors in articles published in radiology journals. Diagnostic and Interventional Radiology, 25(2), 102–108. https://doi.org/10.5152/dir.2018.18148 Harris, P. A., Taylor, R., Minor, B. L., Elliott, V., Fernandez, M., O'Neal, L., McLeod, L., Delacqua, G., Delacqua, F., Kirby, J., Duda, S. N., & REDCap Consortium. (2019). The REDCap consortium: Building an international community of software platform partners. Journal of Biomedical Informatics, 95, 103208. https://doi.org/10.1016/j.jbi.2019.103208 Harris, P. A., Taylor, R., Thielke, R., Payne, J., Gonzalez, N., & Conde, J. G. (2009). Research electronic data capture (REDCap)—A metadata-driven methodology and workflow process for providing translational research informatics support. Journal of Biomedical Informatics, 42(2), 377–381. https://doi.org/ 10.1016/j.jbi.2008.08.010 Hurst, J. H., Barrett, K. J., Kelly, M. S., Staples, B. B., McGann, K. A., Cunningham, C. K., Reed, A. M., Gbadegesin, R. A., & Permar, S. R. (2019). Cultivating research skills during clinical training to promote pediatric-scientist development. Pediatrics, 144(2), e20190745. https://doi.org/10.1542/peds.20190745 Institute of Medicine. (2004). Academic health centers: Leading change in the 21st century. The National Academies Press. https://doi.org/10.17226/10734 Khalil, P. A., Honein-Abou Haidar, G., El Achi, D., Al-Hakim, L., Tamim, H., & Akl, E. A. (2022). Views of medical residents on a research training program: A qualitative study. PLoS ONE, 17(1), e0261583. https://doi.org/10.1371/journal.pone.0261583 McLaughlin, J. E., & Kang, I. (2017). A flipped classroom model for a biostatistics short course. Statistics Education Research Journal, 16(2), 441–453. https://doi.org/10.52041/serj.v16i2.200 Oster, R. A., Devick, K. L., Thurston, S. W., Larson, J. J., Welty, L. J., Nietert, P. J., Pollock, B. H., Pomann, G.-M., Spratt, H., Lindsell, C. J., & Enders, F. T. (2020). Learning gaps among statistical competencies for clinical and translational science learners. Journal of Clinical and Translational Science, 1-11, e12. https://doi.org/10.1017/cts.2020.498 Oster, R. A., & Enders, F. T. (2018). The importance of statistical competencies for medical research learners. Journal of Statistics Education, 26(2), 137–142. https://doi.org/10.1080/10691898.2018.1484674
+DAVENPORT ET AL. 7 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Oster, R. A., Lindsell, C. J., Welty, L. J., Mazumdar, M., Thurston, S. W., Rahbar, M. H., Carter, R. E., Pollock, B. H., Cucchiara, A. J., Kopras, E. J., Jovanovic, B. D., & Enders, F. T. (2015). Assessing statistical competencies in clinical and translational science education: One size does not fit all. Clinical and Translational Science, 8(1), 32–42. https://doi.org/10.1111/cts.12204 Permar, S. R., Ward, R. A., Barrett, K. J., Freel, S. A., Gbadegesin, R. A., Kontos, C. D., Hu, P. J., Hartmann, K. E., Williams, C. S., & Vyas, J. M. (2020). Addressing the physician-scientist pipeline: Strategies to integrate research into clinical training programs. The Journal of Clinical Investigation, 130(3), 1058–1061. https://doi.org/10.1172/JCI136181 Pomann, G.-M., Boulware, L. E., Cayetano, S. M., Desai, M., Enders, F. T., Gallis, J. A., Gelfond, J., Grambow, S. C., Hanlon, A. L., Hendrix, A., Kulkarni, P., Lapidus, J., Lee, H.-J., Mahnken, J. D., McKeel, J. P., Moen, R., Oster, R. A., Peskoe, S., Samsa, G., & Thomas, S. M. (2020). Methods for training collaborative biostatisticians. Journal of Clinical and Translational Science, 5(1), e26. https://doi.org/10.1017/cts.2020.518 Price Rapoza, M., McElvaine, A., Conroy, M. B., Okuyemi, K., Rouphael, N., Teach, S. J., Widlansky, M., Williams, C., Permar, S. R., & for the National R38 Consortium investigators. (2022). Early outcomes of a new NIH program to support research in residency. Academic Medicine, 97, 1305–1310. https://doi.org/10.1097/ACM.0000000000004643 Sackett, D. L., Rosenberg, W. M., Gray, J. A., Haynes, R. B., & Richardson, W. S. (1996). Evidence based medicine: What it is and what it isn't. BMJ, 312(7023), 71–72. https://doi.org/10.1136/bmj.312.7023.71 Susarla, S. M., & Redett, R. J. (2014). Plastic surgery residents' attitudes and understanding of biostatistics: A pilot study. Journal of Surgical Education, 71(4), 574–579. https://doi.org/10.1016/j.jsurg.2013.12.003 Takahashi, O., Ohde, S., Jacobs, J. L., Tokuda, Y., Omata, F., & Fukui, T. (2009). Residents' experience of scholarly activities is associated with higher satisfaction with residency training. Journal of General Internal Medicine, 24(6), 716–720. https://doi.org/10.1007/s11606-009-0970-4 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. Jr., Lindsell, C. J., Macaluso, M., Mazumdar, M., Nietert, P. J., Oster, R. A., Pollock, B. H., Roberson, P. K., Ware, J. H., & Biostatistics, Epidemiology, and Research Design Key Function Committee of the Clinical and Translational Science Award Consortium. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine, 88(4), 454–460. https://doi.org/10.1097/ACM.0b013e31828578ed Windish, D. M. (2011). Brief curriculum to teach residents study design and biostatistics. Evidence-Based Medicine, 16(4), 100–104. https://doi.org/10. 1136/ebm.2011.04.0011 Windish, D. M., Huot, S. J., & Green, M. L. (2007). Medicine residents' understanding of the biostatistics and results in the medical literature. Jama, 298(9), 1010–1022. https://doi.org/10.1001/jama.298.9.101
+AUTHOR BIOGRAPHIES
+Clemontina A. Davenport is a Senior Biostatistician in Biostatistics, Epidemiology and Research Design (BERD) Methods Core and Course
+Director in the Department of Biostatistics and Bioinformatics at Duke University, Durham, NC. In these roles, she has provided statistical
+leadership in clinical research studies and taught, trained and mentored over 250 biostatistics graduate students and staff.
+Hui-Jie Lee is a Senior Biostatistician of the Biostatistics, Epidemiology, and Research Design (BERD) Methods Core at Duke University,
+Durham, NC. She leads the statistical collaborations with the Department of Neurosurgery, Department of Pharmacy, and Marcus Center for
+Cellular Cures.
+Quentin Ruiz-Esparza is the Director of Digital Product Strategy and Design for Learning Innovation and Lifetime Education at Duke Univer
+sity (https://learninginnovation.duke.edu/). Quentin works with Duke's schools and academic units in developing strategy for digital learning
+in professional and lifetime education as well as oversees a team of learning experience (LX) designers and producers who partner with Duke
+faculty to design digital courses and programs.
+Nicholas Janes is a Learning Media Designer with Learning Innovation and Lifetime Learning at Duke University, Durham, NC
+(https://learninginnovation.duke.edu/). Nicholas works and collaborates with Duke's media production team to conceptualize and create visu
+ally engaging course videos.
+Megan L. Neely is a faculty member in the Biostatistics and Bioinformatics Department and in the Duke Clinical Research Institute at Duke
+University Medical Center. Her research focuses on survival and longitudinal analysis with applications in pulmonary disease. She has taught
+several courses in the Master of Biostatistics and Clinical Research Training Programs.
+Lacey Rende is the Project Planner for the Biostatistics, Epidemiology and Research Design (BERD) Methods Core at Duke University, a data
+science unit of over 50 student, staff and faculty biostatisticians and data scientists who collaborate on biomedical research projects with
+clinical and translational researchers across the Duke University School of Medicine.
+Gregory P. Samsa is a Professor of Biostatistics and Bioinformatics and co-Director of its Master of Biostatistics program. An experienced
+collaborative biostatistician, his primary research interest is in statistical pedagogy.
+8 of 9 DAVENPORT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Kelsey Stilley is the Pharmacy Coordinator for Education and Professional Development at Duke University Hospital. Within this role, she
+serves as the Coordinator for the Pharmacy Services Oversight Organization and is Chair of the Pharmacy Research Committee. She currently
+oversees the pharmacy research process in collaboration with the Duke Biostatistics, Epidemiology, and Research Design (BERD) Methods
+Core for 22 pharmacy residents.
+Jesse D. Troy is an Associate Professor in the Department of Biostatistics and Bioinformatics and the Associate Director of Graduate Studies
+for the Masters of Biostatistics Program at Duke University. Dr. Troy also teaches biostatistics to physician scientists in the Clinical Research
+Training Program at Duke, and he collaborates on research studies in cancer therapeutics and palliative care at the Duke Cancer Institute.
+Tracy Truong is a Senior Biostatistician and Assistant Director of the Biostatistics, Epidemiology, and Research Design (BERD) Methods Core
+at Duke University. She oversees the BERD Analytic Resources Navigation process, which connects investigators with existing quantitative
+resources or methodologists with specific quantitative expertise. Furthermore, she leads the development of guidelines, best practices and
+tools for BERD staff to ensure effective and efficient collaboration.
+Steven C. Grambow is an Associate Professor and Associate Chair for Education in the Department of Biostatistics and Bioinformatics at
+Duke University School of Medicine. He directs the Duke Clinical Research Training Program (CRTP), a 2-year professional degree program
+designed for health professionals pursuing clinical and translational research careers. Additionally, he is the Co-Director of the Education and
+Training Programs Pillar for the Duke Clinical and Translational Science Institute (CTSI). More about his work can be found on his Duke
+scholar profile: https://scholars.duke.edu/person/steven.grambow.
+Gina-Maria Pomann is an Associate Professor of Biostatistics and Bioinformatics and the Director of the Biostatistics, Epidemiology and
+Research Design (BERD) Methods Core at Duke University, Durham, NC. The BERD Methods Core is a team of over 50 student, staff and fac
+ulty biostatisticians and data scientists in the Department of Biostatistics and Bioinformatics who collaborate with clinical and/or translational
+researchers. Duke BERD website: https://biostat.duke.edu/research/biostatistics-epidemiology-and-research-design-berd-methods-core.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this article.
+How to cite this article: Davenport, C. A., Lee, H.-J., Ruiz-Esparza, Q., Janes, N., Neely, M. L., Rende, L., Samsa, G. P., Stilley, K., Troy, J. D.,
+Truong, T., Grambow, S. C., & Pomann, G.-M. (2024). Accelerating resident research within quantitative collaboration units in academic
+healthcare. Stat, 13(2), e689. https://doi.org/10.1002/sta4.689
+DAVENPORT ET AL. 9 of 9
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.689 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

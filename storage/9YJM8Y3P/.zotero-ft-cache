@@ -1,0 +1,520 @@
+SPECIAL ISSUE ARTICLE
+Do good: Strategies for leading an inclusive data science or
+statistics consulting team
+Christina Maimone 1 | Julia L. Sharp 2 | Ofira Schwartz-Soicher 3 |
+Jeffrey C. Oliver 4 | Lencia Beltran 5
+1Northwestern IT Research Computing and Data Services, Northwestern University, Evanston, IL, USA
+2Statistical Engineering Division, National Institute of Standards and Technology, Boulder, CO, USA
+3Donald E. Stokes Library, Princeton University, Princeton, NJ, USA
+4University Libraries, University of Arizona, Tucson, AZ, USA
+5University Libraries, Carnegie Mellon University, Pittsburgh, PA, USA
+Correspondence
+Christina Maimone, Northwestern IT Research Computing and Data Services, Northwestern University, 2233 Tech Drive, Mudd Hall Suite 2220, Evanston, IL, 60208, USA. Email: christina.maimone@northwestern.edu
+Funding information
+Alfred P. Sloan Foundation
+Leading a data science or statistical consulting team in an academic environment can
+have many challenges, including institutional infrastructure, funding and technical
+expertise. Even in the most challenging environment, however, leading such a team
+with inclusive practices can be rewarding for the leader, the team members and col
+laborators. We describe nine leadership and management practices that are espe
+cially relevant to the dynamics of data science or statistics consulting teams and an
+academic environment: ensuring people get credit, making tacit knowledge explicit,
+establishing clear performance review processes, championing career development,
+empowering team members to work autonomously, learning from diverse experi
+ences, supporting team members in navigating power dynamics, having difficult con
+versations and developing foundational management skills. Active engagement in
+these areas will help those who lead data science or statistics consulting
+groups – whether faculty or staff, regardless of title – create and support inclusive
+teams.
+KEYWORDS
+data science or statistical consulting team, inclusive team, leadership, management
+1 | INTRODUCTION
+What does it mean to support diversity, equity and inclusion as the leader of an academic data science or statistical consulting team? While dis
+cussing the many components of this large topic as part of a 2023 workshop on Models for Sustainable and Inclusive Data Science Consulting
+and Collaboration in Higher Education, we covered a number of areas that are undeniably important – from hiring practices to workforce and pro
+fessional development. Yet in discussing the barriers to building diverse teams where the members are able to do their best work and thrive
+regardless of their personal characteristics or identities, we kept returning to examples of, as Robert Sutton puts it, “assholes” we had encoun
+tered (Sutton, 2007).
+The asshole team leaders of our examples stole or failed to give credit to those on their team, took advantage of power differentials, refused
+to define performance review criteria, micromanaged, promoted underperforming friends and undermined others. While most of the behaviours
+we observed stopped short of the insults, threats, shaming and humiliation that Sutton (2007) details, they nevertheless had a similar effect of
+making team members feel disrespected and de-energized. These behaviours undermine efforts to develop an inclusive team, and many of them
+also preclude implementing best practices for reducing bias in hiring processes and the recruitment and retention of a diverse team.
+Received: 8 February 2024 Revised: 3 April 2024 Accepted: 18 April 2024
+DOI: 10.1002/sta4.687
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes. © 2024 The Authors. Stat published by John Wiley & Sons Ltd. This article has been contributed to by U.S. Government employees and their work is in the public domain in the USA.
+Stat. 2024;13:e687. wileyonlinelibrary.com/journal/sta4 1 of 12
+
+
+Supporting inclusion as a leader goes beyond just inviting diverse voices to the table. It requires actively promoting a culture that enables
+people to feel appreciated, valued, safe, respected, engaged and able to be authentic. This in turn facilitates their ability and willingness to contrib
+ute their best to their work, leading to organizational success (Ferdman et al., 2021). Here we focus on going beyond “doing no harm” and advo
+cate for practices team leaders can use to increase diversity, equity and inclusion on statistics and data science consulting teams. These “doing
+good” practices generally fall under the umbrella of established best practices for management and leadership (Morgan et al., 2022). Unfortu
+nately, most data science or statistics consulting team members in academic institutions, from students to centre directors, receive very limited
+leadership and management training (Leiserson & McVinney, 2015). The lack of such fundamental practices compromises diversity, equity and
+inclusion initiatives at all levels because they have no foundation on which to build and limited accountability.
+There are many ways team leaders can support an inclusive environment, from flexible work arrangements to creating mechanisms for
+employee feedback. This paper highlights nine leadership and management practices that are especially relevant to the dynamics of data science
+or statistics consulting teams in an academic environment: ensuring people get credit, making tacit knowledge explicit, establishing clear perfor
+mance review processes, championing career development, empowering team members to work autonomously, learning from diverse experi
+ences, supporting team members in navigating power dynamics, having difficult conversations and developing foundational management skills.
+Active engagement in these areas will help those who lead data science or statistics consulting groups – whether faculty or staff, regardless of
+title – create and support inclusive teams.
+2 | WHO THIS IS FOR
+While all team members need to contribute to building an inclusive environment, and leadership can come from people at all levels of an organiza
+tion, the focus here is on team supervisors, managers or directors (“team leaders”). Whether they have formal managerial responsibilities, team
+leaders are those who have contact with all team members, influence employment decisions, set policies, establish common practices, undertake
+performance evaluations and are positioned and empowered to implement the practices discussed here.
+To be successful, team leaders need support from not only their team but from their own supervisors and institution executives as well.
+Those who support team leaders as their supervisors, department chairs, directors or via other senior positions can also implement many of these
+practices. Going a step further, they can directly acknowledge, promote the impact of and reward this type of work by the team leaders they
+oversee.
+While much of the focus of the literature discussing academic statistics and data science professionals has been on those in faculty-based
+positions, predominantly ones on the tenure track (Board of Directors of the American Statistical Association, 2018; Mazumdar et al., 2015;
+Utts & Goretsky, 2021; Waller, 2018), this manuscript is inclusive of all statistics and data sciences consulting teams in academic environments,
+and potentially in some industrial or governmental environments as well. These are groups that provide statistics and data science services or
+resources along all parts of the research enterprise, including study design; data collection, management, storage, visualization, analysis; interpre
+tation of results; and grant support. Such groups vary in the research areas they support (e.g. oncology, business informatics, visualization), the
+units in which they reside (e.g. library, IT, research core, academic department) and the types of positions occupied by team members
+(e.g. student, staff, tenure-track faculty, research faculty). While faculty in academic departments may engage in some statistics and data science
+consulting, the teams described in this manuscript explicitly coordinate their activities, share common leadership and self-identify as a team
+or unit.
+3 | ENSURE PEOPLE GET CREDIT
+Ensuring that team members receive appropriate credit for their work will support future advancement opportunities
+Everyone deserves acknowledgement for their efforts, and it should be an intuitive and straightforward practice. Yet often women, people
+from marginalized communities, academic staff, students and individuals unfamiliar with merit and acknowledgement practices may find them
+selves left out without recognition of their efforts and contributions (Liu et al., 2023; Ross et al., 2022). Some cultural differences may exist as well
+in who gets credit and who does not. Some cultures, for example, may “emphasize social connectedness, interdependence, and in-group goals;
+while [other cultures may]...emphasize self-reliance, independence, and personal goals” (Cortina et al., 2017). In settings where there is an empha
+sis on team-based outcomes, team members who are focused on personal goals may have a more difficult time receiving credit than those with
+in-group goals. Without sufficient credit for efforts, individuals have fewer advancement opportunities, experience low morale and a reduced
+sense of belonging and may ultimately move on from their position, risking the health of the entire team (Castrillon, 2022; White, 2014). When
+team members receive credit for their contributions, it not only validates their efforts but also promotes a sense of belonging and equality within
+the team. This recognition sends a powerful message that every member's unique skills and perspectives are valued, regardless of their back
+ground or position within the organization.
+2 of 12 MAIMONE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+In academia, the primary currency of achievement and advancement is authorship (see Kowalczyk et al., 2022, for example). Yet academic col
+laborative data scientists and statisticians often have to “be assertive with respect to joint authorship” – something that may be more difficult for
+those who have been discouraged from such behaviours in the past (Griffith et al., 2022). Therefore, it is important that team leaders support their
+team members through authorship discussions. Having written policies to which they can refer may set expectations and prevent uncomfortable
+situations. For example, team leaders can ensure their team members have knowledge of and practice using the broadly relevant International
+Committee of Medical Journal Editors (ICMJE; n.d.) criteria for defining authorship and contributor roles and the Contributor Roles Taxonomy (n.
+d.) in discussions about authorship. The ICMJE recommendations include as one sufficient criteria for authorship that an individual provides “sub
+stantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work.” The data science
+or statistical collaborator often exceeds this criteria by being involved in at least the analysis and interpretation of results. Cooke et al. (2021) pro
+vide useful strategies for preventing and navigating authorship disputes that may occur.
+While authorship order, frequency of citations and journal impact within the field can play a role in an academician's advancement (see
+Walker et al., 2010, for example), collaborative statisticians and data scientists should not be expected by their management or position evaluation
+criteria to be a first, second or corresponding author or publish exclusively in statistics or data science-centric journals (Board of Directors of the
+American Statistical Association, 2018). Team leaders should applaud successful collaborations that end in publication no matter the author order,
+the number of citations or the type of journal where publications appear.
+Policies for authorship should also address the common assumption that fee-for-service precludes the need for credit in the form of co
+authorship. Authorship status is not negated by the payment of fees necessary for a consulting team to operate (LeBlanc et al., 2022). Further
+more, team members in positions that are not evaluated based on publications should nevertheless be credited as co-authors using the same
+criteria. Forgoing authorship because it is not important for a current position's evaluation can disadvantage people later in their careers. In addi
+tion to equity, co-authorship may be important for that individual's professional development should they want to switch institutions, move into a
+new role in the future or be part of a grant application, they may find themselves in a position where a publication history is expected.
+While authorship in academic publications is an important form of credit, it is not the only one. Team leaders should acknowledge the work
+of individuals in their team through other mechanisms. Some examples may include posting highlights of their work on a website or newsletter,
+bringing their team member's work to the attention of administrators or suggesting other outlets to disseminate their work. Giving credit means
+attributing the accomplishments of your team members to them by name, especially to other influential leaders within the institution and the pro
+fession. Instead of talking about how successful a specific program has been, team leaders should talk about the success of the named team mem
+bers collaborating on the program.
+Not all credit or recognition needs to come from team leaders or management. Supporting an inclusive environment also means finding ways
+for team members to recognize and give credit to each other for good work and helping each other. For example, team members can write “high
+fives” to acknowledge their peers, either on online platforms or by posting notes in a shared office space. This practice lets team members recog
+nize things they value that might go unnoticed by the team leader and helps reinforce team values such as collaboration.
+4 | MAKE TACIT KNOWLEDGE EXPLICIT
+Documenting and communicating resources and processes leads to a more inclusive and cohesive team
+Tacit knowledge is the knowledge gained through experience, usually over long periods of time, and is generally difficult to articulate and
+share (Polanyi, 1967). Experiences shape the acquisition of tacit knowledge, and variation in these experiences leads to a unique base of knowl
+edge for each team member to draw from. For example, Gardner and Holley (2011) describe challenges that first-generation doctoral students
+face due to a dearth of tacit knowledge necessary for navigating the academic environment. Surveyed students expressed hardships associated
+with not knowing which questions to ask and where to seek help. In another example, Carson et al. (2019) describe how early-career faculty from
+historically underrepresented groups lack the tacit knowledge to navigate service requirements. For example, a statistics or data science consult
+ing team member without an advanced degree may lack the tacit knowledge of academic hierarchies other team members gained through their
+graduate school experience. Conversely, team members entering the workforce and joining a consulting team straight from their doctoral program
+may not understand performance review and promotion processes. This “hidden knowledge” can place employees at a disadvantage and have
+negative implications for retention and functional group dynamics.
+For members of data science and statistical consulting teams, this tacit knowledge is most pertinent to understanding how the organization
+operates. That is, resource navigation, communication norms and standard processes are often implied, and new recruits are expected to “pick
+things up on their own.” To foster an inclusive team, intentional efforts should be made to transfer such tacit knowledge to all team members. In
+addition to creating inclusivity, this practice can lead to shared learning within the team and improved deliverables and experiences for
+collaborators.
+One approach to foster an equitable working environment in data science and statistical consulting teams is to share knowledge intentionally
+and transparently, where expectations, processes and evaluation metrics are clearly communicated. Providing team members with explicit
+MAIMONE ET AL. 3 of 12
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+workflows and a priori expectations of quality serves as a means of transferring the implicit knowledge that senior team members have accumu
+lated through their experiences (Cha et al., 2023). Fostering or explicitly creating peer-mentoring opportunities also promotes knowledge sharing
+(Nokkala et al., 2022); this can help especially with the transfer of knowledge that team leaders lack, but that can be critical for employees' suc
+cess. For example, team leaders can create documentation for internal processes, store documents in an easily accessible shared file system and
+discuss processes openly with all team members regularly to ensure that they are being implemented consistently and that no updates are
+needed. Sharing resources and tools can also contribute to the teams' tacit understanding and knowledge. For example, team leaders can encour
+age team members to share and present documentation on common methods (e.g., mixed effects models), tips for using popular tools
+(e.g., ggplot2) and templates for common email communications and uncomfortable collaboration situations (e.g., rejecting work, referring work to
+other resources, asking for payment or engaging a collaborator who has lost contact) with the team. This proactive approach can result in
+increased productivity and fewer mistakes.
+5 | ESTABLISH CLEAR PERFORMANCE REVIEW PROCESSES
+Clear and explicit expectations and performance review processes enable mutual understanding to the benefit of staff and team leaders
+Credit for work and making tacit knowledge explicit become a critical issue when conducting evaluations either through scheduled periodic
+performance reviews or promotion review processes. Regardless of a data scientist's or statistician's position, the performance review process
+should provide an opportunity to recognize the impactful contributions that the data scientist and statistician have made for the team, the
+department and the university (Griffith et al., 2022; Mazumdar et al., 2015). For a team leader, this process is an opportunity to motivate team
+members, understand their perspectives and needs and recognize achievements. Well-designed, clear and thoughtfully considered evaluation
+criteria and performance review processes can lead to improved employee engagement, trust between team members and leaders and reduce
+inequities and unconscious biases for the benefit of overall organizational performance and employee retention (Posselt, 2020, p. 154; Culture
+Amp, 2023).
+Regardless of the individual roles (i.e., staff, faculty) and contract type (i.e, temporary, tenure-track), a transparent performance review process
+starts by setting defined goals with the team member and clear, corresponding assessment criteria for the team leader to apply. SMART (Specific,
+Measurable, Achievable, Relevant and Time-bound) goals are one framework that can be used for aligning goals with evaluation criteria
+(Doran, 1981). Whatever framework is used, both team leaders and team members must have a mutual understanding of the goals and evaluation
+criteria without ambiguity. For example, a goal or promotion criteria requiring that an individual demonstrate that they are a recognized scholar
+by publishing in peer-reviewed journals is not sufficient if what is really meant is that the candidate must be the first (or sole) author on a methods
+development or theoretical statistics manuscript in a top-tier statistics journal. While the appropriateness of this criteria in the modern era of sta
+tistics and data science is debatable, if it is a performance requirement, the criteria could explicitly state that the individual should publish 1–3
+peer-reviewed journal articles with at least one in a journal from an explicitly named list. As another example, if a data scientist or statistical con
+sultant's job responsibilities specify 50% effort for consultation activities, including hourly meetings, data analysis and grant support, a clear per
+formance review process should indicate whether the consultant has discretion as to which activities they focus on (e.g. allocating all of this effort
+to consultation meetings and none to grant support) or whether there are expectations for them to meet specific goals in each area (e.g., 4–5
+hourly meetings per week). Clearly specifying these criteria will help to ensure that the team member is not spending more of their time in any
+one, or all, of these components than expected. That is, it is easy to become wholly invested in one component and not meet the needs of the
+other criteria, or to become burnt out trying to do it all.
+Once expectations are set, it is important to track progress. Rather than a one-time, annual meeting to evaluate progress, it may be beneficial
+for both the team leader and members to schedule periodic meetings to assess and discuss progress towards goals. A bi-directional communica
+tion channel is a productive means for building trust and ensuring that the team member has the skills and tools to successfully fulfil their role. An
+on-going evaluation process helps mitigate problems when they arise and prevent unexpected and possibly unpleasant feedback at a later point.
+A method that can be employed to provide feedback on performance or to share feedback with the next level of leadership is the STAR
+(Situation, Task, Action and Result) approach (Development Dimensions International, n.d.). While traditionally used for structuring interview
+responses, the team leader can use this approach to detail performance examples (situation), describe responsibilities in those examples (task),
+identify activities relevant to the examples (action) and report on outcomes (result). This format can be used for positive feedback, specifying what
+was done well or when needed, developmental feedback, which describes a more effective approach, can be provided.
+Whereas, for example, the promotion criteria and the eligibility between the faculty levels of Assistant to Associate Professor may be clearly
+defined, they may be more opaque for promotion for other job roles (e.g., Data Scientist to Senior Data Scientist or Associate to Full Professor).
+Thus, establishing clear and transparent evaluation criteria is especially important for these team members. For instance, consider the criteria for
+advancing from a Data Scientist to a Senior Data Scientist. A Senior Data Scientist may be expected to successfully scope and manage projects.
+The team leader can provide a listing of potential evidence that the Data Scientist can provide to demonstrate they will be successful at the next
+level (e.g., the type and number of projects that they have contributed to the development of scopes of work).
+4 of 12 MAIMONE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+An additional area where clarity and transparency are necessary is in the timing of official performance review evaluations, promotion eligibil
+ity and the timeline for which particular documents or other evidence are needed. For example, when institutional performance reviews are con
+ducted annually, letting the team member know when these reviews might occur within that year is essential so that the team member can plan
+accordingly. In addition, providing team members with specific details of the documentation needed, and when it is needed will lead to better
+preparation and organization. For example, team members could be provided with a template document to complete, or the team leader could
+share materials from their own performance review or promotion as an exemplar. The timeline for when and mechanisms for how to submit mate
+rials can be published on a website so that everyone has the same information (see the Section Make Tacit Knowledge Explicit).
+6 | CHAMPION CAREER DEVELOPMENT
+Help team members identify and navigate career pathways to retain diverse talent
+Data science and statistics are constantly evolving fields. For team members to maintain their knowledge and expertise, ongoing technical
+learning and training is required. Supporting career development begins by allocating time and resources for team members to engage in this
+foundational professional growth and learning.
+However, championing career development requires more than sending team members to conferences or classes. Team leaders should help
+team members think about their whole career trajectory – possibly beyond their current position or organization. This forward-thinking necessi
+tates honest and clear evaluations and discussions of a team member's current skillset, the skills needed for the next step in their career ladder,
+the skills that they would like to develop and avenues for developing the skills (see Van Tuyl, 2023, for examples of academic data scientist career
+ladders). Team leaders can help identify those avenues by mapping current work and accomplishments to skills team members are looking to
+develop or need for their next career stage. While team leaders can help, ultimately, team members need to take ownership of their own career
+development. Two steps team leaders can encourage team members to take are connecting with others who are already in the types of positions
+they would like to move into and looking at the skills required in job postings of positions that interest them. Once there is a joint vision of the
+skills and experience team members would like to achieve, team leaders can seek opportunities for team members to engage in that type of work.
+By seeking out opportunities that align with their team members' goals and using their position to advocate for their team members' ability to
+take on new challenges, team leaders can become a ‘sponsor’ and not just a ‘mentor’ (Hewlett, 2013). A sponsor is a professional champion that
+“guides others toward [the sponsee's] work and contributions” (Ensor, 2015) and goes beyond advice to support and advocacy, “connecting [the
+sponsee] to important players and assignments” (Hewlett, 2013). Sponsorship has been shown to improve retention and advancement for individ
+uals from underrepresented groups (Hewlett & Ihezie, 2022).
+Sponsorship ideally involves identifying significant opportunities for team members to stretch their abilities and advance their careers. How
+ever, team leaders should also provide more routine pathways (e.g., time, resources) for individuals to participate in activities and create deliver
+ables needed for advancement. For example, in a data science collaboration context, suppose that a key evaluation criteria for an individual is to
+present a collaborative research project at a conference. The team leader can work with the team members on time allocation (e.g., adjusting time
+spent on other projects as necessary) and can provide resources (e.g., funding) to present the work. Less directly, team members can present their
+work regularly within the group to support individual presentation and communication skills.
+7 | EMPOWER TEAM MEMBERS TO WORK AUTONOMOUSLY
+Fostering independence communicates the value of team members' work and supports a culture of contribution
+Empowering team members and fostering autonomy and independence in employees is crucial for promoting creativity, innovation and per
+sonal growth, as well as the retention of talent (Cagan & Jones, 2020). Empowerment means creating an environment where people have owner
+ship over the outcomes of their work rather than only the tasks (Cagan & Jones, 2020). Team leaders can value, reward and celebrate
+independent thinking and initiative to reinforce the autonomy and independence of all team members.
+An important aspect of empowering team members is the delegation of authority to give people ownership of their work. Delegation allows
+decisions to be made by those with subject expertise and understanding of the issues, who are most likely to be the first to recognize appropriate
+solutions (Bloom, 2020). When delegating, a team leader must be willing to take the risk associated with letting someone else be responsible for a
+project, trust team members to successfully complete the task and be patient while they may be learning new skills (Nelson, 1993; see, for exam
+ple, the “independent R&D” of Nowviskie, 2013). For the delegation to be successful, it is imperative that team leaders clearly communicate
+expectations, goals and the details of authority granted for the completion of the project. Team leaders can then adopt a coaching approach
+(i.e., working alongside people rather than just guiding them) and help team members utilize their potential without asserting control over the pro
+ject (i.e., micromanaging) or taking credit for their accomplishments (Cagan & Jones, 2020). These approaches require active work from the team
+leader to assess their team, develop coaching plans and offer regular feedback and guidance. As a part of coaching, the team leader can share their
+MAIMONE ET AL. 5 of 12
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+own experiences with balancing projects, having tough conversations with clients or setting professional goals. Inviting team members to attend
+meetings with stakeholders may also be beneficial to both the manager and members of the team. In addition to receiving the most current infor
+mation about the project's status (team members may be more familiar with the project's progress than the team leader), partnering with team
+members in this way builds trust, communicates appreciation and inclusion and may serve as a professional growth opportunity for the
+team member.
+8 | LEARN FROM DIVERSE EXPERIENCES
+Create space and opportunities for team members to share how they experience the world and how that affects their work
+Facilitating conversations with and among team members is important for reaping the benefits of a diverse team and creating a culture that is
+inclusive of varied experiences. As Rock et al. (2016) put it, “capitalizing on diversity means highlighting — not hiding from — differences.” Simi
+larly, White's (2022) suggestions for leaders looking to build an inclusive organizational culture start with “actively listening and learning” about
+the experiences of team members. Yet 61% of employees report “covering,” or taking steps to avoid drawing attention to, at least one aspect of
+their identity that may have a stigma associated with while at work, even in workplaces with stated commitments to inclusion (Smith &
+Yoshino, 2019).
+Successfully navigating complex conversations about personal differences requires building shared values and trust within a team. Pérez
+(2021) outlines steps to build trust through conversation and help a team progress to having transformative conversations in emotionally intelli
+gent ways: 1) asking discovery questions, 2) actively listening, 3) using dramatic emphasis and 4) acknowledging life milestones and work achieve
+ments. Su (2019) suggests steps for building trust and psychological safety in a team, including modelling healthy conflict, zero tolerance for
+bullying and developing a culture of appreciation. It is critical to address bullying and poor interpersonal behaviours with care and immediately, as
+team members' work and development can be significantly impeded if not.
+Including someone as part of a team means listening to and learning from their story. Each team member has a unique history, identity and
+personality that will affect their experience within the team, in their consultations and within the institution. These personal identities and histo
+ries (e.g., age, gender, race and more) will affect their experience. For data science and statistics consulting teams, there are also varied experi
+ences in when and how people learned to code, familiarity with different research domains, level of degree, role at the university (faculty, staff,
+student) and job title. Beyond their backgrounds, team members will also have differences in how they experience ongoing events, such as
+changes in the work environment and broader news and political events.
+When learning about the experiences of others, avoid either reducing their experience to one aspect of their identity or ignoring the systemic
+factors that may contribute to their experience. Team leaders can also listen to how team members frame their experiences and share their own
+understanding rather than interpreting it for them. For example, both responding to a particular woman's experience with discrimination by saying
+it's something all women face and saying that discrimination is something many people of different identities face can be dismissive of someone's
+individual experience. The former may deny the particular ways an individual's multiple identities of race, sexuality and age intersect with gender
+in their experience. The latter ignores the specific systemic factors that disadvantage women, which can undermine efforts to address them.
+With data science and statistics consulting teams, learning from diverse experiences should also extend to exploring how collaborators inter
+acting with the team may have different experiences. For example, raising awareness of how a first-generation undergraduate student's experi
+ence consulting the team may differ from that of an early career faculty member with a history of qualitative research will help team members be
+more effective in their collaborations. Being intentional and direct in discussing how individuals' differences affect their experience working with
+the team will also help team members reach out to new collaborators in ways that speak to their needs and experiences.
+9 | SUPPORT TEAM MEMBERS IN NAVIGATING POWER DYNAMICS
+Position, identity, situation and expertise can all affect the power dynamics between those involved in collaboration and contribute to or
+hamper the success of the interaction
+Identifying and navigating power dynamics is necessary on both sides of a consultant/client relationship. As with learning from diverse experi
+ences, acknowledging and explicitly having conversations about the factors that shape academic consulting relationships is critical for addressing
+issues that can inhibit an inclusive environment.
+The power relations or dynamics (see Foucault, 1980; Stainback et al., 2010) between a consultant and a client will be affected by
+• Position: the role in the organization that both people occupy (e.g., undergraduate student, graduate student, staff, faculty, IT support,
+researcher staff).
+• Identity: the personal characteristics and identities of each, including age, gender, ethnicity/race, abilities/disabilities, etc.
+6 of 12 MAIMONE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+• Situation: the parameters under which the two parties are interacting, such as the definition of the service being offered, the expectations for
+collaboration and any financial exchange involved.
+• Expertise: the expertise that both parties bring to the content of the interaction, as well as their overall expertise levels in related areas.
+Position is mostly a function of the institution and system that people are operating in and is not easily changed. Supporting team members on this
+dimension starts with making any tacit knowledge about assumed status differences between role types explicit and acknowledging it. For exam
+ple, acknowledging that faculty consultants on a team may be less likely than staff consultants to need to advocate for their role as a co-author
+on a paper. Positional power differentials can be addressed by adopting practices and norms for the team that attempt to adjust the dynamic. For
+example, the team can use first names as the default form of address for both team members and clients. Consulting appointments could be
+scheduled in the consulting team's space rather than a consultant being expected to travel to a faculty member's office. Team members can
+include academic credentials or positions in their email signatures.
+While identity is also based on characteristics that are largely fixed, the ways in which individuals' identities interact depend upon cultural and
+social context. For example, being Sikh in India carries with it a complex cultural and political context of which people in the US may be completely
+unaware. In the multicultural environment of a university or research institution, people bring their cultural and social backgrounds, including their
+expectations for interacting with people of different identities and assumptions about power dynamics. Supporting team members in educating
+themselves about such differences through professional development funding or goals is one way to improve their ability to navigate these
+dynamics.
+Power dynamics that result from the situation are the ones that can most easily be influenced by the team leader. As Pozzebon and
+Pinsonneault (2012) found, the initial set-up of a project is particularly important. Having clear in-take or collaboration initiation processes that
+reference written policies can help to set expectations up front and frame the interaction. Written policies also make it easier for consultants to
+address breaches in the expectations or scope of the relationship by providing something they can reference. For example, written project
+agreements that clearly outline the scope of the engagement can help consultants address requests that would expand the scope – such as inves
+tigating new questions or engaging in data cleaning tasks that were not part of the initial agreement.
+Power differentials resulting from expertise may help a consultant who may otherwise feel they are in a weaker or vulnerable position in a
+consulting engagement. However, a consultant needs to be confident in their expertise and see themselves as an expert for their expertise to play
+an equalizing role in a relationship, as well as being comfortable in unknown and new areas. Consultants who have received training are anecdot
+ally more likely to develop this confidence (Sharp et al., 2021). Similarly, a student seeking data science assistance from a faculty member may gain
+confidence when reminded that they are the experts in their own research domain and project. Asking someone seeking assistance to describe
+their research or provide input on how they have seen a problem addressed in other research in their field can help them access and share this
+expertise, leading them to be more comfortable sharing other areas where they need assistance.
+Helping consultants recognize these dynamics and explicitly discussing strategies for addressing them, both individually and as a team, can
+help the team have the language and a framework for discussing issues that may arise in their consulting engagements. Sharp et al. (2021) devel
+oped 10 statistical collaboration training videos and scripts along with discussion questions as a resource for facilitating these discussions.
+10 | HAVE THE DIFFICULT CONVERSATIONS
+Advocating for the team requires sometimes instigating and engaging in uncomfortable or difficult conversations with team members, collabo
+rators or unit leadership
+Being an inclusive leader requires courage (Bourke, 2016). While this may come in many forms, one place courage is required is having con
+versations that address when a team member, collaborator or senior leader is failing to meet your team's expectations for an inclusive
+environment.
+With team members, this can mean enforcing zero-tolerance policies for bullying, racist or sexist language or other biased or exclusionary
+behaviours. This may involve challenging team members who use potentially harmful language that could be derogatory to consider the history
+and implications of their word choices. It may require reminding team members that their peers or collaborators may have family members who
+are affected by government policies or actions they are vocally supporting or opposing. Importantly, team leaders should recognize these behav
+iours in action and acknowledge the personal experiences of those that report them. Specific to data science or statistics projects, the team leader
+may need to remind or educate team members of the complex history and implications of data encoding choices around race, ethnicity, citizen
+ship, gender and other personal characteristics. It takes courage to directly and clearly address such situations, but doing so is essential for setting
+clear expectations for the team.
+With collaborators, team leaders need to proactively ask about team members' interactions with constituents or clients and be prepared to
+engage in conversations with those collaborators to address any issues. For example, a data scientist working with a faculty member who repeat
+edly uses inappropriate language may be hesitant to bring this up, let alone address it themselves, especially given the power differentials
+MAIMONE ET AL. 7 of 12
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+involved. Similarly, a statistician may be working with a researcher who refuses to list them as a co-author, even though the statistician wrote the
+methods section of a paper. Supporting team members in these situations means setting expectations that such behaviour is unacceptable, that
+team members should come to the team leader if something like this occurs, and that the team leader will take action if team members do report
+it. Unless these expectations are explicitly stated or team members observe the team leader engage in such conversations, team members may
+assume they have to deal with such situations on their own.
+Team leaders may also need to have difficult conversations with their own managers or stakeholders. As with team members or collaborators,
+team leaders may need to address behaviour by senior leaders that hinders the inclusive environment they are working to lead. However, difficult
+conversations may also extend to ways in which the systems or policies in place are failing to support the inclusive environment the team leader
+is working hard to build and support. For example, units that recruit job applicants through personal networks instead of open job postings, use
+exclusionary language in job descriptions, exclude applicants based on poor “culture fit” or discount applicants that have any gaps in their work
+history are undermining efforts to support an inclusive environment from the start. Conversations to change such practices are likely to be
+difficult, but having them is critical.
+Difficult conversations do not need to be punitive. Aggressive or harmful behaviours or words may not be intentional, but left unaddressed,
+harmful dynamics are likely to continue. Approaching difficult conversations collaboratively can help everyone move towards more productive
+and inclusive relationships. The goals are to set clear expectations, establish that people will be held to the established standards and create an
+environment for improved collaboration moving forward. See Patterson et al. (2002) and Hancher (2022) for tips on having these difficult, but
+critical, conversations.
+11 | DEVELOP MANAGEMENT SKILLS
+Developing skills to consistently and equitably implement best management practices is a prerequisite for creating an inclusive environment
+Diverse teams have many benefits, but they also create challenges that must be managed for the benefits to be realized (Rock et al., 2016).
+The practices discussed in earlier sections become easier to enact if team leaders have good fundamental management practices in place that help
+establish positive and trusting relationships with team members.
+In our experience, data science or statistical consultant team leaders, like other academic leaders, rarely receive training in how to be an emo
+tionally intelligent team leader as part of their academic education or career. Fortunately, there are many good resources on how to build these
+crucial skills, likely including training courses and programs offered by their institutions. Seeking out and participating in such training is not a nice
+to-have or bonus activity – it is core to the work of being a team leader and needs to be prioritized as such. From email newsletters to books, from
+podcasts to online courses to multi-day training, there are multiple ways to engage in continuous learning (see Table 1 for some places to start).
+Foundational management practices include: holding regular one-on-one meetings with members of your team - including students, providing
+both positive and constructive feedback on a regular basis, establishing regular methods and practices for communicating with the team and hav
+ing explicit discussions about job performance expectations. Performing management tasks well requires building trust with the team and
+employing emotional intelligence, both of which can be built through specific practice (Pérez, 2021; Sebre et al., 2021).
+Managing up is also a crucial skill (Rousmaniere, 2015). Supporting the statistics and data science team through the practices above will only
+go so far if the next-level team leader, department chair or stakeholders are not supportive partners in the process. The statistics and data science
+T A B L E 1 Resources to start further learning.
+Management skills
+Manager, Ph.D. email newsletter: https://www.managerphd.com Manager tools podcasts: https://www.manager-tools.com/all-podcasts The effective manager, by mark Horstman et al.
+“Hiring, Managing, and Retaining Data Scientists and Research Software Engineers in Academia: A Career Guidebook from ADSA and US-RSE,” https://zenodo.org/doi/10.5281/zenodo.8264152 LinkedIn learning: https://www.linkedin.com/learning check if your institution provides access
+Allyship and inclusive leadership
+“The EThIC Model of Virtue-Based Allyship Development: A New Approach to Equity and Inclusion in Organizations,” Warren & Warren, 2021, Journal of Business Ethics, 10.1007/s10551-021-05002-z “The six signature traits of inclusive leadership,” Juliet Bourke, 2016, https://www2.deloitte.com/us/en/insights/topics/talent/six-signature-traits-ofinclusive-leadership.html Anti-racist leadership, by James D. White and Krista White
+Leadership in statistics and data science: Planning for inclusive excellence, edited by Amanda L. Golbeck Empowered: Ordinary People, Extraordinary Products, Marty Cagan and Chris Jones, 2020 Employee Empowerment: The Prime Component of Sustainable Change Management, Daniel Bloom, 2021
+8 of 12 MAIMONE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+team leader can effectively manage by holding regular meetings with their leadership, establishing channels for regular and open communication,
+seeking joint professional development opportunities and educating their supervisor about what they need to be effective in their position as a
+team leader.
+Once the basics are in place, team leaders should think about how to develop team members' management and leadership skills (see
+MacGillivray, 2021 for suggestions on diverse ways to develop leadership skills). Team leaders can create an explicit mentorship program or pro
+vide opportunities for the team to learn and practice these skills. Opportunities that exist for the statistics and data science team leader might also
+be relevant to team members, either separately or concurrently, as well.
+12 | CONCLUSION
+This manuscript provides ideas for ways in which team leaders can do good and lead an inclusive statistics or data science consulting team
+(Table 2). Creating an inclusive and collaborative working environment may be time-consuming initially. However, this should be considered a
+T A B L E 2 Summary of leadership and management practices discussed in this work.
+Practice Description Examples
+Ensure people get credit
+Ensuring that team members receive appropriate credit for their work will support future advancement opportunities.
+Advocate for authorship on publications. Publicly recognize team members' contributions regardless of authorship status. Provide opportunities for team members to recognize each other's work and contributions to the team.
+Make tacit knowledge explicit
+Documenting and communicating resources and processes leads to a more inclusive and cohesive team.
+Document workflows and standard operating procedures within the team. Create mentoring opportunities. Internally share resources and tools, such as documentation on common methods (e.g., mixed effects models), tips for using popular tools (e.g., ggplot2) and templates.
+Establish clear performance review processes
+Clear and explicit expectations and performance review processes enable mutual understanding to the benefit of staff and team leaders.
+Put evaluation criteria in writing. Discuss evaluation criteria with team members to ensure shared understanding. Regularly discuss performance progress and challenges with team members.
+Champion career development
+Help team members identify and navigate career pathways to retain diverse talent.
+Discuss professional aspirations with team members. Help team members identify connections between their work and the skills needed for the next step in their career. Sponsor team members in pursuing activities and opportunities that will grow their experience and skills.
+Empower team members to work autonomously
+Fostering independence communicates the value of team members' work and supports a culture of contribution.
+Delegate responsibility. Coach team members, do not micromanage.
+Learn from diverse experiences
+Create space and opportunities for team members to share how they experience the world and how that affects their work.
+Listen. Avoid interpreting other people's experiences and identities for them. Consider the experiences of both team members and those collaborating with the team.
+Support team members in navigating power dynamics
+Position, identity, situation and expertise can all affect the power dynamics between those involved in collaboration and contribute to or hamper the success of the interaction.
+Explicitly discuss strategies for navigating status differences, such as norms around the use of titles and being explicit about a project's scope. Support team members in learning about ways different identities may influence people's experiences.
+Have the difficult conversations
+Advocating for the team requires sometimes instigating and engaging in uncomfortable or difficult conversations with team members, collaborators or unit leadership.
+Address inappropriate language by collaborators, especially when directed at team members. “Manage up” to change exclusionary language in job descriptions.
+Develop management skills
+Developing skills to consistently and equitably implement best management practices is a prerequisite for creating an inclusive environment.
+Pursue training in leadership and management skills. Hold one-on-one meetings with all team members regularly.
+MAIMONE ET AL. 9 of 12
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+long-term investment that will lead to increased team members' engagement and creativity. Team leaders do not need to apply everything dis
+cussed in order to have an inclusive team. The goal for team leaders at all stages of their journey to better support their teams is to identify one
+specific action they can take next and continue to implement. Team leaders who are new to management or have yet to establish good manage
+ment practices should start in the last section to learn how to build a foundation of communication and trust with their team. Those who have an
+established foundation can use the ideas presented to identify and explore new practices that are relevant to their team and are consistently
+achievable; in the spirit of the overall goal, team leaders are encouraged to ask team members to anonymously identify areas where they would
+like to see improvement. Team leaders who have been doing this work for years have the opportunity to mentor and inspire future leaders as well
+as share their experiences that can positively shape statistics or data science teams (e.g., through manuscripts or presentations). The statistics and
+data science community needs to hear from more people who prioritize leading inclusive teams in order to establish shared expectations for these
+practices throughout the field.
+AUTHOR CONTRIBUTIONS
+Christina Maimone, Julia L. Sharp, Ofira Schwartz-Soicher, Jeffrey C. Oliver, Lencia Beltran: Conceptualization; writing—original draft;
+writing—review and editing.
+ACKNOWLEDGEMENTS
+This work was partially supported by the Alfred P. Sloan Foundation [G-2022-19414]. Contributions of staff from NIST, an agency of the US
+Government, are not subject to copyright in the US. We also thank Jackie Milhans, Kristine Gierz, Nakia Grayson and two anonymous reviewers
+for providing thoughtful feedback on this manuscript.
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no new data were created or analyzed in this study.
+ORCID
+Christina Maimone https://orcid.org/0000-0002-0402-6297
+Julia L. Sharp https://orcid.org/0000-0002-9428-6518
+Ofira Schwartz-Soicher https://orcid.org/0000-0003-0771-4340
+Lencia Beltran https://orcid.org/0009-0001-3333-8919
+REFERENCES
+Bloom, D. (2020). Employee empowerment: The prime component of sustainable change management. Routledge. https://doi.org/10.4324/9780429400735 Board of Directors of the American Statistical Association. (2018). Overview of Statistics as a Scientific Discipline and Practical Implications for the Evaluation of Faculty Excellence. American Statistical Association. Retrieved from https://www.amstat.org/asa/files/pdfs/POL-Statistics-as-a-ScientificDiscipline.pdf Bourke, J. (2016). The six signature traits of inclusive leadership. Retrieved December 1, 2023, from Deloitte Insights website: https://www2.deloitte.com/ us/en/insights/topics/talent/six-signature-traits-of-inclusive-leadership.html
+Cagan, M., & Jones, C. (2020). Empowered: Ordinary people, extraordinary products. Wiley.
+Carson, T. L., Aguilera, A., Brown, S. D., Peña, J., Butler, A., Dulin, A., Jonassaint, C. R., Riley, I., Vanderbom, K., Molina, K. M., & Cené, C. W. (2019). A seat at the table: Strategic engagement in service activities for early-career faculty from underrepresented groups in the academy. Academic Medicine, 94(8), 1089–1093. https://doi.org/10.1097/ACM.0000000000002603 Castrillon, C. (2022). Why Employee Recognition Is More Crucial Than Ever. Forbes. Retrieved from https://www.forbes.com/sites/carolinecastrillon/ 2022/11/20/why-employee-recognition-is-more-crucial-than-ever/?sh=47d9de0d2e03 Cha, I., Oh, J., Park, C. Y., Han, J., & Lee, H. (2023). Unlocking the Tacit Knowledge of Data Work in Machine Learning. In Extended abstracts of the 2023 CHI conference on human factors in computing systems (pp. 1–7). Hamburg Germany: ACM. https://doi.org/10.1145/3544549.3585616 Contributor Roles Taxonomy. (n.d.) Contributor roles taxonomy. Retrieved February 5, 2024 from https://credit.niso.org/. Cooke, S. J., Young, N., Donaldson, M. R., Nyboer, E. A., Roche, D. G., Madliger, C. L., ... Bennett, J. R. (2021). Ten strategies for avoiding and overcoming authorship conflicts in academic publishing. Facets, 6, 1753–1770. https://doi.org/10.1139/facets-2021-0103 Cortina, K. S., Arel, S., & Smith-Darden, J. P. (2017). School belonging in different cultures: The effects of individualism and power distance. Frontiers in Education, 2, 56. https://doi.org/10.3389/feduc.2017.00056 Culture Amp. (2023). The 4 qualities of effective performance management. Retrieved February 5, 2024 from https://www.cultureamp.com/blog/ effective-performance-management Development Dimensions International (DDI). (n.d.). What is the STAR method? Retrieved January 25, 2024 from https://www.ddiworld.com/solutions/ behavioral-interviewing/star-method#: :text=DDIinventedtheSTARmethod,intervieworwhenprovidingfeedback Doran, G. (1981). There's a S.M.a.R.T. Way to write Management's goals and objectives. Management Review, 70(11), 35–36. Ensor, K. B. (2015). The Value of Professional Champions and Mentors in an Academic Environment. In A. L. Golbeck, I. Olkin, & Y. R. Gel (Eds.), Leadership and women in statistics (pp. 373–382). Chapman and Hall/CRC. https://doi.org/10.1201/b18730 Ferdman, B. M., Prime, J., & Riggio, R. E. (Eds.). (2021). Inclusive leadership: Transforming diverse lives, workplaces, and societies. Routledge/Taylor & Francis Group.
+10 of 12 MAIMONE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Foucault, M. (1980). Power/knowledge: Selected interviews and other writings, 1972–1977. Pantheon Books.
+Gardner, S. K., & Holley, K. A. (2011). “Those invisible barriers are real”: The progression of first-generation students through doctoral education. Equity & Excellence in Education, 44(1), 77–92. https://doi.org/10.1080/10665684.2011.529791 Griffith, E. H., Sharp, J. L., Bridges, W. C., Craig, B. A., Hanford, K. J., & Stevens, J. R. (2022). The academic collaborative statistician: Research, training and evaluation. Stat, 11(1), e483. https://doi.org/10.1002/sta4.483 Hancher, J. (2022). Navigating Tough Conversations. Retrieved from https://www.jeffhancher.com/post/tcf025-navigating-tough-conversations Hewlett, S. A. (2013). Forget a Mentor, find a sponsor: The new way to fast-track your career (8.11.2013 ed.). Harvard Business Review Press. Hewlett, S. A., & Ihezie, K. (2022). 20% of white employees have sponsors. Only 5% of black employees do. Harvard Business Review. https://hbr.org/2022/ 02/20-of-white-employees-have-sponsors-only-5-of-black-employees-do International Committee of Medical Journal Editors. (n.d.) Defining the role of authors and contributors. Retrieved on February 5, 2024 from https://www. icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html Kowalczyk, O. S., Lautarescu, A., Blok, E., Dall'Aglio, L., & Westwood, S. J. (2022). What senior academics can do to support reproducible and open research: A short, three-step guide. BMC Research Notes, 15(1), 116. https://doi.org/10.1186/s13104-022-05999-0 LeBlanc, M., Rueegg, C. S., Bekiroglu, N., Esterhuizen, T. M., Fagerland, M. W., Falk, R. S., ... Zucknick, M. (2022). Statistical advising: Professional development opportunities for the biostatistician. Statistics in Medicine, 41(5), 847–859. https://doi.org/10.1002/sim.9290 Leiserson, C. E., & McVinney, C. (2015). Lifelong learning: Science professors need leadership training. Nature, 523(7560), 279–281. https://doi.org/10. 1038/523279a Liu, F., Rahwan, T., & AlShebli, B. (2023). Non-White scientists appear on fewer editorial boards, spend more time under review, and receive fewer citations. Proceedings of the National Academy of Sciences, 120(13), e2215324120. https://doi.org/10.1073/pnas.2215324120 MacGillivray, H. (2021). Leadership Across the Diversity of Statistics. In A. L. Golbeck (Ed.), Leadership in statistics and data science: Planning for inclusive excellence (pp. 387–409). Springer International Publishing. https://doi.org/10.1007/978-3-030-60060-0 Mazumdar, M., Messinger, S., Finkelstein, D. M., Goldberg, J. D., Lindsell, C. J., Morton, S. C., Pollock, B. H., Rahbar, M. H., Welty, L. J., & Parker, R. A. (2015). Evaluating academic scientists collaborating in team-based research: A proposed framework. Academic Medicine, 90(10), 1302–1308. https:// doi.org/10.1097/ACM.0000000000000759 Morgan, A. C., LaBerge, N., Larremore, D. B., Galesic, M., Brand, J. E., & Clauset, A. (2022). Socioeconomic roots of academic faculty. Nature Human Behaviour, 6(12), 1625–1633. https://doi.org/10.1038/s41562-022-01425-4 Nelson, R. B. (1993). Empowering employees through delegation. McGraw-Hill.
+Nokkala, T., Aarnikoivu, M., & Kiili, J. (2022). Multidisciplinary peer-mentoring groups supporting knowledge sharing in doctoral education. Scandinavian Journal of Educational Research, 66(5), 865–878. https://doi.org/10.1080/00313831.2021.1939142 Nowviskie, B. (2013). Skunks in the library: A path to production for Scholarly R&D. Journal of Library Administration, 53(1), 53–66. https://doi.org/10. 1080/01930826.2013.756698 Patterson, K., Grenny, J., McMillan, R., Switzler, A., & Covey, S. R. (2002). Crucial conversations: Tools for talking when stakes are high (1st ed.). McGraw-Hill. Pérez, A. (2021). Personal and Collective Development Via Conversational Intelligence. In A. L. Golbeck (Ed.), Leadership in statistics and data science: Planning for inclusive excellence (pp. 105–116). Springer International Publishing. https://doi.org/10.1007/978-3-030-60060-0 Polanyi, M. (1967). The tacit dimension. Doubleday.
+Posselt, J. R. (2020). Equity in science: Representation, culture, and the dynamics of change ingraduate education. Stanford University Press.
+Pozzebon, M., & Pinsonneault, A. (2012). The dynamics of client-consultant relationships: Exploring the interplay of power and knowledge. Journal of Information Technology, 27(1), 35–56. https://doi.org/10.1057/jit.2011.32 Rock, D., Grant, H., & Grey, J. (2016). Diverse teams feel less comfortable — And That's why they perform better. Harvard Business Review, H03584. Ross, M. B., Glennon, B. M., Murciano-Goroff, R., Berkes, E. G., Weinberg, B. A., & Lane, J. I. (2022). Women are credited less in science than men. Nature, 608(7921), 135–145. https://doi.org/10.1038/s41586-022-04966-w Rousmaniere, D. (2015). What Everyone Should Know About Managing Up. Harvard Business Review. Retrieved from https://hbr.org/2015/01/whateveryone-should-know-about-managing-up Sebre, S., Stokenberga, I., & Sˇaitere, S. (2021). Empathy, Humor and Other Emotional Skills in Leadership. In A. L. Golbeck (Ed.), Leadership in statistics and data science: Planning for inclusive excellence (pp. 89–104). Springer International Publishing. https://doi.org/10.1007/978-3-030-60060-0 Sharp, J. L., Griffith, E. H., & Higgs, M. D. (2021). Setting the stage: Statistical collaboration videos for training the next generation of applied statisticians. Journal of Statistics and Data Science Education, 29(2), 165–170. https://doi.org/10.1080/26939169.2021.1934202 Christie Smith, & Kenji Yoshino. (2019). Uncovering Talent: A new model of inclusion. Deloitte. Retrieved from Deloitte website: https://www2.deloitte. com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-uncovering-talent-a-new-model-of-inclusion.pdf Stainback, K., Tomaskovic-Devey, D., & Skaggs, S. (2010). Organizational approaches to inequality: Inertia, relative power, and environments. Annual Review of Sociology, 36(1), 225–247. https://doi.org/10.1146/annurev-soc-070308-120014 Su, A. J. (2019). Do You Really Trust Your Team? (And Do They Trust You?). Harvard Business Review. Retrieved from https://hbr.org/2019/12/do-youreally-trust-your-team-and-do-they-trust-you
+Sutton, R. I. (2007). The no asshole rule: Building a civilized workplace and surviving one that isn't (1st ed.). Warner Business Books.
+Utts, J., & Goretsky, B. (2021). Why Statistics Needs Thought Leaders and How You Can Become One. In A. L. Golbeck (Ed.), Leadership in statistics and data science: Planning for inclusive excellence (pp. 371–386). Springer International Publishing. https://doi.org/10.1007/978-3-030-60060-0 Van Tuyl, S. (Ed.). (2023). Hiring, Managing, and Retaining Data Scientists and Research Software Engineers in Academia: A Career Guidebook from ADSA and US-RSE. Zenodo. https://doi.org/10.5281/zenodo.8274378 Walker, R. L., Sykes, L., Hemmelgarn, B. R., & Quan, H. (2010). Authors' opinions on publication in relation to annual performance assessment. BMC Medical Education, 10(1), 21. https://doi.org/10.1186/1472-6920-10-21 Waller, L. A. (2018). Documenting and evaluating data science contributions in academic promotion in departments of statistics and biostatistics. The American Statistician, 72(1), 11–19. https://doi.org/10.1080/00031305.2017.1375988
+White, J. D. (2022). Anti-racist leadership: How to transform corporate culture in a race-conscious world. Harvard Business Review Press.
+White, P. (2014). Improving staff morale through authentic appreciation. Development and Learning in Organizations: An International Journal, 28(5), 17–20. https://doi.org/10.1108/DLO-05-2014-0034
+MAIMONE ET AL. 11 of 12
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AUTHOR BIOGRAPHIES
+Christina Maimone is the Associate Director of Research Data Services with Northwestern IT's Research Computing and Data Services group
+where she developed a data science consulting team and service. She is co-coordinator of the US Research Software Engineer Association
+(US-RSE) RSE Group Leaders' Network, which is a forum for team leaders to discuss challenges with and learn from their peers. She has a
+PhD in political science and MS in statistics from Stanford University.
+Julia L. Sharp is a Mathematical Statistician at the National Institute of Standards and Technology. She was previously a Professor and Direc
+tor of the Graybill Statistics & Data Science Laboratory in the Department of Statistics at Colorado State University. Julia is a widely recog
+nized expert in applied statistics and statistical collaboration and was selected as a Fellow of the American Statistical Association (ASA) in
+2022 and received the Outstanding Mentor Award from ASA's Section on Statistical Consulting in 2021. She earned her PhD in Statistics
+from Montana State University.
+Ofira Schwartz-Soicher is the Social Sciences Data and Sociology Librarian at Princeton University Library. She co-founded and serves as the
+program manager of Stokes Viz Hub, a service that offers data analysis and data visualization workshops, as well as, data analysis consulta
+tions, supporting the digital research and information visualization needs of the Princeton University community. She earned her PhD in Social
+Policy Analysis from Columbia University.
+Jeffrey C. Oliver is the Data Science Specialist at the University of Arizona Libraries. With a background in ecology and evolutionary biology,
+he now leads the Libraries' Data Cooperative team, which supports researchers through consultations and workshops on data science. Jeff is
+also an active member of the Carpentries community, serving primarily as a trainer for new instructors. He earned his PhD in insect science
+from the University of Arizona.
+Lencia Beltran is the Open Science Program Coordinator for Carnegie Mellon University Libraries' Open Science Program. Her educational
+background is in Linguistics, Speech-Language Pathology, and Librarianship and Archival Studies. She received training in data science from
+Drexel University's LEADING and AI applications from the IDEA Institute on AI. Lencia leads the Data & Code Support team at CMU Libraries,
+which consists of faculty and graduate student consultants. This team offers comprehensive assistance for open-source coding languages and
+data science tools to the CMU and public community.
+How to cite this article: Maimone, C., Sharp, J. L., Schwartz-Soicher, O., Oliver, J. C., & Beltran, L. (2024). Do good: Strategies for leading
+an inclusive data science or statistics consulting team. Stat, 13(2), e687. https://doi.org/10.1002/sta4.687
+12 of 12 MAIMONE ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.687 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

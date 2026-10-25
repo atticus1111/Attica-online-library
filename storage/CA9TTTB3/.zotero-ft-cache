@@ -1,0 +1,122 @@
+Skip to main content
+Skip to article
+Purchase PDF
+University of Colorado Boulder does not subscribe to this content on ScienceDirect.
+Science of The Total Environment
+Volume 960, 15 January 2025, 178298
+Microplastics in soils: A comprehensive review
+Author links open overlay panel
+Qilin Kang a b c
+,
+Kun Zhang d
+, Stefan C. Dekker e,
+Jiefei Mao a b c
+Show more
+Share
+Cite
+https://doi-org.colorado.idm.oclc.org/10.1016/j.scitotenv.2024.178298
+Get rights and content
+Highlights
+•
+Agriculture sector greatly accelerates the emissions of microplastics (MPs) in soil.
+•
+Soil MPs are globally distributed across various land use types.
+•
+Integrated three metrics: number, area, and mass concentration for comprehensive MP assessment.
+•
+Internal and external mechanisms mutually affect the transport of MPs in soil.
+Abstract
+Microplastics (MPs) have become pervasive pollutants in terrestrial ecosystems, raising significant ecological risks and human health concerns. Despite growing attention, a comprehensive understanding of their quantification, sources, emissions, transport, degradation, and accumulation in soils remains incomplete. This review synthesizes the current knowledge on the anthropogenic activities contributing to soil MP contamination, both intentional and unintentional behaviors, spanning sectors including agriculture, domestic activities, transportation, construction, and industry. Furthermore, it examines the spatial distribution, accumulation, and abundance of MPs across various land use types, alongside a critical assessment of existing quantification methodologies. While the predominant metric for MP quantification is particle number concentration, integrating mass and area concentration enhances the ability to compare pollution levels, assess fluxes, and conduct risk analyses. Additionally, the review explores the transport behavior of MPs in soil, distinguishing between external mechanisms (abiotic factors: wind, leaching, and runoff, biotic factors: soil bioturbation and food chain interactions), and internal mechanisms that are impacted by the characteristics of MPs themselves (e.g., shape, color, size, density, surface properties), soil properties (e.g., porosity, pH, ionic strength, organic matter and mineral content), coexisting substances, and soil structural dynamics. The study of MP transport in soil remains in its early stages, with substantial gaps in knowledge. Future research should focus on integrating number, mass concentration, and area concentration for the more holistic quantification of MP abundance, and prioritize the development of more accurate and efficient methodologies. In addition, the investigation of MP transport and degradation processes under varying environmental conditions and soil management practices is critical for addressing this emerging environmental challenge.
+Graphical abstract
+Download: Download high-res image (262KB)
+Download: Download full-size image
+Introduction
+Plastics are widely utilized due to their cost-effectiveness, versatility, and durability (Andrady and Neal, 2009; Harrison and Hester, 2018). Global plastic production was recorded at 335 million tons in 2016, increasing to 391 million tons by 2021 (Plastics Europe, 2022). According to Addor et al. (2022), it is projected that by 2050, annual global plastic production will reach 29.2 billion tons, with annual plastic waste up to 24.52 million tons. In 2015, only 9 % of the plastic waste was generated globally was recycled, while 12 % was incinerated, and 79 % was either deposited in landfills or released into the natural environment (Geyer et al., 2017). The annual amount of plastic waste entering terrestrial ecosystems is estimated to exceed that of the oceans by a factor ranging from 4 to 23 (Horton et al., 2017).
+Microplastics (MPs), defined as particles with a diameter smaller than 5 mm, were first characterized by Thompson et al. (2004). They are classified into two categories: primary and secondary MPs (Cole et al., 2011). Primary MPs are directly produced with a dimension <5 mm in intentionally or unintentionally manufacturing processes. Examples of primary MPs include plastic microbeads found in detergents and cosmetics, as well as particles released during the production and processing of plastics (Sun et al., 2020a). In contrast, secondary MPs are formed as a result of the degradation of plastic materials in the environment, impacted by physical, chemical, and biological factors (Browne et al., 2007). Initially, research on MP pollution predominantly addressed marine ecosystems. However, recent studies broadened this focus to include terrestrial environments (Rillig, 2012), with observations of soil MPs emerging globally (Auta et al., 2017; Dong et al., 2021a; Leitão et al., 2023; Wang et al., 2021d; Wang et al., 2022b; Zhang et al., 2022b). The abundance of MPs varies significantly across studies, with discrepancies of up to eight orders of magnitude (Koutnik et al., 2021). Key sources of soil MPs include plastic mulching, organic or sludge fertilization, wastewater irrigation, surface runoff, and atmospheric deposition, with plastic mulching identified as the predominant contributor in agricultural soils (Yang et al., 2022).
+MPs are characterized by their small particle sizes, potential toxicity, prolonged persistence in the environment, and ease of absorption by living organisms (Luo et al., 2022; Zhang et al., 2022d). During the second United Nations Environment Assembly convened in 2016, MPs pollution was identified as the second most significant scientific issue challenge within the domain of environmental and ecological science research (Tang et al., 2023). MPs can enter the human body through various pathways, including respiration (Gasperi et al., 2018), dermal absorption (Bhat et al., 2023), and the food chain (Prata and Dias-Pereira, 2023). Recent studies have consistently found MPs in human lungs, blood, and feces (Barceló et al., 2023; Jung et al., 2022; Pérez-Guevara et al., 2021). The potential adverse impacts of MPs on human health include oxidative stress responses, cellular damage, tissue inflammation, and chemical toxicity (He et al., 2023a; Prokić et al., 2019).
+MPs significantly impact the physical and chemical properties of soil, including water retention, bulk density, and pH (Li et al., 2023). Through various physical, chemical, and biological processes, MPs can undergo aging and fragmentation within soil matrices. Additionally, MPs can serve as vectors for heavy metals, organic pollutants, pathogens, and antibiotics (Ren et al., 2021), with their adsorption capacity increasing in relation to specific surface area during as they age. Therefore, the aging and fragmentation of MPs may exacerbate the potential risks associated with these contaminants in the environment. Furthermore, chemical additives present in plastics (e.g., pigments, plasticizers, stabilizers, flame retardants, and antioxidants) may leach from aging MPs, thereby introducing potentially hazardous substances into the surrounding ecosystem (Huang et al., 2021; Sheng et al., 2021). MPs can be transported into deeper soil layers through soil pore leaching, plant growth, animal ingestion, agricultural practices, and other biological disturbances. Previous studies have identified concentrations of 15 items/L (Panno et al., 2019) and 54 items/L (Balestra et al., 2023) in groundwater in the United States and Italy, respectively, providing evidence that MPs can indeed be transported from soil to groundwater.
+Despite the extensive research conducted on MPs in aquatic systems, there remains a significant gap in the literature regarding MPs in soil environment (Liu et al., 2024). Consequently, this article focuses on three primary areas of investigation: (1) Systematically identifying the emission sources of MPs in soil. A comprehensive understanding of the pathways through which MPs infiltrate soil is essential for developing effective management strategies aimed at mitigating or preventing MP pollution; (2) Examining the distribution, abundance and characteristics of MPs under different land uses from a global perspective, and comparatively analyzing the different quantitative indicators of MP abundance. This analysis serves as a reference for future research concerning the ecological risks of associated with MPs; and (3) Understanding the diversity of soil MPs transport behaviors, examining the internal influencing mechanisms and the external mechanisms driving their movement, which is crucial for predicting potential threats to soil ecosystems.
+Section snippets
+Emissions of soil MPs
+MPs can enter the soil directly as small particles, i.e. <5 mm, or can be fragmented due to physical, chemical, and biological degradation processes (Cole et al., 2011; Horton et al., 2017) during their life stage in the soil. In the literature this is often referred to soil primary MPs and soil secondary MPs. The sources of primary and secondary MPs in soil can be divided into direct and indirect sources, respectively. Direct sources refer to MPs/plastics directly added to the soil due to
+Literature review on global soil microplastics
+As of March 5, 2024, a total of 1927 articles containing the terms “microplastics” and “soil” were retrieved from the Web of Science (WOS) core database. Among these, 219 articles specifically focused on research related to soil MPs. Notably, a significant number of studies conducted in soil MPs in certain regions, particularly in China. Consequently, from the total of 219 studies, 119 representative articles were selected as seen in Table S1 to map MP distributions. The results highlight the
+Transport of MPs in soil
+The transport behaviors and driving mechanism of MPs in soil exhibit considerable diverse. These particles not only migrate within the soil matrix but also transition to other environmental media (water and air) and living organisms through multiple mechanisms (Yang et al., 2024; Sajjad et al., 2022; Xu et al., 2020). Soil MPs are transported to rivers, lakes, and other terrestrial water bodies via runoff, ultimately reaching the oceans (Nematollahi et al., 2022; Nizzetto et al., 2016).
+Conclusion and prospects
+Soil MPs originate from diverse anthropogenic activities: agriculture, domestic waste, traffic, construction, and industry. Among these, plastic products in agriculture and domestic waste contribute most significantly to soil MP contamination. Traffic emissions particularly from tire and brake abrasion, as well as plastic materials from construction and industry, also play a key role in MP input into soils. MPs are widely distributed across land-use types with concentrations ranging from 0 to 10
+CRediT authorship contribution statement
+Qilin Kang: Writing – original draft, Investigation, Data curation. Kun Zhang: Writing – review & editing, Funding acquisition, Conceptualization. Stefan C. Dekker: Writing – review & editing, Supervision. Jiefei Mao: Writing – review & editing, Supervision, Funding acquisition, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was supported by Tianshan Talent Training Program (2023TSYCCX0080), Key Research and Development Program of Xinjiang Uygur Autonomous Region (2023B02002) and Natural Science Foundation of Xinjiang Uygur Autonomous Region (2021D01C048).
+References (212)
+O.S. Alimi et al.
+Exposure of nanoplastics to freeze-thaw leads to aggregation and reduced transport in model groundwater environments
+Water Res.
+(2021)
+T. Atugoda et al.
+Interactions between microplastics, pharmaceuticals and personal care products: implications for vector transport
+Environ. Int.
+(2021)
+H.S. Auta et al.
+Distribution and importance of microplastics in the marine environment: a review of the sources, fate, effects, and potential solutions
+Environ. Int.
+(2017)
+B. Baensch-Baltruschat et al.
+Tyre and road wear particles — a calculation of generation, transport and release to water and soil with special regard to German roads
+Sci. Total Environ.
+(2021)
+V. Balestra et al.
+Preliminary investigations of microplastic pollution in karst systems, from surface watercourses to cave waters
+J. Contam. Hydrol.
+(2023)
+V. Bandmann et al.
+Uptake of fluorescent nano beads into BY2-cells involves clathrin-dependent and clathrin-independent endocytosis
+FEBS Lett.
+(2012)
+D. Barceló et al.
+Microplastics: detection in human samples, cell line studies, and health impacts
+Environ. Toxicol. Pharmacol.
+(2023)
+A. Billings et al.
+Co-occurrence of macroplastics, microplastics, and legacy and emerging plasticisers in UK soils
+Sci. Total Environ.
+(2023)
+M. Bläsing et al.
+Plastics in soil: analytical methods and possible sources
+Sci. Total Environ.
+(2018)
+C.M. Boerger et al.
+Plastic ingestion by planktivorous fishes in the North Pacific Central Gyre
+Mar. Pollut. Bull.
+(2010)
+View more references
+Cited by (49)
+The interactions, impacts, and removal strategies of microplastics (MPs) and antibiotic resistance genes (ARGs) in aquatic environments, particularly in wastewater treatment plants (WWTPs)
+2025, Journal of Environmental Chemical Engineering
+Show abstract
+The varied effects of different microplastics on stem development and carbon-nitrogen metabolism in tomato
+2025, Environmental Pollution
+Show abstract
+Identification of microplastics in human tear fluid and meibum: Implications for dry eye disease pathogenesis
+2025, Journal of Hazardous Materials
+Show abstract
+Microplastics and soil microbiomes
+2025, BMC Biology
+Microplastics in Agricultural Soils: Sources, Fate, and Interactions with Other Contaminants
+2025, Journal of Agricultural and Food Chemistry
+Microplastics in soil: a comprehensive review of analytical techniques
+2025, Frontiers in Soil Science
+View all citing articles on Scopus
+View full text
+© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

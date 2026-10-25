@@ -1,0 +1,750 @@
+SPECIAL ISSUE ARTICLE
+A guide to successful management of collaborative
+partnerships in quantitative research: An illustration of the
+science of team science
+Alyssa Platt 1 | Tracy Truong 1 | Mary Boulos 2 | Nichole E. Carlson 3 |
+Manisha Desai 2 | Monica M. Elam 1 | Emily Slade 4 | Alexandra L. Hanlon 5 |
+Jillian H. Hurst 6 | Maren K. Olsen 1,7 | Laila M. Poisson 8 | Lacey Rende 1 |
+Gina-Maria Pomann 1
+1Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, North Carolina, USA
+2Quantitative Sciences Unit, Department of Medicine, Stanford University School of Medicine, Palo Alto, California, USA
+3Department of Biostatistics and Informatics, Colorado School of Public Health, Aurora, Colorado, USA
+4Department of Biostatistics, University of Kentucky, Lexington, Kentucky, USA
+5Center for Biostatistics and Health Data Science, Department of Statistics, Virginia Tech, Roanoke, Virginia, USA
+6Department of Pediatrics, Duke University School of Medicine, Durham, North Carolina, USA
+7Center of Innovation to Accelerate Discovery and Practice Transformation, Durham VA Medical Center, Durham, North Carolina, USA
+8Department of Public Health Sciences, Henry Ford Health + Michigan State University Health Sciences, Detroit, Michigan, USA
+Correspondence
+Gina-Maria Pomann, Department of Biostatistics and Bioinformatics, Duke University, Durham, NC, USA. Email: gina-maria.pomann@duke.edu
+Funding information
+National Institutes of Health, Grant/Award Numbers: UL1TR002553, UL1TR003015, UL1TR003142, UM1TR004399, K01-AI173398
+Data-intensive research continues to expand with the goal of improving healthcare
+delivery, clinical decision-making, and patient outcomes. Quantitative scientists, such
+as biostatisticians, epidemiologists, and informaticists, are tasked with turning data
+into health knowledge. In academic health centres, quantitative scientists are critical
+to the missions of biomedical discovery and improvement of health. Many academic
+health centres have developed centralized Quantitative Science Units which foster
+dual goals of professional development of quantitative scientists and producing high
+quality, reproducible domain research. Such units then develop teams of quantitative
+scientists who can collaborate with researchers. However, existing literature does
+not provide guidance on how such teams are formed or how to manage and sustain
+them. Leaders of Quantitative Science Units across six institutions formed a working
+group to examine common practices and tools that can serve as best practices for
+Quantitative Science Units that wish to achieve these dual goals through building
+long-term partnerships with researchers. The results of this working group are
+presented to provide tools and guidance for Quantitative Science Units challenged
+with developing, managing, and evaluating Quantitative Science Teams. This guid
+ance aims to help Quantitative Science Units effectively participate in and enhance
+the research that is conducted throughout the academic health centre—shaping their
+resources to fit evolving research needs.
+Received: 1 February 2024 Revised: 4 March 2024 Accepted: 20 March 2024
+DOI: 10.1002/sta4.674
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes. © 2024 The Authors. Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e674. wileyonlinelibrary.com/journal/sta4 1 of 15 https://doi.org/10.1002/sta4.674
+
+
+1 | INTRODUCTION
+Data-intensive research continues to expand across all fields of medicine with the goal of improving healthcare delivery, clinical decision-making,
+and patient outcomes. There is a growing need in academic health centres to recruit and train quantitative scientists who can effectively
+collaborate with clinical and translational investigators on data-intensive research (Institute of Medicine, 2004). Quantitative scientists can have a
+diverse set of formal training and may identify as biostatisticians, informaticists, data scientists, psychometricians, bioinformaticians, epidemiolo
+gists, implementation scientists, and/or engineers. To meet the needs of a data-rich research environment, many academic health centres have
+developed “Quantitative Science Units” that house these scientists in a centralized entity that coordinates collaboration between quantitative
+experts and domain scientists (Hanlon et al., 2022). Recent literature has established strong arguments for Domain Science Units to engage with
+Quantitative Science Units rather than hiring quantitative scientists on their own (Desai et al., 2022; Welty et al., 2013). Quantitative Science
+Units differ from consulting or service units that focus on fee-for-service work or contracts on a per-project basis. Instead, they facilitate the
+creation of teams of quantitative scientists (“Quantitative Science Teams”) to partner with specific research labs, centres, departments, divisions,
+schools, and so forth (“Domain Science Units”). Quantitative Science Units support the infrastructure of collaborative research by supporting the
+practice of quantitative science, professional development of quantitative scientists, reproducible and rigorous quantitative research, and
+innovative methodology and analytic tool development.
+The development and management of long-term partnerships between Quantitative Science Units and Domain Science Units is key to
+developing sustainable infrastructure for translational research. Establishing and maintaining partnerships comes with unique challenges that
+require specialized structure and processes. Existing literature has described some best practices related to organizational structure, staffing,
+benefits, and funding models of Quantitative Science Units (Desai et al., 2022; Hanlon et al., 2022; Ittenbach & DeAngelis, 2012; Lesser &
+Parker, 1995). Basic guidance has been published for biostatisticians to estimate effort required to engage in individual research projects
+(Lesser & Parker, 1995) and on defining consensus-driven evaluation metrics for quantitative collaborations (Rubio et al., 2011). However, current
+literature lacks guidance on principles for the development, management, and evaluation of the Quantitative Science Teams (hereon referred to
+as “Teams”) that partner with individual Domain Science Units.
+To develop guidance and best practices that can be used by other Quantitative Science Units, especially newly forming units, leaders of
+Quantitative Science Units across six institutions formed a working group. Table 1 describes the units, which range from larger groups with over
+20 partnerships to a unit with three partnerships that is actively working to expand. Importantly, partnerships are highly variable, with some
+partnerships in one institution representing engagement with over 500 faculty, whereas some partnerships in another institution involve the lab
+of one investigator. The primary objective of this work is to provide a flexible, comprehensive framework for Quantitative Science Units to
+develop sustainable, long-term relationships with Domain Science Units. The outline of the paper is as follows: (1) We provide guidance on how
+to identify the need for a new partnership, tools for assessing the effort and expertise needed to support the partnership, and examples of
+T A B L E 1 Names and characteristics of Quantitative Science Units led by coauthors.
+Institution Quantitative science unit name
+Number of current partnershipsa
+Faculty: total (FTE)b
+Staff: total (FTE)b Studentsc
+Duke University School of Medicine
+Biostatistics, Epidemiology, and Research Design (BERD) Methods Core
+31 19 31 7–8
+(7) (29)
+University of Kentucky Biostatistics Consulting & Interdisciplinary Research Collaboration Lab (Biostat CIRCL)
+15 3 6 0
+(3) (5.5)
+Stanford University Quantitative Sciences Unit 12 6 35 31
+(6) (35)
+Colorado School of Public Health
+Center for Innovative Design and Analysis (CIDA)
+27 17 20 15
+(20) (20)
+Henry Ford Health Division of Biostatistics 3 5 14 1–2 summer interns
+(4.5) (14)
+Virginia Tech Center for Biostatistics and Health Data Science (CBHDS)
+14 6 10 3
+(5.5) (6)
+Abbreviation: FTE, full-time equivalence. a“Current partnerships” includes only partnerships with memorandums of understanding (MOUs). These partnerships vary greatly in size, with some covering a single lab and others covering hundreds of domain scientists in a department, college, or institute. bDefinitions of faculty and staff may vary across institutions. cNumber of students is entered as a range when number of students fluctuates from year to year.
+2 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+documents that can formalize the partnership to provide transparency and clear expectations; (2) we present structured processes to facilitate the
+development of goals and metrics, project intake and prioritization, and tracking of project status; and (3) we discuss best practices and tools for
+evaluating productivity and satisfaction.
+2 | DEVELOPING A COLLABORATIVE PARTNERSHIP
+A “collaborative partnership” is defined as a relationship between a Quantitative Science Unit and a Domain Science Unit, in which the Quantita
+tive Science Unit designates a team of quantitative scientists who collaborate with investigators in the Domain Science Unit on an ongoing basis.
+Figure 1 illustrates how a Team supports a collaborative partnership. Such partnerships foster numerous individual collaborations between quanti
+tative scientists and individual investigators within the Domain Science Unit. Quantitative Science Units may engage in partnerships with Domain
+Science Units of varying size, encompassing large department- or division-wide analytic teams to smaller teams that collaborate with a single lab
+or investigator. Identification of new partnerships may occur in multiple ways. In many cases, investigator(s) from a Domain Science Unit approach
+the Quantitative Science Unit for help identifying potential quantitative collaborators. The Quantitative Science Unit may identify the need to
+develop a partnership through repeated requests from investigators within a Domain Science Unit. Quantitative Science Unit leaders may also
+conduct systematic outreach meetings with the Chairs of Departments and Divisions to promote the benefits of an ongoing partnership.
+Before entering a partnership, leadership of the Quantitative Science and Domain Science Units should discuss research and funding goals of
+the Domain Science Unit, rigour and reproducibility practices, and team science principles to ensure fitness and feasibility of a partnership. Once
+both parties agree that a collaborative partnership would be mutually beneficial, there are three key elements to establishing a formal partnership:
+(1) performing a needs assessment to identify all of the appropriate expertise needed (e.g., biostatistics, epidemiology, and bioinformatics),
+(2) defining the level of staff/faculty effort, equipment, and materials required, and (3) documenting and defining the financial terms and the scope
+of the collaboration. A checklist that summarizes these elements is provided in Section 1 of Table 2.
+2.1 | Perform a needs assessment for the Domain Science Unit
+The purpose of a needs assessment is to understand the research landscape of the Domain Science Unit and how quantitative scientists can con
+tribute to data-intensive research projects. The needs assessment should evaluate current and upcoming research activities that quantitative sci
+entists may be involved in over the next 6 to 12 months. This information can be gleaned through meetings between the Quantitative Science
+Unit leadership, potential Quantitative Science Team members, and individual investigators from the Domain Science Unit. Deploying a survey
+can also help leadership determine the required expertise and amount of ongoing effort that should be allocated to the Quantitative Science
+Team. Appendix S1 provides a table of common information solicited from Domain Science Units at the individual project level in order to assess
+the volume and nature of projects. Appendix S2 provides an example survey used by Duke which often assesses Domain Science Unit needs at a
+more aggregate level (i.e., at the level of investigator or Domain Science Unit). The survey includes questions such as “How many projects do you
+have that require biostatistics collaboration in the next 3–6 months?,” to be answered by leadership in a Domain Science Unit.
+2.2 | Define effort and roles for the Quantitative Science Team (and Domain Science Unit)
+The leadership of the Quantitative Science Unit can use the results of the needs assessment to estimate the appropriate effort allocations for the
+Quantitative Science Team. The overall staff and faculty effort proposed for the team depends on the volume and variety of project types, as well
+as the amount and type of funding available for analytic work. Broad guidelines that have been published for estimating effort at the individual
+project level can help the Quantitative Science Unit estimate the effort needed (Lesser & Parker, 1995; Peterson et al., 2022). The effort
+estimation is a task that should be completed by the Quantitative Science Unit leadership and ideally the quantitative scientists who would be on
+the Team. The initial estimate may then be negotiated with the Domain Science Unit leadership with a more in-depth discussion about available
+budget and scope of work. Table 3 provides examples of what effort estimates might look like for a relatively limited effort model (e.g., 40% effort
+from a staff biostatistician and 15% effort of a faculty biostatistician) as well as a larger team that has multiple staff and/or faculty working full
+time on the team. This exhibits that both internal and external funding can be used to support numerous quantitative scientists who coordinate
+among each other to work on a variety of projects in the Domain Science Unit.
+It is also crucial to include funding for project management (sometimes termed “administrative”) activities such as tracking project status,
+developing reports about productivity, conflict resolution, meeting scheduling, and other relevant tasks. In our experiences, the most successful
+Teams dedicate time to project management. Appendix S3 provides an example guidance document from the Duke Biostatistics, Epidemiology,
+and Research Design (BERD) Methods Core that defines the roles of “Quantitative Science Team Lead,” “Quantitative Science Team
+PLATT ET AL. 3 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+F I G U R E 1 Schematic diagram illustrating the components of a collaborative partnership in an academic health centre.
+4 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+T A B L E 2 Checklists to guide successful management of collaborative partnerships in quantitative research.
+Component Description Who is involved Frequency Process/tool requirements
+Section 1: Developing a collaborative partnership
+Perform a needs assessment A process to assess the depth and the
+scope of analytic needs in the Domain
+Science Unit to inform the staffing
+model that will be required
+Quantitative Science
+Unit and Domain
+Science Unit
+At least once, prior to
+formation of Quantitative
+Science Team
+☐ Identify potential or typical domain scientist
+☐ Quantify number and type of projects in a typical year
+☐ Provide enough information to determine whether any
+specialized methodologic knowledge is needed (e.g.,
+bioinformatics, omics, spatial analysis, and trials)
+☐ Identify typical data sources/types
+☐ Identify funding resources to support the partnership
+Governing document and
+financial agreement
+An agreement defining the structure of the
+Quantitative Science Team, financial
+commitments, and mutual expectations
+for both the Domain Science Unit and
+the assigned Quantitative Science Team
+Quantitative Science
+Unit and Domain
+Science Unit
+During initial formation of
+Quantitative Science
+Team and then revisit
+annually or as-needed
+☐ Identify administrative and financial contacts
+☐ Include start and end date of agreement (and renewal clause)
+☐ Include scope of work for Quantitative Science Team
+☐ Include effort level (in full-time equivalence) of quantitative
+science team members
+☐ Include any associated fees (e.g., technology and training fees)
+☐ Include fund codes associated with funding sources
+☐ Include expectations about when and how funding will be
+processed
+Define collaboration goals in
+detail
+Discuss partnership goals with domain
+leads to brainstorm and establish short
+term and long-term successes relevant
+to the partnership
+Quantitative Science
+Team and Domain
+Science Unit
+In-depth meeting at outset
+of partnership and then
+annually
+☐ Include question prompts for primary goals and short- and long
+term goals
+☐ Discuss metrics used to measure success
+☐ Discuss ideal frequency of reporting of metrics
+Define process for project
+intake, review, and
+approval
+Develop and document a process for
+project intake, review, and approval
+Quantitative Science
+Team and Domain
+Science Unit
+Over the first few months
+of partnership and then
+revisit annually
+Create intake form in format that is easily accessible to domain
+scientists, including the following information:
+☐ Primary investigator and other key personnel (e.g., mentors),
+their position in the Domain Science Unit, and primary contact
+for the project
+☐ Short preferred title for Quantitative Science Team to refer to
+the project by
+☐ Funding source for the project, whether internally or externally
+funded
+☐ Project goal, for example: grant proposal support, data analysis,
+abstract support, manuscript support, building a database, or
+grant application (externally funded or internally funded)
+☐ A brief description of the project
+☐ A description of the support needed from the collaborative team
+☐ Any external deadline for completion of the work or the request
+(e.g., grant submission date and abstract submission date)
+Create documented process for review and approval, including the
+following information:
+☐ Identification of roles for Quantitative Science Team and
+Domain Science Unit Leads in project review/approval
+☐ Defined criteria for project approval
+(Continues)
+PLATT ET AL. 5 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+T A B L E 2 (Continued)
+Component Description Who is involved Frequency Process/tool requirements
+☐ Guidelines for prioritization of project in the case of competing
+demands (mapping back to partnership goals)
+☐ Roles and timeline for review and approval of projects
+Section 2: Implementation and management of Quantitative Science Team
+Regular meetings with
+Domain Science Unit
+Regular meetings with Domain Science
+Unit Leads to provide updates on
+projects, revisit/discuss partnership
+goals, discuss challenges, prioritize
+projects, and seek guidance on
+“problematic” projects/collaborations,
+review projects, progress, and
+milestones
+Coordinated by
+Quantitative Science
+Team, but including
+Domain Science Unit
+At least quarterly, usually
+monthly
+☐ Create clear, concise agenda, circulated to Quantitative Science
+Team and Domain Science Unit members in advance of each
+meeting
+☐ Circulate meeting summaries after each meeting, including
+important decisions made and action items
+Ongoing project tracking Monitor project tracking data and to
+ensure appropriate project updates are
+recorded
+Quantitative Science
+Team
+Monthly Systems should include the following:
+☐ A list of projects for which requests have been submitted
+☐ The quantitative Science Team members assigned to collaborate
+on each project (staff and faculty)
+☐ The primary investigator
+☐ The stage the project is in
+☐ Proposed analyst effort levels
+Effort monitoring Management of overall Quantitative
+Science Team effort, that is, review
+current effort and effort projection
+based on incoming projects. Discussion
+with Domain Science Unit Liaison when
+possible adjustment to MOU is needed
+Quantitative Science
+Team
+Monthly or as-needed Systems should include the following:
+☐ Project name
+☐ Team member(s) assigned to project
+☐ Timeline (usually in months)
+☐ Planned effort projection for each month
+☐ If relevant, cost codes for effort on each project that staff/
+faculty has planned for partnership
+Regular Quantitative
+Science Team meetings
+Regular meetings of all faculty/staff on
+Quantitative Science Team to discuss
+active projects to ensure all deliverables
+are on track to meet deadlines,
+challenges with workload or personnel,
+and upcoming projects or major
+deadlines
+Quantitative Science
+Team
+At least biweekly ☐ Create clear, concise agenda, circulated to Quantitative Science
+Team members in advance of each meeting
+☐ Circulate meeting summaries after each meeting, including
+important decisions made and action items
+Section 3: Evaluation of collaborative partnerships
+Follow-up needs
+assessments
+Assessment of expertise needs for the
+partnership. If additional expertise is
+needed, discuss with Domain Science
+Unit Lead and the director of the
+Quantitative Science Unit
+Quantitative Science
+Team
+At least annually ☐ Review and agree on metrics used to gauge whether Team is at,
+under, or over capacity
+☐ Review metrics from past review period (e.g., numbers of pre
+award, nonfunded, and post-award projects)
+☐ Map project metrics to funds and determine the amount of FTE
+surplus/deficit
+☐ Consider other resource usage such as computational resources
+and resources for career development
+6 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+T A B L E 2 (Continued)
+Component Description Who is involved Frequency Process/tool requirements
+Bidirectional feedback Meetings between Quantitative Science
+Team supervisors and their supervisees
+to assess strengths and barriers in their
+relationships as they apply to
+collaboration with various domain
+scientists. Meetings are often one
+on-one and aim to cover all of the
+collaborative work that the individuals
+share.
+Quantitative Science
+Team
+Annually or semi-annually Formal process, using question prompts such as
+☐ What do you feel the other is doing well?
+☐ What areas do you think the other individual could improve?
+☐ What are the biggest collaborative challenges with Domain
+Science Unit and what can each individual do to improve them?
+☐ What does each person feel the other can do to make their
+work more efficient?
+☐ Are there activities that each person would like to become more
+involved in?
+Regular reporting on all
+collaborative activities
+Generate report of all projects involving
+Quantitative Science Team and review
+with Domain Science Liaison(s)
+Quantitative Science
+Team
+Usually quarterly, at least
+annually
+Reports may include the following:
+☐ High-level summary of metrics (e.g., X papers, X grants, and X
+abstracts), closely tied to partnership goals
+☐ List of individual projects with project status
+☐ List of publications, with status (e.g., submitted, in preparation,
+in review, accepted, and published)
+☐ List of abstracts, with status (e.g., submitted, accepted, and
+presented)
+☐ List of domain scientists with whom Quantitative Science Team
+collaborated
+Comprehensive annual
+review
+A revisiting of collaborative structure and
+processes and assessment of whether
+changes or refinements are needed in
+any areas
+Quantitative Sciences
+Team Lead and
+individual Domain
+Science Unit
+investigators
+Annually A formal annual process, including the following:
+☐ A review of projects/collaborations (domain scientist
+perspective), what is working well, what is not?
+☐ An in-depth review of the collaboration report—do metrics align
+with partnership goals?
+☐ Individual meetings with a handful of domain scientists who
+have engaged with staff to learn about their experience
+(positives or negatives)
+☐ A review of stated short- and long-term goals of the partnership
+☐ A review of barriers and accelerators for each goal
+Note: Section 1 provides components and checklists for developing collaborative partnerships. Section 2 provides components and checklists for implementation and management of partnerships, and Section 3
+provides components and checklists for evaluation of partnerships. Suggested parties to involve and timing/frequency of tasks are also included. Checklists should not be considered exhaustive but rather
+provide what coauthors consider to be the most essential process/tool requirements for each component.
+PLATT ET AL. 7 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Coordinator,” and importantly the “Domain Science Unit Liaison.” The Quantitative Science Team Lead is tasked with effort management and
+projection, tracking project status and outcomes, and monitoring collaborative challenges. If needed, a Coordinator role supports this work. The
+Team Lead may also work to educate investigators about best collaboration practices and ethical guidelines when working with quantitative
+scientists. The Domain Science Unit Liaison who is part of the partnering Domain Science Unit plays a key role, assuming responsibility for
+working with the Team to set goals and determine project prioritization. Importantly, this role also includes helping to mediate and resolve
+collaborative challenges that arise in the partnership. The role of Liaison may also be shared between multiple individuals, in which case responsi
+bilities should be clearly defined. The Liaison partners with the Quantitative Science Team Lead to oversee the management of the partnership.
+Similar to Duke, Stanford's Quantitative Sciences Unit earmarks specific dedicated effort for their senior-level quantitative scientists (faculty
+and/or senior staff) to act as project managers. In newer units such as the University of Kentucky Biostat CIRCL, a single senior-level quantitative
+scientist is typically identified to lead each partnership. That individual engages with junior-level quantitative scientists as needed for each project.
+A similar model is followed at Colorado's Center for Innovative Design and Analysis (CIDA). The most successful Teams, in our experience,
+generally have a minimum of one PhD and one Master's level team member. At some institutions, the individuals participating in the collaborative
+partnership may be somewhat fluid—even within the predefined scope and effort allocation to the partnership—in order to accommodate for
+unexpected expertise needs that occur over time.
+2.3 | Document and define the administrative, financial terms, and scope of the partnership
+To ensure transparency and shared expectations, an internal governing document (e.g., memorandum of understanding or MOU) that summarizes
+mutual expectations between the Quantitative Science Unit and the Domain Science Unit should be drafted. An important element of the
+document is to affirm a commitment from the Domain Science Unit to guarantee funding for the effort of the Quantitative Science Team for a set
+period of time. The Quantitative Science Unit Leadership must also assess the extent to which the needs and expectations align with the available
+budget of the Domain Science Unit. It may be helpful for the Quantitative Science Unit Lead to work with the financial administrator of the
+Quantitative Science Unit to establish the minimums they expect. Some essential components of these agreements include administrative and
+financial contacts, the start and end date of the agreement (and renewal clause), effort level in full time equivalence of Quantitative Science
+Team members, any associated fees, fund codes associated with the funding sources, and expectations about when and how funding will be
+processed. Agreements should establish the level of quantitative scientist effort retained in perpetuity. It can be challenging for Domain Science
+Units to identify enough funding to sufficiently cover the appropriate level of effort from the Team, especially for pre-award work, so it is
+important to have institutional support and plan in advance. Financial commitments should incorporate the costs for training, professional
+development, management, computing resources, and other related expenses. Depending on funding sources, the financial component of the
+agreements should be flexible to accommodate expanding scopes of work or new funding streams, such as an influx of grant funding for
+research projects.
+The governing document may also define the structure and scope of work of the Quantitative Science Team. Appendix S4 provides example
+agreements that function as governing documents for Quantitative Science Units at four different institutions. While some Quantitative Science
+Units only outline the financial terms in an MOU (see Example 1 in Appendix S4), others may include details on the mutual expectations of each
+party (see Example 2 in Appendix S4). Some Quantitative Science Units may include additional details, including naming specific personnel that
+will be a part of the Quantitative Science Team (see Example 3 in Appendix S4). More detailed MOUs might further outline specific expectations
+regarding response times for intake requests, reporting milestones and frequency, and expectations regarding faculty recruitment (see Example
+4 in Appendix S4). The governing document should be periodically revisited and potentially amended to accommodate changes in the scope of
+work, amount of funding available, shifting Domain Science Unit goals, and bilateral expectations. These documents help ensure that each party
+enters the partnership with aligned expectations and mutual accountability. The documents provide a shared understanding, which allows the
+opportunity to discuss details and avoid misunderstanding. It is important to note that, in practice, there may be collaborations that occur outside
+of the context of an MOU. In such cases, Quantitative Science Unit Leads may decide on a case-by-case basis whether a formal document is
+needed.
+3 | IMPLEMENTATION AND MANAGEMENT OF A QUANTITATIVE SCIENCE TEAM
+Once a Quantitative Science Team is established, processes should be defined to ensure the success, longevity, and growth of the partnership.
+Ongoing management involves the development, maintenance, and refinement of processes that help the Team function effectively. This
+section is designed to provide tools and information to help a Quantitative Science Team (1) define collaboration goals and metrics of success;
+(2) establish processes for project intake, review, and approval; (3) set rules for prioritization of project requests; and (4) track projects and monitor
+effort. A checklist that summarizes these elements is provided in Section 2 of Table 2.
+8 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+3.1 | Define collaboration goals and metrics of success
+The Quantitative Science Team must work closely with the Domain Science Unit Liaison to assess and document short- and long-term goals and
+metrics that would demonstrate success. Appendix S5 offers a discussion guide to define goals with a Domain Science Unit Liaison such as “What
+outcomes/metrics would demonstrate that you are accomplishing your short-term goals?” Metrics for success may vary substantially depending
+on the priorities of the partnership. Rubio et al. (2011) establishes a framework for categorizing the types of metrics that may be used to evaluate
+the success of different types of collaborative activities, providing example metrics such as “grants submitted” and “research faculty supported.”
+Goals and metrics should be discussed annually in order to create the opportunity for both sides to evaluate success, update the goals, and review
+potential barriers and facilitators of success.
+3.2 | Define process for project intake and review
+A transparent process for investigators in the Domain Science Unit to request collaboration with the Quantitative Science Team should be
+developed. Establishing this “project intake process” enables the Quantitative Science Team and Domain Science Unit Liaison to review and
+assess scope of work in order to plan, navigate, and prioritize requests. A secondary goal is to facilitate tracking outcomes of the partnership to
+measure success and assess unmet needs.
+The information included in an intake form should be thoughtfully chosen. At a minimum, intake forms typically include contact information
+of the investigator, study description (title, brief background, research questions, scope of work, and goals), and deadlines. The level of detail
+collected during the intake process can vary, ranging from a short form that takes the investigators 2 min to complete to a more elaborate process
+that requires an aims page and a two-page proposal. The intake process should seek to strike a balance between collecting enough pertinent
+information without overwhelming investigators and potentially deterring them from submitting a request. An example of a brief intake form can
+be found in Appendix S6. A more detailed intake form designed for Duke investigators to find potential quantitative collaborators was recently
+published and could also be used as a reference for those building such a form (Pomann et al., 2023).
+3.3 | Prioritization of submitted project requests
+Once the intake process is established, it is important to develop a process for prioritizing and assigning the projects. The process relies on several
+factors, such as Domain Science Unit goals and priorities, the available bandwidth of the Quantitative Science Team, and project deadlines. Before
+accepting a project, the Team Lead will likely need to meet with the submitting investigator to understand the scientific goals, general scope of
+work, and deadlines. Revision of the project scope of work may be needed to align with available data or to meet a deadline. Reasons for declining
+a project request should be agreed upon with the Domain Science Unit Liaison and tracked within the intake system.
+T A B L E 3 Examples of how partnership structures can vary.
+Example 1 “smaller” Example 2 “larger”
+Faculty: 15% effort Staff: 40% effort 5% effort for administrative needs
+Faculty: 100% effort (across two faculties) Staff: 300% effort (across five staff) 10% effort for administrative needs
+Goals: provide support for small, unfunded faculty research projects with particular focus on helping junior investigators get published
+Goals: provide advice to faculty throughout research cycle, assist with grant preparation, and work on grant funded research projects. Departmental funds to allow unfunded time towards pre-award activities or unfunded projects of special importance
+Funding: departmental funds Funding: 20% departmental funds, 80% external funding from investigators through internal/external grants, and/or start-up funds
+Project types: • 6/year limited engagements for design advice • 3–4/year medium complexity analyses
+Project types: • Analytic effort for 2/year large R01 studies • 15/year limited engagements for design advice • 6/year collaborations on grant proposals • 6 trainee projects supported
+Note: Each example outlines the amount of effort, goals, funding resources, and project types for two different partnerships that might be developed. Note that some units may consider external funding to be the “return on investment” that allows the team to expand with the departmental resources being the primary support for the partnership. However, some units may instead consider external funding to be a primary motivator for developing the partnership.
+PLATT ET AL. 9 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+When accepted projects outweigh the available time of the Quantitative Science Team (i.e., demand for collaboration exceeds supply), we
+recommend that Domain Science Unit Liaison(s) determine the priority of the projects being proposed. For example, if the agreed-upon goal of
+the partnership is to increase external funding, the Domain Science Unit might prioritize collaboration on grant proposals over a conference
+abstract. Alternatively, if the primary goal is to provide mentorship for early-career investigators and increase publication of internally funded
+research projects, the Domain Science Unit may prioritize the conference abstract. Appendix S7 provides a detailed template, used by the Duke
+BERD Core, that can be adapted to document the process for how individual projects are requested, assigned, and prioritized in a Quantitative
+Science Team.
+3.4 | Ongoing project tracking, effort monitoring, and effort projection
+After projects are assigned, the Quantitative Science Team needs to track progress and effort spent on each project so they can evaluate
+productivity and ensure project goals are met. The process should be user-friendly, allowing for easy input and extraction of information, and
+should allow for reports to be easily generated for evaluation of a Quantitative Science Team's success. While it is ideal to integrate project intake,
+project tracking, effort monitoring, and metric evaluation, the authors have not found any commercial products that could serve all of these needs
+at once. An effective project tracking system will collect a comprehensive list of projects and investigators working with the Quantitative Science
+Team, including pertinent information about goals and progress. Quantitative Science Units at Duke, Stanford, Virginia Tech, the University of
+Kentucky, and Henry Ford Health use a Research Electronic Data Capture (REDCap) database that links the intake form with additional data entry
+forms on the back end, allowing collaboration staff to track milestones and project outputs (Harris et al., 2009, 2019). In each case, data are
+extracted from the database and summarized for reporting. A data dictionary for the Duke BERD Core's project tracking database is included in
+Appendix S8. Colorado's CIDA Unit developed its own Smartsheet-based system. CIDA's system includes team dashboards that are updated live.
+This allows for the Quantitative Science Unit and Domain Science Unit to continuously evaluate overall goals, individual project progress, demand
+for the Unit, and fiscal expenses.
+Monitoring approximate effort allocated to each assigned project, on a monthly basis, allows for transparency with the Domain Science Unit
+and can help facilitate trust building within the Partnership. It also helps the Quantitative Science Team to plan for new projects and communicate
+with financial personnel responsible for managing the funding. Academic institutions have varying ways of tracking effort on specific fund codes,
+but the goal in this context is specific to project management and planning. In Appendix S9, we provide an example of how effort can be tracked.
+Maintaining an up-to-date effort tracking process involves all members of the Team entering and updating their allocations.
+It is essential for the Team to update project and effort tracking systems. Emphasizing the utility of the collected data supports buy-in;
+however, it is also crucial that the devised system is simple, easy to understand, and straightforward to maintain. Ideally, both the project and
+effort tracking systems should allow for simultaneous editing, such as through a tool like MS OneNote, Smartsheet, a data entry form, or an online
+database. For best engagement, the process may need to be iteratively designed and refined over time. Establishing a pilot period during which a
+new tool is tested and evaluated may be helpful in building management processes that serve the needs of the partnership. Likewise, new systems
+implemented at the level of the Quantitative Science Unit can be piloted and refined with one Team first before being deployed more widely.
+Updating the system could be the responsibility of the Quantitative Science Team members or assistance could be provided by someone in a
+more administrative role.
+4 | EVALUATION OF COLLABORATIVE PARTNERSHIPS
+Measuring the value that the Quantitative Science Team contributes to the Domain Science Unit can be challenging and should not be assumed
+to be self-evident. Both the Quantitative Science Unit and the Domain Science Unit should annually evaluate the satisfaction of Team members
+and investigators as well as success in accomplishing short- and long-term goals from the previous year. If the collaboration is new, it is advisable
+to start evaluation meetings monthly and then to reduce the cadence as the process becomes more routine. Challenges related to data access or
+quality, efficiency, interpersonal communication with investigators, or project prioritization should be documented and communicated to address
+impediments to quality research. Methods of project tracking and evaluation should provide “early warning systems” to identify and resolve
+challenges. Team members may exercise judgement to determine when collaboration challenges should be escalated to Domain Science Unit
+Liaison(s) and/or the leadership of the Quantitative Science Unit.
+Tracking helps the Team assess the types of projects that occurred in the past year, align output with effort allocations, and anticipate future
+research and staffing trends. Evaluation of the data can help identify barriers to achieving goals, identify inefficiencies with processes, and
+recalibrate project prioritization guidelines. The following sections provide tools and guidance to help Teams evaluate (1) the satisfaction of Team
+members and collaborators in the Domain Science Unit and (2) how well the Quantitative Science Team was able to reach the predefined goals. A
+checklist that summarizes the essential elements of evaluation of Partnerships is provided in Section 3 of Table 2.
+10 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+4.1 | Evaluation of collaboration experience and satisfaction
+When evaluating a partnership, the goal should be to assess whether Team members are interacting productively and to identify areas for
+improvement that can contribute to more successful and efficient research collaborations. At Stanford, the Quantitative Sciences Unit captures
+project-specific progress and Team performance via regular automated surveys to both the Domain Science Unit investigators and the assigned
+Quantitative Science Team members. Both parties are asked feedback questions regarding the nature of the collaborative engagement at different
+stages of the project timeline (60 days from inception, 365 days, and so forth). Discordant responses between the Quantitative Science Team
+members and the Domain Science Unit investigators can prompt additional investigation into the disconnect to resolve issues with Team
+dynamics. Appendix S10 provides the surveys for the Team member and the Domain Science Unit collaborator after 60 and 365 days from pro
+ject initiation. The Domain Science Unit Liaison may seek additional qualitative feedback from individual investigators to help identify successes
+and challenges encountered by the investigators in accessing the resource or collaborating with the Team. The Duke BERD Core combines the
+collaboration evaluation processes with annual staff performance evaluation through the use of annual collaborator surveys. Appendix S11
+provides Duke's Annual Collaborator survey sent to each investigator that a staff member has collaborated with over the past year to evaluate
+the quality of the staff's communication, statistical, and programming skills. A similar annual mutual feedback process is used at Colorado's CIDA.
+Feedback received from investigators serves as a satisfaction indicator and helps guide professional development goals for the staff member for
+the following year.
+Teams should also evaluate how well Team members support one another and the effectiveness of the procedures they implement to
+increase efficiency. Teams can implement guided “bidirectional” feedback activities to encourage members to evaluate one another in a way that
+improves teamwork. Appendix S12 provides a question guide used by the Duke BERD Core for bidirectional feedback sessions, for example,
+asking each party, “What could I have done better in the last year to help you reach your goals?” This activity should be a forum for clear and
+honest communication, providing the opportunity for both positive and constructive feedback and a chance to strategize ways to enhance
+working relationships between Team members. At Virginia Tech, a newer Quantitative Science Unit, a unit-wide, team-based approach is used
+wherein the entire unit meets weekly to evaluate current ongoing projects. Based on workloads and deadlines, Teams can then be enhanced or
+reduced as necessary, with minimal disruption. Additionally, weekly project-based meetings take place with Quantitative Science Unit leadership
+to refine and update project lists. This helps ensure that all Team members are provided weekly priority lists, facilitates communication and
+transparency, and draws attention to imbalances in workload and looming deadlines.
+4.2 | Evaluation of goals and metrics
+It can be beneficial to evaluate progress and productivity on a monthly or quarterly basis. Leadership of the Quantitative Science Unit and the
+Domain Science Unit should meet together with the Quantitative Science Team at least annually to review and evaluate metrics of interest. An
+example quarterly report used by the Duke BERD Core to aid this discussion is provided in Appendix S13. This report includes commonly used
+metrics but can be further tailored to the specific goals of a collaboration. For example, if increasing external funding is a goal, the report might list
+the number of grants submitted and awarded.
+The Domain Science Unit, in partnership with the Team, should assess whether the reported metrics align well with the partnership goals. A
+template for discussing goals and outcomes, along with accelerators and barriers, is included in Appendix S14. A goal related to the funding model
+should be discussed annually to determine whether funding allocations should be revisited. For example, one funding-related goal could be “Use
+the 20% departmental funding to collaborate with investigators to submit at least 6 proposals for external funding that will each include at least
+10% effort for a quantitative scientist.”
+5 | DISCUSSION
+This paper outlines specific strategies and targeted recommendations for developing, managing, and evaluating Quantitative Science Teams in
+academic health centres. The guidance provided here is intended for Quantitative Science Units to establish long-term partnerships with Domain
+Science Units, as opposed to shorter term fee-for-service arrangements. We have found that the methods presented in this paper help to mitigate
+challenges that we have experienced such as misunderstandings on goals, expectations, and deadlines. In addition to supporting long-term
+partnerships, many Quantitative Science Units provide office hours, pursue educational initiatives, engage in short-term collaborations, and
+present seminars, among other activities. It is important to emphasize that there is no “one-size-fits-all” approach that will work well for every unit
+or even every Team within a unit. We hope these tools and guidance from our diverse units will provide options for other units to adopt and
+adapt without substantial initial effort investment.
+PLATT ET AL. 11 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+It is crucial to emphasize the importance of dedicating time to developing processes that overcome common barriers such as a lack of shared
+vision, communication challenges, conflicting goals, unclear roles, and lack of trust between collaborating partners. The relationship between the
+Quantitative Science Unit and the Domain Science Unit must be bidirectional, involving effective communication and mutual support. Teams must
+also develop processes for early issue identification and communication. While problems can typically be resolved collaboratively with Domain
+Science Unit Liaison(s), access to supportive leadership within the Quantitative Science Unit, Domain Science Unit, and of the Academic
+Institution is essential.
+Each of the Quantitative Science Units discussed here started with limited staff and a small number of partnerships. Ultimately, all units grew
+to a size where having tools and processes to collect administrative data became a critical driver of success. For example, over 5 years, the Center
+for Innovative Design and Analysis at the University of Colorado grew from six collaborative partnerships to 27, with continued growth. Some of
+their scientific successes included supporting COVID-19 research that formed real-world policy around monoclonal antibody usage (Aggarwal
+et al., 2022; Douin et al., 2022). They have also been successful in obtaining R01 funding from NIH with coprimary investigators in both the
+Quantitative Science and Domain Science Units.
+To grow in a sustainable way, it is crucial that Quantitative Science Units budget for the administrative time and effort required of all
+Team members as they implement new processes and tracking. Long-term partnerships represent a dedicated commitment and investment in
+research infrastructure and are critical for enabling the growth of the Quantitative Sciences Units necessary to accommodate academic health
+centres' data-related needs for conducting translational research. For Quantitative Science Units that historically supported short-term
+engagements but are looking to shift towards long-term partnerships, implementing an intake form for project tracking may help support
+developing collaborative partnerships. This task will require administrative time to complete. Charging partnership fees can help the
+Quantitative Science Unit pay for administrative costs and should be considered in the Partnership budgeting stage. Academic health centres
+may consider providing institutional funding for this instead of charging fees to each partnering Domain Science Unit. For many of the units
+described in this manuscript, administrative effort is covered by a mixture of funding that includes some portion of institutional support.
+Having Teams work closely with the Quantitative Science Unit and its fiscal leaders ensures the most critical components are properly
+funded and structured.
+Protocols and tools presented here evolved over the course of several years and numerous collaborations. In that time, our Quantitative
+Science Units and individual teams employed some strategies that proved to be inefficient or otherwise flawed. For example, many Quantitative
+Science Teams in Duke BERD originally used simple intake forms and separately tracked project progress in MS Excel spreadsheets for each
+partnership. This process proved inefficient due to the amount of administrative time needed to maintain tracking and extract metrics for
+reporting. This led to the creation of intake forms that link to project tracking information using REDCap software. The intake and tracking tool
+subsequently went through significant refinement over the course of 2 years, which involved collecting feedback from users, to ensure that that
+the tracker was capturing the most meaningful and appropriate metrics. Allowing time for development and evaluation led to a more efficient
+process for prioritizing projects and generating automated reports to evaluate partnerships. Finding ways that our tools could serve multiple
+purposes has been very beneficial for evaluating productivity and understanding overall needs. At the same time, another key lesson learned has
+been to avoid overharmonization. As more partnerships are taken on, we have learned that trying to make tools overly consistent across all
+Quantitative Science Teams was too limiting for some Teams. Providing tools and templates for each team but allowing for adaptation of
+processes to the specific goals of each Partnership has been critical in better meeting the needs of all groups. Though we have provided tools that
+work well for our Quantitative Science Units, there is a continued need to address new challenges as they arise. We recommend that similar Units
+(and Teams) that make use of these tools first pilot and evaluate them and then refine and adapt them to the goals of their partnerships to
+maximize their usefulness.
+AUTHOR CONTRIBUTIONS
+Alyssa Platt: Conceptualization; manuscript outline; writing and editing; development and collation of resources; co-led group meetings.
+Tracy Truong: Provided content and critical input on resources and structure; manuscript editing. Mary Boulos: Provided content and critical
+input on resources and structure; manuscript editing. Nichole E. Carlson: Provided content and critical input on resources and structure;
+manuscript editing. Manisha Desai: Provided content and critical input on resources and structure; manuscript editing. Monica M. Elam:
+Provided content and critical input on resources and structure; manuscript editing. Emily Slade: Provided content and critical input on
+resources and structure; manuscript editing. Alexandra L. Hanlon: Provided content and critical input on resources and structure; manuscript
+editing. Jillian H. Hurst: Provided content and critical input on resources and structure; manuscript editing. Maren K. Olsen: Provided content
+and critical input on resources and structure; manuscript editing. Laila M. Poisson: Provided content and critical input on resources and
+structure; manuscript editing. Lacey Rende: Provided input on content and structure; manuscript editing; collated resources; coordinated
+group meetings. Gina-Maria Pomann: Initial conceptualization; project design; oversight; workgroup development; manuscript outline; writing
+and editing.
+12 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+ACKNOWLEDGEMENTS
+Research reported in this publication was supported by the National Center for Advancing Translational Sciences of the National Institutes of
+Health under award numbers UL1TR002553 (A. P., G-M. P., L. R., and T. T.), UL1TR003015 (A. L. H.), UL1TR003142 (M. B. and M. D.) and
+UM1TR004399 (N. E. C.). J. H. H. was supported by a National Institutes of Health Career Development Award (K01-AI173398). The content is
+solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+CONFLICT OF INTEREST STATEMENT
+The authors have no conflicts of interest to declare.
+DATA AVAILABILITY STATEMENT
+The authors confirm that the data supporting the findings of this study are available within the article and upon request.
+ORCID
+Alyssa Platt https://orcid.org/0000-0001-6396-0170
+Tracy Truong https://orcid.org/0000-0001-5923-4037
+Nichole E. Carlson https://orcid.org/0000-0003-0679-6663
+Manisha Desai https://orcid.org/0000-0002-6949-2651
+Emily Slade https://orcid.org/0000-0002-1654-3822
+Alexandra L. Hanlon https://orcid.org/0000-0002-9612-2197
+Jillian H. Hurst https://orcid.org/0000-0001-5079-9920
+Laila M. Poisson https://orcid.org/0000-0002-3409-6536
+Lacey Rende https://orcid.org/0009-0005-8695-1839
+Gina-Maria Pomann https://orcid.org/0000-0002-6324-3953
+REFERENCES
+Aggarwal, N. R., Beaty, L. E., Bennett, T. D., Carlson, N. E., Davis, C. B., Kwan, B. M., Mayer, D. A., Ong, T. C., Russell, S., Steele, J., Wogu, A. F., Wynia, M. K., Zane, R. D., & Ginde, A. A. (2022). Real-world evidence of the neutralizing monoclonal antibody Sotrovimab for preventing hospitalization and mortality in COVID-19 outpatients. The Journal of Infectious Diseases, 226(12), 2129–2136. https://doi.org/10.1093/infdis/jiac206 Desai, M., Boulos, M., Pomann, G. M., Steinberg, G. K., Longo, F. M., Leonard, M., Montine, T., Blomkalns, A. L., & Harrington, R. A. (2022). Establishing a data science unit in an academic medical center: An illustrative model. Academic Medicine, 97(1), 69–75. https://doi.org/10.1097/ACM.0000000000004079 Douin, D. J., Wogu, A. F., Beaty, L. E., Carlson, N. E., Bennett, T. D., Aggarwal, N. R., Mayer, D. A., Ong, T. C., Russell, S., Steele, J., Peers, J. L., Molina, K. C., Wynia, M. K., & Ginde, A. A. (2022). Association between treatment failure and hospitalization after receipt of neutralizing monoclonal antibody treatment for COVID-19 outpatients. BMC Infectious Diseases, 22(1), 818. https://doi.org/10.1186/s12879-022-07819-z Hanlon, A. L., Lozano, A. J., Prakash, S., Bezar, E. B., Ambrosius, W. T., Brock, G., Desai, M., Pollock, B. H., Sammel, M. D., Spratt, H., Welty, L. J., & Pomann, G. (2022). A comprehensive survey of collaborative biostatistics units in academic health centers. Stat (International Statistical Institute), 11(1), e521. https://doi.org/10.1002/sta4.521 Harris, P. A., Taylor, R., Minor, B. L., Elliott, V., Fernandez, M., O'Neal, L., McLeod, L., Delacqua, G., Delacqua, F., Kirby, J., & Duda, S. N. (2019). The REDCap consortium: Building an international community of software platform partners. Journal of Biomedical Informatics, 95, 103208. https://doi.org/10. 1016/j.jbi.2019.103208 Harris, P. A., Taylor, R., Thielke, R., Payne, J., Gonzalez, N., & Conde, J. G. (2009). Research electronic data capture (REDCap): A metadata-driven methodology and workflow process for providing translational research informatics support. Journal of Biomedical Informatics, 42(2), 377–381. https://doi.org/ 10.1016/j.jbi.2008.08.010 Institute of Medicine. (2004). Academic health centers: Leading change in the 21st century. The National Academies Press. https://doi.org/10.17226/10734 Ittenbach, R. F., & DeAngelis, F. W. (2012). Percent effort vs. fee-for-service: A comparison of models for statistical collaboration. Research Management Review, 19(1). https://eric.ed.gov/?id=EJ1002154 Lesser, M. L., & Parker, R. A. (1995). The biostatistician in medical research: Allocating time and effort. Statistics in Medicine, 14(15), 1683–1692. https://doi.org/10.1002/sim.4780141508 Peterson, R. A., Hochheimer, C. J., Grunwald, G. K., Johnson, R. L., Wood, C., & Sammel, M. D. (2022). Reaping what you SOW: Guidelines and strategies for writing scopes of work for statistical consulting. Stat, 11(1), e496. https://doi.org/10.1002/sta4.496 Pomann, G.-M., Truong, T., Boulos, M., Boulware, L. E., Brouwer, R. N., Curtis, L. H., Kapphahn, K., Khalatbari, S., McKeel, J., Messinger, S., O'Hara, R., Pencina, M. J., Samsa, G. P., Spino, C., Yang, L. Z., & Desai, M. (2023). Needles in a haystack: Finding qualitative and quantitative collaborators in academic medical centers. Academic Medicine, 98, 889–895. https://doi.org/10.1097/ACM.0000000000005212 Rubio, D. M. G., del Junco, D. J., Bhore, R., Lindsell, C. J., Oster, R. A., Wittkowski, K. M., Welty, L. J., Li, Y.-J., DeMets, D., & the Biostatistics, Epidemiology, and Research Design (BERD) Key Function Committee of the Clinical and Translational Science Awards (CTSA) Consortium. (2011). Evaluation metrics for biostatistical and epidemiological collaborations. Statistics in Medicine, 30(23), 2767–2777. https://doi.org/10.1002/sim.4184 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. Jr., Lindsell, C. J., Macaluso, M., Mazumdar, M., Nietert, P. J., Oster, R. A., Pollock, B. H., Roberson, P. K., Ware, J. H., & Biostatistics, Epidemiology, and Research Design Key Function Committee of the Clinical and Translational Science Award Consortium. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine, 88(4), 454–460. https://doi.org/10.1097/ACM.0b013e31828578ed
+PLATT ET AL. 13 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+AUTHOR BIOGRAPHIES
+Alyssa Platt is a biostatistician for the Biostatistics, Epidemiology and Research Design (BERD) Methods Core at Duke University, Durham,
+NC. She collaborates with investigators in the Duke Global Health Institute, the Duke Aging Center, and serves as a statistical lead for a BERD
+collaboration with the Hospital Medicine Programme in the Division of General Internal Medicine.
+Tracy Truong is a senior biostatistician and assistant director of the Biostatistics, Epidemiology and Research Design (BERD) Methods Core at
+Duke University. She oversees the BERD Analytic Resources Navigation process, which connects investigators with existing quantitative
+resources or methodologists with specific quantitative expertise. Furthermore, she leads the development of guidelines, best practices and
+tools for BERD staff to ensure effective and efficient collaboration.
+Mary Boulos is the executive director of the Quantitative Sciences Unit within the Department of Medicine at Stanford University, a data
+science unit of over 40 data scientist faculty, staff and trainees created primarily for the purposes of practicing data science/team science and
+providing the statistical foundation for interdisciplinary and collaborative translational research (https://med.stanford.edu/qsu.html). She is
+also the operations lead for the CTSA funded Biostatistics, Epidemiology and Research Design (BERD) Program at Stanford University.
+Nichole E. Carlson is a professor of Biostatistics and Informatics and the director of the Center for Innovative Design and Analysis (CIDA) and
+the Biostatistics, Epidemiology and Research Design (BERD) Program in the Colorado Clinical and Translational Sciences Institute at the
+University of Colorado Anschutz, Aurora, CO. CIDA and BERD are teams of over 50 students, masters and doctoral trained biostatisticians
+and data scientists in the campus-wide biostatistics and data science resource and research centre. We collaborate and engage in team
+science with every school and nearly every department on the campus and conduct innovative methodology work in clinical trials, Bayesian
+methods, imaging, psychosocial analyses and multi-‘omics, among others. CIDA website: https://cida.cuanschutz.edu
+Manisha Desai is the Kim and Ping Li professor of Medicine, Biomedical Data Science and Epidemiology and Population Health at Stanford
+University. She directs the Biostatistics, Epidemiology and Research Design (BERD) Program at Stanford where she leads translational science
+initiatives. She also serves as the founding director of the Quantitative Sciences Unit, a team of over 40 faculty, staff and trainees who engage
+with clinical and translational scientists on translational research. QSU website: https://med.stanford.edu/qsu.html
+Monica M. Elam, CPA, is the chief administrative officer of Biostatistics and Bioinformatics at Duke University, Durham, NC, with over 25
+years of experience specializing in business development for quantitative collaboration units. Monica manages the Department of Biostatistics
+and Bioinformatics, which comprises over 70 faculty and 80 staff, and the Biostatistics, Epidemiology and Research Design (BERD) Methods
+Core. Monica has developed numerous processes, guidelines and templates to support the development of quantitative researchers.
+Emily Slade is an assistant professor of Biostatistics at the University of Kentucky and the founder and director of the Biostatistics Consulting
+and Interdisciplinary Research Collaboration Lab (Biostat CIRCL). Her research focuses on effective training and integration of biostatisticians
+on collaborative research teams.
+Alexandra L. Hanlon is a professor of Practice and the director of the Center for Biostatistics and Health Data Science in Virginia Tech's
+Department of Statistics. She is also the co-director of the Biostatistics, Epidemiology and Research Design (BERD) Research Methods Core
+for the integrated Translational Health Research Institute of Virginia (iTHRIV). iTHRIV is a cross-Commonwealth partnership among Carilion
+Clinic, the University of Virginia, Virginia Tech and Inova Health System that leverages the latest advances in data science to accelerate inno
+vation in health-related research and facilitate team science.
+Jillian H. Hurst is an assistant professor of Pediatrics and the director of the Duke Children's Health & Discovery Initiative (CHDI) at Duke
+University School of Medicine, in Durham, NC. As part of her work with the CHDI, Jillian serves as the faculty director of the Pediatric Statis
+tics and Data Sciences Support Core. This Core is a partnership between the Biostatistics, Epidemiology and Research Design (BERD)
+Methods Core and the department to facilitate cutting-edge scientific studies by providing expertise in biostatistics and informatics and to
+enhance the education and mentoring of junior faculty and trainees with research interests in children's health. The goals of the core are to
+provide comprehensive statistical and data science support for Department of Pediatrics investigators; establish relationships with existing
+Duke resources and cores to help guide investigators to appropriate resources; and create an environment to support investigator develop
+ment in quantitative research approaches. QSU website: https://pediatrics.duke.edu/research/duke-researchers/institutes-centers-and
+programs/pediatric-statistics-and-data-sciences
+Maren K. Olsen is a professor in the Department of Biostatistics and Bioinformatics at Duke University Medical Center and the director of
+Biostatistics Collaborations for the Department of Medicine. Her areas of expertise include methods for complex study designs for
+behavioural interventions, longitudinal data, pragmatic clinical trials and health-services research.
+14 of 15 PLATT ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Laila M. Poisson is a senior scientist and the vice chair of Biostatistics at Henry Ford Health, Detroit, MI. The Division of Biostatistics is a team
+of over 20 staff and faculty biostatisticians in the Department of Public Health Sciences who collaborate with basic researchers, clinical
+and/or translational researchers and epidemiologists. QSU website: https://www.henryford.com/hcp/research/public-population-research/
+public-health-sciences/centers/division-of-biostatistics
+Lacey Rende is the project planner for the Biostatistics, Epidemiology and Research Design (BERD) Methods Core at Duke University, a data
+science unit of over 40 students, staff and faculty biostatisticians and data scientists who collaborate on biomedical research projects with
+clinical and translational researchers across the institution.
+Gina-Maria Pomann is an associate professor of Biostatistics and Bioinformatics and the director of the Biostatistics, Epidemiology and
+Research Design (BERD) Methods Core at Duke University, Durham, NC. The BERD Methods Core is a team of over 40 students, staff and
+faculty biostatisticians and data scientists in the Department of Biostatistics and Bioinformatics who collaborate with clinical and/or transla
+tional researchers. QSU website: https://biostat.duke.edu/research/biostatistics-epidemiology-and-research-design-berd-methods-core
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this article.
+How to cite this article: Platt, A., Truong, T., Boulos, M., Carlson, N. E., Desai, M., Elam, M. M., Slade, E., Hanlon, A. L., Hurst, J. H., Olsen,
+M. K., Poisson, L. M., Rende, L., & Pomann, G.-M. (2024). A guide to successful management of collaborative partnerships in quantitative
+research: An illustration of the science of team science. Stat, 13(2), e674. https://doi.org/10.1002/sta4.674
+PLATT ET AL. 15 of 15
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.674 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

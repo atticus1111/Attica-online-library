@@ -1,0 +1,322 @@
+SPECIAL ISSUE ARTICLE
+Working well with statisticians: Perceptions of practicing
+statisticians on their most successful collaborations
+Ryan A. Peterson 1 | Emily Slade 2 | Gina-Maria Pomann 3 |
+Walter T. Ambrosius 4
+1Department of Biostatistics & Informatics, University of Colorado-Anschutz Medical Campus, Aurora, Colorado, USA
+2Department of Biostatistics, University of Kentucky, Lexington, Kentucky, USA
+3Department of Biostatistics and Bioinformatics, School of Medicine, Duke University, Durham, North Carolina, USA
+4Department of Biostatistics and Data Science, School of Medicine, Wake Forest University, Winston-Salem, North Carolina, USA
+Correspondence
+Ryan A. Peterson, Department of Biostatistics & Informatics, University of Colorado-Anschutz Medical Campus, Aurora, CO, USA. Email: ryan.a.peterson@cuanschutz.edu
+Funding information
+National Institutes of Health, Grant/Award Numbers: UL1TR002535, UL1TR001998, UL1TR002553, UL1TR001420
+Statistical collaboration requires statisticians to work and communicate effectively
+with nonstatisticians, which can be challenging for many reasons. To identify com
+mon themes and lessons for working smoothly with nonstatistician collaborators,
+two focus groups of primarily academic collaborative statisticians were held. We
+identified qualities of collaborations that tend to yield fruitful relationships and those
+that tend to yield nothing (or worse, with one or both parties being dissatisfied). The
+initial goal was to share helpful knowledge and individual experiences that can facili
+tate more successful collaborative relationships for statisticians who work within aca
+demic statistical collaboration units. These findings were used to design a follow-up
+survey to collect perspectives from a wider set of practicing statisticians on important
+qualities to consider when assessing potential collaborations. In this survey of prac
+ticing statisticians, we found widespread agreement on many good and bad qualities
+to promote and discourage, respectively. Interestingly, some negative and positive
+collaboration qualities were less agreed upon, suggesting that in such cases, a mix
+and-match approach of domain experts to statisticians could alleviate friction and
+statistician burnout in team science settings. The perceived importance of some col
+laboration characteristics differed between faculty and staff, while others depended
+on experience.
+KEYWORDS
+statistical collaboration, statistical communication, statistical consulting, team science
+1 | INTRODUCTION
+Statisticians who work in academic collaboration units contribute to a myriad of types of end products. These collaborative statisticians com
+monly work on teams with nonstatisticians to develop research papers, conference abstracts, grant proposals for future funding, quality con
+trol projects, product development and statistical methods research. Unfortunately, it is not uncommon for collaborative statisticians' work to
+end up completely unpublished or unrecognized. Worse, some statisticians can find themselves in a Sisyphean cycle of producing statistical
+analyses that never yield anything interesting enough for their teams and therefore never end. The trouble with this type of output is multi
+fold; for one, it quickly produces burnout in the statistician (Peterson et al., 2022). Second, it is (of course) wasteful of the statistician's time
+and effort; the funding of that time would be much better spent on more productive projects. Third, unending cycles of analyses suffer
+Received: 8 March 2024 Revised: 29 March 2024 Accepted: 6 May 2024
+DOI: 10.1002/sta4.694
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes. © 2024 The Author(s). Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e694. wileyonlinelibrary.com/journal/sta4 1 of 11 https://doi.org/10.1002/sta4.694
+
+
+critically from the issue of multiplicity; a policy to “torture the data until they talk” is a sure-fire way to produce false discoveries (and statisti
+cal trauma) (Head et al., 2015). How can study teams and collaborative statisticians avoid this cycle of seemingly endless analyses? More gen
+erally, what strategies can academic collaboration units that house these statisticians do to optimize both productivity and joie de vivre in
+interdisciplinary relationships?
+Several authors have explored what specific collaboration skills in statisticians are crucial for ensuring that partnerships are effective
+(e.g., Pomann et al., 2020; Slade et al., 2023), and many have also defined overarching competencies for effective biomedical team science
+(e.g., Brasier et al., 2023). In team science settings, statisticians must communicate effectively with nonstatisticians who are experts in their own
+domain. We henceforth refer to the latter group as domain experts, as recommended in Vance and Smith (2019). Effective statistical communica
+tion requires statisticians and domain experts alike to overcome the curse of knowledge (Shatz, 2023) to create shared understanding (Vance
+et al., 2022). For these reasons, training in effective communication strategies (e.g., Derr, 1999; Sharp et al., 2021) is often, though not always, a
+formal part of statistical education.
+This paper provides guidance for statisticians within academic collaboration units to identify and encourage positive qualities in non
+statistician collaborators and to respectfully discourage negative ones. This paper is organized as follows. First, we describe how information was
+collected from a large group of collaborative statisticians and used to identify positive and negative qualities and actions of nonstatistician collabo
+rators. Second, we describe how and why we translated these qualities into a survey that we then disseminated to a wider group of practicing
+statisticians. Third, we present the extent to which these identified qualities are agreed upon by a larger subset of collaborative statisticians. We
+conclude with a discussion of the implications and future work.
+2 | METHODS
+2.1 | Focus groups
+At the 2022 annual meeting for the Association of Clinical and Translational Statisticians (ACTStat), two groups of academic collaborative statisti
+cians discussed the positive and negative qualities of their collaborations. These focus groups consisted of approximately one to two dozens of
+statisticians with highly varied levels of experience. ACTStat is a group of collaborative statisticians (primarily in academia) whose collective mis
+sion is to positively impact the health of individuals and the public by collaborating in the design, implementation and analysis of clinical and trans
+lational studies. Our initial goal for these working groups was to leverage shared knowledge and individual experiences to facilitate more
+successful collaborative and consulting relationships.
+During the focus group meeting, participants first filled out an individual worksheet in which they were asked to reflect upon the qualities
+of their three favourite all-time collaborators, and their three most difficult collaborators, without providing names or other identifying details.
+After filling these out, Dr. Peterson and Dr. Ambrosius moderated and led the groups in completing a group worksheet listing participants'
+reported positive, negative and mixed qualities. Specifically, we pushed participants to categorize qualities as “universally good,” “universally
+frustrating” and “sometimes good, sometimes frustrating.” For each characteristic listed, we also asked whether participants had encountered
+early signals that portended success or frustration later in the relationship. We identified 20 positive qualities that tend to yield fruitful rela
+tionships with domain experts and 16 negative ones that tend to yield nothing (or worse). We also identified 15 “early signals” that might
+help determine early on whether a collaboration would be positive or not. These qualities and early signals were listed in the survey, which is
+described next.
+2.2 | Survey formation
+Following these conversations, we recognized the value of a diverse set of perspectives and decided to take the additional step of developing
+a survey which targeted collaborative statisticians, allowing them to weigh in on the extent to which they agreed with the list of identified
+positive and negative qualities in their interdisciplinary research teams. The characteristics and early signals identified by the working groups
+were used to design the content of the survey. After consenting to the survey and providing very limited demographic data, respondents
+scored their perceived importance of 20 positive qualities of domain experts (i.e., “nonstatistician” collaborators) by marking each one as one
+of the following: “not needed,” “useful to have, but not critical,” “very important to have” and “absolutely must have.” The 16 negative quali
+ties were scored similarly with “not problematic,” “consider avoiding domain expert,” “avoid domain expert if possible” and “avoid domain
+expert at all costs.” The 15 early signals were scored as “definitely a bad sign,” “possibly a bad sign,” “no big deal, indeterminate,” “possibly a
+good sign” and “definitely a good sign.” Respondents were also asked to provide any additional good, frustrating or early signals that were
+not listed as text responses.
+2 of 11 PETERSON ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+2.3 | Survey dissemination
+The survey was designed and shared using Microsoft Forms and was approved by the Colorado Multiple Institution Review Board
+(22-1870). It was distributed through several channels including (1) discussion boards for American Statistical Association sections, (2) the
+Biostatistics, Epidemiology and Research Design Special Interest Group, (3) all ACTStat registrants and (4) and emails to leaders of collabora
+tive biostatistics groups. The only inclusion criterion was that respondents had to self-identify as a consulting or collaborating statistician. In
+a message advertising the survey, we asked all readers to distribute the survey to all consulting and collaborative statisticians who might
+have the experience and interest to participate. The survey was opened in May 2023, and responses were collected for this analysis through
+1 July 2023.
+We did not offer any incentive for participation other than to learn about the topics discussed in the focus groups; therefore, we considered
+respondents volunteers and tried to minimize the survey length to respect their time and minimize dropout. We also considered the material to
+be potentially sensitive. Therefore, we wanted to respect the confidentiality of participants while encouraging them to be open and transparent
+about their own opinions and experiences, without fear of any grievances possibly being made public. To these ends, we did not collect demo
+graphic data except for those relevant to our research questions. An archived version of our survey is available online (https://forms.office.com/r/
+vZQ4uhkywn).
+2.4 | Statistical analysis
+We present descriptive statistics of Likert data for perceived importance of various characteristics, as well as consensus (spread) in perceived
+importance among respondents. We also compute the mean Likert score (average importance) and the standard deviation (SD; consensus) to rank
+qualities in terms of their importance and consensus (means and SDs and their respective confidence intervals are presented in Supporting
+Information S1). We highlight notable qualities in our main manuscript as the top five most important traits, bottom five (least important) traits,
+top five most consensus traits and bottom five least consensus) traits.
+We used exploratory ordinal logistic regression models to quantify how scores on each quality vary by respondents' experience and position.
+Models used all available data when applicable and included covariates for experience level (measured in decades) and position type (academic
+faculty [reference], academic nonfaculty and non-academic). These models assume proportional odds for higher values of the outcome in the
+covariates. For importance scores, odds ratios for work setting can be interpreted as the factor change in reporting higher perceived importance
+of the characteristic relative to academic faculty and controlling for experience level. For simplicity, we interpret these heuristically as differences
+in the general valuation of each characteristic across groups. Responses for early signals were also modelled with proportional-odds ordinal
+models, and odds ratios are interpreted as the relative perceived positivity of each early signal. No adjustment was performed for multiple com
+parisons; all comparisons investigated are included in the main results or supplemental and should be considered generative rather than confirma
+tory of hypotheses. We chose to not include an experience by position interaction to improve the interpretability of our models; we had no prior
+hypothesis that experience and position would interact. R 4.3.2 (R Core Team, 2023) was used for analyses, and the rms package version 6.7.1
+(Harrell, 2001) was used for ordinal regression models.
+3 | RESULTS
+The survey was completed by 83 consulting or collaborative statisticians during the responding period. Available descriptive statistics of the sam
+ple are described in Table 1. The sample consisted of 88% academic practicing statisticians and 12% in industry, private consulting and other set
+tings. Respondents were a mix of staff (28%) and faculty (58%) respondents with a wide range of experience in statistical collaboration or
+consultation (mean: 18 years, ±SD: 11 years).
+Summaries of the survey responses for the most and least important positive and negative qualities are shown in Figures 1 and 2; full tabula
+tions for all question responses are included in Table S1. The topmost important positive traits were that the domain expert is trustworthy, has
+respect for statisticians and is capable of listening. These three traits also have high consensus, indicating they could be deal-breakers for most
+statisticians if they encountered a domain expert who did not possess these qualities. The least important positive traits were “domain expert is
+highly experienced in research,” “domain expert is a good leader” and “domain expert supports your career goals,” with the latter two qualities
+also among those qualities with the lowest consensus.
+By far, the most important negative characteristic of domain experts was the suspicion of possible research misconduct. Aside from this, most
+negative qualities had low consensus among statisticians. The least important negative characteristics were “domain expert wields enough stats
+knowledge to be dangerous” and “domain expert is not productive.”
+PETERSON ET AL. 3 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+The most positively perceived early signals (Figure 3) were “the domain expert asks you what you think about a particular issue in the analysis”
+and “your gut tells you the domain expert will be good to work with,” with 93% and 80%, respectively, reporting them either possibly or definitely
+a good sign. The most negatively perceived early signal was “the domain expert does not include your name in an abstract despite you requesting
+it,” with 81% of respondents reporting this as definitely a bad sign. Other highly negatively perceived early signals included “the domain expert
+dismisses the opinions of others on the team” and “the domain expert reaches out for support shortly before a grant deadline, and the grant is
+not well-written,” though for these two qualities, only about half of respondents reported this constituted a “definite” bad sign and approximately
+two fifths reported it was only “possibly” a bad sign.
+Associations with experience and position from ordinal regression models are shown in Figures 4 and 5, in which we highlight models where
+a statistically significant ( p < .05) association was found. All associations (including qualities highlighted in Figures 1–3) are presented in
+Tables S4–S6. We found that career support matters more to academic faculty than other groups, with those in academic staff or non-academic
+positions considering the positive quality of “domain expert supports your career goals” more important, adjusting for experience. When framed
+as the negative quality of “domain expert does not care about or support your career,” academic faculty reported similarly higher importance than
+both other groups. A similar pattern emerged with big-picture thinking, which mattered significantly more to academic faculty than to other
+groups.
+Academic faculty generally valued the domain expert respecting the statistician's expertise and being respectful of everyone highest,
+though only the comparison between academic faculty and non-academics was statistically significant. This pattern was consistent when
+framed either positively or negatively. Academic faculty valued financial generosity significantly more than academic staff, though approxi
+mately the same as non-academic respondents. Academic faculty valued domain expert decisiveness lower than both other groups, though
+only the comparison between academic faculty and staff was statistically significant. Non-academic respondents generally attributed lower
+importance to the negative quality that the “domain expert becomes unresponsive after analysis is complete, but before following through
+with publication.”
+When a domain expert lacks the ability to clearly articulate their research, we found that this quality is perceived more negatively by statisti
+cians who have more experience and those who are academic staff. Respondents with more experience also perceived the early signal “the
+domain expert reaches out for support shortly before a grant deadline, and the grant is not well-written” more negatively. Academic staff per
+ceived the early signal “your gut tells you that the domain expert will be good to work with” more positively than other groups. Finally, the early
+signal that “the domain expert is demanding but seems productive” was more positively perceived by nonfaculty, significantly so for non
+academic respondents.
+T A B L E 1 Descriptive statistics of sample.
+Characteristic N = 83
+Completion time (min) 8.1 (6.4, 13.2)
+Primary work setting (reported)
+Academic 73 (88%)
+Government 1 (1.2%)
+Industry 5 (6.0%)
+Non-profit 1 (1.2%)
+Private consulting 3 (3.6%)
+Current position (reported for academic only)
+Faculty 48 (66%)
+Post-doc 1 (1.4%)
+Staff 23 (32%)
+Student/research assistant 1 (1.4%)
+Not provided 10
+Analysis group
+Faculty 48 (58%)
+Academic nonfaculty 25 (30%)
+Non-academic 10 (12%)
+Experience (years) 15 (10, 26)
+Note: Data presented are median (interquartile range) or N (%).
+4 of 11 PETERSON ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+F I G U R E 1 Descriptive results (proportions of responses) for notable positive qualities. DE, domain expert.
+PETERSON ET AL. 5 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+F I G U R E 2 Descriptive results (proportions of responses) for notable negative qualities. DE, domain expert.
+6 of 11 PETERSON ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+F I G U R E 3 Descriptive results (proportions of responses) for notable early signals. DE, domain expert.
+PETERSON ET AL. 7 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+F I G U R E 4 Noteworthy associations with importance of positive (a) and negative (b) qualities. The reference group for the first two estimates in each panel is academic faculty. The third estimate in each panel is the effect of experience measured in decades. A blue line indicates significance at the 5% significance level. DE, domain expert.
+8 of 11 PETERSON ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+4 | DISCUSSION
+In this study, taking the perspective of collaborative statisticians, we identified the most important positive and negative qualities of collaborations
+with nonstatisticians. By surveying a group of practicing statisticians, we were also able to gauge the consensus and generalizability of these quali
+ties and to determine how they relate to experience level and work setting.
+The near-universal consensus on the severity of suspicion of research misconduct is particularly noteworthy. While the prevalence of
+research misconduct is difficult to estimate, as there is often considerable uncertainty in terms of whether a practice is misconduct or merely
+“questionable,” there is no question that misconduct is a significant problem in the scientific community. One recent meta-analysis estimates that
+2.9% of researchers have committed data fabrication, falsification or plagiarism and that 15.5% of researchers have witnessed others do so (Xie
+et al., 2021). Ranstam et al. (2000) found in an international survey that 51% of biostatisticians knew of at least one instance of misconduct in
+their proximity and 31% reported having been directly involved in a project in which misconduct took place or was about to take place. More
+recently, in an audience of 90 statisticians at the American Statistical Association's Conference on Statistical Practice in 2024, 75% raised their
+hands to indicate they had more probably than not witnessed academic research misconduct.1 As experts in quantitative methods embedded
+broadly in collaborative research, statisticians are extremely well-positioned to detect and address research integrity issues early. We believe
+implementing integrity checks to be an ethical responsibility for statisticians, but the current state of the art for such checks is in flux by necessity,
+as it must continually improve to accommodate new types of data. Wang et al. (2018) performed a large US-based survey of biostatisticians to
+estimate the frequency and severity of various types of inappropriate statistical analysis requests. We suggest a future direction for related work
+in this area would be to gather and to document wisdom from statisticians on how they have identified and responded to different types of inap
+propriate requests and how such experiences affected their statistical practice.
+Aside from suspicion of misconduct, most identified negative qualities of domain experts had low consensus among statisticians. This finding
+suggests that when possible, statistical groups can implement a “mix-and-match” approach for working with domain experts with perceived nega
+tive qualities. One statistician's pet peeve might not matter as much to their peer. For leaders of groups with multiple statisticians, an important
+takeaway is that incorporating the ability to trade or shuffle statisticians on projects may reduce friction and burnout. On the other hand, isolated
+statisticians (i.e., statisticians who tend to work without other statisticians) typically do not have this option, and therefore, such positions tend to
+be more difficult to sustain without careful consideration of how to handle difficult collaborations.
+In addition, our study contains lessons for collaborative statisticians, who would do well to heed the negatively perceived early warning sig
+nals in their collaborators, especially those that most other statisticians think should be avoided. These warning signs may not ultimately matter
+for a specific collaboration but are often worth seeking mentorship about as early as possible. It is important that statisticians know how to
+F I G U R E 5 Noteworthy associations with early signal positivity. The reference group for the first two estimates in each panel is academic faculty. The third estimate in each panel is the effect of experience measured in decades. A blue line indicates significance at the 5% significance level. DE, domain expert.
+PETERSON ET AL. 9 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+escalate potential issues to get help. Conversely, practicing statisticians can decide that when they see positive signals, it might be worth going
+the extra mile to ensure the collaboration's longevity.
+Though not the intended target audience of this work, our work has implications for the training of domain expert collaborators as well. Par
+ticularly, the lists of positive and negative qualities as well as the list of early signals and their perceived positivity translate to important training
+considerations for domain experts who aspire to work productively with statisticians. Statisticians and statistical organizations can certainly work
+to encourage the positive characteristics and discourage the negative ones, but this information might be better received when incorporated into
+domain-specific researcher education.
+We found differences in the valuation of certain characteristics and the positivity of early signals by work setting, and these differences
+largely seem to reflect different incentives; for example, academic faculty valued support for career development most. Interestingly, more experi
+enced statisticians perceived lack of clarity of research objectives and last-minute, low-quality requests significantly worse than those with less
+experience. One explanation for this finding is that as their experience grows, statisticians develop a more mature understanding of the impor
+tance of clear research objectives in producing impactful research. Statisticians may also be accumulating experiences of fulfilling last-minute,
+low-quality requests for collaboration or consultation, which can cause a lot of stress without producing any real value. In either case, one remedy
+for such situations is to formalize and enforce deadlines for requesting statistical support; even if it creates short-term frustration for domain
+experts, in the long term, domain experts, statisticians and the quality of research more generally would benefit from such policies.
+Our study is subject to several limitations. First, in our survey, we did not collect sufficient demographic data with which we could have better
+described our study population. This is important as our survey was not administered to a random sample from a well-defined sampling frame.
+This fact, alongside our not adjusting for multiplicity, renders the generalizability of these results uncertain, and all hypotheses herein should be
+considered exploratory or generative. Another limitation is that domain expert characteristics change by field and institution, but we did not mea
+sure this and cannot adjust for this. This work is decidedly from the statistician perspective, but a beneficial future direction would be to also sur
+vey domain experts about positive and negative characteristics of collaborative statisticians. Finally, the anonymous and cross-sectional nature of
+our survey precluded the possibility of estimating the survey's reliability and validity. Establishing the reliability of these questions in measuring
+statistician preference and also their validity for real-world outcomes (e.g., productivity or burnout) would be welcome in future research. Despite
+these limitations, our study provides a unique perspective on the importance of various qualities and early signals in the domain expert
+statistician relationship.
+AUTHOR CONTRIBUTIONS
+R. P. conceptualized the study, disseminated the survey and implemented the analysis plan. R. P. and W. T. A. led the focus groups. R. P., E. S. and
+W. T. A. formulated the survey, analysis plan and results sections. R. P., E. S., W. T. A. and G. P. contributed to the manuscript writing
+and revision.
+ACKNOWLEDGEMENTS
+The authors are grateful to members of ACTStat who enthusiastically participated in the focus groups, as well as Gary Grunwald who helped
+brainstorm how to turn the focus group results into a fruitful survey. Research reported in this publication was supported by the National Center
+for Advancing Translational Sciences of the National Institutes of Health under award numbers: UL1TR002535 (Colorado), UL1TR001998
+(Kentucky), UL1TR002553 (Duke), and UL1TR001420 (Wake Forest). Contents are the authors' sole responsibility and do not necessarily repre
+sent official NIH views.
+CONFLICT OF INTEREST STATEMENT
+The authors have no conflicts of interest to disclose.
+DATA AVAILABILITY STATEMENT
+The data and analysis code that support the findings of this study are openly available in GitHub at https://github.com/petersonR/working_well_
+with_statisticians.
+ORCID
+Ryan A. Peterson https://orcid.org/0000-0002-4650-5798
+Emily Slade https://orcid.org/0000-0002-1654-3822
+Gina-Maria Pomann https://orcid.org/0000-0002-6324-3953
+ENDNOTE
+1 This audience was for a panel on the topic of statistical training. The estimates for attendance and proportion of statisticians raising their hand are based on the six panelists, each of whom could see the full room, estimating independently shortly after the session.
+10 of 11 PETERSON ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+REFERENCES
+Brasier, A. R., Burnside, E. S., & Rolland, B. (2023). Competencies supporting high-performance translational teams: A review of the SciTS evidence base. Journal of Clinical and Translational Science, 7(1), e62. https://doi.org/10.1017/cts.2023.17 Derr, J. (1999). Statistical consulting: A guide to effective communication. Duxbury Press. Harrell, F. E. (2001). Regression modeling strategies: With applications to linear models, logistic regression, and survival analysis (Vol. 608). New York: Springer. Head, M. L., Holman, L., Lanfear, R., Kahn, A. T., & Jennions, M. D. (2015). The extent and consequences of p-hacking in science. PLoS Biology, 13(3), e1002106. https://doi.org/10.1371/journal.pbio.1002106 Peterson, R. A., Hochheimer, C. J., Grunwald, G. K., Johnson, R. L., Wood, C., & Sammel, M. D. (2022). Reaping what you SOW: Guidelines and strategies for writing scopes of work for statistical consulting. Stat, 11(1), e496. https://doi.org/10.1002/sta4.496 Pomann, G. M., Boulware, L. E., Cayetano, S. M., Desai, M., Enders, F. T., Gallis, J. A., Gelfond, J., Grambow, S. C., Hanlon, A. L., Hendrix, A., Kulkarni, P., Lapidus, J., Lee, H. J., Mahnken, J. D., McKeel, J. P., Moen, R., Oster, R. A., Peskoe, S., Samsa, G., ... Thomas, S. M. (2020). Methods for training collaborative biostatisticians. Journal of Clinical and Translational Science, 5(1), e26. https://doi.org/10.1017/cts.2020.518 R Core Team. (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing. https://www.R-project.org/ Ranstam, J., Buyse, M., George, S. L., Evans, S., Geller, N. L., Scherrer, B., Lesaffre, E., Murray, G., Edler, L., Hutton, J. L., & Lachenbruch, P. (2000). Fraud in medical research: An international survey of biostatisticians. Controlled Clinical Trials, 21(5), 415–427. https://doi.org/10.1016/S0197-2456(00) 00069-6 Sharp, J. L., Griffith, E. H., & Higgs, M. D. (2021). Setting the stage: Statistical collaboration videos for training the next generation of applied statisticians. Journal of Statistics and Data Science Education, 29(2), 165–170. https://doi.org/10.1080/26939169.2021.1934202 Shatz, I. (2023). The curse of knowledge when teaching statistics. Teaching Statistics, 45, 22–26. https://doi.org/10.1111/test.12320 Slade, E., Brearley, A. M., Coles, A., Hayat, M. J., Kulkarni, P. M., Nowacki, A. S., Oster, R. A., Posner, M. A., Samsa, G., Spratt, H., Troy, J., & Pomann, G. M. (2023). Essential team science skills for biostatisticians on collaborative research teams. Journal of Clinical and Translational Science, 7(1), e243. https:// doi.org/10.1017/cts.2023.676 Vance, E., Alzen, J., & Smith, H. (2022). Creating shared understanding in statistics and data science collaborations. Journal of Statistics and Data Science Education, 30(1), 54–64. https://doi.org/10.1080/26939169.2022.2035286 Vance, E., & Smith, H. (2019). The ASCCR frame for learning essential collaboration skills. Journal of Statistics Education, 27(3), 265–274. https://doi.org/ 10.1080/10691898.2019.1687370 Wang, M. Q., Yan, A. F., & Katz, R. V. (2018). Research requests for inappropriate analysis and reporting: A US survey of consulting biostatisticians. Annals of Internal Medicine, 169(8), 554–558. https://doi.org/10.7326/M18-1230 Xie, Y., Wang, K., & Kong, Y. (2021). Prevalence of research misconduct and questionable research practices: A systematic review and meta-analysis. Science and Engineering Ethics, 27(4), 41. https://doi.org/10.1007/s11948-021-00314-9
+AUTHOR BIOGRAPHIES
+Ryan A. Peterson is an Assistant Professor of Biostatistics and Informatics in the Colorado School of Public Health at the University of
+Colorado Anschutz Medical Campus. He works collaboratively within the Center for Innovative Design and Analysis and serves as the
+Director of the Pulmonary Translational Biostatistics & Bioinformatics Core. His research interests include model selection, missing data,
+statistical computation, post-selection inference, and interdisciplinary statistical collaboration.
+Emily Slade is an Assistant Professor of Biostatistics at the University of Kentucky and the founder and director of the Biostatistics Consulting
+and Interdisciplinary Research Collaboration Lab (Biostat CIRCL). Her research focuses on effective training and integration of biostatisticians
+on collaborative research teams.
+Gina-Maria Pomann is an Associate Professor of Biostatistics and Bioinformatics and the director of the Biostatistics, Epidemiology and
+Research Design (BERD) Methods Core at Duke University, Durham, NC. The BERD Methods Core is a team of over 40 students, staff, and
+faculty biostatisticians and data scientists in the Department of Biostatistics and Bioinformatics who collaborate with clinical and/or transla
+tional researchers. QSU website: https://biostat.duke.edu/research/biostatistics-epidemiology-and-research-design-berd-methods-core.
+Walter T. Ambrosius is a Professor and the Chair of the Department of Biostatistics and Data Science in the Division of Public Health
+Sciences at Wake Forest University School of Medicine. His current work is primarily in coordinating centers for NIH-funded multi-center
+studies, and he directs the Biostatistics, Epidemiology, and Research Design of the WFUSM Clinical and Translational Science Institute.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this article.
+How to cite this article: Peterson, R. A., Slade, E., Pomann, G.-M., & Ambrosius, W. T. (2024). Working well with statisticians: Perceptions
+of practicing statisticians on their most successful collaborations. Stat, 13(2), e694. https://doi.org/10.1002/sta4.694
+PETERSON ET AL. 11 of 11
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.694 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

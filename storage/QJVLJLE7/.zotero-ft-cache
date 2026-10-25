@@ -1,0 +1,564 @@
+T&F eReader
+Skip to main content
+95
+DOI: 10.1201/9781003261148-10
+
+
+8
+
+
+Promoting and Sustaining a Virile Statistical
+
+
+Laboratory in Nigeria’s Premier University:
+
+
+Lesson from UI-LISA Experience
+
+
+Olusanya Elisa Olubusoye, Oluwayemisi Alaba,
+
+
+Serifat Folorunso, and Olalekan J. Akintande
+
+
+University of Ibadan Laboratory for Interdisciplinary Statistical Analysis [UI-LISA]
+
+
+Eric A. Vance
+
+
+University of Colorado Boulder
+
+
+8.1
+ 
+Introduction
+
+
+Education is one of the earliest social services embraced in Nigeria as an instrument of sta-
+
+
+bility, change, and development. Since national independence in 1960, the education sys-
+
+
+tem has undergone several phases of transformation. Presently, it is divided into six years
+
+
+of primary, three years of junior secondary, three years of senior secondary, and four years
+
+
+of tertiary education. This system is popularly known as 6-3-3-4. Under this arrangement,
+
+
+statistics is not being taught as a subject at the primary school level. Before 1960, statistics
+
+
+was virtually unheard of even at the secondary school level. Thereafter, it was taught in
+
+
+secondary schools under the subject of mathematics up to 1973. It was introduced as one
+
+
+of the subjects to be taken in the West African School Certificate Examination (WASCE)
+
+
+in 1974 both at the Ordinary Level (O/L) and Advanced (A/L) (Olubusoye and Shittu,
+
+
+1998). According to Adamu (1986), in 1979, the ratio of the number of candidates taking
+
+
+CONTENTS
+
+
+8.1
+ 
+Introduction
+ .......................................................................................................................... 95
+
+
+8.2
+ 
+The Birth of UI-LISA
+............................................................................................................ 97
+
+
+8.3
+ 
+UI-LISA Setup and Programmes
+ ..................................................................................... 101
+
+
+8.3.1
+ 
+One Hour with a Statistician
+ ................................................................................ 103
+
+
+8.3.2
+ 
+Mobile Statistical Clinic
+ 
+........................................................................................ 103
+
+
+8.4
+ 
+Short Courses and Collaborative Training Workshops
+................................................ 103
+
+
+8.4.1
+ 
+Collaborative Projects
+ ............................................................................................ 104
+
+
+8.5
+ 
+Conclusion
+ 
+.......................................................................................................................... 104
+
+
+Appendix
+ ...................................................................................................................................... 105
+
+
+References
+..................................................................................................................................... 109
+96
+ 
+Promoting Statistical Practice and Collaboration
+
+
+statistics to that of mathematics, for example, was 1 to 94 and these candidates were from
+
+
+138 of about 2,258 schools that registered for the examination. In 1982, the ratio was 1 to
+
+
+170. With the introduction of the 6-3-3-4 education system in 1990, statistics was removed
+
+
+from the junior secondary school and senior secondary curricula, and subsequently from
+
+
+the WASCE syllabus.
+
+
+The University of Ibadan (UI), fondly called the premier university in Nigeria, was
+
+
+founded in 1948 as University College, Ibadan (UCI) with 104 foundation students and
+
+
+three founding faculties (Arts, Science, and Medicine). Initially, statistics was taught in
+
+
+Departments of Mathematics and Economics and it was possible to graduate with B.Sc.
+
+
+statistics if the two other subsidiary subjects were in Science, say Chemistry, Physics, and
+
+
+Mathematics or B.A. statistics if the two other subsidiary subjects were in Arts, say English,
+
+
+Latin or History. The Department of Statistics was statutorily established in 1965 but oper-
+
+
+ated in the Department of Economics. It became fully autonomous and started function-
+
+
+ing as an independent department in 1973 (Olubusoye and Shittu, 1998) in the Faculty of
+
+
+Science. In addition to the B.Sc. degree programme in statistics, the department also ran
+
+
+the Professional Diploma in statistics (PDS) programme. Higher degree programmes were
+
+
+introduced in 1977. An unresolved debate that continues today is whether the department
+
+
+should remain a department within the Faculty of Science or be made into an autonomous
+
+
+institute.
+
+
+Following the brief historical discourse enunciated above, statistical training in the
+
+
+department was confronted with several challenges. These problems underline the
+
+
+attraction of the LISA 2020 initiative in the Department of Statistics. For this chapter,
+
+
+three critical problems are identified. The first is the challenge of maintaining a judicious
+
+
+balance between theory and practice. At the inception of the department, much emphasis
+
+
+was placed on traditional statistics with overwhelming importance placed on theory as
+
+
+the driver of statistical concepts without the essential practical skills needed for using
+
+
+statistics to solve real-life problems. The excitement and pride of both staff and students
+
+
+were in glorifying statistics as a hard discipline and for belonging to a noble field of
+
+
+study. Much attention was given to abstract mathematical concepts such as real analysis,
+
+
+ordinary differential equations, etc., to the extent that students were fraught with being
+
+
+pessimistic about the possible future career and the application areas of the subject. The
+
+
+design of the curriculum failed to show where mathematics ends and where statistics
+
+
+begins.
+
+
+The second problem is connected with the concept, setup, and operation of a statistical
+
+
+laboratory (stat lab). Even though statistical computing labs existed, it was never clear
+
+
+what role stat labs should play in statistical training. The need for a functional stat lab
+
+
+to support the teaching and learning of statistics has long been advocated. According
+
+
+to Kanji (1974), it is an emerging facility in statistical education. Kanji posits that the
+
+
+size of stat lab should depend on the amount and level of statistics being taught, and
+
+
+the utilisation should be widened to include facilities such as a “Statistical Library,” a
+
+
+“Data Bank,” the publication of a “Statistical Bulletin,” etc. The existence of such a stat
+
+
+lab would provide proper statistical training and a better understanding of the subject,
+
+
+as well as facilitate the correct uses of statistics for users with varied interests. However,
+
+
+despite the existence of the Department of Statistics for almost five decades, the need
+
+
+for a statistical laboratory was not contemplated. Prior to the emergence of University of
+
+
+Ibadan Laboratory for Interdisciplinary Statistical Analysis (UI-LISA), it was a mirage to
+
+
+imagine statistics as a discipline that needs a laboratory in a fashion similar to chemi-
+
+
+cal or biological disciplines. One area of friction was the manner of sharing bench fees
+97
+Sustaining a Virile Statistical Laboratory
+
+
+among the departments with specialist laboratory or fieldwork. Bench fees are payments
+
+
+made by the university to departments to maintain facilities in the laboratory and to
+
+
+cover consumables. While several departments in the Faculty of Science automatically
+
+
+benefit from these payments, the statistics department was painfully exempted due to
+
+
+lack of a functional stat lab.
+
+
+The third but very notable problem was the poor motivation or rather lack of incentive
+
+
+for interdisciplinary or collaborative research in the university system. The issue of sin-
+
+
+gle, co-authorship and multiple-authorship have been debated variously in the literature
+
+
+(Vafeas, 2010, Woods, 1998, Woods et al., 2010, Lei et al., 2016, Awe and Vance, 2014). The
+
+
+university promotion guidelines clearly reward single authors compared with multiple
+
+
+authors. For instance, a journal article attracts a maximum of five points in the promotion
+
+
+guideline. A single-authored article could get 100% of the maximum points but only the
+
+
+first author can obtain about 50% of the points where there are more than five authors.
+
+
+Consequently, four single-authored journal articles can get a candidate seeking promotion
+
+
+to a cadre requiring a minimum of 20 points, while twice that number is required if each of
+
+
+the journal articles has two authors. Faculty members are mostly interested in solo rather
+
+
+than interdisciplinary research which is the strength of any research. Modern-day reali-
+
+
+ties put collaborative research at the epicentre of societal problem-solving.
+
+
+Following the above, this chapter plans to discuss the emergence of a LISA stat lab in
+
+
+Nigeria’s Premier University, University of Ibadan, popularly called UI. The discourse is
+
+
+intended to cover the activities directed at addressing the critical challenges relating to
+
+
+teaching, research and collaboration in the Department of Statistics, UI. The rest of the
+
+
+chapter is organised as follows: Section 8.2 discusses the birth of the UI-LISA; Section 8.3
+
+
+discusses the lessons drawn from two renowned and well- established stat labs in the
+
+
+United States which helped to build a solid foundation for UI-LISA; Section 8.4 elaborates
+
+
+on UI-LISA advocacy programmes, training activities and collaborations; and, finally,
+
+
+Section 8.5 presents concluding remarks for emerging labs.
+
+
+8.2
+ 
+The Birth of UI-LISA
+
+
+The vision to create twenty stat labs in developing countries by 2020 has been vigor-
+
+
+ously pursued by Prof. Eric Vance since 2012. The concept and
+ 
+modus operandi
+ 
+of LISA
+
+
+2020 is uniquely and carefully constructed to build the capacity of statisticians and non-
+
+
+statisticians on essential skills needed to enhance effective collaboration. The programmes
+
+
+of LISA 2020 are specially tailored to build statistics and data science capacity and research
+
+
+infrastructure in developing countries to help statisticians collaborate with scientists, gov-
+
+
+ernment officials, businesses, and NGOs to use data to solve problems and make deci-
+
+
+sions for real-world impact. The programme was designed to pursue three missions which
+
+
+include (1) training statistics and/or mathematics students and staff to become effective,
+
+
+interdisciplinary collaborators who can move between theory and practice to solve prob-
+
+
+lems for real-world impact; (2) serve as a research infrastructure for researchers and
+
+
+decision-makers at the university or in the surrounding community to collaborate with
+
+
+statisticians to enable and accelerate research and data-based decision-making that will
+
+
+have a positive impact on society; and (3) to teach short courses and workshops to improve
+
+
+statistical skills and literacy widely. All these were highlighted on January 16, 2015, in a
+98
+ 
+Promoting Statistical Practice and Collaboration
+
+
+paper titled “LISA 2020: Creating a Network of Statistical Collaboration Laboratories” pre-
+
+
+sented by Professor Eric Vance during his first visit to Nigeria to create a network of stat
+
+
+labs that will connect with LISA 2020.
+
+
+The historic journey to the establishment of LISA in Nigeria started in May 2013 with
+
+
+the selection of Dr O. Olawale Awe, then a doctoral student in the Department of Statistics,
+
+
+University of Ibadan, as the first LISA Fellow to the Department of Statistics, Virginia Tech
+
+
+(VT). Visiting LISA Fellows are made to undergo intensive practical training under the
+
+
+supervision of the LISA 2020 Director and thereafter they return to their home countries
+
+
+to start a statistical collaboration laboratory.
+
+
+Upon his return in 2014, the first LISA Fellow introduced the LISA 2020 concept to
+
+
+UI but opted to establish the Laboratory for Interdisciplinary Statistical Analysis and
+
+
+Collaboration (LISAC) in October 2014 at Obafemi Awolowo University, where he was
+
+
+employed as a lecturer. By December 2014, the second stat lab was created at Sekoine
+
+
+University of Agriculture (SUALISA), Morogoro, Tanzania (Vance and Magayane, 2014).
+
+
+The birth of UI-LISA followed suit in March 2015 and became officially recognised as a
+
+
+member of the LISA 2020 Network in June 2015.
+
+
+Constant monitoring and follow-up by the founder of LISA 2020 have helped to sustain
+
+
+UI-LISA and position it to continuously serve as an engine for development through train-
+
+
+ing and collaboration. There were two commissioned visits to UI-LISA to help strengthen
+
+
+its operations and to conduct an assessment of its activities. There was also the exchange
+
+
+visit extended to the lab coordinator to visit two prestigious universities in the United
+
+
+States, VT and Purdue University, to see first-hand how LISA 2020 trains students to com-
+
+
+municate and collaborate with non-statisticians and how to manage labs to help clients
+
+
+apply statistics in their research projects. The unforgettable visit by Mr. Ian Crandell, a
+
+
+doctoral student from VT to UI-LISA took place between March 28 and April 17, 2015.
+
+
+Mr. Crandell helped UI-LISA develop a programme similar to LISA at VT and in line with
+
+
+the LISA 2020 programme. During his visit, he made a significant contribution to the set-
+
+
+ting up of UI-LISA as a fully functional statistical collaboration centre. He spent most of
+
+
+his time developing short courses for basic statistics and statistical software packages. He
+
+
+was instrumental in organising a series of collaboration meetings with graduate students
+
+
+and statisticians in UI. He actively participated in programme design & orientation and
+
+
+provided a series of lectures and meetings at the Faculty and Centre for Petroleum Energy
+
+
+Economics and Law (CPEEL). The memory of his visit and contributions still lingers in the
+
+
+minds of UI-LISA collaborators.
+
+
+The second visit commissioned by the founder of LISA 2020 during January 2018 was
+
+
+by Ms. Monica Johnston; an expert in statistics education and assessment with exper-
+
+
+tise and experience working with women statisticians and small business owners in the
+
+
+United States. She is a prominent and active member of the ASA Section on Statistical
+
+
+Consulting. She had the mandate of the founder to conduct an assessment of UI-LISA and
+
+
+to identify some strengths of UI-LISA including potential opportunities to make UI-LISA
+
+
+even stronger and more sustainable. She also shared some ideas that may be useful in
+
+
+future grant proposals to be able to strengthen UI-LISA and the other LISA 2020 stat labs
+
+
+in the future. Finally, she documented some best practices that could be valuable to share
+
+
+with other stat labs in the LISA 2020 Network. Apart from her in-depth assessment and
+
+
+evaluation of UI-LISA activities since inception, she engaged in several other capacity-
+
+
+building and statistical education activities. She had exciting moments with the women
+
+
+in statistics and inaugurated the Women in Statistics Wing of the Department of Statistics,
+
+
+University of Ibadan. She made a public seminar presentation titled “Improving Student
+
+
+Learning; within a Small Business Setting”. The lecture was indeed an eye-opener to

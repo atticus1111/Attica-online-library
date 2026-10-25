@@ -1,0 +1,1877 @@
+Introduction to Abstract Algebra (Math 113)
+Alexander Paulin
+Contents
+1 Introduction 2 1.1 What is Algebra? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 Sets and Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 1.3 Equivalence Relations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+2 The Structure of + and × on Z 7 2.1 Basic Observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 2.2 Factorization and the Fundamental Theorem of Arithmetic . . . . . . . . . . 8 2.3 Congruences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+3 Groups 12 3.1 Basic Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 3.2 Subgroups, Cosets and Lagrange’s Theorem . . . . . . . . . . . . . . . . . . 15 3.3 Finitely Generated Groups . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 3.4 Permutation Groups and Group Actions . . . . . . . . . . . . . . . . . . . . 20 3.5 The Orbit-Stabiliser Theorem and Sylow’s Theorem . . . . . . . . . . . . . . 22 3.6 Finite Symmetric Groups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 3.7 Symmetry of Sets with Extra Structure . . . . . . . . . . . . . . . . . . . . . 30 3.8 Normal Subgroups and Isomorphism Theorems . . . . . . . . . . . . . . . . . 33 3.9 Direct Products and Direct Sums . . . . . . . . . . . . . . . . . . . . . . . . 38 3.10 Finitely Generated Abelian Groups . . . . . . . . . . . . . . . . . . . . . . . 39 3.11 Finite Abelian Groups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43 3.12 The Classification of Finite Groups (Proofs Omitted) . . . . . . . . . . . . . 46
+4 Rings and Fields 49 4.1 Basic Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49 4.2 Ideals, Quotient Rings and the First Isomorphism Theorem for Rings . . . . 51 4.3 Properties of Elements of Rings . . . . . . . . . . . . . . . . . . . . . . . . . 53 4.4 Polynomial Rings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55 4.5 Field of Fractions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57 4.6 Characteristic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59 4.7 Ring Extensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+1
+
+
+4.8 Principal, Prime and Maximal Ideals . . . . . . . . . . . . . . . . . . . . . . 61 4.9 Factorisation in Integral Domains . . . . . . . . . . . . . . . . . . . . . . . . 63 4.10 Principal Ideal Domains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67 4.11 Factorization in Polynomial Rings . . . . . . . . . . . . . . . . . . . . . . . . 70
+5 Field Extensions and Galois Theory 76 5.1 Field Extensions and Minimal Polynomials . . . . . . . . . . . . . . . . . . . 76 5.2 Splitting Fields . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79 5.3 Galois Theory (Proofs Omitted) . . . . . . . . . . . . . . . . . . . . . . . . . 80 5.4 Solving Polynomials By Radicals . . . . . . . . . . . . . . . . . . . . . . . . 81
+1 Introduction
+1.1 What is Algebra?
+If you ask someone on the street this question, the most likely response will be: “Something horrible to do with x, y and z”. If you’re lucky enough to bump into a mathematician then you might get something along the lines of: “Algebra is the abstract encapsulation of our intuition for composition”. By composition, we mean the concept of two object coming together to form a new one. For example adding two numbers, or composing real valued single variable functions. As we shall discover, the seemly simple idea of composition hides vast hidden depth. Algebra permeates all of our mathematical intuitions. In fact the first mathematical concepts we ever encounter are the foundation of the subject. Let me summarize the first six to seven years of your mathematical education:
+The concept of Unity. The number 1. You probably always understood this, even as a little baby.
+↓
+N := {1, 2, 3...}, the natural numbers. N comes equipped with two natural operations + and ×.
+↓
+Z := {... − 2, −1, 0, 1, 2, ...}, the integers.
+We form these by using geometric intuition thinking of N as sitting on a line. Z also comes
+with + and ×. Addition on Z has particularly good properties, e.g. additive inverses exist.
+↓
+2
+
+
+Q := { a
+b |a, b ∈ Z, b ∕= 0}, the rational numbers. We form these by taking Z and formally
+dividing through by non-negative integers. We can again use geometric insight to picture Q as points on a line. The rational numbers also come equipped with + and ×. This time, multiplication is has particularly good properties, e.g non-zero elements have multiplicative inverses.
+We could continue by going on to form R, the real numbers and then C, the complex numbers. This process is of course more complicated and steps into the realm of mathematical analysis.
+Notice that at each stage the operations of + and × gain additional properties. These ideas are very simple, but also profound. We spend years understanding how + and × behave in Q. For example
+a + b = b + a for all a, b ∈ Q,
+or
+a × (b + c) = a × b + a × c for all a, b, c ∈ Q.
+The central idea behind abstract algebra is to define a larger class of objects (sets with extra structure), of which Z and Q are definitive members.
+(Z, +) −→ Groups
+(Z, +, ×) −→ Rings
+(Q, +, ×) −→ F ields
+In linear algebra the analogous idea is
+(Rn, +, scalar multiplication) −→ V ector Spaces over R
+The amazing thing is that these vague ideas mean something very precise and have far far more depth than one could ever imagine.
+1.2 Sets and Functions
+A set is any collection of objects. For example six dogs, all the protons on Earth, every thought you’ve ever had, N, Z, Q, R, C. Observe that Z and Q are sets with extra structure coming from + and ×. In this whole course, all we will study are sets with some carefully chosen extra structure.
+Basic Logic and Set Notation
+Writing mathematics is fundamentally no different than writing english. It is a language which has certain rules which must be followed to accurately express what we mean. Because mathematical arguments can be highly intricate it is necessary to use simplifying notation for frequently occurring concepts. I will try to keep these to a minimum, but it is crucial we all understand the following:
+3
+
+
+• If P and Q are two statements, then P ⇒ Q means that if P is true then Q is true. For example: x odd ⇒ x ∕= 2. We say that P implies Q.
+• If P ⇒ Q and Q ⇒ P then we write P ⇐⇒ Q, which should be read as P is true if and only if Q is true.
+• The symbol ∀ should be read as “for all”.
+• The symbol ∃ should be read as “there exists”. The symbol ∃! should be read as “there exists unique”.
+Let S and T be two sets.
+• If s is an object contained in S then we say that s is an element, or a member of S. In mathematical notation we write this as s ∈ S. For example 5 ∈ Z. Conversely s ∈/ S
+means that x is not contained in S. For example 1
+2 ∈/ Z.
+• If S has finitely many elements then we say it is a finite set. We denote its cardinality (or size) by |S|.
+• The standard way of writing down a set S is using curly bracket notation.
+S = { Notation for elements in S | Properties which specifies being in S }.
+The vertical bar should be read as “such that”. For example, if S is the set of all even integer then
+S = {x ∈ Z | 2 divides x}.
+We can also use the curly bracket notation for finite sets without using the | symbol. For example, the set S which contains only 1,2 and 3 can be written as
+S = {1, 2, 3}.
+• If every object in S is also an object in T , then we say that S is contained in T . In mathematical notation we write this as S ⊂ T . Note that S ⊂ T and T ⊂ S ⇒ S = T . If S is not contained in T we write S ∕⊂ T .
+• If S ⊂ T then T \ S := {x ∈ T | x ∈/ S}. T \ S is called the compliment of S in T .
+• The set of objects contained in both S and T is call the intersection of S and T . In mathematical notation we denote this by S ∩ T .
+• The collection of all objects which are in either S or T is call the union on S and T . In mathematical notation we denote this by S ∪ T .
+• S × T = {(a, b)|a ∈ S, b ∈ T }. We call this new set the (cartesian) product of S and T . We may naturally extend this concept to finite collections of sets.
+4
+
+
+• The set which contains no objects is called the empty set. We denote the empty set by ∅. We say that S and T are disjoint if S ∩ T = ∅. The union of two disjoint sets is
+often written as S ! T .
+Definition. A map (or function) f from S to T is a rule which assigns to each element of S a unique elements of T . We express this information using the following notation:
+f :S → T
+x $→ f (x)
+Here are some examples of maps of sets:
+1. S = T = N,
+f :N → N
+a $→ a2
+2. S = Z × Z, T = Z,
+f :Z×Z → Z
+(a, b) $→ a + b
+This very simple looking abstract concept hides enormous depth. To illustrate this, observe that calculus is just the study of certain classes of functions (continuous, differentiable or integrable) from R to R.
+Definition. Let S and T be two sets,and f : S → T be a map.
+1. We say that S is the domain of f and T is the codomain of f .
+2. We say that f is the identity map if S = T and f (x) = x, ∀x ∈ S. In this case we write f = IdS.
+3. f is injective if f (x) = f (y) ⇒ x = y ∀ x, y ∈ S.
+4. f is surjective if given y ∈ T , there exists x ∈ S such that f (x) = y.
+5. If f is both injective and surjective we say it is bijective. Intuitively this means f gives a perfect matching of elements in S and T .
+Observe that if R, S and T are sets and g : R → S and f : S → T are maps then we may compose them to give a new function: f ◦ g : R → T . Note that this is only possible if the domain of f is naturally contained in the codomain of g.
+Important Exercise. Let S and T be two sets. Let f be a map from S to T . Show that f is a bijection if and only if there exists a map g from T to S such that f ◦ g = IdT and g ◦ f = IdS.
+5
+
+
+1.3 Equivalence Relations
+Within a set it is sometimes natural to talk about different elements being related in some way. For example, in Z we could say that x, y ∈ Z are related if x − y is divisible by 2. Said another way, x and y are related is they are both odd or both even. This idea can be formalized as something called an equivalence relation.
+Definition. An equivalence relation on a set S is a subset U ⊂ S × S satisfying:
+1. (x, y) ∈ U ⇐⇒ (y, x) ∈ U . (This is called the symmetric property.)
+2. ∀x ∈ S, (x, x) ∈ U . (This is called the reflexive property.)
+3. Given x, y, z ∈ S, (x, y) ∈ U and (y, z) ∈ U ⇒ (x, z) ∈ U . (This is called the transitive property.)
+If U ⊂ S × S is an equivalence relation then we say that x, y ∈ S are equivalent if and only if (x, y) ∈ U . In more convenient notation, we write x ∼ y to mean that x and y are equivalent.
+Definition. Let ∼ be an equivalence relation on the set S. Let x ∈ S. The equivalence class containing x is the subset
+[x] := {y ∈ S | y ∼ x} ⊂ S.
+Remarks. 1. Notice that the reflexive property implies that x ∈ [x]. Hence equivalence classes are non-empty and their union is S.
+2. The symmetric and transitive properties imply that y ∈ [x] if and only if [y] = [x]. Hence two equivalence classes are equal or disjoint. It should also be noted that we can represent a given equivalence class using any of its members using the [x] notation.
+Definition. Let S be a set. Let {Xi} be a collection of subsets. We say that {Xi} forms a partition of S if each Xi is non-empty, they are pairwise disjoint and their union is S.
+We’ve seen that the equivalence classes of an equivalence relation naturally form a partition of the set. Actually there is a converse: Any partition of a set naturally gives rise to an equivalence relation whose equivalence classes are the members of the partition. The conclusion of all this is that an equivalence relation on a set is the same as a partition. In the example given above, the equivalence classes are the odd integers and the even integers. Equivalence relations and equivalence classes are incredibly important. They will the foundation of many concepts throughout the course. Take time to really internalize these ideas.
+6
+
+
+2 The Structure of + and × on Z
+2.1 Basic Observations
+We may naturally express + and × in the following set theoretic way:
++:Z×Z → Z
+(a, b) #→ a + b
+×:Z×Z → Z
+(a, b) #→ a × b
+Here are 4 elementary properties that + satisfies:
+• (Associativity): a + (b + c) = (a + b) + c ∀a, b, c ∈ Z
+• (Existence of additive identity) a + 0 = 0 + a = a ∀a ∈ Z.
+• (Existence of additive inverses) a + (−a) = (−a) + a = 0 ∀a ∈ Z
+• (Commutativity) a + b = b + a ∀a, b ∈ Z.
+Here are 3 elementary properties that × satisfy:
+• (Associativity): a × (b × c) = (a × b) × c ∀a, b, c ∈ Z
+• (Existence of multiplicative identity) a × 1 = 1 × a = a ∀a ∈ Z.
+• (Commutativity) a × b = b × a ∀a, b ∈ Z.
+The operations of + and × interact by the following law:
+• (Distributivity) a × (b + c) = (a × b) + (a × c) ∀a, b, c ∈ Z.
+From now on we’ll simplify the notation for multiplication to a × b = ab.
+Remarks
+1. Each of these properties is totally obvious but will form the foundations of future definitions: groups and rings.
+2. All of the above hold for + and × on Q. In this case there is an extra property that non-zero elements have multiplicative inverses:
+Given a ∈ Q\{0}, ∃b ∈ Q such that ab = ba = 1.
+This extra property will motivate the definition of a field.
+7
+
+
+3. The significance of the Associativity laws is that summing and multiplying a finite collection of integers makes sense, i.e. is independent of how we do it.
+It is an important property of Z (and Q) that the product of two non-zero elements is again
+non-zero. More precisiely: a, b ∈ Z such that ab = 0 ⇒ either a = 0 or b = 0. Later this
+property will mean that Z is something called an integral domain. This has the following useful consequence:
+Cancellation Law: For a, b, c ∈ Z, ca = cb and c ∕= 0 ⇒ a = b.
+This is proven using the distributive law together with the fact that Z is an integral domain. I leave it an exercise to the reader.
+2.2 Factorization and the Fundamental Theorem of Arithmetic
+Definition. Let a, b ∈ Z. Then a divides b ⇐⇒ ∃c ∈ Z such that b = ca. We denote this by a|b and say that a is a divisor (or factor) of b.
+Observe that 0 is divisible by every integer. The only integers which divide 1 are 1 and -1. Any way of expressing an integer as the product of a finite collection of integers is called a factorization.
+Definition. A prime number p is an integer greater than 1 whose only positive divisors are p and 1. A positive integer which is not prime is called composite.
+Remark. Z is generated by 1 under addition. By this I mean that every integer can be attained by successively adding 1 (or −1) to itself. Under multiplication the situation is much more complicated. There is clearly no single generator of Z under multiplication in the above sense.
+Definition. Let a, b ∈ Z. The highest common factor of a and b, denoted HCF (a, b), is the
+largest positive integer which is a common factor of a and b. Two non-zero integers a, b ∈ Z are said to be coprime if HCF (a, b) = 1.
+Here are some important elementary properties of divisibility dating back to Euclid (300BC), which I’ll state without proof. We’ll actually prove them later in far more generality.
+Remainder Theorem. Given a, b ∈ Z, if b > 0 then ∃! q, r ∈ Z such that a = bq + r with 0 ≤ r < b.
+Theorem. Given a, b ∈ Z, ∃u, v ∈ Z such that au + bv = HCF (a, b). In particular, a and
+b are coprime if an only if there exist u, v ∈ Z such that au + bv = 1.
+Euclid’s Lemma. Let p be a prime number and a, b ∈ Z. Then
+p|ab ⇒ p|a or p|b
+8
+
+
+The Fundamental Theorem of Arithmetic. Every positive integer, a, greater than 1 can be written as a product of primes:
+a = p1p2...pr.
+Such a factorization is unique up to ordering.
+Proof. If there is a positive integer not expressible as a product of primes, let c ∈ N be the
+least such element. The integer c is not 1 or a prime, hence c = c1c2 where c1, cc ∈ N, c1 < c and c2 < c. By our choice of c we know that both c1 and c2 are the product of primes. Hence c much be expressible as the product of primes. This is a contradiction. Hence all positive integers can be written as the product of primes. We must prove the uniqueness (up to ordering) of any such decomposition. Let
+a = p1p2...pr = q1q2...qs
+be two factorizations of a into a product of primes. Then p1|q1q2...qs. By Euclid’s Lemma we know that p1|qi for some i. After renumbering we may assume i = 1. However q1 is a prime, so p1 = q1. Applying the cancellation law we obtain
+p2...pr = q2...qs.
+Assume that r < s. We can continue this process until we have:
+1 = qr+1..qs.
+This is a contradiction as 1 is not divisible by any prime. Hence r = s and after renumbering pi = qi ∀i.
+Using this we can prove the following beautiful fact:
+Theorem. There are infinitely many distinct prime numbers.
+Proof. Suppose that there are finitely many distinct primes p1, p2.....pr. Consider c = p1p2...pr + 1. Clearly c > 1. By the Fundamental Theorem of Arithmetic, c is divisible by at least one prime, say p1. Then c = p1d for some d ∈ Z. Hence we have
+p1(d − p2...pr) = c − p1p2..pr = 1.
+This is a contradiction as no prime divides 1. Hence there are infinitely many distinct primes.
+The Fundamental Theorem of Arithmetic also tells us that every positive element a ∈ Q can be written uniquely (up to reordering) in the form:
+a = pα1
+1 · · · pnαn; pi prime and αi ∈ Z
+9
+
+
+The Fundamental Theorem also tells us that two positive integers are coprime if and only if they have no common prime divisor. This immediately shows that every positive element a ∈ Q can be written uniquely in the form:
+a= α
+β , α, β ∈ N and coprime.
+We have seen that both Z and Q are examples of sets with two concepts of composition (+ and ×) which satisfy a collection of abstract conditions. We have also seen that the structure of Z together with × is very rich. Can we think of other examples of sets with a concept of + and × which satisfy the same elementary properties?
+2.3 Congruences
+Fix m ∈ N. By the remainder theorem, if a ∈ Z, ∃ ! q, r ∈ Z such that a = qm + r and 0 ≤ r < m. We call r the remainder of a modulo m. This gives the natural equivalence relation on Z:
+a ∼ b ⇐⇒ a and b have the same remainder modulo m ⇐⇒ m|(a − b)
+Important Exercise. Check this really is an equivalence relation!
+Definition. a, b ∈ Z are congruent modulo m ⇐⇒ m|(a − b). This can also be written:
+a ≡ b mod m.
+Remarks. 1. The equivalence classes of Z under this relation are indexed by the possible remainder modulo m. Hence, there are m distinct equivalence classes which we call residue classes. We denote the set of all residue classes Z/mZ.
+2. There is a natural surjective map
+[ ] : Z → Z/mZ
+a +→ [a] (1)
+Note that this is clearly not injective as many integers have the same remainder modulo m. Also observe that Z/mZ = {[0], [1], ...[m − 1]}.
+The following result allows us to define + and × on Z/mZ.
+Propostion. Let m ∈ N. Then,∀a, b, a′, b′ ∈ Z :
+[a] = [a′] and [b] = [b′] ⇒ [a + b] = [a′ + b′] and [ab] = [a′b′].
+Proof. This is a very good exercise.
+10
+
+
+Definition. We define addition and multiplication on Z/mZ by
+[a] × [b] = [a × b] ∀a, b ∈ Z [a] + [b] = [a + b] ∀a, b ∈ Z
+Remark. Note that there is ambiguity in the definition, because it seems to depend on making a choice of representative of each residue class. The proposition shows us that the resulting residue classes are independent of this choice, hence + and × are well defined on Z/mZ.
+Our construction of + and × on Z/mZ is lifted from Z, hence they satisfy the eight el
+ementary properites that + and × satisfied on Z. In particular [0] ∈ Z/mZ behaves like
+0 ∈ Z:
+[0] + [a] = [a] + [0] = [a], ∀[a] ∈ Z/mZ;
+and [1] ∈ Z/mZ behaves like 1 ∈ Z:
+[1] × [a] = [a] × [1] = [a], ∀[a] ∈ Z/mZ.
+We say that [a] ∈ Z/mZ is non-zero if [a] ∕= [0]. Even though + and × on Z/mZ share the
+same elementary properties with + and × on Z, they behave quite differently in this case. As an example, notice that
+[1] + [1] + [1] + · · · + [1](m times)= [m] = [0]
+Hence we can add 1 (in Z/mZ) to itself and eventually get 0 (in Z/mZ). Also observe that if m is composite with m = rs, where r < m and s < m then [r] and [s] are both non-zero (∕= [0]) in Z/mZ, but [r] × [s] = [rs] = [m] = [0] ∈ Z/mZ. Hence we can have two non-zero elements multiplying together to give zero.
+Proposition. For every m ∈ N, a ∈ Z the congruence
+ax ≡ 1 mod m
+has a solution (in Z) iff a and m are coprime.
+Proof. This is just a restatement of the fact that a and m coprime ⇐⇒ ∃u, v ∈ Z such that au + mv = 1.
+Observe that the congruence above can be rewritten as [a] × [x] = [1] in Z/mZ. We say that
+[a] ∈ Z/mZ has a multiplicative inverse if ∃[x] ∈ Z/mZ such that [a] × [x] = [1]. Hence
+we deduce that the only elements of Z/mZ with muliplicative inverse are those given by [a], where a is coprime to m. Recall that × on Q had the extra property that all non-zero elements had multiplicative
+inverses. When does this happen in Z/mZ?. By the above we see that this can happen ⇐⇒ {1, 2, · · · , m − 1} are all coprime to m. This can only happen if m is prime. We have thus proven the following:
+Corollary. All non-zero elements of Z/mZ have a multiplicative inverse ⇐⇒ m is prime.
+11
+
+
+Later this will be restated as Z/mZ is a field ⇐⇒ m is a prime. These are examples of things called finite fields.
+Important Exercise. Show that if m is prime then the product of two non-zero elements of Z/mZ is again non-zero.
+Key Observation: There are naturally occuring sets (other than Z and Q) which come equipped with a concept of + and ×, whose most basic properties are the same as those of the usual addition and multiplication on Z or Q. Don’t be fooled into thinking all other examples will come from numbers. As we’ll see, there are many examples which are much more exotic.
+3 Groups
+3.1 Basic Definitions
+Definition. Let G be a set. A binary operation is a map of sets:
+∗ : G × G → G.
+For ease of notation we write ∗(a, b) = a ∗ b ∀a, b ∈ G. Any binary operation on G gives a way of combining elements. As we have seen, if G = Z then + and × are natural examples of binary operations. When we are talking about a set G, together with a fixed binary operation ∗, we often write (G, ∗).
+Fundamental Definition. A group is a set G, together with a binary operation ∗, such that the following hold:
+1. (Associativity): (a ∗ b) ∗ c = a ∗ (b ∗ c) ∀a, b, c ∈ G.
+2. (Existence of identity): ∃e ∈ G such that a ∗ e = e ∗ a = a ∀a ∈ G.
+3. (Existence of inverses): Given a ∈ G, ∃b ∈ G such that a ∗ b = b ∗ a = e.
+Remarks. 1. We have seen five different examples thus far: (Z, +), (Q, +), (Q\{0}, ×),
+(Z/mZ, +), and (Z/mZ \ {[0]}, ×) if m is prime. Another example is that of a real
+vector space under addition. Note that (Z, ×) is not a group. Also note that this gives examples of groups which are both finite and infinite. The more mathematics you learn the more you’ll see that groups are everywhere.
+2. A set with a single element admits one possible binary operation. This makes it a group. We call this the trivial group.
+3. A set with a binary operation is called a monoid if only the first two properties hold. From this point of view, a group is a monoid in which every element is invertible. (Z, ×) is a monoid but not a group.
+12
+
+
+4. Observe that in all of the examples given the binary operation is commutative, i.e. a ∗ b = b ∗ a ∀a, b ∈ G. We do not include this in our definition as this would be too restrictive. For example the set of invertible n × n matrices with real entries, denoted GLn(R), forms a group under matrix multiplication. However we know that matrix multiplication does not commute in general.
+Definition. A group (G, ∗) is called Abelian if it also satisfies
+a ∗ b = b ∗ a ∀a, b ∈ G.
+This is also called the commutative property.
+The fundamental Abelian group is (Z, +). Notice also that any vector space is an Abelian group under it’s natural addition. So a group is a set with extra structure. In set theory we have the natural concept of a map between sets (a function). The following is the analogous concept for groups:
+Fundamental Definition. Let (G, ∗) and (H, ◦) be two groups. A homomorphism f , from G to H, is a map of sets f : G → H, such that f (x ∗ y) = f (x) ◦ f (y) ∀x, y ∈ G. If G = H and f = IdG we call f the identity homomorphism.
+Remarks. 1. Intuitively one should thing about a homomorphism as a map of sets which preserves the underlying group structure. It’s the same idea as a linear map between vector spaces.
+2. A homomorphism f : G → H which is bijective is called an isomorphism. Two groups are said to be isomorphic if there exists an isomorphism between them. Intuitively two groups being isomorphic means that they are the “same” group with relabelled elements.
+3. A homomorphism from a group to itself (i.e. f : G → G) is called an endomorphism. An endomorphism which is also an isomorphism is called an automorphism.
+Proposition. Let (G, ∗), (H, ◦) and (M, □) be three groups. Let f : G → H and g : H → M be homomorphism. Then the composition gf : G → M is a homomorphism.
+Proof. Let x, y ∈ G. gf (x ∗ y) = g(f (x) ◦ f (y)) = gf (x)□gf (y).
+Remark. Composition of homomorphism gives the collection of endomorphisms of a group the structure of a monoid. The subset of automorphisms has the stucture of a group under composition. We denote it by Aut(G). This is analogues to the collection of n × n invertible matrices being a group under matrix multiplication.
+Proposition. Let (G, ∗) be a group. The identity element is unique.
+Proof. Assume e, e′ ∈ G both behave like the identity. Then e = e ∗ e′ = e′.
+13
+
+
+Proposition. Let (G, ∗) be a group. For a ∈ G there is only one element which behaves like the inverse of a.
+Proof. Assume a ∈ G has 2 inverses, b, c ∈ G. Then:
+(a ∗ b) = e
+c ∗ (a ∗ b) = c ∗ e
+(c ∗ a) ∗ b = c (associativity and identity)
+e∗b = c
+b=c
+The first proposition tells us that we can write e ∈ G for the identity and it is well-defined. Similarly the second proposition tells us that for a ∈ G we can write a−1 ∈ G for the inverse in a well-defined way. The proof of the second result gives a good example of how we prove results for abstract groups. We can only use the axioms, nothing else.
+Given r ∈ Z and a ∈ G, we write
+ar =
+⎧⎪⎨
+⎪⎩
+a ∗ a ∗ · · · ∗ a (r times), if r > 0
+e, if r = 0
+a−1 ∗ a−1 ∗ · · · ∗ a−1 (−r times), if r < 0
+Cancellation Law for Groups. Let a, b, c ∈ G a group. Then
+a ∗ c = a ∗ b ⇒ c = b and c ∗ a = b ∗ a ⇒ c = b
+Proof. Compose on left or right by a−1 ∈ G, then apply the associativity and inverses and identity axioms.
+Proposition. Let (G, ∗) and (H, ◦) be two groups and f : G → H a homomorphism. Let eG ∈ G and eH ∈ H be the respective identities. Then
+• f (eG) = eH.
+• f (x−1) = (f (x))−1, ∀x ∈ G
+Proof. • f (eG) ◦ eH = f (eG) = f (eG ∗ eG) = f (eG) ◦ f (eG). By the cancellation law we deduce that f (eG) = eH.
+• Let x ∈ G. Then eH = f (eG) = f (x ∗ x−1) = f (x) ◦ f (x−1) and eH = f (eG) = f (x−1 ∗ x) = f (x−1) ◦ f (x). Hence f (x−1) = (f (x))−1.
+14
+
+
+3.2 Subgroups, Cosets and Lagrange’s Theorem
+In linear algebra, we can talk about subspaces of vector spaces. We have an analogous concept in group theory.
+Definition. Let (G, ∗) be a group. A subgroup of G is a subset H ⊂ G such that
+1. e ∈ H
+2. x, y ∈ H ⇒ x ∗ y ∈ H
+3. x ∈ H ⇒ x−1 ∈ H
+Remarks. 1. A subgroup is naturally a group under the induced binary operation. It clearly has the same identity element.
+2. If m ∈ N, then the subset mZ := {ma|a ∈ Z}is a subgroup of (Z, +).
+3. If V is a vector space over R then it is naturally an Abelian group under addition. If W is a subspace then it is also under a subgroup under addition.
+Proposition. H, K ⊂ G subgroups ⇒ H ∩ K ⊂ G is a subgroup.
+Proof. 1. As H, K subgroups, e ∈ H and e ∈ K ⇒ e ∈ H ∩ K.
+2. x, y ∈ H ∩ K ⇒ x ∗ y ∈ H and x ∗ y ∈ K ⇒ x ∗ y ∈ H ∩ K.
+3. x ∈ H ∩ K ⇒ x−1 ∈ H and x−1 ∈ K ⇒ x−1 ∈ H ∩ K.
+This result clearly extends to any collection of subgroups of G.
+Let (G, ∗) be a group and let H ⊂ G be a subgroup. Let us define a relation on G using H as follows:
+Given x, y ∈ G, x ∼ y ⇐⇒ x−1 ∗ y ∈ H
+Proposition. This gives an equivalence relation on G.
+Proof. We need to check the three properties of an equivalence relation:
+1. (Reflexive )e ∈ H ⇒ x−1 ∗ x ∈ H ∀x ∈ G ⇒ x ∼ x
+2. (Symmetric) x ∼ y ⇒ x−1 ∗ y ∈ H ⇒ (x−1 ∗ y)−1 ∈ H ⇒ y−1 ∗ x ∈ H ⇒ y ∼ x
+3. (Transitive) x ∼ y, y ∼ z ⇒ x−1 ∗ y, y−1 ∗ z ∈ H ⇒ (x−1 ∗ y) ∗ (y−1 ∗ z) ∈ H ⇒ x−1 ∗ z ∈ H ⇒x∼z
+15
+
+
+Definition. We call the equivalence classes of the above equivalence relation left cosets of H in G.
+Proposition. For x ∈ G the equivalence class (or left coset) containing x equals
+xH := {x ∗ h|h ∈ H} ⊂ G
+Proof. The easiest way to show that two subsets of G are equal is to prove containment in both directions. x ∼ y ⇐⇒ x−1 ∗ y ∈ H ⇐⇒ x−1 ∗ y = h for some h ∈ H ⇒ y = x ∗ h ∈ xH. Therefore {Equivalence class containing x} ⊂ xH. y ∈ xH ⇒ y = x ∗ h for some h ∈ H ⇒ x−1 ∗ y ∈ H ⇒ y ∼ x. Therefore xH ⊂ {Equivalence class containing x}.
+This has the following very important consequence:
+Corollary. Hence for x, y ∈ G, xH = yH ⇐⇒ x−1 ∗ y ∈ H.
+Proof. By the above proposition we know that xH = yH ⇐⇒ x ∼ y ⇐⇒ x−1 ∗y ∈ H.
+It is very important you understand and remember this fact. An immediate consequence is that y ∈ xH ⇒ yH = xH. Hence left cosets can in general be written with different representatives at the front. This is very important. Also observe that the equivalence class containing e ∈ G is just H. Hence the only equivalence class which is a subgroup H, as no other contains the identity. If H = {e} then the left cosets are singleton sets.
+Remarks. Let G = R3, thought of as a group under addition. Let H is a two dimensional subspace. Recall this is a subgroup under addition. Geometrically H is a plane which contains the origin. Geometrically the left cosets of H in R3 are the planes which are parallel to H.
+Definition. Let (G, ∗) be a group and H ⊂ G a subgroup. We denote by G/H the set of left cosets of H in G. If the size of this set is finite then we say that H has finite index in G. In this case we write
+(G : H) = |G/H|,
+and call it the index of H in G.
+For m ∈ N, the subgroup mZ ⊂ Z has index m. Note that Z/mZ is naturally the set of residue classes modulo m previously introduced. The vector space example in the above remark is not finite index as there are infinitely many parallel planes in R3
+Proposition. Let x ∈ G. The map (of sets)
+φ : H −→ xH
+h −→ x ∗ h
+is a bijection.
+16
+
+
+Proof. We need to check that φ is both injective and surjective. For injectivity observe that for g, h ∈ H, φ(h) = φ(g) ⇒ x ∗ h = x ∗ g ⇒ h = g. Hence φ is injective. For surjectivity observe that g ∈ xH ⇒ ∃h ∈ H such that g = x ∗ h ⇒ g = φ(h).
+Now let’s restrict to the case where G is a finite group.
+Proposition. Let (G, ∗) be a finite group and H ⊂ G a subgroup. Then ∀x ∈ G , |xH| = |H|.
+Proof. We know that there is a bijection between H and xH. Both must be finite because they are contained in a finite set. A bijection exists between two finite sets if and only if they have the same cardinality.
+Lagrange’s Theorem. Let (G, ∗) be a finite group and H ⊂ G a subgroup. Then |H| divides |G|.
+Proof. We can use H to define the above equivalence relation on G. Because it is an equivalence relation, its equivalence classes cover G and are all disjoint. Recall that this is called a partition of G. We know that each equivalence class is of the form xH for some (clearly non-unique in general) x ∈ G. We know that any left coset of H has size equal to |H|. Hence we have partitioned G into subsets each of size |H|. We conclude that |H| divides |G|.
+This is a powerful result. It tightly controls the behavior of subgroups of a finite group. For example:
+Corollary. Let p ∈ N be a prime number. Let (G, ∗) be a finite group of order p. Then the only subgroups of G are G and {e}.
+Proof. Let H be a subgroup of G. By Lagrange |H| divides p. But p is prime so either |H| = 1 or |H| = p. In the first case H = {e}. In the second case H = G.
+3.3 Finitely Generated Groups
+Definition. Let G be a group and X ⊂ G be a subset. We define the subgroup generated by X to be the intersection of all subgroups of G containing X. We denote it by gp(X) ⊂ G.
+Remarks. 1. gp(X) is the minimal subgroup containing X. By minimal we mean that if H ⊂ G is a subgroup such that X ⊂ H then gp(X) ⊂ H.
+2. A more constructive way of defining gp(X) is as all possible finite compositions of elements of X and their inverses. I leave it as an exercise to check that this subset is indeed a subgroup.
+3. Let us consider the group (Z, +) and X = {1} ⊂ Z. Then gp(X)=Z. This is the
+precise sense in which Z is “generated” by 1 under addition.
+Definition. We say a group (G, ∗) is finitely generated if ∃X ⊂ G finite such that gp(X )=G.
+17
+
+
+Remarks. 1. Clearly all finite groups are finitely generated.
+2. The fact that there are infinitely many primes implies that (Q\{0}, ×) is not finitely generated.
+Definition. A group (G, ∗) is said to be cyclic if ∃x ∈ G such that gp({x}) = G, i.e. G can be generated by a single element. In concrete terms this means that G = {xn|n ∈ Z}.
+By the above observations (Z, +) and (Z/mZ, +) are examples.
+Proposition. Any group of prime order is cyclic.
+Proof. Let G be a group of prime order p. Let x be a non-identity element of G. Then gp({x}) ⊂ G is non-trivial and by Lagrange’s theorem must have order p. Hence G = gp({x}).
+Remarks. It is important to understand that not all groups are cyclic. We’ll see many examples throughout the course.
+Let G be a group (not necessarily cyclic). For r, s ∈ Z and x ∈ G, xrxs = xr+s = xs+r =
+xsxr. Hence gp({x}) ⊂ G is Abelian. We deduce that all cyclic groups are Abelian.
+Theorem. Let G be a cyclic group. Then
+1. If G is infinite, G ∼= (Z, +)
+2. If |G| = m ∈ N, then G ∼= (Z/mZ, +)
+Proof. We have two cases to consider.
+1. If G = gp({x}), then G = {· · · x−2, x−1, e, x, x2 · · · }. Assume all elements in this set are distinct, then we can define a map of sets:
+φ:G → Z
+xn → n
+Then,∀a, b ∈ Z, φ(xa ∗ xb) = φ(xa+b) = a + b = φ(xa) + φ(xb) so φ is a homomorphism
+which by assumption was bijective. Thus, (G, ∗) is isomorphic to (Z, +).
+2. Now assume ∃a, b ∈ Z, b > a such that xa = xb. Then x(b−a) = e ⇒ x−1 = x(b−a−1) ⇒
+G = {e, · · · , xb−a−1}. In particular G is finite. Choose minimal m ∈ N such that
+xm = e. Then G = {e, x, · · · , xm−1} and all its elements are distinct by minimality of m. Hence |G| = m.
+18
+
+
+Define the map
+φ : G → Z/mZ
+xn → [n] for n ∈ {0, ...m − 1}
+This is clearly a surjection, hence a bijection because |G| = |Z/mZ| = m. Again ∀a, b ∈
+{0, ..., m − 1} we know φ(xa ∗ xb) = φ(xa+b) = [a + b] = [a] + [b] = φ(xa) + φ(xb) is a homomorphism. Hence (G, ∗) is isomorphic to (Z/mZ, +).
+Hence two finite cyclic groups of the same size are isomorphic. What are the possible subgroups of a cyclic group?
+Proposition. A subgroup of a cyclic group is cyclic.
+Proof. If H is trivial we are done. Hence assume that H is non-trivial. By the above we need to check two cases.
+1. (G, ∗) ∼= (Z, +). Let H ⊂ Z be a non-trivial subgroup. Choose m ∈ N minimal such
+that m ∈ H(m ∕= 0). Hence mZ = {ma|a ∈ Z} ⊆ H. Assume ∃n ∈ H such that
+n ∈/ mZ. By the remainder theorem, n = qm + r, r, q ∈ Z and 0 < r < m ⇒ r ∈ H.
+This is a contradiction by the minimality of m. Therefore mZ = H. Observe that
+gp({m}) = mZ ⊂ Z. Hence H is cylic.
+2. (G, ∗) ∼= (Z/mZ, +). Let H ⊂ Z/mZ be a non-trivial subgroup. Again, choose n ∈ N minimal and positive such that [n] ∈ H. The same argument as above shows that the containment gp({[n]}) ⊆ H is actually equality. Hence H is cyclic.
+Proposition. Let (G, ∗) be a finite cyclic group of order d. Let m ∈ N such that m divides |G|. Then there is a unique cyclic subgroup of order m.
+Proof. Because |G| = d we know that G ∼= (Z/dZ, +). Hence we need only answer the question for this latter group. Let m be a divisor of d. Then if n = d/m then gp({[n]}) ⊂ Z/dZ is cyclic of order m by construction. If H ⊂ Z/dZ is a second subgroup of order
+m then by the above proof we know that the minimal n ∈ N such that [n] ∈ H must be n = d/m. Hence H = gp({[n]}).
+Let (G, ∗) be a group (not necessarily cyclic) and x ∈ G. We call gp({x}) ⊂ G the subgroup generated by x. By definition it is cyclic.
+Definition. If |gp({x})| < ∞ we say that x is of finite order and its order, written ord(x) equals |gp({x})|. If not we say that x is of infinite order.
+19
+
+
+Remarks. 1. Observe that by the above we know that if x ∈ G is of finite order, then
+ord(x) = minimal m ∈ N such that xm = e
+2. e ∈ G is the only element of G of order 1.
+3. The only element with finite order in Z is 0.
+Proposition. Let (G, ∗) be a finite group and x ∈ G. Then ord(x) divides |G| and x|G| = e.
+Proof. By definition ord(x) = |gp({x})|. Therefore, by Lagrange’s theorem, ord(x) must divide |G|. Also note that by definition xord(x) = e. Hence
+x|G| = x(ord(x)× |G|
+ord(x) ) = e
+|G|
+ord(x) = e.
+3.4 Permutation Groups and Group Actions
+Definition. Let S be a set. We define the group of permutations of S to be the set of bijections from S to itself, denoted Σ(S), where the group binary operation is composition of functions.
+Remarks. 1. By composition of functions we always mean on the left, i.e. ∀f, g ∈ Σ(S) and s ∈ S (f ∗ g)(s) = f (g(s)).
+2. Associativity clearly has to hold. The identity element e of this group is the identity function on S, i.e. ∀x ∈ S, e(s) = s. Inverses exist because any bijective map from a set to itself has an inverse map.
+3. Let n ∈ N. We write Symn := Σ({1, 2, ..., n}). If S is any set of cardinality n then Σ(S) is isomorphic to Symn, the isomorphism being induced by writing a bijection from S to {1, 2, ..., n}. We call these groups the finite symmetric groups.
+4. Observe that given σ ∈ Σ(S) we can think about σ as “moving” S around. In this sense the group Σ(S) naturally “acts” on S. Let’s make this precise.
+Definition. Let (G, ∗) be a group and S a set. By a group action of (G, ∗) on S we mean a map:
+μ:G×S →S
+such that
+1. ∀x, y ∈ G, s ∈ S, μ(x ∗ y, s) = μ(x, μ(y, s))
+2. μ(e, s) = s
+20
+
+
+If the action of the group is understood we will write x(s) = μ(x, s)∀x ∈ G, s ∈ S. This notation makes the axioms clearer: (1) becomes (x ∗ y)(s) = x(y(s)) ∀x, y ∈ G, s ∈ S and (2) becomes e(s) = s ∀s ∈ S.
+Remarks. 1. Notice that there is a natural action of Σ(S) on S:
+μ : Σ(S) × S → S
+(f, s) → f (s)
+This is where the definition comes from.
+2. Let (G, ∗) be a group. There is a natural action of G on itself:
+μ:G×G → G
+(x, y) → x ∗ y
+Property (1) holds as ∗ is associative. Property (2) holds because e ∗ x = x ∀x ∈ G. This is called the left regular representation of G.
+3. We define the trivial action of G on S by
+μ:G×S → S
+(g, s) → s ∀s ∈ S, g ∈ G
+4. There is another natural action of G on itself:
+μ:G×G → G
+(x, y) → x−1 ∗ y ∗ x
+Property (1) holds because of associativity of ∗ and that (g ∗ h)−1 = h−1 ∗ g−1. Property (2) is obvious. This action is called conjugation.
+Let μ : G × S → S an action of a group G on a set S. Any g ∈ G naturally gives rise to a map:
+φg : S → S
+s &→ g(s)
+Observe that property (1) of μ being an action implies that φg∗h = φgφh ∀g, h ∈ G. Here the second term is composition of functions. Similarly property (2) tell is that φe = IdS..
+Proposition. φg is a bijection.
+21
+
+
+Proof. Given φg, if we can find an inverse function, then we will have shown bijectivity. By the above two observations it is clear that φg−1 is inverse to φg.
+Hence μ gives rise to a map of sets:
+φ : G → Σ(S)
+g → φg
+Proposition. φ is a homomorphism.
+Proof. As we have just seen, property (1) of μ being an action ⇒ φh ◦ φg = φh∗g∀h, g ∈ G. This is precisely the statement that φ is a homomorphism.
+So an action of a group G on a set S gives a homorphism φ : G −→ Σ(S). It is in fact true that any such homorphism comes from a unique group action. Hence an action of G on S is the same thing as homomorphism from G to the permutation group of S. Both concepts are interchangeable.
+Definition. An action of G on S is called faithful if
+φ : G → Σ(S) g '→ φg
+is injective.
+Notice that if G and H are two groups and f : G → H is an injective homomorphism then we may view G as a subgroup of H by identifying it with its image in H under f . Hence if G acts faithfully on S then G is isomorphic to a subgroup of Σ(S).
+Cayley’s Theorem. Let G be a group. Then G is isomorphic to a subgroup of Σ(G). In particular if |G| = n ∈ N, then G is isomorphic to a subgroup of Symn.
+Proof. The result will follow if we can show that the left regular representation is faithful. Let φ : G → Σ(G) be the homomorphism given by the left regular representation. Hence for g, s ∈ G, φg(s) = g ∗ s. Forh, g ∈ G, suppose φh = φg. Then h ∗ s = g ∗ s ∀s ∈ G ⇒ h = g. Hence φ is injective.
+3.5 The Orbit-Stabiliser Theorem and Sylow’s Theorem
+Definition. Let (G, ∗) be a group, together with an action φ on a set S. We can define an equivalence relation on S by
+s ∼ t ⇐⇒ ∃g ∈ G such that g(s) = t
+Remarks. This is an equivalence relation as a consequence of the group axioms, together with the definition of an action. I leave it as an exercise to check this.
+22
+
+
+Definition. Let (G, ∗) be a group, together with an action φ on a set S. Under the above equivalence relation we call the equivalence classes orbits, and we write
+Orb(s) := {t ∈ S|∃g ∈ G such that g(s) = t} ⊂ S
+for the equivalence class containing s ∈ S. We call it the orbit of s.
+It is important to observe that Orb(s) is a subset of S and hence is merely a set with no extra structure.
+Definition. Let (G, ∗) be a group, together with an action φ on a set S. We say that G acts transitively on S is there is only one orbit. Equivalently, φ is transitive if given s, t ∈ S, ∃g ∈ G such that g(s) = t.
+An example of a transitive action is the natural action of Σ(S) on S. This is clear because given any two points in a set S there is always a bijection which maps one to the other. If G is not the trivial group (the group with one element) then conjugation is never transitive. To see this observe that under this action Orb(e) = {e}.
+Definition. Let (G, ∗) be a group, together with an action φ on a set S. Let s ∈ S. We define the stabiliser subgroup of s to be all elements of G which fix s under the action. More precisely
+Stab(s) = {g ∈ G|g(s) = s} ⊂ G
+For this definition to make sense we must prove that Stab(s) is genuinely a subgroup.
+Proposition. Stab(s) is a subgroup of G.
+Proof. 1. e(s) = s ⇒ e ∈ Stab(s)
+2. x, y ∈ Stab(s) ⇒ (x ∗ y)(s) = x(y(s)) = x(s) = s ⇒ x ∗ y ∈ Stab(s).
+3. x ∈ Stab(s) ⇒ x−1(s) = x−1(x(s)) = (x−1 ∗ x)(s) = e(s) = s ⇒ x−1 ∈ Stab(s)
+Thus we may form the left cosets of Stab(s) in G:
+G/Stab(s) := {xStab(s)|x ∈ G}.
+Recall that these subsets of G are the equivalence classes for the equivalence relation:
+Given x, y ∈ G, x ∼ y ⇐⇒ x−1 ∗ y ∈ Stab(s),
+hence they partition G into disjoint subsets.
+Proposition. Let x, y ∈ G then xStab(s)=yStab(s) ⇐⇒ x(s) = y(s).
+23
+
+
+Proof. Recall that x and y are in the same left coset ⇐⇒ x−1y ∈ Stab(s). Hence x−1y(s) = s. Composing both sides with x and simplifying by the axioms for a group action implies that x(s) = y(s).
+We deduce that there is a well defined map (of sets):
+φ : G/Stab(s) −→ Orb(s)
+xStab(s) −→ x(s)
+Proposition. φ is a bijection.
+Proof. By definition, Orb(s) := {x(s) ∈ S|x ∈ G}. Hence φ is trivially surjective. Assume φ(xStab(s)) = φ(yStab(s)) for some x, y ∈ G. This implies the following:
+x(s) = y(s) ⇒ x−1(y(s)) = s
+⇒ (x−1 ∗ y)(s) = s
+⇒ x−1 ∗ y ∈ Stab(s)
+⇒ xStab(s) = yStab(s)
+Therefore φ is injective.
+This immediately gives the following key result:
+Orbit-Stabiliser Theorem. Let (G, ∗) be a group together with an action, φ, on a set S. Let s ∈ S such that the orbit of s is finite (|Orb(s)| < ∞). Then stab(s) ⊂ G is of finite index and
+(G : Stab(s)) = |Orb(s)|
+Proof. Immediate from previous proposition.
+We have the following corollary:
+Corollary. If (G, ∗) is a finite group acting on a set S and s ∈ S then
+|G| = |Stab(s)| · |Orb(s)|.
+Proof. In this case (G : Stab(s)) = |G|/|Stab(s)|. Applying the orbit-stabiliser theorem yields the result.
+24
+
+
+The orbit-stabiliser theorem allows us to prove non-trivial results about the structure of finite groups. As an example let us consider the action of G (a finite group) on itself by conjugation. The orbits under this action are called conjugacy classes. Concretely, for h ∈ G, Conj(h) := Orb(h) = {g−1∗h∗g|g ∈ G}. If C1, · · · , Cr ⊂ G are the
+distinct conjugacy classes then we deduce that |G| = !r
+i=1 |Ci| and |Ci|||G| ∀i ∈ {1, · · · , r}.
+If G = GLn(R), the group of invertible n × n matrices with real entries (under matrix multiplication), then two matrices are in the same conjugacy class if and only if they are similar.
+Definition. Let (G, ∗) be a group. The center of G is the subset
+Z(G) := {h ∈ G|g ∗ h = h ∗ g, ∀g ∈ G}.
+We leave it as an exercise to check that the center is a subgroup.
+Theorem. Let G be a finite group of order pn, for p a prime number and n ∈ N. Then the center is non-tivial.
+Proof. Let G act on itself by conjugation. We know Z(G) is a subgroup. Observe that h ∈ Z(G) ⇐⇒ Conj(h) = {h}. Recall that Conj(e) = {e}, hence |Conj(e)| = 1. Assume that Z(G) = {e}. Hence if h ∕= e then |Conj(h)| > 1. By the orbit-stabiliser theorem we know that |Conj(h)| must divide pn. Hence p divides |Conj(h)|. Because the conjugacy classes form a partition of G we deduce that ∃m ∈ N such that pn = 1 + pm. This is not possible, hence Z(G) cannot be trivial.
+Recall that Lagrange’s theorem says that if G is a finite group and H is a subgroup then |H| divides |G|. It is not true, in general, that given any divisor of |G| there is a subgroup of that order. We shall see an example of such a group later. There are, however, partial converses to Lagrange’s theorem.
+Sylow’s Theorem. Let (G, ∗) be a finite group such that pn divides |G|, where p is prime. Then there exists a subgroup of order pn.
+Proof. Assume that |G| = pnm, where m = pru with HCF (p, u) = 1. Our central strategy is to consider a cleverly chosen group action of G and prove one of the stabilizer subgroups has size pn. We’ll need to heavily exploit the orbit-stabilizer theorem. Let S be the set of all subsets of G of size pn. An element of S is an unordered n-tuple of distinct elements in G. There is a natural action of G on S by term-by-term composition on the left. Let ω ∈ S. If we fix an ordering ω = {ω1, · · · , ωpn} ∈ S, then g(ω) := {g∗ω1, · · · , g∗ωpn}.
+• We first claim that |Stab(ω)| ≤ pn. To see this define the function
+f : Stab(ω) → ω
+g → g ∗ ω1
+By the cancellation property for groups this is an injective map. Hence |Stab(ω)| ≤ |ω| = pn.
+25
+
+
+• Observe that
+|S| =
+!pnm
+pn
+"
+= pnm!
+pn!(pnm − pn)! =
+pn−1
+#
+j=0
+pnm − j
+pn − j = m
+pn−1
+#
+j=1
+pnm − j
+pn − j .
+Observe that if 1 ≤ j ≤ pn − 1 then j is divisible by p at most n − 1 times. This means that pnm − j and pn − j have the same number of p factors, namely the number of p factor of j. This means that
+pn−1
+#
+j=1
+pnm − j
+pn − j
+has no p factors. Hence |S| = prv, where HCF (p, v) = 1.
+Now recall that S is the disjoint union of the orbits of our action of G on S. Hence there must be an ω ∈ S such that |Orb(ω)| = pst, where s ≤ r and HCF (p, t) = 1. By the orbit-stabilizer theorem we know that |Stab(ω)| = pn+r−s u
+t . Because |Stab(ω)| ∈ N
+and u and t are coprime to p, we deduce that u
+t ∈ N. Hence |Stab(ω)| ≥ pn.
+For this choice of ω ∈ S, Stab(ω) is thus a subgroup of size pn.
+Historically this is a slight extension of what is called Sylow’s First Theorem. There are two more which describe the properties of such subgroups in greater depth.
+3.6 Finite Symmetric Groups
+As we have proven, if (G, ∗) is a finite group of order n. Then G is isomorphic to a subgroup of Symn, the symmetric group on {1, 2...n}. Hence to properly understand finite groups we must understand these finite symmetric groups.
+Proposition. For n ∈ N, |Symn| = n!.
+Proof. Any permutation σ of {1, 2...n} is totally determined by a choice of σ(1), then σ(2) and so on. At each stage the possibilities drop by one. Hence the number of permutations is n!.
+We need to think of a way of elegantly representing elements of Symn. For a ∈ {1, 2...n} and σ ∈ Symn we represent the action of σ on a by a cycle:
+(abc...f ) where b = σ(a), c = σ(b)...σ(f ) = a.
+We know that eventually we get back to a because σ has finite order. In this way every σ ∈ Symn can be written as a product of disjoint cycles:
+σ = (a1...ar)(ar+1...as)...(at+1...an).
+26
+
+
+This representation is unique up to internal shifts and reordering the cycles.
+E.g. Let n = 5 then σ = (123)(45) corresponds to
+1 −→ 2
+2 −→ 3
+σ : 3 −→ 1
+4 −→ 5
+5 −→ 4
+If an element is fixed by σ we omit it from the notation.
+E.g. Let n = 5 then σ = (523) corresponds to
+1 −→ 1
+2 −→ 3
+σ : 3 −→ 5
+4 −→ 4
+5 −→ 2
+This notation makes it clear how to compose two permutations. For example, let n = 5 and σ = (23), τ = (241), then τ σ = (241)(23) = (1234) and στ = (23)(241) = (1324). Observe that composition is on the left when composing permutations. This example also shows that in general Symn is not Abelian. Hence, given σ ∈ Symn, we naturally get a well-defined partition of n, taking the lengths of the disjoint cycles appearing in σ. This is call the cycle structure of σ.
+Proposition. Let σ ∈ Symn decompose as the disjoint product of cycles of length n1, ..nm
+(so ! ni = n). Then ord(σ) = LCM (n1, ...nm), where LCM denotes the lowest common multiple.
+Proof. Let σ = (a1, · · · , ar)(ar+1, · · · , as) · · · (at+1, · · · , an), be a representation of σ as the disjoint product of cycles. We may assume that r = n1, etc, without any loss of generality. Observe that a cycle of length d ∈ N must have order d in Symn. Also recall that if G is
+a finite group then for any d ∈ N, x ∈ G, xd = e ⇐⇒ ord(x)|d. Also observe that for
+all d ∈ N, σd = (a1, · · · , ar)d(ar+1, · · · , as)d · · · (at+1, · · · , an)d. Thus we know that σd = e ⇐⇒ ni|d ∀i. The smallest value d can take with this property is LCM (n1, ...nm).
+Theorem. Two permutations are conjugate in Symn if and only if they have the same cycle structure.
+Proof. Let σ, τ ∈ Symn have the same cycle structure. Hence we may represent both in the form:
+σ = (a1, · · · , ar)(ar+1, · · · , as) · · · (at+1, · · · , an),
+27
+
+
+τ = (b1, · · · , br)(br+1, · · · , bs) · · · (bt+1, · · · , bn).
+Define α ∈ Symn such that α(ai) = bi ∀i. By construction α−1τ α = σ. Going through the above process in reverse, the converse is clear.
+Corollary. Conjugacy classes in Symn are indexed by cycle structures (i.e. partitions of n).
+Proof. Immediate from the above.
+Definition. A transposition is a cycle of length 2.
+Observe that we can write any cycle as a product of transpositions:
+k
+Hence any permutation σ ∈ Symn may be written as the (not necessarily disjoint) product of transpositions. This representation is non-unique as the following shows: e.g. n=6, σ=(1 2 3)=(1 3) (1 2)=(4 5)(1 3)(4 5)(1 2) Notice that both expressions involve an even number of transpositions.
+Theorem. Let σ ∈ Symn be expressed as the product of transpositions in two potentially different ways. If the first has m transpositions and the second has n transpositions then 2|(m − n).
+Proof. First notice that a cycle of length r can be written as the product of r−1 transpositions by the above. Let us call σ even if there are an even number of even length cycles (once expressed as a disjoint product); let us call σ odd if there are an odd number of even length cycles. We also define the sign of σ, denoted sgn(σ), to be +1 or −1 depending on whether σ is even or odd. Consider how sign changes when we multiply by a transposition (1 i). We have two cases:
+1. 1 and i occur in the same cycle in σ. Without loss of generality we consider (1 2 · · · i · · · r) as being in σ.
+(1 i)(1 2 · · · i · · · r)=(1 2 · · · i − 1)(i i + 1 · · · r)
+If r is even then either we get two odd length cycles or two even length cycles. If r is odd then exactly one of the cycles on the right is even length. In either case, sgn((1 i)σ) = −sgn(σ).
+2. 1 and i occur in distinct cycles. Again, without loss of generality we may assume that (1 · · · i − 1)(i · · · r) occurs in σ. In this case
+(1 i)(1 2 · · · i − 1)(i · · · r)=(1 · · · r).
+In either of the cases r even or odd, we see that the number of even length cycles must drop or go up by one. Hence sgn((1 i)σ) = −sgn(σ) as in case 1.
+28
+
+
+We deduce that multiplying on the left by a transposition changes the sign of our permutation. The identity must have sign 1, hence by induction we see that the product of an odd number of transpositions has sign −1, and the product of an even number of transpositions has sign 1. Note that if we write any product of transpositions then we can immediately write down an inverse by reversing their order. Let us assume that we can express σ as the product of transpositions in two different ways, one with an odd number and one with an even number. Hence we can write down σ as the product of evenly many transpositions and σ−1 as a product of an odd number of transpositions. Thus we can write e = σ ∗ σ−1 as a product of an odd number of transpositions. This is a contradiction as sgn(e) = 1.
+We should observe that from the proof of the above we see that ∀σ, τ ∈ Symn, sgn(στ ) = sgn(σ)sgn(τ ). Because sgn(e) = 1 we deduce that sgn(σ) = sgn(σ−1) for all σ ∈ Symn. In particular this shows that the set of even elements of Symn contains the identity and is closed under composition and taking inverse. Hence we have the following:
+Definition. The subgroup of Altn ⊂ Symn consisting of even elements is called the Alternating group of rank n.
+Observe that Altn contains all 3-cycles (cycles of length 3).
+Proposition. Altn is generated by 3-cylces.
+Proof. By generate we mean that any element of Altn can be expressed as the product of three cycles. As any element of Altn can be written as the product of three cycles we only have to do it for the product of two transpositions. There are two cases:
+1. (i j)(k l) = (k i l)(i j k).
+2. (i j)(i k) = (i k j).
+Proposition. |Altn| = n!
+2.
+Proof. Recall that |Symn| = n!, hence we just need to show that (Symn : Altn) = 2. Let σ, τ ∈ Symn. Recall that
+σAltn = τ Altn ⇐⇒ σ−1τ ∈ Altn.
+But sgn(σ−1τ ) = sgn(σ)sgn(τ ), hence
+σAltn = τ Altn ⇐⇒ sgn(σ) = sgn(τ ).
+Hence Altn has two left cosets in Symn, one containing even permutations and one odd permutations.
+Later we shall see that the alternating groups for n ≥ 5 have a very special property.
+29
+
+
+3.7 Symmetry of Sets with Extra Structure
+Let S be a set and Σ(S) its permutation group. The permutation group completely ignores the fact that there may be extra structure on S. As an example, Rn naturally has the structure of a vector space. The permutation group
+Σ(Rn) does not take this into account. However within the full permutation group there
+are linear permutations, namely GLn(R). These are permutations which preserve the vector space stucture.
+Symmetry in Euclidean Space
+Definition. Given n ∈ N, n-dimensional Euclidean space is the vector space Rn equipped with the standard inner product (the dot product).
+Concretely, if x =
+⎛
+⎜⎝
+x...1
+xn
+⎞
+⎟⎠ , y =
+⎛
+⎜⎝
+y...1
+yn
+⎞
+⎟⎠ ∈ Rn then 〈x, y〉 := x1y1 + · · · + xnyn.
+Definition. The distance between x and y in Rn is
+d(x, y) := '〈x − y, x − y〉.
+Definition. An isometry of Rn is a map of sets f : Rn → Rn (not necessarily linear) such
+that ∀x, y ∈ Rn, d(x, y) = d(f (x), f (y)). The collection of all isometries of Rn is denoted by
+I som(Rn ).
+Remarks. • The identity function is an isometry and the composition of any two isometries is an isometry.
+• We say an isometry, f , fixes the origin if f (0) = 0. It is a fact that f fixes the origin if and only if f (x) = Ax for all x ∈ Rn, where A is an orthogonal matrix.
+• We say an isometry, f , is a translation if
+f : Rn −→ Rn
+x −→ x + y.
+for some y ∈ Rn.
+• Every isometry of Rn is a composition of an origin fixing isometry and a translation. As a consequence, all isometries are bijective and their inverses are isometries. This means Isom(Rn) is a subgroup of Σ(Rn).
+Let X ⊂ Rn be a subset (not necessarily a subspace).
+Definition. We define the symmetry group of X to be the subgroup Sym(X) ⊂ Isom(Rn) with the property that f ∈ Sym(X) if and only if f permutes X.
+There is a natural action of Sym(X) on the set X, coming from the fact there is a natural homomorphism Sym(X) → Σ(X). Sym(X) measures how much symmetry X has. The more symmetric X, the larger Sym(X).
+30
+
+
+The Dihedral Group
+Let m ∈ N and X ⊂ R2 be a regular m-gon centered at the origin. We call the symmetry group of X the dihedral group of rank m, and we denote it by Dm. First observe that every element of Dm must fix the center of X (the origin). Thus we may view Dm as a subgroup of the group of 2 × 2 orthogonal matrices. We shall not take this approach here. Also observe that f ∈ Dm acts faithfully and transitive on the set of vertices of X. Hence Dm can naturally by identified with a subgroup of Symm. Let σ be the rotation by 2π
+m
+clockwise about the origin. All possible rotational symmetries are generated by σ, namely
+Rotm = {e, σ, σ2, · · · , σm−1} ⊂ Dm.
+Hence Rotm is cyclic of order m. Given a vertex a, Stab(a) = {e, τ }, where τ is the reflection through the straight line containing a and the origin. By the orbit-stabilizer theorem |Dm| = 2m, hence (Dm : Rotm) = 2. We deduce that
+Dm = Rotm
+!
+τ Rotm.
+The left coset τ Rotm is precisely the set of reflective symmetries. Hence every element of Dm can be written in the form σk (if a rotation) or τ σk (if a reflection). The group structure is completely determined by the following properties
+• ord(σ) = m
+• ord(τ ) = 2
+• τ σ = σ−1τ (consider the action on the vertices)
+Observe that the third property implies that Dm is not Abelian. Here is a picture for n = 3.
+31
+T
+a
+f
+
+
+The Cube in R3
+Let X ⊂ R3 be a solid cube centered at the origin. Again, elements of Sym(X) must fix the origin, hence, if we wished, we could identify Sym(X) with a subgroup of the group of 3 × 3 orthogonal matrices. Again Sym(X) acts faithfully and transitively on the vertices. If a ∈ X is a vertex, then Stab(a) can naturally be identified with D3 (see below figure) which has size 6. Hence, by the orbit-stabilizer theorem, |Sym(X)| = 48. The same logic applies to Rot□, the rotational symmetries, although the stabilizer of a now has size 3. This tells us that |Rot□| = 24.
+If τ ∈ Sym(X) is the symmetry sending x to −x (this is not a rotation), then again
+Sym(X) = Rot□
+!
+τ Rot□.
+It can be shown that τ σ = στ for all σ ∈ Rot□. Thus it remains to determine the group structure of Rot□. Color the vertices with four colors, making sure that opposite vertices have the same color (see below figure). Rotational symmetries act on this set of four colors, inducing a homomorphism from Rot□ to Sym4. Given any two colors, it is possible to transpose them (leaving the others fixed) by a rotation. Because Sym4 is generated by transpositions, the induced homormorphism Rot□ → Sym4 must be surjective. However, |Rot□| = 24 = 4! = |Sym4|. Hence it must be an isomorphism. We deduce that Rot□ is isomorphic to Sym4.
+32
+FIT
+E
+I
+
+
+Interesting Question:
+Let (G, ∗) be an abstract group. When is it true that we can find X ⊂ Rn, for some n ∈ N such that
+G ∼= Sym(X)?
+Less formally, when can an abstract group be realised in geometry?
+3.8 Normal Subgroups and Isomorphism Theorems
+In linear algebra the predominant objects we study are the maps between vector spaces, and not the vector spaces themselves. The structure preserving maps between vector spaces are more interesting than the spaces themselves. This a deep observation and it is true far beyond the confines of linear algebra. Philosophically it’s saying that an object in isolation is uninteresting; it’s how it relates to what’s around it that matters. The world of group theory is no different. Here the objects are groups and the maps between them are homomorphisms. Now we’ll study homomorphisms between abstract groups in more detail. Let G and H be two groups. We’ll suppress the ∗ notation as it will always be obvious where composition is taking place. Let eG and eH be the respective identity elements. Recall that a homomorphism from G to H is a map of sets f : G → H such that ∀x, y ∈ G, f (xy) = f (x)f (y).
+Definition. Given f : G → H a homomorphism of groups, we define the kernel of f to be:
+Ker(f ) := {x ∈ G|f (x) = eH}
+We define the image of f to be:
+Im(f ) := {y ∈ H|∃x ∈ G such that f (x) = y}
+Proposition. Given a homomorphism f : G → H, Ker(f )⊆ G and Im(f ) ⊆ H are subgroups.
+Proof. First we will show true for Ker(f ):
+1. f (eG) = eH ⇒ eG ∈ Ker(f ).
+2. Suppose x, y ∈ Ker(f ). Then f (xy) = f (x)f (y) = eH ⇒ xy ∈ Ker(f ).
+3. Given x ∈ Ker(f ), f (x−1) = e−1
+H = eH ⇒ x−1 ∈ Ker(f ).
+Now we will show that Im(f ) is a subgroup:
+1. f (eG) = eH so eH ∈ Im(f ).
+2. f (xy) = f (x)f (y)∀x, y ∈ G so Im(f ) is closed under composition.
+3. Note that f (x)−1 = f (x−1) ⇒ y ∈ Im(f ) ⇒ y−1 ∈ Im(f ).
+33
+
+
+Proposition. A homomorphism f : G → H is injective if and only if ker(f ) is trivial.
+Proof. f injective ⇒ Ker(f ) = {eG} trivially. Now assume ker(f ) = {eG}. Suppose x, y ∈ G such that f (x) = f (y).
+f (x) = f (y) ⇒ f (x)f (y)−1 = eH
+⇒ f (x)f (y−1) = eH
+⇒ f (xy−1) = eH
+⇒ xy−1 = eG
+⇒ x=y
+Thus f is injective.
+Recall that for m ∈ N the set of left cosets of mZ in Z, denoted Z/mZ naturally inher
+ited the structure of a group from + on Z. It would be reasonable to expect that this was true in the general case, i.e. given G a group and H, a subgroup, the set G/H naturally inherits the structure of a group from G. To make this a bit more precise let’s think about what naturally means. Let xH, yH ∈ G/H be two left cosets. Recall that x and y are not necessarily unique. The only obvious way for combining xH and yH would be to form (xy)H.
+Warning: in general this is not well defined. It will depend on the choice of x and y.
+Something very special happens in the case G = Z and mZ = H.
+Fundamental Definition. We call a subgroup H ⊆ G normal if, for all g ∈ G, gHg−1 = {ghg−1|g ∈ G, h ∈ H} = H. We denote normal subgroup by H ⊳ G.
+Remarks. 1. Observe that this is not saying that given g ∈ G and h ∈ H, then ghg−1 = h. It is merely saying that ghg−1 ∈ H. A normal subgroup is the union of conjugacy classes of G.
+2. If G is Abelian, every subgroup is normal as ghg−1 = h∀g, h ∈ G.
+3. Let G=Sym3, H = {e, (12)}. Then (13)(12)(13) = (23) ∈/ H
+Hence H is not normal in Sym3, so in general not all subgroups of a group are normal.
+Proposition. Let G and H be two groups. Let f : G → H a homomorphism. Then Ker(f ) ⊂ G is a normal subgroup.
+Proof. Let h ∈ Ker(f ) and g ∈ G. Then f (ghg−1) = f (g)f (h)f (g−1) = f (g)eHf (g)−1 = eH ⇒ ghg−1 ∈ Ker(f ).
+In general Im(f ) ⊂ H is not normal.
+34
+
+
+Fundamental Definition. We say a group G is simple if its only normal subgroups are {e} and G.
+Cyclic groups of prime order are trivially simple by Lagrange’s theorem. It is in fact true that for n ≥ 5, Altn is simple, although proving this will take us too far afield. As we shall see later simple groups are the core building blocks of groups theory.
+The importance of normal subgroups can be seen in the following:
+Proposition. Let H ⊆ G be a normal subgroup. Then the binary operation:
+G/H × G/H → G/H (xH, yH) %→ (xy)H
+is well defined.
+Proof. As usual the problem is that that coset representatives are not unique and thus we could have two representatives giving different maps. Thus our goal is to show:
+∀x1, x2, y1, y2 ∈ G such that x1H = x2H and y1H = y2H, then (x1y1)H = (x2y2)H
+By assumption we know x−1
+1 x2, y−1
+1 y2 ∈ H. Consider
+u = (x1y1)−1(x2y2) = y−1
+1 x−1
+1 x2y2
+Hence uy−1
+2 y1 = y−1
+1 (x−1
+1 x2)y1. Therefore, by the normality of H, uy−1
+2 y1 ∈ H ⇒ u ∈ H ⇒ (x1y1)H = (x2y2)H.
+This shows that if H ⊂ G normal, G/H can be endowed with a natural binary operation.
+Proposition. Proposition Let G be a group; H ⊂ G a normal subgroup. Then G/H is a group under the above binary operation. We call it the quotient group.
+Proof. Simple check of three axioms of being a group.
+1. ∀x, y, z ∈ G, (xy)z = x(yz) ⇒ (xH ∗ yH) ∗ zH ⇒ xH ∗ (yH ∗ zH).
+2. xH ∗ H = xH = H ∗ xH ⇒ H ∈ G/H is the identity.
+3. xH ∗ x−1H = xx−1H = eH = H = x−1xH = x−1H ∗ xH ⇒ inverses exist.
+Proposition. The natural map
+φ : G −→ G/H
+x −→ xH
+is a homomorphism with Ker(φ) = H.
+35
+
+
+Proof. Observe that ∀x, y ∈ G, φ(xy) = xyH = xHyH = φ(x)φ(y) ⇒ φ is a homomorphism. Recall that the identity element in G/H is the coset H. Hence for x ∈ Ker(φ) ⇐⇒ φ(x) = xH = H ⇐⇒ x ∈ H. Hence Ker(φ) = H. Observe that this shows that any normal subgroup can be realised as the kernel of a group homomorphism.
+The First Isomorphism Theorem
+Let G and H be groups, with respective identities eG and eH. Let φ : G → H be a homomorphism. Recall that Ker(φ) ⊂ G is a normal subgroup. Hence we may form the quotient group G/Ker(φ). Let x, y ∈ G such that they are in the same left coset of Ker(φ). Recall that xKer(φ) = yKer(φ) ⇐⇒ x−1y ∈ Ker(φ) ⇐⇒ φ(x−1y) = eH ⇐⇒ φ(x−1)φ(y) = eH ⇐⇒ φ(x)−1φ(y) = eH ⇐⇒ φ(x) = φ(y). In summary, φ(x) = φ(y) ⇐⇒ xKer(φ) = yKer(φ) Hence φ is constant on each coset of Ker(φ).
+Hence we get a map of sets :
+φ : G/Ker(φ) −→ Im(φ)
+xKer(φ) −→ φ(x)
+This is well define precisely because of the above observations.
+The First Isomorphism Theorem. Let G and H be two groups. Let φ : G → H be a homomorphism, then the induced map
+φ : G/Ker(φ) −→ Im(φ)
+xKer(φ) −→ φ(x)
+is an isomorphism of groups.
+Proof. Firstly we observe that the induced φ is by definition of Im(φ) surjective. Note that given x, y ∈ G, φ(xKer(φ)) = φ(yKer(φ)) ⇐⇒ φ(x) = φ(y) ⇐⇒ xKer(φ) = yKer(φ), hence φ is injective. It is left for us to show that φ is a homomorphism. Given x, y ∈ G, φ(xKer(φ)yKer(φ)) = φ(xyKer(φ)) = φ(xy) = φ(x)φ(y) = φ(xKer(φ))φ(yKer(φ)). Therefore φ : G/Ker(φ) → Im(φ) is a homomorphism, and thus an isomorphism.
+36
+
+
+The Third Isomorphism Theorem
+Let G be a group and N a normal subgroup. The third isomorphism theorem concerns the connection between certain subgroups of G and subgroups of G/N . Let H be a subgroup of G containing N . Observe that N is automatically normal in H. Hence we may form the quotient group H/N = {hN |h ∈ H}. Observe that H/N is naturally a subset of G/N .
+Lemma. H/N ⊂ G/N is a subgroup.
+Proof. We need to check the three properties.
+1. Recall that N ∈ G/N is the identity in the quotient group. Observe that N ⊂ H ⇒ N ∈ H/N .
+2. Let x, y ∈ H. By definition xy ∈ H. Thus xN yN = (xy)N ∈ H/N .
+3. Let x ∈ H. By definition x−1 ∈ H. Thus (xN )−1 = x−1N ∈ H/N .
+Conversely, let M ⊂ G/N be a subgroup. Let HM ⊂ G be the union of the left cosets contained in M .
+Lemma. HM ⊂ G is a subgroup.
+Proof. We need to check the three properties.
+1. Recall that N ∈ G/N is the identity in the quotient group. Hence N ∈ M ⇒ N ⊂ HM . N is a subgroup hence eG ∈ N ⇒ eG ∈ HM .
+2. Let x, y ∈ HM . This implies that xN, yN ∈ M . M is a subgroup, hence xN yN = xyN ∈ M . This implies that xy ∈ HM .
+3. Let x ∈ HM . Hence xN ∈ M . M is a subgroup, hence (xN )−1 = x−1N ∈ M . This implies that x−1 ∈ HM .
+Hence we have two maps of sets:
+α : {Subgroups of G containing N } −→ {Subgroups of G/N }
+H −→ H/N
+and
+β : {Subgroups of G/N } −→ {Subgroups of G containing N }
+M −→ HM
+37
+
+
+Proposition. These maps of sets are inverse to each other.
+Proof. We need to show that composition in both directions gives the identity function.
+1. Let H be a subgroup of G containing N . Then βα(H) = β(H/N ) = H. Thus βα is the identity map on {Subgroups of G containing N }.
+2. Let M be a subgroup of G/N . then αβ(M ) = α(HM ) = M . Thus αβ is the identity map on {Subgroups of G/N }.
+We deduce that both α and β are bijections and we have the following:
+The Third Isomorphism Theorem. Let G be a group and N ⊂ G a normal subgroup. There is a natural bijection between the subgroups of G containing N and subgroups of G/N .
+Proof. Either map α or β exhibits the desired bijection.
+3.9 Direct Products and Direct Sums
+Definition. Let G and H be two groups, with respective identities eG and eH. We may form the direct product G × H = {(x, g)|x ∈ G g ∈ H}. Let x, y ∈ G and g, h ∈ H. Observe that there is a natural binary operation on G × H given by:
+(x, g) ∗ (y, h) := (xy, gh).
+Lemma. G × H is a group under the natural binary operation.
+Proof. 1. Associativity holds for both G and H ⇒ associativity hold for G × H.
+2. (eG, eH) is the identity.
+3. For g ∈ G and h ∈ H (g, h)−1 = (g−1, h−1).
+There is an obvious generalization of this concept to any finite collection of groups.
+Definition. Let G be a group and H, K ⊂ G two subgroups. Let us furthermore assume that
+1. ∀h ∈ H and ∀k ∈ K, hk = kh.
+2. Given g ∈ G there exist unique h ∈ H, k ∈ K such that g = hk.
+Under these circumstances we say that G is the direct sum of H and K and we write G = H ⊕ K. Observe that the second property is equivalent to:
+3. H ∩ K = {eG} and for g ∈ G there exist h ∈ H, k ∈ K such that g = hk.
+38
+
+
+For example, (Z/15Z, +) is the direct sum of gp([3]) and gp([5]).
+Proposition. If G is the direct sum of the subgroups H, K ⊂ G then G ∼= H × K.
+Proof. Define the map
+φ : H × K −→ G
+(h, k) −→ hk
+Let x, y ∈ H and g, h ∈ K. By property one φ((x, g)(y, h)) = φ(xy, gh) = xygh = xgyh = φ(x, g)φ(y, h). Hence φ is a homomorphism. Property two ensures that φ is bijective.
+The concept of direct sum has a clear generalization to any finite collection of subsets of G.
+3.10 Finitely Generated Abelian Groups
+Let G be an Abelian group. We shall now use additive notation to express composition within G. In particular we will denote the identity by 0 (not to be confused with 0 ∈ Z). We
+do this because we are very familiar with addition on Z being commutative. Given m ∈ Z and a ∈ G, we write
+ma =
+⎧⎪⎨
+⎪⎩
+a ∗ a ∗ · · · ∗ a (m times), if m > 0
+0, if m = 0
+a−1 ∗ a−1 ∗ · · · ∗ a−1 (−m times), if m < 0
+We have the identities:
+1. m(a + b) = ma + mb
+2. (m + n)a = ma + na
+3. (mn)a = m(na)
+∀a, b ∈ G; m, n ∈ Z
+Now assume that G is finitely generated. Hence ∃{a1, · · · , an} ⊂ G such that gp({a1, · · · , an}) = G. In other words, because G is Abelian, every x ∈ G can be written in the form
+x = λ1a1 + · · · + λnan λi ∈ Z.
+In general such an expression is not unique. For example is G is of order m ∈ N then (m + 1)a = a for all a ∈ G. This is because ma = 0 A reasonable goal would be to find a generating set such that every expression of the above form was unique (after possibly restricting 0 ≤ λ1 < ord(ai)) for a given x ∈ G. Such a generating set is called a basis for
+39
+
+
+G. Observe that it is not clear that such a basis even exists at present. If {a1, · · · , an} ⊂ G were a basis then letting Ai = gp(ai) ⊂ G we have the direct sum decomposition:
+G = A1 ⊕ · · · ⊕ An.
+Conversely, if G can be represented as the direct sum of cyclic subgroups then choosing a generator for each gives a basis for G.
+Definition. Let G be an Abelian group. x ∈ G is torsion is it is of finite order. We denote the subgroup of torsion elements by tG ⊂ G, called the torsion subgroup.
+Lemma. tG ⊂ G is a subgroup.
+Proof. This critically requires that G be Abelian. It is not true in general.
+1. ord(0) = 1 ⇒ 0 ∈ tG
+2. Let g, h ∈ tG ⇒ ∃n, m ∈ N such that ng = mg = 0 ⇒ nm(g + h) = (mng + nmh) = m0 + n0 = 0 ⇒ g + h ∈ tG.
+3. ng = 0 ⇒ −(ng) = n(−g) = 0. Hence g ∈ tG ⇒ −g ∈ tG.
+Clearly if G is finite then tG = G.
+Definition. If tG = G we say that G is a torsion group. If tG = {0} we say that G is torsion free.
+Proposition. If G is torsion and finitely generated then G is finite.
+Proof. Let {a1, · · · , an} ⊂ G be a generating set. Each element is of finite order hence every element x ∈ G can be written in the form
+x = λ1a1 + · · · + λnan, λi ∈ Z, 0 ≤ λ1 < ord(ai).
+This is a finite set.
+Proposition. G/tGis a torsion free Abelian group.
+Proof. Firstly note that tG ⊂ G is normal as G is Abelian, hence G/tG is naturally an abelian group. Let x ∈ G. Assume that x + tG ∈ G/tG is torsion. Hence ∃n ∈ N such
+that n(x + tG) = nx + tG = tG. Hence nx ∈ tG so ∃m ∈ N such that mnx = 0. Hence x ∈ tG ⇒ xtG = tG.
+Definition. An finitely generated Abelian group G is said to be free Abelian if there exists a finite generating set {a1, · · · , an} ⊂ G such that every element of G can be uniquely expressed as
+λ1a1 + · · · λnan where λi ∈ Z.
+In other words, if we can find a basis for G consisting of non-torsion elements.
+40
+
+
+In this case
+G = gp(a1) ⊕ · · · ⊕ gp(an) ∼= Z × Z · · · × Z = Zn.
+Proposition. Let G be a finitely generated free abelian group. Any two bases must have the same cardinality.
+Proof. Let {a1, · · · , an} ⊂ G be a basis. Let 2G := {2x|x ∈ G}. 2G ⊆ G is a subgroup. Observe that 2G = {λ1a1 + · · · λnan|λ ∈ 2]z}. Hence (G : 2G) = 2n. But the left hand side is defined independently of the basis. The result follows.
+Definition. Let G be a finitely generated free Abelian group. The rank of G is the size of a any basis.
+Theorem. A finitely generated abelian group is free Abelan ⇐⇒ it is torsion free.
+Proof. (⇒) is trivial. (⇐) Assume G is torsion-free, let {a1, · · · , an} ⊂ G generate G. We will prove the result by induction on n.
+Base Case: n = 1. G = gp(a) ∼= (Z, +) which is free abelian. Therefore result is true for n = 1. If {a1, · · · , an} ⊂ G is a basis we have nothing to prove. Suppose that it is not a basis. then we have a non-trivial relation:
+λ1a1 + λ2a2 + · · · + λnan = 0
+If ∃d ∈ Z such that d|λi for all i, then have d( λ1a1
+d + λ2a2
+d + · · · + ...) = 0. As G is torsion-free,
+( λ1a1
+d + λ2a2
+d + · · · + ...) = 0. We can therefore assume that the λi are collectively coprime. If λ1 = 1, then we can shift terms to get a1 = −(λ2a2 + λ3a3 + · · · + λnan). Therefore, G is generated by the {a2, · · · , an} ⊂ G and the result follows by induction. We will reduce to this cases as follows: Assume |λ1| ≥ |λ2| > 0. By the remainder theorem we may choose α ∈ Z such that |λ1 − αλ2| < |λ2|. Let a′2 = a2 + αa1 and λ′1 = λ1 − αλ2, then
+λ′
+1a1 + λ2a′
+2 + · · · + λnan = 0.
+Also observe that {a1, a′2, · · · , an} ⊂ G is still a generating set and {λ′1, · · · , λn} are still collectively coprime. This process must must eventually terminate with one of the coefficients equal either 1 or −1. In this case we can apply the inductive step as above to conclude that G is free abelian.
+Proposition. Let G be finitely generated and Abelian. Then G/tG is a finitely generated free Abelian group.
+Proof. G/tG is torsion free. We must show that G/tG is finitely generated. Let {a1, · · · , an} ⊂ G generate G. Then {a1 + tG, · · · , an + tG} ⊂ G/tG forms a generating set. By the above theorem G/tG is free Abelian.
+41
+
+
+Definition. Let G be a finitely generated Abelian group. We define the rank of G to be the rank of G/tG.
+Let G be finitely generated and Abelian. Let G/tG be of rank n ∈ N and let f1, · · · , fn be a basis for G/tG. Let φ : G → G/tG be the natural quotient homomorphism. Clearly φ is surjective. Choose {e1, · · · , en} ⊂ G such that φ(ei) = fi ∀i ∈ {1, · · · , n}. None of the fi have finite order ⇒ none of the ei have finite order. Moreover
+φ(λ1e1 + · · · + λnen) = λ1f1 + · · · + λnfn ∈ G/tG.
+Because {f1, · · · , fn} is a free basis for G/tG we deduce that λ1e1 + · · · + λnen = 0 ⇐⇒ λi = 0∀i ⇒ F := gp{e1, · · · , en} ⊆ G is free abelian with basis {e1, · · · , en} ⇒ F is torsion free. Therefore F ∩ tG = {0}. Let g ∈ G. By definition, ∃λ1, · · · , λn ∈ Z such that φ(g) = λ1f1 + · · · + λnfn. Then we have:
+φ(g) = λ1f1 + · · · + λnfn ⇒ φ(g) = φ(λ1e1 + · · · + λnen)
+⇒ φ(g − (λ1e1 + · · · + λnen)) = 0
+⇒ g − (λ1e1 + · · · + λnen) ∈ kerφ = tG
+⇒ ∃h ∈ tG s.t. g = (λ1e1 + · · · + λnen) + h
+Hence every x may be written uniquely in the form x = f + g where f ∈ F and g ∈ tG.
+Proposition. Every finitely generated Abelian group can be written as a direct sum of a free Abelian group and a finite group.
+Proof. By the above, we may write
+G = F ⊕ tG
+Define the homomorphism :
+G = F ⊕ tG −→ tG
+f + h −→ h
+This is surjective with kernel F , hence by the first isomorphism theorem tG is isomorphic to G/F . The image of any generating set of G is a generating set for G/F under the quotient homomorphism. Hence tG is finitely generated and torsion, hence finite. F is free Abelian by construction.
+Hence we have reduced the study of finitely generated Abelian groups to understanding finite Abelian groups.
+42
+
+
+3.11 Finite Abelian Groups
+Definition. A finite group G (not necessarily Abelian) is a p-group, with p ∈ N a prime, if every element of G has order a power of p.
+By Sylow’s Theorem the order of a finite p-group must be a power of p. From now on let G be a finite Abelian group. Let p ∈ N be a prime. We define Gp := {g ∈ G|ord(p) is a power of p} ⊂ G.
+Theorem 1. Gp ⊂ G is a subgroup.
+Proof. 1. ord(0) = 1 = p0 ⇒ 0 ∈ Gp.
+2. Let g, h ∈ Gp ⇒ ∃r, s ∈ N such that prg = psh = 0 ⇒ pr+s(g +h) = ps(prg)+pr(psh) = 0 + 0 = 0 ⇒ g + h ∈ Gp.
+3. Let g ∈ Gp ⇒ ∃r ∈ N such that prg = 0 ⇒ −prg = pr(−g) = 0 ⇒ −g ∈ Gp
+This critically relies on G being Abelian. By definition Gp is a p-group. Recall that ∀g ∈ G, ord(g)||G| by Lagrange’s Theorem. Therefore Gp = 0 unless possibly if p divides |G|. By Sylow’s Theorem we deduce that if |G| = pnu, where HCF (p, u) = 1, then |Gp| = pn. Thus Gp ⊆ G is the maximal p-subgroup contained in G. The importance of the maximal p-subgroups is the following theorem.
+Theorem. Let G is a finite Abelian group. Let {p1, · · · , pr} be the primes dividing |G|. Then
+G = Gp1 ⊕ · · · ⊕ Gpr
+Moreover this is the unique way to express as the direct sum of p-subgroups for distinct primes.
+Proof. Let |G| = n = a1a2 · · · ar where ai = pαi
+i . Let Pi = n/ai. {P1, · · · , Pr} ⊂ Z are
+collectively coprime ⇒ ∃ Q1, · · · , Qr ∈ Z such that
+P1Q1 + · · · + PrQr = 1 (Extension of Euclid)
+Let g ∈ G and gi = PiQig. Clearly g = g1 + g2 + · · · + gr and pαi
+i gi = Qi(ng) = 0. Hence gi ∈ Gpi.
+We must prove the uniquness of this sum. Assume we had
+g = g′
+1 + · · · + g′
+r, g′
+i ∈ Gpi .
+Therefore x = g1 − g′1 = (g′2 − g2) + (g′3 − g3) + · · · + (g′r − gr). The right hand size has order
+dividing P1, the left hand side has order dividing Q1. P1 and Q1 are coprime ⇒ ∃ u, v ∈ Z
+such that up1 + vq1 = 1 ⇒ x = u(p1x) + v(q1x) = 0 + 0 = 0 ⇒ g1 = g′1. Similarly we find
+gi = gi′ for all i ∈ {1, · · · , r}, hence the sum is unique and we deduce
+43
+
+
+G = Gp1 ⊕ · · · ⊕ Gpr .
+Let {qi, · · · , qs} be a finite collection of distinct primes. Assume that G can be expressed as the direct sum
+G = H1 ⊕ · · · ⊕ Hs ∼= H1 × · · · × Hs
+where Hi is a finite qi-subgroup. Clearly Gqi = Hi and if p is a prime not in {q1, · · · , qs} Gp = {0}. Thus {p1, · · · , pr} = {q1, · · · , qs} and any such representation is unique.
+We have however reduced the study of finite abelian groups to finite abelian p-groups.
+Theorem 1. Every finite Abelian p-group is a direct sum of cyclic groups.
+Proof. Let G be a finite Abelian p-group. If G is cyclic, we are done, otherwise take a cyclic subgroup B = gp(b) of maximal order, say pn. Our strategy is to show that there is a p-subgroup D ⊂ G such that G = B ⊕ D. We apply the following inductive hypothesis: For any finite Abelian p-group F of size less than |G|, if M ⊂ F is a maximal cyclic subgroup then there exists N ⊂ F such that M ⊕ N = F . This is clearly true for F trivial.
+We claim that there is a subgroup C of order p such that B ∩ C = {0}. Recall that because G is Abelian G/B is naturally an Abelian p-group. Let c ∈ G \ B and suppose cB ∈ G/B has order pr for r > 0. Observe that the maximal order of any element in G/B is less than or equal to pn. Thus we know n ≥ r. By definition pr(cB) = B ⇒ prc ∈ B. Thus there exists s ∈ N such that prc = sb. By maximality of the order of b we know 0 = pnc = spn−rb.
+But ord(b) = pn, hence pn|spn−r. Therefore we have p|s, say s = ps′. Hence c1 = pr−1c − s′b has order p and is not in B. Therefore C = gp(c1) is the required subgroup.
+Let BC = {ab|a ∈ B, b ∈ C}. We claim that BC ⊂ G is a subgroup.
+1. eG ∈ B and eG ∈ C ⇒ eG ∈ BC.
+2. Let a1, a2 ∈ B, b1, b2 ∈ C. Then (a1b1)(a2b2) = (a1a2)(b1b2) ∈ BC. Hence BC is closed under composition.
+3. Let a1 ∈ B, b1 ∈ C. Then (a1b1)−1 = b−1
+1 a−1
+1 = a−1
+1 b−1
+1 ∈ BC. Hence BC is closed under taking inverses.
+First observe that |G/C| < |G|. Hence the inductive hypothesis applies to G/C. Observe that BC ⊂ G is a subgroup containing C. Observe that BC/C is cyclic, generated by bC ∈ BC/C. Because B ∩C = {0} we also know that |BC/C| = pn. Note that the size of the maximal cyclic subgroup of G must be larger than or equal to the size of the maximal cyclic subgroup of G/C. However we have constructed a cyclic subgroup BC/C ⊂ G/C whose order equals that of a B. Hence BC/C ⊂ G/C is a maximal cyclic subgroup. Thus by our inductive hypothesis ∃N ⊂ G/C such that BC/C ⊕ N = G/C. By the third isomorphism
+44
+
+
+theorem we know that N = D/C for a unique subgroup D ⊂ G containing C. We claim that G is the direct sum of B and D.
+Let g ∈ G. Then gC ∈ G/C is uniquely expressible in form g + C = (a + C) + (d + C) = (a + d) + C, where a ∈ B and d ∈ D. Hence g = a + d + e for some c ∈ C. However C ⊂ D so this expresses g as a sum of elements of B and D. Let x ∈ B ∩D. Hence xC ∈ BC/C ∩D/C. Assume that x ∕= 0. Note that x ∈/ C. Hence xC is non-zero on BC/C and D/C. However by construction BC/C ∩ D/C = {C}. This is a contraction. Hence B ∩ D = {0} and we deduce that G = B ⊕ D.
+Thus we have shown that given any finite Abelian p-group G and a maximal cyclic subgroup B ⊂ G, there exists a subgroup D ⊂ G such that G = B ⊕ D. Observe that D is a finite Abelian p-group, thus we can continue this process until eventually it must terminate. The end result will be an expression of G as a direct sum of cyclic p-groups.
+Corollary. For any finite Abelian p-group G , there exist a unique decreasing sequence of natural numbers {r1, · · · , rn} ⊂ N such that
+G ∼= Z/pr1Z × · · · × Z/prnZ.
+Proof. By the previous theorem we know that G is the direct sum of cyclic groups each of p-power order. Thus we know that such integers exist . We will prove uniqueness by induction on |G|. Assume that there is are isomorphisms
+G ∼= Z/pr1Z × · · · × Z/prnZ ∼= Z/ps1Z × · · · × Z/psmZ,
+where the ri and sj are a decreasing sequence of natural numbers. We therefore see that |G| = p
+!n
+i=1 ri = p
+!m
+j=1 sj . Hence !n
+i=1 ri = !m
+j=1 sj .
+Let pG = {pg|g ∈ G}. It is a straightforward exercise (which we leave to the reader) to
+prove that pG is a subgroup of G. Note that for r > 1, Z/pr−1Z ∼= p(Z/prZ), where the
+isomorphism is given by sending a + pr−1Z to pa + prZ. We deduce therefore that there are isomorphisms
+pG ∼= Z/pr1−1Z × · · · × Z/prn−1Z ∼= Z/ps1−1Z × · · · × Z/psm−1Z.
+Observe now that |pG| < |G|, thus by induction we deduce that the ri and sj agree when
+restricted to entries strictly greater than 1. This, together with the fact that !n
+i=1 ri =
+!m
+j=1 sj, implies that the two sets are the same and thus uniqueness is proven.
+Proposition. Let G is an Abelian group such that p ∈ N is a prime dividing |G|. Then Gp is non-trivial.
+Proof. Recall that if {p1, · · · , pr} are the primes dividing |G| then
+G ∼= Gp1 × · · · × Gpr .
+45
+
+
+Hence |G| = |Gp1| · · · |Gpr |. By the above corollary pi divides |G| if and only if Gpi is non-trivial.
+Basis Theorem for Finitely Generated Abelain Groups. Every finitely generated Abelian group G can be written as a direct sum of cyclic groups:
+G = β1 ⊕ · · · ⊕ βr
+where each βi is either infinite or of prime power order, and the orders which occurs are uniquely determined.
+Proof. G=F ⊕ tG. F is free and finitely generated, hence the direct sum of infinite cyclic groups (Z, +). The number equals the rank of G. tG is finite Abelian, hence the is the unique direct sum of p-groups for distinct primes p. Each p-group is the unique direct sum (up to order) of p-power cyclic groups.
+Note that we could have stated this theorem with direct product in place of direct sum. Thus we have classified all finitely generate Abelian groups up to isomorphism.
+3.12 The Classification of Finite Groups (Proofs Omitted)
+In the last section we classified all finite Abelian groups up to isomorphism. Is it possible to do the same for all finite groups? It turns out that the situation is far more complicated in the non-Abelian case. Here is the basic strategy:
+• Show that any finite group G can be broken down into simple pieces.
+• Classify these simple pieces.
+• Understand how these simple pieces can fit together.
+Definition. let G be a finite group. A composition series for G is a nested collection of subgroups
+{e} = G0 ⊳ G1 ⊳ · · · ⊳ Gr−1 ⊳ Gr = G.
+such that
+• Gi−1 ∕= Gi for all 0 < i ≤ r.
+• Gi/Gi−1 is simple for all 0 < i ≤ r.
+Remarks. By the third isomorphism theorem a composition series cannot be extended, meaning we cannot add any intermediate normal subgroups.
+Theorem. Any finite group G has a composition series.
+46
+
+
+Observe that if G is simple that {e} = G0 ⊳ G1 = G is a composition series. If G = Sym3 then
+{e} ⊳ gp((123)) ⊳ Sym3
+gives a composition series. To see why, observe that each quotient group has size 3 or 2 and are therefore isomorphism to Z/3Z or Z/2Z which are both.
+Jordan-Holder Theorem. Let G be a finite group. Suppose we have two composition series for G
+{e} = G0 ⊳ G1 ⊳ · · · ⊳ Gr−1 ⊳ Gr = G.
+{e} = H0 ⊳ H1 ⊳ · · · ⊳ Hs−1 ⊳ Hs = G.
+Then r = s and the quotient groups
+{G1/G0, · · · , Gr/Gr−1}, {H1/H0, · · · , Hs/Hs−1}
+are pairwise isomorphic (perhaps after reordering).
+Definition. If G has composition series
+{e} = G0 ⊳ G1 ⊳ · · · ⊳ Gr−1 ⊳ Gr = G.
+we call the quotient groups
+{G1/G0, · · · , Gr/Gr−1}
+the simple components of G.
+By the Jordan-Holder Theorem the simple components are well-defined up to isomorphism. It is possible that two non-isomorphic groups have the same (up to isomorphism) simple components. As an example Sym3 and Z/6Z both have simple components {Z/2Z, Z/3Z}.
+Definition. A finite group is called solvable (or soluble) if its simple components are Abelian. Note that Solvable groups need not be Abelian themselves
+Note thatSym3 is solvable, while Alt5 (being simple and non-Abelian) is non-solvable.
+To summarize our study: Finite group theory if much like the theory of chemical molecules.
+• The simple groups are like atoms
+• Finite groups have simple components, like molecules have constituent atoms.
+• Non-isomorphic finite groups with the same simple components are like molecules with the same atoms but different structure (isomers).
+We now have two goals
+47
+
+
+• Classify all finite simple groups up to isomorphism.
+• Classify all finite simple groups with given simple components.
+The theory of groups was initiated by Galois in 1832. Galois was the first to discover the first known simple groups, namely Z/pZ for p prime and Altn for n > 4. Amazingly it took until 2004 until a complete classification was known. The proof stretches across over 10000 pages and is the combined work of thousands of mathematicians. Here’s a very rough breakdown the the different four distinct classes of finite simple group:
+• Cyclic groups of prime order. These are the only Abelian simple groups.
+• Altn for n > 4
+• Finite groups of Lie type. These groups are very complicated to describe in general. The basic idea is that they can be realized as subgroups and quotients of matrix groups. There are 16 infinite families of finite simple groups of Lie type.
+• There are 26 sporadic groups. Very strangely these do not fall into any fixed pattern. The first were discovered in 1852 by Mathieu, while he was thinking about subgroups of finite permutation groups with extremely strong transitivity properties. The largest sporadic group was discovered in the 1970s. It’s called the monster group and has size
+246 · 320 · 59 · 76 · 112 · 133 · 17 · 19 · 23 · 29 · 31 · 41 · 47 · 59 · 71
+The monster contains all but six of the other sporadic groups as quotients of subgroups.
+The theory of finite simple groups is one of the crown jewels of mathematics. It’s demonstrates how profound the definiton of a group really is. All of this complexity is contained in those three innocent axioms. The next question, of course, is to classify all finite groups with given simple components. This is still a wide open problem. As such a complete classification of all finite groups is still unknown. One may ask about classifying infinite groups. Unsurprisingly the situation is even more complicated, although much progress has been made if specific extra structure (topological, analytic or geometric) is imposed.
+48
+
+
+4 Rings and Fields
+4.1 Basic Definitions
+A group (G, ∗) is a set with a binary operation satisfying three properties. The motivation for the definition reflected the behavior of (Z, +). Observe that Z also comes naturally equipped with multiplication ×. In the first lectures we collected some of the properties of (Z, +, ×). Motivated by this we make the following fundamental definition:
+Definition. A ring is a set R with two binary operations, +, called addition, and ×, called multiplication, such that:
+1. R is an Abelian group under addition.
+2. R is a monoid under multiplication (inverses do not necessarily exist).
+3. + and × are related by the distributive law:
+(x + y) × z = x × z + y × z and x × (y + z) = x × y + x × z ∀x, y, z ∈ R
+The identity for + is “zero”, denoted 0R (often just written as 0), and the identity for × is “one”, denoted 1R (often just written as 1).
+Remarks. 1. To simplify the notation we will write x × y = xy for all x, y ∈ R.
+2. Distributivity implies that we can “multiply” together finite sums:
+(! xi)(! yj) = ! xiyj
+in a well-defined way.
+Here are some examples of rings:
+1. The integers under the usual addition and multiplication.
+2. Z/mZ under the addition and multiplication described in 2.3.
+3. Let S be a set and P(S) be the set of all subsets. This is called the power set of S. On
+P(S) define + and × by
+X + Y = (X ∩ Y ′) ∪ (X′ ∩ Y ), XY = X ∩ Y
+Where X′ denotes the complement of X in S. Then P(S) is a ring with ∅ = 0 and S = 1. This strange looking ring has applications to mathematical logic.
+4. In linear algebra the collection of linear maps from Rn to Rn is the set Mn×n(Rn). This has the structure of a ring under the usual addition and multiplication of matrices.
+49
+
+
+Note that matrix multiplication is not commutative in general. So it is perfectly possible for a multiplication not to be commutative in a ring.
+Definition. Let R be a ring with multiplication ×. If × is commutative, i.e. xy = yx ∀ x, y ∈ R then we say that R is a commutative ring.
+Definition. Let R and S be two rings. A homomorphism φ from R to S is a map of sets φ : R → S such that ∀x, y ∈ R
+1. φ(x + y) = φ(x) + φ(y)
+2. φ(xy) = φ(x)φ(y)
+3. φ(1R) = 1S
+Once again, if R = S and φ = IdR then we call it the identity homomorphism.
+Note that R and S are abelian groups under + so φ is a group homomorphism with respect to + so φ(0R) = 0S. We have to include (3) as (R, ×) is only a monoid so it does not follow from (2) alone that φ(1R) = 1S.
+Remarks. 1. As for groups, the composition of two ring homomorphisms is again a ring homomorphism.
+2. As before, an isomorphism is a bijective homomorphism, or equivalently one with an inverse homomorphism. A homomorphism from R to itself is called an endomorphism. An endomorphism which is also an isomorphism is called an automorphism. This is exactly the same terminology as for groups.
+In any ring R we have the following elementary consequences of the axioms:
+x0 = x(0 + 0) = x0 + x0 ⇒ x0 = 0
+Similarly, 0x = 0 for all x ∈ R.
+If R consists of one element, then 1 = 0, conversely if 1 = 0 then ∀x ∈ R, x = x1 = x0 = 0, hence R consists of one element. The ring with one element is called the trivial ring.
+In a ring we abbreviate expressions like
+a + a + a + · · · + a (n times) = na(n ∈ N)
+It is clear that we may naturally extend this to all n ∈ Z. Similarly,
+a × a × · · · × a (n times) = an f or n ∈ N.
+By the Distributive Law, we have the identities
+50
+
+
+1. m(a + b) = ma + mb
+2. (m + n)a = ma + na
+3. (mn)a = m(na)
+∀a, b ∈ R and m, n ∈ Z.
+Definition. Given R and S two rings we say that R is a subring of S if it is a subset and is a ring under the induced operations (with same 0 and 1). Eg. (Z, +, ×) ⊂ (Q, +, ×). More precisely,
+1. R is a subgroup of S under addition.
+2. R is closed under multiplication.
+3. 1S ∈ R.
+Remarks. As with subgroups, an arbitrary intersection of subrings is again a subring.
+4.2 Ideals, Quotient Rings and the First Isomorphism Theorem for Rings
+Let G and H be groups and φ : G → H a group homomorphism. Recall that ker(φ) ⊂ G is a normal subgroup, thus the set of right coset G/ker(φ) naturally forms a group (the quotient group). Recall that all normal subgroups arise in this manner. The 1st Isomorphism theorem states that there is a natural isomorphism
+G/ker(φ) ∼= Im(φ).
+Does something analogous hold for rings?
+Let R and S be two rings. Let φ : R → S be a ring homomorphism.
+Definition. The kernel of φ is the subset
+ker(φ) := {r ∈ R|φ(r) = 0S} ⊂ R.
+The image of φ is the subset
+Im(φ) := {s ∈ S|∃r ∈ R s.t. φ(r) = s} ⊂ S.
+Remember that φ is a group homomorphism with respect to the additive Abelian group structures on R and S. With respect to this structure these definitions are exactly the same as in group theory. In particular we know that
+ker(φ) = {0R} ⇐⇒ φ is injective .
+We also know that ker(φ) ⊂ R and Im(φ) ⊂ S are subgroups under addition.
+51
+
+
+Proposition. Im(φ) ⊂ S is a subring.
+Proof. We need to check that Im(φ) is closed under multiplication and contains 1S. Let s1, s2 ∈ Im(φ). Hence ∃r1, r2 ∈ R such that φ(r1) = s1 and φ(r2) = s2. But s1s2 = φ(r1)φ(r2) = φ(r1r2). Hence s1s2 ∈ Im(φ). Hence Im(φ) is closed under multiplication. By definition φ(1R) = 1S. Hence 1S ∈ Im(φ). Thus Im(φ) is a subring.
+If S is non trivial then because φ(1R) = 1S we know that 1R ∈/ ker(φ). Hence in this case ker(φ) ⊂ R is not a subring. What properties does it satisfy?
+1. ker(φ) ⊂ R is a subgroup under +.
+2. Let a ∈ ker(φ) and r ∈ R. Observe that φ(ra) = φ(r)φ(a) = φ(r)0S = 0S. Hence ra ∈ ker(φ). Similarly ar ∈ ker(φ). Hence ker(φ) is closed under both left and right multiplication by all of R.
+Definition. Let R be a ring. An ideal I ⊂ R is a subset which is a subgroup under addition and is closed under both left and right multiplication by all of R. More precisely, if x ∈ I then xr, rx ∈ I for all r ∈ R.
+We have just shown that the kernel of a homomorphism is always an ideal. An ideal is the ring theoretic analogue of normal subgroup in group theory.
+Let I ⊂ R be an ideal. Recall that (R, +) is an abelian group, Hence (I, +) ⊂ (R, +) is a normal subgroup. Hence the right cosets R/I naturally have a group structure under addition. We have completely ignored the multiplicative structure on R. Let us define a multiplication by:
+(a + I) × (b + I) := (ab) + I, ∀a, b ∈ R.
+Lemma. This binary operation is well defined.
+Proof. Let a1 + I = a2 + I and b1 + I = b2 + I where a1, a2, b1, b2 ∈ R. Observe that
+a1b1 − a2b2 = a1(b1 − b2) + (a1 − a2)b2
+is contained in I because I is an ideal. Thus
+a1b1 + I = a2b2 + I.
+Proposition. R/I is a ring under the natural operations. We call it the quotient ring.
+Proof. This is just a long and tedious exercise to check the axioms which all follow because they hold on R. Unsurprisingly 0 + I is the additive identity and 1 + I is the multiplicative identity.
+52
+
+
+As in the case of groups there is a natural surjective quotient ring homomorphism
+φ : R → R/I.
+From the definitions we see that ker(φ) = I. We deduce that ideals of a ring are precisely the kernels of ring homomorphisms. This is totally analogous to the group theory situation.
+The First Isomorphism Theorem. Let φ : R → S be a ring homomorphism. Then the induced map
+φ : R/ker(φ) −→ Im(φ)
+a + ker(φ) −→ φ(a)
+is a ring isomorphism.
+Proof. The first isomorphism theorem for groups tells us that it is an isomorphism of additive group. Hence we merely need to check that it is a ring homomorphism. Let a, b ∈ R. φ((a + ker(φ))(b + ker(φ))) = φ(ab + ker(φ)) = φ(ab) = φ(a)φ(b) = φ(a + ker(φ))φ(b + ker(φ)). Also φ(1 + I) = φ(1) = 1. Hence φ is a ring homomorphism and we are done.
+Definition. An injective ring homomorphims φ : R → S is called and embedding. By the first isomorphism theorem, R is isomorphic to the subring Im(φ) ⊂ S.
+4.3 Properties of Elements of Rings
+Definition. Let R be a ring. An element a ∈ R is said to be invertible, or a unit, if it has a multiplicative inverse, i.e. ∃a′ ∈ R such that a′a = aa′ = 1. We know that such an inverse is unique if it exists, hence we shall write it as a−1. Note that if 1 ∕= 0 then 0 is never invertible. We denote the set of units in R by R∗.
+It is clear that for any ring R, (R∗, ×) is a group.
+Definition. A non-trivial ring R in which every non-zero element is invertible (i.e R\{0} = R∗) is called a division ring (or skew field). If R is a commutative division ring then R is called a field.
+Remarks. 1. (Q, +, ×) is the canonical example of a field. Other natural examples in
+clude (R, +×), (C, +, ×) and (Z/pZ, +, ×), where p is a prime number. There are examples of division rings which are not fields (i.e. not commutative) but we will not encounter them in this course.
+2. All of linear algebra (except the issue of eigenvalues existing) can be set up over an arbitrary field. All proofs are exactly the same, we never used anything else about R or
+C.
+53
+
+
+In an arbitrary ring it is possible that two non-zero elements can multiply to give zero. For example, in M2×2(R), the non-zero matrices
+A=
+!0 1 00
+"
+and B =
+!0 2 00
+"
+multiply to give the zero matrix.
+Definition. Let R be a non-trivial ring. Given a ∈ R \ {0}, if there exists b ∈ R \ {0} such that ab = 0 or ba = 0, then a is said to be a zero-divisor. Note that 0 is not a zero-divsor.
+Definition. A non-trivial ring R with no zero divisors is said to be entire; a commutative entire ring is called an integral domain. More concretely: R is entire if and only if 1 ∕= 0 and ∀x, y ∈ R, xy = 0 ⇒ x = 0 or y = 0.
+(Z, +, ×), (Q, +, ×) are integral domains. (Z/m, +, ×) is an integral domain ⇐⇒ m prime.
+The above example shows that M2(R) is not entire.
+Theorem. A ring R is entire ⇐⇒ its set of non-zero elements forms a monoid under multiplication. Another way to state this is that R entire ⇐⇒ R \ {0} is closed under multiplication.
+Proof. In any ring R observe that if x, y ∈ R are two non-zero divisors then by definition xy ∈ R must be a non-zero divisor. Hence, If R is non-trivial the non-zero divisors of R are a monoid under multiplication. If R is entire the set of non-zero divisors is precisely R\{0}, which implies it is a monoid under multiplication. Conversly if R\{0} is a monoid then firstly it is non-empty so R is non-tivial. But if x, y ∈ R\{0} then xy ∈ R\{0}. Hence R is entire by definition.
+Corollary. Any field F is an integral domain.
+Proof. If x, y ∈ F , x ∕= 0 ∕= y then ∃ x−1, y−1 ∈ F such that xx−1 = x−1x = 1 = yy−1 = y−1y, therefore xy is invertible so is non-zero. Hence, non-zero elements are closed under multiplication, so F is entire. F is a field so F is commutative, so it is an integral domain.
+Cancellation Law:
+Let R be a ring. If c ∈ R is not a zero-divisor, then for any a, b ∈ R such that ca = cb or ac = bc, then a = b.
+This is because ca − cb = c(a − b) and ac − bc = (a − b)c. In particular, if R is entire, then we can “cancel” any non-zero element. It is important to note that we cannot do this in an arbitrary ring.
+Theorem. Every finite integral domain R is a field.
+54
+
+
+Proof. We need to show that R∗ = R \ {0}. Let a ∈ R \ {0}. Define the following map of sets:
+ψ : R \ {0} → R \ {0} r #→ ra.
+ψ is well define because R is an integral domain. By the cancellation law for integral domains, we know thatgiven r1, r2 ∈ R r1a = r2a ⇒ r1 = r2 ⇒ ψ injective. Since R \ {0} is finite, ψ is surjective ⇒ ∃ b ∈ R \ {0} such that ba = ab = 1. Hence a has a multiplicative inverse. Therefore, R∗ = R \ {0}.
+4.4 Polynomial Rings
+Let R be a ring.
+Definition. The polynomial ring in X with cofficients in a ring R consists of formal expressions of the form:
+g(X) = b0 + b1X + b2X2 + · · · + bmXm, bi ∈ R, m ∈ N
+If f (X) = a0+a1X +· · ·+anXn is another polynomial then we decree that f (X) = g(X) ⇐⇒ ai = bi ∀i. Note that we set ai = 0 if i > n and bj = 0 if j > m. We refer to X as the indeterminant.
+Addition and multiplication are defined by the rules
+1. f (X) + g(X) = (a0 + b0) + (a1 + b1)X + · · · + (an + bn)Xn (if m ≤ n)
+2. f (X) × g(X) = (a0b0) + (a0b1 + a1b0)X + (a0b2 + a1b1 + a2b2)X2 + · · · + anbmXn+m
+We will denote this ring by R[X].
+Important Exercise. Check this genuinely gives a ring structure on the set of polynomials in X with coefficients in R.
+Note that there is a natural embedding:
+φ : R −→ R[X]
+a −→ a (polynomial with m = 0 and a = a0)
+Remarks. 1. The zero and one elements in R[X] are the image of the zero and one element in R under φ.
+2. R commutative ⇒ R[X] commutative.
+55
+
+
+3. Given f (X) ∈ R[X] we can construct a map (of sets):
+φf : R −→ R
+a $→ f (a),
+where f (a) ∈ R is the element of R given be replacing X by a. For a general ring R this process can be quite subtle as we shall see.
+Definition. Let R be a ring and f ∈ R[X] be a non-zero polynomial. We say that a ∈ R is a root, or zero, of f if f (a) = 0.
+Definition. Let R be a ring and f ∈ R[X] be a non-zero polynomial. Hence we may write f = cnXn + cn−1Xn−1 + · · · + c0, ci ∈ R, cn ∕= 0. We call n the degree of f and write deg(f )=n. If in addition cn = 1, we say that f is monic. Elements of degree 0 are called constant polynomials.
+Theorem. If R is entire then R[X] satisfies:
+1. ∀f, g ∈ R[X] \ {0}, deg(f + g) ≤ max{deg(f ), deg(g)}
+2. ∀f, g ∈ R[X] \ {0} ⇒ f g ∕= 0 and deg(f g) = deg(f ) + deg(g).
+Proof. By the definition of degree, (1) is clear. For (2): Let deg(f ) = n, deg(g) = m. Then suppose an, bm the leading coefficients of f and g respectively. Hence f g has maximal power of X given by anbmXn+m. As R is entire, anbm ∕= 0 ⇒ f g ∕= 0 and deg(f g) = n + m = deg(f ) + deg(g).
+Corollary. R entire ⇒ R[X] entire.
+Proof. Immediate from above.
+Corollary. R an integral domain ⇒ R[X] and integral domain.
+Proof. Immediate from above.
+The process of adjoining indeterminants to a ring R can be iterated to form polynomials in more than one variable with coefficients in R. We of course use another symbol for the indeterminants, ie. R[X][Y ], polynomials in X and Y with coefficients in R, e.g. X2 + Y 2X + X3Y 6.
+We simplify this notation to R[X][Y ] = R[X, Y ]. Inductively, we define
+R[X1, · · · , Xn] = R[X1, · · · , Xn−1][Xn]
+f ∈ R[X1, · · · , Xn] has a unique expression of the form
+f = ! ai1···in X i1 · · · X inn (ai1···in ∈ R)
+where the sum is finite. Expressions of the form m(i) = Xi1
+1 · · · Xinn are called monomials. The example we’ll study most deeply is when R is a field.
+56
+
+
+4.5 Field of Fractions
+What is the process by which we go from (Z, +, ×) to (Q, +, ×)? Intuitively, we are “dividing” through by all non-zero elements. Let us think more carefully about what is actually happening and try to generalize the construction to R an integral domain. What is an element of Q? We usually write it in the form a
+b with a, b ∈ Z, b ∕= 0. This is not unique.
+a
+b=c
+d ⇐⇒ ad − bc = 0.
+As we are all aware, we define + and × by the following rules:
+1. a
+b+c
+d = ad+cb
+bd
+2. a
+b×c
+d = ac
+bd
+We should therefore think of elements of Q as pairs of integers (a, b) such that b ∕= 0, up to an equivalence relation.
+(a, b) ∼ (c, d) ⇐⇒ ad − cb = 0
+Hence, Q can be thought of as (Z × Z \ {0}/ ∼). The well-definedness of + and × is not obvious and needs checking, i.e. choosing different elements of the same equivalence class should give the same results.
+Let us now generalise this construction. Let R be an integral domain. We define the relation on R × R\{0} by:
+(a, b) ∼ (c, d) ⇐⇒ ad − bc = 0.
+Proposition. ∼ is an equivalence relation.
+Proof. 1. (a, b) ∼ (a, b) as ab − ab = 0 since R is commutative.
+2. (a, b) ∼ (c, d) ⇒ ad − bc = 0 ⇒ bc − ad = 0 ⇒ (c, d) ∼ (a, b)
+3. Let (a, b) ∼ (c, d) and (c, d) ∼ (e, f ). Then ad − bc = 0, cf − de = 0. Consider
+(af − be)d = adf − bed
+= f (ad − bc) + b(cf − de)
+= f 0 + b0 = 0
+d ∕= 0 ⇒ af − be = 0 ⇒ (a, b) ∼ (e, f )
+Let us denote the equivalence classes by (R × (R \ {0}))/ ∼. It is convenient to use the usual notation: for (a, b) ∈ R × (R \ {0}) we denote the equivalence class containing (a, b) by a
+b. Let us define multiplication and addition on R × R \ {0}/ ∼ by
+57
+
+
+a
+b+c
+d = ad+bc
+bd
+a
+b×c
+d = ac
+bd
+Proposition. + and × are well-defined on (R × (R \ {0}))/ ∼.
+Proof. The first thing to note is that if b, d ∈ R \ {0} ⇒ bd ∈ R \ {0} as R is an integral domain. We just need to check that choosing different representatives gives the same answer. It’s just an exercise in keeping the notation in order - you can do it.
+Proposition. 0 ∈ (R × (R \ {0}))/ ∼ is given by the equivalence class containing (0, 1). 1 ∈ R × (R \ {0})/ ∼ is given by the equivalence class containing (1, 1).
+Proof. For all (a, b) ∈ (R × (R \ {0})),
+a
+b+0
+1 = a×1+b×0
+b × 1) = a
+b.
+a
+b×1
+1 = a1
+b1 = a
+b
+Both operations are clearly commutative because R is commutative. Hence we are done.
+It is a straight forward exercise to check that under these operations (R × (R \ {0}))/ ∼ is a commutative ring. Also observe that (a, b) ∈ (R × (R \ {0})) is in the zero class if and only if a = 0. Similarly (a, b) give the one class if and only in a = b. This is good. It’s the same as in Q, so we’ve done something right.
+Theorem. (R × (R \ {0}))/ ∼ is a field.
+Proof. We just need to check non-zero elements have multiplicative inverses. Let a
+b ∈ (R ×
+(R\{0}))/ ∼ be non-zero. By the above this implies that a ∕= 0. Hence b
+a ∈ (R×(R\{0}))/ ∼. But a
+b×b
+a = ab
+ab = 1
+1.
+Hence we are done. Multiplication: Let (a1, b1) ∼ (a2, b2) and (c1, d1) ∼ (c2, d2).
+Definition. Let R be an integral domain. The field of fractions of R is the field F rac(R) := (R × (R \ {0}))/ ∼.
+The canonical example is F rac(Z) = Q.
+Definition. Given an integral domain R and indeterminants {X1, · · · , Xn} we know that R[X1, · · · , Xn] is an integral domain. We define
+R(X1, · · · , Xn) := F rac(R[X1, · · · , Xn]).
+58
+
+
+Theorem. The map
+φ : R → F rac(R) a "→ a
+1
+is an embedding.
+Proof. We need to check that φ is a homomorphism first.
+1. Given a, b ∈ R, φ(a + b) = a+b
+1 =a
+1+b
+1 = φ(a) + φ(b).
+2. Given a, b ∈ R, φ(ab) = ab
+1 =a
+1×b
+1 = φ(a)φ(b).
+3. φ(1) = 1
+1.
+To check it is injective we just need to show that the kernel (as a homomorphism of Abelain groups) is trivial. φ(a) = a
+1=0
+1 ⇐⇒ a = 0. Thus the kernel is trivial and so φ is injective.
+Corollary. Every integral domain may be embedded in a field.
+Proposition. Let R be a field. The natural embedding R ⊂ F rac(R) is an isomorphism.
+Proof. We must show φ is surjective. Let φ denote the natural embedding R ⊂ F rac(R). Let a
+b ∈ F rac(R). R is a field so there exist b−1, a multiplicative inverse to b. But a
+b=
+ab−1
+1 = φ(ab−1). Hence φ is surjective. Therefore φ is an isomorphism.
+This is backed up by our intuition. Clearly taking fractions of rationals just gives the rationals again.
+4.6 Characteristic
+Let R be entire (non-tvial with no zero-divisors). Recall that (R, +) is an abelian group, hence given a ∈ R we may talk about its additive order. Recall that if a ∈ R does not have finite order, then we say it has infinite order.
+Theorem. In an entire ring R, the additive order of every non-zero element is the same. In addition, if this order is finite then it is prime.
+Proof. Let a ∈ R \ {0} be of finite (additive) order k > 1, i.e. k is minimal such that ka = 0. This implies (k × 1R)a = 0 ⇒ k × 1R = 0 as R is entire and contains no zero-divisors. Therefore if we choose b ∈ R \ {0} then kb = (k × 1R)b = 0 × b = 0 ⇒ every element has order dividing k. Choosing a with minimal order k > 1 ensures that every nonzero element must have order k. If no element has finite order, all elements must have infinite order. Now assume that 1R ∈ R has finite order k > 1 and that we have factored k = rs in N. Then k1R = (rs)1R = (r1R)(s1R) = 0. Since R entire, either r1R = 0 or s1R = 0. However, since k is the minimal order of 1R, r = k or s = k. Therefore, k must be prime.
+59
+
+
+Definition. Suppose R an entire ring. R has characteristic zero if all of its non-zero elements have infinite additive order, denoted char(R)=0. If all non-zero elements of R are of additive order p ∈ N, then R is characteristic p, or char(R)=p. In this case, R is finite characteristic.
+When studying abstract fields, the characteristic is very important. Eg. Q, R, C are all fields (hence entire) of characteristic zero. If p is a prime number Z/pZ
+is a field of characteristic p. We denote this later field by Fp.
+Theorem. There is an embedding of Q in any field F of characteristic 0.
+Proof. Let 1F denote the multiplicative identity in F . Let 0F denote the additive identity in F . We must find a suitable embedding of Q in F . Because char(F ) = 0 the natural map homomorphism:
+φ:Z→F n #→ n1F
+is injective. We claim that it is a homomorphism (of rings). Let a, b ∈ Z, then φ(ab) = ab1F = ab1F 1F = a1F b1F = φ(a)φ(b); φ(a + b) = (a + b)1F = a1F + b1F =φ(a) + φ(b). φ(1) = 1F . Thus φ is an injective homomorphism. Now we will extend this notion to Q. We define the following map:
+ψ:Q→F
+n
+m #→ φ(n)φ(m)−1
+We must check that ψ is well defined and is an embedding. For a, b, n, m ∈ Z, n
+m=a
+b ⇒ nb − am = 0. Therefore
+φ(nb − am) = φ(0) = 0F = φ(nb) − φ(am) ⇒ φ(nb) = φ(am)
+⇒ φ(n)φ(b) = φ(a)(m)
+⇒ φ(n)φ(m)−1 = φ(a)φ(b)−1
+⇒ ψ( n
+m) = ψ(a
+b)
+This shows that ψ is well defined. Next: ψ is a homomorphism.
+ψ(a
+b+ n
+m ) = ψ( am + bn
+bm )
+= (φ(a)φ(m) + φ(b)φ(n))φ(bm)−1
+= φ(a)φ(b)−1 + φ(n)φ(m)−1
+= ψ(a
+b ) + ψ( n
+m)
+60
+
+
+ψ(a
+b
+n
+m ) = ψ( an
+bm )
+= φ(an)φ(bm)−1
+= φ(a)φ(n)φ(b)−1φ(m)−1
+= φ(a)φ(b)−1φ(n)φ(m)−1
+= ψ(a
+b )ψ( n
+m)
+By definition ψ( 1
+1 ) = 1F . Thus we have a homomorphism. We claim that it is injective.
+We must show that the kernel (as a homomorphism of Abelian groups) is trivial. Let n
+m ∈Q
+such that ψ( n
+m ) = 0. Then φ(n)φ(m)−1 = 0 ⇒ φ(n) = 0 ⇒ n = 0 as φ was already shown to be injective. Therefore the kernel is trivial, so ψ is an embedding.
+Theorem. Let p be a prime number. There is an embedding of Fp in ant field F of characteristic p.
+Proof. Note that {0F , 1F , · · · , (p − 1)1F } ⊆ F is closed under + and ×, hence forms a subring. Clearly Fp is isomorphic to this subring under the embedding
+ψ : Fp −→ F
+[a] −→ a1F
+4.7 Ring Extensions
+let R be a subring of S. Recall that this means R is a subgroup under addition, is closed under multiplication and contains 1S.
+Definition. The ring extension of R by {α1, · · · , αn} ⊂ S is the subring
+R[α1, · · · , αn] = {f (α1, · · · , αn)|f ∈ R[X1, · · · , Xn]}
+This is the intersection of all subrings containing R and the subset {α1, · · · , αn}.
+4.8 Principal, Prime and Maximal Ideals
+Definition. An ideal I ⊂ R is proper if I ∕= R.
+Note that I ⊂ R is proper if and only if R/I is a non-trivial ring.
+Definition. Let R be a commutative ring. We say an ideal I ⊂ R is principal if there exist a ∈ R such that I = {ra|r ∈ R}. In this case we write I = (a).
+61
+
+
+Definition. Let R be a commutative ring. We say an ideal I ⊂ R is prime if it is proper and given a, b ∈ R such that ab ∈ I then either a ∈ I or b ∈ I.
+Proposition. Let R be a commutative ring. Let I ⊂ R be an ideal. Then I is prime if and only if R/I is an integral domain.
+Proof. I is a proper ideal hence R/I is non-trivial. Observe that R commutative trivially implies that R/I is commutative. Let I ⊂ R be prime and assume that R/I has zero divisors. Then there exists a, b ∈ R such that a, b ∈/ I but (a + I)(b + I) = 0 + I. But this trivially implies that ab ∈ I. But this contradicts the fact that I is prime. Assume that R/I is an integral domain but I is not prime. Hence we can find a, b ∈ R such that ab ∈ I but a, b ∈/ I. But then (a + I) and (b + I) are zero divisors, which is a contradiction.
+Definition. Let R be a commutative ring. We say that an ideal is maximal if it is maximal among the set of proper ideals. More precisely I ⊂ R is a maximal ideal if given an ideal J ⊂ R such that I ⊂ J, then either I = J or J = R.
+Proposition. Let R be a commutative ring. Let I ⊂ R be an ideal. Then I is maximal if and only if R/I is a field.
+Proof. First observe that R commutative trivially implies that R/I is commutative. Assume that I ⊂ R is maximal. Take a non-zero element of R/I, i.e. a + I for a ∈/ I. Consider the ideal (a) ⊂ R. Consider the following new ideal:
+(a) + I = {ra + b|r ∈ R, b ∈ I}.
+Note that this is certainly an ideal because it is closed under addition and scalar multiplication by all R. Note that by construction I ⊂ (a) + I and a ∈ (a) + I. Hence I is strictly contained in (a) + I. But I is maximal. Hence (a) + I = R. Thus there exist r ∈ R and b ∈ I such that ra + b = 1. Hence (r + I)(a + I) = ra + I = 1 + I. Thus (a + I) has a multiplicative inverse. Hence R/I is a field.
+Assume that R/I is a field. Assume that J is a proper ideal of R which strictly contains I, i.e. I is not maximal. Let a ∈ J and a ∈/ I. Thus (a + I) is non-zero in R/I. Thus it has a multiplicative inverse. Hence there exists b ∈ R such that ab + I = 1 + I. This implies that ab − 1 ∈ I, which in turn implies that ab − 1 ∈ J. But a ∈ J, hence 1 ∈ J, which implies that J = R. This is a contradiction. Hence I is maximal.
+Corollary. Let R be a commutative ring. Let I ⊂ R be an ideal. Then I maximal implies that I is prime.
+Proof. I maximal ⇒ R/I is a field ⇒ R/I is an integral domain ⇒ I prime.
+62
+
+
+4.9 Factorisation in Integral Domains
+Let R be a ring. In Z we have the “Fundamental Theorem of Arithmetic” - every non-zero
+element of Z is ±1 times a unique product of prime numbers. Does something analogous hold for R? Clearly, if R is not commutative or has zero-divisors the issue is very subtle. Hence we will resrict to the case when R is an integral domain. The first issue to address is what does a prime element of R mean? The problem, as we will see, is that we can easily come up with several different natural definitions which are equivalent in Z, but in R may not be.
+Let a, b ∈ R. As in Z, a|b will mean that ∃c ∈ R such that b = ac.
+Definition. Two non-zero elements a, b in an integral domain R are associated if a|b and b|a, i.e. ∃c, d ∈ R such that b = ac and a = bd.
+Theorem. In R an integral domain, and a, b ∈ R be two non-zero elements. Then, a and b are associated ⇐⇒ a = bu for u ∈ R∗
+Proof. Association of a and b ⇒ a|b and b|a ⇒ ∃c, d ∈ R such that a = bd and b = ac ⇒ a = acd ⇒ a = 0 or cd = 1. If a = 0 ⇒ b = 0, which is not true by assumption. Thus we have cd = 1 ⇒ c, d are inverses of each other and thus units.
+Theorem. Let R be an integral domain with a, b ∈ R. Then (a) ⊂ (b) ⇐⇒ b|a. Hence a and b are associated if and only if (a) = (b).
+In Z, m and n are associated if and only if n = ±m.
+Definition. We call a ∈ R\{0} an irreducible element if it is a non-unit and is NOT the product of two non-units.
+If a is irreducible then so are all its associates. In Z, m is irreducible if and only if it is ±1
+times a prime. The FTOA says that every m ∈ Z can be factored into irreducible elements in ”essentially” one way. Here, essentially means up to switching irreducibles for associated irreducibles, i.e. 10 = 2 × 5 = (−2) × (−5). This motivates the important definition:
+Definition. A unique factorization domain (UFD)is an integral domain in which every element NOT zero or a unit can be written as the product of irreducibles. Moreover, given 2 complete factorizations of the same element
+X = a1 · · · an = b1 · · · bm,
+into irreducibles, n = m and after renumbering ai is associated to bi for all i ∈ {1, · · · , n}.
+Clearly Z is a UFD by the Fundamental Theorem of Artithmetic. A natural question to ask is whether all integral domains are UFDs. The answer, rather surprisingly, is no. Let R be a UFD. Many of the properties of Z carry over to R. For example we can talk about highest common factor (HCF) and least common multiple (LCM) for two a, b ∈ R \ {0}.
+63
+
+
+Definition. Given a, b ∈ R \ {0} a highest common factor of a and b is element d ∈ R such that
+1. d|a and d|b
+2. Given d′ ∈ R such that d′|a and d′|b, then d′|d.
+Definition. Given a, b ∈ R \ {0} a lowest common multiplie of a, b ∈ R is an element c ∈ R such that
+1. a|c and b|c
+2. Given c′ ∈ R such that a|c′ and b|c′, then c|c′.
+Remarks. 1. It should be observed that there is no reason to believe that HCFs and LCMs exist in an arbitrary integral domain. Indeed it is not true in general.
+2. Clearly a HCF (if it exists) is NOT unique: If d is an HCF of a and b then so is d′ for d′ associated to d. Similarly for LCM. Hence when we talk about the HCF or LCM of two elements we must understand they are well defined only up to association.
+Theorem. In a UFD any two non-zero elements have a HCF. Moreover, if a = upα1
+1 · · · prαr
+and b = vpβ1
+1 · · · prβr where u, v are units, and the pi are pairwise non-associated irreducible
+elements, then HCF (a, b) = pγ1
+1 · · · prγr where γi = min(αi, βi).
+Proof. Let d be a common factor of a and b. By the uniqueness of complete factorisation we know that (up to association) d is a product of pi for i ∈ {1, · · · pr}. Without loss of
+generality we may therefore assume that d = !r
+i=1 pδi
+i . Again by the uniqueness of complete factorisation d is a common factor of a and b ⇐⇒ δi ≤ αi and δi ≤ βi∀i. Therefore,
+δi ≤ γi ⇒ HCF (a, b) = pγ1
+1 · · · prγr .
+Proposition. In a UFD any two non-zero elements have a LCM. Moreover, if a = upα1
+1 · · · prαr
+and b = vpβ1
+1 · · · prβr where u, v are units, and the pi are pairwise non-associated irreducible
+elements, then LCM (a, b) = pγ1
+1 · · · prγr where γi = max(αi, βi).
+Proof. Exactly the same argument as above works in this case observing that d = !r
+i=1 pδi
+i
+is a common multiple of a and b if and only if δi ≥ αi and δi ≥ βi for all i ∈ {1, · · · pr}.
+Remarks. If a ∈ R a unit then
+HCF (a, b) = 1, LCM (a, b) = b ∀b ∈ R \ {0}
+Even if we know that R is a UFD, there is no easy way to completely factor any element. This is clearly apparent in Z. Fortunately for certain rings there is a faster way to determine the HCF of two elements.
+Definition. If R is an integral domain, R is Euclidean if it admits a function φ : R\{0} → N ∪ {0} such that
+64
+
+
+1. φ(ab) ≥ φ(a)∀a, b ∈ R \ {0}
+2. For any a, b ∈ R, if b ∕= 0, then ∃q, r ∈ R such that a = bq + r where either r = 0 or φ(r) < φ(b).
+Remarks. 1. This is intended to model the behavior of the function
+φ : Z \ {0} → N ∪ {0} a → |a|
+The second property is just a generalization of the remainder theorem on Z. Hence we
+see that Z is Euclidean.
+2. We include 0 in the codomain as this enlarges the collection of rings under consideration.
+Lemma. The second axiom of a Euclidean Ring is equivalent to the following:
+(2’): ∀a, b ∈ R\{0}; if φ(a) ≥ φ(b) then ∃c ∈ R such that either a = bc or φ(a − bc) < φ(a) or a = bc.
+Proof. (2) ⇒ (2′).
+Suppose (2) holds. Then we have φ(a) ≥ φ(b) ⇒ ∃q, r such that a = qb + r where where either r = 0 or φ(r) < φ(b). If r = 0 ⇒ q = c and we are done . Otherwise φ(r) = φ(a − qb) < φ(b) ≤ φ(a) so we are done with c = q. (2′) ⇒ (2) Given a, b ∈ R \ {0} if b|a we are done. Therefore, assume b ∕ |a. Hence a − bq ∕= 0 ∀q ∈ R. Choose c ∈ R such that φ(a − bq) is minimal. Note that by assumption b ∕ |(a − bq). If φ(a − bq) ≥ φ(b) ⇒ ∃c ∈ R such that φ(a − bq − bc) < φ(a − bq). This is a contradiction by the minimality condition. Therefore φ(a − bq) < φ(b), i.e. setting r = a − bq we have
+a = bq + r with φ(r) < φ(b)
+hence (2) holds.
+Theorem. F field ⇒ F [X] Euclidean
+Proof. Define:
+φ : F [X] \ {0} −→ N ∪ {0}
+f −→ deg(f )
+Property (1): As F is a field, F [X] is an integral domain ⇒ deg(f g) = deg(f ) + deg(g) ≥ deg(f )∀g, f ∈ F [X] \ {0} ⇒ φ(f g) ≥ φ(f )∀f, g ∈ F [X] \ {0}. Property (2′)
+65
+
+
+Let f = a0 + a1X + · · · + anXn, g = b0 + b1X + · · · + bmXm where ai, bj ∈ F, n, m ∈ N ∪ {0}, and an ∕= 0, bm ∕= 0. Assume φ(f ) ≥ φ(g) ⇒ n ≥ m ⇒ n − m ≥ 0 ⇒ Xn−m ∈ F [X] ⇒ Xn−mb−m1ang has leading
+term anXn ⇒ deg(f − Xn−mb−m1ang) < deg (f ).
+Hence setting c = anb−m1Xn−m we have φ(f − cg) =deg(f − cg) <deg(f ) = φ(f ). Therefore,
+Property (2′) is satisfied.
+Remarks. Note that to get this proof to work we need bm ∕= 0 to have an inverse. This critically relied on F being a field. If we relax this condition we will not necessarily get a Euclidean Domain.
+This shows that despite the fact that Z and F [X] (F a field) are very different rings they share an important property. Euclidean domains have many pleasant properties.
+Theorem. Let R be Euclidean, with Euclidean function φ. Any two a, b ∈ R have an HCF, (a, b). Moreover, it can be expressed in the form (a, b) = au + bv where u, v ∈ R.
+Proof. Without loss of generality assume that φ(a) ≥ φ(b). Apply property (2) to get
+a = bq1 + r1,
+where either r1 = 0 or φ(r1) < φ(b). If r1 = 0 then we know that HCF (a, b) = b and we are done setting u = 0 and v = 1. If not then applying property (2) again we get
+b = q2r1 + r2,
+where either r2 = 0 or φ(r2) < φ(r1). If r2 = 0 stop. If not continue the algorithm. We claim that after a finite number of steps this process must terminate with the remainder reaching zero. To see this observe that we have a strictly decreasing sequence
+φ(b) > φ(r1) > φ(r2) · · ·
+in N ∪ {0}. Hence it must have finite length so the algorithm must terminate. Assume it
+terminates at the nth stage, i.e. rn+1 = 0. We claim that rn can be written in form ua + vb for some u, v ∈ R. We do it by induction on n. If we set r0 = b then the result is true for r0andr1. Assume it is true for ri−1 and ri−2. By definition ri = −qiri−1 + ri−2. hence the result must be true for ri. Hence by induction we know that we may write rn in the form ua + vb.
+Now we claim that rn must divide both a and b. By construction rn|rn−1 → rn rn−2. Inductively rn|ri for all i. In particular rn|b and rn|r1 ⇒ rn|a Hence rn is a common divisor of both a and b. Let d ∈ R such that d|a and d|b. Hence d|(ua + vb) ⇒ d|rn. Hence HCF (a, b) = rn = ua + vb.
+Remarks. This procedure is known as the Euclidean Algorithm.
+Corollary. Let R be Euclidean ring. Then any a, b ∈ R \ {0} have a LCM.
+66
+
+
+Proof. By the above HCF (a, b) = au + bv for u, v ∈ R. We will define m = ab
+HCF (a,b) . Note
+that this makes sense as HCF (a, b)|a. It is clear that a|m and b|m. Let m′ be a common multiple, i.e. a|m′, b|m′. Then ab|bm′ and ab|am′ ⇒ ab|aum′ + bvm′ ⇒ ab|(au + bv)m′ ⇒ ab|(a, b)m′ ⇒ HCF (a, b)m|HCF (a, b)m′. Because a and b are non-zero HCF (a, b) is nonzero. Because R is an integral domain we can cancel resulting in m|m′. Therefore m is an LCM of a, b.
+It is worth mentioning that as of yet we have only shown Euclidean rings admit HCFs and LCMs. We do not yet know if they are UFDs.
+4.10 Principal Ideal Domains
+Definition. Let R be an integral domain. We say that a R is a principal ideal domain is every ideal of R is principal. More precisely, if I ⊂ R is an ideal then there exists a ∈ I such that I = (a). We write PID for short.
+Theorem. R Euclidean ⇒ R a PID.
+Proof. . Let I ⊂ R be an ideal. If I is the zero ideal then I = (0). Assume that I is not the zero ideal. Choose a ∈ I such that φ(a) ≤ φ(b) for all b ∈ I. We aim to prove that I = (a). Assume this is not the case. Hence there exists r ∈ I such that r ∈/ (a). This means that a does not divide r. Hence by the Euclidean property there exist q, s ∈ R such that r = qa + s where φ(s) < φ(a). However, s = r − qa ∈ I. This contradicts the minimality of φ(a). Thus no such r exists and I = (a).
+Definition. Let R be an integral domain and I1, I2, I3, · · · be a sequence of ideals. Assume that
+I1 ⊂ I2 ⊂ I3 ⊂ · · ·
+We call this an ascending chain of ideals. We say that it is stationary if there exists some n ∈ N such that In = Im for all m ≥ n.
+Theorem. If R is a PID then every ascending chain of ideals is stationary.
+Proof. Let
+I1 ⊂ I2 ⊂ I3 ⊂ · · ·
+be an ascending chain of ideals in R. Let I be the union of all the Ii. We claim that this is an ideal. Observe that 0 ∈ I as it is contained in each Ii. Similarly r ∈ I ⇒ r ∈ Ii for some i ⇒ −r ∈ Ii ⇒ −r ∈ I. Let r, s ∈ I. Hence r ∈ Ii and s ∈ Ij for some i and j. Without loss of generality assume that i ≤ j. Hence r, s ∈ Ij ⇒ r + s ∈ Ij ⇒ r + s ∈ I. Hence I is a subgroup under addition. If r ∈ I then r ∈ Ii for some i. Thus given any a ∈ R, ar ∈ Ii ⊂ I. We deduce that I is an ideal.
+67
+
+
+Because R is a PID there exists b ∈ I such that I = (b). This means that b ∈ In for some n. Hence (b) ⊂ In. Hence we have I ⊂ In and In ⊂ I implying that In = I. This implies that Im = In for all m ≥ n.
+Theorem. If R is a PID then every non-zero non-units can be factored into irreducible elements.
+Proof. We will begin by showing that every non-zero, non-unit admits an irreducible factor. Let a ∈ R be a non-zero, non-unit. If a is irreducible we are done. Assume, therefore that a = b1a1, where b1 and a1 are non-units. This implies that
+(a) ⊂ (a1)
+Note that because b1 is a non-unit a and a1 are not associated by the cancellation law. Hence this is a strict inclusion. If a1 is irreducible we are done. If not then we can repeat this process with a1. This would give a factorization a1 = b2a2, where b2 and a2 are non-units. Thus we again get a strict inclusion
+(a1) ⊂ (a2).
+If a2 is irreducible we are done. If not we can repeat the process. This builds an ascending chain of ideals. Because R is a PID we know that this ascending chain must be stationary. This can only happen if we eventually get an irreducible factor. We deduce that a must admit an irreducible factor. Now we show that a is the product of a finite number of irreducible elements of R. If a is not irreducible then by the above we can write a = p1c1 where p1 is irreducible and c1 is not a unit. Thus (a) is strictly contained in the ideal (c1). If c1 is irreducible we are done. If c1 is not irreducible then c1 = p2c2 where p2 is irreducible and c2 is not a unit. We can build a strictly ascending chain of ideals :
+(a) ⊂ (c1) ⊂ (c2) ⊂ · · ·
+Because R is a PID we know that this chain is stationary, which means eventually cr must be an irreducible. Hence a = p1p2 · · · prcr.
+Let us now introduce another natural generalisation of prime number to an arbitrary integral domain.
+Definition. Let R be an integral domain. We say that p ∈ R is a prime element if:
+1. p ∈/ R∗ and p ∕= 0
+2. ∀a, b ∈ R, p|ab ⇒ p|a or p|b
+Remarks. 1. In Z prime elements are the prime numbers and their negatives.
+68
+
+
+2. All elements associated to a prime are themselves prime.
+Proposition. Let R be an integral domain, p ∈ R. Then p prime ⇒ p irreducible.
+Proof. Let p ∈ R be prime and p = ab for some a, b ∈ R. Then p|a or p|b. Say p|a ⇒ a = pc = abc for some c ∈ R. Note that a ∕= 0(p ∕= 0), therefore by the cancellation law, 1 = bc ⇒ b is a unit. Hence p is irreducible.
+We shall see that for a general integral domain the converse does not always hold. However in the case of PIDs we have the following:
+Theorem. Let R be a PID and p ∈ R. Then p irreducible ⇐⇒ p prime.
+Proof. By the previous proposition we only need to show that p irreducible ⇒ p prime. We will begin by showing that if p is irreducible then (p) ⊂ R is maximal. First observe that p is not a unit. Hence (p) is a proper ideal of R. Assume now that there exists I ⊂ R a proper ideal such that (p) ⊂ I. Because R is a PID, there exists a ∈ I such that (a) = I. Note that a is no a unit. Hence (p) ⊂ (a) and we deduce that p = ab for some b ∈ R. Observe that because p is irreducible b must be a unit. Hence p and a are associated implying that I = (a) = (p). We deduce that (p) is maximal. Observe now that R/(p) is a field. Hence R/(p) is an integral domain implying that (p) is a prime ideal. Now assume that p|ab for some a, b ∈ R. Hence ab ∈ (p). Because (p) is prime either a ∈ (p) or b ∈ (p). These imply that p|a or p|b respectively. Hence p is prime.
+Theorem. An integral domain is a UFD iff
+1. Every a ∈ R such that a ∕= 0 and a ∈/ R∗ can be factored into irreducibles (has a complete factorization)
+2. Every irreducible element is prime
+Proof. First suppose R is a UFD. Then, by definition, (1) holds. Suppose p1 ∈ R irreducible. Then suppose a, b ∈ R such that p1|ab. If a = 0, p1|a trivially, so we will assume a, b ∕= 0. R UFD means we can uniquely factor a, b
+a = upα1
+1 · · · prαr , b = vpβ1
+1 pβ2
+2 · · · prβr ,
+where u, v are units, αi, βi ∈ N ∪ {0}. and the pi are pairwise non-associated irreducible
+elements. It follows that ab can be factored into uvpα1+β1
+1 · · · pαr+βr
+r . Suppose p1|ab, then by the uniqueness of factorization present in a UFD, this forces (α1 + β1) > 0 ⇒ α1 or β1 > 0 ⇒ p|a or p|b. Therefore p1 is prime. Conversely, suppose R is an integral domain and (1) and (2) hold. Then we need to show that every non-zero, non-unit has a unique factorization into irreducibles, and the factorization is unique up to association. Let c ∈ R such that c ∕= 0 and c ∈/ R∗. By (1) we know we can factor into irreducibles. So let us consider two factorizations of c.
+69
+
+
+c = a1 · · · ar, c = b1 · · · bs
+We must show r = s and each bi associated to ai after renumbering. Let us use induction on r. r = 1 ⇒ a1 = b1 · · · bs ⇒ b1|a1 ⇒ a1 = b1u, u ∈ R∗. Then if s > 1, we cancel to get u = b2 · · · bs ⇒ b2 ∈ R∗ which is a contradiction since b2 is an irreducible by assumption. Therefore s = 1 and we are done. Let r > 1. By hypothesis (ii) a1 is prime and a1|b1 · · · bs ⇒ a1|bj for some j. WLOG assume j = 1. b1 is irreducible and b1 = a1u ⇒ u ∈ R∗ ⇒ b1u−1 = a1 ⇒ b1|a1 ⇒ a1 and b1 are associated. By the cancellation property, we have
+u−1a2 · · · ar = b2 · · · bs
+u−1a2 is irreducible and hence this gives a complete factorization of the same element. By induction, r − 1 = s − 1 ⇒ r = s and we can renumber such that ai is associated to bi∀i ∈ {2, · · · , r}. We’ve just seen this holds for i = 1, hence R is a UFD.
+Theorem. Every PID is a UFD.
+Proof. In a PID every non-zero non-unit can be factored into irreducibles. In addition every irreducible is prime. This a PID is a UFD.
+Theorem. Every Euclidean ring is a UFD
+Proof. . Every Euclidean ring is a PID. Every PID is a UFD. Hence every Euclidean ring is a UFD.
+4.11 Factorization in Polynomial Rings
+Theorem. For any field F , the polynomial ring F [X] is a UFD.
+Proof. F field ⇒ F [X] Euclidean ⇒ F [X] is a UFD.
+From now on fix F a field. Let us return to trying to understand factorization in the polynomial ring F [X].
+Our first task is to determine the irreducible elements in F [X].
+Proposition. F [X]∗ = F ∗, where we view F ⊂ F [X] as the degree zero polynomials (the constant polynomials).
+Proof. The unit element in F [X] is 1 ∈ F ⊂ F [X]. If f ∈ F [X] and def (f ) > 0 then deg(f g) > 0 ∀g ∈ F [X] \ {0}. Thus all invertible elements of F [X] must be degree zero, so constant polynomials. Because F is a field we deduce that F [X]∗ = F ∗.
+Definition. We call f ∈ F [X] such that deg(f )=1 linear.
+70
+
+
+Clearly every linear polynomial must be irreducible for reasons of degree. Here is a partial converse:
+Theorem. Given F field, the only irreducible elements of F [X] are linear iff every positive degree polynomial has a zero (or root) in F
+Proof. ⇒
+Assume every irreducible in F [X] is linear. Then take f ∈ F [X]; deg(f ) > 0. As F [X] is a UFD (since F is a field), we can factor f into linear factors. Choose ax + b ∈ F [X] to be one such factor, a ∕= 0. Choose x = −b
+a to be a root of f . ⇐
+Suppose every positive degree polynomial has a root in F . Then take p ∈ F [X] to be irreducible, deg(p) > 0. By our assumption, there must exist α ∈ F such that p(α) = 0. Since F is a field, we know that F [X] is Euclidean. Hence we know that (x − α)|p. To see why let us apply property (2) of the Euclidean degree function. If (x − α) did not divide p then we know that there exists q, r ∈ F [X] such that p = q(x − a) + r where r ∕= 0 and deg(r) < deg(x − α) ⇒ deg(r) < 1 ⇒ r is a constant. If r ∕= 0, then p(α) ∕= 0, so (x − α)|p. We deduce that ∃c ∈ F [X] such that p = (x − α)c but since p is irreducible, c must be a unit, i.e. c ∈ F ∗. Thus p is linear.
+Note that this is a property of the field F . It is not always true. For example if F = Q,
+then X2 + 1 does not have a root in Q[X] and consequently cannot be reducible. Don’t let
+this example mislead you: there are reducible polynominals in Q[X] which do not have a
+root in Q. For example (X2 + 1)(X2 + 1).
+Definition. Given F a field, we call F algebraically closed if every f ∈ F [X] such that deg(f ) > 0 has a root in F .
+Remarks. 1. By the above theorem, F algebraically closed ⇐⇒ Any f ∈ F [X] such that f ∈/ F [X]∗, f ∕= 0 can be factored into linear terms.
+2. The Fundamental Theorem of Algebra says that C is algebraically closed. C is defined analytically so it is unsurprising that all proofs rely on some form of analysis. R and Q are not algebraically closed as the above example demonstrates. Gauss gave about four proofs of this fact in his PhD thesis at age 21!
+It is important to realize how miraculous it is that C is algebraically closed. C is formed
+from R by jumping only one dimension. We’ll see later that this almost never occurs in general.
+Fact: Every field can be embedded in an algebraically closed field.
+For example both Q and R naturally embed in C. This tells us that something analogous is
+true even for more exotic fields like Fp.
+Proposition. If f ∈ R[X] is irreducible then it is either linear or quadratic (degree 2).
+71
+
+
+Proof. Let f ∈ R[X] be irreducible. Note that we may naturally consider f as being in
+C[X]. Hence we may factor f as follows.
+f =a
+!
+i
+(x − αi),
+where a ∈ C∗ and αi ∈ C ∀i. By the uniqueness of this factorisation we know that a is
+unique and the αi are unique up to reordering. Because f ∈ R[X] we also know that a ∈ R.
+Because f ∈ R[X], taking complex conjugation gives two linear factorisations :
+f =a
+!
+i
+(x − αi) = a
+!
+i
+(x − α ̄i),
+where α ̄i denotes complex conjugation. Observe that two monic linear polynomials in C[X] are associated if and only if they are equal. Therefore, by uniqueness of irreducible factorisation we know that either αi ∈ R or they occur in complex conjugate pairs. Note that for any
+α ∈ C, (x − α)(x − α ̄) ∈ R[X]. Hence f be written as the product of linear and quadratic real polynomials. Hence either f is linear or quadratic.
+What about other fields? The most natural place to start is F = Q. A naive belief would be
+that because Q is relatively simple, Q[X] is easy to understand. You could not be further
+from the truth. To see this for Q, observe that we have linked the issue of factorisation in
+Q[X] to finding rational roots of positive degree polynomials. As you are no doubt aware this second problem can be very difficult and subtle to understand. The point of departure for algebraic number theory (the algebraic study of Q) is trying to determine the structure
+of Q[X].
+Recall that Q = F rac(Z). Hence there is a natural inclusion Z[X] ⊂ Q[X]. Let us ad
+dress the problem of factorisation in Z[X] first. The fundamental theorem of arithmetic says
+that Z is a UFD. Thus let R be a UFD and consider R[X]. It is a fact that R[X] is again a UFD. I’ll get you to prove this in the homework.
+Definition. f ∈ R[X] \ {0} is primitive if deg(f ) > 0 and its coefficients do not have an irreducible common factor.
+e.g. R = Z, f = 5x3 + 3x2 + 10
+Gauss’ Lemma. Let R be a UFD. The product of two primitive polynomials in R[X] is again primitive.
+Proof. Let f, g ∈ R[X] be primitive. Thus f = " aixi, g = " bjxj for ai, bj ∈ R. Because R is an integral domain, so is R[X]. Thus f g ∕= 0. Assume that f g is not primitive. Thus ∃π ∈ R irreducible and h ∈ R[X] such that f g = πh. Because f and g are primitive π does not divide all the ai and bj. Choose r and s minimal such that π does not divide ar and bs.
+Let h = " ckxk.
+72
+
+
+Thus
+πcr+s = a0br+s + · · · + arbs + · · · + ar+sb0 ⇒ arbs = λcr+s − a0br+s − · · · − ar+sb0
+By the minimality of r and s we deduce that π divides every term in the sum on the right. Hence π divides arbs. But R is a UFD, which implies that π is prime. Thus π must divide either ar or bs. This is a contradiction. Hence f g is primitive.
+This is a fantastic proof - it’s got Gauss written all over it! It has some profound consequences as we’ll see in a moment.
+Definition. Let R be a UFD and f ∈ R[X] \ {0} . The content of f is the HCF of its coefficients, i.e. If f = σg where σ ∈ R and g primitive, σ is the content of f . e.g. R = Z, f = 9x3 + 3x + 18, the content of f is 3.
+Observe that because R is a UFD the content of f ∈ R[X] \ {0} always exists. Also observe that the content is only unique up to association.
+Proposition. Let R be a UFD. Suppose f, g ∈ R[X]\{0} with contents α, β ∈ R respectively. Then the content of f g is αβ.
+Proof. f = αf1, g = βg1 ⇒ f g = (αβ)f1g1. By Gauss’ Lemma, f1g1 is also primitive so αβ is the content of f g.
+The following theorem illustrates the real meaning of Gauss’ Lemma.
+Theorem. Let R be a UFD, and F = F rac(R). Choose f ∈ R[X] ⊂ F [X]. Then f is irreducible in R[X] ⇒ f is irreducible in F [X].
+Proof. Assume f ∈ R[X] can be factored into non-units in F [X]. This implies that f = gh for some g, h ∈ F [X], where deg(g), deg(h) > 0. Clearing denominators and pulling out the content, we can obtain
+αf = βg1h1,
+where α, β ∈ R and g1, h1 ∈ R[X] primitive. Let γ be the content of f , i.e. f = γf1, where f1 is primitive. Because the content is well defined deduce that αγ = β (perhaps after changing γ by a unit). Therefore αf = αγg1h1 ⇒ f = γg1h1. Observe that deg(g) = deg(g1) and deg(h) = deg(h1). Also observe that just as for a field R[X]∗ = R∗. Thus g1, h1 ∈ R[X] are not units. Thus f is reducible in R[X].
+We should note that in general the converse is not true. For example 3(x − 2) is reducible in Z[X], but irreducible in Q[X]. This is because 3 ∈/ Z[X]∗, but 3 ∈ Q[X]∗. This theorem has the surprising consequence:
+Corollary. Let f = a0 + a1x + · · · + anxn ∈ Z[X] have a ratonal zero α
+β where α and β are coprime integers. Then β|an and if α ∕= 0, α|a0. In particular, if an = 1, all rational zeros are integral.
+73
+
+
+Proof. f ( α
+β ) = 0 ⇒ (X − α
+β )|f in Q[X] ⇒ ∃g ∈ Q[X] such that f = (X − α
+β )g. Observe that βX − α is primitive, hence by the proof of the theorem we deduce that (βX − α)|f ⇒ β|an and if α ∕= 0, α|a0. Hence if an = 1 ⇒ β ± 1 ⇒ α
+β ∈Z
+Hence all rational zeroes of a monic polynomial with integer coefficients are integers.
+This is kind of amazing. It’s not at all obvious from the definitions.
+Theorem (Eisenstein’s Criterion). Let f = a0 + a1x + a2x2 + · · · anxn ∈ Z[X] \ {0}. If
+there is a prime number p ∈ N such that
+1. (i) p ∕ |an
+2. (ii) p|ai ∀0 ≥ i < n
+3. (iii) p2 ∕ |a0
+then f is irreducible over Q.
+Proof. By the above f reducible over Q ⇒ f reducible over Z. Suppose that f satisfies
+the conditions (i), (ii), and (iii) but is reducible over Q and hence over Z. By the proof of
+the above theorem we know that there exist g, h ∈ Z[X] such that deg(g), deg(h) > 0 and f = gh. Let us write
+g = b0 + b1x + · · · + brxr, h = c0 + c1x + · · · + csxs
+when r + s = n =deg(f ), r, s > 0. We have a0 = b0c0. Because p|a0 and p2 ∕ |a0 ⇒ p ∕ |b0 or p ∕ |c0. Without loss of generality assume that p|b0 and p ∕ |c0. Furthermore, brcs = an is not divisible by p ⇒ p ∕ |br and p ∕ |cs. Hence the first coefficient of g is divisible by p but not the last. Let i ∈ {1, · · · , r} be minimal such that p ∕ |bi. Observe that i ≤ r < n. Note that ai = bic0 + bi−1c1 + · · · + b0ci ⇒ bic0 = ai − bi−1c1 − · · · − b0ci. But p|ai by (ii) and p|bi−jcj ∀ j ∈ {1, · · · , i} by minimality ⇒ p|bic0 ⇒ p|bi or p|c0 which is a contradiction. Hence f is irreducible in Q[X].
+Corollary. There are irreducible polynomials of arbitrary degree in Q[X].
+Proof. Let p ∈ N be a prime. Let n ∈ N and define f = p + px + px2 + · · · + xn ∈ Q[X]. By Eisenstein’s Criterion, f is irreducible of degree n.
+Remarks. 1. Eisenstein’s Criterion works (with same proof ) for any UFD and its field of fractions.
+2. Remember irreducible polynomials in R[X] or C[X] are of degree 2 or less. Q[X] is very different.
+74
+
+
+3. Here’s a useful analogy from chemistry: Let F be a field. One should think about f ∈ F [X] \ {0}, f ∈/ F [X]∗ (up to association) as a molecule. One should think about the irreducible such f (up to association) as atoms. The fact that F [X] is a UFD says that every molecule is constructed from a unique finite collection of atoms. Trying to determine the irreducible elements of F [X] is the same as trying to construct the period table. So for every F we have an equivalent of a period table. How complicated this periodic table is depends on F . F being algebraically closed says that the atoms are indexed by elements of F , i.e. every irreducible is associated to one of the form (x − α) for a unique α ∈ F . Hence for algebraically closed fields the period table is very easy. The further from being algebraically closed F is the more complicated it becomes. For Q the periodic table is bewilderingly complicated. The atoms can have a enormous
+internal complexity. There is far more depth to Q than meets the eye!
+Let’s now study the zeros of polynomials over a field.
+Theorem. Let F be a field and f ∈ F [X] \ {0} have distinct roots α1, · · · , αn ∈ F . Then (x − α1) · · · (x − αn)|f .
+Proof. We have already proven that f (αi) = 0 ⇒ (x−αi)|f . Recall that for α, β ∈ F , (x−α) and (x − β) are associated if and only if α = β. As αi ∕= αj ∀ i ∕= j ⇒ x − αi and x − αj non-associated irreducible factors of f ∀ i, j. F [X] is a UFD ⇒ (x − α1) · · · (x − αn)|f.
+Corollary. Let F be a field and f ∈ F [X] be a polynomial of degree n ∈ N. The number of distinct roots of f in F is at most n.
+Proof. Assume that deg(f ) = n and {α1, · · · αn+1} ⊂ F are n + 1 distinct reoots of f in F . By the theorem g = (x − α1) · · · (x − αn+1) divides f . By the first Euclidean property of the degree function this implies that deg(f ) ≥ deg(g) = n + 1. This is a contradiction. Hence the number of distinct zeros of f in F cannot exceed n.
+Corollary. If F is a field and f, g ∈ F [X] such that deg(f ), deg(g) ≤ n and f and g agree on at least n + 1 values of F then f = g.
+Proof. f − g ∈ F [X] is a polynomial of degree less than or equal to n. By assumption it has n + 1 roots in F . Hence it is the zero polynomial.
+Corollary. Let F be an infinite field. Let f, g ∈ F [X] such that f (a) = g(a) for all a ∈ F then f = g
+Proof. Immediate from the preceding corollary.
+Remarks. This is not true if F is finite!. For example I’ll get you to show that over Fp the
+polynomial xp − x is zero for every value of Fp. This is why thinking about polynomials as functions is a bad plan.
+Theorem. Let F be an infinite field. Let f ∈ F [X1, · · · , Xn]. If f (α1, · · · , αn) = 0 for all αi ∈ F , then f = 0.
+75
+
+
+Proof. We’ll use induction on n. The previous corollary says that the result is true for n = 1. Let n > 1 and write f as a polynomial in X1 with coefficients in F [X2, · · · , Xn].
+f (x1, · · · , xn) = a0 + · · · + akxk
+1,
+where ai = ai(x2, · · · , xn). Fix α2, · · · , αn ∈ F . Then f (x1, α2, · · · αn) vanishes for all values of F .By the preceding corollary we deduce that
+ai(α2, · · · , αn) = 0 ∀i.
+But the αj were arbitrary. Hence by the induction hypothesis ai = 0 for all i. Hence f = 0.
+5 Field Extensions and Galois Theory
+5.1 Field Extensions and Minimal Polynomials
+Definition. Let E be a field and F ⊂ E a subfield, i.e. a subring which is a field. Then we call E an extension of F and we write E/F .
+Let F be a field. Recall that a vector space V over F is an Abelian group with a good concept of scalar multiplication by F . If we have an extension of fields E/F then we may naturally regard E as a vector space over F . This is because there is a natural concept of scalar multiplication on E by F . The properties of a vector space are automatically satisfied by the ring axioms for E. If you’ve only ever seen vector spaces over R or C, don’t worry, all of the theory is identical. A trivial observation is that E is a vector space over itself.
+Definition. Let E/F be a field extension. We say that E/F is finite if E is a finite dimensional vector space over F , i.e. there is a finite spanning set for E over F . If E/F is finite then we call the dimension of E over F the degree of the extension, written [E : F ].
+Concretely this means that we may find a finite subset {x1, · · · , xn} ⊂ E such that
+E = {λ1x1 + · · · λnxn|λi ∈ F }.
+Hence if [E : F ] = n, then as an F -vector space E ∼= F n. We should be careful of this definition for the following reason:
+If E/F is a finite extension then (F, +) ⊂ (E.+) is a subgroup as an Abelian group. It is not necessarily true that (F, +) is of finite index in (E, +). I’ll get you to prove this in the homework.
+Let E/F be en extension of finite fields. Trivially we can see that the extension is finite.
+Hence if [E : F ] = n, then as an F -vector space E ∼= F n ⇒ |E| = |F |n. Hence |E| = |F |[E:F ]. From this observation we deduce that
+76
+
+
+Theorem. Let E be a finite field of characteristic p ∈ N. Then |E| = pn for some n ∈ N.
+Proof. char(E) = p ⇒ Fp ⊂ E. Hence E/Fp is a finite extension. Hence |E| = |Fp|[E:Fp] =
+p[E:Fp].
+Definition. Let E/F be a field extension. Let α ∈ E. We say that α is algebraic over F is ∃f ∈ F [X] such that f (α) = 0. If every α ∈ E is algebraic over F we say that the extension E/F is algebraic. If α is not algebraic then we say that it is transcendental. e.g.
+over Q, √2 is algebraic, whereas π is transcendental.
+Proposition. Let E/F be a finite field extension. Then E/F is algebraic.
+Proof. Let α ∈ E. Assume that [E : F ] = n. Thus any set subset of E of cardinality greater than n must be linearly dependent (over F ). Thus {1, α, · · · , αn} ⊂ E must be linearly dependent over F . Hence ∃b0, · · · , bn ∈ F such that
+b0 + b1α + · · · + bnαn = 0.
+Let f = b0 + b1x + · · · + bnxn ∈ F [X]. By construction f (α) = 0. Thus α is algebraic over F.
+The converse is not true. I’ll give you an example in the homework.
+Definition. Let E/F be a field extension. Let α ∈ E be algebraic (over F ). Then the monic polynomial f ∈ F [X] of minimal degree such that f (α) = 0 is called the minimal polynomial of α (over F ).
+Proposition. Let E/F be a field extension. Let α ∈ E be algebraic (over F ). The minimal polynomial of α (over F ) is irreducible (in F [X]).
+Proof. Let F ∈ F [X] be the minimal polynomial of α. Recall that f is reducible if and only if we can find g, h ∈ F [X] such that f = gh and deg(g), deg(h) < deg(f ). However, if such a factorisation exists, we know that f (α) = g(α)h(α) = 0. But E is a field and is thus an integral domain. Consequently either g(α) = 0 or h(α) = 0. But this contradicts the minimality of deg(f ).
+Corollary. Let E/F be a field extension. Let α ∈ E be algebraic (over F ). The minimal polynomial of α (over F ) is unique.
+Proof. Let g, f ∈ F [X] both be monic of minimal degree such that f (α) = g(α) = 0. Recall that monic polynomials in F [X] are associated if and only if they are equal. Thus if f ∕= g, then by the unique factorisation property of F [X], we know they are coprime (HCF(f,g) =1). If this were the case then y the Euclidean property of F [X] ∃u, v ∈ F [X] such that f u + gv = 1. But this would imply that f (α)u(α) + g(α)v(α) = 1. But the left hand side equals 0, which is a contradiction because E is a field so is by definition non-trivial. Thus f = g.
+77
+
+
+Corollary. Let E/F be a field extension. Let α ∈ E be algebraic (over F ). Then α is the root of a unique irreducible monic polynomial in F [X]
+Proof. The above two results shows that the minimal polynomial of α (over F ). is irreducible and necessarily unique. The proof of the corollary shows that it must be the only monic irreducible polynomial with α as a root.
+Definition. Let E/F be a field extension. Let α ∈ E (not necessarily algebraic over F ). We define the subfield generated by α to be the minimal subfield of E containing F and α. We denote this subfield by F (α).
+Proposition. Let E/F be a field extension. Let α ∈ E be algebraic (over F ). Let F [α] := {f (α)|f ∈ F [X]} ⊂ E. Then F [α] = F (α). Moreover the the degree of F (α) over F equals the degree of the minimal polynomial of α over F
+Proof. We should first observe that F [α] ⊂ E is the minimal subring of E containing F and α: it is clearly closed under addition and multiplication because g(α)h(α) = (gh)(α) and g(α) + h(α) = (g + h)(α) for all g, h ∈ F [X]. We need to show therefore that it is actually
+a subfield. Note that F [α] is an F -vector space. Let f = xn + !n−1
+i=0 bixi ∈ F [X] be the
+minimal polynomial of α. We claim that the subset {1, α, · · · , αn−1} ⊂ F [α] is an F -basis.
+Spanning
+Let SpF (1, α, · · · , αn−1) ⊂ F [α] be the F -linear span of {1, α, · · · , αn−1}. We will show that all positive powers of α are in SpF (1, α, · · · , αn−1) by induction. Let k ∈ N. If k < n
+then αk is trivially in the span. Observe that because f (α) = αn + !n−1
+i=0 biαi = 0 we see
+that αn is in SpF (1, α, · · · , αn−1) Hence SpF (1, α, · · · , αn−1, αn) = SpF (1, α, · · · , αn−1). Finally assume that k > n. Inductively we may assume that αk−1 ∈ SpF (1, α, · · · , αn−1). But then αk ∈ SpF (1, α, · · · , αn−1, αn) = SpF (1, α, · · · , αn−1). Thus all positive powers of α are contained in SpF (1, α, · · · , αn−1). Ever element of F [α] is an F -linear combination of such terms, hence SpF (1, α, · · · , αn−1) = F [α].
+Linear Independence
+If {1, α, · · · , αn−1} were linearly dependent over F , then the minimal polynomial of α over F would have degree strictly less than n. This is a contradiction.
+Now we must show that F [α] is a subfield of E. Let f ∈ F [X] and β = f (α) ∕= 0. By the above we know that the set {1, β, · · · , βn} ⊂ F [α] is linearly dependent over F . Hence we may know that ∃{a0, · · · , an} ⊂ F such that
+a0 + a1β + · · · + anβn = 0.
+Because β ∕= 0 we conclude that there exists k ∈ N and g ∈ F [X] such that g(β) = 0 and
+78
+
+
+g = 1 + b1x + · · · + bkxk, bi ∈ F.
+But then
+1 = β(−b1 − · · · − bkβk−1).
+Thus −b1 − · · · − bkβk−1 ∈ F [α] is the multiplicative inverse of β in E. We conclude that F [α] is a field and thus F [α] = F (α).
+Proposition. Let R be a Euclidean domain. Let a ∈ R be an irreducible element. Then the principal ideal (a) ⊂ R is maximal.
+Proof. Recall that (a) = {ar|r ∈ R}. First observe that a is a non-unit so (a) is proper. Now observe that if I ⊂ R is an ideal and ∃ b ∈ I such that b ∈ R∗ then I = R. This is clear because I is closed under multiplication by all R. Hence any proper ideal of R cannot contain any units. Assume that (a) is not maximal and that I ⊂ R is a proper ideal of R strictly containing (a), i.e. (a) ∕= I. Let b ∈ I such that b ∈/ (a). Hence a does not divide b, which is a non-zero, non-unit. But R is Euclidean, which in particular implies that it is a UFD. Hence HCFs exist and by construction HCF (a, b) = 1. We also know that by the Euclidean property ∃u, v ∈ R ua + vb = 1. But by construction a, b ∈ I. This implies therefore that 1 ∈ I. This is a contradiction as I is proper. Hence (a) is maximal.
+5.2 Splitting Fields
+Theorem. Let F be a field. Let f ∈ F [X] be a non-constant polynomial. Then there exists a field extension E/F such that f has a root in E. Moreover E can be chosen to be finite over F .
+Proof. The key observation is that F [X] is Euclidean. As a result F [X] is a UFD, hence we may factor f into irreducible polynomials in F [X]. Without loss of generality we may therefore assume that f itself is irreducible. By the above we know that the ideal (f (X)) ⊂ F [X] is maximal. This implies that the quotient E := F [X]/(f (X)) is a field. There is a natural ring homomorphism:
+F −→ E
+λ −→ λ + (f (X))
+E is injective because it has trivial kernel. Hence we may naturally think of E as a field extension of F . Let g ∈ F [X]. Let a(X) + (f (X)) ∈ E. By definition g(a(X) + (f (X))) = g(a(X)) + (f (X)). consider X + (f (X)) ∈ E. f (X + (f (X))) = f (X) + (f (X)) = (f (X)). But (f (X)) ∈ E is the additive identity. Thus X + (f (X)) is a root of f in E. Finally we need to show that E/F is finite. Assume that deg(f ) = n. We claim that {1 + (f (X)), X + (f (X)), · · · , Xn−1 + (f (X))} ⊂ E forms a spanning set for E over F .
+79
+
+
+Given any g ∈ F [X] we have the element g(X) + (f (X)) ∈ E. Remember that the degree function on F [X] is Euclidean. Hence we have a version of the remainder theorem: either g(X)|f (X) of ∃q(X), r(X) ∈ F [X] such that g(X) = q(X)f (X)+r(X) where deg(r(X)) < n. In the first case g(X) ∈ (f (X)) which implies that g(X) + (f (X)) is zero in E. In the second case we have g(X) + (f (X)) = r(X) + (f (X)). But r(X) + (f (X)) is clearly in the F -span of {1 + (f (X)), X + (f (X)), · · · , Xn−1 + (f (X))}. Thus E/F is finite.
+Corollary. Let F be a field. Let f ∈ F [X] be a non-constant polynomial. Then there exists a finite field extension E/F such that f splits into linear factors in E[X].
+Proof. We’ll use induction on the degree of f . Clearly if f is linear the result is true. Assume therefore that deg(f ) > 1. By the above theorem we may find a finite field extension K/F such that ∃ α ∈ K such that f (α) = 0. This implies that f = (X − α)g for some g ∈ K[X]. By construction deg(g) < deg(f ). By induction we know that there is a finite field extension E/K in which g, and thus f , splits into linear factors. Because both E/K and K/F are finite E/F is finite.
+This is beautiful result. In particular it facilitates the following fundamental definition:
+Definition. Let F be a field. Let f ∈ F [X]. A splitting field for f is a finite extension E/F of minimal degree over F such that f splits into linear factors in E[X].
+Theorem. Let F be a field and f ∈ F [X]. Let E and E′ be two splitting fields of f . Then E is isomorphic to E′
+Proof. We don’t quite have enough time to prove this. It isn’t too hard though. Intuitively it is unsurprising because a splitting field is some kind of minimal field generated by F and the roots of f . You will prove it in a second course in abstract algebra.
+When we are thinking about Q we are lucky enough to have a natural embedding of Q in C
+which is algebraically closed. This means the splitting field of any polynomial f ∈ Q[X] can
+naturally be considered a subfield of C. Concretely, if {α1, · · · , αn} ⊂ C are the roots of f in
+C then the minimal subfield of C containing Q and {α1, · · · , αn}, denoted Q(α1, · · · , αn) ⊂
+C, is a splitting field for f .
+5.3 Galois Theory (Proofs Omitted)
+Definition. Let E/F be a finite extension. We say that E/F is normal if E is a splitting field for some f ∈ F [X].
+Remarks. An extension E/F being normal is is equivalent to the condition that if f ∈ F [X] admits a root in E then it must split into linear factors in E[X].
+From now on assume that all fields are of characteristic zero.
+Definition. Let E/F be a finite extension. We say that E/F is Galois if is normal.
+80
+
+
+Remarks. For characteristic p fields, being Galois requires an extra condition called separability. Separability is automatically satisfied by characteristic zero field extension.
+If F = Q then E = Q( 3 √2, e 2πi
+3 ) is a Galois extension as it is the splitting field of x3 − 2.
+Note that Q( 3 √2) is not a Galois extension of Q as x3 − 2 does not split into linear factors
+in Q( 3 √2)[X].
+Definition. Let E/F be a finite Galois extension. The Galois group of E/F , denoted Gal(E/F ), is the group of field automorphisms of E which fix F ,i.e. σ ∈ Gal(E/F ) is a field automorphism σ : E → E such that σ(α) = α ∀α ∈ F . Composition is given by composition of functions.
+This concept was first introduced by Evariste Galois (1811-1832). In fact this is where the term group comes from. Galois was the first to use it. Here are some nice facts about Galois extensions and Galois groups:
+• Galois groups are finite. Moreover |Gal(E/F )| = [E : F ].
+• If E/F is Galois with E the splitting field of a degree n polynomial f ∈ F [X], then Gal(E/F ) acts faithfully on the roots of f in E. In particular we can identify Gal(E/F ) with a subgroup of Symn. It is important to realize that in general Gal(E/F ) will not be isomorphic to Symn. Because elements of Gal(E/F ) fix F they must preserve algebraic relations (over F ) among the roots.
+We should therefore think about Gal(E/F ) as permutations of the roots of a splitting polynomial which preserve all algebraic relationships between them.
+This makes Galois groups extremely subtle. In some instances there may be no relation
+ships (so Gal(E/F ) ∼= Symn), whereas in others there may be many (so Gal(E/F ) is much smaller than Symn).
+Fundamental Theorem of Galois Theory. Let E/F be a finite Galois extension. Then there is a natural bijection
+{Intermediate Subfields F ⊂ K ⊂ E} −→ {Subgroups H ⊂ Gal(E/F )}
+K −→ {σ ∈ Gal(E/F )|σ(k) = k, ∀k ∈ K} = Gal(E/K)
+In addition K/F is Galois if and only if Gal(E/K) ⊳ Gal(E/F ). In this case
+Gal(K/F ) ∼= Gal(E/F )/Gal(E/K).
+5.4 Solving Polynomials By Radicals
+Suppose we wish to find the root of a polynomial f (x) = a0 + a1x + · · · + anxn ∈ Q[X]. If n = 2 we have the quadratic formula. It is natural to ask if there is a similar formula (in terms of the coefficients) for n > 2. It turns out that for n = 3 and n = 4 there are formulae,
+81
+
+
+although they are extremely complicated. For many centuries mathematicians search for a formula in the case n = 5. Eventually it was proven (first by Abel and then later by Galois) that no such formula exists if n ≥ 5. This is a very surprising result. What is so special about n = 5? What would it mean for there to be an analogue of the quadratic formula for higher degree polynomials? In simpler terms, it would mean that all the zeroes could be constructed by repeatedly taking roots and applying basic algebraic operations. This would mean that the splitting field would have to have the following very specific property.
+Definition. Let f ∈ Q[X] with splitting field Kf . We say that f is solvable by radicals if there is a chain of fields
+Q = K0 ⊂ K1 ⊂ · · · ⊂ Km ⊂ C
+such that
+• Kf ⊂ Km
+• Ki+1 = Ki(αi), where αi is a root of a polynomial of the form xni − bi ∈ Ki[X], for all 0 < i < m.
+• e2πi/n ∈ K1 where n = ! ni. (This last condition is non-standard. It’s included to simplify the exposition.)
+It is a fact that Ki/Ki−1 is Galois and Gal(Ki/Ki−1) is Abelian By the fundamental theorem of Galois theory the chain
+Q = K0 ⊂ K1 ⊂ · · · ⊂ Km
+gives rise to the nested collection of subgroups
+{e} ⊳ Gal(Km/Km−1) ⊳ · · · Gal(Km/K2) ⊳ Gal(Km/K1) ⊳ Gal(Km/K0)
+where
+Gal(Km/Ki−1)/Gal(Km/Ki) ∼= Gal(Ki/Ki−1).
+Note that these quotients are Abelian, hence Gal(Km/K0) is a solvable group. Now observe
+that Gal(Kf /Q) ∼= Gal(Km/Q)/Gal(Km/Kf ). It is a fact that a quotient of a finite solvable group is solvable. Hence we deduce the following result
+Theorem. f ∈ Q[X] solvable by radicals ⇒ Gal(Kf /Q) a solvable group.
+This was Galois’ key insight. He realized that if there was a version of the quadratic formula then the corresponding Galois group would have Abelian simple components. What’s this got to do with degree five polynomials? If f ∈ Q[X] is an irreducible, degree five polynomial with exactly three real roots (for
+example x5 − 9x + 3) then it’s possible to show that Gal(Kf /Q) ∼= Sym5. Galois showed
+82
+
+
+that the simple components of Sym5 are {Alt5, Z/2Z}, hence Gal(Kf /Q) is not solvable. Hence, in this case, f is not solvable by radicals, so there can be no version of the quadratic formula. Why isn’t there a problem for degree 2,3 or 4? It’s because Sym2, Sym3 and Sym4 are solvable.
+This proof is one of the great achievements in mathematics. Galois was a true genius.
+He died at 21 in a duel over a woman. He wrote all this down the night before he died,
+running out of time in the end. Hermann Weyl, one of the greatest mathematicians of the
+20th century, said of this testament,
+This letter, if judged by the novelty and profundity of
+ideas it contains, is perhaps the most substantial piece
+of writing in the whole literature of mankind.
+83

@@ -1,0 +1,144 @@
+LA-UR
+Approved for public release; distribution is unlimited.
+L~os Alamos
+NATIONAL LABORATORY
+- - - EST. 1943 - - 
+Title: Structural Health Monitoring of Wind Turbine Blades under Fatigue Loads
+Author(s): Sanuel Dyas, Colorado School of Mines Justin Scheidler, Ohio State University Stuart Taylor, INST-OFF, LANL Gyuhae Park, INST-OFF, LANL Kevin Farinholt, AET-1 , LANL
+Intended for: IMAC XXX A CONFERENCE AND EXPOSITION ON STRUCTURAL DYNAMICS, Jacksonville, FL, January 30February 2, 2012.
+Los Alamos National Laboratory, an affirmative action/equal opportunity employer, is operated by the Los Alamos National Security, LLC for the National Nuclear Security Administration of the U.S. Department of Energy under contract DE-ACS2-06NA2S396. By acceptance of this article, the publisher recognizes that the U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce the published form of this contribution , or to allow others to do so, for U.S. Government purposes. Los Alamos National Laboratory requests that the publisher identify this article as work performed under the auspices of the U.S. Department of Energy. Los Alamos National Laboratory strongly supports academic freedom and a researcher's right to publish; as an institution, however, the Laboratory does not endorse the viewpoint of a publication or guarantee its technical correctness.
+Form 836 (7/06)
+
+
+STRUCTURAL HEALTH MONITORING OF WIND TURBINE BLADES UNDER FATIGUE LOADS
+Samuel J. Dyas1, Justin Scheidle~, Stuart G. Taylor3, Kevin Farinholt3, Gyuhae Park3
+1 Dept. of Mechanical Eng., Colorado School of Mines, Golden, CO 80401 2 Dept. of Mechanical Eng., Ohio State University, Columbus, OH 43210 3 The Engineering Institute, Los Alamos National Laboratory, Los Alamos, NM 87545
+Abstract
+This paper presents the results of dynamic characterization and preparation of a full-scale fatigue test of a 9m CX-100 blade. Sensors and actuators utilized include accelerometers and piezoelectric sensors. To dynamically characterize a 9m CX-100 blade, full scale modal analyses were completed with varying boundary conditions and blade orientations. Also, multi-scale sensing damage detection techniques were explored; high frequency activesensing was used in identifying fatigue damage initiation, while low frequency passive-sensing was used in assessing damage progression. Ultimately, high and low frequency response functions, wave propagations, and sensor diagnostic methods were utilized to monitor and analyze the condition of the wind turbine blade under fatigue loading.
+1
+
+
+1/20/2012
+nitoring of a Wind de under Fatigue Loads
+Presentation: IMAC 2012
+1
+
+
+1/20/2012
+2
+
+
+1/20/2012
+3
+
+
+tools/methods for fatigue test
+1/20/2012
+4
+
+
+1/20/2012
+Modal Analysis
+r-clir'ectil:m 10 in X-direction
+ree Results
+5
+
+
+2"" Bendina Mode 7.10Hz
+Frame out of phase with t ip of blade
+ending Mode
+N••" "I
+
+Frame!!l phase w ith t ip of blade
+1/20/2012
+6
+
+
+1/20/2012
+7
+
+
+1/20/2012
+Vertical Fixed-Free
+rtical Fixed-Free
+8
+
+
+1/20/2012
+odal Analysis
+9
+
+
+- NREL Fixture
+Equivalent to.. _
+- Fixed Base
+---r.--------..,
+.", '\
+LANl Fixture base is NOT fixed,
+Inducing stopes/displacement at 01-100-,0;,..., and reducing stiffness throughout system
+NRH FiKture is essenHally Filled, re-suUing in zero slope/displacement at CX ·tOO'sbase
+_ - Equivalent LANL Fixture
+with Fatigue Masses
+~ -CX-l00 - Fatigue Saddle
+1/20/2012
+10
+
+
+1/20/2012
+with Fatigue Masses
+11
+
+
+1/20/2012
+in Fixed-Free Condition
+$ 1 1:--:,
+z_-.+y
+12
+
+
+1/20/2012
+th Monitoring (SHM)
+ion via FRF Analysis
+13
+
+
+2
+Q ~G) 1
+:"g0 0 "
+Ol '
+al \!
+:2 -1
+RF Analysis
+-02.E5--------~1 -------- 1~.5~--~----~
+Frequency (Hz)
+FRF Analysis
+linear correlation coefficient
+1/20/2012
+14
+
+
+Qj '
+":c:0::l ,
+.<.~.. ,
+b Wave Propagation "- '"''''
+"T~aU"'L:>n 50 and 275 kHz
+Wave Propagation- "'''''
+175kHz
+Large Change in Slope -7 Damage
+1/20/2012
+15
+
+
+1/20/2012
+16
+
+
+1/20/2012
+AR 'FiATORY
+17
+
+
+• Structural Health Monitoring
+High-frequency FRF technique senSitive to operating
+1/20/2012
+18

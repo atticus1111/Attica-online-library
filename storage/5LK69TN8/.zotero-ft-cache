@@ -1,0 +1,771 @@
+Counting What Counts:
+What Leads to Higher Statistical Capacity in Developing Countries?
+Eun Young Kim*
+January 2021
+Abstract
+Reliable data and statistics are crucial for monitoring, evaluation, and evidence-based decision making (EBDM) in all fields of public policy. To this end, constructing persuasive evidence most frequently necessitates the collection and analysis of robust data. In the world of global development, the demand for EBDM is growing alongside attention to the United Nations’ Data Revolution. As such, the statistical capacity required to generate and maintain statistics in developing countries is an important goal in development, and is accordingly the target of numerous foreign aid projects. This paper compares the effectiveness of foreign aid for statistical capacity building to the effectiveness of domestic strategies designed to improve statistical capacity building, and investigates the economic, political, and technological conditions conducive to higher statistical capacity. I use a fixed-effects regression model with country and year fixed-effects on panel data for 135 developing countries over the period of 2004-2016, with the World Bank’s Statistical Capacity Indicator as the dependent variable and foreign aid and policy as the two main independent variables. Surprisingly, the results indicate that disbursements of ODA for statistical capacity building, have a negative effect on statistical capacity without a National Strategy for the Development of Statistics; on the contrary, ODA disbursements had a positive effect on statistical capacity for a countryyear in implementation of a national strategy. This signifies the importance of country ownership and participation in planning institutions and policies that support statistical capacity building. Other significant conditions for higher statistical capacity included higher GDP per capita levels and less autocratic, although not quite democratic, political regime characteristics. These results should be taken to inform future statistical capacity building programs, to meet the demands of the post-2015 data revolution and achievement of the Sustainable Development Goals.
+Keywords
+foreign aid effectiveness; statistical capacity building; national strategies for the development of statistics
+* The LBJ School of Public Affairs, The University of Texas at Austin, eykim@utexas.edu
+
+
+I. Introduction
+In recent years, there has been an increase in the demand for policymakers to make more
+“evidence-informed” policy decisions (Head, 2016). With this increase in demand for evidence,
+the importance of data that is used to generate such evidence has also grown. This is true not only
+within domestic policy and institutions in respective national governments, but also of
+international policymaking processes such as those that are in place for global development
+(Berten & Leisering, 2017). The global development community, as embodied in the United
+Nations’ Data Revolution, envisions a world in which data is harnessed for evidence-based
+policymaking as well as the robust monitoring of progress in all areas targeted by the Sustainable
+Development Goals, such as poverty alleviation, health, education, gender equality, and
+environmental issues (United Nations IEAG, 2014).
+Much of the data disseminated by international databases and used in determining the status
+of development outcomes originate from the statistics that national statistical offices collect and
+generate (Jerven, 2013). It then follows that the capacity for individual governments and national
+statistical offices to collect national statistics – “statistical capacity” – holds great importance.
+However, statistical capacity is still low in many areas of the world. Many countries lack the
+capacity and resources to generate, distribute, and utilize data and statistics, especially in low-and
+middle-income developing countries. For these countries, data-driven decision-making is hindered
+by low availability and lack of access to reliable data and dependence on funding or seconded staff
+from international organizations and other major donors.
+In response to this problem, interest and efforts toward statistical capacity building has
+long been part of the global development agenda (United Nations, 2016). The 2009 Accra Accord
+for Action emphasizes the need to develop and invest in national statistical systems for enhanced
+transparency and effective aid management (OECD, 2008). As one of the more recent initiatives,
+in 2014, the United Nations called for a Data Revolution to mobilize resources for the reduction
+of existing data gaps. Actors such as international organizations, international non-governmental
+organizations, and governments of developed countries have been supporting the funding and
+activities necessary to build statistical capacity. In terms of measurable inputs, the monetary
+volume of international development assistance toward statistical capacity building has been on
+an increasing trend over the last decade, with commitments reaching USD 689 million in 2017
+
+
+(PARIS21, 2019). At the same time, recent studies on the necessary volume of funding have found
+that yet additional funding and support is required for statistical capacity building to meet the
+demand for data and statistics in monitoring the Sustainable Development Goals (SDGs)
+(Demombynes & Sandefur, 2014; Jerven 2014; Round, 2012; Sustainable Development Solutions
+Network, 2015). International development assistance toward statistical capacity building
+(hereafter used interchangeably with the shortened term “StatAid”) is thus recognized as one of
+the main factors necessary for developing countries to have a higher level of statistical capacity.
+However, there is little evidence that the existing financial support toward statistical
+capacity building has been effective, especially as funding on its own. To the best of my
+knowledge, very few studies to date have explicitly addressed the empirical relationship between
+statistical capacity and international development assistance for statistical capacity. This study not
+only expands the sample of countries and the time frame of analysis from the existing literature,
+but also extends the discussion by focusing on comparing the effectiveness of statistics specific
+foreign aid versus the effectiveness of having a national policy strategy conducive to statistical
+capacity building, as well as the interaction between the two.
+I assess this question by looking at the association between statistical capacity levels as
+measured through the World Bank’s Statistical Capacity Indicator (SCI) scores, the amount of
+official development assistance provided for the development of statistics, and the statuses of
+National Strategies for the Development of Statistics (NSDS). In the possible absence of evidence
+for aid effectiveness, I investigate other important factors, economic, political, and technological,
+that may explain variation in statistical capacity. In doing so, I am able to discern the enabling
+conditions that allow for higher levels of statistical capacity in developing countries as well as test
+the effectiveness of ODA in producing these outcomes.
+The rest of the paper is organized as follows. In the next section, I give an overview of the
+problem of statistical capacity in developing countries, and review existing literature to derive
+hypotheses regarding the various enabling conditions for higher statistical capacity. The third
+section describes the data and empirical analyses. The fourth section presents the results of the
+analyses. I conclude with a discussion of the results and policy implications for future statistical
+capacity building projects.
+
+
+II. Statistical Capacity Building in Developing Countries
+The definition of statistical capacity lacks strong consensus. The World Bank’s webpage
+on Statistical Capacity Building defines statistical capacity as "the ability of countries to meet user
+needs for good quality statistics (World Bank, n.d. -a).” Jerven (2013, p.3) defines it as “the ability
+to adhere to the global standard,” referring to the ability to collect information in a manner
+consistent with data reporting practices that enable cross-national comparison. Tapsoba, Nuomon,
+and York (2017, p.3) employ a more specific definition, taking statistical capacity as “a set of skills,
+knowledge, and infrastructure needed for the compilation, maintenance and dissemination of high
+quality data.” The discussion on statistical capacity is also often split in terms of whether it refers
+to the capacity to collect administrative data or program specific survey data. As shown through
+just these examples, there is no consensus on the definition for the term “statistical capacity” in
+the scholarly development literature.
+The existing literature on the current status of statistical capacity does not paint a positive
+picture. A 2006 World Bank paper reviewing statistical capacity building activities found that
+many developing countries lack regular data collection and are finding it difficult to generate
+statistics. The same paper states that nearly half of low- and middle-income developing countries
+did not adhere to accepted global standards of good practices for statistics in generating their own
+national statistics, and that what statistics these countries reported to the international community
+do not always fit their intended purposes. Through an extensive survey of the national statistical
+offices across seven African countries, Jerven (2013) found that the quality and availability of
+national statistics, as well as the resources of national statistical offices, vary widely and
+idiosyncratically across countries. The accuracy of reported data was found to be low with large
+variability in the estimates of African national statistics, thus detracting their reliability (Jerven,
+2009). As such, developing countries with low statistical capacity suffer from both a lack of
+statistical data and the inaccuracies that prevail in existing national statistics.
+The problems posed by low statistical capacity are numerous. Without sufficient provision
+of statistics, or with low quality statistics, it is difficult to properly diagnose problematic situations
+in specific areas. It also becomes difficult to formulate effective policy programs, and to monitor
+and evaluate the progress of these programs. In the end, having low statistical capacity negatively
+affect both developing countries in achieving meaningful outcomes and international organizations
+
+
+in providing effective support.
+As a global public good, statistical capacity is best addressed on a more macro-structural
+level through national governments or international organizations (World Bank, 2006). To date,
+there have been many efforts to create a global governance structure for statistical capacity
+building. Since 1971, the United Nations Statistical Commission has been working to create global
+standards for statistics that “develop and harmonize statistics and indicators for monitoring
+internationally agreed development goals” (United Nations, 2007, p.12). In 1999, the Partnership
+in Statistics for Development in the 21st Century (PARIS21) was created through the joint efforts
+of the UN, OECD, World Bank, IMF, and the European Community as a “consortium of
+governments, international organizations, NGOs, and for sharing experiences to improve national
+and international statistics (World Bank, 2006, p.8.)” It is currently one of the most active groups
+in the field. The 2030 Agenda for Sustainable Development includes statistical capacity building
+as a goal to be achieved in targets 17.18 and 17.19.1 The 2017 Cape Town Global Action Plan for
+Sustainable Development Data lists specific action plans that need to be considered in order to
+achieve those targets (United Nations, 2017).
+The Partnership Report on Support to Statistics (PRESS), published yearly by PARIS21,
+show the annual trends in support to statistics. PRESS 2019 shows that in 2017, commitments to
+aid for statistics reached USD 689 million, constituting approximately 0.34 percent of total
+development support (an increase from the 0.33 percent in the previous year). The report also
+reported that the number of donors that provided foreign aid for statistical capacity building was
+also found to be continually expanding. While all this is considered a positive trend in development
+assistance, the given numbers show that support to statistics still not very large, and far from
+reaching the goal of reaching 0.7 percent of total development support. In line with this observation,
+many studies conducted around the transition from the Millennium Development Goals (MDGs)
+to the Sustainable Development Goals (SDGs) find that funding for the current international
+development assistance toward statistical capacity building is insufficient (Demombynes &
+1 Targets 17.18 and 17.19 are as follows: 17.18 By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts 17.19 By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries
+
+
+Sandefur, 2014; Jerven 2014; Sustainable Development Solutions Network, 2015). The specific
+funding needs vary by different estimations, but even the most conservative forecast find that an
+additional USD 100-200 million would be needed toward the support of statistics to collect data
+to monitor the SDGs, with some estimations calling for up to USD 300 million per year to cover
+the remaining gaps in household survey production (Demombynes & Sandefur, 2014; Sustainable
+Development Solutions Network, 2015).
+Despite these calls for increased funding, we do not really know if statistical capacity in
+developing countries will increase just by providing developing countries with more foreign aid
+for statistical capacity. In one of the few studies that conducted an empirical analysis of the impact
+of statistical aid, Chin (2019) found that statistical aid had no effect on statistical capacity. In the
+case of African countries, several studies found that donor funded surveys often hindered the
+conducting of country-led censuses and national surveys (Jerven, 2013; Jerven & Johnston, 2015;
+Sandefur & Glassman, 2015). As part of a study focusing on more general capacity building in
+Cambodia, Godfrey et al. (2002) found that donor supported projects were effective in heightening
+capacity in the short term, but did very little for the development of domestic institutions that
+would be sustainable past the end of project funding. Furthermore, when the focus is on monitoring
+short-term program outcomes, as is often the case for donor funded data collection, there is a larger
+incentive for mis-reporting practices (to meet these intended outcomes) that further intensify the
+statistical capacity problem itself (Sandefur & Glassman, 2015).
+The concern that increased funding may not be the solution for statistical capacity can be
+further illustrated with simple contrasting descriptive evidence from the past. StatAid – a key input
+resource – has increased in volume over the years. However, when looking at the trends of
+statistical capacity levels in developing countries as measured by the World Bank’s Statistical
+Capacity Indicator (SCI) scores on a 100-point scale, the signals are mixed. Over the time period
+of 2004 to 2016, SCI scores have fluctuated in different countries. Approximately 71 countries out
+of the 108 countries that were measured for the SCI in both 2004 and 2016 showed an overall
+improvement in statistical capacity. Out of those 71 countries, 28 countries improved over 10
+points, which was the mean improvement in SCI scores during the period, but the rest showed only
+minimal improvement. 37 countries showed a fall back in their statistical capacity scores, with 16
+countries showing a decrease larger than the average decrease of 7.9 points in the SCI score.
+Meanwhile, the overall average SCI score fluctuates in the 60s and does not escape this range
+
+
+much in the given time frame. With such a large variation between countries but so little an overall
+variation over time, it is difficult to discern whether StatAid has been effective. These trends lead
+us to question the effectiveness of foreign aid for statistical capacity, and suspect that there are
+additional conditions that must be considered in finding out what shapes and sustains statistical
+capacity levels in developing countries.
+The status of a National Strategy for the Development of Statistics (NSDS) is one such
+important condition that has been gaining more attention for statistical capacity building. Much
+effort has been put into supporting developing countries in establishing and implementing their
+own NSDSs. As of 2019, 125 countries have a national statistical plan under implementation
+(PARIS21, 2019). Drawing up the NSDS, which is a strategic document, often involves planning
+for the institutional framework, human resources, statistical infrastructure, and other elements of
+statistical capacity development. These activities target the creation or strengthening of the legal
+frameworks and administrative arrangements that are claimed to be imperative for statistical
+capacity (Krätke & Byers, 2014). They also align with some of the past aid effectiveness studies
+that have emphasized the importance of political institutions and economic policies for economic
+growth and developmental outcomes (Acemoglu et al., 2001; Burnside & Dollar, 2000).
+Furthermore, although external assistance via ODA may be provided by major international donors,
+a NSDS is developed largely through a government’s initiative. Therefore, the status of a NSDS
+also indicates the countries’ involvement and ownership in drawing up such a policy, and thus
+serves as a signal of government commitment to building statistical capacity and an important
+factor in the effectiveness of aid-funded programs. These NSDSs may be an alternative factor
+affecting the policy environment that generates higher levels of statistical capacity, or moderating
+the effectiveness of StatAid.
+Economic conditions, such as the economic development of a country, are also assumed to
+be heavily related to statistical capacity levels. Cameron et al. (2019) find a statistically significant
+and positive correlation between GDP per capita and statistical capacity. This can be explained
+from both a supply perspective, where more economic resources are available for statistical
+activities, as well as a demand perspective, where more statistics are necessary for more developed
+economies (Cameron et al, 2019; Chin, 2019). Meanwhile, in the case of developing countries, the
+overall amount of international development assistance that they receive may also indirectly affect
+statistical capacity through spillover effects in development. For instance, if a national program
+
+
+was implemented to build infrastructure for electricity provision, this may allow for improvements
+in data collection with respect to electronic surveys and thus improve statistical capacity. Therefore,
+it is meaningful to also investigate whether the net amount of ODA across all sectors given to each
+country affects statistical capacity.
+When statistical capacity is considered a key investment for enhancing government
+transparency, the political environment becomes another important condition to consider. Regime
+type may play a role in shaping the political environment of a country, structuring the incentive
+structures that move politicians in ways that are conducive or harmful toward building statistical
+capacity. In asking the question of whether electoral politics provide any incentives for
+governments to disseminate data, Hollyer, Rosendorff, and Vreeland (2011) find that democracies
+are more transparent; governments with electoral competition are more willing in making their
+economic data available. Berliner (2014) finds that countries with more political competition as
+measured through the strength of opposition parties and the frequency of turnover are more likely
+to pass freedom of information laws that guarantee the supply of information to the public.
+However, many other studies also considered scenarios where elected officials in democracies are
+more hesitant to make statistics available in fear that their incompetence may be revealed. In these
+weaker institutional environments, officials are selective in the statistics that are produced (Kono,
+2006; Mani & Mukand, 2007; Rejali, 2007 as cited in Hollyer et. al 2001). Claims that stronger
+autocratic regimes perform better through good quality institutions (Huntington, 1968, as cited in
+Sirowy & Inkeles, 1990; Melville & Mironyuk, 2016) may also apply to better mobilizing
+resources toward statistical capacity building. Therefore, political regime characteristics, as well
+as issues of transparency and corruption should also be considered as plausible factors that impact
+statistical capacity.
+The final set of factors to consider are those concerning the technological development of
+a developing country. Although many developing countries still rely on manual data collection
+methods such as in-person or paper surveys, the presence of technology and higher technological
+development levels may be able to enhance statistical capacity by facilitating more efficient data
+collection and maintenance procedures, such as telephone surveys, electronic data management,
+and web-based data dissemination practices. Anderson and Whitford (2017) have looked at the
+effect that different levels of technological development had on a country’s statistical capacity
+levels using the ArcCo Technology Index, which is a complex composite indicator of internet
+
+
+penetration, telephone penetration, electricity consumption, and educational attainment levels
+pertaining to technology (Archibugi & Coco, 2004, as cited in Anderson & Whitford, 2017).
+Higher levels of technology attainment, especially that of electricity consumption and telephone
+penetration, were found have had a positive and statistically significant effect on statistical
+capacity. Internet penetration did not have a significant effect on statistical capacity. Nevertheless,
+Anderson and Whitford’s analysis is affirmative of the assumption that technology and statistical
+capacity are interrelated.
+All of these existing discussions warrant a more comprehensive investigation into the
+effectiveness of foreign aid for statistical capacity building, the effect of a strategic national policy,
+and the other conditions that are necessary for higher statistical capacity. The data and
+methodology to carry out the empirical analyses are described in the next section.
+III. Data and Methodology
+1. Dependent Variable: Statistical Capacity Indicator
+The outcome variable of interest for this study is the statistical capacity of developing
+countries. As aforementioned, there is no single definition of statistical capacity, and therefore it
+is something that is difficult to observe or measure on its own. The current paper borrows from the
+Statistical Capacity Indicator (SCI) score as conceptualized and calculated by the World Bank.2
+The SCI score ranges from 0 to 100 and is an equally weighted composite average score
+with the sub-dimensions of statistical methodology, availability of source data, and periodicity and
+timeliness, which are each measured on a scale of 100.3 The statistical methodology dimension
+measures “a country’s ability to adhere to internationally recommended standards and methods.”
+Scores of 0 (no) or 1 (yes) are given for ten equally weighted sub-indicators. These indicators
+include: whether the country has followed guidelines to adjust its base year for calculating national
+accounts and consumer price index, whether it is using the Balance of Payments Manual, whether
+2 The Note on Statistical Capacity Indicators (World Bank, n.d. -b) gives detailed information on the methodology of the SCI and are widely borrowed from to explain SCI in this section. 3 To paint a picture of what SCI scores look like for countries: Liberia scored the minimum SCI score of 16.67 in 2004 (but improved to a score of 57.78 in 2016), and Peru in 2014 and Mexico in 2016 scored the maximum SCI score of 98.89. Developing countries that had around the average SCI score of 64.66 included Gambia and Laos in 2016
+
+
+the country is reporting vital statistics such as external debt, industrial production index,
+import/export prices, school enrollment, and vaccinations, whether the country is using a
+consolidated government finance accounting concept, and whether the country is subscribed to the
+IMF’s Special Data Dissemination Standard. The availability of source data dimension measures
+whether the developing country collects data according to internationally recommended
+periodicity, and whether administrative data are available and reliable. The five sub-indicators in
+the source data dimension are: the conducting of population censuses, agriculture censuses,
+poverty surveys, and health surveys; as well as the completeness of the vital registration system.
+These five sub-indicators are given scores of 0, 1/2, or 1 based on the number of data collection
+rounds available for each and are given an equal weight of 20 to sum to 100. The periodicity and
+timeliness dimension measures the availability and timeliness (or measurement frequency) of key
+economic, health, and education related indicators. The availability of 10 sub-indicators is
+measured for this dimension: income poverty, child malnutrition, child mortality, immunization,
+HIV/AIDS, maternal health, gender equality in education, primary (education) completion, access
+to water, and GDP growth. Each indicator is given a score of 0, 1/3, 2/3, or 1 based on the number
+of times the indicator has been observed within a given period (usually the latest 5 years or 10
+years) and are given equal weights of 10 to sum to 100.
+While the SCI is the primary index that is used most frequently in measuring statistical
+capacity, it is worth noting that some scholars have criticized the SCI for its inability to measure
+the efficacy of national statistical systems and the willingness of policymakers to utilize the
+statistical capacity in these systems in their policy and decision-making processes (Ngaruko, 2008
+as cited in Round, 2012; Hsu, 2015). Their arguments do have a point, in that the SCI only
+measures the existence and maintenance of certain statistics and thus do not access how these
+statistics are measured in terms of accuracy and efficiency, nor their actual usage. Crucial
+dimensions for statistical capacity, such as statistical institutions and infrastructure, are also not
+captured directly through the SCI. To this end, there have been many recent discussions on
+developing a new measure for statistical capacity (Dharmaratne & Attygalle, 2018; Cameron et al.,
+2019). Nevertheless, I use the SCI in this paper as it is a representative index, considered a useful
+measure and used by the International Development Association in determining countries with low
+statistical capacity that need support to statistics (International Development Association, 2004 as
+cited in Hsu et al., 2015).
+
+
+2. Independent Variables
+The main independent variable is the dollar amount of international development assistance
+disbursed to each developing country for statistical capacity building purposes (StatAid). The data
+is drawn from the annex dataset to the 2016 Partner Report on Support to Statistics (PRESS)
+published by the Partnership in Statistics for Development in the 21st Century (PARIS21).
+PARIS21 uses a mix of searching, text mining, and survey techniques to identify statistical
+capacity building projects. Projects reported by donors through the OECD Creditor Reporting
+System (CRS) are located by searching for the statistical capacity building code. Text mining on
+reported project objectives is used to locate additional projects that include a statistical capacity
+building component.4 These are further supplemented with projects identified through an online
+questionnaire that is completed by donors that do not report to the CRS. Through this process, a
+total of 11031 projects were included in the PRESS 2016 dataset. While aid if often measured in
+terms of the commitment amounts from donors, there is a chance that not all of these commitments
+are released to the recipient country, especially for technical assistance projects (Kim, 2018).
+Therefore, to measure only the aid amounts delivered, this study uses the data for disbursements
+instead of the commitments data.
+Out of the 11031 total projects, only 8803 projects for which a single country was the
+recipient were compiled into the country-year level unit disbursement amounts. 5 In the
+compilation process, disbursement years were used if the disbursement year preceded the year the
+project was reported; expected end years were used if the expected end years if they succeeded
+disbursement years and preceded reporting years. Mainly, however, the reporting year of each
+project was used primarily as the year of compilation. To account for differences in country size,
+4 This process was originally added in the PRESS methodology to reduce the underestimation of actual levels of aid that came from excluding projects that did not bear the sector code for statistical capacity building (PARIS21, 2016). However, it now presents a different limitation for the data. When statistical capacity building is an embedded component of a larger project, disbursement amounts for that specific component are likely not available, and thus the amounts reported are for the overall project. Using the disbursement amounts given for the overall project would result in an overrepresentation of aid given to statistics, as they now also incorporate the amounts for projects that are not directly connected to statistical capacity building. This study attempts to mitigate this problem by testing several different operationalizations of StatAid, including limiting the scope of projects to include in the analysis. This strategy is further described in the empirical model section. 5 The dataset also includes StatAid observations for which multiple countries or a geographical region were the recipients. However, for these observations, there was no information on how much aid went to each individual country, and to what purpose. This study chose to drop these observations in order to align the data with the unit of measurement of the SCI scores, which are primarily measured by country and year.
+
+
+this compiled country-year level amount was then divided by the population size of each country
+to produce StatAid per capita. Furthermore, because the data were heavily skewed right, a log
+transformation of StatAid per capita was conducted before including the variable in the model.
+The moderating variable, the current status of each country’s National Strategy for the
+Development of Statistics (NSDS), is another key independent variable in the model that proxies
+the policy for statistical capacity building. NSDS statuses are collected and distributed in
+PARIS21’s semi-annual National Strategies for the Development of Statistics Progress Report,
+through direct information provided by recipient countries or from websites of “key development
+partners” and recipient countries’ national statistical offices. The statuses are defined as four
+different categories of: no strategy, completed and awaiting adoption, implementation, or expired.
+Out of 792 observations, 21.46% of year-countries had no strategy, 5.81% had strategies that were
+completed and awaiting adoption, 51.77% were in the process of implementing their NSDS, and
+20.96% had expired strategies.
+3. Control Variables
+In addition, six control variables representing economic and political country
+characteristics, as well as technological development levels, are included in the model. These
+control variables account for the time-variant country characteristics that may alternatively affect
+the improvement of statistical capacity and serve the purpose of helping identify the conditions
+that enable higher statistical capacity. GDP per capita and net official development assistance
+(ODA) figures were taken from the World Development Indicators database. Log-transformed
+GDP per capita is included to account for the size of the recipient country’s economy, as its overall
+level of economic development. A log-transformed net ODA per capita difference variable is also
+included in the model to control for any spillover effects that may occur into statistical capacity
+building that comes from foreign aid with other development objectives. The difference between
+the net amount of ODA per capita given to each recipient country and StatAid per capita was taken
+to eliminate any redundancy in accounting for ODA per capita, as StatAid is also included in ODA.
+Existing theory suggests that the political environment of a country, such as political
+regime type or corruption levels, is also important when it comes to conditions that enable higher
+statistical capacity. As a proxy for political regime characteristics, this study includes the
+composite Polity2 scores from the Center for Systemic Peace’s PolityV Project database. This
+
+
+variable is a continuous variable ranging from -10 to 10, with scores from -10 to -6 signifying an
+autocracy, scores of -5 to 5 signifying a transitional state (anocracy), and scores closer to 10
+signifying a democracy. The PolityV score is included in the model as a quadratic term to test for
+possible non-linearity in the association between political regime characteristics and statistical
+capacity. In order to account for government transparency and corruption levels in the political
+environment, Transparency International’s Corruption Perceptions Index (CPI) scores are also
+included as a control variable. On a scale of 0 to 100, higher CPI scores indicate that the country
+was perceived to be cleaner, or more transparent and less corrupt.
+Four control variables were taken from the World Bank’s World Development Indicators
+database to measure the effect of technology on statistical capacity: the percentage of population
+with access to the Internet, the number of fixed telephone subscriptions per 100 people, the number
+of mobile subscriptions per 100 people, and the percentage of the population in each country that
+has access to electricity. This is a different approach from Anderson and Whitford (2017), who
+used a composite technology index calculated with many different statistics pertaining to
+technological attainment. I chose instead to use the raw source data for Internet, telephone, and
+electricity. These variables are intended to measure the technological development level and
+geographical connectedness that may facilitate the collection and maintenance of official statistics.
+Table 1 gives the descriptive statistics of all the variables included in this study.
+Table 1. Descriptive Statistics
+(1) (2) (3) (4) (5) CONTINUOUS VARIABLES N mean sd min max
+SCI score (total) 1,712 64.54 16.62 16.67 98.89 Statistical methodology dimension 1,712 52.58 22.70 0 100 Availability of source data dimension 1,712 62.09 22.85 0 100 Periodicity and timeliness dimension 1,712 78.98 13.22 26.67 100 Aid disbursements, all projects (USD) 1,225 783,522.2 2131246 0 4.41e+07 Aid disbursements per capita, all projects (USD) 1,221 0.283 1.64 0 32.53 GDP per capita 1,706 3951.57 3752.26 215.15 20512.94 Differenced ODA per capita (USD) 1,215 111.86 251.97 -42.30 2833.08 PolityV 1,476 2.95 5.785 -10 10 Corruption Perception Index 1,527 31.37 11.63 8 90 Individuals Using the Internet (% of population) 1,710 19.39 18.45 0.024 82.33 Fixed Telephone Subscriptions (per 100 people) 1,718 10.09 10.53 0 47.87 Mobile Subscriptions (per 100 people) 1,730 66.72 43.97 0.19 207.78 Access to Electricity (% of population) 1,717 69.38 31.88 1.5 100
+
+
+CATEGORICAL VARIABLES N count % min max
+NSDS status 1,016 1 4 1: No NSDS 226 12.88 2: Awaiting adoption 65 3.70 3: Implementing NSDS 520 29.63 4: Expired 205 11.68
+4. Sample of Countries
+Recipient countries that are included in the analytical sample are those eligible to borrow
+from the International Development Association, low-income countries and lower-middle-income
+countries as defined by OECD DAC, and all African countries (PARIS21, 2016, p.10). The
+original list of countries combined from the annex dataset to PRESS 2016 and the SCI database
+includes 150 countries. Out of these 150 countries, however, 15 countries that did not have data
+on either disbursed StatAid amounts (main independent variable) or had missing SCI scores
+(dependent variable) over the entire time period of 2004–2016 were excluded from the final sample.
+A full list of the countries included in the analyses are available in Appendix A. The final product
+is a panel dataset that consists of 135 countries, for the 13 years between 2004-2016. A total of
+1755 country-year observations are the main unit of analyses originally included in the dataset for
+analyses.
+5. Empirical Models
+In the absence of a control group that acts as a counterfactual and the inability to use
+random assignment of a treatment, I use a country and year level fixed-effects regression model in
+analyzing the data, to compare within countries. Such a design takes time-invariant country
+characteristics and temporal differences into account, and by looking at the effect of international
+development assistance on statistical capacity over the years within each individual country, we
+are able to control for possible variations in outcomes that may have arisen from different
+unobservable country situations. The following model accounts for unobservable time-invariant
+country characteristics with country fixed effects indicated with γi, and year fixed effects indicated
+with υt.
+The main independent variable, the amount of international development assistance for
+statistical capacity building per capita (StatAid), is lagged by two years, which is the average
+
+
+amount of years between when a commitment is made to the project’s estimated end date, as
+provided through the project list in PRESS 2016’s annex dataset. These lags were created to impose
+a type of temporal causality between the dependent variable and the independent variables. NSDS
+statuses are also lagged by two years to coordinate with StatAid per capita. The interaction term
+represents the test for the moderating effect of NSDSs on the effect of StatAid per capita. Time
+variant factors of importance that need to be controlled for and that may affect statistical capacity
+are included as control variables, indicated Zit. NSDS status and year interaction terms are also
+added in as controls, to reduce bias in the results. The basic model, Model (1), can be written as
+follows:
+SCIit = βo + β1 ln(StatAid)it−2 + β2NSDSit−2 + β3ln (StatAid)it−2 ∗ NSDSit−2 + δZit + γi + νt + εit (1)
+Using the same basic model, I also test models that take the three sub-dimension scores of
+the Statistical Capacity Indicator (SCI) as respective dependent variables in to better understand
+how each dimension contributes to the total outcomes found with the total SCI.
+Next, I test for sensitivity between several different operationalizations of StatAid. First,
+to account for the overrepresentation of ODA given to statistics in the PRESS 2016 annex dataset,
+I create a new dependent variable that sums the disbursements per capita for only those projects
+that are directly related to supporting statistical capacity. Only the projects that directly target
+national statistical offices, national statistical strategies, national birth registry systems, censuses,
+and national surveys were kept; projects only partially including a statistics related component or
+projects that funded donor-led data collection activities were excluded.
+Additional operationalizations of StatAid address an important temporal aspect of capacity
+building. In an ideal situation, capacity building should be non-volatile. That is, the development
+assistance given to statistical capacity building in a previous year should not disappear, but rather,
+act as a foundation for future statistical capacity building to accumulate onto. Therefore, I create a
+variable of a sequentially accumulated sum of disbursements per capita, for which the aid provided
+to a country for statistical capacity building is snowballed from 2004 to the year previous to each
+current year.
+SCIit = βo + β1ln(∑t−1 StatAidi) + β2NSDSit−2 + β3ln(∑t−1 StatAidi) ∗ NSDSit−2 + δZit + γi + νt + εit (2)
+However, such complete non-volatility is unrealistic given possible personnel turnovers and
+
+
+system depreciation. Therefore, I further relax this assumption of complete non-volatility, and test
+the effect of the aggregated sum of StatAid disbursements per capita for each of the n number of
+years previous to each current year. NSNS lags are adjusted to reflect the NSDS for the furthest
+year of aggregation. This allows us to account for the non-volatility of more recently given aid,
+while counting out the effect of aid that was given too far out in the past and therefore may have
+dissipated.
+SCIit = βo + β1ln(∑ StatAidi)
+tt−−1n + β2NSDSit−n + β3ln(∑ StatAidi)
+tt−−1n ∗ NSDSit−n + δZit + γi + νt + εit (3)
+I test five different models that vary the n number of years between one, two, three, four, and five
+years of aggregation, respectively (1 ≤ n ≤ 5).
+IV. Results
+Table 2 shows a sequential building of Model (1). When testing the simple association
+between StatAid, the status of National Strategies for the Development of Statistics, and their
+interaction, there is no statistically significant relationship between StatAid, NSDS statuses, and
+statistical capacity when considered on their own (as shown in Column (1)). However, this simple
+model of association does not account for the other factors that must be accounted for in testing
+the relationship between the main variables. Once the groups of economic, political, and
+technological country characteristics are all added and controlled for, I find that StatAid has a
+statistically significant association with statistical capacity (Column (4)). The significant
+interaction effects can be interpreted to yield interesting conclusions about the effect of StatAid,
+which now differ by the level of NSDS status. When a country does not have any national strategy
+in place for statistical capacity building, every 10% increase in StatAid per capita is associated
+with a 0.074 point decrease in SCI scores. Furthermore, every 10% increase in StatAid per capita
+is associated with a 0.032 point decrease in SCI scores when a country's national strategy is expired.
+When a country has a national strategy in place and is implementing it, however, every 10%
+increase in StatAid per capita is associated with a 0.039 point increase in SCI scores. In short,
+StatAid has a negative effect on statistical capacity in the absence of a national strategy, but has a
+positive effect when a country is implementing a national strategy.
+
+
+Table 2. Estimated Effects of Country and Year Fixed Effects Models, with Controls6
+VARIABLES (1) (2) (3) (4)
+log[StatAid per capita] -0.325 -0.736*** -0.879*** -0.740** (0.291) (0.275) (0.317) (0.331) 2.NSDS=Awaiting Adoption 0.736 5.746 9.217*** 9.245*** (3.244) (3.530) (2.926) (2.838) 3.NSDS=Implementing 4.132 6.004** 6.807** 6.325** (2.807) (2.464) (2.858) (2.759) 4.NSDS=Expired 6.019* 5.598* 5.651 5.331 (3.433) (2.992) (3.420) (3.440) 2.NSDS#StatAid 0.568 1.090** 1.502*** 1.381*** (0.452) (0.526) (0.436) (0.454) 3.NSDS#StatAid 0.560 1.039*** 1.228*** 1.135*** (0.357) (0.322) (0.370) (0.385) 4.NSDS#StatAid 0.395 0.349 0.545 0.417 (0.421) (0.316) (0.372) (0.381) log[GDP per capita] 3.456 8.611* 10.63** (5.052) (4.797) (4.998) log[net ODA per capita difference] -0.521 -0.511 -0.473 (0.660) (0.668) (0.646) Polity5 1.171*** 1.133*** (0.339) (0.346) Polity52 -0.300*** -0.299*** (0.0487) (0.0520) Corruption 0.0423 0.0502 (0.0926) (0.0937) Individuals Using the Internet (%) -0.104 (0.101) Fixed Telephone -0.199 (0.231) Mobile per 100 people -0.00272 (0.0274) Access to Electricity (%) 0.0956 (0.0806)
+Observations 759 572 495 494 R-squared 0.068 0.116 0.192 0.210 Number of Countries 114 107 92 92 Country FE, Year FE YES YES YES YES Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1
+6 The coefficients for all fixed effects and the NSDS Status-Year interaction control term were excluded from all results tables that follow for brevity, considering their lack of interpretative value. The base levels for all categorical variables were also omitted from the results tables.
+
+
+These results highlight the importance of having a prepared NSDS in implementation.
+Figure 1 depicts these results, showing the moderating effect of NSDS for the association between
+StatAid and mean predicted statistical capacity scores. Between the two contrasting statuses of a
+country-year that has no NSDS verses a country-year that is implementing a NSDS, the mean
+predicted SCI scores are significantly higher for country-years where a NSDS is being
+implemented, and the difference is amplified as the amount of StatAid increases.
+Figure 1. Mean Predicted SCI scores by NSDS Status
+In addition, in line with the existing literature, I find that the economic development levels
+of a country are positively associated with statistical capacity. Each 10% increase in GDP per
+capita is associated with a 1.063-point increase in the SCI scores. Considering the small variability
+of SCI scores within a country, this can be interpreted to mean that a country’s economic
+development has great implications for its statistical capacity.
+
+
+Figure 2. Mean Predicted SCI scores by PolityV Scores
+Furthermore, the political regime characteristics of a country, as reflected by the PolityV
+scores, are another condition found to affect statistical capacity. The results confirm that there is a
+non-linear association between statistical capacity and regime characteristics. As seen in Figure 2,
+each point increase in the PolityV score is associated with an increase in SCI scores up to a certain
+point, but when the PolityV score exceeds 1.9, each point increase results in a decrease in statistical
+capacity. That is to say, statistical capacity becomes higher for countries that show less autocratic
+characteristics, but begins to decrease for countries with characteristics of a more democratic
+regime. Countries that have either highly autocratic or highly democratic regime characteristics
+were found to have comparatively lower statistical capacity.
+Finally, contrary to existing research, I find that technological development levels such as
+Internet and telephone connectivity, as well as access to electricity, do not have any significant
+effect on statistical capacity.
+The results from taking the subdimensions of the SCI as dependent variables are presented
+in Table 3. These results suggest that a country’s subscription to internationally recognized
+statistical methodology (given in Column (2)) is most influential in driving the overall results
+found for the total SCI.
+
+
+Table 3. Estimated Effects Using Subdimension Scores of the Statistical Capacity Indicator
+(1) (2) (3) (4)
+VARIABLES Total SCI Statistical
+Methodology
+Periodicity and Timeliness
+Availability of Source Data
+log[StatAid per capita] -0.740** -1.664** -0.601* 0.0434 (0.331) (0.701) (0.358) (0.528) 2.NSDS=Awaiting Adoption 9.245*** 12.82** 5.956 8.960 (2.838) (5.536) (5.379) (6.693) 3.NSDS=Implementing 6.325** 9.212* 5.908** 3.856 (2.759) (4.961) (2.885) (5.332) 4.NSDS=Expired 5.331 2.102 3.938 9.952 (3.440) (6.066) (5.383) (6.103) 2.NSDS#StatAid 1.381*** 3.435*** 0.681 0.0263 (0.454) (0.830) (0.746) (0.872) 3.NSDS#StatAid 1.135*** 2.160*** 0.603 0.641 (0.385) (0.768) (0.439) (0.664) 4.NSDS#StatAid 0.417 1.234 -0.344 0.361 (0.381) (0.954) (0.614) (0.943) log[GDP per capita] 10.63** 2.737 0.447 28.71*** (4.998) (11.25) (6.298) (8.543) log[net ODA per capita difference] -0.473 0.501 0.0410 -1.961 (0.646) (1.294) (0.828) (1.374) Polity5 1.133*** 1.812*** 0.0200 1.565* (0.346) (0.513) (0.489) (0.806) Polity52 -0.299*** -0.400*** -0.0737 -0.424*** (0.0520) (0.1000) (0.0772) (0.130) Corruption 0.0502 -0.164 0.000105 0.314 (0.0937) (0.182) (0.133) (0.218) Individuals Using the Internet (%) -0.104 0.0395 -0.0815 -0.270 (0.101) (0.123) (0.104) (0.220) Fixed Telephone -0.199 0.375 -0.138 -0.834** (0.231) (0.475) (0.173) (0.406) Mobile per 100 people -0.00272 0.0327 -0.0205 -0.0204 (0.0274) (0.0630) (0.0314) (0.0496) Access to Electricity (%) 0.0956 -0.212 0.243* 0.255* (0.0806) (0.163) (0.142) (0.141)
+Observations 494 494 494 494 R-squared 0.210 0.193 0.203 0.160 Number of Countries 92 92 92 92 Country FE, Year FE YES YES YES YES Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1
+
+
+Table 4. Estimated Effects Using Alternative Operationalizations of StatAid
+(1) (2) (3)
+VARIABLES Basic Model Limited Scope
+of Projects
+Sequentially Aggregated Disbursements log[StatAid per capita] All project disbursements -0.740** (0.331) National statistics & census/survey projects only -0.734** (0.298) All project disbursements: sequentially accumulated sum -1.223 (1.001) 2.NSDS=Awaiting Adoption 9.245*** 9.037*** 8.183*** (2.838) (2.740) (2.786) 3.NSDS=Implementing 6.325** 5.621* 7.055** (2.759) (2.873) (2.998) 4.NSDS=Expired 5.331 5.340 6.392* (3.440) (3.624) (3.602) 2.NSDS#StatAid 1.381*** 1.099** 3.294*** (0.454) (0.469) (0.795) 3.NSDS#StatAid 1.135*** 0.853** 2.135*** (0.385) (0.355) (0.756) 4.NSDS#StatAid 0.417 0.463 0.994 (0.381) (0.423) (0.736) log[GDP per capita] 10.63** 11.18** 10.98** (4.998) (4.808) (4.847) log[net ODA per capita difference] -0.473 -0.476 -0.462 (0.646) (0.740) (0.615) Polity5 1.133*** 1.180*** 1.096*** (0.346) (0.355) (0.379) Polity52 -0.299*** -0.307*** -0.292*** (0.0520) (0.0515) (0.0552) Corruption 0.0502 0.0551 0.0566 (0.0937) (0.0942) (0.0942) Individuals Using the Internet (%) -0.104 -0.0869 -0.120 (0.101) (0.100) (0.0973) Fixed Telephone -0.199 -0.180 -0.205 (0.231) (0.229) (0.242) Mobile per 100 people -0.00272 0.000609 -0.00143 (0.0274) (0.0272) (0.0268) Access to Electricity (%) 0.0956 0.0733 0.0849 (0.0806) (0.0786) (0.0800) Observations 494 484 499 R-squared 0.210 0.218 0.222 Number of Countries 92 92 92 Country FE, Year FE YES YES YES Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1
+
+
+Table 4 shows the results with the results for the full basic model and the two variations on
+the operationalization of the StatAid variable. There is no drastic change in results by limiting the
+scope of projects to only those directly related to national statistical offices, national statistical
+strategies, censuses, and national surveys. Similar findings hold from those of the original basic
+model, with slight differences in the effect sizes. The effect of the limited scope StatAid
+disbursement amounts is overall smaller, while the coefficients of other factors such as GDP per
+capita and political regime characteristics are slightly larger. These differences are reflective of
+the smaller disbursement amounts for the limited scope StatAid variable.
+However, when testing the non-volatility of statistical capacity building ODA with the
+sequentially accumulated StatAid disbursements variable, the results now indicate that there is no
+statistically significant association between StatAid and statistical capacity. These results may be
+interpreted to suggest that foreign aid for statistical capacity building is not completely non-volatile
+as is ideal; aged aid effects dissipate over time.
+I then relax the non-volatility assumption of StatAid effects, and test whether the capacity
+building effects exist and endure for different durations of accumulation. These results are
+presented in Table 5. I find a statistically significant association between StatAid and statistical
+capacity when limiting the aggregation of StatAid disbursements to those projects reported in the
+two to four years prior to the current year of analysis. These results indicate that short term aid
+(one year) is not effective in statistical capacity building, and that there is a certain period of time
+that is necessary for the effects of StatAid to be realized into statistical capacity.
+
+
+Table 5. Estimated Effects with Relaxed Non-Volatility Assumption
+(1) (2) (3) (4) (5)
+VARIABLES Sum from
+t-1 year
+Sum from t-2 year
+Sum from t-3 year
+Sum from t-4 year
+Sum from t-5 year
+log[StatAid per capita] -0.509 -0.979** -1.725*** -1.903** -0.745 (0.395) (0.407) (0.568) (0.824) (1.561) 2.NSDS=Awaiting Adoption 1.532 8.281*** 6.936* 6.157 3.752 (2.396) (2.817) (3.906) (4.534) (2.347) 3.NSDS=Implementing 4.201 5.580** 6.848*** 5.487*** 3.556** (3.187) (2.648) (2.016) (1.540) (1.781) 4.NSDS=Expired 4.811 4.746 8.407*** 8.164*** 4.431* (3.991) (3.240) (2.427) (2.498) (2.390) 2.NSDS#StatAid 0.389 1.709*** 1.857** 2.351 1.394 (0.555) (0.487) (0.755) (2.247) (1.678) 3.NSDS#StatAid 0.524 1.329*** 1.938*** 2.057** 0.994 (0.436) (0.455) (0.455) (0.786) (1.233) 4.NSDS#StatAid 0.343 0.244 1.216* 1.293 1.371 (0.440) (0.403) (0.642) (1.144) (1.620) log[GDP per capita] 9.862* 10.26* 8.418 7.360 13.04** (5.461) (5.167) (5.303) (5.261) (5.660) log[net ODA per capita difference] -0.563 -0.524 -0.668 -1.093 0.937 (0.589) (0.641) (0.716) (0.758) (1.153) Polity5 0.0652 1.171*** 0.909** 1.140*** 1.052** (0.196) (0.361) (0.402) (0.320) (0.527) Polity52 -0.158*** -0.302*** -0.271*** -0.342*** -0.339*** (0.0406) (0.0530) (0.0671) (0.0582) (0.0804) Corruption 0.141 0.0675 0.174* 0.143 0.0307 (0.0916) (0.0928) (0.0987) (0.121) (0.177) Individuals Using the Internet (%) -0.152* -0.109 -0.108 0.00544 -0.0156 (0.0907) (0.100) (0.128) (0.129) (0.132) Fixed Telephone -0.112 -0.186 -0.201 0.0400 -0.537 (0.198) (0.243) (0.330) (0.268) (0.448) Mobile per 100 people 0.0115 0.000916 -0.0102 -0.0186 -0.0656* (0.0273) (0.0275) (0.0328) (0.0264) (0.0335) Access to Electricity (%) 0.0536 0.0865 0.0510 0.0249 0.0414 (0.0891) (0.0821) (0.0776) (0.0905) (0.0897)
+Observations 572 499 413 329 245 R-squared 0.184 0.217 0.225 0.264 0.250 Number of Countries 93 92 90 88 86 Country FE, Year FE YES YES YES YES YES Robust standard errors in parentheses *** p<0.01, ** p<0.05, * p<0.1
+
+
+IV. Conclusion
+This paper investigated the factors that affect statistical capacity, with a particular focus on
+the association between statistical capacity, international development assistance for statistical
+capacity building, and countries’ national strategies for statistical capacity. I find evidence that the
+dollar amount of international development assistance given to 135 countries for statistical
+capacity building purposes over 13 years between 2004 and 2016 are positively associated with
+statistical capacity only when an active national strategy for statistics is being implemented in the
+country. In general, countries with better economic development levels had higher statistical
+capacity. A country’s statistical capacity level was higher for less autocratic states, but began to
+decrease for more democratic states. Technological development levels did not have any
+significant effect on statistical capacity. Accounting for medium term accumulation of capacity
+building aid showed a higher association with statistical capacity building levels than considering
+the effects of short-term or long-term aid.
+These results enhance our understanding of statistical capacity in developing countries and
+suggest the way forward in designing more effective support to build statistical capacity in
+developing countries. First of all, donors to statistical capacity building, such as international
+organizations and individual countries, need to direct their financial and technical support to
+helping countries create and implement domestic policy strategies, such as the National Strategies
+for the Development of Statistics. Activities involved would include supporting countries in
+developing their own policy programs, domestic institutions, and systems for statistical capacity.
+While this is in line with the current direction of StatAid, it would still call for a furthered shift
+toward supporting recipient countries’ participatory efforts, rather than simply increasing direct
+program ODA. In this process, the limited duration of capacity-building aid should also be
+considered to provide appropriate durations of sustained support for statistical capacity building.
+However, as the ultimate goal of capacity building is to develop self-supported capacity, donors
+have a fine line to walk between providing continuous support for statistical capacity building
+while ensuring that recipient countries do not become reliant on external support. This brings even
+more emphasis to the importance of helping countries build the domestic institutions and systems
+necessary for eventually self-sustained statistical capacity building. The significance of the role of
+national strategies themselves highlight the importance of country ownership, as aforementioned.
+
+
+All of these processes require closer collaboration between the recipient country governments and
+the donor entities.
+Furthermore, the results regarding other factors affecting statistical capacity provide
+insights on which countries donors should target for enhanced cost-effectiveness in statistical
+capacity building. It goes without saying that support for statistical capacity building, both
+financial and technical, should be directed toward those developing countries with the lowest
+statistical capacity. These countries were identified in the analyses as those with lower GDP per
+capita levels, and as countries with either strongly authoritarian or strongly democratic regime
+characteristics. These results then further provide evidence to suggest that statistical capacity
+building projects should be carried out in conjunction with foreign aid programs that support
+economic development, those that consider and develop countries’ governance, as well as those
+that help shape the appropriate political institutions necessary for statistical capacity.
+To further discern the conditions under which StatAid can improve statistical capacity, a
+mixed-methods approach would be valuable. Interviews would also allow for better understanding
+of the strategic planning and management of National Strategies for the Development of Statistics,
+both from the perspective of international organizations and from the recipient countries’ National
+Statistical Offices (NSOs). Interviews with government officials in NSOs or political figures in
+the recipient developing countries could provide further insight into the actual uptake and use of
+data and statistics, which could serve as a better/supplemental measure for statistical capacity than
+the SCIs. In addition, such an understanding of why or why not data and statistics are utilized by
+domestic actors would be helpful in generating the self-motivation needed as an impetus for
+developing countries to improve statistical capacity. Finally, surveys of personnel working in the
+policy-making processes in developing countries may uncover yet additional insight into the
+domestic perceptions concerning data and statistics, and recognition and knowledge concerning
+the availability of data and statistics.
+
+
+References
+Acemoglu, D., Johnson, S., & Robinson, J. A. (2001). The Colonial Origins of Comparative
+Development: An Empirical Investigation. American Economic Review, 91(5), 1369-1401.
+Anderson, D. M. & Whitford, A. B. (2017). Developing Knowledge States: Technology and the
+Enhancement of National Statistical Capacity. Review of Policy Research, 34(3), 400–420.
+Archibugi, D., & Coco, A. (2004). A New Indicator of Technological Capabilities for Developed
+and Developing Countries (ArCo). World Development, 32(4), 629–654.
+Berliner, D. (2014). The Political Origins of Transparency. Journal of Politics, 76(2), 479-491.
+Berten, J. & Leisering, L. (2017). Social Policy by Numbers. How International Organisations
+Construct Global Policy Proposals. International Journal of Social Welfare, 26, 151-167.
+Burnside, C., & Dollar, D. (2000). Aid, Policies, and Growth. American Economic Review, 90(4),
+847-868.
+Cameron, G.J., Dang, H.H., Dinc, M., Foster, J., & Lokshin, M.M. (2019). Measuring the
+Statistical Capacity of Nations. Policy Research Working Paper 8693, World Bank Group.
+Chin, Y. (2019). An Institutional Analysis of British and Korean Aid to Statistics. [Doctoral
+dissertation, Ewha Women’s University]. dCollection@Ewha.
+Demombynes, G., & Sandefur, J. (2014). Costing a Data Revolution. Working Paper 383, Center
+for Global Development. Washington DC: Center for Global Development.
+Dharmaratne MA and Attygalle MDT. (2018). Improving the Statistical Capacity Index: A
+Statistical Approach. American Journal of Applied Mathematics and Statistics, 6(3), 80
+95.
+Godfrey, M., Sophal, C., Kato, T., Piseth, L.V., Dorina, P., Saravy, T., Savora, T., & Sovannarith,
+S. (2002). Technical Assistance and Capacity Development in an Aid-dependent Economy:
+The Experience of Cambodia. World Development, 30(3), 355-373.
+Head, B. W. (2016). Toward More “Evidence-Informed” Policy Making? Public Administration
+Review, 76(3), 472–484.
+Hollyer, J. R., Rosendorff, B.P., & Vreeland, J.R. (2011). Democracy and Transparency. Journal
+of Politics, 73(4), 1191-1205.
+Hsu, A. (2015). Measuring Policy Analytical Capacity for the Environment: A Case for Engaging
+New Actors. Policy and Society, 34, 197-208.
+
+
+Huntington, S.P. (1968). Political Order in Changing Societies. New Haven: Yale University
+Press.
+International Development Association. (2004). Measuring results: Improving national statistics
+in IDA countries. IDA14 Discussion paper Washington, D.C.: World Bank Group.
+Jerven, M. (2009). The Relativity of Poverty and Income: How Reliable are African Economic
+Statistics? African Affairs, 109(434), 77-96.
+Jerven, M. (2013). Poor Numbers: How We are Misled by African Development Statistics and
+What to Do About It. Ithaca, NY: Cornell University Press.
+Jerven, M. (2014). Benefits and Costs of Data for Development: Targets for the Post-2015
+Development Agenda. Data for Development Assessment Paper. Copenhagen:
+Copenhagen Consensus Center.
+Jerven, M., & Johnston, D. (2015). Statistical Tragedy in Africa? Evaluating the Data Base for
+African Economic Development. Journal of Development Studies, 51(2), 111–115.
+Kim, J. E. (2018). Technological Capacity Building Through Energy Aid: Empirical Evidence
+from Renewable Energy Sector. Energy Policy, 122, 449-458.
+Kono, D. (2006). Optimal Obfuscation: Democracy and Trade Policy Transparency. American
+Political Science Review, 100, 369–384.
+Krätke, F., & Byers, B. (2014). The Political Economy of Official Statistics: Implications for the
+Data Revolution in Sub-Saharan Africa. PARIS21 Discussion Paper No. 5.
+Mani, A., & Mukand, S. (2007). Democracy, Visibility and Public Good Provision. Journal of
+Development Economics, 83, 506–529.
+Melville, A., & Mironyuk, M. (2016). “Bad Enough Governance”: State Capacity and Quality of
+Institutions in Post-Soviet Autocracies. Post-Soviet Affairs, 32(2), 132-151.
+Ngaruko, F. (2008). The World Bank’s Framework for Statistical Capacity Measurement:
+Strengths, Weaknesses, and Options for Improvement. African Statistical Journal, 7, 149
+169.
+OECD. (2008). Accra Accord for Action. Paris: OECD Publishing.
+http://dx.doi.org/10.1787/9789264098107-en
+PARIS21. (2016). Partner Report on Support to Statistics. Paris: Partnership in Statistics for
+Development in the 21st Century. http://www.paris21.org/press2016.
+PARIS21. (2019). Partner Report on Support to Statistics. Paris: Partnership in Statistics for
+
+
+Development in the 21st Century. http://www.paris21.org/press-2019.
+Rejali, D. M. (2007). Torture and Democracy. Princeton, NJ: Princeton University Press.
+Round, J. (2012). Aid and Investment in Statistics for Africa. WIDER Working Paper No. 2012/93.
+Sandefur, J., & Glassman, A. (2015). The Political Economy of Bad Data: Evidence form African
+Survey & Administrative Statistics. Journal of Development Studies, 51(2), 116-132.
+Sustainable Development Solutions Network. (2015). Data for Development: A Needs Assessment
+for SDG Monitoring and Statistical Capacity Development. New York, NY: Sustainable
+Development Solutions Network.
+https://sustainabledevelopment.un.org/content/documents/2017Data-for-Development
+Full-Report.pdf
+Sirowy, L., & Inkeles, A. (1990). The Effects of Democracy on Economic Growth and Inequality:
+A Review. Studies in Comparative International Development, 25(1), 126–57.
+Tapsoba, S. J.-A., Noumon, C. N., & York, R. C. (2017). Can Statistical Capacity Building Help
+Reduce Procyclical Fiscal Policy? Journal of International Development, doi:
+10.1002/jid.3273.e
+United Nations. (2007). United Nations Statistical Commission: Sixty Years of Leadership and
+Professionalism in Building the Global Statistical System (1947-2007). United Nations
+Statistics Division ST/ESA/STAT/123. https://unstats.un.org/unsd/statcom/60th
+anniversary/documents/UN_Statistical_Commission_1947-2007_Brochurer_1.pdf
+United Nations. (2016). Evaluation of the contribution of the United Nations development system
+to strengthening national capacities for statistical analysis and data collection to support
+the achievement of the Millennium Development Goals and other internationally agreed
+development goals. A/71/431 (4 October 2016). https://undocs.org/A/71/431
+United Nations. (2017). Cape Town Global Action Plan for Sustainable Development Data.
+http://undataforum.org/WorldDataForum/wp-content/uploads/2017/01/Cape-Town
+Action-Plan-For-Data-Jan2017.pdf
+United Nations IEAG. (2014). A World that Counts: Mobilising the Data Revolution for
+Sustainable Development. New York, NY: United Nations Independent Expert Advisory
+Group. https://www.undatarevolution.org/wp-content/uploads/2014/12/A-World-That
+Counts2.pdf
+World Bank. (n.d. -a). Statistical Capacity Building Overview. https://www.worldbank.org/
+
+
+en/data/statistical-capacity-building/overview
+World Bank. (n.d. -b). Note on the Statistical Capacity Indicators. Washington, DC: World Bank.
+http://datatopics.worldbank.org/statisticalcapacity/files/Note.pdf
+World Bank. (2006). Building Statistical Capacity to Monitor Development Progress.
+Washington, DC: World Bank.
+http://documents.worldbank.org/curated/en/795451468314360987/ Building-statistical
+capacity-to-monitor-development-progress
+
+
+Appendix A: List of Countries
+The following countries (in alphabetical order) were included in the analysis:
+1. Afghanistan 2. Albania
+3. Algeria 4. Angola 5. Antigua and Barbuda 6. Argentina
+7. Armenia 8. Azerbaijan 9. Bangladesh 10. Belarus
+11. Belize 12. Benin 13. Bhutan 14. Bolivia (Plurinational State of)
+15. Bosnia and Herzegovina 16. Botswana 17. Brazil 18. Burkina Faso
+19. Burundi 20. Cabo Verde 21. Cambodia 22. Cameroon 23. Central African Republic
+24. Chad 25. Chile 26. China 27. Colombia
+28. Comoros 29. Congo 30. Congo (Democratic Republic of the) 31. Costa Rica
+32. Croatia 33. Côte dIvoire 34. Djibouti 35. Dominica
+36. Dominican Republic
+37. Ecuador 38. Egypt
+39. El Salvador 40. Equatorial Guinea 41. Eritrea 42. Ethiopia
+43. Fiji 44. Gabon 45. Gambia 46. Georgia
+47. Ghana 48. Grenada 49. Guatemala 50. Guinea
+51. Guinea-Bissau 52. Guyana 53. Haiti 54. Honduras
+55. India 56. Indonesia 57. Iran (Islamic Republic of) 58. Iraq 59. Jamaica
+60. Jordan 61. Kazakhstan 62. Kenya 63. Kiribati
+64. Kyrgyzstan 65. Lao Peoples Democratic Republic 66. Lebanon 67. Lesotho
+68. Liberia 69. Libya 70. Madagascar 71. Malawi
+72. Malaysia
+
+
+73. Maldives 74. Mali 75. Marshall Islands
+76. Mauritania 77. Mauritius 78. Mexico 79. Micronesia (Federated States of)
+80. Moldova (Republic of) 81. Mongolia 82. Montenegro 83. Morocco
+84. Mozambique 85. Myanmar 86. Namibia 87. Nepal
+88. Nicaragua 89. Niger 90. Nigeria 91. Pakistan
+92. Palau 93. Panama 94. Papua New Guinea 95. Paraguay 96. Peru
+97. Philippines 98. Rwanda 99. Saint Lucia 100. Saint Vincent and the Grenadines
+101. Samoa 102. Sao Tome and Principe 103. Senegal 104. Serbia
+105. Sierra Leone 106. Solomon Islands 107. Somalia 108. South Africa
+109. South Sudan 110. Sri Lanka 111. Sudan 112. Suriname
+113. Swaziland 114. Syrian Arab Republic 115. Tajikistan
+116. Tanzania (United Republic of) 117. Thailand 118. Timor-Leste 119. Togo
+120. Tonga 121. Trinidad and Tobago 122. Tunisia 123. Turkey
+124. Turkmenistan 125. Tuvalu 126. Uganda 127. Ukraine
+128. Uruguay 129. Uzbekistan 130. Vanuatu 131. Venezuela (Bolivarian Republic of)
+132. Viet Nam 133. Yemen 134. Zambia 135. Zimbabwe
+
+
+Despite having appeared in either the PRESS 2016 annex dataset and/or the Statistical Capacity Indicator dataset, the following 15 countries were excluded due to problems of missing data:
+Missing disbursement data for StatAid for all 13 years:
+1. Bulgaria
+2. Hungary 3. Kosovo 4. Macedonia 5. Poland
+6. Romania 7. Russia 8. St. Kitts 9. Seychelles
+10. Slovak Rep. 11. West Bank and Gaza
+Missing SCI Scores:
+12. Cuba 13. Former Yugoslav Rep. 14. North Korea 15. Nauru

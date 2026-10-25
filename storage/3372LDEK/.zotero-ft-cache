@@ -1,0 +1,315 @@
+SPECIAL ISSUE ARTICLE
+Empowering collaborative statisticians: The impact of the
+American Statistical Association's Pathways to Promotion
+Committee
+Margaret R. Stedman 1 | Salem Dehom2 | Mario A. Davidson 3 | Li Zhang 4 |
+Robert H. Podolsky 5 | Ryan T. Pohlig 6 | Todd Coffey 7
+1Division of Nephrology, Department of Medicine, Stanford University School of Medicine, Stanford, California, USA
+2School of Nursing, Loma Linda University, 11262 Campus Street, Loma Linda, California, USA
+3Department of Biostatistics, Vanderbilt University Medical Center, Nashville, Tennessee, USA
+4Department of Epidemiology and Biostatistics, University of California, San Francisco, California, USA
+5Center for Biostatistics, Informatics, and Data Science, MedStar Health Research Institute, Washington, DC, USA
+6Biostatistics Core Facility, College of Health Sciences, University of Delaware, Newark, Delaware, USA
+7Clinical and Research Assay Statistics, NonClinical Statistics, Pfizer, Inc., Pearl River, New York, USA
+Correspondence
+Margaret R. Stedman, Division of Nephrology, Department of Medicine, Stanford University School of Medicine, Stanford, CA, USA. Email: mstedman@stanford.edu
+Members of the ASA's Section on Statistical Consulting established the Pathways to
+Promotion Committee in 2021 to provide guidance and support for navigating a
+career as a collaborative statistician. In three years of existence, the Committee has
+produced seven webinars on relevant topics, each attended by more than one hun
+dred participants. Committee members have given four oral presentations, organized
+three roundtables, led multiple discussions at ASA meetings and published four
+articles. These efforts have inspired, created and facilitated new connections for
+collaborative statisticians who feel isolated in their career path. This paper describes
+the formation and development of the Committee, reports its impact on the commu
+nity of collaborative statisticians and discusses potential future directions.
+KEYWORDS
+biostatistics, medical statistics, teaching statistics
+1 | FORMATION OF AND NEED FOR THE PATHWAYS TO PROMOTION COMMITTEE (P2P COMMITTEE)
+The Pathways to Promotion Committee (P2P Committee) was formed in January 2021 to provide guidance and support for navigating a career as
+a collaborative statistician.
+While literature continues to develop (Devick et al., 2022; Griffith et al., 2022; Pomann et al., 2021; Satagopan & Mazumdar, 2021; Taylor
+et al., 2023) prior to the formation of the committee relatively few articles provided guidance for the promotion and development of collaborative
+statisticians. Most focused on the technical skills and training for collaborative statisticians (Begg & Vaughan, 2012; Kwasny & Daskalakis, 2012;
+Love et al., 2017; Zapf et al., 2019) or concerns for the careers of non-tenured faculty, in general (Caye & De Saxe Zerden, 2014; Fitzmorris
+et al., 2016; Howell et al., 2010). Only a few studies considered how these challenges impact attaining promotion or tenure for the collaborative
+Members of the American Statistical Association, Consulting Section, Pathways to Promotion Committee: Todd Coffey, Margaret Stedman, Charlotte Bolch, Rob Podolsky, Terrie Vasilopoulos, Li Zhang, Sonja Ziniel, Salem Dehom, Emily Griffith, Christina Mehta, Eric Vance, Heidi Spratt, Xiaoming Sheng, James Grady, Emily Leary, Ryan Pohlig, Maggie Niu, Mario Davidson.
+Received: 21 March 2024 Revised: 9 June 2024 Accepted: 29 June 2024
+DOI: 10.1002/sta4.716
+Stat. 2024;13:e716. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 8 https://doi.org/10.1002/sta4.716
+
+
+biostatistician, specifically in an academic health centre (Golbeck, 2017; Mazumdar et al., 2015; Spratt et al., 2017). We were not aware of any
+papers focused on career development, mentoring and networking strategies or peer recognition. At that time, the executive committee of the
+Section on Statistical Consulting (Section) of the American Statistical Association (ASA) received anecdotal reports that collaborative statisticians,
+particularly in academia, were finding it difficult to achieve promotion or meaningful recognition for their contributions, whose challenges were
+represented in a single article (Craig et al., 2018).
+To further investigate the advancement concerns of collaborative statisticians, the Section launched a survey of all members in 2020. The
+qualitative responses received from members confirmed that they faced limited opportunities for advancement, particularly when they were not
+active in methodological development, with many expressing feelings of being undervalued and underrecognized. Members reported feeling
+trapped in their careers without a clear pathway for progression because of their lack of first-author publications, opportunities to be the PI on a
+grant or non-participation in grants focused on methodological development. These limitations for advancement existed in both statistics depart
+ments and other academic divisions across the campus, that is, biostatistics cores and data centres. Additionally, a common theme was that
+department chairs, deans and supervisors did not understand or appreciate the contribution made by collaborative statisticians. While these
+challenges existed before 2021, the career effects were undoubtedly exacerbated by the COVID-19 pandemic marked by social isolation, remote
+work and virtual meetings. These added conditions had been going on for nearly a year when the P2P Committee was formed.
+The P2P Committee originated as a team of 12 Section volunteers tasked with creating tools and materials to support the professional
+development of collaborative statisticians in academia. This initiative aimed particularly at those who felt isolated in their roles. Five of the seven
+authors of this manuscript were members of the original P2P Committee. Each member had confronted or was facing barriers to promotion in
+their respective organization despite their best efforts at self-advocacy. While the members' reporting structures were not identical, each felt
+isolated in their organization, without a clearly written policy or pathway for advancement. In many cases, members' job descriptions were
+narrowly focused on assisting collaborative partners and advancing the research mission of the organizations, yet members were evaluated based
+on outcomes expected of those doing independent theoretical or methodological research. This common cause allowed the P2P Committee to
+bond quickly, identify common career objectives and provide an incentive to be engaged in our mission: to develop recommendations and tools
+to help the advancement of non-tenure-track collaborative/consulting academic statisticians (Table 1). As the P2P Committee gained momentum,
+other colleagues in similar situations joined and the Committee quickly expanded to nearly 20 members.
+In this paper, we discuss the development of the Committee, its impact on the community of collaborative statisticians, what Committee
+members have learned and future areas for scholarship and professional development.
+2 | CONNECTING THE COMMUNITY
+The P2P Committee found that its mission and goals resonated with many collaborative statisticians. This shared interest facilitated connections,
+fostering the formation of a community that has been steadily growing. One of the Committee's initial decisions to make all produced materials
+freely available to the public, without restrictions based on education, membership or career path enabled the community to be more inclusive.
+The Committee recognized that many collaborative statisticians faced similar obstacles to career advancement and would benefit from the
+dissemination of its work. The ASA supported this decision which allowed the P2P Committee to connect with the larger community of isolated
+statisticians and include non-members.
+The P2P Committee decided one of the most effective ways to meet our charge was to use free webinars as a way to communicate with a
+broader community. These real-time information sessions provided a venue for a variety of speakers to present, which allowed us to expand
+beyond the expertise and experience of our small committee. This format also allowed for the audience's active participation which encouraged
+attendees' involvement. The webinars are recorded and made available on the ASA Section's YouTube channel (@amstatconsultingsection7036).
+In the second year, we made a concerted effort to increase our web and social media presence, providing summaries and links to each of
+our webinars via our ASA Section microsite: https://community.amstat.org/cnsl/networking/networking-acadpromotion and LinkedIn group
+(asa-section-on-statistical-consulting). We created an X account (@ASA_CNSL_P2P) so anyone could follow us to be notified about our upcoming
+offerings and receive live updates during webinars. Lastly, we created a logo for the P2P Committee and developed our version of the P2P brand
+(Figure 1).
+T A B L E 1 Mission and goals of the P2P Committee.
+Mission: • To develop recommendations and tools to help the advancement of non-tenure-track collaborative/consulting academic statisticians.
+Goals: • To create tools for promotion for ASA members to access on the statistical consulting website. • To provide outreach/community connection for enabling and supporting promotion. • Evaluate progress and be flexible to meet the needs of the community.
+2 of 8 STEDMAN ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+All of the webinars have included multiple speakers with a committee member serving as moderator with a question-and-answer session or
+breakout groups allowing attendees to directly ask questions. The members of the P2P Committee have rotated roles, serving as moderators,
+speakers or in supportive roles such as data analytics, advertising, chat monitor or webhost. The Committee consciously chooses speakers to
+represent different career paths, institution types and demographic profiles to foster diversity and inclusivity. Participants who register for the
+webinars are surveyed about their interest in the topic and to submit any questions they may have. Results from the pre-survey in combination
+with our ideas inform the speakers of the specific interests of the audience. This approach allows speakers to tailor their presentations and
+address the most pressing and important questions. After the webinar, another survey is sent to garner feedback on the webinar and to help
+identify targets for future work, keeping the topics relevant and engaging.
+Typically, the invited speakers give a brief presentation, and these are followed by an open-panel discussion, allowing questions and
+comments to be introduced through the virtual chat. Recent webinars have been extended to include breakout rooms to allow for networking
+with the speakers and mimic the post-meeting informal discussions that often occur in an in-person setting. These smaller breakout rooms are
+unrecorded and allow participants to engage in a more casual and social environment. In addition to the webinars, we have organized in-person
+roundtables, oral presentations and discussions at multiple ASA meetings to further grow the community.
+3 | COMMITTEE ACTIVITIES AND SCHOLARSHIP
+The P2P Committee produced seven semi-annual webinars between May 2021 and June 2024 (American Statistical Association, Consulting
+Section, n.d.). See Table 2 for titles of each of the webinars. Topics included career advice for staff statisticians, negotiation skills, addressing
+burnout, developing a career as a collaborative statistician in the context of team science, peer review and preparing a faculty promotion packet.
+Three of the webinars have been written up in AMSTAT news (Bolch et al., 2022; Leary, Sheng, et al., 2023; Mehta, Stedman, et al., 2022), and to
+our knowledge, the webinar on burnout was the first public discussion of this topic specific to statisticians.
+In addition to webinars, the P2P Committee members have given four oral presentations (Leary et al., 2022; Leary, Vasilopoulos, et al., 2023;
+Stedman et al., 2023; Vasilopoulos, 2023) at professional conferences. These presentations focused on topics such as mentoring and building con
+nections with isolated statisticians. The committee organized three roundtables (Bolch et al., 2021; Sheng et al., 2022; Vasilopoulos et al., 2022)
+for the Joint Statistical Meetings, covering career development for staff and negotiation skills, and one workshop at the Conference on Statistical
+Practice (Sheng et al., 2024) on developing promotion materials for collaborative statisticians (Mehta, Leary, et al., 2022). Committee members
+published an article on reducing isolation among statisticians. As the community expanded, we also gained co-sponsorship of events by the
+San Francisco Bay Area chapter of the ASA and the Caucus for Women in Statistics. These sponsors helped encourage more statisticians from
+industry to attend, further enhancing the diversity of the community.
+F I G U R E 1 P2P Committee social media (American Statistical Association, Consulting Section, n.d.).
+STEDMAN ET AL. 3 of 8
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+4 | ATTENDANCE AND SATISFACTION
+Attendance at our events, both at webinars and conferences, has exceeded expectations including a sellout of the first roundtable at JSM in
+2021. The registrants for the webinars exceed the limited capacity of the Section's Zoom licence; a P2P Committee member whose institutional
+licence could accommodate is now used. Attendance continues to show that topics selected are relevant as webinars average over 200 registrants
+and 121 attendees (see Table 2). Attendee's satisfaction is high, with 73% of participants giving the webinar the highest possible rating. Further
+more, our webinars are reaching an audience broader than initially intended, on average including just under 30% non-academic statisticians and
+20% non-ASA members (see Table 2). While attendance and satisfaction has been high, obtaining consistent feedback post-webinar has proven
+difficult. The most successful but also most laborious method incorporates the questionnaire directly into Zoom. This method achieved a 100%
+response rate in the Art of Negotiation webinar.
+4.1 | Participant survey
+In preparation for this manuscript, we emailed a survey to 630 past attendees and received 47 responses. Over half of the responders (Table 3)
+identified as female (n = 25, 53%) and around a quarter were non-white (n = 10, 24%). Approximately two thirds of respondents held a doctorate,
+while the remainder had master's degrees. Notably, 81% worked with a group of statisticians and 70% were in academia. The percentages of staff,
+tenured/tenure-track faculty and non-tenured faculty were similar, with only one student responding. Titles ranged from junior- to senior-level
+positions, including Statistician, Director and Assistant, Associate and Full Professor.
+Regarding the time in their current position/role, about 30% were employed in their role for 1 year or less, while nearly 14% were employed
+for over 10 years. Information about events reached 57% through the email list and 22% through the ASA communities list. Almost everyone
+(98%) found that P2P events met or exceeded their expectations, and 93% planned to attend future events. Surprisingly, 15.2% of respondents
+were not engaged with the ASA (Table 3).
+5 | DISCUSSION, SCHOLARSHIP AND FUTURE DIRECTIONS FOR THE COMMITTEE
+The P2P Committee has discovered that there are many collaborative statisticians working in diverse roles and having varied job responsibilities
+and promotion opportunities. The roles they take can range from entry-level to seasoned veteran to leadership with managerial responsibility.
+Some are isolated while others collaborate with peers or interact with individuals in related fields. Further confounding this diversity, employers
+give differing titles to similar positions, and all seem to require different promotion criteria and have different long-term goals for their statisti
+cians. During COVID lockdowns, collaborative statisticians recognized more clearly their isolation and realized the importance of connecting with
+mentors and peers due to reduced interpersonal contact. The work of the P2P Committee helps fill this need by using webinars and virtual
+T A B L E 2 Characteristics of registrants of the webinars.
+Title Season
+Registered N
+Attended N (%)
+Respondents to survey Na Non-academic N (%) Non-ASA N (%)
+Advice for Promotion of Collaborative Statisticians
+Spring 2021
+189 130 (69%) 75 8 (11%) 5 (7%)
+Developing your First Promotion Packet
+Fall 2021
+170 133 (78%) 64 11 (17%) 1 (2%) 1 missing
+Perspectives for Staff Spring 2022
+231 134 (58%) 140 29 (21%) 50 (36%) 11 missing
+Art of Negotiation Fall 2022
+208 93 (45%) 208 120 (58%) 26 (12%) 2 missing
+Maintaining Meaning to Address Burnout
+Spring 2023
+252 154 (61%) 252 121 (48%) 54 (21%) 41 missing
+Building a Career in Team Science Fall 2023
+190 81 (43%) 190 67 (35%) 33 missing 22 (12%) 59 missing
+Leveraging Peer Review for Career Advancement
+Spring 2024
+143 73 (51%) 143 57 (40%) 12 missing 22 (18%) 22 missing
+aNote that the format of the survey evolved over time and ultimately became part of the registration process. This change increased overall response rate in the pre-webinar survey.
+4 of 8 STEDMAN ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+meetings to provide an accessible community and educational opportunities. The Committee recognizes the significant impact this heterogeneity
+takes and wants to move the field to recognize the importance that future scholarship can make for collaborative statisticians to advocate for
+their professional development and promotion.
+Since the P2P Committee's founding, the most requested topics for discussion and webinars include the soft skills needed in our profession.
+These skills are generally not formally taught in schools and often require interacting with individuals who have been in the field and have experi
+ences to draw upon. Isolated statisticians or units that are newly established are at a disadvantage when it comes to developing these skills
+because there is no institutional knowledge that is passed down. To help navigate these challenges, the Committee has covered topics including
+managing interpersonal relationships, self-advocating during negotiations, avoiding burnout and working as a team member. All of these ideas
+stem from suggestions offered by attendees at previous webinars or discussed openly during a P2P Committee meeting. Further scholarship is
+needed in these areas.
+Since our work began in 2021, additional scholarship has complemented the impact of the P2P Committee. Griffith et al. (2022) argued that
+academic statistics departments must maintain and value the role of the collaborative statistician if the discipline is to continue to flourish. Taylor
+T A B L E 3 Characteristics of P2P survey participants.
+Total participants = 47 N %
+What is your gender?—selected choicea Female 25 55.56%
+Male 17 37.78%
+What is your ethnicity?—selected choicea White 32 76.19%
+Asian 7 16.67%
+What level is your highest educational degree? Doctorate 31 65.96%
+Master 16 34.04%
+Do you work with a group of statisticians? Yes 38 80.85%
+No 9 19.15%
+What is your primary institution type? Academia 33 70.21%
+Non-profit organization 3 6.38%
+Non-academic research institute 1 2.13%
+Industry 6 12.77%
+Government 3 6.38%
+Self-employed 1 2.13%
+How long have you been in your current role/position (in years)? ≤1 14 32.56%
+>1 to 10 years 23 53.49%
+>10 years 6 13.95%
+Are you engaged with the American Statistical Association (ASA)? Yes, I am only a member with my local chapter 1 2.17%
+Yes, I am only a member on the national level 14 30.43%
+Yes, I am a member of a local chapter and I am a member at the national level
+24 52.17%
+No, I am not engaged with the ASA 7 15.22%
+How did you hear about Pathways to Promotion Committee (P2P Committee) events?—selected choice
+Email from P2P Committee of ASA Statistical Consulting Section
+26 56.52%
+ASA communities list 10 21.74%
+Friend/colleague 7 15.22%
+P2P member 2 4.35%
+Conference on Statistical Practice 1 2.17%
+How much did P2P webinar/events meet your expectations? Completely 22 50.00%
+Mostly 15 34.09%
+Somewhat 6 13.64%
+A little bit 1 2.27%
+Are you planning to attend future webinar/events organized P2P? Yes 42 93.33%
+No 3 6.67%
+aNote that we did not report demographic information for cell sizes smaller than 5.
+STEDMAN ET AL. 5 of 8
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+et al. (2023) provided helpful guidance on how to make professional development for collaborative statisticians cost-effective and tailored to
+need. These articles reinforce and expand on topics the P2P Committee has discussed but their focus is on what can be achieved within a single
+institution. One advantage of the P2P Committee's work is that our growing community crosses institutions and industries, providing opportuni
+ties for connections for those who previously did not have any.
+Some topics not adequately discussed in the literature are worthy of future scholarship by the community of collaborative statisticians.
+Collaborative statisticians may function as consultants (working on short-term projects with clearly defined deliverables), collaborators (in which a
+long-term mutual partnership is fostered) or both (positions that encompass both collaborator and consultant roles). Individuals in these positions
+will always have a need to balance these roles and scholarship evaluating the different forms of communication is needed. In contrast to many
+professions, collaborative statisticians lack standardized promotion guidelines. In a field that encompasses a broad spectrum of titles, ranks and
+positions across diverse sectors, this lack of standardization can result in misaligned promotion criteria. It is crucial to delve into topics such as
+authorship, grantsmanship, service, computing, project management, continuing education, scholarship, teaching, leadership, research and men
+toring to establish a more comprehensive and cohesive framework for the promotion of statisticians. Promotion guidelines for team science may
+be useful in this context (McHale et al., 2019; Meurer et al., 2023), but scholarship specifically for collaborative statisticians is more applicable.
+Statisticians frequently leverage soft skills and essential attributes like communication, professionalism, ethics and networking. Research is needed
+to evaluate the best practices in a statistics curriculum to introduce these topics and teach the diverse skill set needed to work effectively in a col
+laborative environment. The models presented in Griffith et al. (2022) are a good starting point. Other topics essential to collaborative statisticians
+that would benefit from additional scholarship include leadership and effective collaboration in multidisciplinary research teams; mentoring and
+support for career development; and the soft skills, business acumen and strategic planning required to be an independent consulting statistician.
+As the committee moves forward, the focus will be on providing support, creating networking opportunities and nurturing camaraderie, par
+ticularly for isolated statisticians who may encounter challenges in building connections, accessing resources and finding mentorship. The individ
+uals who make up P2P are dedicated to enhancing professional development for every participant, ensuring inclusivity and valuable connections
+through discussions on consulting, collaborating, career advancement, soft skills, leadership, mentorship, outreach and empowerment. We hope
+the statistical community will complement our efforts in producing scholarship necessary to advance the interests of the collaborative statistician.
+6 | CONCLUSION
+The P2P Committee is dedicated to supporting individual collaborative statisticians in the promotion process through creating freely accessible
+tools, networking opportunities and educational materials. The P2P Committee boasts a unique and flexible structure of offering webinars, fosters
+collaboration with local ASA chapters and reaches a broad community across multiple institutions. Deliberate efforts are made in selecting
+webinar speakers who resonate with diverse populations, ensuring rich dialogue with common, challenging and conflicting views. The structure
+the Committee has chosen for our work provides opportunities for participants to network in breakout rooms and connect with statisticians, who
+may have similar or more diverse backgrounds. These information sessions introduce attendees to influential figures in the field, offering opportu
+nities to engage in conversations, pose questions and discuss pertinent issues.
+In the past 3 years, P2P has also published manuscripts, written news articles and provided conference presentations and roundtables.
+Results have been well received by a diverse audience of faculty, staff, industry and academic. The committee remains responsive to statisticians'
+needs by having flexibility in its approach, a broad reach and paying close attention to participant feedback. For the foreseeable future, the P2P
+Committee will continue to aid in the advancement of statistician's careers and provide camaraderie for statisticians worldwide, while encouraging
+scholarship of topics that can enhance promotion, recognition and professional development. We invite the community to apply our model as an
+organizational strategy for advocacy and engagement through webinars and inspiring opportunities for scholarship.
+AUTHOR CONTRIBUTIONS
+Margaret R. Stedman: Conceptualization; writing—original draft; writing—review and editing; project coordination. Salem Dehom: Conceptualiza
+tion; data collection; data analysis; writing—review and editing. Mario A. Davidson: Conceptualization; writing—original draft; writing—review and
+editing. Li Zhang: Conceptualization; data analysis; writing—review and editing. Robert H. Podolsky: Writing—Reviewing and editing. Ryan T.
+Pohlig: Writing—original draft; writing review and editing. Todd Coffey: Conceptualization; writing—original draft; writing—review and editing.
+ACKNOWLEDGEMENTS
+The authors acknowledge Terrie Vasilopoulos for sharing her presentation slides.
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to
+privacy or ethical restrictions.
+6 of 8 STEDMAN ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+ORCID
+Margaret R. Stedman https://orcid.org/0000-0001-9271-8332
+Mario A. Davidson https://orcid.org/0000-0002-5052-3438
+Li Zhang https://orcid.org/0000-0002-3617-2627
+REFERENCES
+American Statistical Association, Consulting Section. (n.d.). Pathways to Promotion Committee Website. Retrieved June 5, 2024, from https://www. youtube.com/@amstatconsultingsection7036 Begg, M. D., & Vaughan, R. D. (2012). Are biostatistics students prepared to succeed in the era of interdisciplinary science? (and how will we know?). American Statistician, 65(2), 71–79. https://doi.org/10.1198/TAST.2011.10222 Bolch, C., Mehta, C., Stedman, M., & Griffith, E. (2022, October). Pathways to Promotion Committee offers collaborative statisticians advice. Amstat News. Bolch, C., Stedman, M., Mehta, C., Vasilopoulos, T., & Coffey, T. (2021). What is the value of collaborative statisticians in academia? In Joint Statistical Meetings Virtual Conference. American Statistical Association. Caye, J. S., & De Saxe Zerden, L. (2014). Development of promotion materials for social work non–tenure track faculty: Internal and external factors. Journal of Social Work Education, 50(3), 535–547. https://doi.org/10.1080/10437797.2014.916973 Craig, B., Dison, P., Gbur, E. E., Koehler, K. J., Nettleton, D., Stroup, W. W., Zhu, J., Bridges, W. C., Macchiavelli, R. E., Madden, L., Bellow, N. M., Dai, X., Davis, J. W., Duke, S., Durham, S., Goad, C., Keuler, N., Kramer, M. H., Lee-Bartlett, J., ... Yeater, K. M. (2018). Overview of statistics as a scientific discipline and practical implications for the evaluation of faculty excellence. American Statistical Association. https://nccc170.org/publication/statisticsas-a-scientific-discipline/ Devick, K. L., Gunn, H. J., Price, L. L., Meinzen-Derr, J. K., Enders, F. T., Perkins, S. M., & Schulte, P. J. (2022). Collaborative biostatistics and epidemiology in academic medical centres: A survey to assess relationships with health researchers and ethical implications. Stat, 11(1), e481. https://doi.org/10.1002/ sta4.481 Fitzmorris, C., Shehab, R., & Trytten, D. (2016). The career goals of non-tenure-track full-time engineering faculty. In 2016 IEEE Frontiers in Education Conference (FIE) (pp. 1–6). IEEE. https://doi.org/10.1109/FIE.2016.7757520 Golbeck, A. L. (2017). Mentoring faculty women in statistics: Exploring challenges and opportunities for leadership development. The American Statistician, 71(1), 47–54. https://doi.org/10.1080/00031305.2016.1255658 Griffith, E. H., Sharp, J. L., Bridges, W. C., Craig, B. A., Hanford, K. J., & Stevens, J. R. (2022). The academic collaborative statistician: Research, training, and evaluation. Stat, 11(1), e483. https://doi.org/10.1002/STA4.483 Howell, L. P., Chen, C.-Y., Joad, J. P., Green, R., Callahan, E. J., & Bonham, A. C. (2010). Issues and challenges of non-tenure-track research faculty: The UC Davis School of Medicine experience. Academic Medicine, 85(6), 1041–1047. https://doi.org/10.1097/ACM.0b013e3181dbfbf3 Kwasny, M. J., & Daskalakis, C. (2012). Career issues pertaining to teaching introductory biostatistics in a medical center. Chance, 25(3), 18–22. https://doi. org/10.1080/09332480.2012.726558 Leary, E., Sheng, X., Davidson, M., Vasilopoulos, T., & Stedman, M. (2023, October). Maintaining meaning and value to address burnout. Amstat News, 10–11. Leary, E., Vasilopoulos, T., Bolch, C., Griffith, E., Rao, S., & Stedman, M. (2023). Broadening your mentorship network to optimize career development. In Joint Statistical Meetings. American Statistical Association. Leary, E., Vasilopoulos, T., Bolch, C., Griffith, E., & Stedman, M. (2022). Broadening your mentorship portfolio to optimize career development. In Women in Statistics and Data Science. American Statistical Association. Love, K., Vance, E. A., Harrell, F. E., Johnson, D. E., Kutner, M. H., Snee, R. D., & Zahn, D. (2017). Developing a career in the practice of statistics: The mentor's perspective. The American Statistician, 71(1), 38–46. https://doi.org/10.1080/00031305.2016.1255257 Mazumdar, M., Messinger, S., Finkelstein, D. M., Goldberg, J. D., Lindsell, C. J., Morton, S. C., Pollock, B. H., Rahbar, M. H., Welty, L. J., & Parker, R. A. (2015). Evaluating academic scientists collaborating in team-based research. Academic Medicine, 90(10), 1302–1308. https://doi.org/10.1097/ACM. 0000000000000759 McHale, S. M., Ranwala, D. (D.), DiazGranados, D., Bagshaw, D., Schienke, E., & Blank, A. E. (2019). Promotion and tenure policies for team science at colleges/schools of medicine. Journal of Clinical and Translational Science, 3(5), 245–252. https://doi.org/10.1017/cts.2019.401 Mehta, C., Leary, E., Bolch, C., Sheng, X., & Stedman, M. (2022, March). Climbing the tower: Developing your first promotion packet as an academic collaborative statistician. Amstat News, 34–35. Mehta, C. C., Stedman, M. R., Rao, S. R., & Podolsky, R. (2022). Advice for isolated statisticians collaborating in academic healthcare centre settings. Stat, 11(1), e492. https://doi.org/10.1002/sta4.492 Meurer, J. R., Fertig, J., Garrison, O., & Shaker, R. (2023). Team science criteria and processes for promotion and tenure of Health Science University Faculty. Journal of Clinical and Translational Science, 7(1), e27. https://doi.org/10.1017/cts.2022.523 Pomann, G.-M., Boulware, L. E., Cayetano, S. M., Desai, M., Enders, F. T., Gallis, J. A., Gelfond, J., Grambow, S. C., Hanlon, A. L., Hendrix, A., Kulkarni, P., Lapidus, J., Lee, H.-J., Mahnken, J. D., McKeel, J. P., Moen, R., Oster, R. A., Peskoe, S., Samsa, G., ... Thomas, S. M. (2021). Methods for training collaborative biostatisticians. Journal of Clinical and Translational Science, 5(1), e26. https://doi.org/10.1017/cts.2020.518 Satagopan, J. M., & Mazumdar, M. (2021). Team science in biostatistical collaboration: An opportunity to practice leadership, embrace diversity, manage conflict, and share credit. In Leadership in statistics and data science (pp. 47–63). Springer International Publishing. https://doi.org/10.1007/978-3-03060060-0_4 Sheng, X., Stedman, M., Dehom, S., Zhang, L., & Leary, E. (2022). Career development of statisticians in academic settings. In Joint Statistical Meetings. American Statistical Association. Sheng, X., Vasilopoulos, T., Mehta, C., & Zhang, L. (2024, February). Practical considerations in preparing your application for promotion as a collaborative academic statistician. In Conference on Statistical Practice. American Statistical Association. Spratt, H., Fox, E. E., Shara, N., & Mazumdar, M. (2017). Strategies for success: Early-stage collaborating biostatistics faculty in an academic health center. The American Statistician, 71(3), 220–230. https://doi.org/10.1080/00031305.2016.1277157
+STEDMAN ET AL. 7 of 8
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Stedman, M., Mehta, C., Podolsky, R., & Rao, S. (2023). Tips and tools for professional development of isolated collaborative statisticians. In Conference on Statistical Practice. American Statistical Association. Taylor, S. L., Podolsky, R. H., Montez-Rath, M. E., & Slade, E. (2023). Building a strong collaborative biostatistics workforce: Strategies for effective intra-unit professional development activities. Journal of Clinical and Translational Science, 7(1), e230. https://doi.org/10.1017/cts.2023.653 Vasilopoulos, T. (2023). Using webinars to promote skills and create community support among collaborative and consulting statisticians. In Conference on Statistical Practice. American Statistical Association. Vasilopoulos, T., Ziniel, S., Stedman, M., Dehom, S., Zhang, L., & Leary, E. (2022). There is always room to negotiate: Building negotiation skills for statisticians. In Joint Statistical Meetings. American Statistical Association. Zapf, A., Huebner, M., Rauch, G., & Kieser, M. (2019). What makes a biostatistician? Statistics in Medicine, 38(4), 695–701. https://doi.org/10.1002/sim. 7998
+AUTHOR BIOGRAPHIES
+Margaret R. Stedman insert text here is Associate Director of Biostatistics: Transplant and a senior biostatistician in the Nephrology Division
+of Stanford University Department of Medicine. Her research interest is in developing statistical and epidemiological methods applicable to
+kidney transplant research.
+Salem Dehom is an Associate Professor at the School of Nursing, Loma Linda University. His current research focuses on lifestyle and disease
+prevention, evidence-based practices in healthcare, nursing education, and the relationship between environmental factors and health
+outcomes
+Mario A. Davidson insert text here is an Associate Professor and the Associate Vice Chair of Diversity, Equity, and Inclusion in the Depart
+ment of Biostatistics at Vanderbilt University Medical Center. His research focuses on Statistical Collaboration and Education.
+Li Zhang is a Professor of Biostatistics in the Department of Medicine, Division of Hematology and Oncology, with a joint appointment in the
+Department of Epidemiology and Biostatistics at the University of California San Francisco. Her research interest focuses on Immuno
+informatics
+Robert H. Podolsky is the Manager of Biostatistics at MedStar Health Research Institute. His research focuses on applying modern statistical
+approaches to analyzing data with complex repeated measures such as longitudinal and functional data.
+Ryan T. Pohlig is Director of the Biostatistics Core and Associate Professor in Epidemiology at the University of Delaware. His research
+focuses on applying advanced statistical methods in the health sciences.
+Todd Coffey is Director, Nonclinical Biostatistics for Pfizer's Vaccine Research and Development. His research focuses on robust experimen
+tal design.
+How to cite this article: Stedman, M. R., Dehom, S., Davidson, M. A., Zhang, L., Podolsky, R. H., Pohlig, R. T., & Coffey, T. (2024).
+Empowering collaborative statisticians: The impact of the American Statistical Association's Pathways to Promotion Committee. Stat,
+13(3), e716. https://doi.org/10.1002/sta4.716
+8 of 8 STEDMAN ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.716 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

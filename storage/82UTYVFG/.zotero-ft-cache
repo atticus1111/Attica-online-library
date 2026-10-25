@@ -1,0 +1,637 @@
+SPECIAL ISSUE ARTICLE
+The student staffing advantage: Data Science Consulting
+Service at NC State University Libraries
+Joddy Marchesoni 1 | Kate Freeman 1 | Alp Tezbasaran 1,2,3 |
+Shannon W. Ricci 1
+1Data & Visualization Services, NC State University Libraries, Raleigh, North Carolina, USA
+2Data Science Academy, North Carolina State University, Raleigh, North Carolina, USA
+3Nuclear Engineering, North Carolina State University, Raleigh, North Carolina, USA
+Correspondence
+Joddy Marchesoni, Data & Visualization Services, NC State University Libraries, Raleigh, NC, USA. Email: jimarche@ncsu.edu
+Abstract
+The primarily peer-to-peer, graduate student-staffed Data Science Consulting Service
+at NC State University Libraries, within the Data & Visualization Services (DVS)
+department and collaborating closely with the Data Science Academy (DSA), has
+established a sustainable service and staffing model focused on providing broad data
+science analytic support to researchers across the university community. The service
+addresses the needs of university researchers who possess domain knowledge in
+their fields of study but a skills gap in the data science competencies required for
+research. The literature shows that it has been difficult for libraries to cover these
+needs with existing staffing models. Few universities follow the model practiced at
+NC State University, so a scan of the current landscape of data science consulting at
+universities across the country was performed to establish context. The support
+model and its advantages are described, including partnership with the DSA, student
+success, model sustainability and future directions for the service. Through a sum
+mary of the DVS assessment and needs evaluation process, the service's advantages
+in staying ahead of patron needs are illustrated. This scalable, sustainable, student
+focused model could be implemented by similar research institutions to expand the
+capacity of their technical research services.
+KEYWORDS
+data science, consulting, graduate student staffing, sustainable staffing
+1 | INTRODUCTION: LANDSCAPE OF DATA SCIENCE CONSULTING & NEED FOR CONSULTING SERVICES
+In the realm of academic research, scholars exhibit deep expertise in their specific fields, yet they frequently encounter challenges when faced
+with the complexities of modern data analysis. The researchers may lack the specialised knowledge or resources to effectively manage and
+analyse the increasingly complex data their work generates.
+In the current academic environment, data science is a broadly needed and essential skill in many fields. The learning curve is steep for those
+in which data science is not part of their program curriculum, since analysis and applications are constantly evolving and becoming more complex.
+Consequently, the need for specialised support is scaling up as this framework also grows. Research libraries can provide an entry point for
+students who need to build their data science skills to participate fully as researchers in their field (Hudson Vitale et al., 2022).
+Received: 28 March 2024 Revised: 3 May 2024 Accepted: 9 May 2024
+DOI: 10.1002/sta4.702
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made. © 2024 The Author(s). Stat published by John Wiley & Sons Ltd.
+Stat. 2024;13:e702. wileyonlinelibrary.com/journal/sta4 1 of 16 https://doi.org/10.1002/sta4.702
+
+
+Every discipline can benefit from statistical expertise, but academia struggles to integrate statistics into disciplinary research training. In recent
+years, academic institutions have developed data science support programs to provide statistical and data science consultations to their campus
+communities. In ‘Creating Institutional Change in Data Science’, (The Moore Sloan Data Science Environments, 2017) scholars representing data
+science centres at New York University, UC Berkeley and the University of Washington describe a ‘major cultural shift in universities towards
+cross-disciplinary scholarship’, with data science cutting across needs surrounding the vast amounts, varieties, and applications of data specific to
+each discipline (New York University, UC Berkeley, and the University of Washington, 2020). This paper, published around the time NC State
+Libraries founded DVS, reflects the changing institutional priorities for many research universities across the United States. Often, statistical
+consulting at academic institutions is housed in statistics departments, and other computer programming support is siloed in computer
+science-related departments (Parker et al., 2021; Shao et al., 2021). Academic libraries offer a unique ‘home’ to statistical and data science con
+sulting, due to their traditionally large role in undergraduate education support, and the campus-wide access of their services (Mani et al., 2021;
+Shao et al., 2021).
+The Data Science Consulting Service within the Data & Visualization Services (DVS) department at NC State University Libraries (The
+Libraries) was launched to meet the growing needs surrounding data science education. Our aim is to highlight the distinctive aspects of our data
+science technical service, including our collaboration with the Data Science Academy (DSA) at NC State and our graduate student staffing model.
+The DSA, a university-wide interdisciplinary organisation, provides data science analytic support for NC State with its consulting program. Within
+the broader context of data science-focused technical services at university libraries, we meet the needs of the university community through a
+primarily peer-to-peer consulting service conducted by graduate students. Few universities follow the model we practice, so we will lay out a scan
+of the current landscape of data science consulting at universities across the country to establish context. There are many advantages to this
+model, and as a data-driven program, we will provide a summary of our assessment and needs evaluation process to elucidate how we stay ahead
+of patron needs. We also describe our support model to illustrate the solutions we have discovered to best assist researchers in need of our
+resources, and present potential future directions for the service. It is our hope that research libraries at other institutions will be able to
+implement aspects of our model to improve their support frameworks in the future as well.
+2 | LITERATURE REVIEW
+There are a variety of staffing models used at data science centres and academic libraries to provide data science services to university patrons.
+For many years, libraries have been the central place on campus to support researchers with needs that lie outside the scope of an academic
+department, classroom, or laboratory. In ‘People Who Need Data People: A Case Study in Building Cross-Campus Data Support’, the authors
+assert that as data science support centres become more common in research universities, investment in the human infrastructure for research
+support must become more robust. Librarians are well situated to help address knowledge based needs, fill in knowledge gaps and build partner
+ships with both academic departments and data science institutes on campus (Cook et al., 2022). This support requires both technical knowledge
+as well as the professional skills needed to help coordinate assistance, provide consultations, and direct researchers to resources. While
+researchers have expertise and peer support in their own fields, they may lack access to the broader support system available to them. Libraries
+serve as physical spaces to conduct data science work as well as access points for staff to provide advising and their deep knowledge of available
+resources.
+According to Tenopir et al. (2017), the primary division in research support at academic libraries is informational consultation services and
+technical hands-on services. Informational consultation services cover data management for funded studies and data management and sharing
+plans (DMSP), while technical hands-on services cover data science techniques, data visualisation and GIS applications, among other technical
+topics (Tenopir et al., 2017). For consultation services, NC State University Libraries provide research data management and DMSP help through
+the newly formed Research Facilitation Service. For help with complex data analysis and statistical programming, our unit (Data & Visualization
+Services) is directly responsible for providing data science-related instructional services and data science consulting (called technical services in
+the literature). Joo and Schmidt found in their study that academic librarians may view skills around technical guidance (specifically data science
+and data visualisation) as a lower priority for libraries to support (Joo & Schmidt, 2021); however, at NC State, we have found high demand for
+this type of service.
+The demand stems from a skills gap within the university curriculum. Students from fields with data science applications (outside of statistics
+and computer science) are often not taught advanced technical skills within their academic programs that are currently required for their research.
+Libraries have sought to fill this gap by offering instruction and/or consulting on the needed skills. For example, the investigation of data science skill
+competence at NYU's academic medical centre, served by the NYU Health Sciences Library (NYUHSL), shows that students do not receive sufficient
+hands-on technical training in data science through their academic programs (Surkis et al., 2017). The NYUHSL began data science instruction within
+the medical centre to fill the gaps in students' knowledge, which shows that these library services are essential for research universities.
+While data instruction at libraries is growing, it has been noted by Cox et al. (2017) that data librarians are often unable to keep up to date
+with current trends in data science to support technical services around data science and data visualisation effectively (Cox et al., 2017). Some of
+2 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+the difficulties faced by these programs include recruiting or training up librarians with the necessary skills in data science, finding faculty partners
+with enough time to cover consulting and providing service hours outside of the typical work schedule for librarians and department faculty
+(Griffith et al., 2022). To bridge this gap, DVS chose to hire graduate students prepared with the technical skills necessary to assist with current
+practices in their fields, supported by academic librarians whose role is to develop students' consultation and communication skills. In 2022, the
+Libraries recruited multiple full-time librarians in DVS with advanced technical degrees whose role is to support data science instruction and
+consulting. Our partnership with the DSA also allows us to support researchers with longer-term research support needs. Without such library
+staff and partnerships, it may be difficult to sustain a program like ours.
+3 | ACADEMIC DATA SERVICES IN FOCUS
+To better understand models used in data science education and support at peer institutions, we scanned publicly available web content from
+the libraries and/or data science centres of 46 four-year American academic institutions, including NC State. We compiled this selection of
+institutions from Katz's 2018 study on Academic Data Science Centers in the United States, randomised subsets from SLOAN Grant recipients
+from 2023, members of the Academic Data Science Alliance and additional recommendations from colleagues. Though our scan is not fully rep
+resentative, we captured an understanding of data science services at a combination of public and private universities, varying in size, academic
+offerings and cost. The sources tend to represent larger universities with a focus on data science and an interest in investing further in data
+science education and resources for their campuses. Thus, the scan is skewed towards leadership institutions in statistics and data science or
+who have already begun to expand their offerings. The vast majority of institutions assessed have the resources to maintain a dedicated data
+science centre, statistics department that provides data services or qualifications, library-led data science department or a faculty data science
+research collaboratory (n 1⁄4 43). Our sampling method is not inherently more representative of institutions with accessible online resources,
+though it also omits information that is unavailable to the public. As a key factor of library and other campus-oriented educational services is
+accessibility, however, we decided that online institutional resources would be suitable to capture general information about data science
+resources. The following exploration of support models helps reveal how our services compare, as well as lays out the infrastructure of various
+schools' programs.1
+3.1 | Libraries and centres
+Our findings reveal an array of support models and institutional efforts to promote data science education, most of which are well-oriented to
+connect campus members to resources for curation and analysis. Among the institutions surveyed, all but one library (n 1⁄4 45) supported a research
+data facilitation program through either a subject liaison or a dedicated data services department, though subject liaisons are not necessarily
+always data services librarians or statisticians. All libraries represented (n 1⁄4 46) supported DMSP as well as provided data discovery assistance to
+students and faculty. At institutions with more emphasis on technical support (n 1⁄4 28), small teams of librarians, not unlike our department at NC
+State, provided a variety of data related services, tool support, course instruction and consultations with subject librarians.
+We found that dedicated data science centres varied considerably in structure, scope and placement, often being housed in statistics depart
+ments and computer science departments, IT centres or standalone data science initiatives. Within this framework, we define data science centres
+as data science-focused campus initiatives to promote connections between statisticians or data scientists interested in sharing resources and
+applications with interested or in-need campus members, though the size and range of supported audiences varies at each institution. Approxi
+mately half of all institutions (n 1⁄4 24) had more than one data science initiative in addition to library services. Despite having a disciplinary focus
+on data science, a very small number (n 1⁄4 4) of institutions provided more one-on-one assistance through a data science/statistics centre or
+college than through their libraries. Libraries surveyed had strong DMSP resources in common, and many approached data services more holisti
+cally as they made efforts to address a wide range of growing data science resource needs on their campuses. On the other hand, data science
+centres demonstrated more distinct functions, particularly if they were research oriented and unattached to larger statistical or computational
+education programs. In such cases, they often facilitated more peer-to-peer faculty and research support than open consulting.
+There are a variety of factors that may influence what genre of service a university elects to support, and differences in inter-institutional
+collaboration are difficult to tease out solely from public information in our scope. Due to this barrier, as well as our interest in capacity and
+accessibility, we decided to hone in on the difference between ‘discrete’ and ‘comprehensive’ resources. To fall under a ‘comprehensive’ services
+category, an entity needed to make their resources available to all members of the campus community and have at least one data specialist who is
+positioned to provide help at several steps of the data lifecycle and analysis process. If these two characteristics were unmet, we labelled the
+support model as ‘discrete’. Discrete models support a limited and sometimes more specialised scope when compared with an open consulting
+model. Within this framework, we found nine major data support models from the universities in our scan (Table 1).
+MARCHESONI ET AL. 3 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+We identified 33 institutions that host at least one entity (either a data science centre, library, or both) that meets ‘comprehensive’ criteria,
+recognised as categories 4, 5, 6, 7 and 8. Libraries were consistently the first destination for comprehensive data support as well as DMSP. Most
+libraries represented fell under ‘comprehensive library’ and ‘dual comprehensive’, indicating a tendency in this sample towards providing a range
+of individualised data services in libraries and augmenting campus resources by providing a more specialised service outside of the libraries in the
+form of a data centre or initiative in an academic department. These centre resources often focus more on statistics, or in the ‘discrete’ category,
+on making research connections and providing specialised support for faculty and researchers.
+Of all the model categories that include at least one entity that provides a comprehensive model (n 1⁄4 33), 55% (n 1⁄4 18) of institutions noted
+the involvement of student assistants. All centres and libraries that involved students in their staff also met criteria to fall into a comprehensive
+category of service models. Only 39% (n 1⁄4 18) of surveyed institutions overall (n 1⁄4 46) leveraged student expertise in their programs in some way.
+Graduate students were the most common type of student employee by far for these programs, all of whom had support models that included
+data science consulting or one-on-one data science assistance. The libraries (n 1⁄4 12) and centres (n 1⁄4 12) that utilised a student assisted model
+sometimes provided more transparent hours on their websites than their counterparts, though in many cases the level of student involvement in
+consulting and the details of their specific work were unclear from public online information. In many cases, student data science associates may
+assist with requests, but librarians are often more engaged with the consultation process. Staff, overall, did outwardly appear to take on the bulk
+of consulting at many institutions, particularly libraries.
+3.2 | What our methods do not explore: Why does everything have to be so complicated?
+While useful in establishing broad categories, our environmental scan leaves several complex features of academic data science models unclear.
+Publicly available information reveals little about the inner workings of centres or libraries at other campuses as well as our own at NC State: how
+T A B L E 1 Identifying the nine major combinations of data service models between Libraries and on-campus data science units.
+Model Model description Count (n 1⁄4 46)
+1. None or Non-Data Specific A subject librarian at an institution's library may exist that can meet some data science needs in the context of their specialty, but they are not identifiable or do not exist. Libguides on data sources, management, and analysis cover a few topics or do not exist.
+1
+2. Dual Discrete Both a library and data science centre are involved with campus data science education and resource provision and maintain some data support services.
+6
+3. Discrete Library There is no open or highly developed data science consulting program/department, though data services are housed in the libraries and needs met by a data services librarian, curated guides and often workshops. There is no data science centre at the institution.
+6
+4. Comprehensive Library The library provides consulting, workshops and/or online data resources with no external data science centre providing research support or consulting. Their services are sometimes made even more inclusive of services needed throughout the data lifecycle by IT.
+5
+5. Comprehensive Library + Discrete Data Science Center
+The library provides consulting, workshops and/or online data resources. Another on-campus data science centre provides research support and potentially lab groups that aim to serve faculty. The centre is focused on facilitating connections, research support and possibly providing academic qualifications.
+13
+6. Dual Comprehensivea Both the Library and Data Center/School provide comprehensive consulting, training and/or resources, though in different styles.
+11
+7. Comprehensive Data Science Center + Discrete Library
+The Data Science Center provides consulting, workshops and/or online data resources while the library provides some data services. The Centre is very focused on wide use, and the libraries support a smaller range of data topics.
+4
+8. Comprehensive Data Science Center
+The Data Science Center provides consulting, workshops and/or online data resources for students and faculty. The Library has little to no resources for data management or analysis.
+0
+9. Discrete Data Science Center There is no open data science consulting program, networks and research support opportunities for faculty are provided. They perhaps have limited online resources for students. There are no identifiable relevant library resources.
+0
+Note: Comprehensive = data science education and application resources exist that are available to a whole campus community, and the entity employs at least one data specialist who meets one-on-one with clients. Discrete = resources are not available to a whole campus community or do not exist, or no identifiable data specialists are involved. Dual Comprehensive = both campus entities (Library and Data Science Center) meet our criteria for a comprehensive support model. aNC State's category.
+4 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+centres and libraries connect to each other and with other campus entities, their limitations, their reach or why models have been established in
+their current form in relation to institutional and administrative goals. Due to privacy policies, for example, at DVS, we do not advertise many
+of our previous collaborations with other units at NC State. In addition to the difficulty of teasing out different levels of student consultant
+engagement, public resources do not usually lay out librarian or team capacity. Capacity and ability to assist patrons are often dependent on the
+details of a request, and such information does not always lend itself well to generalisation. Clear, detailed technological expertise of departments
+on public facing web pages is also variably supplied due to a variety of factors. DVS, for example, generalises staff expertise, and student consult
+ing topics are more detailed. Some of the most advantageous aspects of our student-staffed service, the range of skill level and increased capacity,
+were advertised more synoptically at other institutions. We found that comprehensive library department teams and centre staffing varied
+between being much larger (n 1⁄4 45 centre staff) or slightly smaller (n 1⁄4 3 library staff) than NC State's library and academy staff (n 1⁄4 7 staff total).
+DVS typically employs eight graduate student data science consultants, all of whom have booking pages listing the skills in which they have the
+most expertise, and we intend to hire a cohort of just under 10 for the 2024–2025 academic year. Faculty and support staff at the centre often
+had multiple affiliations, including connections with industry, nonprofit organisations and research facilitation groups. A vast staff size did not
+always coincide with a comprehensive support model as the missions and goals of these groups differed.
+A distinct feature of NC State University Libraries' program is the collaboration between the DVS and DSA consulting group, which employs
+intersecting student staff and organises project requests cooperatively, each team taking on work with predefined limitations on scope.
+Connected web pages that point to recommended campus resources demonstrate working relationships between some centres and libraries.
+Most library programs seem unintegrated with their larger centres or data science schools, and we did not find evidence at other institutions of a
+model where students and organisational staff work collaboratively in the same fashion as DVS and DSA, sharing student assistant positions and
+collaboratively assigning requests. We acknowledge that this relationship is not easily perceptible from online resources, even at our own institu
+tion. It is clear, however, from the provision of minimally a data science librarian or several data science librarians in almost all cases reviewed, that
+libraries have been creatively responding to a need for data science assistance. Libaries are making space for themselves as core campus centres
+for not only data management but an increasingly broad set of data science resources as they take up both management and analysis support
+roles. At NC State, we are in a unique position as a large research university to leverage student skills as readily as we do, without which our
+capacity for data services would be greatly diminished.
+With the inability to determine why staffing models exist in their current forms at varying institutions invested in data science in the
+United States, it is difficult to make a direct claim to DVS's model in other contexts. Though, at other institutions who employ student consultants,
+it is clear that these models support the provision of more comprehensive support. For data science units with the management capacity opera
+ting on a variety of scales, involvement of student Data Science Consultants may greatly enhance capacity and skill diversity in a similar fashion
+to DVS and DSA. Both DVS and DSA have fewer consulting staff than consulting students. The students offer a wider variety of disciplinary
+backgrounds, far beyond what would be possible to hire and support if using only full-time staff. Consultants enable the department to take on a
+high volume of support requests for short-term assistance, as well as work on longer-term projects with graduate students and faculty with the
+DSA. The advantages of our service—our wide range of skill, timeliness and level of expertise—are entirely due to this combination of effort from
+full-time librarians and our student consultant staff.
+4 | NC STATE'S SERVICE MODEL
+The Data Science Consulting Service at NC State University is driven by DVS and DSA. The Libraries launched DVS in 2018 in response to a need
+for basic services to support data analysis and statistical programming. In addition to data science consulting, DVS offers course-integrated
+instruction, open workshops on data science topics and specialised computer lab spaces at NC State. We currently offer data science instruction
+in workshop and course-integrated sessions format in the areas of visualisation design, Python and R programming and GIS.
+DSA was launched in 2021 with a similar mission to make data science support more accessible. DSA brings data science support across the
+entire NC State University community, outside of a particular department or college, through all three pillars of the land grant mission: education,
+research and service to the state of North Carolina. The DSA does this through teaching, research enablement and consulting. DSA operates
+under the principle that ‘data science is for everyone’, whereas the Libraries' vision statement is ‘NC State's competitive edge'. Together, DVS
+and the DSA offer a data science consulting program that is free and open to everyone affiliated with NC State University and at any stage of
+their project or research. We believe that by existing in the spaces that the campus already utilises (i.e. the Libraries), we can better engage the
+community and offer support services that they may need but not know are available to them.
+The NC State community has demonstrated a growing need for data services, and DVS provides spaces within the Libraries to support data
+science research through consulting. Through the Data Science Consulting Service in DVS, NC State University Libraries' solution to address
+research support needs has been to cultivate a team of graduate student employees from diverse disciplines to offer consultations on data science
+(e.g. programming, statistics and visualisation) problems. Our model is designed around short consultation sessions led by our DSCs, with high
+performance computing data science lab spaces in the Hill Library and the Hunt Library. In the last 5 years, these Data Science Consultants served
+MARCHESONI ET AL. 5 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+thousands of users from every NC State College, illustrating the feasibility of DSA's foundational concept that data science is for everyone with a
+low-cost, scalable and student success-focused model.
+This student-run model delivers a broad range of research support and a welcoming peer-to-peer service for graduate student researchers.
+We consistently receive feedback that our graduate student workers appreciate the professional skill development, the variety in research topics
+and projects and the opportunity to participate in a data science learning community.
+Our experience running a consulting service has taught us the value of collaboration between statisticians (or those with data science or sta
+tistics expertise in general) and domain scientist researchers from a variety of disciplines. As Griffith stated regarding statistical collaboration, ‘His
+torically, statistical research often develops out of such full two-way interdisciplinary collaborations, where the statistician and the domain area
+expert synergistically work together to contribute to both the domain and statistical sciences literature’ (Griffith et al., 2022). The students who
+work in our program have expressed their appreciation of this observation, as they find the role of ‘translator’ for domain scientists for statistical
+concepts and practices both provides them with real-world consulting experience, and serendipitous learning in the domains the service supports.
+The benefit of collaboration to the researcher is reciprocated by the students, who are also learning during the process of collaborative consulting.
+4.1 | Service logistics
+We have two service points in each of NC State's largest libraries: the Hill Library Data Experience Lab and the Hunt Library Dataspace. Online
+and in-person consultation services are offered by the students who staff those labs during their shifts. We use a shared inbox to coordinate
+requests from the two departments (DVS and DSA), as well as scheduling and communication software to ensure requests are resolved. Each of
+these aspects contributes to the effectiveness of our support model.
+4.1.1 | Service locations
+The Data Science Consulting Service operates within two high performance data computing spaces situated in the Libraries (Figures 1 and 2). NC
+State's Main Campus, where the Hill Library is located, is home to many departments within the College of Humanities and Social Sciences as well
+as the College of Sciences. The Hunt Library is situated on Centennial Campus, close to the College of Engineering and similar departments. The
+focus of requests from each computing space is influenced by the needs of patrons in programs closest to each library. The Hill Library's Data
+Experience Lab (Figure 1) generally attracts more requests for R programming and statistics, while the Hunt Library's Dataspace (Figure 2) serves
+researchers primarily from engineering and related fields. Our data centred software stack is curated to support data analysis, visualisation and
+programming tasks for quantitative, image and time series data.
+4.1.2 | Consultations
+Users can book appointments with a specific Data Science Consultant or for a certain topic through the web-based scheduling platform, Calendly.
+Consultants primarily provide short consultations (30 minutes) on data topics. Core technologies supported are R, MATLAB, Python, and GIS
+F I G U R E 1 Photo of the Data Experience Lab in the Hill Library, showing the consultant desk space, and our computer workstations (https:// www.lib.ncsu.edu/spaces/dxl).
+6 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+software, though consultants have further expertise. Consultants cover topics such as data preparation, analysis, understanding results, selecting
+the best package for a task, interpreting error messages and locating documentation and further resources (NC State University Libraries, 2023).
+During their shifts, consultants answer questions from users in the spaces and are available on a chat service for any questions that come through
+online via chat.
+4.1.3 | Email requests
+Patrons request our services over email or through forms that forward to a shared inbox: getdatahelp@ncsu.edu. DVS library staff, Data Science
+Consultants in DVS and Graduate Research Assistants (GRAs) in DSA collaborate in this shared inbox as the Collaborative Consulting Service. All
+staff and student employees have access to incoming requests, though staff routinely triage tasks and manage responses. The DSA and DVS have
+distinct forms for email requests that are forwarded automatically to the shared inbox. These forms prompt the patron to provide contact
+information and details about their assistance needs.
+4.2 | Consultant staffing
+DVS employs graduate students from different disciplines based on the current and projected needs of the program and the students' qualifica
+tions. The hiring process is led by full-time librarian faculty with relevant technical expertise, as well as a support staff member who supervises
+the students and handles scheduling and communication.
+The librarians supervise consultants with similar technical expertise, help them deal with challenging consultations and mentor them to
+develop their professional skills. The graduate students bring experience and knowledge of diverse fields to our service, which helps build a
+technically rich environment to cover many distinct issues faced by university researchers.
+Hiring graduate students as our consultants is the key to the success and sustainability of our consultation services. We hire mostly for hourly
+positions, with a limited number of Graduate Research Assistantships (GRAs) available. Our services offer the students an on-campus position that
+provides valuable work experience in their field. This opportunity helps students who require funding to continue their education and contributes
+to the stated student success goals of NC State University Libraries (NC State University Libraries, 2022).
+4.2.1 | Hiring considerations
+Our hiring process is geared towards representing a broad range of disciplines, as well as robust support for our core software tools. Desirable
+candidates have both a strong technical background for data science consulting and the aptitude for effective consulting as shown by their intel
+lectual curiosity and interest in helping others learn. Data science consulting is inherently collaborative, and successful candidates demonstrate
+the ability to learn new techniques and domain knowledge, a commitment to helping others and a genuine enjoyment of this process. Over the
+past several years, our department has employed graduate students pursuing degrees in geospatial analytics, psychology, statistics, textiles,
+F I G U R E 2 Photo of the Dataspace in the Hunt Library showing a Windows computer workstation (https://www.lib.ncsu.edu/spaces/ dataspace).
+MARCHESONI ET AL. 7 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+economics, nuclear engineering, industrial and systems engineering, electrical and computer engineering, art and design and computer science.
+These fields represent just a few of the many other disciplines on NC State's campus that leverage data science applications.
+4.2.2 | Hiring process
+We hire in conjunction with the DSA and begin by building a list of the most relevant skills and tools required to fill out the range of expertise for
+the program. These skills are determined by needs not currently met by existing consultants and an assessment of the areas most requested by
+our patrons each year. Details about skill analysis will be addressed further in the explanation of our assessment processes.
+We advertise the positions across a wide variety of academic departments, focusing on those with expertise relevant to our service. This pro
+cess generates a pool of shared candidates among DVS and the DSA. In our application form, candidates self-select the tools (e.g. Python, R, etc.)
+and concepts (e.g. data cleaning and statistics) they feel comfortable consulting on. During the interview, we ask questions about their role in
+certain projects where they used those tools/concepts, to help us evaluate their technical and professional skill sets. The students we select for
+these positions help us handle a range of complex requests and coordinate between the two departments in our collaborative consulting model,
+but we struggle to attain full coverage for our core tools (GIS in particular). We believe that a switch to fully funding consultants through Graduate
+Research Assistantships (GRAs) will resolve this issue while increasing student employee retention.
+4.2.3 | Training
+Training begins with in-person group events that familiarise students with our service, introducing them to one another. Once students have been
+trained for the daily requirements of the job, we continue to develop professional skills such as email communication strategies, data ethics and
+consulting ethics and consultation meeting management techniques. In each semester, we introduce professional development during service
+meetings through data science guest speakers and panels and facilitate students' presentations on their academic research or technical interests.
+5 | SERVICE ASSESSMENT
+We assess the reach and breadth of our service through analysis of scheduled consultations, email requests and counts of unscheduled interac
+tions (web-based chat, drop-in questions) at our service points (Data Experience Lab and Dataspace) and follow-up surveys. Our data collection
+approach also focuses on capturing the tools and concepts associated with each request for email and scheduled consultations. At the end of the
+fiscal year, data are de-identified and cross-referenced with the NC State University database to match user information to their college and
+status at the university (if applicable). While the consulting service started in 2018, the most recent fiscal years, 2022 and 2023, represent the
+current joint-consulting model of our service, and we focus on those years in this assessment. Each fiscal year encompasses interactions made
+from 1 June through 31 May of the following year. The fiscal year includes fall and spring semesters and both summer sessions.
+5.1 | Counts by transaction type
+The service conducts several types of transactions (information consultations with library staff) or requests: online consultations, in-person con
+sultations, chat, drop-in consultations, email and unknown (those for which we do not have transaction data). We collect the location to compare
+request volume for our library spaces and online.
+We conducted a total of 1503 transactions in 2022 and 1976 in 2023. Volume increased dramatically between 2022 and 2023, and we
+expect this trend to continue as the campus population expands and our services become better known.
+Online consultations comprised the majority of scheduled consultations in both years (57% and 52% in fiscal years 2022 and 2023, respec
+tively) (Figure 3). Our scheduling system, Calendly (https://calendly.com/), includes zoom-integrated online scheduling, making it straightforward
+for patrons to take advantage of online consultation from anywhere, while the consultant is on shift in the lab. This includes affiliates at extension
+offices, satellite campuses or distance education programs who cannot attend consultations within our on-campus spaces. We expect this to
+remain a popular option, as it has been since the beginning of the COVID-19 pandemic.
+The in-person and drop-in consultations take place in either the DXL or the Dataspace. Email requests, which are handled asynchronously,
+usually within 2 business days, comprise approximately one third of total transactions. Note that a single email transaction may be multiple
+exchanges between a patron and a staff member or consultant. We offer a synchronous chat service as well; however, these transactions make
+up a small portion of the total, since our service is more effective through consultation and email rather than chat.
+8 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+5.2 | Patron affiliate status
+The Data Science Consulting Service serves NC State University patrons from all levels, including undergraduate, graduate, faculty and staff. For
+faculty requests, library staff typically assist or take over, although this depends on the aptitude and preference of the student employee.
+The ‘Staff’ category in Figure 4 includes Postdocs and full-time researchers. The ‘Other’ category includes any alumni or those that did not
+have an NC State-affiliated email address including patrons from industry, education or government sectors.
+The count reflects the total number of requests for scheduled consultations, including in-person and online. The bulk of our requests is from
+graduate students, which justifies our assertion that we lead a primarily peer-to-peer support program staffed by and serving the graduate student
+community. Although we have relatively few faculty and staff requests, we work to build longer-term relationships with faculty receiving
+assistance on their funded research projects.
+The proportion of undergraduate patrons is smaller than graduates, but we aim to increase this percentage through outreach in the future.
+Our workstation login data indicates that undergraduates heavily utilise our computer lab spaces. However, in comparison with graduate students,
+they request significantly less assistance.
+5.3 | Reviewing request topics
+We collect data on the software tools (Python, R, ArcGIS, MATLAB, etc.) and concepts (statistics, data wrangling, geospatial analysis, software
+and environment help, etc.) for which patrons are seeking assistance in their consultations and email requests. Analysing this data helps us
+F I G U R E 3 Counts of transactions by service type (Scheduled online or in-person consultations, chat, drop-in consultations at the Library, and email requests) for our consulting program in fiscal years 2022 and 2023.
+F I G U R E 4 Number of consultations scheduled by affiliate status (Undergraduate or graduate students, staff (including postdocs), faculty, and others) with our Data Science Consulting Service for the last two fiscal years (2022 and 2023).
+MARCHESONI ET AL. 9 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+determine the demand for specific skills and leads us to make decisions about hiring and skills development. In addition to tools and concepts, we
+are able to use anonymised university IDs to determine which colleges and departments patrons are coming from. This helps us perform more
+targeted outreach and also informs which student candidates we select as consultants. Assessment of the colleges associated with our scheduled
+consultations revealed that the College of Natural Resources (n 1⁄4 270, 18.5%), the College of Engineering (n 1⁄4 268, 18.4%), the College of
+Agriculture and Life Sciences (n 1⁄4 179, 12.3%) and the College of Sciences (n 1⁄4 164, 11.2%) has the highest request counts. Since data science is a
+foundational discipline for all technical fields in our current environment, we believe that those colleges with fewer requests present opportunities
+for growth as we develop an outreach strategy.
+Over the past two fiscal years, the most requested topics through email were finding data, software and environment help and geospatial
+analysis (Figure 5). The most requested tools through email were Python, ArcGIS (including ArcGIS Online, ArcGIS Pro, and ArcMap) and R
+(Figure 6). While the qualitative data analysis software ‘ATLAS.ti’ has a high number of requests, this is because our department is listed as the
+contact to provide information on obtaining a license for this software. For scheduled consultations in our ‘round robin’ events, where patrons
+sign up for an appointment based on the tool/skill needed rather than an individual consultant, we saw the highest number of appointments for R,
+Python and Statistics (Figure 7). While we consistently see large numbers of GIS requests, these are the most difficult to support in terms of
+staffing. Student consultants have limited geospatial analytics expertise, and our service has struggled to hire students who have this background.
+Therefore, these requests, which currently make up a large proportion of our requests, are handled mostly by library staff rather than student
+employees.
+F I G U R E 5 Total number of emails received by our service by topic type (top 10) for fiscal years 2022 and 2023. Not all emails are labelled with topics, so this topic labelling is completed by each librarian at the end of each semester.
+F I G U R E 6 Total number of emails received by our service by analysis tool type for fiscal years 2022 and 2023. Not all emails are labelled with a tool, this tool labelling is completed by each librarian at the end of each semester. The ‘GIS’ category includes any GIS package or software that is not an ESRI (ArcGIS) product.
+10 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+5.4 | Space usage
+We provide two data computing labs with a total of 20 Windows and five MacOS computers for NC State affiliates to use. Each workstation has
+commonly used data science software, packages and libraries installed. Computer specifications vary somewhat, but they all have multicore Intel
+Xeon processors, two terabyte storage drives, 64 or 128 Gigabytes of RAM and dual monitors. Additionally, all Windows computers include
+NVIDIA graphics cards, commonly used in machine learning projects. Due to their high cost, these graphics cards are often difficult for students
+to acquire. Since all the necessary components for their environment are ready, students prefer to come and prepare their models using these
+computers rather than using their personal machines. Sometimes, we provide extended reservations to give our patrons enough time to train their
+models. The extended reservation system has proven to be a vital resource for students engaged in intensive research or long-term projects. This
+flexibility allows for uninterrupted work sessions, which is crucial for complex machine learning model training or detailed data analysis. We also
+have spacious laptop stations to create a cohesive work environment for students who need extra monitors and a Wacom tablet with a
+specialised drawing pen.
+The availability of these specialised computer labs significantly enhances the learning and research capabilities of our patrons and students.
+By offering access to high-end workstations, complete with essential software and powerful NVIDIA graphics cards, we bridge the technological
+gap for many who otherwise couldn't afford these resources. Another use of our spaces is for group projects. Having multiple screens allows
+multiple students to collaborate and work efficiently on shared tasks. The multimonitor setup is especially beneficial for data visualisation and
+complex coding projects, where more screen real estate can enhance productivity. Our consultants mainly work within the labs, making drop-in
+help possible with all the required resources readily available. In addition to the numbers reported about consistent drop-in consultations, our data
+show the average time a patron spends in one session is around 2.8 h. Many also prefer to use our computers as short-term (up to 1 h) touchdown
+stations. Fewer cases include much longer (multiple days) sessions. In two fiscal years, our labs had over 25,000 log-ins; over a third are from the
+College of Engineering. They are followed by the Colleges of Sciences, Agriculture and Life Sciences, Natural Resources, and Poole College of
+Management.
+Overall, the specialised computer labs at NC State University Libraries provide essential technological resources and create a dynamic and
+collaborative environment integral to our patrons' academic and professional growth. Around half of all libraries reviewed in our data services
+environmental scan also maintained dedicated digital scholarship or data science labs, though with consistently less focus on high performance
+computing as a library specific resource than NC State. The usage data and positive feedback we have received are a testament to the effective
+ness and impact of our lab resources.
+5.5 | Data-driven service management and improvements
+5.5.1 | Service hours
+Typically, we staff our labs from 12 PM to 8 PM Monday through Friday, and hold a weekend shift at each library, depending on demand. In the
+past two fiscal years, we saw that consultations were scheduled most often in the afternoon between 2 PM and 6 PM. Monday through Thursday
+are the busiest days, with fewer consultations scheduled on Fridays and the weekends. These trends inform how we lay out service hours each
+year, so a large increase in counts for a specific day could lead to scheduling more consultants for that time of the following year. In the past, we
+experimented with different shift arrangements to discover when patron demand would be highest, and the current schedule reflects our
+F I G U R E 7 Total number of consultations scheduled by topic for fiscal years 2022 and 2023. The consultation types listed here are events where patrons sign up for a consultation based on the tool or concept rather than with an individual consultant. This includes appointments for specific tools (Python, R, MATLAB, SAS) or concepts (Statistics, Spreadsheets, Data Cleaning). Appointment options changed between the two fiscal years.
+MARCHESONI ET AL. 11 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+observation that patrons prefer to visit the labs in the afternoon and early evening. We will continue to be optimise with our service hours, that
+is, we may adjust them if we see increasing requests for meetings outside of currently staffed time. In addition, we structure our hours based on
+consultant availability and through coordination with other Libraries services that may take up space (scheduled workshops, use of consultation
+rooms).
+5.5.2 | Staffing and skill inventory
+The key to our support model is having student consultants that already have experience using the tools requested most often by our patron base.
+Since the student employee team changes as students graduate or leave, we must be proactive during hiring each cycle to both cover all required
+tools and provide the best possible support for domains and tools beyond the core. For example, in the Fall of 2022, our service was recruiting
+two additional students to work at the Hunt Library to fill vacancies left by two graduating students. This library is most frequented by patrons in
+the College of Engineering, and we also knew that the departing students had Python expertise. Therefore, our focus was on hiring students with
+Python in their skillset and with some domain knowledge that would be relevant to our engineering patron base. The Libraries aim to service the
+entire campus community, and our service is no different—we want to be able to provide guidance on the most requested tools and concepts that
+are needed by the campus community. We anticipate that the university's plan to open enrollment for an additional 4000 engineering and com
+puter science students over the next 4 years will undoubtedly impact our service, particularly in the areas that we already see usage (workstations,
+consultations etc.) (Engineering North Carolina's Future, n.d.) (https://thinkanddo.ncsu.edu/engineering-north-carolinas-future/).
+6 | ADVANTAGES OF OUR MODEL
+Librarian-staffed data science consulting programs face many challenges, including how to cover the data science learning needs of students in a
+wide variety of disciplines. We believe our model, which addresses this issue, could be effectively replicated at other universities. The following
+advantages are the result of our choice to run a student-led collaborative consulting service.
+6.1 | Peer-to-peer consulting
+Our primarily peer-to-peer consulting model, which is led by independent consultants who are guided by librarian staff, contributes to both
+student success and development as well as providing NC State with multidisciplinary data science research assistance.
+We staff our service points with a relatively large number of graduate student employees who are equipped to handle complex requests in
+their disciplines and related fields. Since they are studying the most current models and techniques in their fields, graduate students are best
+equipped to provide our patrons with up-to-date technical advice.
+In addition, graduate student employees help to increase the accessibility of the service, since graduate student patrons are working with
+consultants with similar levels of educational experience as them. The peer model also facilitates a lower pressure environment for patrons, since
+they are more comfortable learning together and making mistakes with their peers than a faculty librarian. On the employee side, our open
+request system exposes student consultants to questions and domains that they may have never considered before, leading to serendipitous
+learning that helps build their skillset.
+6.2 | Student success and development
+The student employees work mostly independently, without an in-person lab supervisor and are guided by librarian mentors to develop the
+professional skills required to conduct consultations effectively. Librarian supervisors have a background in data science or statistics and guide
+the students through their development within the department.
+Interpersonal skill sets, including teamwork, communication and creativity, are considered to be the most important skills possessed by data
+support practitioners (Federer, 2022). These skills have been seen as less important in technical fields, but are essential for helping researchers
+navigate the complex research environment and evaluating researchers' needs (Cook et al., 2022). Since interpersonal skills are required to provide
+robust support to our patrons, we invest in developing them in our students. Our model encourages students to continue learning professional
+skills, and broaden their technical skills while employed with us. This approach has paid off well for our students, many of whom have graduated
+and started on data science-related career paths. In exit interviews, students have consistently mentioned that their time with the Data Science
+Consulting Service was an advantage on their resume.
+12 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Our hiring practices serve to fulfil our university library's mission to improve affordability, while helping students to develop valuable,
+transferable skills. These considerations have gone into our funding model decisions, as it is our goal to provide a position that pays competitively
+and develops students' real-world data science experience.
+6.3 | Partnership with Data Science Academy
+Since 2021, our department has partnered with NC State DSA, an interdisciplinary university organisation whose motto is ‘data science is for
+everyone’. We collaborate with DSA through a shared consultation request framework. DVS focuses on the requests that can be resolved with
+short-term consultations while the requests that require longer-term commitment are taken over by DSA consultants. The DSA's goal-based
+consulting model offers assistance with experimental design and analysis of experiments and longer-term support for research studies. To facili
+tate collaboration, we have a shared GRA position who acts as a liaison between the departments. The shared GRA student works in consulting
+projects for both DSA and DVS, provides project updates, assists in answering inter-group questions and bolsters continuous communication
+between groups. Our integration with the DSA provides cohesive support to campus researchers across the full data lifecycle, relying on graduate
+student employees assisted by DVS and DSA staff.
+7 | FUTURE IMPROVEMENTS
+Our current support model has many advantages, and part of our process is to seek continuous improvements that match the evolution of our
+service. We elicit feedback from our consultants each semester, asking them to share as anonymously as possible what they appreciated about
+the service, constructive criticism, and suggestions for improvement. The consulting service team reviews the suggestions, responds and
+implements the feedback that would benefit the service. Our assessment process as well as student feedback determines our plans for future
+improvements. Two longer-term issues that we are working to resolve are improving the sustainability of our staffing model and developing more
+robust campus partnerships.
+7.1 | Sustainable staffing
+One issue that has gotten gradually more challenging is student employee retention and competitive hiring. Over time, requests have become
+more complex, often requiring expertise at the doctoral student level. Simultaneously, the department has struggled to offer competitive compen
+sation packages to our students. The Data Science Consultant positions vary in compensation, since some are funded as assistantships which
+provide tuition assistance and health insurance on top of an annual stipend, and others are paid hourly. We feel strongly that offering fully funded
+GRAs to all consultants would create an attractive position for applicants. GRA positions have several advantages compared to the hourly posi
+tions that currently make up the majority of our student positions: better retention, compensation, and the elevated expertise and professional
+development opportunities that follow for the students. Having one position type will also improve equity among the students and allow us to
+better integrate with the DSA.
+Ideally, a team of GRA consultants would be able to handle our most challenging requests while building an open peer-to-peer culture among
+consultants and patrons. DVS and DSA are moving to this model in the next fiscal year to resolve this issue and improve retention and student
+employee equity. In moving to this new funding model, we are maintaining the mechanics of our support model as described above. In general,
+we are changing only the funding structure for all student positions.
+7.2 | Outreach and building robust campus partnerships
+Our assessment indicates that our nascent service reaches across many disciplines. We are encouraged by the increasing numbers of requests to
+our service; however, our assessment highlights some potential areas for growth and outreach. Different user-groups use different aspects of our
+consulting services (i.e., email, consultations, space/computing resources). As our service grows, we may need to balance hiring students with skill
+sets that fit to disciplines we do not currently reach while also maintaining support for those colleges and departments that are already using our
+service but are expected to grow (e.g. College of Engineering). In terms of scheduled consultations, we assist primarily graduate students and have
+observed fewer appointments from undergraduates and faculty or staff. Undergraduates may be getting a larger amount of support from their
+individual departments, teaching assistants, instructors or academic advisors. Thus, they might not seek out additional help on content and
+therefore use our spaces and/or hardware to complete their work. Graduate students, on the other hand, are faced with research projects that
+MARCHESONI ET AL. 13 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+may be out of their skill set and out of the knowledge base of their research advisor. They may need a service like this to support their progress.
+To continue to grow the service, our data indicate that we need to advertise our services widely to the campus community.
+Since DVS and the Data Science Consulting Service are relatively new campus units, we have not fully realised potential campus partnerships
+to expand consulting services and data science practice across the university. We would like to build upon our referral system within NC State
+University Libraries, the DSA and the Department of Statistics, with a vision to create a campus-wide network of consulting service providers for
+the huge variety of research that occurs at NC State. We currently lack a system to connect with liaison librarians and other academic specialists.
+The goal is to connect these disparate consulting cores into a cohesive service available to patrons from all disciplines. This would also require
+more robust, interconnected knowledge bases and procedures between campus consulting providers.
+8 | CONCLUSION
+We believe that the collaborative consulting model between the DVS and the DSA presents a compelling staffing and consulting model for other
+research universities to implement. While our scan on data science services does not establish a complete context, trends in both library services
+and campus needs reflect an increased focus on data services as well as a desire for increased technical data curation and analytical services.
+Other institutions provide a wide range of services at their libraries that are often greatly augmented by an academic department or data science
+centres' additional connection and consulting services. Programs that involve student assistants offer more comprehensive support in comparison
+with peers; however, few university libraries from our comparison of data services have found a similar solution for offering data science
+consulting. Both our student-led model and collaboration with an on-campus data science centre could prove effective for those universities
+looking to expand their technical research services.
+The graduate student-staffed, primarily peer-to-peer consulting service presents a solution to many of the pressing challenges faced by
+libraries and other academic institutions to provide comprehensive data science support services to the university community. By relying on
+graduate students, we are able to cover a wide range of disciplines, maintain both long-term and short-term consulting support and contribute to
+student success. Our experience indicates that equal compensation for student consultants, providing health insurance, tuition assistance and a
+competitive stipend will lead to a successful program. The advantages of this funding model, which ensure sustainability of the program, are
+increased retention of consultants, strong technical expertise and a more robust culture within the service.
+Our department's experience illustrates that libraries at NC State University's peer institutions with existing technical research services
+will be able to achieve similar successes, given that they are able to invest in funding and training graduate student consultants and recruiting
+librarians with advanced technical skills to mentor them.
+Our assessment process assists us in staying ahead of future challenges and trends in research support at our university, and we evaluate
+service needs through our service metrics as well as eliciting and implementing feedback from the student employees. These tools help us
+establish and train an effective, always evolving and improving collaborative consulting team prepared to adapt and respond to challenges over
+the long term. We hope that data science consulting programs across the country will consider the decisions we have made to provide an
+effective data science support service as they adapt to meet increasing demand from university researchers and other library patrons.
+AUTHOR CONTRIBUTIONS
+Joddy Marchesoni: Conceptualization; writing—original draft; writing—review and editing; supervision; project administration. Kate Freeman:
+Methodology (environmental scan); formal analysis (environmental scan); investigation; data curation (environmental scan); writing—original draft;
+writing—review and editing. Alp Tezbasaran: Conceptualization; data curation; methodology; visualization; writing—original draft; writing—review
+and editing. Shannon W. Ricci: Conceptualization; methodology; formal analysis; investigation; writing—original draft; writing—review and editing;
+visualization; supervision.
+ACKNOWLEDGEMENTS
+We would like to express our sincere thanks to Dr. Emily Griffith, Director of Consulting for the DSA, and Mara Blake, Department Head at
+DVS. Their guidance and encouragement throughout the process, as well as their early manuscript reviews, were instrumental in bringing this
+paper to completion. We would like to recognise Dr. Griffith's persistent dedication to fostering and developing the deep collaboration
+between the DSA and DVS, which has resulted in the next evolution of our sustainable staffing model for 2024. Mara Blake's thoughtful
+leadership of DVS has presented us with a myriad of opportunities to both showcase the strengths of our department to the wider research
+services community, and continually improve our services to better support NC State University Libraries patrons. We also wish to express
+our gratitude to Mike Nutt, our former Data Experience Manager, for his dedication and contributions to the Department of Data &
+Visualization Services, our consultants, and for his insightful writings on the history of DVS. We thank the department of Data & Visualization
+Services, the Data Science Academy and the Data Science Consultants of both groups for their work and support of our department and of
+NC State University Libraries patrons.
+14 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+DATA AVAILABILITY STATEMENT
+Data sharing is not applicable to this article as no new data were created or analyzed in this study.
+ORCID
+Joddy Marchesoni https://orcid.org/0000-0002-5308-0986
+Kate Freeman https://orcid.org/0009-0008-9229-2325
+Alp Tezbasaran https://orcid.org/0000-0002-4938-1436
+Shannon W. Ricci https://orcid.org/0000-0003-0123-4071
+ENDNOTE
+1 Sample selection: For further information on the selection of institutions and a comprehensive list of universities, libraries and centres, please see Appendix A.
+REFERENCES
+Cook, C., Shimon, H., Stevens, S., Adamus, T. L., & Michaud, C. (2022). People who need data people: A case study in building cross-campus data support. In Mani, N. S., & Cawley, M. A. (Eds.), Advances in library and information science: IGI Global, pp. 45–60. https://doi.org/10.4018/978-1-7998-9702-6. ch003 Cox, A. M., Kennan, M. A., Lyon, L., & Pinfield, S. (2017). Developments in research data management in academic libraries: Towards an understanding of research data service maturity. Journal of the Association for Information Science and Technology, 68(9), 2182–2200. https://doi.org/10.1002/asi.23781 Federer, L. (2022). Librarians as partners in biomedical data science: Opportunities and challenges. In Mani, N. S., & Cawley, M. A. (Eds.), Advances in library and information science: IGI Global, pp. 61–74. https://doi.org/10.4018/978-1-7998-9702-6.ch004 Griffith, E. H., Sharp, J. L., Bridges, W. C., Craig, B. A., Hanford, K. J., & Stevens, J. R. (2022). The academic collaborative statistician: Research, training and evaluation. Stat, 11(1), e483. https://doi.org/10.1002/sta4.483 Hudson Vitale, C., Kennedy, M. L., & Ruttenberg, J. (2022). Advancing data science, data-intensive research, and its understanding through collaboration. In Mani, N. S., & Cawley, M. A. (Eds.), Advances in library and information science: IGI Global, pp. 1–20. https://doi.org/10.4018/978-1-7998-9702-6. ch002 Joo, S., & Schmidt, G. M. (2021). Research data services from the perspective of academic librarians. Digital Library Perspectives, 37(3), 242–256. https:// doi.org/10.1108/DLP-10-2020-0106/full/html Mani, N. S., Cawley, M., Henley, A., Triumph, T., & Williams, J. M. (2021). Creating a data science framework: A model for academic research libraries. Journal of Library Administration, 61(3), 281–300. https://doi.org/10.1080/01930826.2021.1883366 New York University, UC Berkeley, and the University of Washington (2020). Creating institutional change in data science. https://doi.org/10.6069/v5s48n41 Parker, M. S., Burgess, A. E., & Bourne, P. E. (2021). Ten simple rules for starting (and sustaining) an academic data science initiative. PLOS Computational Biology, 17(2), e1008628. https://doi.org/10.1371/journal.pcbi.1008628 Shao, G., Quintana, J. P., Zakharov, W., Purzer, S., & Kim, E. (2021). Exploring potential roles of academic libraries in undergraduate data science education curriculum development. The Journal of Academic Librarianship, 47(2), 102320. https://linkinghub.elsevier.com/retrieve/pii/S0099133321000112 Surkis, A., LaPolla, F. W. Z., Contaxis, N., & Read, K. B. (2017). Data day to day: Building a community of expertise to address data skills gaps in an academic medical center. Journal of the Medical Library Association, 105(2). http://jmla.pitt.edu/ojs/jmla/article/view/35 Tenopir, C., Talja, S., Horstmann, W., Late, E., Hughes, D., Pollock, D., Schmidt, B., Baird, L., Sandusky, R. J., & Allard, S. (2017). Research data services in European academic research libraries. LIBER QUARTERLY, 27(1), 23–44. https://liberquarterly.eu/article/view/10706
+AUTHOR BIOGRAPHIES
+Joddy Marchesoni (they/them) has served as Data & Visualization Librarian at NC State Libraries since Summer 2022. They focus on
+delivering library services in statistics and data science subject areas. This includes: managing the Data Science Consultant Service within the
+Libraries through service planning and supervision of graduate student Data Science Consultants; providing consultations in R, statistics, and
+data management to NCSU affiliates; and offering library workshops and course-integrated instruction sessions on R, data visualization, and
+many other topics. Joddy has collaborated on publications at NCSU as a data manager and analyst, and is currently working with a team to
+publish work on the sustainability of student-staffed consulting service models, as well as a study on qualitative research support needs in the
+libraries context. They hold a Master of Science in Applied Statistics from UNC Greensboro.
+Kate Freeman (she/her), in the role of Data Science Support Specialist at NC State University Libraries, supports the department of Data &
+Visualization Services (DVS) as it fosters and advances the university's data science community. Kate primarily works with colleagues to
+manage the Libraries' data science support services, namely the maintenance and improvement of the Hunt Library Dataspace and the Hill
+Library Data Experience Lab, the coordination of Libraries Workshops and service planning and co-supervision for the Data Science Consult
+ing Service. Freeman engages in Libraries studies and publications as part of her role, including user experience studies, serving as co
+MARCHESONI ET AL. 15 of 16
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+investigator for a collaborative study on qualitative and mixed methods research, and publications regarding the sustainability and operation
+of data science consulting services.
+Alp Tezbasaran is currently a Ph.D. candidate in Nuclear Engineering, and also works as Data Science Research consultant with a joint
+appointment in NC State Data Science Academy and NC State Libraries' Data & Visualization Services.
+Shannon W. Ricci is a Data & Visualization Librarian in the Data & Visualization Services department at NC State University Libraries. She is
+also a Ph.D. candidate in Geospatial Analytics, and brings both academic and practical research expertise to her librarian role. Shannon
+provides consultations on data science and GIS, mentors and supervises graduate student consultants, and develops and leads workshops on
+GIS, Python, and data visualization. She is focused on the Libraries' collaboration with the Data Science Academy's consulting arm, enhancing
+communication and transparency between the groups. Shannon is working on applying a data-driven approach to refining and highlighting
+the impact of the Libraries Data & Visualization services, expanding GIS and Python workshops offerings, and enhancing her leadership skills
+to better manage and support student workers. She holds a Master of Science in Biological Oceanography from NC State University, and was
+one of the first consultants for the Data Science Academy.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this article.
+How to cite this article: Marchesoni, J., Freeman, K., Tezbasaran, A., & Ricci, S. W. (2024). The student staffing advantage: Data Science
+Consulting Service at NC State University Libraries. Stat, 13(2), e702. https://doi.org/10.1002/sta4.702
+APPENDIX A
+Institutions scanned were selected from the following sources to ensure a variety of program types were represented among institutions that
+have demonstrated a focus on data science or offer growing data support. ‘Academic Data Science Centers in the United States’ explores 2018
+examples of new or growing data science programs, now more established. All schools listed in ‘Academic Data Science Centers in the
+United States’ are represented in this scan as the study is a leading publication on diverse American data science education environments, though
+the source is also not completely representative in and of itself. A subset of schools randomly selected from 2023 Alfred P. Sloan grant recipients
+show a snapshot of recent innovators in STEM. Members of the ADSA were also randomly selected as they range in the size and reach of their
+programs but nonetheless demonstrate a concerted interest in participating in the discourse and development of data science education. Several
+smaller institutions were selected based on the recommendation of colleagues to in an effort to represent smaller universities that may have
+fewer data science offerings or resources. Approximately half (n 1⁄4 25) of these institutions are present in more than one of the sources.
+16 of 16 MARCHESONI ET AL.
+20491573, 2024, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.702 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

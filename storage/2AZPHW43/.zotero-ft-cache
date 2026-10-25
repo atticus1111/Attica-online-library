@@ -1,0 +1,1466 @@
+Introduction to R for Data Science: A LISA 2020 Guidebook
+Jacob D. Holster
+2022-07-10
+
+
+2
+
+
+Contents
+1 R Foundations 7
+1.1 Getting Started with R and RStudio . . . . . . . . . . . . . . . . 11
+1.2 Coding in R . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+1.3 Case Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+1.4 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+1.5 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+2 Working with Data in R 21
+2.1 Installing and Calling Packages . . . . . . . . . . . . . . . . . . . 21
+2.2 Importing and Exporting Data . . . . . . . . . . . . . . . . . . . 22
+2.3 Working With Datasets . . . . . . . . . . . . . . . . . . . . . . . 24
+2.4 Case Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+2.5 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+2.6 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+3 Data Visualization 39
+3.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+3.2 Plotting in R . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+3.3 Case Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+3.4 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+3.5 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+3
+
+
+4 CONTENTS
+4 Foundations of Statistical Analysis 77
+4.1 Descriptive Statistics . . . . . . . . . . . . . . . . . . . . . . . . . 78
+4.2 Correlational Statistics . . . . . . . . . . . . . . . . . . . . . . . . 87
+4.3 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
+4.4 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+5 Exploring and Modeling Data 95
+5.1 Quick Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+5.2 Correlational Models . . . . . . . . . . . . . . . . . . . . . . . . . 98
+5.3 Simple and Multiple Regression . . . . . . . . . . . . . . . . . . . 102
+5.4 Inferential Statistics . . . . . . . . . . . . . . . . . . . . . . . . . 112
+5.5 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+5.6 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+6 Structural Equation Modeling 129
+6.1 SEM Syntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 129
+6.2 Case Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 153
+6.3 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155
+6.4 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 156
+7 Network Analysis 157
+7.1 Zacharies Karate Club Case Study . . . . . . . . . . . . . . . . . 159
+7.2 Community Detection . . . . . . . . . . . . . . . . . . . . . . . . 169
+7.3 Network Simulation . . . . . . . . . . . . . . . . . . . . . . . . . 172
+7.4 Advanced Case Study . . . . . . . . . . . . . . . . . . . . . . . . 180
+7.5 Datasets for Network Analysis . . . . . . . . . . . . . . . . . . . 183
+7.6 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 184
+7.7 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 184
+
+
+CONTENTS 5
+8 Text Analysis 187
+8.1 R and Text Data . . . . . . . . . . . . . . . . . . . . . . . . . . . 188
+8.2 Cleaning and Processing Text . . . . . . . . . . . . . . . . . . . . 191
+8.3 Quantitative Text Analysis . . . . . . . . . . . . . . . . . . . . . 197
+8.4 Sentiment Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+8.5 Networks with Hamilton Lyrics . . . . . . . . . . . . . . . . . . . 211
+8.6 Topic Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . 213
+8.7 Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220
+8.8 References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220
+
+
+6 CONTENTS
+
+
+Chapter 1
+R Foundations
+Data science is emerging as a vital skill for researchers, analysts, librarians, and others who deal with data in their personal and professional work. In essence, data science is the application of the scientific method to data for the purpose of understanding the world we live in. More specifically, data science tasks emerge from an interdisciplinary amalgam of statistical analysis, computer science, and social science research conventions. Although other programming languages such as python exceed R in general popularity, R remains as one of the most popular programming languages for data scientists and researchers due to a focus on statistical programming. As such, R and RStudio are invaluable tools to the data scientist, statistician, researcher, and many others.
+This guidebook aims to provide readers an opportunity to make a start towards learning R for a variety of data science tasks, include (a) data cleaning and preparation, (b) statistical analysis, (c) data visualization, (d) natural language processing, (e) network analysis, and (f) Structural Equation Modeling to name a few. In Chapters 1 and 2 we invite readers to install R and RStudio and to start manipulating data for analysis. Chapter 3 and Chapter 4 include introductory exercises to teach data visualization and statistical analysis in R. In Chapter 5 and beyond, you will explore basic analytic concepts (e.g., correlation and regression) and more advanced approaches to data modeling through the lenses of Structural Equation Modeling, Network Analysis, and Text Analysis.
+By the end of this guidebook, among several other skills, you will be able to use R to visualize distributions of data across categorical groups, such as in the example below:
+library(ggstatsplot) library(tidyverse) data <- read_csv('musicclassintentions.csv')
+7
+
+
+8 CHAPTER 1. R FOUNDATIONS
+ggbetweenstats( data = data, x = Level, y = intentions, title = "Distribution of Intentions to Sign Up for Music Across Grade Level" )
+μmean = 9.50
+μmean = 14.29
+5
+10
+15
+eighth−grade
+(n = 12) seventh−grade
+(n = 28) Level
+intentions
+t Welch(20.7) = −2.89, p = 8.86e−03, gHedges = −0.96, CI95% [−1.67, −0.24], nobs = 40
+Distribution of Intentions to Sign Up for Music Across Grade Level
+loge(BF01) = −1.97, δdifference
+posterior = −4.04, CI9H5D%I [−7.36, −0.77], rCauchy
+JZS = 0.71
+Calculate correlation coefficients, and visualize relationships between your data:
+library(psych) library(tidyverse)
+variablelist <- data %>% select(intentions, values, needs, parentsupport, SESComp) psych::pairs.panels(variablelist, method = "pearson", # correlation method hist.col = "#00AFBB",
+density = TRUE, # show density plots ellipses = TRUE,
+lm = TRUE# show correlation ellipses )
+
+
+9
+Table 1.1: Estimates for Variation in Music Elective Intentions.
+Predictor B SE t p (Intercept) -5.42 6.261 -0.87 0.394 SESComp 3.87 1.639 2.36 0.025 parentsupport 0.52 0.306 1.69 0.101 needs -0.28 0.115 -2.40 0.023 values 0.28 0.072 3.90 0.001
+intentions
+4 8 12 40 70
+5 10 15
+40 60 80
+0.56
+values
+0.12
+0.58
+needs
+35 45 55 65
+4 6 8 12
+0.46
+0.53
+0.44
+parentsupport
+5 15
+0.20
+−0.12
+35 50 65
+0.01
+−0.16
+1.6 2.0 2.4 2.8
+1.6 2.4
+SESComp
+Fit General Linear Models (GLM) and produce publishable tables:
+library(tidyverse) library(knitr) library(broom)
+tidy(lm(intentions ~ SESComp + parentsupport + needs + values, data=data)) %>% kable(caption = "Estimates for Variation in Music Elective Intentions.", col.names = c("Predictor", "B", "SE", "t", "p"), digits = c(0, 2, 3, 2, 3))
+Fit, interpret, and visualize Structural Equation Models (SEM):
+
+
+10 CHAPTER 1. R FOUNDATIONS
+library(lavaan) library(semPlot)
+model <- ' # regressions needs ~ parentsupport values ~ needs + parentsupport + peersupport intentions ~ values + needs + SESComp'
+fit <- sem(model, data=data)
+semPaths(fit, what = "path", whatLabels = "std", style = "lisrel", edge.label.cex = .9,
+0.43
+0.35 0.44
+0.25
+0.84
+−0.34
+0.27
+0.81
+0.42
+0.51
+0.22
+−0.22
+−0.15
+nds
+vls
+int
+prn
+prs
+SES
+As well as clean text data and analyze large corpora through the lenses of machine learning concepts such as sentiment analysis and topic modeling:
+library(sentimentr) sentiment('Sentiment analysis is super fun. I hate sentiment analysis. Sentiment analys
+## element_id sentence_id word_count sentiment ## 1: 1 1 5 0.6708204 ## 2: 1 2 4 -0.3750000 ## 3: 1 3 4 0.0000000
+
+
+1.1. GETTING STARTED WITH R AND RSTUDIO 11
+Each concept is presented with unique datasets, including qualitative data from Harry Potter, Hamilton, and Donald Trump Tweets, and quantitative data from baseR datasets such as mtcars, elective intentions data for middle school students, and other real world data.
+Additionally, there will be an informal assessment tied to each chapter so you can test and apply your skills as you move through the book.
+1.1 Getting Started with R and RStudio
+This chapter contains an introduction to the installation of R, how to install packages, and an introduction to object-based coding concepts. If you are having trouble downloading R and installing your first packages, please view the optional check in assessment at https: //jayholster.shinyapps.io/RLevel0Assessment/ Take a few minutes to download and install both R and RStudio. They are both free and easy to download.
+• Download R from <https://cran.r-project.org/> Choose your operating system (Windows, MacOS, or Linux) and download as you would any other program.
+• Download the free version of RStudio for your OS from <https://www.rstudio.com/products/rstudio/download/ Follow prompts to install.
+According to Rstudio’s documentation, <https://cran.r-project.org/doc/contrib/Paradisrdebuts_en.pdf>): “when R is running, variables, data, functions, results, etc, are stored in the active memory of the computer in the form of objects which have a name. The user can do actions on these objects with operators (arithmetic, logical,comparison, . . .) and functions (which are themselves objects).” We will explore the concept and capabilities of the obect throughout this text.
+1.1.1 The Integrated Development Environment
+Where R is a programming language, RStudio is an integrated development environment (IDE) which enables users to efficiently access and view most facets of the program in a four pane environment. These include the source, console, environment and history, as well as the files, plots, packages and help. The console is in the lower-left corner, and this is where commands are entered and output is printed. The source pane is in the upper-left corner, and is a built in text editor. While the console is where commands are entered, the source pane includes executable code which communicates with the console. The environment tab, in the upper-right corner displays an list of loaded R
+
+
+12 CHAPTER 1. R FOUNDATIONS
+objects. The history tab tracks the user’s keystrokes entered into the console. Tabs to view plots, packages, help, and output viewer tabs are in the lower-right corner.
+Where SPSS and other menu based analytic software are limited by user input and installed software features, R operates as a mediator between user inputs and open source developments from our colleagues all over the world. This affords R users a certain flexibility. However, it takes a few extra steps to appropriately launch projects. Regardless of your needs with R, you will likely interact with the following elements of document set up.
+1.1.2 Learning to Read Code
+“Numquam ponenda est pluralitas sine necessitate. Plurality is never to be posited without necessity.”
+William of Occam, circa 1495
+The most formidable challenge many new R users face is learning to code. While coding can seem daunting at first, it is important to remember that all coding tasks simply involve solutions to problems the user identifies. No matter how difficult the problem, there are always a lot of solutions to each problems, and someone else has always encountered the solution, and likely has posted it to a forum. Occams Razor (i.e., the solution with the least amount of assumptions is the best) helps you identify the problems to solve as you interact with code. For new users, your breakthrough moment where you start to feel like a programmer might come from a well-worded google search and a focused effort to solve an issue with the R programming language. It is, indeed, a language, so half of the battle is learning to read code in a manner that is meaningful to you. Throughout this guidebook, you will be provided with tutorials and suggestions for reading the code you interact with. In this first chapter, you will start to encounter objects, functions, arguments, and operators. It is important to develop code reading fluency. As such, I encourage readers to speak code out loud to themselves as they interact with this guidebook.
+1.1.3 Practices in Reproducibility
+It is important—whether you are working alone or with others—to adopt a collaboration mindset. This value is clearly important when working with other statistical collaborators or with domain experts who do not have experience in R. Even experienced users might become confused when examining a peer’s code. The same effect may occur if you return to a project after many months, and find yourself lost in your own code. As such, I recommend utilizing R markdown files (File -> New File -> R Markdown)and comments # to provide notes to yourself and others who might interact with your code. For instance, this is
+
+
+1.2. CODING IN R 13
+an R Markdown document (.Rmd for file extensions). R Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents that can include blocks of code, as well as space for narrative to describe the code. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+The # symbol is used to change the size of headers ### = small, ## = medium, # = large. There several options for formatting R markdown documents. For a introductory and comprehensive cheatsheet, see https://rstudio.com/wpcontent/uploads/2015/02/rmarkdown-cheatsheet.pdf
+There are no rules for how you should format your document. If you only need to write R code and have no need for whitespace or printing out your work, you can use an R script (File -> New File -> R Script). However, clean coding practices often require annotation, and R markdown makes that easy.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can quickly insert chunks into your R Markdown file with the keyboard shortcut Cmd + Option + I (Ctrl + Alt + I for Windows users). Comments can be utilized within code chunks, and are not considered a functioning part of the code to R.
+x <- 10 # This is an example of a comment.
+No matter what coding format you choose, insert narrative into your document in a way that makes sense to you. It may be helpful to split your code up into small, easy to digest chunks as to not become overwhelmed when examining your work.
+1.2 Coding in R
+1.2.1 Set Your Working Directory
+It is helpful to use a project specific directory and to frequently save your work. When you first use R follow this procedure: Create a sub-directory (folder), “R” for example, in your “Documents” folder, or somewhere on your machine that you can easily access. This sub-folder, also known as working directory, will be used by R to read and save files. Think of it as a download and upload folder for R only.
+You can specify your working directory to R in a few ways. One option is to click the "Session" drop down menu at the top of your screen and then click "Set Working Directory." It might also be useful to change the directory using code. To do this, use the function setwd(), and then enter the path of your directory into the parenthesis. Your working directory path will look something like what you see below. If you are unsure about the path you should input here,
+
+
+14 CHAPTER 1. R FOUNDATIONS
+find the folder using your machine’s finder function, right click the folder, and examine the details of the folder’s path. Make sure that you are using forward slashes in quotes as the example indicates.
+You will need to run the code chunk in order to process the change in working directory. To run a code chunk, you can select the code you want to run and hit command and enter simultaneously on Mac, or control and enter on a Windows machine. Alternatively, you can click the green play button in the top right corner of the code chunk to run the entire cell.
+setwd('/Users/username/Desktop/R/')
+1.2.2 Operators
+If this is your first foray into coding, you might think of it as a conversation you are having with R about a problem you are trying to solve. To start, you might consider simple arithmetic as the problem, and the code you write as the conversation. You can talk to R using numerical digits and text. Operators are the symbols that connect your numbers or words with mathematical (e.g., addition), relational (e.g., >=), and other logical or conditional manipulations
+To start coding with mathematical operators, enter a number in the code box below, then click the run button.
+7
+## [1] 7
+Now, pick a set of two numerals to sum, placing an addition sign between them. Then click the run button. Considering operators alone, R can be utilized as a simple calculator.
+7+2
+## [1] 9
+Base R comes with working mathematical operators for addition +, subtraction -, multiplication *, division /, and exponents ^. Although I’ve left an example for you below, you might try making your own.
+7+2-10*40
+## [1] -391
+
+
+1.2. CODING IN R 15
+1.2.3 Functions
+Functions run specific tasks based on the arguments within parenthesis. For example, the sum() function adds a specified number set. You can read the code below to say “sum the numbers 1 and 10.”
+sum(1, 10)
+## [1] 11
+There are some grammatical conventions that R requires to successfully run code. When you try to run this function below without the comma, R returns an error. Fix this example by including a comma directly after the first number. It does not matter whether you have a space after the comma before the next numeral. If any part of your code is not correct, it will produce an error message like you see below. The “unexpected numeric constant” in the error message refers to the space after the 1 that was not preceded by a comma.
+sum(1 10)
+## Error: <text>:1:7: unexpected numeric constant ## 1: sum(1 10 ## ^
+Instead of a comma, you can use a colon—another operator—to sum a sequence of numbers. You can read this code aloud saying “sum all numbers from 1 to 10.”
+sum(1:10)
+## [1] 55
+There are a plethora of pre-installed functions in R. R also has the capability to find the right function for you. For instance, you might encounter a new function which you are not familiar with, like seq() below. To investigate what this function does, place your cursor after ‘seq’ but before the first parenthesis, and press tab. Hover over the function seq in the dropdown list to see a full description. If you need more information, you might use the help() function, with the name of the function you are curious about inside the parenthesis. The description indicates that the function is used to generate regular sequences. The information that emerges from using the help() function describes a list of arguments, including from, to, and by. This pane will populate on the bottom right side of RStudio when you run the help() function. Based on this information, what do you think the output of the first line in the following chunk will be?
+
+
+16 CHAPTER 1. R FOUNDATIONS
+seq(0, 20, 4)
+## [1] 0 4 8 12 16 20
+help(seq)
+Was the output what you expected? The seq() function generates a sequence of numbers. In this example, 0 and 20 are the upper and lower limits of this sequence. The 4 indicates that the sequence should list numbers from 0 to 20 in increments of 4. Now, look to the bottom right side RStudio. Since you ran the entire cell, the command ‘help(seq)’ launched a search in the R documentation for the seq function in addition to running the seq function. Here, we can ascertain that this function takes a set of arguments (from = 0, to = 20, by = 4). When you paste that exact code into the seq function, it generates the same result. Try it!
+1.2.4 Objects
+You may have heard the phrase “object-oriented programming.” This phrase is accurate as all coding in R relies on the assignment of objects. When you assign an object in R, you are indicating that you want R to remember this assignment so it can be used as part of other code. pi is an example of an object built into base R. The input below is not numeric, but still represents a number. Run the code, and you will see that the word pi has been assigned the numeric value of pi. This is one of the few predefined objects in R.
+pi
+## [1] 3.141593
+You might also assign a number pi to an object you name yourself.
+x <- 3.141593
+To assign values to objects, as the numerical content of pi was to the object x, use the <- operator. For example, the code segment below assigns the value 50 to the object ‘a’, and 14 to the object ‘b’ using the <- operator. It may be helpful to read the code out loud, saying a is 50, and b is 14.
+a <- 50 b <- 14
+
+
+1.3. CASE STUDY 17
+There are five basic types of objects in R. The objects a, b, and x are each examples of vectors, or homogeneous data made up of characters, logical, numerical, or integer values. Additionally, a list of heterogeneous data (i.e., involving multiple data types) can be assigned to an object. Matricies, or two-dimensional data with undefined column headers, and data frames, a matrix with multiple specified columns that represent a certain type of observation seen in corresponding rows, can also be assigned to objects. Moreover, many objects are typically involved in coding and they tend to interact with each other.
+See the code chunk below for a simple example of the interaction of two objects that were assigned in the previous code chunk.
+a+b
+## [1] 64
+Notice that R held the object assignments from the previous cell. You can also assign a function to an object, and call that object to execute the function. For instance:
+addvalues <- a + b addvalues
+## [1] 64
+The product is not reached because R understands the input addvalues, but because the object add values calls the newly defined function ‘a + b’. Try switching the values of a and b three chunks ago, and running the subsequent chunks. Remember that objects are case sensitive and cannot contain spaces. If you ran the code ‘A+B’, what would happen?
+1.3 Case Study
+Now it is time for our first case study.
+You are approached by a colleague who wants create code that sums numerical values associated with letters in others’ names (e.g., a = 1, b = 2,... z = 26). To start on this project, create 26 objects, one for each letter of the alphabet. Then sum your own name using mathematical expressions and the objects you created.
+a <- 1 b <- 2
+c <- 3 # and so on
+
+
+18 CHAPTER 1. R FOUNDATIONS
+1.4 Review
+In this chapter, we explored how to download R and R studio, set up our working directory, learned about object based programming, and began to work with a few functions. To make sure you understand the material, there is a practice assessment to go along with this chapter at https://jayholster.shinyapps.io/ RLevel0Assessment/.
+1.5 References
+Duignan, B. (2021). Occam’s razor. Encyclopedia Britannica. https://www. britannica.com/topic/Occams-razor
+Epskamp, S. (2015). semPlot: Unified visualizations of structural equation models. Structural Equation Modeling, 22(3), 474–483. <https://doi.org/10.1080/10705511.2014.937847>
+Patil, I. (2021). Visualizations with statistical details: The ‘ggstatsplot’ approach. Journal of Open Source Software, 6(61), 3167. [https://doi.org/[10.21105/joss.03167](https://doi
+Robinson D, Hayes A, & Couch, S. (2022). broom: Convert Statistical Objects into Tidy Tibbles. https://broom.tidymodels.org/, https://github.com/ tidymodels/broom.
+Revelle, W. (2017) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, <https://CRAN.Rproject.org/package=psych> Version = 1.7.8.
+Rinker, T.W. (2021). sentimentr: Calculate Text Polarity Sentiment. version 2.9.0, https://github.com/trinker/sentimentr.
+Rosseel, Y. (2012). lavaan: An R Package for Structural Equation Modeling. Journal of Statistical Software, 48(2), 1–36. https://doi.org/[10.18637/jss.v048.i02](https://doi.org/%5B1
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.L., Miller, E., Bache, S.M., Müller, K., Ooms, J., Robinson, D., Seidel, D.P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., & Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686.
+Xie, Y. (2021). knitr: A General-Purpose Package for Dynamic Report Generation in R. https://yihui.org/knitr/
+1.5.1 R Short Course Series
+Video lectures of each guidebook chapter can be found at https://osf.io/6jb9t/. For this chapter, find the follow the folder path R Level Zero -> AY 2021-2022
+
+
+1.5. REFERENCES 19
+Spring and access the video files, r markdown documents, and other materials for each short course.
+1.5.2 Acknowledgements
+This guidebook was created with support from the Center for Research Data and Digital Scholarship and the Laboratory for Interdisciplinary Statistical Analaysis at the University of Colorado Boulder, as well as the U.S. Agency for International Development under cooperative agreement #7200AA18CA00022. Individuals who contributed to materials related to this project include Jacob Holster, Eric Vance, Michael Ramsey, Nicholas Varberg, and Nickoal EichmannKalwara.
+
+
+20 CHAPTER 1. R FOUNDATIONS
+
+
+Chapter 2
+Working with Data in R
+R would be almost useless without data. Therefore, it is important to become familiar with conventions that allow users to import, examine, and edit data. In this chapter, we will cover (a) how to install packages, where many opensource datasets are hosted; (b) how to import your own data; (c) how to identify and examine important characteristics of datasets, regardless of their point of origination; and (d) wrangle and modify datasets without leaving the IDE.
+2.1 Installing and Calling Packages
+BaseR comes with a lot of power. However, packages make R even more powerful. In essence, packages are the fundamental unit of shareable code in R. Packages help standardize tools and conventions and save time as they are often created by data professionals around the world to solve specific problems. For example, this guidebook relies heavily on the tidyverse package, which contains a set of R packages that “share an underlying design philosophy, grammar, and data structure” for the purpose of data wrangling, analysis, and visualization (Wickham et al., 2019). These include (a) ggplot2 for data visualization, (b) dplyr for data manipulation, (c) tidyr for cleaning data, (d) purrr for consistent treatment of functions and vectors, (e) tibble for fast and accurate data uploading, (e) stringr for string or text manipulation, and (f) forcats, which supports categorical variables such as race/ethnicity or gender. For more information on tidyverse, type the function help(tidyverse) into a code chunk or script file.
+There is a package for almost anything you can think of. You can even make your own packages if you find yourself using R for a unique work flow.
+21
+
+
+22 CHAPTER 2. WORKING WITH DATA IN R
+In this chapter, we will be using data from Nate Silver’s statistical analysis website—fivethirtyeight (Kim et al., 2018). The fivethirtyeight package includes 128 callable datasets. For a full list of datasets, follow this link: <https://cran.r-project.org/web/packages/fivethirtyeight/vignettes/fivethirtyeight.html>. To see all datasets that are available to you as callable objects, run the function data()
+To install packages, use the code below. Remember to wrap the package in quotes when you are installing it. Then, you will need to call the packages using the library() function. You do not need to use quotes when calling packages you have already installed.
+install.packages("tidyverse") install.packages("fivethirtyeight")
+library(tidyverse) library(fivethirtyeight)
+2.2 Importing and Exporting Data
+We will be using a built-in dataset from the fivethirtyeight package that contains information on US Births from 1994 to 2003. Call the dataset with the object named 'US_births_1994_2003 and assign it to the object data with the <- operator. This code can be read as “create a new object ‘data’ identical to the dataset ‘US_births_1994_2003’.” The purpose of renaming this data object is to simplify subsequent coding practices. That said, you can choose to rename your dataset anything you’d like, or keep the name as it was originally stated.
+
+
+2.2. IMPORTING AND EXPORTING DATA 23
+2.2.1 R-based Data
+data <- US_births_1994_2003
+Practice calling another dataset. Try calling the data()function or visiting the fivethirtyeight website and select a dataset that you are interested in examining. Once you have chosen a dataset, you can assign that data object to another name, or simply type in the name of the dataset into a code chunk. Alternatively, you can use the data() funciton with the name of the dataset inside the parenthesis to specify which dataset you are calling in.
+If you would like to import your own data, use the tidyverse conventions below. Remember, you must have the tidyverse library installed and called for this function to work.
+2.2.2 CSV Data
+data <- read_csv('filename.csv')
+Use caution with xlsx file types that contain multiple sheets. CSVs are utilized more frequently than xlsx files as tidyverse handles them quickly and simply. To load an xlsx file, you will need to explicitly install the “readxl” package. You can then call the specific sheet you want to load using the sheet argument. You will need to assign that sheet to an object to save that particular sheet for further examination and manipulation.
+2.2.3 XLSX Data
+install.packages('readxl') library(readxl) data <- read_excel(spreadsheet, sheet = "sheet1")
+Haven is a package that is associated with, but not inherently a part of, the tidyverse package for SPSS, SAS, and STATA filetypes. You will need to follow similar conventions as with the readxl library. You can either define the path using an object, or explictly state the path in the ultimate function’s parenthesis.
+
+
+24 CHAPTER 2. WORKING WITH DATA IN R
+2.2.4 SPSS “.sav” Data
+install.packages('haven') library(haven) path <- file.path("example.sav") data <- read_sav(path)
+2.2.5 SAS “.sas7bdat” or “.sas7bcat” Data
+dataset <- read_sas("example.sas7bdat")
+2.2.6 For Stata “.dta” Data
+data <- read_dta("example.dta")
+2.2.7 Exporting Data
+You can export data similarly to how you imported data. See the code chunk below for examples of export functions for each data filetype. It is important to note that each of these are exported from the data object, as it is assumed you will have edited that data object at some point while using R. Each of these functions will save a dataset in your working directory based on the characteristics of the object “data” at the time the function was run.
+write_csv(data) write_excel(data) write_sav(data) write_sas(data) write_dta(data)
+2.3 Working With Datasets
+Whether you are using your own dataset or conducting secondary data analysis, it is important to understand the data that are available to you. There are several ways to go about this in R.
+
+
+2.3. WORKING WITH DATASETS 25
+2.3.1 Viewing the Dataset
+First, consider the head() and tail() functions which display the first and last six rows of a dataframe, respectively. Place your data object within the function’s parenthesis, and then run the code to get a snapshot of the dataset. Here, you might notice the output is a tibble. Although there are other distinctions, the key difference between a tibble and a dataframe is that tibbles display data types along with data (e.g., integer, date, numerial). You can see an example of this under the each column name below:
+head(data)
+## # A tibble: 6 x 6 ## year month date_of_month date day_of_week births ## <int> <int> <int> <date> <ord> <int> ## 1 1994 1 1 1994-01-01 Sat 8096 ## 2 1994 1 2 1994-01-02 Sun 7772 ## 3 1994 1 3 1994-01-03 Mon 10142 ## 4 1994 1 4 1994-01-04 Tues 11248 ## 5 1994 1 5 1994-01-05 Wed 11053 ## 6 1994 1 6 1994-01-06 Thurs 11406
+In some cases a dataset contains dozens of variables in columns, which may be difficult to assess using the data viewer. To investigate the names of all columns, run the function colnames()
+colnames(data)
+## [1] "year" "month" "date_of_month" "date" ## [5] "day_of_week" "births"
+For a summary of each column of data, call the summary() function.
+summary(data)
+## year month date_of_month date ## Min. :1994 Min. : 1.000 Min. : 1.00 Min. :1994-01-01 ## 1st Qu.:1996 1st Qu.: 4.000 1st Qu.: 8.00 1st Qu.:1996-07-01 ## Median :1998 Median : 7.000 Median :16.00 Median :1998-12-31 ## Mean :1998 Mean : 6.524 Mean :15.73 Mean :1998-12-31 ## 3rd Qu.:2001 3rd Qu.:10.000 3rd Qu.:23.00 3rd Qu.:2001-07-01 ## Max. :2003 Max. :12.000 Max. :31.00 Max. :2003-12-31 ##
+
+
+26 CHAPTER 2. WORKING WITH DATA IN R
+## day_of_week births ## Sun :522 Min. : 6443 ## Mon :522 1st Qu.: 8844 ## Tues :522 Median :11615 ## Wed :522 Mean :10877 ## Thurs:521 3rd Qu.:12274 ## Fri :521 Max. :14540 ## Sat :522
+You can also see the entire dataset in a separate pane within R using view()
+view(data)
+2.3.2 Data Types
+Most R workflows involve one of five basic data types. These include (a) integers (e.g., 2); (b) numeric values, which include decimals (e.g., 2.5); (c) factors, or categorical variables with more than one level (e.g., gender); (d) logical, or Boolean values (i.e., True/False); and (e) characters or strings (e.g., “Thanks for all the fish”). Some functions will only work when a certain data type is present in the data set. For instance, if you plan to conduct an analysis of variance (ANOVA), you will need a factor to be present in your data. Similarly, a logistic regression typically requires Boolean values, and text analysis tends to require string data.
+The following functions are useful to examine different facets related to data types present in the dataset. The length() function returns the number of elements or components in a dataset.
+length(data)
+## [1] 6
+The str() function returns the structure of the dataset. The output of this function includes example data from each column, the data type, as well as the class of the data object.
+str(data)
+## tibble [3,652 x 6] (S3: tbl_df/tbl/data.frame) ## $ year : int [1:3652] 1994 1994 1994 1994 1994 1994 1994 1994 1994 1994 ... ## $ month : int [1:3652] 1 1 1 1 1 1 1 1 1 1 ... ## $ date_of_month: int [1:3652] 1 2 3 4 5 6 7 8 9 10 ...
+
+
+2.3. WORKING WITH DATASETS 27
+## $ date : Date[1:3652], format: "1994-01-01" "1994-01-02" ... ## $ day_of_week : Ord.factor w/ 7 levels "Sun"<"Mon"<"Tues"<..: 7 1 2 3 4 5 6 7 1 2 ... ## $ births : int [1:3652] 8096 7772 10142 11248 11053 11406 11251 8653 7910 10498 ...
+If you are only interested in the class of the object, the class() function refers to the object itself, which in this case is a tibble.
+class(data)
+## [1] "tbl_df" "tbl" "data.frame"
+The names() function, much like col_names() returns a list of the column names.
+names(data)
+## [1] "year" "month" "date_of_month" "date" ## [5] "day_of_week" "births"
+The nrow() function returns the number of rows in the dataset.
+nrow(data)
+## [1] 3652
+While the dim() function returns the number of rows and columns simultaneously.
+dim(data)
+## [1] 3652 6
+Sometimes when your data is loaded, R will recognize a column with an incorrect structure. For example, you can change the data type of the month column in US Births dataset ‘month’ integer, which tends to include decimals, to numeric using the function as.numeric(). The $ sign signifies that you are attempting to access a column based on its name in the dataset.
+The code below explicitly converts the month column in the data object to a numeric data type using the function “as.numeric().” Follow up this conversion with the str() function to assess whether the change was made.
+
+
+28 CHAPTER 2. WORKING WITH DATA IN R
+data$month <- as.numeric(data$month) str(data)
+## tibble [3,652 x 6] (S3: tbl_df/tbl/data.frame) ## $ year : int [1:3652] 1994 1994 1994 1994 1994 1994 1994 1994 1994 1994 ... ## $ month : num [1:3652] 1 1 1 1 1 1 1 1 1 1 ... ## $ date_of_month: int [1:3652] 1 2 3 4 5 6 7 8 9 10 ... ## $ date : Date[1:3652], format: "1994-01-01" "1994-01-02" ... ## $ day_of_week : Ord.factor w/ 7 levels "Sun"<"Mon"<"Tues"<..: 7 1 2 3 4 5 6 7 1 2 ## $ births : int [1:3652] 8096 7772 10142 11248 11053 11406 11251 8653 7910 104
+When operationalizing factors for quantitative data analysis, you might want to convert a string based factor to numeric values (e.g., creating dummy variables out of categorical data). The code below converts the string data in the day of the week column into a numeric vector. When running factorial/categoricalbased analyses (such as ANOVA variants or Chi-Square tests), R will create dummy variables to factors of data type “string.” Each factor will be labeled in the order it uniquely appears in the dataset, row-wise.
+In this example, we assigned the function to a new data object. As a result, we can manipulate and analyze the new data object while retaining the original. The creation of new objects will be useful as we begin to subset data for analysis.
+num_day_of_Week <- as.numeric(data$day_of_week)
+2.3.3 Examining Vectors and Variables
+Object-oriented programming and statistics both tend to rely on the analysis of vectors and variables. The unique() function displays unique values in a column. Use this function to answer the question: Are all 12 months of the year represented in this dataset? This is also a great way to troubleshoot extant factor levels that are actually misspellings, or extra white space in the cell. For instance, if a cell in the month column mistakenly included 13, it would be visible in the output below.
+# Get the unique months present in the data unique(data$month)
+## [1] 1 2 3 4 5 6 7 8 9 10 11 12
+Furthermore, you can use max() and min() to identify the largest and smallest values in a column. Other functions help with descriptive statistics, such as mean() and sd() Descriptive statistics will be covered in more depth in Chapter Four.
+
+
+2.3. WORKING WITH DATASETS 29
+max(data$births)
+## [1] 14540
+min(data$births)
+## [1] 6443
+mean(data$births)
+## [1] 10876.82
+sd(data$births)
+## [1] 1858.567
+2.3.4 Filtering Data
+To subset the data for births from 1995 alone, use the filter() function to create a new object with the data you specify. The data are subset by the argument “year == 1995” which indicates that only observations that contain 1995 in the year column should be retained. In the code below, the filtered dataset is assigned to a new data object “births_1995.” We then use the head() function to examine the first six instances in the dataset.
+births_1995 <- filter(data, year == 1995) head(births_1995)
+## # A tibble: 6 x 6 ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1995 1 1 1995-01-01 Sun 7828 ## 2 1995 1 2 1995-01-02 Mon 7883 ## 3 1995 1 3 1995-01-03 Tues 9999 ## 4 1995 1 4 1995-01-04 Wed 11315 ## 5 1995 1 5 1995-01-05 Thurs 11243 ## 6 1995 1 6 1995-01-06 Fri 11506
+Base R allows you to find the index of one column where a maximum occurs in another. For example, the following code uses the max() and which.max() functions to identify the date when the maximum number of births took place.
+
+
+30 CHAPTER 2. WORKING WITH DATA IN R
+# Find the date of the maximum births maxindex <- which.max(data$births) maxdate <- data$date[maxindex] maxdate
+## [1] "1999-09-09"
+However, you can use the filter() function from the tidyverse to achieve the same result in one line of code. You can read this aloud as “filter the object data where the births variable is equal to the maximum number present in the births column.”
+filter(data, births == max(births))
+## # A tibble: 1 x 6 ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1999 9 9 1999-09-09 Thurs 14540
+Imagine that you want to identify the max number of births for a Sunday in particular in any year. This code uses the filter() function to create a new data object called sundays, which only includes data for observations where the day of the week was the string ‘Sun.’ In the next line of code, the filter() function is utilized on the newly created data object “sundays” to identify the observation with the maximum number of births.
+# this is what filter is doing on groups
+sundays <- filter(data, day_of_week == 'Sun') filter(sundays, births==max(births))
+## # A tibble: 1 x 6 ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1994 8 14 1994-08-14 Sun 8926
+If you are only interested in specific variables or vectors within a data frame you can use the select() function and list the data object, then the column names that you are interested in seeing. Additionally, notice how the head() function is wrapped around the select() function in this example to limit the output to the first six observations.
+
+
+2.3. WORKING WITH DATASETS 31
+head(select(data, date, births))
+## # A tibble: 6 x 2 ## date births ## <date> <int> ## 1 1994-01-01 8096 ## 2 1994-01-02 7772 ## 3 1994-01-03 10142 ## 4 1994-01-04 11248 ## 5 1994-01-05 11053 ## 6 1994-01-06 11406
+To remove a column from the data object, place a minus sign before it in the column argument space within the select() function.
+head(select(data, -date))
+## # A tibble: 6 x 5 ## year month date_of_month day_of_week births ## <int> <dbl> <int> <ord> <int> ## 1 1994 1 1 Sat 8096 ## 2 1994 1 2 Sun 7772 ## 3 1994 1 3 Mon 10142 ## 4 1994 1 4 Tues 11248 ## 5 1994 1 5 Wed 11053 ## 6 1994 1 6 Thurs 11406
+2.3.5 Grouping Data
+Alternatively, you can use the group_by() function while filtering the dataset by max births to display the maximum number of births on each day of the week for any year. The group_by() function groups the data object by the observations in the called column, which in this case is “day_of_week.” Then, the grouped data are filtered to with the same max() function. Grouping the data retains the factor structure of the “day_of_week” vector in subsequent functions. The grouped and filtered dataset are assigned to a new object “maxbirths” for future reference.
+data_grouped <- group_by(data, day_of_week) maxbirths <- filter(data_grouped, births == max(births)) maxbirths
+
+
+32 CHAPTER 2. WORKING WITH DATA IN R
+## # A tibble: 7 x 6 ## # Groups: day_of_week [7] ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1994 8 14 1994-08-14 Sun 8926 ## 2 1994 9 17 1994-09-17 Sat 9779 ## 3 1999 9 9 1999-09-09 Thurs 14540 ## 4 2001 12 28 2001-12-28 Fri 13918 ## 5 2003 9 3 2003-09-03 Wed 14119 ## 6 2003 12 22 2003-12-22 Mon 12967 ## 7 2003 12 30 2003-12-30 Tues 14438
+You can also group by more than one column. This code expands on the previous example to include the maximum number of births on each day of the week within each year present in the dataset.
+# Add year as another grouping variable
+data_grouped <- group_by(data, day_of_week, year) data_max_day_year <- filter(data_grouped, births==max(births)) head(data_max_day_year)
+## # A tibble: 6 x 6 ## # Groups: day_of_week, year [6] ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1994 7 6 1994-07-06 Wed 13086 ## 2 1994 7 7 1994-07-07 Thurs 13049 ## 3 1994 8 14 1994-08-14 Sun 8926 ## 4 1994 9 16 1994-09-16 Fri 12884 ## 5 1994 9 17 1994-09-17 Sat 9779 ## 6 1994 11 21 1994-11-21 Mon 11807
+Arguments within functions are oftentimes objects themselves. As such, you can replace the “data_grouped” object in the previous chunk with its assigned group_by() function to simplify your code while achieving the same result.
+data_max_day_year <- filter(group_by(data, day_of_week, year), births==max(births)) head(data_max_day_year)
+## # A tibble: 6 x 6 ## # Groups: day_of_week, year [6] ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1994 7 6 1994-07-06 Wed 13086
+
+
+2.3. WORKING WITH DATASETS 33
+## 2 1994 7 7 1994-07-07 Thurs 13049 ## 3 1994 8 14 1994-08-14 Sun 8926 ## 4 1994 9 16 1994-09-16 Fri 12884 ## 5 1994 9 17 1994-09-17 Sat 9779 ## 6 1994 11 21 1994-11-21 Mon 11807
+2.3.6 Altering Data
+There are many useful functions for altering your data frame. In this section you will start to see the %>%operator. You can read this operator as the word ‘then’ or ‘where’ when you are reading code to yourself (e.g., take the original dataset, then arrange it by births in descending order)
+You can use this operator to apply functions to your dataset. For instance, the code below reorders the observations in the data by births in descending order. To arrange in ascending order simply remove the additional desc() function within the arrange() function as the default arrangement is ascending order.
+# Order by number of births
+data <- data %>% arrange(desc(births)) head(data)
+## # A tibble: 6 x 6 ## year month date_of_month date day_of_week births ## <int> <dbl> <int> <date> <ord> <int> ## 1 1999 9 9 1999-09-09 Thurs 14540 ## 2 2003 12 30 2003-12-30 Tues 14438 ## 3 2003 9 16 2003-09-16 Tues 14145 ## 4 2003 9 3 2003-09-03 Wed 14119 ## 5 2003 9 23 2003-09-23 Tues 14036 ## 6 2002 9 12 2002-09-12 Thurs 13982
+You can also rename specific columns of your data without opening and editing the file using the rename() function. You can read the code below aloud saying “create a new object data from the old object data where you rename date_of_month as day, and day_of_week as weekday.”
+# Rename day_of_month and day_of_week columns
+data <- data %>% rename(day = date_of_month, weekday = day_of_week) head(data)
+## # A tibble: 6 x 6 ## year month day date weekday births ## <int> <dbl> <int> <date> <ord> <int>
+
+
+34 CHAPTER 2. WORKING WITH DATA IN R
+## 1 1999 9 9 1999-09-09 Thurs 14540 ## 2 2003 12 30 2003-12-30 Tues 14438 ## 3 2003 9 16 2003-09-16 Tues 14145 ## 4 2003 9 3 2003-09-03 Wed 14119 ## 5 2003 9 23 2003-09-23 Tues 14036 ## 6 2002 9 12 2002-09-12 Thurs 13982
+The examples below utilize the %>% operator to conditionally select observations within the data object. The first example reads, “create a new object july_data” based on the old object data where you filter for observations where the month column value is 7.” The second example extends this concept by including a second condition. The ampersand in the filter() function allows for the identification of observations only in the month of January, 2000.
+# Select days only in the month of July july_data <- data %>% filter(month == 7)
+# Select days only in the month of january in the year 2000 jan_2000_data <- data %>% filter(month == 1 & year == 2000)
+Recall our use of sequences in Chapter One. In this example, we filter out the data for the first half of the year (January through June) using a colon in the subsetting argument rather than individual numbers. Then, use the max() function to check whether the the filtering function worked.
+janthrujune <- data %>% filter(month == 1:6) max(janthrujune$month)
+## [1] 6
+You can also add an additional column to the data frame based on conditional values of other columns using the mutate() function. The example below creates a vector Boolean values which indicates whether the observation occurred during a warmer month. The subsequent plot serves as a preview of the next chapter on Data Visualization, but also demonstrates a practical use of the mutate function in statistical modeling. The grouped violin plot answers the question: Were there more births in warmer months than in colder months?
+data <- data %>% mutate(warmermonths = between(month, 4, 9)) str(data)
+## tibble [3,652 x 7] (S3: tbl_df/tbl/data.frame) ## $ year : int [1:3652] 1999 2003 2003 2003 2003 2002 2001 2003 2002 2002 ...
+
+
+2.4. CASE STUDY 35
+## $ month : num [1:3652] 9 12 9 9 9 9 12 9 9 9 ... ## $ day : int [1:3652] 9 30 16 3 23 12 28 10 24 17 ... ## $ date : Date[1:3652], format: "1999-09-09" "2003-12-30" ... ## $ weekday : Ord.factor w/ 7 levels "Sun"<"Mon"<"Tues"<..: 5 3 3 4 3 5 6 4 3 3 ... ## $ births : int [1:3652] 14540 14438 14145 14119 14036 13982 13918 13908 13884 13883 ... ## $ warmermonths: logi [1:3652] TRUE FALSE TRUE TRUE TRUE TRUE ...
+library(ggstatsplot)
+ggbetweenstats( data = data, x = warmermonths, y = births, title = "Distribution of Births in Warmer and Colder Months" )
+μmean = 10661.39
+μmean = 11091.31
+8000
+10000
+12000
+14000
+FALSE
+(n = 1,822) TRUE
+(n = 1,830) warmermonths
+births
+t Welch(3647.23) = −7.04, p = 2.35e−12, gHedges = −0.23, CI95% [−0.30, −0.17], nobs = 3,652
+Distribution of Births in Warmer and Colder Months
+loge(BF01) = −21.20, δdifference
+posterior = −426.34, CI9H5D%I [−548.04, −301.16], rCauchy
+JZS = 0.71
+2.4 Case Study
+Use the following exercises to learn more about the US_births_1994_2003 dataset and practice the skills you acquired in this chapter.
+• Using the filter(), min(), and/or group_by() functions, identify the Wednesday and Friday in the dataset with the least total number of births.
+
+
+36 CHAPTER 2. WORKING WITH DATA IN R
+• Find the number of births for January 1st across the dataset.
+• Subset the dataset to only include observations that occur in winter (December, January, February, and March in North America)
+• Subset the previous winter births dataset further by only allowing instances after 2001 to remain in the dataset.
+2.5 Review
+In this chapter, we covered how to install and use libraries, how to import data from several formats, and how packages support several basic data science tasks. To make sure you understand this material, there is a practice assessment to go along with this chapter at https://jayholster.shinyapps.io/ IntrotoRAssessment/.
+2.6 References
+Kim A.Y., Ismay C., & Chunn, J. (2018). “The fivethirtyeight R Package: ‘Tame Data’ Principles for Introductory Statistics and Data Science Courses.” Technology Innovations in Statistics Education, 11. https://escholarship.org/ uc/item/0rx1231m.
+Patil, I. (2021). Visualizations with statistical details: The ‘ggstatsplot’ approach. Journal of Open Source Software, 6(61), 3167. https://doi.org/10.21105/joss.03167
+Wickham H., Bryan, J. (2022). readxl: Read Excel Files. https://readxl. tidyverse.org, https://github.com/tidyverse/readxl.
+Wickahm, H., & Miller, E., (2022) haven. https://cran.r-project.org/web/ packages/haven/index.html
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.L., Miller, E., Bache, S.M., Müller, K., Ooms, J., Robinson, D., Seidel, D.P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., & Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https: //doi.org/10.21105/joss.01686.
+2.6.1 R Short Course Series
+Video lectures of each guidebook chapter can be found at https://osf.io/6jb9t/. For this chapter, find the follow the folder path Intro to R -> AY 2021-2022 Spring and access the video files, r markdown documents, and other materials for each short course.
+
+
+2.6. REFERENCES 37
+2.6.2 Acknowledgements
+This guidebook was created with support from the Center for Research Data and Digital Scholarship and the Laboratory for Interdisciplinary Statistical Analaysis at the University of Colorado Boulder, as well as the U.S. Agency for International Development under cooperative agreement #7200AA18CA00022. Individuals who contributed to materials related to this project include Jacob Holster, Eric Vance, Michael Ramsey, Nicholas Varberg, and Nickoal EichmannKalwara.
+
+
+38 CHAPTER 2. WORKING WITH DATA IN R
+
+
+Chapter 3
+Data Visualization
+Figure 3.1: Charles Minard’s Napolean’s Disastrous Russia Campaign of 1812
+3.1 Overview
+Socrates once argued that explanations for phenomena should be teleological. Teleological thinkers tend to place the purpose, or function, of at the center of any explanation—asking not what things are, but what things do. Data visualizations are most often the representation of found or collected data. They are often presented through the use of figures (e.g., charts, conceptual maps, scatter plots) in two-dimensional space.
+The answer to “what does data visualization do” says a great deal more about both the value of effective data visualization and the capabilities of R to support
+39
+
+
+40 CHAPTER 3. DATA VISUALIZATION
+that goal. High quality data visualizations, created in R or not, tend to both answer a research question and tell a story. For instance, Charles Minard visualized Napoleon’s troop movements to and from Moscow in the war of 1812. This chart displays the geography, temperature, as well as the number and direction French troops were moving. More importantly, the visualization demonstrates a significant loss of life—over 300,000 troops would not make the journey back home (as signified by the width of the black line).
+Or see the slide below which includes a visualization of forced relocation of African peoples in the 19th century (more details on the slide).
+Or the example below which uses qualitative data to illustrate trending google searches in 2021.
+In this chapter you will become familiar with several data visualization techniques in R, with special attention paid to the qplot and ggplot libraries.
+3.1.1 Common Data Visualizations
+The R programming language is popular among statisticians, quantitative researchers, and data scientists. As such, data visualization packages in R tend to best support the creation of statistical displays. These displays might provide insight, if not answers, to research questions. All examples in this section are
+
+
+3.1. OVERVIEW 41
+created using the ggstatsplot library, which provides support for creating robust visualizations with minimal code. Additionally, the ggstatsplot follows most conventions that are used in ggplot2, which will be covered in depth later in this chapter.
+3.1.1.1 Scatter Plots
+Many statistical visualizations are axis-based. For instance, scatter plots use the x and y axis to pinpoint the exact measurement of similar cases across two variables. A scatter plot can demonstrate the extent to which variables are correlated, or whether relationships are linear. Observations—rows in datasets—are plotted on the x and y axis simultaneously. Patterns can sometimes be visible when multiple data points are plotted together. The plot below includes a line of best fit, a visualization of a 95% confidence interval, and violin plots for the distributions of values on the x and y axis. More specifically, the plot indicates a moderate, positive, and significant relationship between task values (e.g., interest in a task) and elective intentions for the surveyed instrumental adolescents.
+library(tidyverse) library(ggstatsplot)
+data <- read_csv('musicclassintentions.csv')
+ggscatterstats( data = data, x = values, y = intentions, marginal.type = "violin", xlab = "task values", ylab = "intentions", title = "The relationship between task valuation and elective intentions", xfill = "pink", yfill = "#009E73" )
+
+
+42 CHAPTER 3. DATA VISUALIZATION
+40 50 60 70 80 90 0 3 6 9
+012345
+5
+10
+15
+20
+task values
+intentions
+t Student(36) = 4.08, p = 2.37e−04, rPearson = 0.56, CI95% [0.30, 0.75], npairs = 38
+The relationship between task valuation and elective intentions
+loge(BF01) = −4.97, ρPearson
+posterior = 0.53, CI9H5D%I [0.29, 0.74], rbJeZtSa = 1.41
+3.1.1.2 Histograms
+At times, the y-axis only represents the count, and sometimes density, of single variables. You might use a bar chart or histogram to display univariate descriptive statistics. The underlying purpose of this visualization is simple. It answers the question, “how many students in the sample come from each school?” The fill argument answers a second question, “how many students are in seventh- or eighth-grade within each school?”
+ggplot(data = data, aes(x = School, fill = Level)) + geom_histogram(stat = "count") + ggtitle("Count of Instrumental Students Grouped by School and Grade Level") + xlab("School")
+## Warning: Ignoring unknown parameters: binwidth, bins, pad
+
+
+3.1. OVERVIEW 43
+0
+5
+10
+15
+20
+School1 School2 School3 School4 School
+count
+Level
+eighth−grade
+seventh−grade
+Count of Instrumental Students Grouped by School and Grade Level
+3.1.1.3 Violin Plots
+Violin plots can contextualize group differences found in data analysis. You may recall this example from Chapter 1. The red dot represents the mean of each group, and the gray horizontal line represents each median. These plots demonstrate that there is a statistical and practical significant difference in how seventh- and eighth-grade band and orchestra students in a United States sample are considering future elective music studies. The plot also indicates a potential ceiling effect for seventh-grade students, as many responded with the highest possible score. There are several other plots that tend to be utilized for illustrating group differences.
+ggbetweenstats( data = data, x = Level, y = intentions, title = "Distribution of Intentions to Sign Up for Music Across Grade Level" )
+
+
+44 CHAPTER 3. DATA VISUALIZATION
+μmean = 9.50
+μmean = 14.29
+5
+10
+15
+eighth−grade
+(n = 12) seventh−grade
+(n = 28) Level
+intentions
+t Welch(20.7) = −2.89, p = 8.86e−03, gHedges = −0.96, CI95% [−1.67, −0.24], nobs = 40
+Distribution of Intentions to Sign Up for Music Across Grade Level
+loge(BF01) = −1.97, δdifference
+posterior = −4.08, CI9H5D%I [−7.47, −0.76], rCauchy
+JZS = 0.71
+3.1.2 Visualization as the Research Process
+Data visualization lends itself as responsive to demands of the research processes. For instance, you might assess the normality of variables with a histogram, or you might visualize the strength and direction of a correlation with a scatter plot. Visualizations can answer or contribute to the answers of research questions.
+To exemplify this concept, we are going to start with data collected on Bechdel test. The Bechdel test measured the representation of women in 1,794 fictional films released between 1971 and 2013. Films that pass the Bechdel test would feature at least two women who talk to each other about something other than a man. Roughly half of films pass the test. The dataset also includes financial information, including the domestic and international earnings. The inclusion of these social and financial variables allows for some consideration of bias in the film industry.
+3.1.3 Getting to Know the Packages
+The Bechdel dataset is called from the fivethirtyeight package. If you do not have the packages already, install and call the tidyverse, fivethirtyeight, and ggpubr packages.
+
+
+3.2. PLOTTING IN R 45
+As discussed in the first chapter, the tidyverse installation contains multiple R packages for the purpose of data wrangling, analysis, and visualization. Descriptions of the attendant packages are listed in the table below.
+Table 3.1: tidyverse packages
+pac kage purpose
+ggpl ot2
+data visualization (e.g., histogram, scatter plot)
+ti dyr produces tables where rows are observation re adr imports data from working directory pu rrr mapping functions across multiple variables tib ble
+allows tables to keep column names with no row names, includes and displays data type in output stri ngr
+tools for string manipulation and identification (e.g., “text data”)
+forc ats
+considers whether data are factors and creates a specific data type in the tibble dp lyr tools for data manipulation (e.g., changing column names, subsetting data)
+ggpubr includes tools for creating publishable plots, making it easy to annotate and arrange multiple plots. Install any packages that you need, and then load each library.
+3.2 Plotting in R
+Now that you have loaded the fivethirtyeight package, load the bechdel dataset. Here it is assigned to the object bech_data Then examine the dataset using the View() and str() functions. You might also use the psych::describe()function for quick descriptive analysis of any quantitative data, including skewness and kurtosis value, which are metrics of the normality of data distributions. Statistical concepts will be introduced in further detail in the next chapter.
+## tibble [1,794 x 15] (S3: tbl_df/tbl/data.frame) ## $ year : int [1:1794] 2013 2012 2013 2013 2013 2013 2013 2013 2013 2013 ... ## $ imdb : chr [1:1794] "tt1711425" "tt1343727" "tt2024544" "tt1272878" ... ## $ title : chr [1:1794] "21 & Over" "Dredd 3D" "12 Years a Slave" "2 Guns" ... ## $ test : chr [1:1794] "notalk" "ok-disagree" "notalk-disagree" "notalk" ... ## $ clean_test : Ord.factor w/ 5 levels "nowomen"<"notalk"<..: 2 5 2 2 3 3 2 5 5 2 ... ## $ binary : chr [1:1794] "FAIL" "PASS" "FAIL" "FAIL" ...
+
+
+46 CHAPTER 3. DATA VISUALIZATION
+## $ budget : int [1:1794] 13000000 45000000 20000000 61000000 40000000 22500000 ## $ domgross : num [1:1794] 25682380 13414714 53107035 75612460 95020213 ... ## $ intgross : num [1:1794] 4.22e+07 4.09e+07 1.59e+08 1.32e+08 9.50e+07 ... ## $ code : chr [1:1794] "2013FAIL" "2012PASS" "2013FAIL" "2013FAIL" ... ## $ budget_2013 : int [1:1794] 13000000 45658735 20000000 61000000 40000000 22500000 ## $ domgross_2013: num [1:1794] 25682380 13611086 53107035 75612460 95020213 ... ## $ intgross_2013: num [1:1794] 4.22e+07 4.15e+07 1.59e+08 1.32e+08 9.50e+07 ... ## $ period_code : int [1:1794] 1 1 1 1 1 1 1 1 1 1 ... ## $ decade_code : int [1:1794] 1 1 1 1 1 1 1 1 1 1 ...
+## # A tibble: 1,794 x 15 ## year imdb title test clean_test binary budget domgross intgross code ## <int> <chr> <chr> <chr> <ord> <chr> <int> <dbl> <dbl> <chr> ## 1 2013 tt1711425 21 & ~ nota~ notalk FAIL 1.3 e7 25682380 4.22e7 2013~ ## 2 2012 tt1343727 Dredd~ ok-d~ ok PASS 4.5 e7 13414714 4.09e7 2012~ ## 3 2013 tt2024544 12 Ye~ nota~ notalk FAIL 2 e7 53107035 1.59e8 2013~ ## 4 2013 tt1272878 2 Guns nota~ notalk FAIL 6.1 e7 75612460 1.32e8 2013~ ## 5 2013 tt0453562 42 men men FAIL 4 e7 95020213 9.50e7 2013~ ## 6 2013 tt1335975 47 Ro~ men men FAIL 2.25e8 38362475 1.46e8 2013~ ## 7 2013 tt1606378 A Goo~ nota~ notalk FAIL 9.2 e7 67349198 3.04e8 2013~ ## 8 2013 tt2194499 About~ ok-d~ ok PASS 1.2 e7 15323921 8.73e7 2013~ ## 9 2013 tt1814621 Admis~ ok ok PASS 1.3 e7 18007317 1.80e7 2013~ ## 10 2013 tt1815862 After~ nota~ notalk FAIL 1.3 e8 60522097 2.44e8 2013~ ## # ... with 1,784 more rows, and 5 more variables: budget_2013 <int>, ## # domgross_2013 <dbl>, intgross_2013 <dbl>, period_code <int>, ## # decade_code <int>
+## vars n mean sd median trimmed ## year 1 1794 2002.55 8.98 2005.0 2003.88 ## imdb* 2 1794 897.50 518.03 897.5 897.50 ## title* 3 1794 883.82 510.14 885.5 883.69 ## test* 4 1794 6.65 2.62 7.0 6.89 ## clean_test* 5 1794 3.53 1.48 4.0 3.64 ## binary* 6 1794 1.45 0.50 1.0 1.43 ## budget 7 1794 44826462.61 48186026.12 28000000.0 35815614.85 ## domgross 8 1777 69132048.28 80367309.51 42194060.0 53837590.51 ## intgross 9 1783 150385700.05 210335267.83 76482461.0 106338373.03 ## code* 10 1794 63.57 17.95 68.0 66.22 ## budget_2013 11 1794 55464608.45 54918635.60 36995786.0 46262685.87 ## domgross_2013 12 1776 95174783.58 125965348.89 55993640.5 70822783.23 ## intgross_2013 13 1783 197837984.97 283507948.20 96239640.0 138312058.71 ## period_code 14 1615 2.42 1.19 2.0 2.33 ## decade_code 15 1615 1.94 0.69 2.0 1.92 ## mad min max range skew kurtosis se ## year 7.41 1970 2013 43 -1.27 1.34 0.21
+
+
+3.2. PLOTTING IN R 47
+## imdb* 664.95 1 1794 1793 0.00 -1.20 12.23 ## title* 656.05 1 1768 1767 0.00 -1.21 12.04 ## test* 2.97 1 10 9 -0.52 -0.93 0.06 ## clean_test* 1.48 1 5 4 -0.27 -1.56 0.03 ## binary* 0.00 1 2 1 0.21 -1.96 0.01 ## budget 30393300.00 7000 425000000 424993000 2.04 5.56 1137653.20 ## domgross 47480054.47 0 760507625 760507625 2.45 8.95 1906495.20 ## intgross 91800310.28 828 2783918982 2783918154 3.54 22.95 4981228.08 ## code* 14.83 1 85 84 -1.26 1.27 0.42 ## budget_2013 38745808.79 8632 461435929 461427297 1.73 3.95 1296607.47 ## domgross_2013 62679691.17 899 1771682790 1771681891 3.96 28.95 2989025.45 ## intgross_2013 115351802.68 899 3171930973 3171930074 3.71 23.23 6714127.24 ## period_code 1.48 1 5 4 0.47 -0.76 0.03 ## decade_code 0.00 1 3 2 0.08 -0.90 0.02
+To create pragmatic visualizations of financial data, it will be useful to rescale the columns such that the values are displayed in millions of dollars, rather than dollars, which would eliminate multiple zeros on the display. To achieve this, use mathematical operators (e.g., data$column/20) on the columns of interest, and call back the edited columns to their original names. Make sure you do not run this chunk more than once. Consider to yourself, what would happen if these objects were assigned twice?
+bech_data$budget <- bech_data$budget/1000000 bech_data$domgross <- bech_data$domgross/1000000 bech_data$intgross <- bech_data$intgross/1000000
+3.2.1 Quick Plots
+Now that we are more familiar with our data, it is sometimes useful to quickly visualize data using qplots. The ‘q’ stands for quick, whereas ggplot is more flexible and customize-able.
+There are four key arguments to consider when creating a qplot. These are data, where you define your dataset, x and y, where you define which variables will map onto the x and y axes, and geom, which dictates the geometry or type of your plot. Geom options include point, line, smooth, dotplot, boxplot, violin, histogram, and density.
+qplot(data = "data_frame", x = "x_variable", y = "y_variable", geom = "whatever_plot_you_want")
+Boxplots are a focal point in these exercises. Boxplots are like violin plots in that they display the distribution of data. The key difference is that boxplots
+
+
+48 CHAPTER 3. DATA VISUALIZATION
+include displays of a few descriptive statistics, where violin plots are derived from each individual data point.
+The following code will produce a set of boxplots describing the distributions of movie budgets disaggregated by year. R treats column data, such as the year column, as a single vector. Set the year column as a factor within the x argument using the as.factor() function. What does the second plot tell you that the first one fails to communicate?
+p <- qplot(data = bech_data, x = year, y= domgross, geom = 'boxplot') p1 <- qplot(data = bech_data, x = as.factor(year), y= domgross, geom = 'boxplot') ggarrange(p, p1)
+0
+200
+400
+600
+1980 1990 2000 2010 year
+domgross
+0
+200
+400
+600
+11919719701971197219731974197519761977197819891980198119821983198419851986198719881999199019911992199319941995199629972098200920002001200220032004200520062007200820192010011123 as.factor(year)
+domgross
+The data were also categorized into five period codes to provide time-based groups. Let’s group the domestic gross values by period codes to compare the distributions of film’s earnings over time. Also, here is a chance to directly compare visualization of descriptive data using boxplots and violin plots.
+p2 <- qplot(data = bech_data, x = period_code, y = domgross, group = period_code, geom p3 <- qplot(data = bech_data, x = period_code, y = domgross, group = period_code, geom ggarrange(p2, p3)
+
+
+3.2. PLOTTING IN R 49
+0
+200
+400
+600
+12345 period_code
+domgross
+0
+200
+400
+600
+12345 period_code
+domgross
+If you are not sure which plot you need to use, you might rely on qplot’s assumptions. If you include both x and y arguments, qplot will assume you want a scatterplot. If only the x variable is provided, a histogram is assumed. If only the y variable is provided, a scatter plot will be created where the x axis will represent each individual case in a sequence. Additionally, you can add multiple geoms using a vector of geoms instead of a single geom argument (e.g., line four in this code chunk).
+qplot(x = domgross, y = intgross, data = bech_data) #scatterplot
+
+
+50 CHAPTER 3. DATA VISUALIZATION
+0
+1000
+2000
+0 200 400 600 domgross
+intgross
+qplot(x = domgross, data = bech_data) #histogram
+0
+100
+200
+300
+400
+0 200 400 600 800 domgross
+
+
+3.2. PLOTTING IN R 51
+qplot(y = domgross, data = bech_data) #casewise univariate scatterplot
+0
+200
+400
+600
+0 500 1000 1500
+domgross
+qplot(as.factor(period_code), domgross, data = bech_data, geom = c("boxplot", "jitter"))
+0
+200
+400
+600
+1 2 3 4 5 NA as.factor(period_code)
+domgross
+
+
+52 CHAPTER 3. DATA VISUALIZATION
+3.2.2 Plotting with ggplot
+Onto ggplot. We have much more flexibility within the ggplot framework, mostly due to a focus on additive layers. To start, make the same violin plot for the Bechdel data period codes using ggplot. The qplot code is commented out below. The aes() function suggests aesthetic considerations to the plotting function in the context of the data that are loaded in. The geom is added as an additional layer, and itself is a function rather than an argument.
+#qplot(data = bech_data, x = period_code, y = domgross, group = period_code, geom = 'vi ggplot(data = bech_data, aes(x = period_code, y = domgross, group = period_code)) + geom_violin()
+Using ggplot, we can dive deep into histograms and density plots. With ggplot, these particular visualizations are most effective when they provide insight at a glance for the distributions of data across several groups. To start, let’s create a histogram of the domestic gross revenue. Like before, we only need an x variable for histograms.
+ggplot(data = bech_data, aes(x = domgross)) + geom_histogram()
+0
+100
+200
+300
+400
+0 200 400 600 800 domgross
+count
+
+
+3.2. PLOTTING IN R 53
+3.2.2.1 Using Layers
+Now let’s add some bells and whistles using ggplot’s layers-based coding to make this visualization more readable and appealing. Remember the plus sign creates a new layer which culminates in the final plot.
+There are several considerations for this plot which can be used to customize other data. The fill argument within the aes() function indicates that cases should be filled in based on their pass/fail status, which was represented by the binary variable. The alpha argument in geom_histogram() function adjusts the opacity of the filled colors. ggtitle adds the title, and the xlab() and ylab() functions create labels on each axis. The labs() function creates a legend title, seen at the bottom right of the figure. Lastly, the facet_wrap() function creates multiple plots based on the status of a called variable, which is in this case the binary pass/fail variable.
+Try running each line of this code chunk independently, adding on a layer each time to see how this code creates the final product.
+ggplot(data = bech_data, aes(x = domgross, fill = binary)) + geom_histogram(alpha = 0.8, colour = 'grey') + ggtitle("Distribution of Movies in FiveThirtyEight Bechdel Dataset") + xlab('Domestic Gross in Millions') + ylab('Density') + labs(fill = 'Bechdel Test') + facet_wrap(~ binary)
+FAIL PASS
+0 200 400 600 800 0 200 400 600 800
+0
+50
+100
+150
+200
+250
+Domestic Gross in Millions
+Density
+Bechdel Test
+FAIL
+PASS
+Distribution of Movies in FiveThirtyEight Bechdel Dataset
+
+
+54 CHAPTER 3. DATA VISUALIZATION
+You can specify the color (outline) and fill color of plots. You can also assign ggplots to objects. The ggpubr function ggarrange() allows you to easily present multiple plots in the same output.
+color <- ggplot(data = bech_data, aes(x = domgross, y = ..density..)) + geom_histogram(color = 'blue') + ggtitle("Outlining the histogram") + xlab("Domestic Gross Revenue")
+fill <- ggplot(data = bech_data, aes(x = domgross, y = ..density..)) + geom_histogram(fill = 'green') + ggtitle("Filling the histogram") + xlab("Domestic Gross Revenue")
+ggarrange(color, fill)
+0.0000
+0.0025
+0.0050
+0.0075
+0.0100
+0 200 400 600 800 Domestic Gross Revenue
+density
+Outlining the histogram
+0.0000
+0.0025
+0.0050
+0.0075
+0.0100
+0 200 400 600 800 Domestic Gross Revenue
+density
+Filling the histogram
+You can also vary the number of bins in each histogram. Run the following chunk to see the implications of the bin argument. The more bins there are, the more specific the visualization.
+# Vary the number of bins per histogram
+bin60 <- ggplot(data = bech_data, aes(x = domgross, y = ..density..)) + geom_histogram(bins = 60) + ggtitle("60 bins") + xlab("Domestic Gross Revenue")
+
+
+3.2. PLOTTING IN R 55
+bin30 <- ggplot(data = bech_data, aes(x = domgross, y = ..density..)) + geom_histogram(bins = 30) + ggtitle("30 bins") + xlab("Domestic Gross Revenue") bin15 <- ggplot(data = bech_data, aes(x = domgross, y = ..density..)) + geom_histogram(bins = 15) + ggtitle("15 bins") + xlab("Domestic Gross Revenue")
+ggarrange(bin60, bin30, bin15, ncol = 3)
+0.000
+0.003
+0.006
+0.009
+0.012
+0 200 400 600 800 Domestic Gross Revenue
+density
+60 bins
+0.0000
+0.0025
+0.0050
+0.0075
+0.0100
+0 200 400 600 800 Domestic Gross Revenue
+density
+30 bins
+0.000
+0.002
+0.004
+0.006
+0 200 400 600 800 Domestic Gross Revenue
+density
+15 bins
+The density plot is a variation of the histogram, where values in columns are smoothed to be equally distributed allowing for the overall distribution of the data to become easy to assess. You can use geom_density() to add a density plot on top of a histogram.
+# Add a density plot
+ggplot(data = bech_data, aes(x = domgross, y = ..density..)) + geom_histogram(bins = 60, color = 'grey', fill = 'blue') + ggtitle("Distibution of Domestic Gross Revenue for Movies") + xlab("Domestic Gross Revenue") + geom_density(alpha = .4, fill = 'grey') + facet_wrap(~ binary)
+
+
+56 CHAPTER 3. DATA VISUALIZATION
+FAIL PASS
+0 200 400 600 800 0 200 400 600 800
+0.000
+0.005
+0.010
+Domestic Gross Revenue
+density
+Distibution of Domestic Gross Revenue for Movies
+You can also create histograms to compare multiple groups within a single plot. Try switching the color argument with the fill argument, keeping the object binary in place. See if you can apply what you have learned so far to improve the appeal of the plot.
+ggplot(data = bech_data, aes(x = domgross, y = ..density.., color = binary)) + geom_histogram(position = "identity", bins = 60, alpha = .5) + ggtitle("Distibution of Domestic Gross Revenue for Movies") + xlab("Domestic Gross Revenue") + geom_density(alpha = .4)
+
+
+3.2. PLOTTING IN R 57
+0.000
+0.005
+0.010
+0 200 400 600 800 Domestic Gross Revenue
+density
+binary
+FAIL
+PASS
+Distibution of Domestic Gross Revenue for Movies
+The function scale_color_discrete() also allows you to change the legend title.
+# Change legend title
+ggplot(data = bech_data, aes(x = domgross, y = ..density.., color = binary)) + geom_histogram(position = "identity", bins = 60, alpha = .5) + ggtitle("Distibution of Domestic Gross Revenue for Movies") + xlab("Domestic Gross Revenue") + geom_density(alpha = .4) + scale_color_discrete(name = "Test")
+
+
+58 CHAPTER 3. DATA VISUALIZATION
+0.000
+0.005
+0.010
+0 200 400 600 800 Domestic Gross Revenue
+density
+Test
+FAIL
+PASS
+Distibution of Domestic Gross Revenue for Movies
+Use ggsave() and set the desired filename, size, dpi, and other parameters for saving your plot.
+# Save your plot
+ggplot(data = bech_data, aes(x = domgross, y = ..density.., color = binary)) + geom_histogram(position = "identity", bins = 60, alpha = .5) + ggtitle("Distibution of Domestic Gross Revenue for Movies") + xlab("Domestic Gross Revenue") + geom_density(alpha = .4) + scale_color_discrete(name = "Test")
+
+
+3.2. PLOTTING IN R 59
+0.000
+0.005
+0.010
+0 200 400 600 800 Domestic Gross Revenue
+density
+Test
+FAIL
+PASS
+Distibution of Domestic Gross Revenue for Movies
+ggsave("Hist_Dens.png", width = 5, height = 5)
+3.2.2.2 Other Useful Functions and Arguments
+Let’s create some more box plots and violin plots using the period code column. As these plots are used to compare distributions of data, they are especially useful for comparing different groups of continuous data. You can use the mutate() function to set period_code as a factor, as to make your ggplot coding simpler and cleaner. In this iteration, let’s set try a notched box plot, which emphasize the median with notches.
+bech_data <- bech_data %>% mutate(period_code = as.factor(period_code))
+ggplot(data = bech_data, aes(x = as.factor(period_code), y = domgross)) + geom_boxplot(notch = T)
+
+
+60 CHAPTER 3. DATA VISUALIZATION
+0
+200
+400
+600
+1 2 3 4 5 NA as.factor(period_code)
+domgross
+You can add a dot to represent the mean domestic revenue for each group of movies using stat_summary(fun.y = mean, geom = "point", color = "anycolor")
+ggplot(data = bech_data, aes(x = period_code, y = domgross)) + geom_boxplot(notch = T) + stat_summary(fun.y = mean, geom = "point", color = 'red')
+
+
+3.2. PLOTTING IN R 61
+0
+200
+400
+600
+1 2 3 4 5 NA period_code
+domgross
+Assign period_code to the argument color to assign each period code a unique color.
+ggplot(data = bech_data, aes(x = period_code, y= domgross, color = period_code)) + geom_boxplot(notch = T) + stat_summary(fun.y=mean, geom="point", color = 'red')
+
+
+62 CHAPTER 3. DATA VISUALIZATION
+0
+200
+400
+600
+1 2 3 4 5 NA period_code
+domgross
+period_code
+1
+2
+3
+4
+5
+NA
+You can create make group comparisons using box plots. Use the aes() function to specify the group using the color or fill argument, and the variables of interest using the x and y arguments. Instead of outlining this boxplot in color, fill the boxplot in color. Add a legend title. Use the layer “scale_fill_discrete” when “fill” is used in the aes. Use the layer “scale_color_discrete” when “color” is used in the aes.
+ggplot(data = bech_data, aes(x = period_code, y = domgross, color = binary)) + geom_boxplot(notch = TRUE) + stat_summary(fun.y=mean, geom="point", color = 'red')
+
+
+3.2. PLOTTING IN R 63
+0
+200
+400
+600
+1 2 3 4 5 NA period_code
+domgross
+binary
+FAIL
+PASS
+You can change the size, shape, and color of points in your scatter plot.
+ggplot(data = bech_data, aes(x = domgross, y = intgross)) + geom_point(size = 10, shape = 7, color = 'blue')
+0
+1000
+2000
+0 200 400 600 domgross
+intgross
+
+
+64 CHAPTER 3. DATA VISUALIZATION
+To label the points that represent top five movies based on international gross revenue, first arrange the international gross revenue column in descending order, using the slice() function to limit the dataframe to the top five movies. Then, add an addition geom_point() layer calling the topfive data, as shown below. nudge_x and nudge_y allow you to move the labels in reference to the datapoint.
+topfive <- bech_data %>% arrange(desc(intgross)) %>% slice(1:5)
+ggplot(data = bech_data, aes(x = domgross, y = intgross)) + geom_point() + geom_point(data = topfive, aes(x = domgross, y = intgross), color = 'red') + geom_text(data = topfive, label = topfive$title, nudge_x = 200, nudge_y = 200)
+Avatar
+Titanic
+Harry Potter and the Deathly Hallows: Part 2
+Iron Man 3
+The Lord of the Rings: The Return of the King
+0
+1000
+2000
+3000
+0 250 500 750 1000 domgross
+intgross
+Add a regression line to any scatter plot with geom_smooth(method = 'lm')
+ggplot(data = bech_data, aes(x = domgross, y = intgross)) + geom_point() + geom_smooth(method = 'lm')
+
+
+3.2. PLOTTING IN R 65
+0
+1000
+2000
+0 200 400 600 domgross
+intgross
+You can also display scatter plots by groups, distinguished by color or shape, as seen below. See if you can add a regression line to one of these plots.
+# Scatter plot by group
+plot1 <- ggplot(data = bech_data, aes(x = domgross, y = intgross, color = binary)) + geom_point()
+plot2 <- ggplot(data = bech_data, aes(x = domgross, y = intgross, shape = binary)) + geom_point()
+plot3 <- ggarrange(plot1, plot2, ncol=2)
+annotate_figure(plot3, top = text_grob("Difference Between Two Plots", color = "red", face = "bold", size = 14), bottom = text_grob("Data source: \n Bechdel data set", color = "blue", hjust = 1, x = 1, face = left = text_grob("Figure arranged using ggpubr", color = "blue", rot = 90), fig.lab = "Figure 1
+
+
+66 CHAPTER 3. DATA VISUALIZATION
+0
+1000
+2000
+0 200 400 600 domgross
+intgross
+binary
+FAIL
+PASS
+0
+1000
+2000
+0 200 400 600 domgross
+intgross
+binary
+FAIL
+PASS
+Difference Between Two Plots
+Data source: Bechdel data set
+Figure arranged using ggpubr
+Figure 1
+You can also add rugs, or lines across the x-axis that are tied to single points of data, to the plot using geom_rug()
+# Add rugs to scatter plot
+ggplot(data = bech_data, aes(x = domgross, y = intgross, color = binary)) + geom_point() + geom_rug()
+
+
+3.3. CASE STUDY 67
+0
+1000
+2000
+0 200 400 600 domgross
+intgross
+binary
+FAIL
+PASS
+ggedit() allows you to create plots with an interface for editing aspects of each layer.
+#install.packages('ggedit') library(ggedit) p <- ggplot(data = bech_data, aes(x = domgross, y = intgross, color = binary)) + geom_point() ggedit(p)
+3.3 Case Study
+This case study was derived from a real-life data visualization problem. The resulting visualizations were eventually published in an academic journal. This case study does not exemplify how to make the “right” choices for data visualization, but is written to demonstrate how data visualizations can drive and change a research process. With this in mind, it is beneficial for the R user to be consistently interpreting their findings visually.
+A researcher was conducting a content analysis where they found 10 themes in a text-based corpus. The researcher has quantified the number of topics across fourteen years (1958-1972), and needed to find an effective way to present this information for potential publication.
+If you are following along in R, install the necessary packages for this case study.
+
+
+68 CHAPTER 3. DATA VISUALIZATION
+#install.packages('gifski') #install.packages('gganimate') #install.packages('transformr') #install.packages('janitor') #install.packages('stringr') #install.packages('forcats') #install.packages('lubridate') #install.packages('ggrepel')
+Then load the libraries and dataset. This dataset is available at https://osf. io/6jb9t/ under the Data Visualization folder. The dataset includes three columns—a topic name designation, a year between 1958 and 1972, and the number of times that topic occurred in that year.
+library(stringr) library(gganimate) library(gifski) library(transformr) library(janitor) library(lubridate) library(ggrepel)
+global <- read_csv("globalperyear.csv")
+The researcher had a meeting with coauthors, where it was decided to change the names of six of the ten topics. The grepl package function, str_replace_all() was used to update each instance of the incorrect topic labels in the appropriate column.
+global$global_topics <- str_replace_all(global$global_topics, 'Themes', 'Development') global$global_topics <- str_replace_all(global$global_topics, 'Stories in music', 'Phil global$global_topics <- str_replace_all(global$global_topics, 'Musical choices', 'Orche global$global_topics <- str_replace_all(global$global_topics, 'Musical heritage', 'Heri global$global_topics <- str_replace_all(global$global_topics, 'Young people in music hi global$global_topics <- str_replace_all(global$global_topics, 'The show', 'The Show')
+Since the visualization presenting the counts of topics over time, the researcher tries a line graph to display the topics.
+ggplot(global, aes(x = year, y = count, color = global_topics)) + geom_line() + labs( title = paste("Global Topics") )
+
+
+3.3. CASE STUDY 69
+5
+10
+15
+20
+1960 1964 1968 1972 year
+count
+global_topics
+Breaking the rules
+Development
+Endings
+Good vs. Evil
+Heritage
+Music and space
+Orchestration
+Philosophy
+The Show
+Young People
+Global Topics
+This plot was chaotic and difficult to read, so the researcher tried the geom_smooth() function as an additional layer. Set the se argument to FALSE to avoid extra noise in the plot. FYI, the se argument, when true, plots the standard error of each smoothed distribution, which in this case tended to be quite large.
+ggplot(global, aes(x = year, y = count, color = global_topics)) + geom_smooth(se = FALSE) + labs(title = paste("Global Topics") )
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+
+
+70 CHAPTER 3. DATA VISUALIZATION
+5
+10
+1960 1964 1968 1972 year
+count
+global_topics
+Breaking the rules
+Development
+Endings
+Good vs. Evil
+Heritage
+Music and space
+Orchestration
+Philosophy
+The Show
+Young People
+Global Topics
+This output was still a bit chaotic, so the researcher decided to present ten small plots in one figure instead of one large plot. A new dataset needs to be created for each small plot, which is done using the filter() function.
+rules <- global %>% filter(global_topics == "Breaking the rules") development <- global %>% filter(global_topics == "Development") show <- global %>% filter(global_topics == "The Show") space <- global %>% filter(global_topics == "Music and space") philosophy <- global %>% filter(global_topics == "Philosophy") goodvsevil <- global %>% filter(global_topics == "Good vs. Evil") endings <- global %>% filter(global_topics == "Endings") heritage <- global %>% filter(global_topics == "Heritage") young <- global %>% filter(global_topics == "Young People") Orchestration <- global %>% filter(global_topics == "Orchestration")
+
+
+3.3. CASE STUDY 71
+Ten small plots were created, each calling the unique datasets. The coord_cartesian() layer was also added. This function sets a limit to the x and y-axes (in this case the limit was 0, 20). This layer allowed for the plots to be framed without additional white space.
+rulesplot <- ggplot(rules, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Breaking the Rules") )
+developmentplot <- ggplot(development, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Development") )
+showplot <- ggplot(show, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("The Show") )
+spaceplot <- ggplot(space, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Music and Space") )
+philosophyplot <- ggplot(philosophy, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Philosophy") )
+goodvsevilplot <- ggplot(goodvsevil, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Good vs. Evil") )
+
+
+72 CHAPTER 3. DATA VISUALIZATION
+endingsplot <- ggplot(endings, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Endings") )
+heritageplot <- ggplot(heritage, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Heritage") )
+youngplot <- ggplot(young, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Young People") )
+orchestrationplot <- ggplot(Orchestration, aes(x = year, y = count)) + geom_smooth(aes(), se = TRUE) + coord_cartesian(ylim = c(0, 20)) + labs( title = paste("Orchestration") )
+Then, the researcher used the ggarrange() function to display each of the plots together at once.
+ggarrange(developmentplot, goodvsevilplot, orchestrationplot, youngplot, rulesplot, sho
+
+
+3.3. CASE STUDY 73
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Development
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Good vs. Evil
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Orchestration
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Young People
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Breaking the Rules
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+The Show
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Endings
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Heritage
+0
+5
+10
+15
+20
+1960196419681972 year
+count
+Philosophy
+0
+5
+10
+15
+20
+1960 1964 1968 1972 year
+count
+Music and Space
+There was an opportunity to publish a digital file that includes animated data along with the manuscript. The researcher then used the following code to create an animated gif using the same dataset. The last two lines of code are commented out as they would not render in this document, but you can try it for yourself with the same code.
+#install.packages('plotly') library(plotly)
+## ## Attaching package: 'plotly'
+## The following object is masked from 'package:sentimentr': ## ## highlight
+## The following object is masked from 'package:ggplot2': ## ## last_plot
+## The following object is masked from 'package:stats': ## ## filter
+
+
+74 CHAPTER 3. DATA VISUALIZATION
+## The following object is masked from 'package:graphics': ## ## layout
+p <- global %>% arrange(count) %>% mutate(topics = factor(global_topics, levels=c("The Show", "Young People", "Music and ggplot(global, mapping = aes(x = topics, y = count)) + geom_histogram(stat = 'identity', aes(fill = topics)) + coord_flip() + labs(title = 'Year: {frame_time}', x = 'Global Categories', y = "Category Mentions", caption="Global Categories: Trends Over Time") + transition_time(year) + ease_aes('linear')
+#animate(p, nframes = 600, fps = 24, width = 600, height = 400, end_pause = 30) #p
+3.4 Review
+In this chapter we reviewed some common data visualizations and practices for creating several visualizations in R. For more examples, check out ggplot’s gallery for fantastic and inspiring visualizations at this link: [<https://exts.ggplot2.tidyverse.org/gallery>](https://exts.ggplot2.tidyverse.org/gallery/). To make sure you understand this material, there is a practice assessment to go along with this chapter at https://jayholster.shinyapps.io/ DataVisualizationAssessment/
+3.5 References
+Firke, S. (2021) janitor. https://cran.r-project.org/web/packages/janitor/ index.html
+Grolemund, G., & Wickham, H. (2011). Dates and times made easy with lubridate. Journal of Statistical Software, 40(3), 1–25. https://www.jstatsoft.org/ v40/i03/.
+Holster, J. D. (2022) Music’s Monarch Speaks: A Content Analysis of Leonard Bernstein’s Young People’s Concerts, Qualitative Research in Music Education, 4(1), 62–104. https://vpa.uncg.edu/wp-content/uploads/2022/02/QRME-v4i1-R2.pdf
+
+
+3.5. REFERENCES 75
+Iturbide, M., Bedia, S., Herrera, J., Baño-Medina, J. Fernández, M.D., Frías, R. Manzanas, D., San-Martín, E., Cimadevilla, A.S., Cofiño, A.S., & Gutiérrez, J.M (2019) The R-based climate4R open framework for reproducible climate data access and post-processing. Environmental Modelling & Software, 111, 4254. https://[doi.org](https://%5Bdoi.org){.uri} /10.1016/j.envsoft.2018.09.009
+Kassambara, A., (2020). ggpubr. https://cran.r-project.org/web/packages/ ggpubr/index.html
+Kim A.Y., Ismay C., & Chunn, J. (2018). “The fivethirtyeight R Package: ‘Tame Data’ Principles for Introductory Statistics and Data Science Courses.” Technology Innovations in Statistics Education, 11. <https://escholarship.org/uc/item/0rx1231m>
+Lyttle I (2021). vembedr: Embed Video in HTML. R package version 0.1.5, https://github.com/ijlyttle/vembedr.
+Mindard, C. J. (1869). Napolean’s disastrous Russian campaign of 1812. https: //www.masswerk.at/minard/
+Mullen, Z., Wiens, A., Vance, E., & Lovejoy, H. (n.d.) Understanding the African diaspora: Modeling the fall of the Oyo empire. https://www.colorado. edu/lab/lisa/
+Patil, I. (2021). Visualizations with statistical details: The ‘ggstatsplot’ approach. Journal of Open Source Software, 6(61), 3167. [https://doi.org/[10.21105/joss.03167](https://doi.org/[10.2110
+Revelle, W. (2017) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, <https://CRAN.Rproject.org/package=psych> Version = 1.7.8.
+Ooms, J. (2022). gifski. https://cran.r-project.org/web/packages/gifski/index. html
+Pederson, T. L. (2020). gganimate. https://cran.r-project.org/web/packages/ gganimate/gganimate.pdf
+Sievert, C. (2020). Interactive Web-Based Data Visualization with R, plotly, and shiny. Chapman and Hall/CRC. ISBN 9781138331457, <https://plotlyr.com>.
+Sidi, J. (2020). ggedit. https://cran.rstudio.com/web/packages/ggedit/index. html
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.L., Miller, E., Bache, S.M., Müller, K., Ooms, J., Robinson, D., Seidel, D.P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., & Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https: //doi.org/10.21105/joss.01686.
+
+
+76 CHAPTER 3. DATA VISUALIZATION
+3.5.1 R Short Course Series
+Video lectures of each guidebook chapter can be found at https://osf.io/6jb9t/. For this chapter, find the follow the folder path Data visualization in R -> AY 2021-2022 Spring and access the video files, r markdown documents, and other materials for each short course.
+3.5.2 Acknowledgements
+This guidebook was created with support from the Center for Research Data and Digital Scholarship and the Laboratory for Interdisciplinary Statistical Analaysis at the University of Colorado Boulder, as well as the U.S. Agency for International Development under cooperative agreement #7200AA18CA00022. Individuals who contributed to materials related to this project include Jacob Holster, Eric Vance, Michael Ramsey, Nicholas Varberg, and Nickoal EichmannKalwara.
+
+
+Chapter 4
+Foundations of Statistical
+Analysis
+Quantitative methods suggest that rules of probability can determine whether observed differences within or between groups in a sample represents a real difference in a population. These differences are communicated in terms of statistics, which are essentially numbers that describe characteristics of data. These characteristics are measured, described, compared, and modeled in varied ways. However, all statistical analysis share a similar aim—to make meaning from quantitative data or to explain some observed phenomena (e.g, current status of a variable, relationships between variables, effects between variables).
+As statistical analysis is embedded in the scientific method, the R user might consider the research process at large before interacting with R. When analyzing data it is helpful to hold a genuine desire to understand a topic, be aware of and control your biases, resist simplistic or convenient explanations for relationships, and employ systematic peer-reviewed methods. When asking and investigating research questions, it is suggested to set aside your personal beliefs and experiences regarding the data. Additionally, be willing to adopt rational perspectives on your data while suspending disbelief about findings that are contrary to your expectations or beliefs.
+In this and the following chapter, you will be guided through methods that will support many types of statistical analyses. For instance, you will learn how to determine the prevalence of a phenomenon, explore underlying factors, test interventions, test group differences, and explore multivariate approaches to statistical analysis.
+77
+
+
+78 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+4.1 Descriptive Statistics
+Descriptive statistics provide a (for lack of a better term) description of what is observed in collected data—whereby measures of centrality and variability are our main tools for understanding. These are oftentimes referred to as summary statistics. We use descriptive statistics to assess the characteristics of participants, which supports the ability to make statements regarding make the generalizability of the sample to the overall population or other context.
+Measures of central tendency are used to describe data with a single number. For instance, the mean represents the average of all of each of the individual data within a set.
+mean(mtcars$mpg)
+## [1] 20.09062
+The median describes the point at which 50% of cases in a distribution fall below and 50% fall above.
+median(mtcars$mpg)
+## [1] 19.2
+Variability is the amount of spread or dispersion in a set of scores. Knowing the extent to which data varies allows researchers to compare groups within data effectively and accurately.
+Assessments of variability provide a representation of the amount of dispersion within a distribution from a measure of central tendency. For instance, range displays the lowest and highest score in a vector.
+range(mtcars$mpg)
+## [1] 10.4 33.9
+Standard deviation represents the average score deviation from the mean.
+sd(mtcars$mpg)
+## [1] 6.026948
+Variance is the square of the standard deviation.
+
+
+4.1. DESCRIPTIVE STATISTICS 79
+var(mtcars$mpg)
+## [1] 36.3241
+In reference to the distribution of the data, standard deviations tell us where scores generally fall. SD is often reported alongside the mean (e.g., M = 7, SD = 1.5). With these numbers, we can ascertain that 68% of scores will fall between 5.5 and 8.5, and 95% of scores fall between 4 and 10. Furthermore, we can ascertain with a normal distribution that about 99% of scores might fall between 2.5 and 12.5.
+These association between means, standard deviations, and normal distributions parameterize the probability of future observations on a similar measure. Many of the most common statistical tests we use are conceived of assuming this parametric concept—rationalizing the assumption that observations will be normally distributed.
+As exemplified above, data that meet this assumption tend to have around 68% of data points falling between +-1 standard deviation of the mean, and 95% of data falling between +-2 standard deviations of the mean. Furthermore, normality tends to be met when the distribution curve is peaked at the mean and has only one mode. Additionally, the curve in a normal distribution should be symmetrical on both sides of the mean, median, and mode while having asymptotic tails (tails curve but do not approach the axis; no 100s or zeros).
+
+
+80 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+A distribution is skewed, or has skewness, positively or negatively when there is longer tail on one of the distribution. A longer tail on the right tends to indicate a smaller number of data points at the higher end of the distribution—a positive skew. A shorter tail on the right indicates a larger number of data points on the high end of the distribution—a negative skew.
+One helpful rule of thumb is that if the mean is greater than the median the distribution likely has a positive skew. Conversely, if the mean is less than the median, the distribution likely has a negative skew. See the figure below for an illustration of each distribution.
+The smaller the standard deviation and variance, the higher the level of agreement, or similarity, in response or scores. When agreement or similarity in scores is very high a distribution may be leptokurtic—having low variance (i.e., small standard deviations). When scores are very broad high variance may create a platykurtic distribution. These are represented within the concept of kurtosis. Kurtosis will be assessed alongside skewness in a few paragraphs.
+
+
+4.1. DESCRIPTIVE STATISTICS 81
+There are several ways to assess for the assumption of normality. Some researchers prefer to visually assess histograms. Some like to compare means and medians within the context of standard deviations. The most reliable, and mathematically-based, may be a Shapiro-Wilk test. A non-significant ShapiroWilk outcome will provide support of a normal distribution as test significance can be practically interpreted to suggest that the distribution is significantly different than a vector that is normally distributed. For instance, as the p value exceeds .05 when applied to the mtcars mpg column the miles per gallon variable can be interpreted as normally distributed across the vector. Use the function shapiro.test()
+shapiro.test(mtcars$mpg)
+## ## Shapiro-Wilk normality test ## ## data: mtcars$mpg ## W = 0.94756, p-value = 0.1229
+You can also examine the influence of kurtosis and skewness values using the psych::describe() function. Interpretations of skewness and kurtosis values differ from field to field, but generally you can assume a normal distribution if these values fall within -3 and +3.
+psych::describe(mtcars$mpg)
+## vars n mean sd median trimmed mad min max range skew kurtosis se ## X1 1 32 20.09 6.03 19.2 19.7 5.41 10.4 33.9 23.5 0.61 -0.37 1.07
+
+
+82 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+4.1.1 Case Study Part One
+We are going to utilize the mtcars dataset to apply descriptive statistical concepts using R. The dataset includes information regarding fuel consumption and 10 other aspects of automobile design and performance across 32 automobiles.
+Put otherwise, mtcars is a data frame with 32 observations of 11 (numeric) variables. These include:
+• Miles/(US) gallon (mpg)
+• Number of cylinders (cyl)
+• Displacement (disp)
+• Gross horsepower (hp)
+• Rear axle ratio (drat)
+• Weight in 1000 lbs (wt)
+• 1/4 mile time (qsec)
+• Engine (0 = V-shaped, 1 = straight) (vs)
+• Transmission (0 = automatic, 1 = manual) (am)
+• Number of forward gears (gear)
+• Number of carburetors (carb)
+First, load the tidyverse library and examine the dataset.
+library(tidyverse, quiet = T)
+data(mtcars) # bring mtcars dataset into environment str(mtcars) #use the str() function to examine the structure of the data frame.
+## 'data.frame': 32 obs. of 11 variables: ## $ mpg : num 21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ... ## $ cyl : num 6 6 4 6 8 6 8 4 4 6 ... ## $ disp: num 160 160 108 258 360 ... ## $ hp : num 110 110 93 110 175 105 245 62 95 123 ... ## $ drat: num 3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ... ## $ wt : num 2.62 2.88 2.32 3.21 3.44 ... ## $ qsec: num 16.5 17 18.6 19.4 17 ...
+
+
+4.1. DESCRIPTIVE STATISTICS 83
+## $ vs : num 0 0 1 1 0 1 0 1 1 1 ... ## $ am : num 1 1 1 0 0 0 0 0 0 0 ... ## $ gear: num 4 4 4 3 3 3 3 4 4 4 ... ## $ carb: num 4 4 1 1 2 1 4 2 2 4 ...
+Let’s do some dataset manipulation before diving into analysis. Remember our pipe operator %>%? It’s going to help us get rid of a column using the select() function, and create a new column using the mutate() function. You can read the following code as: “Assign new object mtcars as old dataset mtcars where everything but drat is selected. Then wt is divided by qsec using the mutate function to create a new column called wtqsec_ratio.”
+mtcars <- mtcars %>% select(-drat) %>% mutate(wtqsec_ratio = wt/qsec)
+When examining the structure of the data frame, note that the columns vs, am, cyl, gear, and carb are listed as numeric when in actuality they are factor/categorical variables. Use mutate() and as.ordered() to set numerical vectors as ordered factors. Then, use the recode() function to label each factor level with the appropriate string for engine type. Finally, reexamine the structure to see evidence of the updates.
+mtcars <- mtcars %>% mutate(cyl = as.ordered(cyl), gear = as.ordered(gear), carb = as.ordered(carb))
+mtcars <- mtcars %>% mutate(vs = recode_factor(vs, `0` = "v-shaped", `0.5` = 'v-shaped', `1` = "straight"), am = recode_factor(am, `0` = "automatic", `1` = "manual"))
+str(mtcars)
+## 'data.frame': 32 obs. of 11 variables: ## $ mpg : num 21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ... ## $ cyl : Ord.factor w/ 3 levels "4"<"6"<"8": 2 2 1 2 3 2 3 1 1 2 ... ## $ disp : num 160 160 108 258 360 ... ## $ hp : num 110 110 93 110 175 105 245 62 95 123 ... ## $ wt : num 2.62 2.88 2.32 3.21 3.44 ... ## $ qsec : num 16.5 17 18.6 19.4 17 ... ## $ vs : Factor w/ 2 levels "v-shaped","straight": 1 1 2 2 1 2 1 2 2 2 ... ## $ am : Factor w/ 2 levels "automatic","manual": 2 2 2 1 1 1 1 1 1 1 ... ## $ gear : Ord.factor w/ 3 levels "3"<"4"<"5": 2 2 2 1 1 1 1 2 2 2 ... ## $ carb : Ord.factor w/ 6 levels "1"<"2"<"3"<"4"<..: 4 4 1 1 2 1 4 2 2 4 ... ## $ wtqsec_ratio: num 0.159 0.169 0.125 0.165 0.202 ...
+Base R comes with a variety of functions for descriptive statistics, including mean, sd, var, min, max, median, range, and quantile. These can be used on
+
+
+84 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+specific variables in a data frame, or to all columns or rows in the data frame using the apply function. The X argument below represents the dataset or array to which functions will be applied. The 2 tells R to look at the columns, whereas 1 would indicate that a function would be applied to rows. The FUN argument calls the specific function to apply, and na.rm denotes whether missing data should be removed or not.
+apply(X = mtcars, MARGIN = 2, FUN = min, na.rm = TRUE)
+## mpg cyl disp hp wt qsec ## "10.4" "4" " 71.1" " 52" "1.513" "14.50" ## vs am gear carb wtqsec_ratio ## "straight" "automatic" "3" "1" "0.08720302"
+The psych library includes helpful descriptive statistics functions. Use psych’s describe() function to see the descriptive statistics we previously examined in one table.
+#install.packages('psych') library(psych) psych::describe(mtcars)
+## vars n mean sd median trimmed mad min max range ## mpg 1 32 20.09 6.03 19.20 19.70 5.41 10.40 33.90 23.50 ## cyl* 2 32 2.09 0.89 2.00 2.12 1.48 1.00 3.00 2.00 ## disp 3 32 230.72 123.94 196.30 222.52 140.48 71.10 472.00 400.90 ## hp 4 32 146.69 68.56 123.00 141.19 77.10 52.00 335.00 283.00 ## wt 5 32 3.22 0.98 3.33 3.15 0.77 1.51 5.42 3.91 ## qsec 6 32 17.85 1.79 17.71 17.83 1.42 14.50 22.90 8.40 ## vs* 7 32 1.44 0.50 1.00 1.42 0.00 1.00 2.00 1.00 ## am* 8 32 1.41 0.50 1.00 1.38 0.00 1.00 2.00 1.00 ## gear* 9 32 1.69 0.74 2.00 1.62 1.48 1.00 3.00 2.00 ## carb* 10 32 2.72 1.37 2.00 2.65 1.48 1.00 6.00 5.00 ## wtqsec_ratio 11 32 0.18 0.06 0.18 0.18 0.07 0.09 0.31 0.22 ## skew kurtosis se ## mpg 0.61 -0.37 1.07 ## cyl* -0.17 -1.76 0.16 ## disp 0.38 -1.21 21.91 ## hp 0.73 -0.14 12.12 ## wt 0.42 -0.02 0.17 ## qsec 0.37 0.34 0.32 ## vs* 0.24 -2.00 0.09 ## am* 0.36 -1.92 0.09 ## gear* 0.53 -1.07 0.13
+
+
+4.1. DESCRIPTIVE STATISTICS 85
+## carb* 0.35 -0.95 0.24 ## wtqsec_ratio 0.27 -0.70 0.01
+Use the psych function describeBy() and the argument group to see summary statistics grouped by any variable. The code below groups by transmission, where automatic = 0 and manual = 1). The use of double colons :: tells R to use the function from this specific package and not any other describeBy() function from packages other than psych.
+psych::describeBy(mtcars, group='am') # summary statistics by grouping variable
+## ## Descriptive statistics by group ## am: automatic ## vars n mean sd median trimmed mad min max range ## mpg 1 19 17.15 3.83 17.30 17.12 3.11 10.40 24.40 14.00 ## cyl* 2 19 2.47 0.77 3.00 2.53 0.00 1.00 3.00 2.00 ## disp 3 19 290.38 110.17 275.80 289.71 124.83 120.10 472.00 351.90 ## hp 4 19 160.26 53.91 175.00 161.06 77.10 62.00 245.00 183.00 ## wt 5 19 3.77 0.78 3.52 3.75 0.45 2.46 5.42 2.96 ## qsec 6 19 18.18 1.75 17.82 18.07 1.19 15.41 22.90 7.49 ## vs* 7 19 1.37 0.50 1.00 1.35 0.00 1.00 2.00 1.00 ## am* 8 19 1.00 0.00 1.00 1.00 0.00 1.00 1.00 0.00 ## gear* 9 19 1.21 0.42 1.00 1.18 0.00 1.00 2.00 1.00 ## carb* 10 19 2.74 1.15 3.00 2.76 1.48 1.00 4.00 3.00 ## wtqsec_ratio 11 19 0.21 0.05 0.21 0.21 0.04 0.12 0.31 0.18 ## skew kurtosis se ## mpg 0.01 -0.80 0.88 ## cyl* -0.95 -0.74 0.18 ## disp 0.05 -1.26 25.28 ## hp -0.01 -1.21 12.37 ## wt 0.98 0.14 0.18 ## qsec 0.85 0.55 0.40 ## vs* 0.50 -1.84 0.11 ## am* NaN NaN 0.00 ## gear* 1.31 -0.29 0.10 ## carb* -0.14 -1.57 0.26 ## wtqsec_ratio 0.38 -0.68 0.01 ## -----------------------------------------------------------## am: manual ## vars n mean sd median trimmed mad min max range ## mpg 1 13 24.39 6.17 22.80 24.38 6.67 15.00 33.90 18.90 ## cyl* 2 13 1.54 0.78 1.00 1.45 0.00 1.00 3.00 2.00 ## disp 3 13 143.53 87.20 120.30 131.25 58.86 71.10 351.00 279.90 ## hp 4 13 126.85 84.06 109.00 114.73 63.75 52.00 335.00 283.00
+
+
+86 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+## wt 5 13 2.41 0.62 2.32 2.39 0.68 1.51 3.57 2.06 ## qsec 6 13 17.36 1.79 17.02 17.39 2.34 14.50 19.90 5.40 ## vs* 7 13 1.54 0.52 2.00 1.55 0.00 1.00 2.00 1.00 ## am* 8 13 2.00 0.00 2.00 2.00 0.00 2.00 2.00 0.00 ## gear* 9 13 2.38 0.51 2.00 2.36 0.00 2.00 3.00 1.00 ## carb* 10 13 2.69 1.70 2.00 2.55 1.48 1.00 6.00 5.00 ## wtqsec_ratio 11 13 0.14 0.05 0.13 0.14 0.05 0.09 0.24 0.16 ## skew kurtosis se ## mpg 0.05 -1.46 1.71 ## cyl* 0.87 -0.90 0.22 ## disp 1.33 0.40 24.19 ## hp 1.36 0.56 23.31 ## wt 0.21 -1.17 0.17 ## qsec -0.23 -1.42 0.50 ## vs* -0.14 -2.13 0.14 ## am* NaN NaN 0.00 ## gear* 0.42 -1.96 0.14 ## carb* 0.54 -1.25 0.47 ## wtqsec_ratio 0.62 -0.90 0.01
+Analyze frequency or count data for various groups using the table() function. The first line of code will create a table of counts disaggregated by transmission type and number of gears. The second line of code modifies the mtcars object to be grouped by transmission and gear, then summarizes each into a proportion of the entire population of cars as column ‘prop’ The spread() function is used to display the data of interest based on established groups.
+table(mtcars$am, mtcars$gear)
+## ## 3 4 5 ## automatic 15 4 0 ## manual 0 8 5
+mtcars %>% group_by(am, gear) %>% summarise(prop = n()/nrow(mtcars)) %>% spread(gear, p
+## `summarise()` has grouped output by 'am'. You can override using the `.groups` ## argument.
+## # A tibble: 2 x 4 ## # Groups: am [2] ## am `3` `4` `5` ## <fct> <dbl> <dbl> <dbl> ## 1 automatic 0.469 0.125 NA ## 2 manual NA 0.25 0.156
+
+
+4.2. CORRELATIONAL STATISTICS 87
+4.2 Correlational Statistics
+Using contingency tables such as the first in the previous code chunk, we can run a Chi Square or Fisher’s exact test to see whether these categorical variables are independent. The null hypothesis for each of these tests is that there is no relationship between transmission type and the number of gears in a car. What do our results suggest?
+tb2 <- table(mtcars$am, mtcars$gear) chisq.test(tb2)
+## ## Pearson's Chi-squared test ## ## data: tb2 ## X-squared = 20.945, df = 2, p-value = 2.831e-05
+fisher.test(tb2)
+## ## Fisher's Exact Test for Count Data ## ## data: tb2 ## p-value = 2.13e-06 ## alternative hypothesis: two.sided
+Both tests indicate that the null hypothesis should be rejected, thus suggesting that there is a relationship between transmission type and the number of gears in a car. These tests are examples of correlational statistics, as they are measuring the association between two variables, or the extent to which they co-relate.
+4.2.1 How Correlation Works
+Correlation implies the desire to find a pattern or relationship between variables (e.g., What is the relationship between X and Y?). Correlation coefficients are returned as number between -1 and 1. This number tells us about the strength of the relationship between the two variables. Correlational analysis is commonly employed in survey studies as an additional analysis step beyond basic descriptive statistics.
+Correlational design refers to a type of study that has the appearance of an experiment (e.g., dependent and independent variables, interventions, and even random sampling), but lacks true causality. These designs are used when the
+
+
+88 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+manipulation of variables may not be possible or ethical (e.g., the effects of texting while driving; effect of homelessness on student achievement). Additionally, correlational research designs can be used as a precursor to an experiment (e.g., determining what variables are correlated with student effort before trying to conduct an experiment designed to improve student effort among adolescents).
+4.2.2 Correlation, not Causation?
+The maxim, “correlation does not imply causation” is frequently stated, but what does it mean? In essence, finding a correlation between two variables does not establish a causal relationship. To do this, we need to know the underlying directionality/ordering of the relationship and rule out confounding variables that might explain the relationship. For example, a strong positive correlation exists between total revenue generated by arcades and computer science doctorates awarded. However, one of these events did not not cause the other.
+4.2.3 Statistical Significance
+The concept of statistical significance reflects that our findings are likely not due to chance, and that if we reject a null hypothesis (I.e., find a significant difference), it is likely that the same difference will hold true for the entire population. Findings are either statistical or not, (at the alpha level you set .01, .05, .10). Nonsignificant results are just as informative as significant results.
+For instance, if you set your apriori alpha level to .05 for a correlation test that measures alignment of math and music performance scores and find a strong positive and significant correlation (r = .71, p = .03) there is only a 3% probability that the evidenced correlation is due to chance or some extreme, uncontrollable event. Put otherwise, the evidence for the correlation is larger than can reasonably be explained as a chance occurrence.
+4.2.4 Choosing the Right Test
+There are several different correlational approaches to use. See the table below for a breakdown of each correlational test and when to use it.
+
+
+4.2. CORRELATIONAL STATISTICS 89
+Test R Function When to use it
+Chi-S quare chisq.test()
+(a) when you have two categorical variables with two or more categories in each variable,
+(b) there is no relationship between subjects in each group,
+(c) variables are not paired,
+(d) frequencies exceed 5 in each cell (I.e., category/group.) Spear man’s Rho co r.test (method =
+"spearman") (a) when data one or both variables are ordinal,
+(b) or when data are continuous and fail to meet assumptions of Pearson’s r test
+Pear son’s R c or.test (method =
+"pearson") (a) when data are continuous,
+(b) normally distributed,
+(c) have minimal outliers (+3 SD from the mean),
+(d) relationships are linear
+
+
+90 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+4.2.5 Case Study Part Two
+To continue the original case study, create a plot of displacement and miles per gallon. There appears to be a moderate to strong negative correlation. Use the cor.test() base R function to see correlation coefficients and related statistical output. If your data require nonparametric analysis, use method = spearman to call Spearman’s Rho.
+ggplot(mtcars, aes(x = disp, y = mpg)) + geom_point()
+10
+15
+20
+25
+30
+35
+100 200 300 400 disp
+mpg
+cor.test(mtcars$disp, mtcars$mpg, method='pearson')
+## ## Pearson's product-moment correlation ## ## data: mtcars$disp and mtcars$mpg ## t = -8.7472, df = 30, p-value = 9.38e-10 ## alternative hypothesis: true correlation is not equal to 0 ## 95 percent confidence interval: ## -0.9233594 -0.7081376 ## sample estimates: ## cor ## -0.8475514
+
+
+4.2. CORRELATIONAL STATISTICS 91
+There was a negative strong significant correlation (r = -.85) between disp and mpg. Are wt. and qsec correlated?
+ggplot(mtcars, aes(x=wt, y=qsec)) + geom_point()
+16
+18
+20
+22
+2345 wt
+qsec
+cor.test(mtcars$wt, mtcars$qsec, method='pearson')
+## ## Pearson's product-moment correlation ## ## data: mtcars$wt and mtcars$qsec ## t = -0.97191, df = 30, p-value = 0.3389 ## alternative hypothesis: true correlation is not equal to 0 ## 95 percent confidence interval: ## -0.4933536 0.1852649 ## sample estimates: ## cor ## -0.1747159
+The p value is above .05 which indicates that we can retain the null hypothesis that there is no relationship between qsec and wt. Or as R puts it, the true correlation is equal to 0.
+
+
+92 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+Kendall rank correlation coefficient can also be called for nonparametric correlation when the assumptions of a test (e.g. sample size, normality, etc.) are violated.
+cor.test(x=mtcars$disp, y=mtcars$mpg, method='pearson')
+## ## Pearson's product-moment correlation ## ## data: mtcars$disp and mtcars$mpg ## t = -8.7472, df = 30, p-value = 9.38e-10 ## alternative hypothesis: true correlation is not equal to 0 ## 95 percent confidence interval: ## -0.9233594 -0.7081376 ## sample estimates: ## cor ## -0.8475514
+cor.test(x=mtcars$disp, y=mtcars$mpg, method="kendall")
+## Warning in cor.test.default(x = mtcars$disp, y = mtcars$mpg, method = ## "kendall"): Cannot compute exact p-value with ties
+## ## Kendall's rank correlation tau ## ## data: mtcars$disp and mtcars$mpg ## z = -6.1083, p-value = 1.007e-09 ## alternative hypothesis: true tau is not equal to 0 ## sample estimates: ## tau ## -0.7681311
+Kendall’s rank correlation can be interpreted exactly the same as Pearson’s correlation coefficient in terms of magnitude and valence. Kendall’s estimates, however, are often more conservative than Pearson’s (tau = -.77, r = -.85). Judging by either test, there is a significant strong negative correlation between engine volume (disp) and miles per gallon (mpg).
+4.3 Review
+In this chapter we introduced descriptive statistics, concepts underlying normality, and some correlational methods. To make sure you understand this material, there is a practice assessment to go along with this and the next chapter at https://jayholster.shinyapps.io/StatsinRAssessment/
+
+
+4.4. REFERENCES 93
+4.4 References
+Revelle, W. (2017) psych: Procedures for Personality and Psychological Research, Northwestern University, Evanston, Illinois, USA, <https://CRAN.Rproject.org/package=psych> Version = 1.7.8.
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.L., Miller, E., Bache, S.M., Müller, K., Ooms, J., Robinson, D., Seidel, D.P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., & Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https: //doi.org/10.21105/joss.01686.
+4.4.1 R Short Course Series
+Video lectures of each guidebook chapter can be found at https://osf.io/6jb9t/. For this chapter, find the follow the folder path Statistics in R -> AY 2021-2022 Spring and access the video files, r markdown documents, and other materials for each short course.
+4.4.2 Acknowledgements
+This guidebook was created with support from the Center for Research Data and Digital Scholarship and the Laboratory for Interdisciplinary Statistical Analaysis at the University of Colorado Boulder, as well as the U.S. Agency for International Development under cooperative agreement #7200AA18CA00022. Individuals who contributed to materials related to this project include Jacob Holster, Eric Vance, Michael Ramsey, Nicholas Varberg, and Nickoal EichmannKalwara.
+
+
+94 CHAPTER 4. FOUNDATIONS OF STATISTICAL ANALYSIS
+
+
+Chapter 5
+Exploring and Modeling
+Data
+The purpose of this chapter is to expose you to several options for meaningmaking with numbers beyond descriptive statistics. More specifically, you will be asked to apply your previous knowledge regarding descriptive statistics, data visualization, and data manipulation in the pursuit of the scientific method through statistical modeling.
+Many interesting research questions are addressed with descriptive statistics. For instance, the census might ask the question: How many people live in the United States?relationships between and within variables tend to provide answers to more nuanced research questions—for instance, what is the relationship between median household income and educational attainment, or even what are the most influential predictors of happiness.
+5.1 Quick Review
+First, let’s review some of the things we’ve learned in this text so far. To get started, install and/or load the following packages into R Studio.
+library(tidyverse) library(SDT) library(DataExplorer) library(psych) library(rstatix) library(olsrr) library(car)
+95
+
+
+96 CHAPTER 5. EXPLORING AND MODELING DATA
+We will be using a built-in dataset from the SDT package that contains information on learning motivation data based on Self Determination Theory. Call the dataset with the object name learning_motivation and assign it to the object data with the operator <-. See the code below.
+To get a quick look at many facets of a dataset in one line of code, try DataExplorer. DataExplorer includes an automated data exploration process for analytic tasks and predictive modeling. Simply run the function create_report() on a data frame to produce multiple plots and tables related to descriptive and correlation related analyses. Use the summary(), str(), and psych::describe() functions to examine and assess the variables in the dataset for normality
+For some more quick review, arrange the dataset by age in descending order. Then examine the first and last six rows of the dataset.
+data <- data %>% arrange(desc(age)) head(data)
+## sex age intrinsic identified introjected external ## 1 2 22 1.4 3.00 3.00 3.50 ## 2 1 19 4.6 2.75 3.50 2.25 ## 3 1 19 1.4 2.25 1.00 2.00 ## 4 2 19 3.0 3.50 3.75 4.00 ## 5 1 19 2.6 3.50 3.25 2.75 ## 6 1 19 4.8 4.25 1.75 1.50
+tail(data)
+## sex age intrinsic identified introjected external ## 1145 2 10 3.6 4.75 3.50 4.25 ## 1146 1 10 3.2 2.75 3.25 2.75 ## 1147 1 10 3.6 4.25 3.00 3.50 ## 1148 1 10 3.4 3.25 3.50 2.75 ## 1149 2 10 3.2 3.00 3.25 2.75 ## 1150 2 10 3.6 3.50 3.25 4.50
+Create a new column based on values from other columns without opening and saving the data file.
+data <- data %>% mutate(internalizedmotivation = intrinsic + identified) data <- data %>% mutate(internalizedmotivationlog = log10(intrinsic + identified)) head(data)
+## sex age intrinsic identified introjected external internalizedmotivation
+
+
+5.1. QUICK REVIEW 97
+## 1 2 22 1.4 3.00 3.00 3.50 4.40 ## 2 1 19 4.6 2.75 3.50 2.25 7.35 ## 3 1 19 1.4 2.25 1.00 2.00 3.65 ## 4 2 19 3.0 3.50 3.75 4.00 6.50 ## 5 1 19 2.6 3.50 3.25 2.75 6.10 ## 6 1 19 4.8 4.25 1.75 1.50 9.05 ## internalizedmotivationlog ## 1 0.6434527 ## 2 0.8662873 ## 3 0.5622929 ## 4 0.8129134 ## 5 0.7853298 ## 6 0.9566486
+psych::describe(data)
+## vars n mean sd median trimmed mad min max ## sex 1 1150 1.50 0.50 1.00 1.50 0.00 1.0 2 ## age 2 1150 14.09 1.85 14.00 13.98 1.48 10.0 22 ## intrinsic 3 1150 3.13 1.09 3.20 3.15 1.19 1.0 5 ## identified 4 1150 3.29 1.01 3.25 3.34 1.11 1.0 5 ## introjected 5 1150 2.75 1.04 2.75 2.73 1.11 1.0 5 ## external 6 1150 2.94 0.94 3.00 2.95 1.11 1.0 5 ## internalizedmotivation 7 1150 6.42 1.80 6.55 6.47 1.82 2.0 10 ## internalizedmotivationlog 8 1150 0.79 0.14 0.82 0.80 0.12 0.3 1 ## range skew kurtosis se ## sex 1.0 0.01 -2.00 0.01 ## age 12.0 0.51 -0.04 0.05 ## intrinsic 4.0 -0.15 -0.75 0.03 ## identified 4.0 -0.39 -0.49 0.03 ## introjected 4.0 0.12 -0.80 0.03 ## external 4.0 -0.10 -0.49 0.03 ## internalizedmotivation 8.0 -0.27 -0.39 0.05 ## internalizedmotivationlog 0.7 -1.17 1.58 0.00
+Select rows of a data frame based on a certain condition. Use the dim()function to ascertain the dimensions of the resultant dataset. If 1 represents males and 2 represents females, how many males are 18 or older in the dataset?
+malesover18 <- data %>% filter(age >= 18, sex == 1) dim(malesover18)
+## [1] 34 8
+
+
+98 CHAPTER 5. EXPLORING AND MODELING DATA
+Select specific columns of a data frame using the select() function. Or select all columns except one using -column (e.g. select(-intrinsic))
+selected_data <- data %>% select(sex, age, intrinsic, external) head(selected_data)
+## sex age intrinsic external ## 1 2 22 1.4 3.50 ## 2 1 19 4.6 2.25 ## 3 1 19 1.4 2.00 ## 4 2 19 3.0 4.00 ## 5 1 19 2.6 2.75 ## 6 1 19 4.8 1.50
+Use transformations as an opportunity to label your data categorically.
+newdata <- data %>% mutate(preteen = age <= 12) head(newdata)
+## sex age intrinsic identified introjected external internalizedmotivation ## 1 2 22 1.4 3.00 3.00 3.50 4.40 ## 2 1 19 4.6 2.75 3.50 2.25 7.35 ## 3 1 19 1.4 2.25 1.00 2.00 3.65 ## 4 2 19 3.0 3.50 3.75 4.00 6.50 ## 5 1 19 2.6 3.50 3.25 2.75 6.10 ## 6 1 19 4.8 4.25 1.75 1.50 9.05 ## internalizedmotivationlog preteen ## 1 0.6434527 FALSE ## 2 0.8662873 FALSE ## 3 0.5622929 FALSE ## 4 0.8129134 FALSE ## 5 0.7853298 FALSE ## 6 0.9566486 FALSE
+Save your edited data frame to a .csv file.
+write_csv(data, "sdtedit.csv")
+5.2 Correlational Models
+Next we will review and explore correlational models, which were conceptually covered in detail in the previous chapter. Most correlation coefficients are
+
+
+5.2. CORRELATIONAL MODELS 99
+interpreted as a number between -1 and 1. This number tells us about the strength of the relationship between the two variables. Even if your final goal is regression or an inferential statistical test, correlations are useful to look at during exploratory data analysis before trying to fit a predictive model. Here are several correlation tasks using the Rstatix library.
+# Correlation test between two variables
+data %>% cor_test(age, intrinsic, method = "pearson")
+## # A tibble: 1 x 8 ## var1 var2 cor statistic p conf.low conf.high method ## <chr> <chr> <dbl> <dbl> <dbl> <dbl> <dbl> <chr> ## 1 age intrinsic -0.16 -5.61 0.0000000261 -0.219 -0.106 Pearson
+# Correlation of one variable against all
+data %>% cor_test(intrinsic, method = "pearson")
+## # A tibble: 7 x 8 ## var1 var2 cor statistic p conf.low conf.high method ## <chr> <chr> <dbl> <dbl> <dbl> <dbl> <dbl> <chr> ## 1 intrinsic sex 0.22 7.60 6.03e- 14 0.163 0.273 Pears~ ## 2 intrinsic age -0.16 -5.61 2.61e- 8 -0.219 -0.106 Pears~ ## 3 intrinsic identified 0.48 18.4 2.61e- 66 0.431 0.520 Pears~ ## 4 intrinsic introjected 0.29 10.4 2.41e- 24 0.240 0.346 Pears~ ## 5 intrinsic external -0.026 -0.881 3.78e- 1 -0.0837 0.0319 Pears~ ## 6 intrinsic internalizedmo~ 0.87 60.3 0 0.857 0.885 Pears~ ## 7 intrinsic internalizedmo~ 0.84 52.7 6.05e-309 0.824 0.857 Pears~
+# Pairwise correlation test between all variables data %>% cor_test(method = "pearson")
+## # A tibble: 64 x 8 ## var1 var2 cor statistic p conf.low conf.high method ## <chr> <chr> <dbl> <dbl> <dbl> <dbl> <dbl> <chr> ## 1 sex sex 1 Inf 0 1 1 Pears~ ## 2 sex age 0.027 0.899 3.69e- 1 -0.0313 0.0842 Pears~ ## 3 sex intrinsic 0.22 7.60 6.03e-14 0.163 0.273 Pears~ ## 4 sex identified 0.13 4.60 4.62e- 6 0.0774 0.191 Pears~ ## 5 sex introjected 0.039 1.33 1.82e- 1 -0.0185 0.0969 Pears~ ## 6 sex external 0.0094 0.317 7.51e- 1 -0.0485 0.0671 Pears~ ## 7 sex internalizedmotiva~ 0.21 7.19 1.13e-12 0.152 0.262 Pears~ ## 8 sex internalizedmotiva~ 0.2 6.96 5.78e-12 0.145 0.256 Pears~ ## 9 age sex 0.027 0.899 3.69e- 1 -0.0313 0.0842 Pears~ ## 10 age age 1 Inf 0 1 1 Pears~ ## # ... with 54 more rows
+
+
+100 CHAPTER 5. EXPLORING AND MODELING DATA
+# Compute correlation matrix cor.mat <- data %>% cor_mat() cor.mat
+## # A tibble: 8 x 9 ## rowname sex age intrinsic identified introjected external ## * <chr> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> ## 1 sex 1 0.027 0.22 0.13 0.039 0.0094 ## 2 age 0.027 1 -0.16 -0.16 -0.13 -0.074 ## 3 intrinsic 0.22 -0.16 1 0.48 0.29 -0.026 ## 4 identified 0.13 -0.16 0.48 1 0.46 0.29 ## 5 introjected 0.039 -0.13 0.29 0.46 1 0.5 ## 6 external 0.0094 -0.074 -0.026 0.29 0.5 1 ## 7 internalizedmotivation 0.21 -0.19 0.87 0.85 0.44 0.14 ## 8 internalizedmotivatio~ 0.2 -0.16 0.84 0.84 0.43 0.15 ## # ... with 2 more variables: internalizedmotivation <dbl>, ## # internalizedmotivationlog <dbl>
+# Show the significance levels cor.mat %>% cor_get_pval()
+## # A tibble: 8 x 9 ## rowname sex age intrinsic identified introjected external ## <chr> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> ## 1 sex 0 3.69e- 1 6.03e- 14 4.62e- 6 1.82e- 1 7.51e- 1 ## 2 age 3.69e- 1 0 2.61e- 8 2.16e- 8 5.05e- 6 1.2 e- 2 ## 3 intrinsic 6.03e-14 2.61e- 8 0 2.61e- 66 2.41e-24 3.78e- 1 ## 4 identified 4.62e- 6 2.16e- 8 2.61e- 66 0 1.26e-61 4.26e-23 ## 5 introjected 1.82e- 1 5.05e- 6 2.41e- 24 1.26e- 61 0 1.03e-73 ## 6 external 7.51e- 1 1.2 e- 2 3.78e- 1 4.26e- 23 1.03e-73 0 ## 7 internalizedmotiv~ 1.13e-12 7.54e-11 0 2.08e-316 2.47e-54 9.85e- 7 ## 8 internalizedmotiv~ 5.78e-12 3.57e- 8 6.05e-309 1.90e-300 6.78e-52 5.24e- 7 ## # ... with 2 more variables: internalizedmotivation <dbl>, ## # internalizedmotivationlog <dbl>
+# Replacing correlation coefficients by symbols cor.mat %>% cor_as_symbols() %>% pull_lower_triangle()
+## rowname sex age intrinsic identified introjected external ## 1 sex ## 2 age

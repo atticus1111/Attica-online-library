@@ -1,0 +1,211 @@
+SPECIAL ISSUE ARTICLE
+What is it that you say you do here? Advocating for the critical
+role of data scientists in research infrastructure
+Chasz Griego 1 | Nicky Agate 1 | Ana-Maria Iosif 2 | Amy M. Crisp 3
+1University Libraries, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA
+2Department of Public Health Sciences, University of California Davis, Davis, California, USA
+3Center for Data Solutions, University of Florida College of Medicine–Jacksonville, Jacksonville, Florida, USA
+Correspondence
+Amy M. Crisp, Center for Data Solutions, University of Florida College of MedicineJacksonville, 655 West 11th St., Suite 206, Jacksonville, FL 32209, USA. Email: amy.crisp@jax.ufl.edu
+Funding information
+National Institutes of Health, Grant/Award Number: P50MH106438; Alfred P. Sloan Foundation, Grant/Award Number: G-2022-1941
+Clinical and academic research continues to become more complex as our knowledge
+and technology advance. A substantial and growing number of specialists in biostatis
+tics, data science and library sciences are needed to support these research systems
+and promote high-calibre research. However, that support is often marginalized as
+optional rather than a fundamental component of research infrastructure. By building
+research infrastructure, an institution harnesses access to tools and support/service
+centres that host skilled experts who approach research with best practices in mind
+and domain-specific knowledge at hand. We outline the potential roles of data
+scientists and statisticians in research infrastructure and recommend guidelines for
+advocating for the institutional resources needed to support these roles in a sustain
+able and efficient manner for the long-term success of the institution. We provide
+these guidelines in terms of resource efficiency, monetary efficiency and long-term
+sustainability. We hope this work contributes to—and provides shared language for
+a conversation on a broader framework beyond metrics that can be used to advocate
+for needed resources.
+KEYWORDS
+collaboration, data scientists, research infrastructure, statistics, team science
+1 | RESEARCH INFRASTRUCTURE
+As knowledge and technology have continued to grow, the complexity of the research apparatus has grown with them. A great deal can be
+accomplished now, but the enormity of such a possibility may leave the individual researcher feeling alone without a life raft beyond the limits of
+their training. Fortunately, this growth has spurred the development and extension of various research professions, including those represented
+by the authors here: biostatistics, data science and library sciences. With some focused efforts, these fields can work synergistically to make the
+labyrinthine research system more manageable to a broader spectrum of investigators.
+Consider, though, the term ‘research enablement’, broadly defined as ‘the guidance, support, and education to allow campus researchers to
+do their research in an effective and appropriate manner’. This definition strongly supports our efforts and ambitions to successfully support
+statistics and data science in the university setting. However, we challenge the explicit use of the term ‘research enablement’, as it risks marginal
+izing and obfuscating the labour that is done to allow researchers to do their research effectively, appropriately and efficiently.
+Research ‘enablement’ becomes tricky when considering the individuals who offer said guidance, support and education. Are we enablers? In
+the sense of the colloquial use of the word, an enabler promotes or facilitates addictive, harmful or nefarious behaviours. Translating that back
+into the context of research, this enablement is possible. If the research was done poorly and did not follow best practices, any labour provided to
+assist with this research risks encouraging repeated behaviour, and everyone suffers as a result.
+Compared to an enabler of addictive behaviour who does not necessarily contribute to the origin of this behaviour—but instead lets it
+continue—a consultant who does the same is missing the objective of supporting effective and appropriate research. This can be even more
+difficult to avoid for those in staff roles who may not have the same oversight and inherent valuation of their work that faculty do
+Received: 30 March 2024 Revised: 25 May 2024 Accepted: 17 June 2024
+DOI: 10.1002/sta4.714
+Stat. 2024;13:e714. wileyonlinelibrary.com/journal/sta4 © 2024 John Wiley & Sons Ltd. 1 of 5 https://doi.org/10.1002/sta4.714
+
+
+(Devick et al., 2022; Sharp et al., 2016). Staff analysts are often expected to assist on every project brought to them with little consideration for
+their time, recognition or compensation, which can quickly lead to burnout and/or subpar work.
+In research computing (RC), dedicated RC facilitators, especially within the space of campus-supported research computing centres, serve as
+proactive and personalized guides and help researchers identify and apply computational approaches that result in the greatest impact on their
+projects (Michael & Maas, 2016). These facilitation practices significantly enhance the research computing business models by guiding the
+development of adaptive computing solutions. Unlike traditional, one-size-fits-all enterprise models that primarily serve researchers with the most
+prominent needs, these practices support a more tailored approach, addressing the diverse and evolving requirements of the entire research
+community, including non-traditional and would-be users in the social sciences, life sciences and humanities. The use of the term facilitator here
+seems more appropriate than enabler, but there is still a key distinction between the focused services offered by RC and the broader foundational
+guidance that can be accomplished by research and data professionals.
+These points suggest moving away from terms like research enablement and instead moving towards research infrastructure. This term
+simultaneously captures the need for sustainability, strength, expertise, collaboration and robustness but may require an overall cultural shift. This
+also emphasizes the point that research is collaborative and not casual. Research infrastructure harnesses access to tools and support/service
+centres that host skilled experts who approach research with best practices in mind and domain-specific experience at hand.
+In this paper, we will outline potential roles of data scientists and statisticians in research infrastructure, provide examples of different models
+of that infrastructure and recommend guidelines for advocating for the institutional resources needed to support these roles in a sustainable and
+efficient manner for long-term success of the institution.
+2 | RESEARCH INFRASTRUCTURE ACROSS THE INSTITUTION
+Research infrastructure aims to create an ‘energy-efficient’ institution where the level of labour supplied to research appropriately matches the
+desired quality and outcome. In the ideal case of a perfectly energy-efficient institution, all the labour and time devoted to a research project
+would directly contribute to the final product. While this scenario is nearly impossible, appropriate infrastructure can bring an institution closer to
+the realistic efficiency limit. This concept may seem easy to sell to the administration, but what often gets overlooked is the additive effects of a
+lack of efficiency and how those inefficiencies manifest. Even if a researcher is capable of a relatively simple analysis or a literature review, they
+will spend many excess hours accomplishing this compared to those trained in these areas. Those lost hours are expensive, especially in a clinical
+setting (Parker, 2000).
+Many institutions can improve efficiency through libraries, research cores, Biostatistics, Epidemiology and Research Design (BERD) cores and
+data and statistics consulting centres. These centralized units can employ numerous specialists across a broad spectrum of knowledge and experi
+ence surrounding discipline-specific tools and domain-specific practices. Among these specialists are data scientists, statisticians and librarians
+who are qualified and devoted to collaborating with researchers to simultaneously guide them towards best practices and respond to problems or
+questions specific to their area of expertise.
+However, the personnel who make up the research infrastructure cannot devote such an amount of effort effectively or efficiently if the
+larger system lacks sufficient resources and funding, ignores personnel needs or fails to properly promote services. Welty et al. (2013) point out
+the often-overlooked necessities of software subscriptions and administrative support required in units of a certain size. Several sources also
+discuss the support needed to continue to train statisticians and provide them with opportunities for professional development in the context of
+collaborative science (Griffith et al., 2022; Mazumdar et al., 2015; Mehta et al., 2022). Oliver et al. (2019) address the challenge library services
+face in successfully advertising the types of support offered, which naturally extends to statistical support centres.
+3 | BUILDING AND ENHANCING RESEARCH INFRASTRUCTURE
+Research infrastructure will vary across institutions based on the unit and type of institution. This particularly depends on the model of support.
+Among these are paid models where a statistician joins a research grant as a co-investigator. In this model, some percentage of the statistician's
+salary comes from the grant, and they will support the project in a range of approaches, from data cleaning and simple analyses to more compli
+cated time series analyses and Bayesian methods. High-level support (e.g. trial design, proposal development, advanced analyses) typically comes
+from a Ph.D.-level collaborator who additionally would supply highly informed opinions and recommendations for all stages of the research life
+cycle (Welty et al., 2013; Wild & Pfannkuch, 1999).
+Another paid model consists of support through hourly charges (Parker, 2000; Welty et al., 2013). This can be advantageous for small projects
+that only require specific support or lack external or grant funding. In these cases, however, the funding to pay for these charges must come from
+somewhere, and it must encompass all the support activities that are performed (e.g. meetings, data cleaning, analyses, data visualizations,
+2 of 5 GRIEGO ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.714 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+manuscript revisions, etc.). Many of these tasks tend to be overlooked by the researcher, who thinks they simply need assistance with an analysis.
+On top of all of this—and rarely encompassed by an hourly rate table—funding is needed to keep the lights on and cover administrative
+requirements.
+In contrast, there are unpaid models such as those often used for library support. In this model, librarians may offer direct support such as
+reference management, finding secondary data sources, developing data management and sharing plans and, though less frequent, research
+planning and registered reports. The research infrastructure from the libraries also includes indirect support through workshops, online guides and
+subscriptions to journals, databases and a variety of other tools or platforms. In these models, the institution funds the entire unit without
+expecting to recuperate those costs directly.
+While both models differ greatly—where libraries teach researchers ‘how to fish’ and paid consultants give researchers the ‘fish’—these
+specialists both serve in roles where they can teach researchers skills not provided elsewhere. In an academic health centre (AHC) setting, for
+example, residents and fellows are often not directly trained in how to do research by their mentors, but they are still required to do some form
+of ‘scholarly activity’. What that looks like can vary greatly, and not all physicians desire to continue engaging in research throughout their
+careers. However, this requirement was created for a reason. At a minimum, the physician should gain the ability to assess the quality and limita
+tions of published research in their field (Brearley et al., 2023; Enders et al., 2017). A consulting statistician can help provide this training as an
+inherent part of their services, but only if they are given the time, support and opportunity to do so. Accomplishing this requires bridging the gap
+between the expectations of general unpaid educational support and the reality of a unit operating within a paid model.
+Welty et al. (2013) discuss the advantages of a centralized statistics unit in terms of the distribution of resources between smaller projects
+and more extensive collaborations, as well as the continuity of knowledge, funding and training of junior analysts. Centralized units also reduce
+the risk of ‘siloing’, where isolated statisticians face a greater challenge to continuing their professional growth in an environment lacking access
+to workplace peers (Griffith et al., 2022). An additional hazard of siloing is the hyper-specialization of an individual who is only approached to
+work on a specific subset of projects. This can impact both their professional development and the likelihood of others approaching them for
+collaborations.
+However, there is an important distinction between a ‘silo’ and a ‘swim lane’. Respecting one's skills and authority allows one to perform at
+peak capacity. We would not ask a surgeon to let us handle the scalpel, but many physicians think that expertise is not needed for research and
+that they can do their own analyses. By excluding subject matter experts, there are no checks and balances to ensure the validity of assumptions
+and whether the techniques they have learned previously remain applicable in a new paradigm. Furthermore, outside experts can offer equipoise,
+because they are detached from the personal interest and investment often felt by the researcher.
+While many data scientists have a sense for all these concepts, finding the language needed to lobby their institution for these necessary
+investments can be challenging. We provide here a succinct list of the points made above for reference.
+1. Time is money: While funds do have to be allocated to invest in these resources, it is critical to remember that much of the return on invest
+ment comes in the form of recuperated time for clinical/academic professionals.
+2. Centralization creates efficiency: Sharing resources reduces logistic and financial burdens. This applies to the entirety of the research
+infrastructure.
+3. Research is an educational opportunity: It wastes resources to ignore the value of early career professionals learning directly from the myriad
+of subject matter experts available at their institution.
+4. Data science is more complicated than you think and is also incredibly valuable: There is no shortage of references for this, but the 2018
+position paper from the American Statistical Association, ‘Overview of Statistics as a Scientific Discipline and Practical Implications for the
+Evaluation of Faculty Excellence’ (American Statistical Association, 2018), is a great place to start.
+5. Sustainability is critical: All the above points are pieces of the sustainability puzzle, and sustainability is key to success, no matter what your
+definition of success is. Without sustainability, an organization will end up back where it started, but with less time and money.
+4 | DISCUSSION
+While there is a great need for value metrics for data science professionals across the spectrum of faculty and staff job descriptions, we cannot
+rely solely on measurements to make much-needed changes in academic culture. Furthermore, we must actively avoid the trap of valuing what
+we measure instead of measuring what we value. There must be a broader framework to create context for the metrics we use to advocate for
+the resources we need, and there must be clear and consistent language that communicates that framework across disciplines.
+This advocacy does not just belong to the data scientist but also the research software engineer (RSE), a role that is equally new and unique
+to academia. Like a data scientist or statistician, an RSE can offer a quick consultation for a project—more specifically, one that is developing or
+utilizing research software—or an RSE can become more embedded and integral to study design, implementing research processes and teaching
+GRIEGO ET AL. 3 of 5
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.714 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+best practices (Jay et al., 2017; Katz et al., 2019). Guidance towards hiring and retaining data scientists and RSEs shows parallel solutions to create
+success for both non-traditional academic professions (Van Tuyl, 2023).
+We have provided a broad overview of some common ways of integrating data scientists and statisticians into the larger academic research
+domain to give context to the points made above. This overview is by no means exhaustive, and none of the examples provided here are intended
+to be a one-size-fits-most solution. For example, the points made here will have limited applicability to isolated or embedded faculty and staff.
+While their need for advocacy certainly exists, that conversation will likely look very different given their specific challenges. There are cases in
+which centralization is neither feasible nor desired, but there may still be ways for the embedded analyst to advocate for efficiency and sustain
+ability. We encourage the extension of these ideas to those scenarios. Further work also exists in the explicit linkage of value metrics to these
+concepts and in the need to measure and predict the sustainability of a unit.
+Sustainable research infrastructure requires an understanding of what success will look like for the institution upon hiring faculty and staff in
+these specialized roles, and at the same time, there must be an equal understanding of the employee's expectations for career success. Equal to
+the institutional accomplishment of offering specialized support and collaboration for researchers, these faculty and staff deserve the accomplish
+ment and motivation that come with identity and ownership in the roles they play in a project. Moreover, these do not need to be in competition
+with each other, so long as the organization is willing to prioritize long-term growth.
+Research is not a casual undertaking and should not be treated as such. We must actively fight against the encroaching idea that it is simply a
+box that must be checked for students and young professionals. One tool in this fight is to strive for efficient and sustainable research infrastruc
+ture so that the challenges and benefits are shared in a way that makes the inherent return on investment clear and easy to illustrate. The critical
+place of data science within that research infrastructure creates a unique opportunity to advocate for broader cultural change that paves the way
+for these advances in efficiency and sustainability.
+AUTHOR CONTRIBUTIONS
+Chasz Griego: Conceptualization; writing—original draft; writing—review and editing. Nicky Agate: Conceptualization. Ana-Maria Iosif:
+Conceptualization; writing—original draft; writing—review and editing. Amy M. Crisp: Conceptualization; writing—original draft; writing—review
+and editing.
+CONFLICT OF INTEREST STATEMENT
+The authors declare no conflicts of interest with the publication of this work.
+DATA AVAILABILITY STATEMENT
+No quantitative data were generated for this manuscript.
+ORCID
+Chasz Griego https://orcid.org/0000-0002-2051-7491
+Nicky Agate https://orcid.org/0000-0001-7624-3779
+Ana-Maria Iosif https://orcid.org/0000-0001-7283-2015
+Amy M. Crisp https://orcid.org/0000-0001-5103-6044
+REFERENCES
+American Statistical Association. (2018). Overview of statistics as a scientific discipline and practical implications for the evaluation of faculty excellence. Brearley, A. M., Rott, K. W., & Le, L. J. (2023). A biostatistical literacy course: Teaching medical and public health professionals to read and interpret statistics in the published literature. Journal of Statistics and Data Science Education, 31(3), 286–294. https://doi.org/10.1080/26939169.2023.2165987 Devick, K. L., Gunn, H. J., Price, L. L., Meinzen-Derr, J. K., Enders, F. T., Perkins, S. M., & Schulte, P. J. (2022). Collaborative biostatistics and epidemiology in academic medical centres: A survey to assess relationships with health researchers and ethical implications. Stat, 11(1), e481. https://doi.org/10.1002/ sta4.48 Enders, F. T., Lindsell, C. J., Welty, L. J., Benn, E. K., Perkins, S. M., Mayo, M. S., Rahbar, M. H., Kidwell, K. M., Thurston, S. W., Spratt, H., Grambow, S. C., Larson, J., Carter, R. E., Pollock, B. H., & Oster, R. A. (2017). Statistical competencies for medical research learners: What is fundamental? Journal of Clinical and Translational Science, 1(3), 146–152. https://doi.org/10.1017/cts.2016.31 Griffith, E. H., Sharp, J. L., Bridges, W. C., Craig, B. A., Hanford, K. J., & Stevens, J. R. (2022). The academic collaborative statistician: Research, training and evaluation. Stat, 11(1), e483. https://doi.org/10.1002/sta4.483 Jay, C., Haines, R., Vigo, M., Matentzoglu, N., Stevens, R., Boyle, J., Davies, A., Del Vescovo, C., Gruel, N., Le Blanc, A., Mawdsley, D., Mellor, D., Mikroyannidi, E., Rollins, R. P., Rowley, A., & Vega, J. (2017). Identifying the challenges of code/theory translation: Report from the code/theory 2017 workshop. Research Ideas & Outcomes, 3, e13236. https://doi.org/10.3897/rio.3.e13236 Katz, D.S., McHenry, K., Reinking, C., & Haines, R. (2019). Research software development & management in universities: Case studies from Manchester's RSDS group, Illinois' NCSA, and Notre Dame's CRC. 2019 IEEE/ACM 14th International Workshop on Software Engineering for Science (SE4Science) Montreal, QC, Canada, 17–24. https://doi.org/10.1109/SE4Science.2019.00009
+4 of 5 GRIEGO ET AL.
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.714 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Mazumdar, M., Messinger, S., Finkelstein, D. M., Goldberg, J. D., Lindsell, C. J., Morton, S. C., Pollock, B. H., Rahbar, M. H., Welty, L. J., & Parker, R. A. (2015). Evaluating academic scientists collaborating in team-based research: A proposed framework. Academic Medicine, 90(10), 1302–1308. https://doi.org/10.1097/ACM.0000000000000759 Mehta, C. C., Stedman, M. R., Rao, S. R., & Podolsky, R. (2022). Advice for isolated statisticians collaborating in academic healthcare centre settings. Stat, 11(1), e492. https://doi.org/10.1002/sta4.492 Michael, L., & Maas, B. (2016). Research computing facilitators: The missing human link in needs-based research cyberinfrastructure. Research bulletin. Louisville, CO: ECAR. Oliver, J. C., Kollen, C., Hickson, B., & Rios, F. (2019). Data science support at the academic library. Journal of Library Administration, 59(3), 241–257. https://doi.org/10.1080/01930826.2019.1583015 Parker, R. A. (2000). Estimating the value of an internal biostatistical consulting service. Statistics in Medicine, 19(16), 2131–2145. https://doi.org/10.1002/ 1097-0258(20000830)19:16<2131::AID-SIM510>3.0.CO;2-N Sharp, J. L., Wrenn, J., & Gerard, P. D. (2016). Identifying the perceived value of statistical consulting in a university setting. Journal of Statistical Theory and Practice, 10, 216–225. https://doi.org/10.1080/15598608.2015.1108254
+Van Tuyl, S. (Ed.). (2023). Hiring, managing, and retaining data scientists and research software engineers in academia: A career guidebook from ADSA and US-RSE. Zenodo. https://doi.org/10.5281/zenodo.8329337 Welty, L. J., Carter, R. E., Finkelstein, D. M., Harrell, F. E. Jr., Lindsell, C. J., Macaluso, M., Mazumdar, M., Nietert, P. J., Oster, R. A., Pollock, B. H., Roberson, P. K., & Ware, J. H. (2013). Strategies for developing biostatistics resources in an academic health center. Academic Medicine, 88(4), 454–460. https://doi.org/10.1097/ACM.0b013e31828578ed Wild, C. J., & Pfannkuch, M. (1999). Statistical thinking in empirical enquiry. International Statistical Review, 67(3), 223–248. https://doi.org/10.1111/j. 1751-5823.1999.tb00442.x
+AUTHOR BIOGRAPHIES
+Chasz Griego is a STEM librarian at the Carnegie Mellon University (CMU) Libraries, where he supports researchers, educators and students
+in the chemistry, chemical engineering and materials science and engineering departments. He also leads and supports Open Science teaching
+and research initiatives, particularly in the areas of reproducibility in computational research. He holds a PhD in Chemical Engineering from
+the University of Pittsburgh.
+Nicky Agate is Associate Dean for Academic Engagement at Carnegie Mellon University Libraries and co-PI on the HuMetricsHSS project, a
+role she has held since 2016. She has a PhD in French Literature and Culture from New York University and an MFA in Literary Translation
+from the University of Iowa. Her current research investigates (a) evolving metaliteracies and (b) the power of values-enacted interventions in
+academic decision-making and assessment practices.
+Ana-Maria Iosif is a professor of biostatistics in the Department of Public Health Sciences at the University of California–Davis. She is a
+member of several interdisciplinary research teams across the university's campus, and she leads the Biostatistics Core of the University of
+California–Davis Conte Center, funded by the National Institutes of Health.
+Amy M. Crisp is a collaborative biostatistician and the associate director of the Center for Data Solutions at the University of Florida College
+of Medicine–Jacksonville. She holds a PhD and an MS in Biostatistics from the University of Florida and an MS and a BS in Physics from
+Florida State University.
+How to cite this article: Griego, C., Agate, N., Iosif, A.-M., & Crisp, A. M. (2024). What is it that you say you do here? Advocating for the
+critical role of data scientists in research infrastructure. Stat, 13(3), e714. https://doi.org/10.1002/sta4.714
+GRIEGO ET AL. 5 of 5
+20491573, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/sta4.714 by University Of Colorado Boulder, Wiley Online Library on [19/11/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
